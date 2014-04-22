@@ -1,0 +1,2608 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="82c84c04-69f3-5454-901b-f2c38dd6f1d3" revision="12" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Empire" authorName="ArcticSnake" authorContact="arcticsnake@yahoo.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" name="FS Bounty Hunter" points="33.0" categoryId="4669726573707261792d333123232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="7046c6f1-2d2e-ee80-718e-93b300761dfc" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="0370df98-43e1-007c-92b3-7ad2d3a46bc2" name="Flavor Text - Bounty Hunter" hidden="true" page="0">
+              <description>“Originally intended as a prisoner transport, the Firespray patrol craft features a versatile weapons array and heavy armor plating.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="924bec6f-53a5-95e2-bad4-8ead681a7587" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="2abc5a80-dde8-d849-4992-99b0556287a3" targetId="eae80c36-ab08-0879-9474-2f3d1b070cb7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="b63e3214-193c-d6de-1117-abf3cc6260c8" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="ee7dba87-0e4f-05a8-7c3b-8dc4f0a36469" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="016d639d-f3ad-ef2a-1667-5aa2e73435de" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e0f8d86f-c2ef-eac3-1260-0b4c7e7403b4" profileTypeId="31536869707323232344415441232323" name="Bounty Hunter" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="3"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Bomb, Crew, Missile Weapon"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a3c43f9e-fb2e-304f-8097-51dedb4035f8" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" childId="eae80c36-ab08-0879-9474-2f3d1b070cb7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="bdeeab5f-06f4-68c3-ffa8-aab920ba0bbb" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="cea81401-472e-b429-c244-74047e19b3a4" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a565670d-49f1-09d3-c997-f274a5178610" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="34125ac9-02d8-6593-f2e1-539290e77e92" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="48d05f77-6569-8caa-0fd1-a787bfc816df" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="55f108e0-7576-5470-8cbe-b79f6663a5bb" name="FS •Boba Fett" points="39.0" categoryId="4669726573707261792d333123232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="aa243daf-4361-67aa-cbe0-66032118012f" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4679861a-2308-b2ee-d0ea-473d7ba32025" targetId="eae80c36-ab08-0879-9474-2f3d1b070cb7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="8cfe6ae6-eaab-6188-d703-fed689292963" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="fdf2d009-d245-c1dd-1095-16b8220f3569" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="904899dc-ee67-591e-bf92-1d435faa5c41" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="21fce4d2-0ad8-57ef-b459-ae423f0abbf7" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="441a93f8-eb6c-5b08-d365-44cfde2525b9" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Boba Fett" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When you reveal a bank maneuver ([Left Bank] or [Right Bank]), you may rotate your dial to the other bank maneuver of the same speed."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2719ddf2-ffd2-592d-72dd-7d193a830334" profileTypeId="31536869707323232344415441232323" name="•Boba Fett" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="8"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Cannon, Bomb, Crew, Missile Weapon"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="12804dce-0df3-d6be-d4c9-eea1a6b5ec0b" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="55f108e0-7576-5470-8cbe-b79f6663a5bb" childId="eae80c36-ab08-0879-9474-2f3d1b070cb7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="2022fc46-33a2-bbd0-bb08-ec35411f222e" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4d89ff58-555c-4291-ba7b-42303d5c507a" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="dcd37c77-690e-dedd-6d25-7c28377fef71" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="cfb78a68-5191-eb3d-e035-0cc13616b3c6" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="eb88966e-ed32-ffcf-6092-5e180c8f0a27" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="49631a86-208b-e648-f1b3-2c16670b706d" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="37328b3b-ecc8-bb91-8714-af59825dc9a0" name="FS •Kath Scarlet" points="38.0" categoryId="4669726573707261792d333123232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="caf4d45b-b920-9430-c103-2a55a8d9c842" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="91cfe12c-bca9-acd8-4ec4-f7f4a87a2ed5" targetId="eae80c36-ab08-0879-9474-2f3d1b070cb7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="d57e4129-1566-5fb2-d94a-d266fc0d8b4a" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="b74e1933-109c-878e-01ef-181504f64463" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="c80e1839-6e94-5cec-5c0f-3450e5d7f27c" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="903b2390-9677-6a14-3ede-0d24f20ac094" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b3a01db4-a8c5-eeab-f2e1-71d3a7d8032d" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Kath Scarlet" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking, the defender receives 1 stress token if he cancels at least 1 [Crit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="eb2ba977-a022-2f63-53fd-21d08319fe68" profileTypeId="31536869707323232344415441232323" name="•Kath Scarlet" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="7"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Cannon, Bomb, Crew, Missile Weapon"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0941b2a4-6ebe-8ff8-4782-933902dac8ff" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="37328b3b-ecc8-bb91-8714-af59825dc9a0" childId="eae80c36-ab08-0879-9474-2f3d1b070cb7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="725d30de-2579-acfa-8c8f-6cd757352fbf" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="43749146-2c95-6bfd-a5f9-9ec2d2a5fb3f" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6d0cc668-08cd-1539-05e9-720abb99d53a" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="773078e6-b26b-78b2-2721-8ea4dfd647c2" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="44b6d6d9-729e-2b86-3366-69cb8d624a8e" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="9466b45b-db31-d2d7-dd56-b5fbde515db7" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="874f40ae-d171-5f27-beac-794042fe1e39" name="FS •Krassis Trelix" points="36.0" categoryId="4669726573707261792d333123232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="71535bc9-0d52-3cd5-7c2c-8750d7493277" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="03880bca-5c55-fc26-5a3b-66fbd717b6c3" targetId="eae80c36-ab08-0879-9474-2f3d1b070cb7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="87101690-78a3-c3ab-dbc6-24d0c562bd1e" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="068ff2df-865f-601f-c0bc-3283dd48c669" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="470c0756-3c82-a7e9-ce3e-3e94bc315fc4" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="95f81b1d-2493-d566-1ad5-6c79312753f0" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="77a8e909-d33c-6fda-3d36-ecb9a5db97b7" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Krassis Trelix" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking with a secondary weapon, you may reroll 1 attack die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e6f6cec1-582f-d256-9aa3-fa658edd79ba" profileTypeId="31536869707323232344415441232323" name="•Krassis Trelix" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Bomb, Crew, Missile Weapon"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="eaebdde4-375c-1ac1-9aa4-ad331e02ce0e" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="874f40ae-d171-5f27-beac-794042fe1e39" childId="eae80c36-ab08-0879-9474-2f3d1b070cb7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="8aec358c-aea3-5640-6464-de88fb0f6e7a" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="131efb03-e028-2df2-a55f-5e9065f026e5" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="00ec0576-8e90-e151-12f0-45b6e35b3312" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="399c93fc-23b8-2a10-5eb7-25a89323b95d" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8121b808-713b-92f9-d033-eeecd65a2387" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="17ec93fb-d0ac-e06f-11e5-73cc448167c5" name="T/A Storm Squadron Pilot" points="23.0" categoryId="54494520416476616e63656423232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="3dd86af1-7004-d32a-7a2a-bb2e7f4be1ad" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="8ad9126d-40dc-8ca8-77e9-89886aa59c17" name="Flavor Text - Storm Squadron Pilot" hidden="true" page="0">
+              <description>“The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="ffee2b35-36e3-3495-85dc-207cafca84b0" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="a34076ee-fb27-b44b-642e-0f80975cf9d0" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="3515d286-b1e0-2d3a-2dfc-d84625b3d847" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="89ea1cce-d182-8a39-bc2e-4ed1c9c4e287" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="44abaabf-4ea1-fb43-bb65-1c59f86a792d" profileTypeId="31536869707323232344415441232323" name="Storm Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="4"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missile Weapon"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cbcb7ea4-e054-3ff5-eecc-61f5793e5ca1" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d8575a89-1233-c312-c839-954c4d41849b" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="49ac3d55-33f5-b7e7-e3ef-9310c3d3334c" name="T/A Tempest Squadron Pilot" points="21.0" categoryId="54494520416476616e63656423232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="6fb06776-a1d2-2532-310c-09e769bc21d3" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="0625d960-c29c-c598-9262-500471546fd5" name="Flavor Text - Tempest Squadron Pilot" hidden="true" page="0">
+              <description>“The TIE Advanced was produced in limited quantities, but later Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6c2406c4-9dc5-4baf-c7f8-216aec1ce49b" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="081e4904-bcce-54b7-66a5-30144c437d63" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="2c6f86e3-cb77-4720-ecf6-56766638aef7" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="16541ee7-b663-1ec0-b5c9-9b85fef67e65" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5048405e-3d33-713f-55e7-9df5f934a01c" profileTypeId="31536869707323232344415441232323" name="Tempest Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="2"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missile Weapon"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="39162de9-a905-91cc-cd68-87c6f4790db2" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="190f21a5-8d25-6873-25a5-286242281d5f" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="fe12f41d-e18f-e711-1a80-011d6eb0d680" name="T/A •Darth Vader" points="29.0" categoryId="54494520416476616e63656420783123232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="84a18d31-dc72-4c5b-e28a-df2c85570402" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="472bd387-16e6-48c5-03d8-1c51628fb596" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="5dca2948-a96e-35b0-33a5-f6858df9feff" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="1c409bcc-54fd-f3ec-ed8c-7153474f7509" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="e995a023-08d1-8059-c6f4-dd63e4d0392a" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6932e12f-62bf-98be-64e7-e2d5f1e3153f" profileTypeId="31536869707323232344415441232323" name="•Darth Vader" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="9"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missile Weapon"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5aab058c-1d75-81b0-cb11-2a00863846e1" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Darth Vader" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="During your &quot;Perform Action&quot; step, you may perform 2 actions."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b1de2521-a5a7-3e14-4db3-1cb370f1df66" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5818a1ce-452a-c04d-6d10-515ea1022651" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d8473045-3be7-4a0e-7fa6-c259484fb92b" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="81b309dc-ce71-d318-a1c8-816385739e61" name="T/A •Maarek Stele" points="27.0" categoryId="54494520416476616e63656423232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="92cb7f90-6ba5-1c57-e207-0f36c2f5bec9" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="dcdc1180-8c34-bdc9-f673-56e328f31134" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="876263b3-4859-ddb5-3b6a-a988c4f77ef9" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="a0038c3d-b457-b2a6-eb17-7d2c36400b3d" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="5855f57b-3021-56dc-a223-f02f628d27a9" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5d8156f7-0ab5-ed93-68e7-3c640dd929d3" profileTypeId="31536869707323232344415441232323" name="•Maarek Stele" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="7"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missile Weapon"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e62f9151-3bb1-f897-61e3-1d130ba7c719" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Maarek Stele" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When your attack deals a face up Damage card to the defender, instead draw 3 Damage cards, choose 1 to deal, and discard the others."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9b117da4-5c0c-f471-e559-5c8fc819d78e" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="e333c332-c5cf-722d-8b57-872dbbe99739" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="f7d000ad-94d3-58ea-3e13-a46d87776ddc" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="T/F Academy Pilot" points="12.0" categoryId="544945204669676874657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="d4f9eb18-f653-3da4-60bb-758d750601df" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="fd5045b0-8d55-6f6c-234d-67bcd788d16f" name="Flavor Text - Academy Pilot" hidden="true" page="0">
+              <description>“Developed by Sienar Fleet Systems, the Empire used the fast and agile TIE/ln as its primary starfighter throughout most of the Galactic Civil War.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="9037d9ff-9e7d-d175-a361-e6e84c1dfb89" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="f108192b-b84f-6a7f-1ee2-52b33a2f1c65" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="cd97ec60-d7e9-eb3a-5e29-ba7dfd7063ec" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b45cb4fd-9127-eaf4-aadf-4e6f5df2cd01" profileTypeId="31536869707323232344415441232323" name="Academy Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="1"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8663f4b9-4c27-059f-c1c6-e8145e5fa4e6" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d8633d64-2dce-a77c-b33a-60325036cfb5" name="T/F Black Squadron Pilot" points="14.0" categoryId="544945204669676874657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="a0486a66-6768-ea53-42a6-5a941fb6ea2a" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="23c1f067-68b8-4509-5b56-e38f59da339c" name="Flavor Text - Black Squadron Pilot" hidden="true" page="0">
+              <description>“The TIE fighter has no shields or life support systems, forcing TIE pilots to depend solely on their skills to survive.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="fecc241d-a600-793e-23eb-2436f457f667" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="2c3f4ac3-f079-dca9-1f09-1236c259eab1" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="50709d15-8c18-c7a9-7166-29b1760dd8ca" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8f2fed4c-9556-c231-6b47-3591987c4559" profileTypeId="31536869707323232344415441232323" name="Black Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="4"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1af3e2de-71ea-eee3-3a3d-3dfe84f8626c" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="916d430e-c389-2c8c-a2d5-4c722cc2f52f" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="21b3761e-475a-a73e-198f-a4ed3e1233f9" name="T/F Obsidian Squadron Pilot" points="13.0" categoryId="544945204669676874657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="495de7d9-4e5a-23b4-da96-8583b53e18e8" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="82f08af1-b3c5-de4e-12ce-5d7d7994b0f8" name="Flavor Text - Obsidian Squadron Pilot" hidden="true" page="0">
+              <description>“The TIE fighter&apos;s Twin Ion Engine system was designed for speed, making the TIE one of the most maneuverable starships ever produced.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f86857d6-7f46-34d5-31bc-820d0d479ed8" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="d38499f6-695c-4e81-64e9-3e127acf4511" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="5d2e21bb-0c1a-5f7c-298f-18cc63e5063b" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b94bebc1-2832-ea5a-3aa6-e53ad919b451" profileTypeId="31536869707323232344415441232323" name="Obsidian Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="3"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="47282457-19aa-6fbe-efeb-f7401694f514" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0f3aca6c-a51a-a41e-8558-ad15050dfdc5" name="T/F •&quot;Backstabber&quot;" points="16.0" categoryId="544945204669676874657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="44876c20-de0b-68ca-9b39-a8a59c1ac92f" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="b759901e-16b7-0c19-0c2f-00176d238753" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="c4eae1a9-e847-0006-f7fa-bf68fbfe2414" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="b33c476b-6f30-ce64-3fb5-7e4fec180e89" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="4af66955-3d71-c184-9b64-dee9a861c69d" profileTypeId="31536869707323232344415441232323" name="•&quot;Backstabber&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="6"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="93fcfe36-265f-8088-134b-879ebd6e6053" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Backstabber&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking from outside the defender&apos;s firing arc, roll 1 additional attack die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6a859819-065d-0003-d713-ebf4d35bf0ac" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="00ebc47e-0d7b-7469-a53d-84be06130f28" name="T/F •&quot;Dark Curse&quot;" points="16.0" categoryId="544945204669676874657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="d0ac3ef2-e31a-54ad-ada9-82ead1af4d40" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="4e34c74f-de4a-968d-defc-6fbdcd2e8c99" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="a055bd82-ed29-8d28-bab1-c228676f1240" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="735c54b4-c0e9-035e-1ac7-8cf8f0fa5c60" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2ce39985-44c9-6e62-e35d-fe2d418d8c03" profileTypeId="31536869707323232344415441232323" name="•&quot;Dark Curse&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="6"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e8c26a16-db7e-e7c5-f2d7-5dcea252c891" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Dark Curse&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When defending, ships attacking you cannot spend focus tokens or reroll attack dice."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b6c8c7bc-baf6-2f3e-8147-a1826b32303b" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6bc815d9-447b-22b9-1cec-7ef7736b7436" name="T/F •&quot;Howlrunner&quot;" points="18.0" categoryId="544945204669676874657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="057f2d8f-b65f-597d-1283-86b8fba083d3" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="98296968-78e1-9339-bff7-6c03581ee47d" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="23734e93-d216-263b-7e61-badb2bd9abe0" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="35c252b3-ad7f-e838-a74e-ee8ab886f507" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="246e8f24-c76a-8262-1316-0eeceb7665c5" profileTypeId="31536869707323232344415441232323" name="•&quot;Howlrunner&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="8"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="edf8107c-50e6-4622-c4d4-01316cdc8f5a" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Howlrunner&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When another friendly ship at Range 1 is attacking with its primary weapon, it may reroll 1 attack die. "/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="14ac755d-75d2-99e0-a66a-e514d7d25cb1" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="1010311c-f4f9-1e85-c56f-59f0e803b2cb" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ded5f73d-7b71-ca9f-7348-7e6dcebf1239" name="T/F •&quot;Mauler Mithel&quot;" points="17.0" categoryId="544945204669676874657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="986eaa9d-6c94-c5fa-5047-ae137dcfc20b" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="b20598cb-5011-8b22-91b9-84a7b9ff5153" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="95d1356b-1424-85c6-ab6a-e90d192bf460" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="b8b8984f-daed-c346-c9d7-4600433d4222" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="737eac7d-caa0-f878-4e77-32536a5d4f78" profileTypeId="31536869707323232344415441232323" name="•&quot;Mauler Mithel&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="7"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="3dc8900f-5280-8907-a8f7-faa397cd7302" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Mauler Mithel&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking at Range 1, roll 1 additional attack die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f17b63d2-0ee8-c675-7fd0-ff120d40cddf" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c5633865-b65d-3a27-7a68-1b732db1926f" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c79a6f0b-1f64-8381-ff26-caa3805fc470" name="T/F •&quot;Night Beast&quot;" points="15.0" categoryId="544945204669676874657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1eeb491b-a9a0-10ae-bc05-5f1a46db7d5f" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="e84e11ef-f99e-fda9-b264-f1d88bd781e0" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="74f4760d-6fa1-1976-adff-ec6a4994acf9" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="b29eb86f-308e-e92b-6407-dc6c0a5ee9a2" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="19ea88ed-2ffd-c6c0-ad68-17cf6f4127e3" profileTypeId="31536869707323232344415441232323" name="•&quot;Night Beast&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ef236984-932f-6019-da50-1471d75e68c9" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Night Beast&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="After executing a green maneuver, you may perform a free focus action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9a6b2b6b-f3a8-fd0b-fafd-d08673b9a64b" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8f46c106-d016-8c9f-0046-5c8c2162ea7f" name="T/F •&quot;Winged Gundark&quot;" points="15.0" categoryId="544945204669676874657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="ffb6ad99-d8d6-d14b-3014-859308faac29" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="c21d1034-63ac-addc-5841-190e284377cb" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="1756dc5c-a879-1aa7-b75d-92b7df9d46e3" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="a43aeea8-35fd-661c-cda6-c57a7a64d25e" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="a4e02dec-aedb-4591-4dfb-58910116e878" profileTypeId="31536869707323232344415441232323" name="•&quot;Winged Gundark&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="39b346f9-2a32-1dff-3434-500f7cbd44e2" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Winged Gundark&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking at Range 1, you may change 1 of your [Hit] results to a [Crit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="93665f6a-5a81-fa97-6aaf-3966acdb89d1" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8ab98c69-b87e-68ff-0f72-118f373a08c1" name="T/I Alpha Squadron Pilot" points="18.0" categoryId="54494520496e746572636570746f7223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="2918aa4e-7844-ed94-d610-a5c2930d1537" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="a0c86acb-5c78-cf86-8cb9-a510dbde9c0c" name="Flavor Text - Alpha Squadron Pilot" hidden="true" page="0">
+              <description>“Seiner Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, easily allowing it to outgun its predecessors.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="10598953-c6d2-cae9-bee6-5649b27162fb" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="fc9e06aa-8d7d-5a4f-f378-56c37c1a1c09" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="098697d7-310d-fd27-ffe2-a0b2090a52dd" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="420687bc-85df-aeb2-1f49-3e6275efbbd7" name="Boost" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="579e86e7-77a0-6e6e-bbcf-06ff13acd2bc" profileTypeId="31536869707323232344415441232323" name="Alpha Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="1"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f5edd622-f3be-3f8d-9231-e69cb40d1c70" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="73d4b279-2733-b539-d4d8-e6ac889e89f8" name="T/I Avenger Squadron Pilot" points="20.0" categoryId="54494520496e746572636570746f7223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="4657e8bc-4abf-6049-abe8-4a14484cb25c" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="014291ef-1f98-6ea2-5c84-1c61e3af8d64" name="Flavor Text - Avenger Squadron Pilot" hidden="true" page="0">
+              <description>“The finest mass-produced starfighter of its time, the TIE interceptor excels at dogfighting thanks to its heightened maneuverability and speed.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e063d1a5-e856-5841-444f-95faa410f8e4" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="21f7936b-5991-484c-63a2-8d53ed64944a" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="059d6823-b6e2-0bcd-61ef-a1d280b0248c" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="f9fce053-19de-2841-3234-2c72a6854b74" name="Boost" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f38720b9-120a-350c-4d37-ed296078cb18" profileTypeId="31536869707323232344415441232323" name="Avenger Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="3"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4652a9df-b953-36db-2f3b-ad76d89339ca" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3b59fd6a-0366-a503-ea6c-f4ed5a5f5095" name="T/I Saber Squadron Pilot" points="21.0" categoryId="54494520496e746572636570746f7223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="fecebeed-b8d9-117e-2e41-17d54ef8f10b" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="66095064-680d-95db-d091-d39e3bb602aa" name="Flavor Text - Saber Squadron Pilot" hidden="true" page="0">
+              <description>“Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire&apos;s best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7e2b1fe6-339e-18c6-eb60-7d4d87dadce4" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="ec21fce8-8143-bf0b-a195-19e6ef563c8f" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="3dc6c5e6-6a30-4e2a-64dc-661d037a005d" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="c69ce81d-f59d-3a36-bf0d-a31202a69aef" name="Boost" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1c28bb9d-378b-2c30-1e0a-a998f3b8e3e6" profileTypeId="31536869707323232344415441232323" name="Saber Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="4"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ad5da7f4-b552-d51f-f55b-bd01f0aaeee5" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="130a60ad-bc5c-0c58-d121-8a8789ce1456" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e353a1dd-9bd1-ea01-6fb1-c6162e539cf6" name="T/I •&quot;Fel&apos;s Wrath&quot;" points="23.0" categoryId="54494520496e746572636570746f7223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="79ead1e9-99d4-1ab5-a9ab-6d72a5693f79" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="6c0bddd6-caae-e9c5-9f70-6cd6b4279a98" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="c7905499-df5d-eb4c-16a7-7c7e856c230e" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="e659ed8c-4b73-1704-7791-2fe57ce20214" name="Boost" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="afead3d1-24c9-e688-125e-623d1691590e" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6052d1c8-d9ce-49c8-2747-66b7780e7d6a" profileTypeId="31536869707323232344415441232323" name="•&quot;Fel&apos;s Wrath&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="feb49567-5ed0-ed9c-60d7-181fe316351d" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Fel&apos;s Wrath&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When the number of Damage cards assigned to you equals or exceeds your hull value, you are not destroyed until the end of the Combat phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="dcf25d50-9281-a2ec-675c-51bb3831f31c" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="fa2e0c9d-9cb6-fb90-58a7-e56cce870702" name="T/I •Soontir Fel" points="27.0" categoryId="54494520496e746572636570746f7223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c56bffb5-7d04-0c75-e2fd-ca7a905c7114" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="d8d91e53-f69d-81c6-fb11-f23ac7cf005c" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="4414f757-5455-6468-91a1-e88a58bad08f" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="f4b25a1a-8926-1b8c-0ca5-c3ec6782b2e7" name="Boost" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="6536b1e0-0a5e-2287-760c-1f22560579b0" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="31ee029a-2c7e-9b14-0ad7-fbbf4446c2f6" profileTypeId="31536869707323232344415441232323" name="•Soontir Fel" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="9"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ef8de080-a905-33a9-0e6b-a607649a05c2" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Soontir Fel" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When you receive a stress token, you may assign 1 focus token to your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8c7e57e7-68c6-d1e1-430c-80e80eee5e95" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8a26babd-e07c-57db-3841-a57801c8dd8b" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="af24129c-2d19-3e15-4671-7d0ce9ec1455" name="T/I •Turr Phennir" points="25.0" categoryId="54494520496e746572636570746f7223232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7cf75976-64ab-3312-5232-6892214d6a6b" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="ac0ea49e-854c-f4ac-6d12-2b9cb9e45d78" name="Evade" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="d1f1d8b4-1d5e-bfc7-3db4-7f16a9cd26af" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="60100afd-363a-cf60-5d3d-0a3d241e493b" name="Boost" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="7dcc2edb-9e6c-564e-744f-57a44a78bba7" name="Unique Pilot Ability" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="75d98bcc-2e80-e638-399f-1ff69caf6648" profileTypeId="31536869707323232344415441232323" name="•Turr Phennir" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="7"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="734aec3a-24c8-c8a7-82bc-1410e9ee422d" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Turr Phennir" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="After you perform an attack, you may perform a free boost or barrel roll action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f3cfe455-312f-8dbf-b6e8-c1d45f812962" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d6ead22e-d444-af60-8f40-4336e111ac76" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" name="LS Omicron Group Pilot" points="21.0" categoryId="e3ae77ce-deb0-6465-da57-01b7745ae4a7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="1e8efcf6-4f2b-4741-5858-eb90aaa5dde4" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="17e9cbf3-f4b1-18f1-468a-952313032c4b" name="Flavor Text - Omicron Group Pilot" hidden="true" page="0">
+              <description>“.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="16db90c9-cf2c-ecef-77c3-94d5c6ed58e2" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="41cf7660-1d52-3b5c-f5cf-1183c40e9de0" targetId="a9ccac31-4c83-6c35-aa47-aab0a26e475b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="f9640a8f-8f32-f20f-b80e-d7bc742e479e" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="fdc61409-272c-7f22-5a0d-42ebf372c661" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="591f6580-3ba1-acdc-9c3e-2b2538fcca76" profileTypeId="31536869707323232344415441232323" name="Omicron Group Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="2"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="5"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Sensors, Cannon, Crew, Crew"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0ce93470-2040-b4d0-cf17-486092f91042" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="bf35c5ea-746b-25a8-8e23-d8c15c7d962e" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="8ee7216d-371d-6e9c-ca15-c64c8703532a" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0ff4d439-de68-c9d3-e678-c23346133179" targetId="4677c765-57fb-1da9-f01c-459dd324fe54" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="fba2f951-a380-cabe-f9e3-66f123127891" name="LS •Captain Yorr" points="24.0" categoryId="e3ae77ce-deb0-6465-da57-01b7745ae4a7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="db01be99-17df-3585-e250-7259b362797f" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="c978725f-0451-d79a-5edf-32999cf56452" targetId="a9ccac31-4c83-6c35-aa47-aab0a26e475b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="3f096914-2bbc-cbe8-c328-565a0b139c0d" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="3a5612bb-b45e-63b9-48dc-fc55b8e58257" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2c02c186-8db7-7d43-748e-521c8e9bb690" profileTypeId="31536869707323232344415441232323" name="•Captain Yorr" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="4"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="5"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Sensors, Cannon, Crew, Crew"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9b78e535-c260-cbba-cc96-777ff80c432c" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Captain Yorr" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When another friendly ship at Range 1-2 would receive a stress token, if you have 2 or fewer stress tokens, you may receive that token instead."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="de4716ec-410a-da3c-fe80-766ca3fb6af9" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="e68d5ca1-95a5-e677-3319-8bde205ddee4" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="d1a257f8-f7c1-bbef-dc58-42360e73bbba" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="51b468a5-95ef-041e-f59e-c00578ae6a6a" targetId="4677c765-57fb-1da9-f01c-459dd324fe54" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7dabb71f-ea3b-bfb7-b868-87493d58dccf" name="LS •Colonel Jendon" points="26.0" categoryId="e3ae77ce-deb0-6465-da57-01b7745ae4a7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="a64e2945-4e98-4284-3a1c-36ac45c6e4e7" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="7b458e7a-8ebb-a252-1c08-138722d4cba2" targetId="a9ccac31-4c83-6c35-aa47-aab0a26e475b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="f664a3c3-94e2-da32-3897-bbbdb1efebb8" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="8234edf9-3a38-8563-7d67-2bee7b53529d" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7e8271b2-200c-d94e-6e97-47df43434965" profileTypeId="31536869707323232344415441232323" name="•Colonel Jendon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="6"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="5"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Sensors, Cannon, Crew, Crew"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="73ce3839-444b-9a60-0664-e12024c912ca" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Colonel Jendon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="At the start of the Combat phase, you may assign 1 of your blue target lock tokens to a friendly ship at range 1 if it does not have a blue target lock token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="79b18f4f-a785-72e6-cde1-1766c95d8304" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7fa03a1b-8eab-a102-71b0-a58db619eaac" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="877b2eff-a752-1118-8d41-f5c50bc01b01" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="f7188648-3359-f8ed-28b7-9b4dc5867573" targetId="4677c765-57fb-1da9-f01c-459dd324fe54" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ba998080-9052-eb99-0e12-d8fc4d8efb98" name="LS •Captain Kagi" points="27.0" categoryId="e3ae77ce-deb0-6465-da57-01b7745ae4a7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="abaefb75-60ce-041b-47f8-d4bbd1c6cd4f" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="45b62335-5408-7ae6-415f-538fc65d02ea" targetId="a9ccac31-4c83-6c35-aa47-aab0a26e475b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="95d7e074-2fb4-d645-3957-adb2b8a6191e" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="10b6ebc7-43b9-bd3b-89ea-9b1d9d0c48e5" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e26f91b5-9b20-4890-5c1c-861857721276" profileTypeId="31536869707323232344415441232323" name="•Captain Kagi" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="8"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="5"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Sensors, Cannon, Crew, Crew"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="104ef00c-aba7-968b-473a-793905cd3dc2" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Captain Kagi" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When an enemy ship acquires a target lock, it must lock onto your ship if able."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="46ca29d7-d536-74c7-7396-ad873eb3b910" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a66103dc-cbbd-cf55-4896-a546cdcfa24c" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="3e2c3054-c8ae-887c-1537-f223d931045b" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8c04bf6f-890e-c06b-30f1-03def1a577d8" targetId="4677c765-57fb-1da9-f01c-459dd324fe54" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="45ba11fa-db8d-6697-abcd-2f3ba76e2ea6" name="T/B Scimitar Squadron Pilot" points="16.0" categoryId="3fa9a937-5b10-6e26-ed5e-8585d0c996ab" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="aca173eb-4d49-56bb-9b88-a473a591ebd7" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="1f7ec0ad-53ad-ae3c-a2a2-e0f88c18c2a3" name="Flavor Text - Scimitar Squadron Pilot" hidden="true" page="0">
+              <description>“The onboard targeting computer is extremely precise, allowing a TIE bomber to pinpoint its target while avoiding collateral damage to the surrounding area.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="22330c6c-81fd-3bc7-bccd-2c71b99d0cc4" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="03ed42fb-72df-9853-7a00-0ed0480b8169" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="fce8aa1f-30b4-25b7-5a3d-6431f907c16d" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5ece0e02-c7b7-788c-8669-ca3489c7d182" profileTypeId="31536869707323232344415441232323" name="Scimitar Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="2"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Secondary Weapon x2, Missile Weapon x2, Bomb"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="856befef-768b-899f-6f03-315ab6d6f241" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="30534cf4-d1eb-80a6-1270-78f47c42b7fd" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="1644ae23-61c4-9455-0d8e-35a794c362e1" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c01c6318-77ca-5e16-92de-b4fe196e5caa" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="17ead459-d3f3-a898-ac8a-1f0439828988" name="T/B Gamma Squadron Pilot" points="18.0" categoryId="3fa9a937-5b10-6e26-ed5e-8585d0c996ab" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="4f5b082b-474c-22e3-a47f-b2d3ec265aeb" name="Hidden Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="a75df4a5-8988-dc3d-fe40-2331c4d5c0c4" name="Flavor Text - Gamma Squadron Pilot" hidden="true" page="0">
+              <description>“While not as agile or fast as other TIE variants, TIE bombers can carry enough firepower to destroy virtually any enemy target.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="bd396019-e6f1-ddef-3070-ec2490c6c28f" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="42a86d9d-fc56-0743-e269-ed1c7f5afc16" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="2eb22a7a-db8b-c789-9e4a-799b9bdfceb2" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5cb0c4ea-6d3e-65e8-a922-99f962327ec2" profileTypeId="31536869707323232344415441232323" name="Gamma Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="4"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Secondary Weapon x2, Missile Weapon x2, Bomb"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="72b74341-f7f6-c886-0283-4da6a7336e73" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="aaee2a30-1071-c3b0-4c23-0e00052d7a7f" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="0fcb27fc-f47b-b693-3aa9-01b630e36096" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6cc7a458-b8e2-f66c-c2da-5d6b78a3dea8" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="aff8a3ef-f52f-ee8e-fd46-2742550824e5" name="T/B •Captain Jonus" points="22.0" categoryId="3fa9a937-5b10-6e26-ed5e-8585d0c996ab" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5ea21d88-0b3c-f7f8-0077-77cb76a8a81a" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="92aee5fd-de47-1d28-30fa-0100de76c1b5" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="2a80a98d-af10-0f30-618c-db365a287c14" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8e97fb98-ba8f-0048-79c7-c621497c03fd" profileTypeId="31536869707323232344415441232323" name="•Captain Jonus" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="6"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Secondary Weapon x2, Missile Weapon x2, Bomb"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="68ac79ab-bcf9-aab0-5991-f9cd933b4053" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Captain Jonus" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When another friendly ship at Range 1 attacks with a secondary weapon, it may reroll up to 2 attack dice."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1d6b0b81-d8b9-2fe9-60c9-a66dc767069b" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="f8f54172-5e0c-d569-58e2-16a0edb89550" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="28a207e4-4415-81b2-54ab-9d6c4e6b048c" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="93793d8c-05e7-956b-9b3a-d5fe514bca6e" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="0320e149-0329-d06e-5f7a-2f5025111850" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d01533a4-ad16-47b2-2b4e-e7b2290ae0e9" name="T/B •Major Rhymer" points="26.0" categoryId="3fa9a937-5b10-6e26-ed5e-8585d0c996ab" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5bbcd73d-7581-fe2b-faac-e00ed88c67b1" name="Barrel Roll" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="67b0e197-d84e-3287-720a-3f8813b9c180" name="Focus" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="349d12af-542f-c2ca-94d0-b5bdbf2a791a" name="Target Lock" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1b212f2d-1eb0-e828-6908-79acaeb2cec0" profileTypeId="31536869707323232344415441232323" name="•Major Rhymer" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="8"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="0"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Secondary Weapon x2, Missile Weapon x2, Bomb"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c48c8272-4bc7-e8a0-f8f9-8ddeba0f4034" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Major Rhymer" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking with a secondary weapon, you may increase or decrease the weapon range by 1 to a limit of Range 1-3."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9fb8e226-fe23-e763-8d39-f355abe794bc" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0e6cbad5-4435-872a-740d-d372373fd325" targetId="3671e8b2-4419-156c-2a26-9164209fe54a" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="47dc28b2-9349-dccc-73dc-dc14116435b1" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="15fd938b-c488-def2-7c0b-17527f2440ba" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="6e62e42b-2168-4819-bf1c-a428b6851bfd" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="eae80c36-ab08-0879-9474-2f3d1b070cb7" name="•Slave 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e66c4801-7a7e-a0ad-ecbc-61c42f12df78" profileTypeId="332e30315469746c6523232344415441232323" name="•Slave 1" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [Secondary Weapon] upgrade icon."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="8f5b6596-916d-1c79-390a-ed2c982bbc3c" name="•Squad Leader" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="847dc3c7-1b62-d689-2255-ea9d05b8a25c" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="•Squad Leader" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action:  Choose 1 ship at Range 1-2 that has a lower pilot skill than you.  The chosen ship may immediately perform 1 free action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a9ccac31-4c83-6c35-aa47-aab0a26e475b" name="•ST-321" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7a11235b-ffc0-ef58-aed3-301a0cd9cbde" profileTypeId="332e30315469746c6523232344415441232323" name="•ST-321" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="When acquiring a target lock, you may lock onto any enemy ship in the play area."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d199de17-5e87-c51d-04b0-329ebf848a0b" name="•Darth Vader" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="fe12f41d-e18f-e711-1a80-011d6eb0d680" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="f2c12471-8f42-ec64-6250-61fa4b362f5a" profileTypeId="332e30334372657723232344415441232323" name="•Darth Vader" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack against an enemy ship, you may suffer 2 damage to cause that ship to suffer 1 critical damage."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ae6fdc20-2c4e-8956-d460-1ad0dc5c0d35" name="•Rebel Captive" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0237292c-08be-7440-e64f-ce8b4e805c71" profileTypeId="332e30334372657723232344415441232323" name="•Rebel Captive" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Once per round, the first ship that declares you as the target of an attack immediately recieves 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups>
+    <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries>
+        <entry id="48d5cb10-2d56-9db2-0b6c-9fa036640c23" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e3b8300d-7b4b-e29a-7186-5e9baadeaa3b" profileTypeId="39426f6d6223232344415441232323" name="Seismic Charges" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token.  This token detonates at the end of the Activation phase."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7f677c40-30ff-45df-31d0-133730f1c442" name="Proximity Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="461ed7bf-5a06-5345-3ddf-001c849e9eb2" profileTypeId="39426f6d6223232344415441232323" name="Proximity Mines" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action:  Discard this card to drop 1 proximity mine token.  When a ship executes a maneuver, if its base or maneuver template overlaps this token, this token detonates."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8eecb698-5f3f-8914-e473-f2885dd1859a" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="25228026-0a32-4edc-ac02-3fb561fc7c1f" profileTypeId="39426f6d6223232344415441232323" name="Proton Bombs" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 proton bomb token.  This token detonates at the end of the Activation phase."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="15c2343d-0add-534b-6a79-ed3dba7cf823" name="Cannon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries>
+        <entry id="ff2d5d81-d203-a276-ecc4-1e01dac2e733" name="Ion Cannon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="09c62444-dd65-23d1-4352-ebce0c48a81b" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Ion Cannon " hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack:  Attack 1 ship.  If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="2c5fc582-6077-ad9f-1442-fe0980830611" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Ion Cannon" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
+                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="490d3c86-dda0-d975-5125-bb4f26ebbe83" name="Heavy Laser Cannon" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c759b649-5439-9b60-3ac1-fb7f4257f0ef" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Heavy Laser Cannon " hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack:  Attack 1 ship.  Immediately after rolling your attack dice, you must change al of your [Crit] results to [Hit] results."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="97722fbd-620e-b500-9e61-95b627b4db15" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Heavy Laser Cannon" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="31d0c305-7d23-26ac-1a64-4e1cfee321fc" name="Autoblaster" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="08138243-fd4f-cf58-1da3-654490c458a8" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Autoblaster " hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack:  Attack 1 ship.  Your [Hit] results cannot be cancelled by defense dice.  The defender may cancel [Crit] results before [Hit] results."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="60e95e28-df68-31f5-095f-e116895140bb" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Autoblaster" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
+                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="c63d05fe-ddca-7664-94ba-2c99802e2020" name="Crew" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries>
+        <entry id="1362fbb0-32ba-21de-7fe7-d1ca2ed78046" name="Weapons Engineer" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="11aad8d9-f46f-c405-9b98-787fd4320cb9" profileTypeId="332e30334372657723232344415441232323" name="Weapons Engineer" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may maintain 2 target locks (only 1 per enemy ship).  When you acquire a target lock you may lock onto 2 different ships."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="dedaa01d-e023-2ae4-525c-41e0e82464d0" name="Gunner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4d4c8cc0-c8fe-c589-6c82-b27e10ffdbbe" profileTypeId="332e30334372657723232344415441232323" name="Gunner" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack that does not hit, immediately perform a primary weapon attack. You cannot perform another attack this round."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5b8630d7-b55c-def4-1d6e-4674bff26721" name="Mercenary Copilot" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7eefa644-974a-0598-8299-c624bce6cfad" profileTypeId="332e30334372657723232344415441232323" name="Mercenary Copilot" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking at Range 3, you may change 1 of your [Hit] results to a [Crit] result."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4717a177-71e5-59a3-1f0c-4716a425ccbe" name="Navigator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e7f957d2-7ecc-549f-4403-e65af3c72fb8" profileTypeId="332e30334372657723232344415441232323" name="Navigator" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing.  You cannot rotate to a red maneuver if you have any stress tokens."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="afbab428-5feb-43af-48a8-ff30a49a3585" name="Intelligence Agent" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d14802f5-547f-4e95-5336-e6ec941a76d9" profileTypeId="332e30334372657723232344415441232323" name="Intelligence Agent" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the Activation phase, choose 1 enemy ship at Range 1-2. You may look at that ship&apos;s chosen maneuver."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="13749ed5-0ed4-f3cb-3d45-796dc351ffbc" name="Flight Instructor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e791074c-621b-b76c-672e-365eee77f5e2" profileTypeId="332e30334372657723232344415441232323" name="Flight Instructor" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When defending, you may reroll 1 of your [Focus] results. If the attacker&apos;s pilot skill value is &quot;2&quot; or lower, you may reroll 1 of your blank results instead."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7e173ccb-82c6-bef0-1b50-7eed30fc96ab" name="Recon Specialist" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="453ac18d-e645-3def-3bd2-e1bebac1c7f2" profileTypeId="332e30334372657723232344415441232323" name="Recon Specialist" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you perform a focus action, assign 1 additional focus token to your ship."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ea911d11-d300-1cce-5f18-aab19d6a6e9a" name="Saboteur" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2bfe1004-a085-9ca7-a89b-d1895ecf46bd" profileTypeId="332e30334372657723232344415441232323" name="Saboteur" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action:  Choose 1 enemy sihp at Range 1 and roll 1 attach die. On a [Hit] or a [Crit] result, choose 1 random facedown card assigned to that ship, flip it faceup, n "/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="f481a1f7-5f2e-e6e1-d6cc-c39d0e76e120" targetId="d199de17-5e87-c51d-04b0-329ebf848a0b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2cdce04b-aab0-10be-4a44-5df97673ebaa" targetId="ae6fdc20-2c4e-8956-d460-1ad0dc5c0d35" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="c250debb-2ca2-1981-4cea-9a096ce8d993" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries>
+        <entry id="6d3b6e25-6d12-da83-b01c-6dbd9fab7f96" name="Determination" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="97d231bf-026d-8a50-07a7-dbbe179fb028" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Determination" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you are dealt a faceup Damage card with the Pilot trait, discard it immediately without resolving its effect."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f8e8c529-7855-03b6-738a-557b46c2c0b9" name="Swarm Tactics" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="edf8b440-679c-3a87-0f00-800741ec1b33" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Swarm Tactics" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, choose 1 friendly ship at Range 1.  Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d29423b4-72d7-012b-739f-8c3065c0ca8c" name="Push the Limit" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d08f866a-3521-87ab-97c7-9cb0e4548cc1" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Push the Limit" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Once per round, after you perform an action, you may perform 1 free action shown in your action bar.  Then receive 1 stress token."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c82d7171-624a-de61-6571-4e1228d7bb9f" name="Expert Handling" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d18883c1-857f-45d7-d6d3-d62f1dd46a89" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Expert Handling" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action:  Perform a barrel roll.  If you do not have the [Barrel Roll] action icon, receive 1 stress token.  You may then remove 1 enemy target lock from your ship."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c67e168d-f775-6972-3b0a-8c7d7fa194c3" name="Veteran Instincts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2b7a68fa-b964-33be-9995-7d3f41547788" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Veteran Instincts" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Increase your pilot skill value by 2."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6a66bb05-34fb-6006-49ac-5c04dbd2829b" name="Draw Their Fire" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d0b9ca89-1e00-169d-49b1-5fa56b7d7013" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Draw Their Fire" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncancelled [Crit] results instead of the target ship."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="58a640ae-31f9-4e43-f52b-bfb33246a3a7" name="Elusiveness" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0df85ae3-4c44-ed27-e2c0-ab3797df275d" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Elusiveness" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When defending, you may receive 1 stress token to choose 1 attack die. The attacker must reroll that die. If you have at least 1 stress token, you cannot use this ability."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="833ef6ec-8f73-0eaf-e75c-b085b55819c7" name="Daredevil" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a7883f73-97ea-e85e-a10c-82086c67b574" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Daredevil" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action:  Execute a red [Left Turn 1] or [Right Turn 1] maneuver.  Then, if you do not have the [Boost] action icon, roll 2 attack dice. Suffer any damage ([Hit]) and critical damage ([Crit]) rolled."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c3634720-7795-19fe-1a99-8012ff977627" name="Expose" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="982b7344-2554-1965-707b-1ed4322b84ad" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Expose" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action:  Until the end of the round, increase your primary weapon value by 1 and decrease your agility by 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6f0958cc-3dce-15e3-3e52-f56fa5c9ceab" name="Markmanship" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d871765d-7d40-0347-6277-a89bb2904d88" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Markmanship" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action:  When attacking this round, you may change 1 of your [Focus] results to a [Crit] result and all of your other [Focus] results to [Hit] results."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d0f86c65-f6b8-51c6-3cbb-c33e67440bc3" name="Deadeye" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d5b5c8d3-b54d-7fa9-b1f9-146eefba5006" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Deadeye" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="You may treat the &quot;Attack (Target Lock):&quot; header as &quot;Attack (Focus):.&quot;  When an attack instructs you to spend a target lock, you may spend a focus token instead."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="11b87343-e857-e90d-bb38-c091948c3815" name="Adrenaline Rush" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="57878c9a-9b5d-9f70-60a7-d42db3b0f80c" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Adrenaline Rush" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="aa84ebdf-9ed8-2075-e887-35f7739e3dc3" targetId="8f5b6596-916d-1c79-390a-ed2c982bbc3c" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="3671e8b2-4419-156c-2a26-9164209fe54a" name="Missile Weapon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries>
+        <entry id="cfd6bc76-14e9-3885-4990-1629b25de3c8" name="Concussion Missiles" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="37a5cb6a-09ff-1b3c-217e-08a7e4ce807b" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="Concussion Missiles " hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="c7a9aec5-a24b-99ef-aca0-efc663388561" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Concussion Missiles" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missile Weapon Ability" value="Attack (Target Lock):  Spend your target lock and discard this card to perform this attack.  You may change 1 of your blank results to a [Hit] result."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fd626a81-cf72-ae40-6d88-07d7e738101d" name="Cluster Missiles" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a4c4b612-a397-dc19-a79b-3a03bdbae7ee" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="Cluster Missiles " hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
+                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="0fb3f148-f0af-177f-3c70-fa33db67fc57" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Cluster Missiles" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missile Weapon Ability" value="Attack (Target Lock):  Spend your target lock and discard this card to perform this attack twice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2c59b950-8de2-86a2-9e83-5403ab7acb81" name="Assault Missiles" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ef0cceac-20ff-c788-612b-a5e65be6128e" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="Assault Missiles " hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="8ce1c03f-a1db-e203-79f9-67e29481c3d7" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Assault Missiles" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missile Weapon Ability" value="Attack (Target Lock):  Spend your target lock discard this card to perform this attack.  If this attack hits, each other ship at Range 1 of the defender suffers 1 damage."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="20741304-d6cd-30da-6f1f-36f4448b111b" name="Homing Missiles" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d84751f5-8607-0ac6-8306-546efec1cc6d" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="Homing Missiles " hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="e2a04ab6-3fb0-cbbd-7e61-eefe9751ca52" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Homing Missiles" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missile Weapon Ability" value="Attack (Target Lock):  Discard this card to perform this attack.  The defender cannot spend evade tokens during this attack."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="76b68268-070c-3e72-1f15-b839933dd191" name="Modification" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries>
+        <entry id="d511740b-74f1-c59d-a4e3-c35b8b728cf7" name="Engine Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="24b9a1de-ca7a-8ab0-281a-7322850cc29c" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Engine Upgrade" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your action bar gains the [Boost] action icon."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="57693b30-64d7-71a7-2c47-55f2b3d28c7c" name="Shield Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6cd0688e-4e02-72d0-8cfb-3949c554a397" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Shield Upgrade" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your shield value by 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b882a5e8-6c2b-8def-222c-0a96d32dd8bc" name="Stealth Device" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="81058c5f-b2b4-b0cb-5f81-f1b5eca127ea" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Stealth Device" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your agility value by 1. If you are hit by an attack, discard this card."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fe9751d2-93ac-f82f-4412-eac315f9a1ae" name="Anti-Pursuit Lasers" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="category" childId="4669726573707261792d333123232344415441232323" field="selections" type="instance of" value="0.0"/>
+                    <condition parentId="category" childId="e3ae77ce-deb0-6465-da57-01b7745ae4a7" field="selections" type="instance of" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="11d9fb01-dd0c-f232-f2a6-9effa3d1a4a4" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Anti-Pursuit Lasers" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a [Hit] or [Crit] result, the enemy ship suffers 1 damage."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="62357bce-b8fa-7b04-587f-52fc38922f21" name="Secondary Weapon" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries>
+        <entry id="e3f4b766-c6c7-3236-0fc6-25148f0edb27" name="Proton Torpedoes" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0dd917c4-513f-b8db-7906-5a297f86a614" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" name="Proton Torpedoes " hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="4a8dcf0e-eec4-c238-b685-2b0f95fbd52b" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Proton Torpedoes" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Secondary Weapon Ability" value="Attack (Target Lock):  Spend your target lock and discard this card to perform this attack.  You may change 1 of your [Focus] results to a [Crit] result."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="95e629c6-48a4-94e5-6777-6f92c3c2862d" name="Adv. Proton Torpedoes" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3f79ec9e-856c-5b9c-fc20-aac8a0b6ffa7" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" name="Adv. Proton Torpedoes " hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
+                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="5"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="a077ce24-a866-39dd-2460-33178770ae82" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Adv. Proton Torpedoes" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Secondary Weapon Ability" value="Attack (Target Lock):  Spend your target lock and discard this card to perform this attack.  You may change up to 3 of your blank results to [Focus] results."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="4677c765-57fb-1da9-f01c-459dd324fe54" name="Sensor" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries>
+        <entry id="bf132373-472a-129f-6db4-b1c1e55528b3" name="Fire-Control System" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4b641706-8765-9ef7-c1c5-b076baad8a93" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Fire-Control System" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensor Ability" value="After you perform an attack, you may acquire a target lock on the defender."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7814e133-fee0-ce97-6915-ad47d598f66b" name="Advanced Sensors" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6ffb1500-b52d-64e8-84ae-8f6d0a48f312" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Advanced Sensors" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensor Ability" value="Immediately before you reveal your maneuver, you may perform 1 free action.  If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fec26a92-d110-08b6-d9a4-e6fa88848178" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9c02e070-46d4-a9c1-275d-4bb0629f7bc6" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Sensor Jammer" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensor Ability" value="When defending, you may change 1 of the attacker&apos;s [Hit] results to a [Focus] result.  The attacker cannot reroll the die with the changed result."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+  </sharedEntryGroups>
+  <sharedRules>
+    <rule id="b46cd44e-1b83-6307-deb8-34b1909e836a" name="Bomb Tokens" hidden="false" page="0">
+      <description>The seismic charge and proximity mine tokens are bomb tokens. Bomb tokens DETONATE as described on their corresponding Upgrade cards, producing one of the following effects.
+
+- Seismic Charge Token: When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage. Then discard this token.
+
+- Proximity Mine Token: When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage ([Hit]) and critical damage ([Crit]) rolled. Then discard this token</description>
+      <modifiers/>
+    </rule>
+    <rule id="8d479a0a-389b-e42d-67b9-4010c49e3df3" name="Boost Action" hidden="false" page="0">
+      <description>This card explains the rules for performing a BOOST action. Ships with the [Boost] icon in their action bar may perform a boost action. To boost, follow these steps:
+
+1. Choose the [Straight 1], [Bank Left 1] or [Bank Right 1] maneuver template.
+
+2. Set the maneuver template between the ship&apos;s front guides.
+
+3. Move the ship to the opposite end of the template and slide the rear guides of the ship into the template.
+
+Performing a boost does not count as executing a maneuver. A ship cannot boost if this would cause its base to overlap with another ship&apos;s base or an obstacle token.</description>
+      <modifiers/>
+    </rule>
+    <rule id="cf112067-25ed-a664-3f92-74c80f6a61a4" name="Ion Token" hidden="true" page="0">
+      <description>This card explains the rules for an ion token and serves as a reference to remind players of its effect.
+
+Some card abilities, such as the &quot;Ion Cannon Turret&quot; Upgrade card, can cause a ship to receive an ion token. A ship with an ion token assigned to it follows special rules during these phases:
+
+- Planning Phase: The owner does not assign a maneuver dial to this ship.
+
+- Activation Phase: The owner moves the ship as if it were assigned a white [Straight 1] maneuver. After executing this maneuver, remove all ion tokens from the ship. It may perform actions as normal.
+
+- Combat Phase: The ship may attack as normal.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
