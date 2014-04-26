@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="14" battleScribeVersion="1.14b" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="15" battleScribeVersion="1.14b" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="5374616e6461726423232344415441232323" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -120,7 +120,7 @@
         <characteristic id="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="332e30315469746c6523232344415441232323" name="2.2Title">
+    <profileType id="332e30315469746c6523232344415441232323" name="2.20Title">
       <characteristics>
         <characteristic id="5469746c65204162696c69747923232344415441232323" name="Title Ability"/>
       </characteristics>
@@ -193,6 +193,12 @@
     <profileType id="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="2.8Team">
       <characteristics>
         <characteristic id="eb3c4162-2db9-88f2-3869-0eb79bda378f" name="Team Ability"/>
+      </characteristics>
+    </profileType>
+    <profileType id="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="2.21Epic Title">
+      <characteristics>
+        <characteristic id="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit"/>
+        <characteristic id="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability"/>
       </characteristics>
     </profileType>
   </profileTypes>
