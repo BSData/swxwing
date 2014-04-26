@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="21" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="22" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="3fae5d77-a5b6-3fc9-2918-50605d0de203" name="A-W Green Squadron Pilot" points="19.0" categoryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
@@ -965,6 +965,12 @@
                   </conditions>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="increment" field="cd566978-1c76-26ce-ee14-45a97972c436" value="0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="1176775e-0e68-cf12-01fe-27b782a15479" childId="c8ed5559-b434-ee1c-9a1d-6eef65996d36" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
             </profile>
             <profile id="7dd9e4d5-8d95-6255-3ba3-32fd3026ec7b" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="CR90 Corvette (Fore) " hidden="false" page="0">
@@ -1222,6 +1228,59 @@
             <link id="1b92a1be-a4dd-006d-2fd9-52483426abb9" targetId="12f45c62-9cea-6248-71a9-b219196fdd5a" linkType="entry">
               <modifiers/>
             </link>
+            <link id="38bb772d-8d40-d66f-85b0-af09279aef32" targetId="d8ffe171-4ba0-7845-a8be-888b165b7d7d" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ccc38374-e805-0434-2f97-5f331088903c" targetId="c57c1d42-db30-e618-d4da-b5675b30dadb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="87faa50e-8f7a-5cd5-6914-2f3f73f09a93" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8c253649-ffcc-0125-8aeb-bebec60bf536" targetId="f65d78d8-315d-5bcb-448c-3939cb70bfaa" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="c529883b-5be9-f5cc-db3e-78afb78e6ad7" name="Cargo" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="e11bb406-95e2-59e6-2e5c-19b54badef07" targetId="a0c78a5f-0973-e6f3-af01-8bf58443b972" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="dad92e73-fec5-b221-b46f-bf340564429f" targetId="a3487a9f-7d63-2ee5-2efe-7ecfc0c9aea2" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c3ceb75c-3e63-cf08-e0ca-9a261dc5d256" targetId="7fa4d704-7013-a8cf-dd12-b4a54bd5abad" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="40caf54f-2db7-ee7d-ea7c-e88c5a998492" targetId="86a2750b-da3a-e862-9423-419273f4b6fd" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="847e66da-33ff-687f-9b5a-e84db2f92c78" targetId="260d0909-ceed-b739-5310-9021942f40ba" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7d1df339-c1e5-baa3-4e3f-d4e8c18fd9ec" targetId="e4663792-213e-26ea-4958-9b7668df33a8" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0ae28ce2-7075-8ab3-880d-f6d2839d926c" targetId="56425b32-be7e-ad40-80d3-1231a0704e9d" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b8f0c8ed-26c5-1ec9-13d1-210216584dc4" targetId="9d617177-1358-92cf-9b97-67e07ff8a5b5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d94fa5a7-c03a-683a-594a-d352f0d41dd6" targetId="5d5edfa2-283f-45c2-a10c-2514207b5ba3" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e3dabbbb-ebca-ea36-8ced-2d1dc437bbbe" targetId="b70d50ec-95a3-6d2e-d9cf-8995c477a4f4" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -1242,6 +1301,30 @@
             <modifier type="increment" field="d8bffd2a-dbed-fab5-8c95-cd05842a3992" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="114cccd7-db12-855e-4a62-993908968b8a" childId="12f45c62-9cea-6248-71a9-b219196fdd5a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="d8bffd2a-dbed-fab5-8c95-cd05842a3992" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="114cccd7-db12-855e-4a62-993908968b8a" childId="c57c1d42-db30-e618-d4da-b5675b30dadb" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="d8bffd2a-dbed-fab5-8c95-cd05842a3992" value="0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="114cccd7-db12-855e-4a62-993908968b8a" childId="d8ffe171-4ba0-7845-a8be-888b165b7d7d" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="dcdbaa57-cf03-7585-d0c0-404b34db4f0b" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="114cccd7-db12-855e-4a62-993908968b8a" childId="f65d78d8-315d-5bcb-448c-3939cb70bfaa" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fcc41ce1-296c-ecd2-a2c5-ac1daf9423f6" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="114cccd7-db12-855e-4a62-993908968b8a" childId="f65d78d8-315d-5bcb-448c-3939cb70bfaa" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1268,14 +1351,6 @@
         </link>
         <link id="3a9f256b-f354-a2d3-a757-3a37c6624489" targetId="6b0dff16-a69f-9f63-46fa-bc2c1bf9b190" linkType="rule">
           <modifiers/>
-        </link>
-        <link id="4b3014f3-5c90-2752-b227-bedcbb280a3e" targetId="79f8a797-1218-06e6-210d-17a1a238ef96" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
       </links>
     </entry>
@@ -3583,6 +3658,22 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="56425b32-be7e-ad40-80d3-1231a0704e9d" name="Backup Shield Generator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9e831a66-fe4e-820d-3617-8bedb2b1b1ba" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Backup Shield Generator" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="At the end of each round, you may spend 1 energy to recover 1 shield (up to your shield value)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="59db2c26-5d1d-cf86-d26b-6c74d8e537e8" name="Blaster Turret" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -3642,6 +3733,37 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="f65d78d8-315d-5bcb-448c-3939cb70bfaa" name="Combat Retrofit" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0b1a9e62-c078-4a49-5c73-d2af40680d18" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Combat Retrofit" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your hull value by 2 and your shield value by 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a0c78a5f-0973-e6f3-af01-8bf58443b972" name="Comms Booster" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b5ffd984-194f-9e06-5756-0f9b1893fc90" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Comms Booster" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Energy: Spend 1 energy to remove all stress tokens from a friendly ship at Range 1-3. Then assign 1 focus token to that ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="8b1fad15-66ec-c97a-df8e-a58f00ebd808" name="Concussion Missiles" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -3664,6 +3786,38 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="9d617177-1358-92cf-9b97-67e07ff8a5b5" name="EM Emitter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e9536431-a2ca-9fc8-e72b-123504106378" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="EM Emitter" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="When you obstruct an attack, the defender rolls 3 additional defense dice (instead of 1)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a3487a9f-7d63-2ee5-2efe-7ecfc0c9aea2" name="Engine Booster" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8b3e1d96-0748-bc7e-e3e8-15cc0df9d012" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Engine Booster" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Immediately before you reveal your maneuver dial, you may spend 1 energy to execute a white [straight 1] maneuver. You cannot use this ability if you would overlap another ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" name="Engine Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -3673,6 +3827,22 @@
         <profile id="08674745-845c-14fd-dba2-adf81f78d838" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Engine Upgrade" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your action bar gains the [boost] action icon."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="b70d50ec-95a3-6d2e-d9cf-8995c477a4f4" name="Expanded Cargo Hold" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="10662eb2-6312-2c46-3d45-6194e75bdc5d" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Expanded Cargo Hold" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Once per round, when you would be dealt a faceup Damage card, you may draw that card from either the fore or aft Damage deck."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3710,6 +3880,22 @@
         <profile id="281605e6-f3ec-0ad6-a0dc-606f26c1e3da" profileTypeId="332e30334372657723232344415441232323" name="Flight Instructor" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When defending, you may reroll 1 of your [focus] results. If the attacker&apos;s pilot skill value is &quot;2&quot; or lower, you may reroll 1 of your blank results instead."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5d5edfa2-283f-45c2-a10c-2514207b5ba3" name="Frequency Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1a5d2f06-a1c5-ee4f-6c9f-6fa868088b5d" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Frequency Jammer" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="When you perform a jam action, choose 1 enemy ship that does not have a stress token and is not at Range 1 of the jammed ship. The chosen ship receives 1 stress token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3806,6 +3992,22 @@
         <profile id="9b67e2f9-48d5-d869-7e7d-3509b53b17b1" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Ion Pulse Missiles" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability" value="Attack (target lock): Discard this card to perform this attack. If this attack hits, the defender suffers 1 damage and receives 2 ion tokens. Then cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="7fa4d704-7013-a8cf-dd12-b4a54bd5abad" name="Ionization Reactor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="548b2b75-7aae-4f12-2c7c-a1a2f6d7080d" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Ionization Reactor" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit" value="5"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Energy: Spend 5 energy from this card and discard this card to cause each other ship at Range 1 to suffer 1 damage and receive 1 ion token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3924,6 +4126,22 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="86a2750b-da3a-e862-9423-419273f4b6fd" name="Shield Projector" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3a30e1c9-c069-0f8b-5277-60b62ded02b5" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Shield Projector" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="When an enemy ship becomes the active ship during the Combat phase, you may spend 3 energy to force that ship to attack you, if possible, until the end of the phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" name="Shield Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -3933,6 +4151,22 @@
         <profile id="d9f9460e-9e9d-8e8f-a37c-8d4e17ffabc2" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Shield Upgrade" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your shield value by 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="260d0909-ceed-b739-5310-9021942f40ba" name="Slicer Tools" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="dd620a17-b5fe-2bcc-0e13-bad755d99036" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Slicer Tools" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Action: Choose 1 or more enemy ships at Range 1-3 that have a stress token. For each ship chosen, you may spend 1 energy to cause that ship to suffer 1 damage."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3969,6 +4203,22 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="e4663792-213e-26ea-4958-9b7668df33a8" name="Tibanna Gas Supplies" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="695008bc-f72c-b6aa-7595-064cac039ab8" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Tibanna Gas Supplies" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Energy: You may discard this card to gain 3 energy."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="b504b9e9-1c2c-a0ce-9837-62b401c6b336" name="Veteran Instincts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -3999,15 +4249,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="b9faa60b-7cbc-8e5e-4011-3459cd15a3bc" name="WED-15 Repair Droid" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="dacf35c7-8fc2-02c4-bb50-a758b8d955ad" profileTypeId="332e30334372657723232344415441232323" name="WED-15 Repair Droid" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Spend 1 energy to discard 1 of your facedown Damage cards, or spend 3 energy to discard one of your faceup Damage cards."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="12f45c62-9cea-6248-71a9-b219196fdd5a" name="•Bright Hope" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="f952e99e-894d-fe16-02d9-e3168477e46c" profileTypeId="332e30315469746c6523232344415441232323" name="•Bright Hope" hidden="false" page="0">
+        <profile id="f952e99e-894d-fe16-02d9-e3168477e46c" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Bright Hope" hidden="false" page="0">
           <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Increase your energy limit by 2. A reinforce token assigned to your fore section adds 2 [evade] results (instead of 1)."/>
+            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+2"/>
+            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="A reinforce token assigned to your fore section adds 2 [evade] results (instead of 1)."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4023,6 +4289,21 @@
         <profile id="a0931371-8323-6b8b-769b-645571b28079" profileTypeId="332e30334372657723232344415441232323" name="•C-3PO" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Once per round, before you roll 1 or more defense dice, you may guess aloud a number of [evade] results. If you roll that many [evade] results (before modifying dice), add 1 [evade] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e22d3d6f-11d5-c728-1fe0-c9b4d8a0a608" name="•Carlist Rieekan" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e52f2225-da0a-cff3-d043-8534d6300f54" profileTypeId="332e30334372657723232344415441232323" name="•Carlist Rieekan" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the Activation phase, you may discard this card to treat each friendly ship&apos;s pilot skill value as &quot;12&quot; until the end of the phase."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4057,9 +4338,41 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d36754a7-a935-e846-1bc8-5a9d8c3372b6" profileTypeId="332e30315469746c6523232344415441232323" name="Dodonna&apos;s Pride" hidden="false" page="0">
+        <profile id="d36754a7-a935-e846-1bc8-5a9d8c3372b6" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Dodonna&apos;s Pride" hidden="false" page="0">
           <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="When you perform a coordinate action, you may choose 2 friendly ships (instead of 1). Those ships may each perform 1 free action."/>
+            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit"/>
+            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="When you perform a coordinate action, you may choose 2 friendly ships (instead of 1). Those ships may each perform 1 free action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d8ffe171-4ba0-7845-a8be-888b165b7d7d" name="•Dutyfree" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c5e29c15-1ff9-7208-d778-dfa6a99494a1" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Dutyfree" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+0"/>
+            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="When performing a jam action, you may choose an enemy ship at Range 1-3 (instead of at Range 1-2)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="33b67bc7-02d1-686f-7bf9-f7999c33c769" name="•Jan Dodonna" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d8a3ba8f-3235-1609-5e2d-a6405f99ec14" profileTypeId="332e30334372657723232344415441232323" name="•Jan Dodonna" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When another friendly ship at Range 1 is attacking, it may change 1 of its [hit] results to a [critical hit]."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4127,6 +4440,22 @@
         <profile id="5ddf6608-38d9-c964-482b-abc44e81d8ab" profileTypeId="332e30334372657723232344415441232323" name="•Nien Nunb" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may treat all [straight] maneuvers as green maneuvers."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c57c1d42-db30-e618-d4da-b5675b30dadb" name="•Quantum Storm" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d460f3ce-795d-c95a-f2af-5039e7173447" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Quantum Storm" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+1"/>
+            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="At the start of the End phase, if you have 1 or fewer energy tokens, gain 1 energy token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4215,6 +4544,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="f72311ad-1dd8-da49-bf65-0d77c3646268" name="•R4-D6" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c4eeaea5-64e1-4611-50f0-fbc0f0754090" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R4-D6" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="When you are hit by an attack and there are at least 3 uncancelled [hit] results, you may choose and cancel those results until there are 2 remaining. For each result cancelled in this way, receive 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="2379ba94-9f74-ca5f-91c2-e484ebb2db0b" name="•R5-D8" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -4239,6 +4583,21 @@
         <profile id="2b2d3a64-d698-2bf7-eca4-ec2a1c1af62f" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R5-K6" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="After spending your target lock, roll 1 defense die. On a [evade] result, immediately acquire a target lock on that same ship. You cannot spend this target lock during this attack."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3492642d-2c33-af68-b323-996c7f830770" name="•R5-P9" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3cfa9367-2973-8bee-90fa-4923707a7545" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R5-P9" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="At the end of the Combat phase, you may spend 1 of your focus tokens to recover 1 shield (up to your shield value)."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4281,9 +4640,10 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="64a153a5-7ef7-4a09-7298-3108bc9da1a7" profileTypeId="332e30315469746c6523232344415441232323" name="•Tantive IV" hidden="false" page="0">
+        <profile id="64a153a5-7ef7-4a09-7298-3108bc9da1a7" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Tantive IV" hidden="false" page="0">
           <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your fore section upgrade bar gains 1 additional [crew] and 1 additional [team] upgrade icon."/>
+            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit"/>
+            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="Your fore section upgrade bar gains 1 additional [crew] and 1 additional [team] upgrade icon."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4336,6 +4696,12 @@
         <link id="42edcd9d-6211-4144-7b34-39a85ded3bbd" targetId="ab627952-8cc0-8695-a767-0d98bed4d9a6" linkType="entry">
           <modifiers/>
         </link>
+        <link id="ae9861dd-7c58-8a40-3c55-f7addd604c88" targetId="f72311ad-1dd8-da49-bf65-0d77c3646268" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0920bf98-0bc5-5cb2-1cb4-9644060348c8" targetId="3492642d-2c33-af68-b323-996c7f830770" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="4093e9ca-4779-a09e-e575-db3887586679" name="Astromech Droid" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -4368,6 +4734,12 @@
           <modifiers/>
         </link>
         <link id="a2115ddc-5647-9e3d-394a-1a752b8db03b" targetId="ab627952-8cc0-8695-a767-0d98bed4d9a6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="483f0321-c7f4-2c20-ce14-7253886a0836" targetId="f72311ad-1dd8-da49-bf65-0d77c3646268" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="97f9295c-c48a-9cfe-1b8e-f23439cd3f0c" targetId="3492642d-2c33-af68-b323-996c7f830770" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4446,107 +4818,38 @@
       <links/>
     </entryGroup>
     <entryGroup id="79f8a797-1218-06e6-210d-17a1a238ef96" name="Cargo" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-      <entries>
-        <entry id="1c1c5873-f1b3-000b-b6bc-adb03b25ce9b" name="Comms Booster" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="36f96eb5-548b-5c8a-1de1-96e5db5ca14b" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Comms Booster" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-                <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Energy: Spend 1 energy to remove all stress tokens from a friendly ship at Range 1-3. Then assign 1 focus token to that ship."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="631489d5-9ac4-ef86-d399-d07ab179a982" name="Shield Projector" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="c03a2b27-c525-5918-8a0e-e206d536654a" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Shield Projector" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-                <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="When an enemy ship is declaring either a small or large ship as the target of its attack, you may spend 3 energy to force that ship to target you if possible."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="ced7e7c7-de64-ee0d-1a67-a7fab698cce9" name="Tibanna Gas Supplies" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="38638297-c5ef-3f2f-e158-285083d41271" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Tibanna Gas Supplies" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-                <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Energy: You may discard this card to gain 3 energy."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="d93c7bee-5955-e6d4-ba3c-fb4600bec246" name="Engine Booster" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="0c6e0d6b-2dcf-e2af-0c41-3021ccba2acd" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Engine Booster" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-                <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Immediately before you reveal your maneuver dial, you may spend 1 energy to execute a white [straight 1] maneuver. You cannot use this ability if you would overlap another ship."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="aba1283e-36a2-f7df-02e0-e3dcdd7a8a69" name="Slicer Tools" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="7c3cb57c-3f06-967f-9fe2-ebd2d63fd248" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Slicer Tools" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-                <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Action: Choose 1 or more enemy ships at Range 1-3 that have a stress token. For each ship chosen, you may spend 1 energy to cause that ship to suffer 1 damage."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="2dde8088-9971-5c83-da03-1b7082fba699" name="Ionization Reactor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="e7ecae4c-0ed4-0915-f247-4dc0c1893109" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Ionization Reactor" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit" value="5"/>
-                <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Energy: Spend 5 energy from this card and discard this card to cause each other ship at Range 1 to suffer 1 damage and receive 1 ion token."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="a56f1bec-f293-5e04-b8a8-fde2d01223f7" targetId="56425b32-be7e-ad40-80d3-1231a0704e9d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="35b99ed1-dbd6-3aa1-b297-68e97ba2196a" targetId="9d617177-1358-92cf-9b97-67e07ff8a5b5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="936f4966-7813-b34a-7f69-4ef7e127fc5c" targetId="5d5edfa2-283f-45c2-a10c-2514207b5ba3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="100d3d4e-c66b-1744-6c1a-0a72e8712a79" targetId="a0c78a5f-0973-e6f3-af01-8bf58443b972" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d2e591d4-2282-2869-59a5-4700479a0885" targetId="a3487a9f-7d63-2ee5-2efe-7ecfc0c9aea2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7430fa14-4040-8db6-cdfc-f096a04aa2e9" targetId="7fa4d704-7013-a8cf-dd12-b4a54bd5abad" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="75087fc8-1732-8730-8222-e5c904c7b92b" targetId="86a2750b-da3a-e862-9423-419273f4b6fd" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="11bd08d3-73bd-ab60-5d48-4f2fedbfb8f8" targetId="260d0909-ceed-b739-5310-9021942f40ba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="43966bd1-9f1a-539c-b77e-83b9e2d1d6f8" targetId="e4663792-213e-26ea-4958-9b7668df33a8" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="36eeea94-d532-d908-ec73-5b687d37d133" name="Crew" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
       <entries>
@@ -4655,6 +4958,15 @@
           <modifiers/>
         </link>
         <link id="45c7b882-f646-b2dd-636d-0b98b9021b57" targetId="128955b3-dd26-2afd-0055-802c4a47de15" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2b4b46ac-8eab-fe85-2212-893ee29004dd" targetId="33b67bc7-02d1-686f-7bf9-f7999c33c769" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d13bacdc-718b-89c5-3104-91a5b8b79913" targetId="e22d3d6f-11d5-c728-1fe0-c9b4d8a0a608" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ecc89188-ee20-f13e-39dd-5fc75fd31c7a" targetId="b9faa60b-7cbc-8e5e-4011-3459cd15a3bc" linkType="entry">
           <modifiers/>
         </link>
       </links>
