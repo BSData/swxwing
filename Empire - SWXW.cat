@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="21" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="24" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" name="FS Bounty Hunter" points="33.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
@@ -1431,7 +1431,7 @@
         </link>
       </links>
     </entry>
-    <entry id="86431e03-a87d-dcbf-2300-659603769ca8" name="T/D Delta Squadron Pilot" points="30.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="86431e03-a87d-dcbf-2300-659603769ca8" name="T/D Delta Squadron Pilot†" points="30.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1499,7 +1499,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7d4bf72f-037e-bcfa-cefe-f3a32e067807" name="T/D •Colonel Vessery" points="35.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="7d4bf72f-037e-bcfa-cefe-f3a32e067807" name="T/D •Colonel Vessery†" points="35.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1582,7 +1582,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ce360707-f31a-a30c-95e1-4b717f1bbb8b" name="T/D •Rexler Brath" points="37.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="ce360707-f31a-a30c-95e1-4b717f1bbb8b" name="T/D •Rexler Brath†" points="37.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3356,7 +3356,7 @@
         </link>
       </links>
     </entry>
-    <entry id="85b34629-013e-8603-8657-2a9acf94772d" name="T/P Sigma Squadron Pilot" points="25.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="85b34629-013e-8603-8657-2a9acf94772d" name="T/P Sigma Squadron Pilot†" points="25.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3437,7 +3437,7 @@
         </link>
       </links>
     </entry>
-    <entry id="60705d9a-5b91-d637-36ca-5a609d73f76c" name="T/P •&quot;Whisper&quot;" points="32.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="60705d9a-5b91-d637-36ca-5a609d73f76c" name="T/P •&quot;Whisper&quot;†" points="32.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3744,7 +3744,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="ba87cb5a-b645-753c-f75c-6eda161e6a06" name="Ion Pulse Missiles" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="ba87cb5a-b645-753c-f75c-6eda161e6a06" name="Ion Pulse Missiles†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3781,7 +3781,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="5830a5ea-5260-e33e-f58d-f6e099d469b6" name="Munitions Failsafe" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="5830a5ea-5260-e33e-f58d-f6e099d469b6" name="Munitions Failsafe†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3893,7 +3893,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="e7346974-c373-8b03-eb9e-334c181b029b" name="Stygium Particle Accelerator" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="e7346974-c373-8b03-eb9e-334c181b029b" name="Stygium Particle Accelerator†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4455,7 +4455,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="a4301419-caa6-0abd-acb8-fb7879ae2aaa" name="Wingman" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="a4301419-caa6-0abd-acb8-fb7879ae2aaa" name="Wingman†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4470,7 +4470,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="4814d72c-a93c-b9d7-20ae-19b15b111df5" name="Outmaneuver" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="4814d72c-a93c-b9d7-20ae-19b15b111df5" name="Outmaneuver†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4485,7 +4485,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="0726a59f-aacc-c870-9bfb-30f7bd2645a2" name="Predator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="0726a59f-aacc-c870-9bfb-30f7bd2645a2" name="Predator†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4756,7 +4756,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="d85b32c0-1b69-abb5-ad98-df7289272b33" name="Enhanced Scopes" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="d85b32c0-1b69-abb5-ad98-df7289272b33" name="Enhanced Scopes†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
