@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="24" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="26" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" name="FS Bounty Hunter" points="33.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
@@ -89,9 +89,9 @@
         </link>
         <link id="80dd5354-d06f-5222-805f-b8c3d4e72831" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -205,9 +205,9 @@
         </link>
         <link id="87284eec-dfa9-4027-1a87-f3c771c08ceb" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="55f108e0-7576-5470-8cbe-b79f6663a5bb" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="55f108e0-7576-5470-8cbe-b79f6663a5bb" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -321,9 +321,9 @@
         </link>
         <link id="81482114-1706-53c7-26f1-87fe89d2b287" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="37328b3b-ecc8-bb91-8714-af59825dc9a0" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="37328b3b-ecc8-bb91-8714-af59825dc9a0" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -428,9 +428,9 @@
         </link>
         <link id="89e1681d-d32b-d159-f144-f7b9c04c23ed" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="874f40ae-d171-5f27-beac-794042fe1e39" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="874f40ae-d171-5f27-beac-794042fe1e39" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -512,9 +512,9 @@
         </link>
         <link id="bac93e30-5bcc-2519-8706-c5fcce3f49d5" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -602,9 +602,9 @@
         </link>
         <link id="f373e4d7-8b7c-3c16-c17d-ae98ddcbed6f" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ba998080-9052-eb99-0e12-d8fc4d8efb98" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="ba998080-9052-eb99-0e12-d8fc4d8efb98" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -692,9 +692,9 @@
         </link>
         <link id="c5df61d3-e65c-f9a9-652f-01b61e4d68ac" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="fba2f951-a380-cabe-f9e3-66f123127891" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="fba2f951-a380-cabe-f9e3-66f123127891" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -782,9 +782,9 @@
         </link>
         <link id="3c441479-904f-6690-3db5-d8486eb025bc" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="7dabb71f-ea3b-bfb7-b868-87493d58dccf" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="7dabb71f-ea3b-bfb7-b868-87493d58dccf" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -844,9 +844,9 @@
         </link>
         <link id="988a1478-4ebf-751f-5eaf-206397f2a6c8" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="17ec93fb-d0ac-e06f-11e5-73cc448167c5" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="17ec93fb-d0ac-e06f-11e5-73cc448167c5" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -921,9 +921,9 @@
         </link>
         <link id="8b5f9fb0-d67c-a7ec-8749-398bace0e312" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="49ac3d55-33f5-b7e7-e3ef-9310c3d3334c" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="49ac3d55-33f5-b7e7-e3ef-9310c3d3334c" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1004,9 +1004,9 @@
         </link>
         <link id="aef126ab-e521-0acb-8058-a16124f4f771" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="fe12f41d-e18f-e711-1a80-011d6eb0d680" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="fe12f41d-e18f-e711-1a80-011d6eb0d680" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1087,9 +1087,9 @@
         </link>
         <link id="afaca783-03c9-a9d2-8f75-f7eab2638aa9" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="81b309dc-ce71-d318-a1c8-816385739e61" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="81b309dc-ce71-d318-a1c8-816385739e61" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1150,7 +1150,12 @@
           <modifiers/>
         </link>
         <link id="6cc7a458-b8e2-f66c-c2da-5d6b78a3dea8" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="de4f0b3d-95ea-3146-cdd4-df03c0099afb" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
@@ -1163,9 +1168,9 @@
         </link>
         <link id="3329464f-8a3c-eb2a-03e8-135449e8fc9f" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="17ead459-d3f3-a898-ac8a-1f0439828988" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="17ead459-d3f3-a898-ac8a-1f0439828988" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1226,7 +1231,12 @@
           <modifiers/>
         </link>
         <link id="c01c6318-77ca-5e16-92de-b4fe196e5caa" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="d6a0c099-15d2-ec06-056b-aa07e1d5d371" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
@@ -1239,9 +1249,9 @@
         </link>
         <link id="f93dfb7d-2b2a-3b1a-e28c-f9b493c0933e" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="45ba11fa-db8d-6697-abcd-2f3ba76e2ea6" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="45ba11fa-db8d-6697-abcd-2f3ba76e2ea6" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1314,7 +1324,12 @@
           <modifiers/>
         </link>
         <link id="93793d8c-05e7-956b-9b3a-d5fe514bca6e" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="0320e149-0329-d06e-5f7a-2f5025111850" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
           <modifiers/>
@@ -1330,9 +1345,9 @@
         </link>
         <link id="243b472f-0dbd-8308-d25a-fef1e161f6b8" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="aff8a3ef-f52f-ee8e-fd46-2742550824e5" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="aff8a3ef-f52f-ee8e-fd46-2742550824e5" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1405,7 +1420,12 @@
           <modifiers/>
         </link>
         <link id="15fd938b-c488-def2-7c0b-17527f2440ba" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="6e62e42b-2168-4819-bf1c-a428b6851bfd" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
           <modifiers/>
@@ -1421,9 +1441,9 @@
         </link>
         <link id="13c76f85-8eca-05d9-a0b5-d4039b056e5b" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="d01533a4-ad16-47b2-2b4e-e7b2290ae0e9" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="d01533a4-ad16-47b2-2b4e-e7b2290ae0e9" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1489,9 +1509,9 @@
         </link>
         <link id="169744e7-faac-87bb-ba94-4511bd021583" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="86431e03-a87d-dcbf-2300-659603769ca8" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="86431e03-a87d-dcbf-2300-659603769ca8" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1572,9 +1592,9 @@
         </link>
         <link id="d31cf626-d412-7387-2b7a-ba7258d94f9d" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="7d4bf72f-037e-bcfa-cefe-f3a32e067807" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="7d4bf72f-037e-bcfa-cefe-f3a32e067807" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1655,9 +1675,9 @@
         </link>
         <link id="2a8a3946-af8c-3567-1eb5-496402fbd8c4" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ce360707-f31a-a30c-95e1-4b717f1bbb8b" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="ce360707-f31a-a30c-95e1-4b717f1bbb8b" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1717,19 +1737,19 @@
         </link>
         <link id="a5a6d9e6-0825-4c37-f109-a8d19ffa1343" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ff946625-0dfa-e5da-b14d-c7ac009481b8" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="ff946625-0dfa-e5da-b14d-c7ac009481b8" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="d45254d1-0930-4d77-e6ac-fbf9dc1f10ec" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="d45254d1-0930-4d77-e6ac-fbf9dc1f10ec" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ff946625-0dfa-e5da-b14d-c7ac009481b8" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="ff946625-0dfa-e5da-b14d-c7ac009481b8" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1798,19 +1818,19 @@
         </link>
         <link id="071f72ef-7e86-2ecd-8df3-906de3439c20" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="d8633d64-2dce-a77c-b33a-60325036cfb5" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="d8633d64-2dce-a77c-b33a-60325036cfb5" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="2e81d890-acc5-8678-f97f-7a6bf7257a1a" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="2e81d890-acc5-8678-f97f-7a6bf7257a1a" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="d8633d64-2dce-a77c-b33a-60325036cfb5" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="d8633d64-2dce-a77c-b33a-60325036cfb5" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1870,19 +1890,19 @@
         </link>
         <link id="2042248d-ba36-ed8e-3fd6-b9841f6c2d68" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="21b3761e-475a-a73e-198f-a4ed3e1233f9" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="21b3761e-475a-a73e-198f-a4ed3e1233f9" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="80a62eed-bcc0-82e8-7b27-cf1b4a649dce" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="80a62eed-bcc0-82e8-7b27-cf1b4a649dce" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="21b3761e-475a-a73e-198f-a4ed3e1233f9" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="21b3761e-475a-a73e-198f-a4ed3e1233f9" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1948,19 +1968,19 @@
         </link>
         <link id="da366e2c-bf31-153a-bf7d-1ca501b4a471" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="0f3aca6c-a51a-a41e-8558-ad15050dfdc5" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="0f3aca6c-a51a-a41e-8558-ad15050dfdc5" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="c0899222-3733-8b29-086f-005e4e9347f3" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="c0899222-3733-8b29-086f-005e4e9347f3" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="0f3aca6c-a51a-a41e-8558-ad15050dfdc5" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="0f3aca6c-a51a-a41e-8558-ad15050dfdc5" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2026,19 +2046,19 @@
         </link>
         <link id="bfb3fc34-ab6a-f4ce-a49a-95cc8b045d36" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="00ebc47e-0d7b-7469-a53d-84be06130f28" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="00ebc47e-0d7b-7469-a53d-84be06130f28" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="07e4a494-5d41-6e21-7bb8-61ad91355549" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="07e4a494-5d41-6e21-7bb8-61ad91355549" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="00ebc47e-0d7b-7469-a53d-84be06130f28" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="00ebc47e-0d7b-7469-a53d-84be06130f28" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2113,19 +2133,19 @@
         </link>
         <link id="bb862801-1428-6a33-dd98-24874ec695e4" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="6bc815d9-447b-22b9-1cec-7ef7736b7436" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="6bc815d9-447b-22b9-1cec-7ef7736b7436" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="2e9f4eac-fd5a-9397-e1ee-f2d2d886dde1" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="2e9f4eac-fd5a-9397-e1ee-f2d2d886dde1" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="6bc815d9-447b-22b9-1cec-7ef7736b7436" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="6bc815d9-447b-22b9-1cec-7ef7736b7436" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2200,19 +2220,19 @@
         </link>
         <link id="fa691927-4d79-ba0e-6d67-1a148b873ea7" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ded5f73d-7b71-ca9f-7348-7e6dcebf1239" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="ded5f73d-7b71-ca9f-7348-7e6dcebf1239" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="0a3dbd2f-3f36-4ee2-ed6c-af3cbd2b928a" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="0a3dbd2f-3f36-4ee2-ed6c-af3cbd2b928a" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ded5f73d-7b71-ca9f-7348-7e6dcebf1239" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="ded5f73d-7b71-ca9f-7348-7e6dcebf1239" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2278,19 +2298,19 @@
         </link>
         <link id="14270b12-4edb-c4a6-786a-7192c46d6b14" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="c79a6f0b-1f64-8381-ff26-caa3805fc470" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="c79a6f0b-1f64-8381-ff26-caa3805fc470" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="f9b06998-b596-7f60-c0fc-43e6b73b4f22" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="f9b06998-b596-7f60-c0fc-43e6b73b4f22" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="c79a6f0b-1f64-8381-ff26-caa3805fc470" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="c79a6f0b-1f64-8381-ff26-caa3805fc470" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2356,19 +2376,19 @@
         </link>
         <link id="f5541baf-1940-5bae-ea86-548a2a4ef91c" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="8f46c106-d016-8c9f-0046-5c8c2162ea7f" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="8f46c106-d016-8c9f-0046-5c8c2162ea7f" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="fc789b6b-4ab1-84a4-5ba9-69d467b3cc08" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="fc789b6b-4ab1-84a4-5ba9-69d467b3cc08" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="8f46c106-d016-8c9f-0046-5c8c2162ea7f" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="8f46c106-d016-8c9f-0046-5c8c2162ea7f" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2420,7 +2440,7 @@
         <link id="d1e2a34a-0203-872d-7ae1-4fd44027dc36" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="61785815-fd46-8725-0199-4a4279e5a3b7" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="61785815-fd46-8725-0199-4a4279e5a3b7" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="87011e16-0d14-3d01-a649-5b683f706552" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -2429,11 +2449,11 @@
         <link id="c6e47b9c-f00a-8694-6f3c-ae7316c8e297" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="23c8676a-4453-528a-c4fd-22ab230e60d2" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="23c8676a-4453-528a-c4fd-22ab230e60d2" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="8ab98c69-b87e-68ff-0f72-118f373a08c1" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="8ab98c69-b87e-68ff-0f72-118f373a08c1" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2485,7 +2505,7 @@
         <link id="a1e8afcb-f541-1c3e-04dd-ada24928ac86" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="bdd697a1-5001-2298-0f93-803241c2f9e5" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="bdd697a1-5001-2298-0f93-803241c2f9e5" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="7205cf3d-ff35-b1fd-5ded-bb8337418d2b" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -2494,11 +2514,11 @@
         <link id="1f21069c-5c2b-cbf2-85a5-66386fdafff3" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e6dc5696-ed47-0277-30ec-b35354760e99" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="e6dc5696-ed47-0277-30ec-b35354760e99" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="73d4b279-2733-b539-d4d8-e6ac889e89f8" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="73d4b279-2733-b539-d4d8-e6ac889e89f8" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2577,7 +2597,7 @@
         <link id="2bc24279-bfdf-32ee-15fb-67f6008dcae9" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="98338ce8-5242-f86a-2ee2-ac291124bac4" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="98338ce8-5242-f86a-2ee2-ac291124bac4" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="431ffce3-9324-b0e7-d466-b146d2af9091" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -2586,11 +2606,11 @@
         <link id="9352a99f-1110-65ad-56cd-8f0d1b2f770c" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="75b2898a-cd22-d888-afbc-6ed77757d8fc" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="75b2898a-cd22-d888-afbc-6ed77757d8fc" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="05a91619-050a-b595-99eb-cce57e3d1ff5" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="05a91619-050a-b595-99eb-cce57e3d1ff5" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2676,7 +2696,7 @@
         <link id="d324c7fb-2964-e595-6ef4-7de6674af419" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="a0bb9468-8083-d87b-dfe2-31d7d20545b1" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="a0bb9468-8083-d87b-dfe2-31d7d20545b1" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="9fc9dfcc-4794-5146-c1d3-1f2f17ce904d" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -2685,11 +2705,11 @@
         <link id="f0470df1-1c01-f776-fd1c-88502692b34c" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="ca93e431-f7f4-fec8-b6c2-23bd66032095" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="ca93e431-f7f4-fec8-b6c2-23bd66032095" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="3b59fd6a-0366-a503-ea6c-f4ed5a5f5095" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="3b59fd6a-0366-a503-ea6c-f4ed5a5f5095" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2765,7 +2785,7 @@
         <link id="872d883e-aff2-9689-e755-d98843c22321" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="70a41f25-9dcf-443d-8175-adfd9d155142" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="70a41f25-9dcf-443d-8175-adfd9d155142" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="261b7c07-f83e-bc47-173b-9d3d55591f2e" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -2774,11 +2794,11 @@
         <link id="a58a9d3b-e844-f4ed-d37d-b564304ec238" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="f6ff4a95-5265-a747-d0b0-1301fd7a218c" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="f6ff4a95-5265-a747-d0b0-1301fd7a218c" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="e353a1dd-9bd1-ea01-6fb1-c6162e539cf6" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="e353a1dd-9bd1-ea01-6fb1-c6162e539cf6" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2863,7 +2883,7 @@
         <link id="c94d3b97-015a-230a-093d-dcc346bc3f81" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="db389b40-4179-c96d-1232-f5880bb20ef1" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="db389b40-4179-c96d-1232-f5880bb20ef1" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="dd6d79e7-541d-62a4-db13-70dfc47b080c" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -2872,11 +2892,11 @@
         <link id="bb331424-385b-35b8-b201-206ad91b4e35" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5a7c37f7-b74e-5650-f426-98ae7f55256e" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="5a7c37f7-b74e-5650-f426-98ae7f55256e" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="a4f51917-ed5c-8a1f-acc1-f6af97878720" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="a4f51917-ed5c-8a1f-acc1-f6af97878720" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2952,7 +2972,7 @@
         <link id="876ded9a-314b-d0fa-529e-70b8f277d252" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="aad4d06a-91be-9881-8c1b-3381dcc1d0a6" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="aad4d06a-91be-9881-8c1b-3381dcc1d0a6" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="2c9db972-1bb4-4700-1e5d-1de0b21ffa50" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -2961,11 +2981,11 @@
         <link id="e11d15de-ee89-5434-f3af-dd9dd798491b" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7565f1c3-9fe1-eac6-c5f5-2447ee750ac2" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="7565f1c3-9fe1-eac6-c5f5-2447ee750ac2" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="0939e6e4-ff9e-6af0-9e31-2596f2af6e72" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="0939e6e4-ff9e-6af0-9e31-2596f2af6e72" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3041,7 +3061,7 @@
         <link id="8dbe9b78-c88d-0cb9-a1ab-4e6652c5599a" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="de5f3a3d-808d-ba1d-1657-a87c4043f8e0" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="de5f3a3d-808d-ba1d-1657-a87c4043f8e0" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="8e8b7516-aa80-18f6-b959-2ed9dbbb7877" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -3050,11 +3070,11 @@
         <link id="f1aa366e-4c01-f0e0-c479-f2f47cfe29af" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="24e33a3c-3321-36ef-f86a-88c220ebd02c" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="24e33a3c-3321-36ef-f86a-88c220ebd02c" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="0d40e2d5-26f5-8ce5-56fd-1c6a39194df9" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="0d40e2d5-26f5-8ce5-56fd-1c6a39194df9" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3139,7 +3159,7 @@
         <link id="1c7a84da-ed50-eb5a-231f-65b119928218" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="4f19d4fa-c85f-f768-e5c7-bd1aedbcb34c" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="4f19d4fa-c85f-f768-e5c7-bd1aedbcb34c" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="0b81b438-f5d9-29c3-8002-9cf75b2e1c71" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -3148,11 +3168,11 @@
         <link id="0291c7e4-d509-6216-69df-741db55c0078" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c43e16b1-4126-a406-430e-e5dd6e0ca9d6" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="c43e16b1-4126-a406-430e-e5dd6e0ca9d6" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="fa2e0c9d-9cb6-fb90-58a7-e56cce870702" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="fa2e0c9d-9cb6-fb90-58a7-e56cce870702" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3237,7 +3257,7 @@
         <link id="af51db2a-5ff1-9840-f7bf-880ff605905d" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5c9c1268-bc7a-947a-d2aa-0ab5ec4fc6fb" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="5c9c1268-bc7a-947a-d2aa-0ab5ec4fc6fb" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="98f7019a-2dff-9439-c186-3c8271397120" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -3246,11 +3266,11 @@
         <link id="7bbe7ad8-4060-d703-e7f8-b1d1f6182479" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="123f56c4-4746-d20a-3a44-9ce424fd88b3" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="123f56c4-4746-d20a-3a44-9ce424fd88b3" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="d44dd637-cb70-3540-389e-bc121be6246c" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="d44dd637-cb70-3540-389e-bc121be6246c" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3335,7 +3355,7 @@
         <link id="b6cfae4f-4d1b-2deb-01aa-1da118183d3d" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="80d78ef6-c4f9-6e2b-78c8-b434b8ae17da" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+        <link id="80d78ef6-c4f9-6e2b-78c8-b434b8ae17da" targetId="30c61799-ea8b-1928-4f98-f95964d2b129" linkType="rule">
           <modifiers/>
         </link>
         <link id="270b6621-8963-1635-fb1a-76b60ea1c469" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
@@ -3344,11 +3364,92 @@
         <link id="582695a9-d735-22b2-a219-9e94efab1810" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e7f74e1e-0f99-c7ec-f23a-33ccaae1a29c" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="e7f74e1e-0f99-c7ec-f23a-33ccaae1a29c" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="af24129c-2d19-3e15-4671-7d0ce9ec1455" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="af24129c-2d19-3e15-4671-7d0ce9ec1455" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="0cb810e7-4c01-1b14-7fea-a9d652deeec2" name="T/P Shadow Squadron Pilot†" points="27.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f6bc313d-79da-a623-0684-e22012e13c56" profileTypeId="31536869707323232344415441232323" name="Shadow Squadron Pilot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="4"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Sensors, Crew"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="0cb810e7-4c01-1b14-7fea-a9d652deeec2" childId="abf7d91a-9d9e-1b62-1dec-d538c9bf1539" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="0cb810e7-4c01-1b14-7fea-a9d652deeec2" childId="d42382ad-b0f8-f83d-9d81-65852b819553" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="0cb810e7-4c01-1b14-7fea-a9d652deeec2" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="11b8908e-42b0-f6db-7163-203674564eb3" targetId="a458cc23-1004-1dcd-9d03-eb83119817c4" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="69fbef12-2e07-48f1-408c-f059622841ac" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5c380870-6d18-7b17-11d3-d6ec3e6a0e2f" targetId="4677c765-57fb-1da9-f01c-459dd324fe54" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="cdb7a2aa-797b-e02a-f9d4-1c5a684a6bd5" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a0b855a1-dfaf-2f73-b296-0962281cc8b0" targetId="c145000d-2b11-c32e-fa5e-11defb49ff1e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b7caeac8-1d6d-7b06-0c04-5973a2b7a44b" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dad2c830-e7d0-b9f3-c428-fa5af295c56a" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c4646905-b9d3-62bc-4681-fc891b2ce124" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="0cb810e7-4c01-1b14-7fea-a9d652deeec2" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="e275bdcc-f6a0-0993-ecd5-9c06e40f8a84" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="0cb810e7-4c01-1b14-7fea-a9d652deeec2" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3408,19 +3509,19 @@
         </link>
         <link id="b9569a2c-acc4-3b45-fc94-ab27112d57e0" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="85b34629-013e-8603-8657-2a9acf94772d" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="85b34629-013e-8603-8657-2a9acf94772d" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="b7879272-aa92-5309-ff7a-d6b36cb7802f" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="b7879272-aa92-5309-ff7a-d6b36cb7802f" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="85b34629-013e-8603-8657-2a9acf94772d" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="85b34629-013e-8603-8657-2a9acf94772d" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3434,6 +3535,102 @@
         </link>
         <link id="547a16b1-5055-2a52-386d-0479e0c3ed90" targetId="a458cc23-1004-1dcd-9d03-eb83119817c4" linkType="entry group">
           <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1bd8275c-7553-e164-3a0b-8950dace2875" name="T/P •&quot;Echo&quot;†" points="30.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b42b7b09-d004-dc85-1912-2d59c94457df" profileTypeId="31536869707323232344415441232323" name="•&quot;Echo&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="6"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="4"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Sensors, Crew"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="1bd8275c-7553-e164-3a0b-8950dace2875" childId="20760798-c41b-4865-fc96-19f012d80a13" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="1bd8275c-7553-e164-3a0b-8950dace2875" childId="d42382ad-b0f8-f83d-9d81-65852b819553" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="1bd8275c-7553-e164-3a0b-8950dace2875" childId="abf7d91a-9d9e-1b62-1dec-d538c9bf1539" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="1bd8275c-7553-e164-3a0b-8950dace2875" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="1789e3f3-9433-f5c6-2b88-d4ded1c5a903" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Echo&quot;" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When you decloak, you must use the [left bank 2] or [right bank 2] template instead of the [straight 2] template."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="90312323-6085-a38e-9446-59a79edf734d" targetId="a458cc23-1004-1dcd-9d03-eb83119817c4" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="652c9c2b-8b2f-baaa-a32a-ee146dfb0dc5" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="58ed828d-1d6e-a786-778a-2e65a88fab25" targetId="4677c765-57fb-1da9-f01c-459dd324fe54" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="49e3fe27-dd63-197f-efa5-bfc7a2c7963f" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="faaa7ff4-2a4b-cf52-0d2b-949097ec5b77" targetId="06523bf4-9247-1c9c-753e-c800ffd3f1a1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bc0d97a6-aeb4-5995-9e83-76882ef9ee37" targetId="c145000d-2b11-c32e-fa5e-11defb49ff1e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="27a9832a-8bf9-74f0-b99a-0930a0f0f9e4" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9e35dbfe-bdc2-816c-a17b-401e77d3dc6e" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f4cd485a-c0eb-a7a0-e7f9-a3b31f59a806" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="1bd8275c-7553-e164-3a0b-8950dace2875" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="c20d94bb-6541-d3f4-b300-aea6cd72b34f" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="1bd8275c-7553-e164-3a0b-8950dace2875" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -3501,19 +3698,19 @@
         </link>
         <link id="96502592-1db8-c210-59d2-45c4db1f032c" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="60705d9a-5b91-d637-36ca-5a609d73f76c" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="60705d9a-5b91-d637-36ca-5a609d73f76c" childId="10ab420d-65b4-4909-2eee-b7b6863c6824" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
-        <link id="8b0efef3-1b9f-d160-ab2e-43adb1843dc7" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+        <link id="8b0efef3-1b9f-d160-ab2e-43adb1843dc7" targetId="e90f4925-5b80-a934-2969-95896294256d" linkType="rule">
           <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="60705d9a-5b91-d637-36ca-5a609d73f76c" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="60705d9a-5b91-d637-36ca-5a609d73f76c" childId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3553,6 +3750,21 @@
         <profile id="60d8e6f2-92f8-cbfd-3b01-9962d3488071" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Adv. Proton Torpedoes" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Attack (target lock):  Spend your target lock and discard this card to perform this attack. You may change up to 3 of your blank results to [focus] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c85f1de3-b5ff-2d2c-b9ff-a804f3a0c648" name="Advanced Cloaking Device†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="284e81d1-b912-5393-12d4-cda6ba7e4032" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Advanced Cloaking Device" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After you perform an attack, you may perform a free cloak action."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3953,6 +4165,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="b8853b92-4761-bfaf-f0bd-9b5fbc4b8d35" name="WED-15 Repair Droid" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5badaa00-6001-5758-5589-74d11337e23d" profileTypeId="332e30334372657723232344415441232323" name="WED-15 Repair Droid" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Spend 1 energy to discard 1 of your facedown Damage cards, or spend 3 energy to discard 1 of your faceup Damage cards."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="d199de17-5e87-c51d-04b0-329ebf848a0b" name="•Darth Vader" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -4269,6 +4496,9 @@
           <modifiers/>
         </link>
         <link id="8350deb0-e14d-fbd6-5f6e-27d3d0918a10" targetId="9874d5e3-834d-3b5b-3dc7-de3021702cfe" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a3fd2896-cc12-73c3-ae9a-97a4b5f8e1a1" targetId="b8853b92-4761-bfaf-f0bd-9b5fbc4b8d35" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4601,6 +4831,9 @@
         <link id="6363d127-ceda-5517-7136-c68421bcc4e4" targetId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="e3c5ccc1-2f9d-d6fa-2056-2ff899d52200" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -4627,6 +4860,65 @@
           <modifiers/>
         </link>
         <link id="1728f312-d76d-d9cf-c3d7-0d88f5559c8e" targetId="5830a5ea-5260-e33e-f58d-f6e099d469b6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1e0f090b-35ef-3ed9-1e65-ff0a3ce25c73" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="76b68268-070c-3e72-1f15-b839933dd191" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="3a8f4c48-88b0-035b-0aea-ff96c48e18e9" targetId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="35a807bc-2cc6-fb02-077e-7e67a7d51574" targetId="10ab420d-65b4-4909-2eee-b7b6863c6824" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ee91cf2e-2433-4cbf-0ebd-ec85d1b88d0c" targetId="abf7d91a-9d9e-1b62-1dec-d538c9bf1539" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4dcad896-c784-7c64-c8ce-8e6f77ab0850" targetId="d42382ad-b0f8-f83d-9d81-65852b819553" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="10e4ece8-c372-89be-f7ba-b2d84b4a1003" targetId="cdfb9b25-3315-998d-6532-1a9934a71c40" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="583fb866-3c4d-1012-a317-a005f46b9713" targetId="5830a5ea-5260-e33e-f58d-f6e099d469b6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d5519080-0217-d8ad-1b87-3536ad65e3c8" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="1d2bd4e6-d071-231f-62c3-e3c1c08c18ac" targetId="10ab420d-65b4-4909-2eee-b7b6863c6824" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="855d2274-be3b-7ccf-6364-3eae777502a9" targetId="abf7d91a-9d9e-1b62-1dec-d538c9bf1539" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c3f8afe4-879d-7ab0-123d-03d9987be92e" targetId="5830a5ea-5260-e33e-f58d-f6e099d469b6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="28fa4413-6e74-aec5-2899-0393651e8733" targetId="d42382ad-b0f8-f83d-9d81-65852b819553" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2a421a8b-a5af-47bd-4f83-42b9091db7cf" targetId="cdfb9b25-3315-998d-6532-1a9934a71c40" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="89231f8e-1bd6-e588-a06f-5fa896acd829" targetId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9a4f47bf-7048-b8c2-d30f-7a951ad785f0" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4657,54 +4949,7 @@
         <link id="22274078-54c2-eb85-339e-cf44418febe6" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
           <modifiers/>
         </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="76b68268-070c-3e72-1f15-b839933dd191" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="3a8f4c48-88b0-035b-0aea-ff96c48e18e9" targetId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="35a807bc-2cc6-fb02-077e-7e67a7d51574" targetId="10ab420d-65b4-4909-2eee-b7b6863c6824" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ee91cf2e-2433-4cbf-0ebd-ec85d1b88d0c" targetId="abf7d91a-9d9e-1b62-1dec-d538c9bf1539" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4dcad896-c784-7c64-c8ce-8e6f77ab0850" targetId="d42382ad-b0f8-f83d-9d81-65852b819553" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="10e4ece8-c372-89be-f7ba-b2d84b4a1003" targetId="cdfb9b25-3315-998d-6532-1a9934a71c40" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="583fb866-3c4d-1012-a317-a005f46b9713" targetId="5830a5ea-5260-e33e-f58d-f6e099d469b6" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="1d2bd4e6-d071-231f-62c3-e3c1c08c18ac" targetId="10ab420d-65b4-4909-2eee-b7b6863c6824" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="855d2274-be3b-7ccf-6364-3eae777502a9" targetId="abf7d91a-9d9e-1b62-1dec-d538c9bf1539" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c3f8afe4-879d-7ab0-123d-03d9987be92e" targetId="5830a5ea-5260-e33e-f58d-f6e099d469b6" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="28fa4413-6e74-aec5-2899-0393651e8733" targetId="d42382ad-b0f8-f83d-9d81-65852b819553" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2a421a8b-a5af-47bd-4f83-42b9091db7cf" targetId="cdfb9b25-3315-998d-6532-1a9934a71c40" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="89231f8e-1bd6-e588-a06f-5fa896acd829" targetId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" linkType="entry">
+        <link id="a1bd4978-4b6b-1562-a9f1-e8b28b48b6bc" targetId="c85f1de3-b5ff-2d2c-b9ff-a804f3a0c648" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4792,7 +5037,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c7276d08-70c8-9319-bbb4-755eb87e6e95" name="Torpedoes" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+    <entryGroup id="c7276d08-70c8-9319-bbb4-755eb87e6e95" name="Torpedoes" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4813,7 +5058,10 @@
     <rule id="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" name="Barrel Roll" hidden="false" page="0">
       <modifiers/>
     </rule>
-    <rule id="06d3bc6f-f628-f8da-9314-25311f315d23" name="Boost" hidden="false" page="0">
+    <rule id="30c61799-ea8b-1928-4f98-f95964d2b129" name="Boost" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="06d3bc6f-f628-f8da-9314-25311f315d23" name="Boost" hidden="true" page="0">
       <modifiers/>
     </rule>
     <rule id="c145000d-2b11-c32e-fa5e-11defb49ff1e" name="Cloak" hidden="false" page="0">
@@ -4826,6 +5074,9 @@
       <modifiers/>
     </rule>
     <rule id="34781497-273f-2469-b1ef-94ffc2db5083" name="Target Lock" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="e90f4925-5b80-a934-2969-95896294256d" name="Target Lock" hidden="true" page="0">
       <modifiers/>
     </rule>
   </sharedRules>
