@@ -97,6 +97,9 @@
         <link id="bc0b5753-003a-484c-d0a9-91f2ba8ee1a7" targetId="93d86341-fc63-ab0f-db15-de74c8bd1715" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="34170364-c236-3e9b-6aaa-1035a2ae464d" targetId="f988a6f2-311b-c010-7d16-7abedb354e6d" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="00e43fd4-05fe-0a1a-6c80-ae5ca70ff04c" name="A-W Prototype Pilot" points="17.0" categoryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -160,6 +163,9 @@
           <modifiers/>
         </link>
         <link id="0a342db7-a2e3-1f0a-0838-5f010b10463e" targetId="93d86341-fc63-ab0f-db15-de74c8bd1715" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="dd6aad22-7460-beb1-f7c4-e75d7b43b8ac" targetId="f988a6f2-311b-c010-7d16-7abedb354e6d" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -266,6 +272,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="e7d1b096-0551-13de-2d0d-ecf9529a6e65" targetId="f988a6f2-311b-c010-7d16-7abedb354e6d" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="72c0296c-b863-071d-1cd0-066799914d23" name="A-W •Jake Farrell†" points="24.0" categoryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" hidden="false" page="0">
@@ -368,6 +377,9 @@
           <modifiers/>
         </link>
         <link id="65141318-52ae-cba7-9737-c12a682406e9" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bb520e39-053d-780a-9ddc-1fb268565459" targetId="f988a6f2-311b-c010-7d16-7abedb354e6d" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -474,6 +486,9 @@
         <link id="88d0d52c-6025-00e3-2916-b77b5251e3a0" targetId="93d86341-fc63-ab0f-db15-de74c8bd1715" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="647b74e5-94ba-de3d-8473-675f47ba68f4" targetId="f988a6f2-311b-c010-7d16-7abedb354e6d" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f2dd1913-ab04-da47-0ca4-db37a2321d61" name="B-W Blue Squadron Pilot" points="22.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -566,6 +581,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="0dfa33a4-502e-9db9-3ace-ce6f093f3816" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9d39f9a8-8473-1bec-3642-8fb51174ad79" name="B-W Dagger Squadron Pilot" points="24.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -657,6 +675,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="218c1cf6-478f-868f-cc57-f63ac1d73dae" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -765,6 +786,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="1013cb29-5790-8be8-f8ba-bb3824b9606d" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="a1ae33d3-e999-62e9-c680-708dd6a38416" name="B-W •Keyan Farlander†" points="29.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -871,6 +895,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="6fb93326-8d98-38ac-fe1e-438878f97546" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -979,6 +1006,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="075ad2db-fd24-5cda-8e32-11e9f5785bdd" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="a8abf554-54ec-748d-1418-8c7e74972a2a" name="CR90 Corvette" points="0.0" categoryId="854ebba2-ba2e-3d8d-954e-494a9bf97ce5" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -1009,7 +1039,7 @@
             <profile id="1a2763a5-26cc-d155-c2bd-73b736ab8088" profileTypeId="00cb6ab5-6bfa-0854-5849-f0149f71bc90" name="CR90 Corvette (Fore)" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="f5301fdb-8a00-84c5-0ea6-c09c828cc617" name="Pilot Skill" value="4"/>
-                <characteristic characteristicId="10285ec3-de2a-0880-45cc-46ceeed43dee" name="Primary Weapon" value="4 (3-5)"/>
+                <characteristic characteristicId="10285ec3-de2a-0880-45cc-46ceeed43dee" name="Primary Weapon" value="4"/>
                 <characteristic characteristicId="d8bffd2a-dbed-fab5-8c95-cd05842a3992" name="Energy Limit"/>
                 <characteristic characteristicId="cd566978-1c76-26ce-ee14-45a97972c436" name="Agility" value="0"/>
                 <characteristic characteristicId="dcdbaa57-cf03-7585-d0c0-404b34db4f0b" name="Hull" value="8"/>
@@ -1046,7 +1076,7 @@
             <profile id="fe2c57be-2e85-6367-e5b8-859c75969da8" profileTypeId="00cb6ab5-6bfa-0854-5849-f0149f71bc90" name="CR90 Corvette (Fore) [Crippled]" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="f5301fdb-8a00-84c5-0ea6-c09c828cc617" name="Pilot Skill" value="4"/>
-                <characteristic characteristicId="10285ec3-de2a-0880-45cc-46ceeed43dee" name="Primary Weapon" value="2 (3-5)"/>
+                <characteristic characteristicId="10285ec3-de2a-0880-45cc-46ceeed43dee" name="Primary Weapon" value="2"/>
                 <characteristic characteristicId="d8bffd2a-dbed-fab5-8c95-cd05842a3992" name="Energy Limit" value=""/>
                 <characteristic characteristicId="cd566978-1c76-26ce-ee14-45a97972c436" name="Agility" value="-"/>
                 <characteristic characteristicId="dcdbaa57-cf03-7585-d0c0-404b34db4f0b" name="Hull" value="-"/>
@@ -1184,7 +1214,11 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="e27bf24c-7e6b-2dce-2968-4fd9fd0f8b7c" targetId="b412b57d-c172-079e-d932-a00f26aea36c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="e2143a8e-94db-b970-d8e8-ab95bfa89fca" name="E-W Blackmoon Squadron Pilot†" points="29.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
@@ -1280,6 +1314,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="bd674ea4-30be-0655-882d-1b7b5f66c8bd" targetId="d4c5e104-6058-e728-a6c5-e77d759b9c19" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="E-W Knave Squadron Pilot†" points="27.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -1353,6 +1390,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="937ebb5e-3643-8b53-f759-f71408a0c21e" targetId="d4c5e104-6058-e728-a6c5-e77d759b9c19" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -1443,6 +1483,9 @@
         <link id="af99781f-4398-b6d3-7fb4-5f942ba35ccc" targetId="78fd6480-0f7c-ffb0-e00b-87196180eb88" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="3b547fc7-dad0-0a03-29c5-339b8a58f6b3" targetId="d4c5e104-6058-e728-a6c5-e77d759b9c19" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="28187091-d53d-09cc-bb52-58fe7ad34bce" name="E-W •Etahn A&apos;baht†" points="32.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -1530,6 +1573,9 @@
           </modifiers>
         </link>
         <link id="2dbc79f9-b842-8c91-5732-2970ff3c89fd" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="26a26bd5-5865-55ce-0b1b-89317011104a" targetId="d4c5e104-6058-e728-a6c5-e77d759b9c19" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1627,6 +1673,9 @@
         <link id="dd498e6a-654c-9376-0d27-27263a2cec94" targetId="7b35c875-8c1a-83f8-97f6-4ca29ba32d1a" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="4033f4d9-3bb5-abc0-5c85-869be1856c9c" targetId="3da23787-37f8-de11-11fc-155f0f091577" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c9da1ddf-2e6d-c9c4-60e0-7ba0319b5229" name="HWK Rebel Operative" points="16.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -1702,6 +1751,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="c2fe61ff-ea47-e35f-1736-1ecb70707c46" targetId="857a64f1-695d-c79c-907b-bc6dd73148fe" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -1794,6 +1846,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="3dc79f0b-109e-4063-b511-4d1aac463651" targetId="857a64f1-695d-c79c-907b-bc6dd73148fe" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="fc08990d-32b0-6f52-0f02-f5b7aae7700a" name="HWK •Kyle Katarn" points="21.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -1885,6 +1940,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="0c7b4b6e-19a0-0b71-02f6-bbe9d270b595" targetId="857a64f1-695d-c79c-907b-bc6dd73148fe" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9846b55e-fa59-edbb-2c71-37a07c8ddea4" name="HWK •Roark Garnet" points="19.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -1966,6 +2024,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="d65a2285-a6dc-0c27-4b77-8196635e2ff8" targetId="857a64f1-695d-c79c-907b-bc6dd73148fe" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2054,6 +2115,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="1cfd5fa6-7e4f-6e63-ffed-e19a41e8535b" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f7e7336f-0515-333c-880a-49798393e7f8" name="X-W Rookie Pilot" points="21.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -2118,6 +2182,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="18c79be5-5d13-e9a6-95ab-5541f8ed668a" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2212,6 +2279,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="604af691-38e8-1483-b3ee-f2ddf8fdc86d" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="5a95bbae-0e98-afc8-a0ba-1ac1f7e8daa9" name="X-W •Biggs Darklighter" points="25.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -2304,6 +2374,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="aaa536f7-44e0-6b01-92f3-61e5ed9f28b1" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2398,6 +2471,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="a9e9a587-fcf2-9e6c-24a2-783b051bcf8b" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="ff32dd3e-265d-44bd-3e30-985cc54dcc97" name="X-W •Jek Porkins" points="26.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -2476,6 +2552,9 @@
           <modifiers/>
         </link>
         <link id="f12dbd3a-790e-5dfd-f9f9-ac37d73381cc" targetId="78fd6480-0f7c-ffb0-e00b-87196180eb88" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="fd77364a-ab6b-b9e1-7937-cb2923f521c5" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2557,6 +2636,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="7f22b45b-4540-1bed-5bd8-d2b46446032d" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2651,6 +2733,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="0bdfbd63-b8f2-4836-fe0b-56c1c1514065" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="da7237a6-5661-d893-c50a-1adc41d02055" name="X-W •Wedge Antillies" points="29.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -2730,6 +2815,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="76a86d07-a56c-49e5-6fa7-0e633994ef63" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2811,6 +2899,9 @@
         <link id="b9444cb9-c2d7-439d-3a7c-f1f02299733d" targetId="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="ba7bf1eb-2eda-df0d-829a-53fc610464cd" targetId="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="6eb58898-813b-3f9a-ee82-bb4d07434c31" name="Y-W Gold Squadron Pilot" points="18.0" categoryId="b3c1c304-3188-a645-b4da-26fd616a9304" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -2883,6 +2974,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="7d4acf76-4f11-0e48-8b85-aa620874cd86" targetId="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2978,6 +3072,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="67910ea5-8600-e624-983c-402d337f8897" targetId="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -3080,6 +3177,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="db283dd3-0b9c-06d3-1b7a-26f9ffdac59d" targetId="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="e18006c3-2f07-b6a0-cad1-7e648a568eb4" name="Y-W •Horton Salm" points="25.0" categoryId="b3c1c304-3188-a645-b4da-26fd616a9304" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -3181,6 +3281,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="cbfacecb-f631-6826-ca35-3d8b082d0461" targetId="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="74829344-7635-3ed4-1fc4-e188d4d21e5c" name="YT13 Outer Rim Smuggler" points="27.0" categoryId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -3268,6 +3371,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="d591afcc-51ed-8e3c-651a-057ca9409d13" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -3375,6 +3481,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="bdd138f4-8482-f723-edbf-9920280bf86a" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="44792c3a-5411-9276-9786-6a6ff2b7608e" name="YT13 •Han Solo" points="46.0" categoryId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -3480,6 +3589,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="cbcbe024-6cf6-3472-4e35-e7270c56a5e3" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -3587,6 +3699,9 @@
         <link id="256b4007-24f6-43d9-cb96-fa7f04860656" targetId="dd21508f-8798-3e2e-ae30-16613096cf4a" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="83618076-e6b7-10d8-96db-42ee0b2291c0" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="acbb931d-dbf0-7e0d-d91d-319f712547f8" name="YT24 •Dash Rendar†" points="36.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -3641,10 +3756,16 @@
               <conditionGroups/>
             </modifier>
             <modifier type="set" field="5072696d61727920576561706f6e23232344415441232323" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="acbb931d-dbf0-7e0d-d91d-319f712547f8" childId="8dacce24-f74b-0a23-f4b2-045fee5edc17" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="acbb931d-dbf0-7e0d-d91d-319f712547f8" childId="8dacce24-f74b-0a23-f4b2-045fee5edc17" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="acbb931d-dbf0-7e0d-d91d-319f712547f8" childId="785fee7c-ecaa-66a5-94f4-6497f4196314" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </profile>
@@ -3689,6 +3810,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="dfde49e9-bac2-2d25-71c2-200c7aef091c" targetId="8a03f483-b4c8-7535-c3da-f8bfcffce346" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -3752,6 +3876,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="81981b45-5452-8103-5285-d617c311f0cc" targetId="6dedcf14-27b9-c2b5-40f5-df73957310c6" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="8ee6299d-6b09-1c99-eb0d-7ceeb6287f73" name="Z-95 Tala Squadron Pilot†" points="13.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -3813,6 +3940,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="828f7d94-bdca-af10-be76-e57f1e37c2b1" targetId="6dedcf14-27b9-c2b5-40f5-df73957310c6" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -3891,6 +4021,9 @@
         <link id="bb1d5e23-f585-9a05-7373-26447c45534f" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="36c32cca-871a-fda1-6eec-76a30e0838a3" targetId="6dedcf14-27b9-c2b5-40f5-df73957310c6" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c7349390-7560-1af5-e6dc-14352fc5cd13" name="Z-95 •Lieutenant Blount†" points="17.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -3966,6 +4099,9 @@
           </modifiers>
         </link>
         <link id="c49a86a9-705a-cdac-20c6-f1f61817ce25" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d4e0f07e-7823-b0cb-4637-067c991ef1fa" targetId="6dedcf14-27b9-c2b5-40f5-df73957310c6" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -5082,6 +5218,28 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="9eb90f5d-3d76-37db-f3c0-fb6cf743b310" name="•Lando Calrissian†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="fec31098-536a-403b-1603-7ab0ad1c4b71" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="6a3e0ba4-dcaa-67f5-2717-dc94fa531c08" profileTypeId="332e30334372657723232344415441232323" name="•Lando Calrissian" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Roll 2 defense dice. For each [focus] result, assign 1 focus token to your ship. For each [evade] result, assign 1 evade token to your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="29b6d0df-61cc-899d-0089-4660fca5e1fe" name="•Leia Organa" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5158,6 +5316,21 @@
         <profile id="5ddf6608-38d9-c964-482b-abc44e81d8ab" profileTypeId="332e30334372657723232344415441232323" name="•Nien Nunb" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may treat all [straight] maneuvers as green maneuvers."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="8dacce24-f74b-0a23-f4b2-045fee5edc17" name="•Outrider†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8b59b722-8a6f-cf7b-231f-68d4b295c0ff" profileTypeId="332e30315469746c6523232344415441232323" name="•Outrider" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="While you have a [cannon] Upgrade card equipped, you cannot perform primary weapon attacks and you may perform [cannon] secondary weapon attacks against ships outside your firing arc."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5392,43 +5565,6 @@
         <profile id="0a2c9e13-080e-9395-7d4d-5c8f00f1015b" profileTypeId="332e30334372657723232344415441232323" name="•Toryn Farr" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Spend any amount of energy to choose that many enemy ships at Range 1-2. Remove all focus, evade, and blue target lock tokens from those ships."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="8dacce24-f74b-0a23-f4b2-045fee5edc17" name="•Outrider†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8b59b722-8a6f-cf7b-231f-68d4b295c0ff" profileTypeId="332e30315469746c6523232344415441232323" name="•Outrider" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="While you have a [cannon] Upgrade card equipped, you cannot perform primary weapon attacks and you may perform [cannon] secondary weapon attacks against ships outside your firing arc."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="9eb90f5d-3d76-37db-f3c0-fb6cf743b310" name="•Lando Calrissian†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="fec31098-536a-403b-1603-7ab0ad1c4b71" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles>
-        <profile id="6a3e0ba4-dcaa-67f5-2717-dc94fa531c08" profileTypeId="332e30334372657723232344415441232323" name="•Lando Calrissian" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Roll 2 defense dice. For each [focus] result, assign 1 focus token to your ship. For each [evade] result, assign 1 evade token to your ship."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6567,5 +6703,105 @@
       <modifiers/>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="8a03f483-b4c8-7535-c3da-f8bfcffce346" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="YT-2400" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f988a6f2-311b-c010-7d16-7abedb354e6d" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="A-Wing" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="43a1c728-1842-b681-33d5-352d14e1d88f" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="B-Wing" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b412b57d-c172-079e-d932-a00f26aea36c" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="CR90 Corvette" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Huge"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret, Range 3-5"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="Yes"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points" value="3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d4c5e104-6058-e728-a6c5-e77d759b9c19" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="E-Wing" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3da23787-37f8-de11-11fc-155f0f091577" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="GR-75 Medium Transport" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Huge"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="None"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="Yes"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points" value="2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="857a64f1-695d-c79c-907b-bc6dd73148fe" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="HWK-290" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="X-Wing" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Y-Wing" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6dedcf14-27b9-c2b5-40f5-df73957310c6" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Z-95 Headhunter" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="57f2725c-a960-c304-a697-fa62d5c3488f" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="YT-1300" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
 </catalogue>

@@ -211,7 +211,7 @@
       <characteristics>
         <characteristic id="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size"/>
         <characteristic id="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon"/>
-        <characteristic id="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic"/>
+        <characteristic id="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon"/>
         <characteristic id="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
     </profileType>
