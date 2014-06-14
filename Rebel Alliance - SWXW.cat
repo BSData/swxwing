@@ -1011,7 +1011,7 @@
         </link>
       </links>
     </entry>
-    <entry id="a8abf554-54ec-748d-1418-8c7e74972a2a" name="CR90 Corvette" points="0.0" categoryId="854ebba2-ba2e-3d8d-954e-494a9bf97ce5" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="a8abf554-54ec-748d-1418-8c7e74972a2a" name="CR90 Corvette" points="0.0" categoryId="4d5ff5f5-7111-78aa-bc54-d84cce160888" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries>
         <entry id="1176775e-0e68-cf12-01fe-27b782a15479" name="CR90 Corvette (Fore)" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
           <entries/>
@@ -1580,7 +1580,7 @@
         </link>
       </links>
     </entry>
-    <entry id="114cccd7-db12-855e-4a62-993908968b8a" name="GR-75 Medium Transport" points="30.0" categoryId="854ebba2-ba2e-3d8d-954e-494a9bf97ce5" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" hidden="false" page="0">
+    <entry id="114cccd7-db12-855e-4a62-993908968b8a" name="GR-75 Medium Transport" points="30.0" categoryId="4d5ff5f5-7111-78aa-bc54-d84cce160888" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="87faa50e-8f7a-5cd5-6914-2f3f73f09a93" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
@@ -6704,15 +6704,6 @@
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="8a03f483-b4c8-7535-c3da-f8bfcffce346" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="YT-2400" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
-        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
-        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="f988a6f2-311b-c010-7d16-7abedb354e6d" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="A-Wing" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
@@ -6785,19 +6776,28 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6dedcf14-27b9-c2b5-40f5-df73957310c6" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Z-95 Headhunter" hidden="false" page="0">
+    <profile id="57f2725c-a960-c304-a697-fa62d5c3488f" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="YT-1300" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="57f2725c-a960-c304-a697-fa62d5c3488f" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="YT-1300" hidden="false" page="0">
+    <profile id="8a03f483-b4c8-7535-c3da-f8bfcffce346" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="YT-2400" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
         <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6dedcf14-27b9-c2b5-40f5-df73957310c6" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Z-95 Headhunter" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
