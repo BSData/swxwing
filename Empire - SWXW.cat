@@ -100,6 +100,9 @@
         <link id="5baf7d33-3f52-6d01-1eaa-7c1db72719f2" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="40878a85-bcbd-5c70-956c-b10b653de7fb" targetId="a26c47c4-9b55-6a64-c306-eca014e8d76a" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="55f108e0-7576-5470-8cbe-b79f6663a5bb" name="FS •Boba Fett" points="39.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -214,6 +217,9 @@
           </modifiers>
         </link>
         <link id="5d7bf790-e233-91d2-626d-98f237fcd792" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c05adaf4-386a-41fe-ff33-9ce77e04e41c" targetId="a26c47c4-9b55-6a64-c306-eca014e8d76a" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -332,6 +338,9 @@
         <link id="20cd60bd-a1cc-c1fb-5434-b6f0b0ccd7ae" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="7dd3a5ac-452e-ead8-3e4c-f2fd2960b2d3" targetId="a26c47c4-9b55-6a64-c306-eca014e8d76a" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="874f40ae-d171-5f27-beac-794042fe1e39" name="FS •Krassis Trelix" points="36.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -439,6 +448,9 @@
         <link id="0522910a-482d-e581-2f83-1006e06b5560" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="05c5d200-c312-3123-91c9-76f2626f9c39" targetId="a26c47c4-9b55-6a64-c306-eca014e8d76a" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" name="LS Omicron Group Pilot" points="21.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -521,6 +533,9 @@
           </modifiers>
         </link>
         <link id="11639fce-241e-52d9-3b57-6a9267cf10f8" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d8c5b0e9-5e7e-9118-8509-0067953db3ea" targetId="39d979af-507c-5da3-39ed-14515a62a0cb" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -613,6 +628,9 @@
         <link id="352aaf02-92be-c609-eaac-49b1953f8034" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="5dc85b66-1abc-de8b-436b-7446eb666547" targetId="39d979af-507c-5da3-39ed-14515a62a0cb" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="fba2f951-a380-cabe-f9e3-66f123127891" name="LS •Captain Yorr" points="24.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -701,6 +719,9 @@
           </modifiers>
         </link>
         <link id="db30e97f-b3a6-8cbf-fc75-596ad99e6c78" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4d88216c-cec8-16bd-52d7-b9256b9e7222" targetId="39d979af-507c-5da3-39ed-14515a62a0cb" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -793,6 +814,9 @@
         <link id="6765e3cd-9576-8fa8-356a-030b092042e1" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="239331be-3c29-43a8-4a07-4c7bcc80b82a" targetId="39d979af-507c-5da3-39ed-14515a62a0cb" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="17ec93fb-d0ac-e06f-11e5-73cc448167c5" name="T/A Storm Squadron Pilot" points="23.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -859,6 +883,9 @@
           <modifiers/>
         </link>
         <link id="3d813727-2de8-4d9e-17be-752a08683038" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="25927b16-e0d2-2ccd-570a-5d19bb42ce37" targetId="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -928,6 +955,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="21eb5dbd-01b3-200f-fba0-7cba502941e6" targetId="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -1012,6 +1042,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="4042da9b-1bcd-2007-acb9-7d6083930d65" targetId="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="81b309dc-ce71-d318-a1c8-816385739e61" name="T/A •Maarek Stele" points="27.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -1095,6 +1128,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="dfb1ae5f-59e8-950e-cecc-7438ec11be0d" targetId="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="17ead459-d3f3-a898-ac8a-1f0439828988" name="T/B Gamma Squadron Pilot" points="18.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -1176,6 +1212,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="5b7cd6a8-6506-b0b0-dc73-9092a3c5c0b6" targetId="a297d578-0917-8842-4c0b-7cf366b77b9e" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="45ba11fa-db8d-6697-abcd-2f3ba76e2ea6" name="T/B Scimitar Squadron Pilot" points="16.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -1256,6 +1295,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="3dd4be40-50bb-a688-e887-1cc59c6886cc" targetId="a297d578-0917-8842-4c0b-7cf366b77b9e" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -1353,6 +1395,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="8294b609-2c4a-d9f7-fe1d-3177557d5a50" targetId="a297d578-0917-8842-4c0b-7cf366b77b9e" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="d01533a4-ad16-47b2-2b4e-e7b2290ae0e9" name="T/B •Major Rhymer" points="26.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -1449,6 +1494,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="f443694b-ba12-a3a8-bb85-5f303def2313" targetId="a297d578-0917-8842-4c0b-7cf366b77b9e" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="86431e03-a87d-dcbf-2300-659603769ca8" name="T/D Delta Squadron Pilot†" points="30.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -1517,6 +1565,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="0743ac01-9d14-a868-391f-507041dc88ae" targetId="3f36f029-e215-9c25-266f-1a1bb0f43abe" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="8a42fb9b-66d6-9fdf-4067-f6d067c37c77" name="T/D Onyx Squadron Pilot†" points="32.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -1583,6 +1634,9 @@
           <modifiers/>
         </link>
         <link id="2f95954d-9b72-f50f-39a8-63a971b3b91d" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4f96e932-4ddb-091b-2156-90d9d5cf3790" targetId="3f36f029-e215-9c25-266f-1a1bb0f43abe" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1668,6 +1722,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="2adee18d-8c20-d3bf-14e6-509a17ed147c" targetId="3f36f029-e215-9c25-266f-1a1bb0f43abe" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="ce360707-f31a-a30c-95e1-4b717f1bbb8b" name="T/D •Rexler Brath†" points="37.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -1751,6 +1808,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="a31bcd69-69bb-44ca-eeb7-d5d23aab2ae6" targetId="3f36f029-e215-9c25-266f-1a1bb0f43abe" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="T/F Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -1822,6 +1882,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="71792cfd-794e-687c-7307-cc1bf31a9051" targetId="13cbac1a-819a-e33d-9be1-6abfd1a45063" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -1904,6 +1967,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="28677cb3-deef-8348-dcb2-8a4ce77b8e46" targetId="13cbac1a-819a-e33d-9be1-6abfd1a45063" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="21b3761e-475a-a73e-198f-a4ed3e1233f9" name="T/F Obsidian Squadron Pilot" points="13.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -1975,6 +2041,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="5e0324b1-d0da-7c3c-46a4-fc96a5a7f99b" targetId="13cbac1a-819a-e33d-9be1-6abfd1a45063" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2054,6 +2123,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="2cabf33b-ca68-e896-3634-d79e68f66970" targetId="13cbac1a-819a-e33d-9be1-6abfd1a45063" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="00ebc47e-0d7b-7469-a53d-84be06130f28" name="T/F •&quot;Dark Curse&quot;" points="16.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -2131,6 +2203,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="4277a589-96fc-0903-c9b7-349564d81999" targetId="13cbac1a-819a-e33d-9be1-6abfd1a45063" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2219,6 +2294,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="204e062d-2618-2d89-b67e-70df059eb4e9" targetId="13cbac1a-819a-e33d-9be1-6abfd1a45063" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="ded5f73d-7b71-ca9f-7348-7e6dcebf1239" name="T/F •&quot;Mauler Mithel&quot;" points="17.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -2306,6 +2384,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="092bb81b-01f1-e8c2-4471-e94872dd90b8" targetId="13cbac1a-819a-e33d-9be1-6abfd1a45063" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c79a6f0b-1f64-8381-ff26-caa3805fc470" name="T/F •&quot;Night Beast&quot;" points="15.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -2383,6 +2464,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="6e178360-c3a2-ae95-c68e-7c2a8a7f68e6" targetId="13cbac1a-819a-e33d-9be1-6abfd1a45063" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2462,6 +2546,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="ca898eba-b74d-7ebe-8e3a-a64f881c5542" targetId="13cbac1a-819a-e33d-9be1-6abfd1a45063" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="8ab98c69-b87e-68ff-0f72-118f373a08c1" name="T/I Alpha Squadron Pilot" points="18.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -2527,6 +2614,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="8224c1e8-d21f-16f1-4d36-704a8f534ffb" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="73d4b279-2733-b539-d4d8-e6ac889e89f8" name="T/I Avenger Squadron Pilot" points="20.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -2591,6 +2681,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="0f0933ff-de2f-eb48-8827-568aacc97930" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2683,6 +2776,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="b5dd2f4c-1be2-71a1-d69d-e76488201c05" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2783,6 +2879,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="447dc70f-7f35-c7d3-a458-192bdcacf5f8" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="e353a1dd-9bd1-ea01-6fb1-c6162e539cf6" name="T/I •&quot;Fel&apos;s Wrath&quot;" points="23.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -2871,6 +2970,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="b0e654a8-3819-8deb-2177-90fe49ae5b73" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2970,6 +3072,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="2fc99806-ea30-a18e-c3dc-7c63a9421c60" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="0939e6e4-ff9e-6af0-9e31-2596f2af6e72" name="T/I •Kir Kanos" points="24.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" book="" page="0">
@@ -3059,6 +3164,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="c4d80629-f257-961f-b480-eda1c15a0ada" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="0d40e2d5-26f5-8ce5-56fd-1c6a39194df9" name="T/I •Lieutenant Lorrir" points="23.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -3147,6 +3255,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="8e397eca-95bf-2d72-73a0-be7ee417b603" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -3246,6 +3357,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="f90e7698-8665-86ce-2b5a-ab211bfb2c81" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="d44dd637-cb70-3540-389e-bc121be6246c" name="T/I •Tetran Cowall" points="24.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -3343,6 +3457,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="68242c16-cb51-af68-b192-9c2fad119d2d" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -3442,6 +3559,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="cfa0f832-ef39-bc86-cc30-c6d6ed2fcfbb" targetId="cf234dce-ebb4-1a70-7213-d3ede914bc18" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="0cb810e7-4c01-1b14-7fea-a9d652deeec2" name="T/P Shadow Squadron Pilot†" points="27.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -3523,6 +3643,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="893de9a6-d994-1976-7daa-a2eea11b0c23" targetId="4fdd784f-546a-dadb-6b4e-4f0cc15255b0" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="85b34629-013e-8603-8657-2a9acf94772d" name="T/P Sigma Squadron Pilot†" points="25.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -3602,6 +3725,9 @@
           <modifiers/>
         </link>
         <link id="547a16b1-5055-2a52-386d-0479e0c3ed90" targetId="a458cc23-1004-1dcd-9d03-eb83119817c4" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="e8b2b1d4-5b07-7f8a-3409-3b7f63c03c29" targetId="4fdd784f-546a-dadb-6b4e-4f0cc15255b0" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -3700,6 +3826,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="ffb0c8d9-f36c-dcb1-ac0a-dec1447efe37" targetId="4fdd784f-546a-dadb-6b4e-4f0cc15255b0" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="60705d9a-5b91-d637-36ca-5a609d73f76c" name="T/P •&quot;Whisper&quot;†" points="32.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -3796,6 +3925,9 @@
         <link id="674aa263-f21f-68ee-198a-57b8370ea1b1" targetId="a458cc23-1004-1dcd-9d03-eb83119817c4" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="07eb179a-9f39-21cc-4127-5c749b17e84f" targetId="4fdd784f-546a-dadb-6b4e-4f0cc15255b0" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="664786ed-de17-e3be-19f1-f03d981e86f8" name="VT-49 •Rear Admiral Chiraneau†" points="46.0" categoryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
@@ -3887,6 +4019,9 @@
           <modifiers/>
         </link>
         <link id="60dafd9a-8dea-3630-854b-9d1ad01bbfe8" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="2b3f493e-17b4-535b-7f50-597efe7c4cc8" targetId="9645f782-da69-5241-6b12-99189c689611" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -4044,6 +4179,21 @@
         <profile id="4019e894-e96f-ff5b-dd95-706b30f94b11" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Flechette Torpedoes" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Attack (target lock): Discard this card and spend your target lock to perform this attack. After you perform this attack, the defender receives 1 stress token if its hull value is &quot;4&quot; or lower."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="82dd7305-076e-76cb-c46b-16e944b61f0c" name="Fleet Officer†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="080c057a-4866-26ea-0f03-c1a1d644085a" profileTypeId="332e30334372657723232344415441232323" name="Fleet Officer" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Choose up to 2 friendly ships within Range 1-2 and assign 1 focus token to each of these ships. Then receive 1 stress token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4393,6 +4543,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="7f0c8075-9cd2-75cd-bd5d-a657f99a4bc1" name="•Mara Jade†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d30f4ea1-307f-3249-0ef0-db5d3199197f" profileTypeId="332e30334372657723232344415441232323" name="•Mara Jade" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the end of the Combat phase, each enemy ship at Range 1 that does not have a stress token receives 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="12835746-d073-eb83-9a32-8f881d468a85" name="•Rebel Captive" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -4447,36 +4612,6 @@
         <profile id="7a11235b-ffc0-ef58-aed3-301a0cd9cbde" profileTypeId="332e30315469746c6523232344415441232323" name="•ST-321" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="When acquiring a target lock, you may lock onto any enemy ship in the play area."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="7f0c8075-9cd2-75cd-bd5d-a657f99a4bc1" name="•Mara Jade†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="d30f4ea1-307f-3249-0ef0-db5d3199197f" profileTypeId="332e30334372657723232344415441232323" name="•Mara Jade" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the end of the Combat phase, each enemy ship at Range 1 that does not have a stress token receives 1 stress token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="82dd7305-076e-76cb-c46b-16e944b61f0c" name="Fleet Officer†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="080c057a-4866-26ea-0f03-c1a1d644085a" profileTypeId="332e30334372657723232344415441232323" name="Fleet Officer" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Choose up to 2 friendly ships within Range 1-2 and assign 1 focus token to each of these ships. Then receive 1 stress token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5340,5 +5475,87 @@
       <modifiers/>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="a26c47c4-9b55-6a64-c306-eca014e8d76a" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Firespray-31" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Auxiliary Arc"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="39d979af-507c-5da3-39ed-14515a62a0cb" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Lambda-Class Shuttle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Advanced" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a297d578-0917-8842-4c0b-7cf366b77b9e" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Bomber" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3f36f029-e215-9c25-266f-1a1bb0f43abe" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Defender" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="13cbac1a-819a-e33d-9be1-6abfd1a45063" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Fighter" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="cf234dce-ebb4-1a70-7213-d3ede914bc18" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Interceptor" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4fdd784f-546a-dadb-6b4e-4f0cc15255b0" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Phantom" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9645f782-da69-5241-6b12-99189c689611" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="VT-49 Decimator" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
 </catalogue>
