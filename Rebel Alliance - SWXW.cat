@@ -277,6 +277,113 @@
         </link>
       </links>
     </entry>
+    <entry id="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" name="A-W •Gemmer Sojan†" points="22.0" categoryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ee800b12-35f7-78ac-353a-ab213432aab9" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="19add815-2f28-509a-09aa-32bf2f5a7826" targetId="60cdc12f-981b-56bf-38f6-1ff34c39041d" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="decrement" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="de207451-90e9-d7e2-8b7a-2ce2e1990b14" profileTypeId="31536869707323232344415441232323" name="•Gemmer Sojan" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="60cdc12f-981b-56bf-38f6-1ff34c39041d" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="a5bd8d0f-b782-b507-cc69-eda472929d46" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Gemmer Sojan" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="While you are at Range 1 of at least 1 enemy ship, increase your agility value by 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="401ee002-5643-8f00-77c6-22f515ca90ae" targetId="f988a6f2-311b-c010-7d16-7abedb354e6d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5112bdca-239b-7d6f-577a-c88b4633e631" targetId="37c15aa9-e3c9-8767-4fca-b6dd5a438e7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="959215b9-a60d-39fd-3153-9c436f8d247b" targetId="4d3b6152-b4cc-81df-2cb7-702429221084" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="78cfbc2d-a579-d4d9-158d-d65c1536466c" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d57b0891-f259-579d-9406-b2f062289d4d" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6c42575a-f783-e875-1416-cb898f94e237" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7650e803-75c4-8eaf-1e33-21625e95ed1e" targetId="93d86341-fc63-ab0f-db15-de74c8bd1715" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4733b766-6b7d-19d3-ab95-641750a52948" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="60cdc12f-981b-56bf-38f6-1ff34c39041d" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
     <entry id="72c0296c-b863-071d-1cd0-066799914d23" name="A-W •Jake Farrell†" points="24.0" categoryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
@@ -1220,7 +1327,7 @@
         </link>
       </links>
     </entry>
-    <entry id="e2143a8e-94db-b970-d8e8-ab95bfa89fca" name="E-W Blackmoon Squadron Pilot†" points="29.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="e2143a8e-94db-b970-d8e8-ab95bfa89fca" name="E-W Blackmoon Squadron Pilot" points="29.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1319,7 +1426,7 @@
         </link>
       </links>
     </entry>
-    <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="E-W Knave Squadron Pilot†" points="27.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="E-W Knave Squadron Pilot" points="27.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1396,7 +1503,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c92ed03e-f65f-8fca-9dd4-60952cb3cbf7" name="E-W •Corran Horn†" points="35.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="c92ed03e-f65f-8fca-9dd4-60952cb3cbf7" name="E-W •Corran Horn" points="35.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1488,7 +1595,7 @@
         </link>
       </links>
     </entry>
-    <entry id="28187091-d53d-09cc-bb52-58fe7ad34bce" name="E-W •Etahn A&apos;baht†" points="32.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="28187091-d53d-09cc-bb52-58fe7ad34bce" name="E-W •Etahn A&apos;baht" points="32.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3816,7 +3923,7 @@
         </link>
       </links>
     </entry>
-    <entry id="96712dcd-c3bc-0a9c-504e-7dfc91a513c9" name="Z-95 Bandit Squadron Pilot†" points="12.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="96712dcd-c3bc-0a9c-504e-7dfc91a513c9" name="Z-95 Bandit Squadron Pilot" points="12.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3881,7 +3988,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8ee6299d-6b09-1c99-eb0d-7ceeb6287f73" name="Z-95 Tala Squadron Pilot†" points="13.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="8ee6299d-6b09-1c99-eb0d-7ceeb6287f73" name="Z-95 Tala Squadron Pilot" points="13.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3946,7 +4053,7 @@
         </link>
       </links>
     </entry>
-    <entry id="bd44ba37-4ebf-8898-f84e-bd5b89b55379" name="Z-95 •Airen Cracken†" points="19.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="bd44ba37-4ebf-8898-f84e-bd5b89b55379" name="Z-95 •Airen Cracken" points="19.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4026,7 +4133,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c7349390-7560-1af5-e6dc-14352fc5cd13" name="Z-95 •Lieutenant Blount†" points="17.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="c7349390-7560-1af5-e6dc-14352fc5cd13" name="Z-95 •Lieutenant Blount" points="17.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4103,113 +4210,6 @@
         </link>
         <link id="d4e0f07e-7823-b0cb-4637-067c991ef1fa" targetId="6dedcf14-27b9-c2b5-40f5-df73957310c6" linkType="profile">
           <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" name="A-W •Gemmer Sojan†" points="22.0" categoryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="ee800b12-35f7-78ac-353a-ab213432aab9" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="19add815-2f28-509a-09aa-32bf2f5a7826" targetId="60cdc12f-981b-56bf-38f6-1ff34c39041d" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="decrement" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles>
-        <profile id="de207451-90e9-d7e2-8b7a-2ce2e1990b14" profileTypeId="31536869707323232344415441232323" name="•Gemmer Sojan" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
-            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
-            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
-            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
-            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="60cdc12f-981b-56bf-38f6-1ff34c39041d" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile id="a5bd8d0f-b782-b507-cc69-eda472929d46" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Gemmer Sojan" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="While you are at Range 1 of at least 1 enemy ship, increase your agility value by 1."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="401ee002-5643-8f00-77c6-22f515ca90ae" targetId="f988a6f2-311b-c010-7d16-7abedb354e6d" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="5112bdca-239b-7d6f-577a-c88b4633e631" targetId="37c15aa9-e3c9-8767-4fca-b6dd5a438e7e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="959215b9-a60d-39fd-3153-9c436f8d247b" targetId="4d3b6152-b4cc-81df-2cb7-702429221084" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="78cfbc2d-a579-d4d9-158d-d65c1536466c" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d57b0891-f259-579d-9406-b2f062289d4d" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6c42575a-f783-e875-1416-cb898f94e237" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="7650e803-75c4-8eaf-1e33-21625e95ed1e" targetId="93d86341-fc63-ab0f-db15-de74c8bd1715" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="4733b766-6b7d-19d3-ab95-641750a52948" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="60cdc12f-981b-56bf-38f6-1ff34c39041d" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
       </links>
     </entry>
@@ -4718,7 +4718,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="b8f5e2e6-ec1f-b5c2-313f-f6befc6047eb" name="Ion Pulse Missiles†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="b8f5e2e6-ec1f-b5c2-313f-f6befc6047eb" name="Ion Pulse Missiles" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4787,7 +4787,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="cfca4701-2652-694e-fc52-5434a3a3475d" name="Munitions Failsafe†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="cfca4701-2652-694e-fc52-5434a3a3475d" name="Munitions Failsafe" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4876,7 +4876,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="1022cb37-e0eb-bdee-5235-d221137b7e14" name="R7 Astromech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="1022cb37-e0eb-bdee-5235-d221137b7e14" name="R7 Astromech" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4998,7 +4998,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" name="Stygium Particle Accelerator†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" name="Stygium Particle Accelerator" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5013,7 +5013,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="3b1fe974-df4c-3674-2c81-fd5a4cffe9d3" name="Tactician†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="3b1fe974-df4c-3674-2c81-fd5a4cffe9d3" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5624,7 +5624,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="ab627952-8cc0-8695-a767-0d98bed4d9a6" name="•R7-T1†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="ab627952-8cc0-8695-a767-0d98bed4d9a6" name="•R7-T1" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -6349,7 +6349,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="13910f4c-df24-ef87-44e2-5ec3297a9e75" name="Wingman†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="13910f4c-df24-ef87-44e2-5ec3297a9e75" name="Wingman" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6364,7 +6364,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="63cbf6e2-20f5-3ed4-aafc-6210624eea79" name="Predator†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="63cbf6e2-20f5-3ed4-aafc-6210624eea79" name="Predator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6379,7 +6379,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="32bc5a77-7a92-b40f-afe8-558fac12144f" name="Outmaneuver†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="32bc5a77-7a92-b40f-afe8-558fac12144f" name="Outmaneuver" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6394,7 +6394,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="4c2acf31-e8b7-ee15-2cc7-3459ff534a7e" name="Decoy†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="4c2acf31-e8b7-ee15-2cc7-3459ff534a7e" name="Decoy" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
