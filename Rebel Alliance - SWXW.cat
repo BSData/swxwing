@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="33" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="34" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="3fae5d77-a5b6-3fc9-2918-50605d0de203" name="A-W Green Squadron Pilot" points="19.0" categoryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
@@ -5571,6 +5571,28 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="4c1e8575-2cb1-dc71-d01e-a8dfd1a07700" name="Proton Rockets†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="caaabdce-0fbf-b237-21c7-ea1b322f0798" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="Proton Rockets " hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ea3096a4-62bf-01b3-2664-32c6938de88e" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Proton Rockets" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability" value="Attack (focus): Discard this card to perform this attack. You may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
@@ -6368,6 +6390,9 @@
         <link id="96b80f0a-fd1e-f114-1805-7e604dc4ee49" targetId="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" linkType="entry">
           <modifiers/>
         </link>
+        <link id="14152bf7-9cfe-f656-44cd-f2f392ac048d" targetId="4c1e8575-2cb1-dc71-d01e-a8dfd1a07700" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="c402c4c4-a0ca-77ed-0561-65ee9e567521" name="Missiles" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
@@ -6388,6 +6413,9 @@
           <modifiers/>
         </link>
         <link id="16a7122e-8127-8ee0-2d27-c88e31c365f2" targetId="b8f5e2e6-ec1f-b5c2-313f-f6befc6047eb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="bb36d04f-b02d-5ce9-81df-26fa43a26bca" targetId="4c1e8575-2cb1-dc71-d01e-a8dfd1a07700" linkType="entry">
           <modifiers/>
         </link>
       </links>
