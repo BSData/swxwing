@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="33" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="34" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" name="FS Bounty Hunter" points="33.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
@@ -4618,6 +4618,28 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="9457b375-d267-4a8c-d042-75f0bca5ab0c" name="Proton Rockets†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0d4df934-05f1-61a5-18a4-f5652d5c50bb" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="Proton Rockets " hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5473cdb6-3950-3dcd-162e-cb57701eb725" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Proton Rockets" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability" value="Attack (focus): Discard this card to perform this attack. You may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
@@ -5157,6 +5179,9 @@
         <link id="29c08eee-b71c-30e3-ea70-a70023642cd9" targetId="ba87cb5a-b645-753c-f75c-6eda161e6a06" linkType="entry">
           <modifiers/>
         </link>
+        <link id="dc159e54-f6b8-275c-c39b-616bf7fe46a1" targetId="9457b375-d267-4a8c-d042-75f0bca5ab0c" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="cdf3ef54-0715-9620-891d-bf4c07cbf548" name="Missiles" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
@@ -5179,6 +5204,9 @@
         <link id="9c9be4cf-20db-fbec-39c4-a3b76c1c3dc1" targetId="ba87cb5a-b645-753c-f75c-6eda161e6a06" linkType="entry">
           <modifiers/>
         </link>
+        <link id="061794f8-d337-4ca2-c962-57ac229102f3" targetId="9457b375-d267-4a8c-d042-75f0bca5ab0c" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="81464b2d-6a40-f341-e561-05ac6326c0e0" name="Missiles" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
@@ -5199,6 +5227,9 @@
           <modifiers/>
         </link>
         <link id="a2437bd9-3388-91e3-610b-52c5771745d5" targetId="ba87cb5a-b645-753c-f75c-6eda161e6a06" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0ca2f32c-ec4d-aff8-9ef7-4d423ede4ea6" targetId="9457b375-d267-4a8c-d042-75f0bca5ab0c" linkType="entry">
           <modifiers/>
         </link>
       </links>
