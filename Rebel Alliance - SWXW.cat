@@ -4587,6 +4587,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="439c3bf9-8432-533c-6da9-b27a56c2a190" name="Gunner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c52292e8-d293-4199-b603-1b0a1d87198f" profileTypeId="332e30334372657723232344415441232323" name="Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You cannot perform another attack this round."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="998a2df6-2efa-fc7e-0695-0e1cf8d13f7b" name="Gunnery Team" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -4754,6 +4769,21 @@
         <profile id="0ab83741-096a-f9c6-1c18-c5e5318306b6" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Munitions Failsafe" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="b4a7fa89-cee8-635b-3c86-dea77419396e" name="Navigator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6facb9cf-551f-8489-4326-380b40f77408" profileTypeId="332e30334372657723232344415441232323" name="Navigator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing. You cannot rotate to a red maneuver if you have any stress tokens."/>
           </characteristics>
           <modifiers/>
         </profile>
