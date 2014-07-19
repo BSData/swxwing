@@ -15,14 +15,7 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="decrement" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="3fae5d77-a5b6-3fc9-2918-50605d0de203" childId="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles>
         <profile id="5e60ce56-22ab-a6ee-63d1-19933082041c" profileTypeId="31536869707323232344415441232323" name="Green Squadron Pilot" hidden="false" page="0">
@@ -105,14 +98,7 @@
     <entry id="00e43fd4-05fe-0a1a-6c80-ae5ca70ff04c" name="A-W Prototype Pilot" points="17.0" categoryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
-      <modifiers>
-        <modifier type="decrement" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="00e43fd4-05fe-0a1a-6c80-ae5ca70ff04c" childId="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles>
         <profile id="f3ee7372-8a31-6454-401d-b5357dcb35d3" profileTypeId="31536869707323232344415441232323" name="Prototype Pilot" hidden="false" page="0">
@@ -184,14 +170,7 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="decrement" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="c6fb6c9f-3889-f5ae-be95-95261eb2e92f" childId="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles>
         <profile id="2acc199f-fc25-03bb-cd9a-d86da0dba992" profileTypeId="31536869707323232344415441232323" name="•Arvel Crynyd" hidden="false" page="0">
@@ -291,14 +270,7 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="decrement" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles>
         <profile id="de207451-90e9-d7e2-8b7a-2ce2e1990b14" profileTypeId="31536869707323232344415441232323" name="•Gemmer Sojan" hidden="false" page="0">
@@ -398,14 +370,7 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="decrement" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="72c0296c-b863-071d-1cd0-066799914d23" childId="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles>
         <profile id="5a597c10-722e-d65c-6d5c-dee75e7969b9" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Jake Farrell" hidden="false" page="0">
@@ -505,14 +470,7 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="decrement" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="7fe7745a-8efc-ee60-ee54-38f409733874" childId="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles>
         <profile id="caeb2908-3c92-3519-135f-07b43a47d044" profileTypeId="31536869707323232344415441232323" name="•Tycho Celchu" hidden="false" page="0">
@@ -4360,7 +4318,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" name="Chardaan Refit†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" name="Chardaan Refit†" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="-2.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -6474,7 +6432,7 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="93d86341-fc63-ab0f-db15-de74c8bd1715" name="Missiles" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="93d86341-fc63-ab0f-db15-de74c8bd1715" name="Missiles" minSelections="0" maxSelections="1" minPoints="-2.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
