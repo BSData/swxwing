@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="34" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" name="FS Bounty Hunter" points="33.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" name="PS 3 - Bounty Hunter" points="33.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="924bec6f-53a5-95e2-bad4-8ead681a7587" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="924bec6f-53a5-95e2-bad4-8ead681a7587" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -105,10 +105,10 @@
         </link>
       </links>
     </entry>
-    <entry id="55f108e0-7576-5470-8cbe-b79f6663a5bb" name="FS •Boba Fett" points="39.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="55f108e0-7576-5470-8cbe-b79f6663a5bb" name="PS 8 - •Boba Fett" points="39.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="aa243daf-4361-67aa-cbe0-66032118012f" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="aa243daf-4361-67aa-cbe0-66032118012f" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -224,10 +224,10 @@
         </link>
       </links>
     </entry>
-    <entry id="37328b3b-ecc8-bb91-8714-af59825dc9a0" name="FS •Kath Scarlet" points="38.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="37328b3b-ecc8-bb91-8714-af59825dc9a0" name="PS 7 - •Kath Scarlet" points="38.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="caf4d45b-b920-9430-c103-2a55a8d9c842" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="caf4d45b-b920-9430-c103-2a55a8d9c842" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -343,10 +343,10 @@
         </link>
       </links>
     </entry>
-    <entry id="874f40ae-d171-5f27-beac-794042fe1e39" name="FS •Krassis Trelix" points="36.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="874f40ae-d171-5f27-beac-794042fe1e39" name="PS 5 - •Krassis Trelix" points="36.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="71535bc9-0d52-3cd5-7c2c-8750d7493277" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="71535bc9-0d52-3cd5-7c2c-8750d7493277" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -453,10 +453,10 @@
         </link>
       </links>
     </entry>
-    <entry id="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" name="LS Omicron Group Pilot" points="21.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" name="PS 2 - Omicron Group Pilot" points="21.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="16db90c9-cf2c-ecef-77c3-94d5c6ed58e2" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="16db90c9-cf2c-ecef-77c3-94d5c6ed58e2" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -540,10 +540,10 @@
         </link>
       </links>
     </entry>
-    <entry id="ba998080-9052-eb99-0e12-d8fc4d8efb98" name="LS •Captain Kagi" points="27.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="ba998080-9052-eb99-0e12-d8fc4d8efb98" name="PS 8 - •Captain Kagi" points="27.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="abaefb75-60ce-041b-47f8-d4bbd1c6cd4f" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="abaefb75-60ce-041b-47f8-d4bbd1c6cd4f" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -633,10 +633,10 @@
         </link>
       </links>
     </entry>
-    <entry id="fba2f951-a380-cabe-f9e3-66f123127891" name="LS •Captain Yorr" points="24.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="fba2f951-a380-cabe-f9e3-66f123127891" name="PS 4 - •Captain Yorr" points="24.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="db01be99-17df-3585-e250-7259b362797f" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="db01be99-17df-3585-e250-7259b362797f" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -726,10 +726,10 @@
         </link>
       </links>
     </entry>
-    <entry id="7dabb71f-ea3b-bfb7-b868-87493d58dccf" name="LS •Colonel Jendon" points="26.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="7dabb71f-ea3b-bfb7-b868-87493d58dccf" name="PS 6 - •Colonel Jendon" points="26.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="a64e2945-4e98-4284-3a1c-36ac45c6e4e7" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="a64e2945-4e98-4284-3a1c-36ac45c6e4e7" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -819,7 +819,7 @@
         </link>
       </links>
     </entry>
-    <entry id="17ec93fb-d0ac-e06f-11e5-73cc448167c5" name="T/A Storm Squadron Pilot" points="23.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="17ec93fb-d0ac-e06f-11e5-73cc448167c5" name="PS 4 - Storm Squadron Pilot" points="23.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -890,7 +890,7 @@
         </link>
       </links>
     </entry>
-    <entry id="49ac3d55-33f5-b7e7-e3ef-9310c3d3334c" name="T/A Tempest Squadron Pilot" points="21.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="49ac3d55-33f5-b7e7-e3ef-9310c3d3334c" name="PS 2 - Tempest Squadron Pilot" points="21.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -961,7 +961,7 @@
         </link>
       </links>
     </entry>
-    <entry id="fe12f41d-e18f-e711-1a80-011d6eb0d680" name="T/A •Darth Vader" points="29.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="fe12f41d-e18f-e711-1a80-011d6eb0d680" name="PS 9 - •Darth Vader" points="29.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1047,7 +1047,7 @@
         </link>
       </links>
     </entry>
-    <entry id="81b309dc-ce71-d318-a1c8-816385739e61" name="T/A •Maarek Stele" points="27.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="81b309dc-ce71-d318-a1c8-816385739e61" name="PS 7 - •Maarek Stele" points="27.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1133,7 +1133,7 @@
         </link>
       </links>
     </entry>
-    <entry id="17ead459-d3f3-a898-ac8a-1f0439828988" name="T/B Gamma Squadron Pilot" points="18.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="17ead459-d3f3-a898-ac8a-1f0439828988" name="PS 4 - Gamma Squadron Pilot" points="18.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1212,7 +1212,7 @@
         </link>
       </links>
     </entry>
-    <entry id="45ba11fa-db8d-6697-abcd-2f3ba76e2ea6" name="T/B Scimitar Squadron Pilot" points="16.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="45ba11fa-db8d-6697-abcd-2f3ba76e2ea6" name="PS 2 - Scimitar Squadron Pilot" points="16.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1291,7 +1291,7 @@
         </link>
       </links>
     </entry>
-    <entry id="aff8a3ef-f52f-ee8e-fd46-2742550824e5" name="T/B •Captain Jonus" points="22.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="aff8a3ef-f52f-ee8e-fd46-2742550824e5" name="PS 6 - •Captain Jonus" points="22.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1385,7 +1385,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d01533a4-ad16-47b2-2b4e-e7b2290ae0e9" name="T/B •Major Rhymer" points="26.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="d01533a4-ad16-47b2-2b4e-e7b2290ae0e9" name="PS 7 - •Major Rhymer" points="26.0" categoryId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1393,7 +1393,7 @@
       <profiles>
         <profile id="1b212f2d-1eb0-e828-6908-79acaeb2cec0" profileTypeId="31536869707323232344415441232323" name="•Major Rhymer" hidden="false" page="0">
           <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="8"/>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="7"/>
             <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
@@ -1479,7 +1479,7 @@
         </link>
       </links>
     </entry>
-    <entry id="86431e03-a87d-dcbf-2300-659603769ca8" name="T/D Delta Squadron Pilot" points="30.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="86431e03-a87d-dcbf-2300-659603769ca8" name="PS 1 - Delta Squadron Pilot" points="30.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1550,7 +1550,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8a42fb9b-66d6-9fdf-4067-f6d067c37c77" name="T/D Onyx Squadron Pilot" points="32.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="8a42fb9b-66d6-9fdf-4067-f6d067c37c77" name="PS 3 - Onyx Squadron Pilot" points="32.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1621,7 +1621,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7d4bf72f-037e-bcfa-cefe-f3a32e067807" name="T/D •Colonel Vessery" points="35.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="7d4bf72f-037e-bcfa-cefe-f3a32e067807" name="PS 6 - •Colonel Vessery" points="35.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1707,7 +1707,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ce360707-f31a-a30c-95e1-4b717f1bbb8b" name="T/D •Rexler Brath" points="37.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="ce360707-f31a-a30c-95e1-4b717f1bbb8b" name="PS 8 - •Rexler Brath" points="37.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1793,7 +1793,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="T/F Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1868,7 +1868,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d8633d64-2dce-a77c-b33a-60325036cfb5" name="T/F Black Squadron Pilot" points="14.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="d8633d64-2dce-a77c-b33a-60325036cfb5" name="PS 4 - Black Squadron Pilot" points="14.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1952,7 +1952,7 @@
         </link>
       </links>
     </entry>
-    <entry id="21b3761e-475a-a73e-198f-a4ed3e1233f9" name="T/F Obsidian Squadron Pilot" points="13.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="21b3761e-475a-a73e-198f-a4ed3e1233f9" name="PS 3 - Obsidian Squadron Pilot" points="13.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2027,7 +2027,7 @@
         </link>
       </links>
     </entry>
-    <entry id="0f3aca6c-a51a-a41e-8558-ad15050dfdc5" name="T/F •&quot;Backstabber&quot;" points="16.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="0f3aca6c-a51a-a41e-8558-ad15050dfdc5" name="PS 6 - •&quot;Backstabber&quot;" points="16.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2108,7 +2108,7 @@
         </link>
       </links>
     </entry>
-    <entry id="00ebc47e-0d7b-7469-a53d-84be06130f28" name="T/F •&quot;Dark Curse&quot;" points="16.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="00ebc47e-0d7b-7469-a53d-84be06130f28" name="PS 6 - •&quot;Dark Curse&quot;" points="16.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2189,7 +2189,7 @@
         </link>
       </links>
     </entry>
-    <entry id="6bc815d9-447b-22b9-1cec-7ef7736b7436" name="T/F •&quot;Howlrunner&quot;" points="18.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="6bc815d9-447b-22b9-1cec-7ef7736b7436" name="PS 8 - •&quot;Howlrunner&quot;" points="18.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2279,7 +2279,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ded5f73d-7b71-ca9f-7348-7e6dcebf1239" name="T/F •&quot;Mauler Mithel&quot;" points="17.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="ded5f73d-7b71-ca9f-7348-7e6dcebf1239" name="PS 7 - •&quot;Mauler Mithel&quot;" points="17.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2369,7 +2369,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c79a6f0b-1f64-8381-ff26-caa3805fc470" name="T/F •&quot;Night Beast&quot;" points="15.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="c79a6f0b-1f64-8381-ff26-caa3805fc470" name="PS 5 - •&quot;Night Beast&quot;" points="15.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2450,7 +2450,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8f46c106-d016-8c9f-0046-5c8c2162ea7f" name="T/F •&quot;Winged Gundark&quot;" points="15.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="8f46c106-d016-8c9f-0046-5c8c2162ea7f" name="PS 5 - •&quot;Winged Gundark&quot;" points="15.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2531,7 +2531,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8ab98c69-b87e-68ff-0f72-118f373a08c1" name="T/I Alpha Squadron Pilot" points="18.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="8ab98c69-b87e-68ff-0f72-118f373a08c1" name="PS 1 - Alpha Squadron Pilot" points="18.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2599,7 +2599,7 @@
         </link>
       </links>
     </entry>
-    <entry id="73d4b279-2733-b539-d4d8-e6ac889e89f8" name="T/I Avenger Squadron Pilot" points="20.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="73d4b279-2733-b539-d4d8-e6ac889e89f8" name="PS 3 - Avenger Squadron Pilot" points="20.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2667,10 +2667,10 @@
         </link>
       </links>
     </entry>
-    <entry id="05a91619-050a-b595-99eb-cce57e3d1ff5" name="T/I Royal Guard Pilot" points="22.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="05a91619-050a-b595-99eb-cce57e3d1ff5" name="PS 6 - Royal Guard Pilot" points="22.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="f68525cf-eedb-997c-18e3-adc8b6798151" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="f68525cf-eedb-997c-18e3-adc8b6798151" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2762,10 +2762,10 @@
         </link>
       </links>
     </entry>
-    <entry id="3b59fd6a-0366-a503-ea6c-f4ed5a5f5095" name="T/I Saber Squadron Pilot" points="21.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="3b59fd6a-0366-a503-ea6c-f4ed5a5f5095" name="PS 4 - Saber Squadron Pilot" points="21.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="9ef5a3d5-371f-386f-c492-10e7c9ec5372" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="9ef5a3d5-371f-386f-c492-10e7c9ec5372" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -2864,10 +2864,10 @@
         </link>
       </links>
     </entry>
-    <entry id="e353a1dd-9bd1-ea01-6fb1-c6162e539cf6" name="T/I •&quot;Fel&apos;s Wrath&quot;" points="23.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="e353a1dd-9bd1-ea01-6fb1-c6162e539cf6" name="PS 5 - •&quot;Fel&apos;s Wrath&quot;" points="23.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="58c590e3-622e-0403-5005-69a4ab882a8b" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="58c590e3-622e-0403-5005-69a4ab882a8b" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2956,10 +2956,10 @@
         </link>
       </links>
     </entry>
-    <entry id="a4f51917-ed5c-8a1f-acc1-f6af97878720" name="T/I •Carnor Jax" points="26.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="a4f51917-ed5c-8a1f-acc1-f6af97878720" name="PS 8 - •Carnor Jax" points="26.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="3705bf4f-32eb-400a-901f-c50170dc928d" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="3705bf4f-32eb-400a-901f-c50170dc928d" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3057,10 +3057,10 @@
         </link>
       </links>
     </entry>
-    <entry id="0939e6e4-ff9e-6af0-9e31-2596f2af6e72" name="T/I •Kir Kanos" points="24.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" book="" page="0">
+    <entry id="0939e6e4-ff9e-6af0-9e31-2596f2af6e72" name="PS 6 - •Kir Kanos" points="24.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="62987755-25b3-8721-c487-a6816d05693c" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="62987755-25b3-8721-c487-a6816d05693c" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3149,10 +3149,10 @@
         </link>
       </links>
     </entry>
-    <entry id="0d40e2d5-26f5-8ce5-56fd-1c6a39194df9" name="T/I •Lieutenant Lorrir" points="23.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="0d40e2d5-26f5-8ce5-56fd-1c6a39194df9" name="PS 5 - •Lieutenant Lorrir" points="23.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="21c3e997-93e2-5f73-2b5d-eb72c8a50144" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="21c3e997-93e2-5f73-2b5d-eb72c8a50144" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3241,10 +3241,10 @@
         </link>
       </links>
     </entry>
-    <entry id="fa2e0c9d-9cb6-fb90-58a7-e56cce870702" name="T/I •Soontir Fel" points="27.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="fa2e0c9d-9cb6-fb90-58a7-e56cce870702" name="PS 9 - •Soontir Fel" points="27.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="22bf5152-25f9-84ec-bc31-82c3ba944c75" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="22bf5152-25f9-84ec-bc31-82c3ba944c75" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3342,10 +3342,10 @@
         </link>
       </links>
     </entry>
-    <entry id="d44dd637-cb70-3540-389e-bc121be6246c" name="T/I •Tetran Cowall" points="24.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="d44dd637-cb70-3540-389e-bc121be6246c" name="PS 7 - •Tetran Cowall" points="24.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="820d7441-a30a-9fbd-39c8-972e414e9382" name="Title" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="820d7441-a30a-9fbd-39c8-972e414e9382" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3443,10 +3443,10 @@
         </link>
       </links>
     </entry>
-    <entry id="af24129c-2d19-3e15-4671-7d0ce9ec1455" name="T/I •Turr Phennir" points="25.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="af24129c-2d19-3e15-4671-7d0ce9ec1455" name="PS 7 - •Turr Phennir" points="25.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="7cd3e2fe-1de0-7bce-e74a-f34f6d346139" name="Title" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+        <entryGroup id="7cd3e2fe-1de0-7bce-e74a-f34f6d346139" name="Title" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3544,7 +3544,7 @@
         </link>
       </links>
     </entry>
-    <entry id="0cb810e7-4c01-1b14-7fea-a9d652deeec2" name="T/P Shadow Squadron Pilot" points="27.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="0cb810e7-4c01-1b14-7fea-a9d652deeec2" name="PS 5 - Shadow Squadron Pilot" points="27.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3628,7 +3628,7 @@
         </link>
       </links>
     </entry>
-    <entry id="85b34629-013e-8603-8657-2a9acf94772d" name="T/P Sigma Squadron Pilot" points="25.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="85b34629-013e-8603-8657-2a9acf94772d" name="PS 3 - Sigma Squadron Pilot" points="25.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3712,7 +3712,7 @@
         </link>
       </links>
     </entry>
-    <entry id="1bd8275c-7553-e164-3a0b-8950dace2875" name="T/P •&quot;Echo&quot;" points="30.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="1bd8275c-7553-e164-3a0b-8950dace2875" name="PS 6 - •&quot;Echo&quot;" points="30.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3811,7 +3811,7 @@
         </link>
       </links>
     </entry>
-    <entry id="60705d9a-5b91-d637-36ca-5a609d73f76c" name="T/P •&quot;Whisper&quot;" points="32.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="60705d9a-5b91-d637-36ca-5a609d73f76c" name="PS 7 - •&quot;Whisper&quot;" points="32.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3910,7 +3910,7 @@
         </link>
       </links>
     </entry>
-    <entry id="664786ed-de17-e3be-19f1-f03d981e86f8" name="VT-49 •Rear Admiral Chiraneau†" points="46.0" categoryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="664786ed-de17-e3be-19f1-f03d981e86f8" name="PS 8 - •Rear Admiral Chiraneau†" points="46.0" categoryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4005,7 +4005,7 @@
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="cf0df15b-cb79-2387-6bd1-eadf3b5288c0" name="Adv. Proton Torpedoes" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="cf0df15b-cb79-2387-6bd1-eadf3b5288c0" name="Adv. Proton Torpedoes" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4027,7 +4027,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="c85f1de3-b5ff-2d2c-b9ff-a804f3a0c648" name="Advanced Cloaking Device" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="c85f1de3-b5ff-2d2c-b9ff-a804f3a0c648" name="Advanced Cloaking Device" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4042,7 +4042,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="966a431d-e1be-54a7-422b-46105086723b" name="Anti-Pursuit Lasers" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="966a431d-e1be-54a7-422b-46105086723b" name="Anti-Pursuit Lasers" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4057,7 +4057,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="f509f70f-65ea-665d-4eb1-beb57adc0040" name="Assault Missiles" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="f509f70f-65ea-665d-4eb1-beb57adc0040" name="Assault Missiles" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4079,7 +4079,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="065b4cf5-253a-e8a3-1f73-3e7e44d2f3d2" name="Cluster Missiles" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="065b4cf5-253a-e8a3-1f73-3e7e44d2f3d2" name="Cluster Missiles" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4101,7 +4101,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="95139b4c-472f-260d-877e-22ad2818b626" name="Concussion Missiles" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="95139b4c-472f-260d-877e-22ad2818b626" name="Concussion Missiles" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4123,7 +4123,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="10ab420d-65b4-4909-2eee-b7b6863c6824" name="Engine Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="10ab420d-65b4-4909-2eee-b7b6863c6824" name="Engine Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4138,7 +4138,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="992875cf-545e-ba32-7e57-bbf3993be85b" name="Flechette Torpedoes" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="992875cf-545e-ba32-7e57-bbf3993be85b" name="Flechette Torpedoes" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4160,7 +4160,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="82dd7305-076e-76cb-c46b-16e944b61f0c" name="Fleet Officer†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="82dd7305-076e-76cb-c46b-16e944b61f0c" name="Fleet Officer†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4175,7 +4175,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="462664db-26df-f4a4-db44-1ae09d1cdae3" name="Flight Instructor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="462664db-26df-f4a4-db44-1ae09d1cdae3" name="Flight Instructor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4190,7 +4190,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="c43c419f-1047-4146-8404-de5ebc1663e8" name="Homing Missiles" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="c43c419f-1047-4146-8404-de5ebc1663e8" name="Homing Missiles" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4212,7 +4212,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="abf7d91a-9d9e-1b62-1dec-d538c9bf1539" name="Hull Upgrade" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="abf7d91a-9d9e-1b62-1dec-d538c9bf1539" name="Hull Upgrade" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4227,7 +4227,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="9874d5e3-834d-3b5b-3dc7-de3021702cfe" name="Intelligence Agent" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="9874d5e3-834d-3b5b-3dc7-de3021702cfe" name="Intelligence Agent" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4242,7 +4242,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="ba87cb5a-b645-753c-f75c-6eda161e6a06" name="Ion Pulse Missiles" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="ba87cb5a-b645-753c-f75c-6eda161e6a06" name="Ion Pulse Missiles" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4264,7 +4264,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="45181e59-a39d-4fa2-4ead-61d721c64d88" name="Mercenary Copilot" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="45181e59-a39d-4fa2-4ead-61d721c64d88" name="Mercenary Copilot" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4279,7 +4279,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="5830a5ea-5260-e33e-f58d-f6e099d469b6" name="Munitions Failsafe" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="5830a5ea-5260-e33e-f58d-f6e099d469b6" name="Munitions Failsafe" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4294,7 +4294,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="9457b375-d267-4a8c-d042-75f0bca5ab0c" name="Proton Rockets†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="9457b375-d267-4a8c-d042-75f0bca5ab0c" name="Proton Rockets†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4316,7 +4316,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="337d716a-f66d-f17c-bd95-36c93c28a475" name="Proton Torpedoes" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="337d716a-f66d-f17c-bd95-36c93c28a475" name="Proton Torpedoes" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4338,7 +4338,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="4f78cf7d-34ba-5db6-fa8b-00883238f70b" name="Recon Specialist" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="4f78cf7d-34ba-5db6-fa8b-00883238f70b" name="Recon Specialist" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4353,7 +4353,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="50981ad2-5e8e-b4e2-2f70-dca0a9962b3f" name="Royal Guard TIE" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="50981ad2-5e8e-b4e2-2f70-dca0a9962b3f" name="Royal Guard TIE" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4368,7 +4368,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="58ac4abd-bed2-7df4-eb39-038d3729d3a2" name="Saboteur" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="58ac4abd-bed2-7df4-eb39-038d3729d3a2" name="Saboteur" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4383,7 +4383,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="d42382ad-b0f8-f83d-9d81-65852b819553" name="Shield Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="d42382ad-b0f8-f83d-9d81-65852b819553" name="Shield Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4398,7 +4398,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="cdfb9b25-3315-998d-6532-1a9934a71c40" name="Stealth Device" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="cdfb9b25-3315-998d-6532-1a9934a71c40" name="Stealth Device" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4413,7 +4413,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="e7346974-c373-8b03-eb9e-334c181b029b" name="Stygium Particle Accelerator" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="e7346974-c373-8b03-eb9e-334c181b029b" name="Stygium Particle Accelerator" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4428,7 +4428,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="9f8eb646-2aa2-2a4c-8eab-f96fe14dce5f" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="9f8eb646-2aa2-2a4c-8eab-f96fe14dce5f" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4443,7 +4443,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="7b652eb7-52a7-5e68-964c-d9cd5920d80b" name="Targeting Computer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="7b652eb7-52a7-5e68-964c-d9cd5920d80b" name="Targeting Computer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4458,7 +4458,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="3de9caf4-af17-ae0c-7a75-e0faf1f8fd41" name="Targeting Coordinator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="3de9caf4-af17-ae0c-7a75-e0faf1f8fd41" name="Targeting Coordinator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4473,7 +4473,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="20760798-c41b-4865-fc96-19f012d80a13" name="Veteran Instincts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="20760798-c41b-4865-fc96-19f012d80a13" name="Veteran Instincts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4488,7 +4488,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="554b3d3b-3ca6-8bf2-0c8c-2fc0a9220f7a" name="Weapons Engineer" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="554b3d3b-3ca6-8bf2-0c8c-2fc0a9220f7a" name="Weapons Engineer" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4503,7 +4503,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="b8853b92-4761-bfaf-f0bd-9b5fbc4b8d35" name="WED-15 Repair Droid" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="b8853b92-4761-bfaf-f0bd-9b5fbc4b8d35" name="WED-15 Repair Droid" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4518,7 +4518,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="d199de17-5e87-c51d-04b0-329ebf848a0b" name="•Darth Vader" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="d199de17-5e87-c51d-04b0-329ebf848a0b" name="•Darth Vader" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -4540,7 +4540,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="7f0c8075-9cd2-75cd-bd5d-a657f99a4bc1" name="•Mara Jade†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="7f0c8075-9cd2-75cd-bd5d-a657f99a4bc1" name="•Mara Jade†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4555,7 +4555,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="12835746-d073-eb83-9a32-8f881d468a85" name="•Rebel Captive" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="12835746-d073-eb83-9a32-8f881d468a85" name="•Rebel Captive" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4570,7 +4570,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="eae80c36-ab08-0879-9474-2f3d1b070cb7" name="•Slave 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="eae80c36-ab08-0879-9474-2f3d1b070cb7" name="•Slave 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4585,7 +4585,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="8faa9d50-2ea2-5800-91b5-de98f9c68ebe" name="•Squad Leader" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="8faa9d50-2ea2-5800-91b5-de98f9c68ebe" name="•Squad Leader" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4600,7 +4600,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="a9ccac31-4c83-6c35-aa47-aab0a26e475b" name="•ST-321" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
+    <entry id="a9ccac31-4c83-6c35-aa47-aab0a26e475b" name="•ST-321" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4617,9 +4617,9 @@
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
-    <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="48d5cb10-2d56-9db2-0b6c-9fa036640c23" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="48d5cb10-2d56-9db2-0b6c-9fa036640c23" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4640,7 +4640,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="7f677c40-30ff-45df-31d0-133730f1c442" name="Proximity Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="7f677c40-30ff-45df-31d0-133730f1c442" name="Proximity Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4661,7 +4661,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="8eecb698-5f3f-8914-e473-f2885dd1859a" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="8eecb698-5f3f-8914-e473-f2885dd1859a" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4687,9 +4687,9 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="15c2343d-0add-534b-6a79-ed3dba7cf823" name="Cannon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="15c2343d-0add-534b-6a79-ed3dba7cf823" name="Cannon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="ff2d5d81-d203-a276-ecc4-1e01dac2e733" name="Ion Cannon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="ff2d5d81-d203-a276-ecc4-1e01dac2e733" name="Ion Cannon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4711,7 +4711,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="490d3c86-dda0-d975-5125-bb4f26ebbe83" name="Heavy Laser Cannon" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="490d3c86-dda0-d975-5125-bb4f26ebbe83" name="Heavy Laser Cannon" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4733,7 +4733,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="31d0c305-7d23-26ac-1a64-4e1cfee321fc" name="Autoblaster" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="31d0c305-7d23-26ac-1a64-4e1cfee321fc" name="Autoblaster" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4760,9 +4760,9 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="c63d05fe-ddca-7664-94ba-2c99802e2020" name="Crew" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="c63d05fe-ddca-7664-94ba-2c99802e2020" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="dedaa01d-e023-2ae4-525c-41e0e82464d0" name="Gunner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="dedaa01d-e023-2ae4-525c-41e0e82464d0" name="Gunner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4777,7 +4777,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="4717a177-71e5-59a3-1f0c-4716a425ccbe" name="Navigator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="4717a177-71e5-59a3-1f0c-4716a425ccbe" name="Navigator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4834,7 +4834,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="6701e928-8f3d-9408-032c-fab510f88032" name="Crew" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="6701e928-8f3d-9408-032c-fab510f88032" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4880,9 +4880,9 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c250debb-2ca2-1981-4cea-9a096ce8d993" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="c250debb-2ca2-1981-4cea-9a096ce8d993" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="6d3b6e25-6d12-da83-b01c-6dbd9fab7f96" name="Determination" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="6d3b6e25-6d12-da83-b01c-6dbd9fab7f96" name="Determination" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4897,7 +4897,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="f8e8c529-7855-03b6-738a-557b46c2c0b9" name="Swarm Tactics" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="f8e8c529-7855-03b6-738a-557b46c2c0b9" name="Swarm Tactics" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4912,7 +4912,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="d29423b4-72d7-012b-739f-8c3065c0ca8c" name="Push the Limit" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="d29423b4-72d7-012b-739f-8c3065c0ca8c" name="Push the Limit" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4927,7 +4927,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="c82d7171-624a-de61-6571-4e1228d7bb9f" name="Expert Handling" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="c82d7171-624a-de61-6571-4e1228d7bb9f" name="Expert Handling" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4942,7 +4942,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="6a66bb05-34fb-6006-49ac-5c04dbd2829b" name="Draw Their Fire" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="6a66bb05-34fb-6006-49ac-5c04dbd2829b" name="Draw Their Fire" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4957,7 +4957,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="58a640ae-31f9-4e43-f52b-bfb33246a3a7" name="Elusiveness" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="58a640ae-31f9-4e43-f52b-bfb33246a3a7" name="Elusiveness" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4972,7 +4972,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="833ef6ec-8f73-0eaf-e75c-b085b55819c7" name="Daredevil" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="833ef6ec-8f73-0eaf-e75c-b085b55819c7" name="Daredevil" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4987,7 +4987,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="c3634720-7795-19fe-1a99-8012ff977627" name="Expose" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="c3634720-7795-19fe-1a99-8012ff977627" name="Expose" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5002,7 +5002,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="6f0958cc-3dce-15e3-3e52-f56fa5c9ceab" name="Markmanship" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="6f0958cc-3dce-15e3-3e52-f56fa5c9ceab" name="Markmanship" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5017,7 +5017,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="d0f86c65-f6b8-51c6-3cbb-c33e67440bc3" name="Deadeye" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="d0f86c65-f6b8-51c6-3cbb-c33e67440bc3" name="Deadeye" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5032,7 +5032,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="11b87343-e857-e90d-bb38-c091948c3815" name="Adrenaline Rush" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="11b87343-e857-e90d-bb38-c091948c3815" name="Adrenaline Rush" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5047,7 +5047,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="05c5ea3e-c98d-45c2-985e-63136bd571f5" name="Opportunist" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="05c5ea3e-c98d-45c2-985e-63136bd571f5" name="Opportunist" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5062,7 +5062,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="a4301419-caa6-0abd-acb8-fb7879ae2aaa" name="Wingman" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="a4301419-caa6-0abd-acb8-fb7879ae2aaa" name="Wingman" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5077,7 +5077,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="4814d72c-a93c-b9d7-20ae-19b15b111df5" name="Outmaneuver" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="4814d72c-a93c-b9d7-20ae-19b15b111df5" name="Outmaneuver" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5092,7 +5092,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="0726a59f-aacc-c870-9bfb-30f7bd2645a2" name="Predator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="0726a59f-aacc-c870-9bfb-30f7bd2645a2" name="Predator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5107,7 +5107,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="08ff624f-b99f-f6ce-ab34-671106503eb2" name="Decoy" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="08ff624f-b99f-f6ce-ab34-671106503eb2" name="Decoy" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5134,7 +5134,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="3671e8b2-4419-156c-2a26-9164209fe54a" name="Missiles" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="3671e8b2-4419-156c-2a26-9164209fe54a" name="Missiles" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5159,7 +5159,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="cdf3ef54-0715-9620-891d-bf4c07cbf548" name="Missiles" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="cdf3ef54-0715-9620-891d-bf4c07cbf548" name="Missiles" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5184,7 +5184,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="81464b2d-6a40-f341-e561-05ac6326c0e0" name="Missiles" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="81464b2d-6a40-f341-e561-05ac6326c0e0" name="Missiles" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5209,7 +5209,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="da92a164-bdf9-4213-3d30-544d1e243e5d" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="da92a164-bdf9-4213-3d30-544d1e243e5d" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5237,7 +5237,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5268,7 +5268,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="76b68268-070c-3e72-1f15-b839933dd191" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="76b68268-070c-3e72-1f15-b839933dd191" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5296,7 +5296,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5324,7 +5324,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="a458cc23-1004-1dcd-9d03-eb83119817c4" name="Modifications" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="a458cc23-1004-1dcd-9d03-eb83119817c4" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5355,9 +5355,9 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="4677c765-57fb-1da9-f01c-459dd324fe54" name="Sensors" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="4677c765-57fb-1da9-f01c-459dd324fe54" name="Sensors" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="bf132373-472a-129f-6db4-b1c1e55528b3" name="Fire-Control System" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="bf132373-472a-129f-6db4-b1c1e55528b3" name="Fire-Control System" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5372,7 +5372,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="7814e133-fee0-ce97-6915-ad47d598f66b" name="Advanced Sensors" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="7814e133-fee0-ce97-6915-ad47d598f66b" name="Advanced Sensors" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5387,7 +5387,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="fec26a92-d110-08b6-d9a4-e6fa88848178" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="fec26a92-d110-08b6-d9a4-e6fa88848178" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5402,7 +5402,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="d85b32c0-1b69-abb5-ad98-df7289272b33" name="Enhanced Scopes†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+        <entry id="d85b32c0-1b69-abb5-ad98-df7289272b33" name="Enhanced Scopes†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5422,7 +5422,7 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="62357bce-b8fa-7b04-587f-52fc38922f21" name="Torpedoes" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="true">
+    <entryGroup id="62357bce-b8fa-7b04-587f-52fc38922f21" name="Torpedoes" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5438,7 +5438,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c7276d08-70c8-9319-bbb4-755eb87e6e95" name="Torpedoes" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="c7276d08-70c8-9319-bbb4-755eb87e6e95" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5454,7 +5454,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="87bec091-087e-a9d2-710b-a05ff7b025b1" name="Torpedoes" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="87bec091-087e-a9d2-710b-a05ff7b025b1" name="Torpedoes" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
