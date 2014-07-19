@@ -58,7 +58,7 @@
       <links>
         <link id="a3c43f9e-fb2e-304f-8097-51dedb4035f8" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" childId="eae80c36-ab08-0879-9474-2f3d1b070cb7" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -174,7 +174,7 @@
       <links>
         <link id="12804dce-0df3-d6be-d4c9-eea1a6b5ec0b" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="55f108e0-7576-5470-8cbe-b79f6663a5bb" childId="eae80c36-ab08-0879-9474-2f3d1b070cb7" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -293,7 +293,7 @@
       <links>
         <link id="0941b2a4-6ebe-8ff8-4782-933902dac8ff" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="37328b3b-ecc8-bb91-8714-af59825dc9a0" childId="eae80c36-ab08-0879-9474-2f3d1b070cb7" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -406,7 +406,7 @@
       <links>
         <link id="eaebdde4-375c-1ac1-9aa4-ad331e02ce0e" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="874f40ae-d171-5f27-beac-794042fe1e39" childId="eae80c36-ab08-0879-9474-2f3d1b070cb7" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -1186,12 +1186,7 @@
           <modifiers/>
         </link>
         <link id="6cc7a458-b8e2-f66c-c2da-5d6b78a3dea8" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </link>
         <link id="de4f0b3d-95ea-3146-cdd4-df03c0099afb" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
@@ -1270,12 +1265,7 @@
           <modifiers/>
         </link>
         <link id="c01c6318-77ca-5e16-92de-b4fe196e5caa" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </link>
         <link id="d6a0c099-15d2-ec06-056b-aa07e1d5d371" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
           <modifiers/>
@@ -1366,12 +1356,7 @@
           <modifiers/>
         </link>
         <link id="93793d8c-05e7-956b-9b3a-d5fe514bca6e" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </link>
         <link id="0320e149-0329-d06e-5f7a-2f5025111850" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
           <modifiers/>
@@ -1465,12 +1450,7 @@
           <modifiers/>
         </link>
         <link id="15fd938b-c488-def2-7c0b-17527f2440ba" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </link>
         <link id="6e62e42b-2168-4819-bf1c-a428b6851bfd" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
           <modifiers/>
@@ -3999,13 +3979,8 @@
         <link id="1cd20fe0-016a-2dc6-01d1-1cee72e4bfc0" targetId="c250debb-2ca2-1981-4cea-9a096ce8d993" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="ce7fd310-b070-d8d9-ebff-1aea5febcf22" targetId="62357bce-b8fa-7b04-587f-52fc38922f21" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="ce7fd310-b070-d8d9-ebff-1aea5febcf22" targetId="87bec091-087e-a9d2-710b-a05ff7b025b1" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="12027ab0-edd8-cbd4-a269-4138e3dbd15e" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" linkType="entry group">
           <modifiers>
@@ -5447,7 +5422,7 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="62357bce-b8fa-7b04-587f-52fc38922f21" name="Torpedoes" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="62357bce-b8fa-7b04-587f-52fc38922f21" name="Torpedoes" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5463,7 +5438,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c7276d08-70c8-9319-bbb4-755eb87e6e95" name="Torpedoes" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+    <entryGroup id="c7276d08-70c8-9319-bbb4-755eb87e6e95" name="Torpedoes" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5475,6 +5450,22 @@
           <modifiers/>
         </link>
         <link id="980fbe56-22af-07c3-26fa-f63ccfa63c90" targetId="992875cf-545e-ba32-7e57-bbf3993be85b" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="87bec091-087e-a9d2-710b-a05ff7b025b1" name="Torpedoes" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="baa646f4-e861-ee07-86f5-5cebb10ea27d" targetId="cf0df15b-cb79-2387-6bd1-eadf3b5288c0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="68988dd5-4b0f-b4d8-b1a3-56e9ada4836e" targetId="337d716a-f66d-f17c-bd95-36c93c28a475" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="148eb756-dc3a-7dc2-cbb8-21b685d1e010" targetId="992875cf-545e-ba32-7e57-bbf3993be85b" linkType="entry">
           <modifiers/>
         </link>
       </links>
