@@ -243,7 +243,7 @@
         </link>
         <link id="13462fe6-6384-9cee-aa1e-0e0d86eeb745" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="c6fb6c9f-3889-f5ae-be95-95261eb2e92f" childId="60cdc12f-981b-56bf-38f6-1ff34c39041d" field="selections" type="equal to" value="0.0"/>
               </conditions>
@@ -346,7 +346,7 @@
         </link>
         <link id="4733b766-6b7d-19d3-ab95-641750a52948" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" childId="60cdc12f-981b-56bf-38f6-1ff34c39041d" field="selections" type="equal to" value="0.0"/>
               </conditions>
@@ -633,7 +633,7 @@
         </link>
         <link id="fbd3ffd8-a0cc-e0eb-80e5-2a4cd3ae28ea" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="f2dd1913-ab04-da47-0ca4-db37a2321d61" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="0.0"/>
               </conditions>
@@ -723,7 +723,7 @@
         </link>
         <link id="e05afb6d-ee5e-b042-73ac-262e50b9a17b" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="9d39f9a8-8473-1bec-3642-8fb51174ad79" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="0.0"/>
               </conditions>
@@ -828,7 +828,7 @@
         </link>
         <link id="9c550f5d-28bd-32b8-457c-8e38ed8b96bb" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="bcb91787-88cd-24c3-aa69-4c6416f05645" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="0.0"/>
               </conditions>
@@ -933,7 +933,7 @@
         </link>
         <link id="2d618a91-6f14-a368-89d7-3e5f2421b47b" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="a1ae33d3-e999-62e9-c680-708dd6a38416" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="0.0"/>
               </conditions>
@@ -1038,7 +1038,7 @@
         </link>
         <link id="44aebc2b-3491-8c0c-4aad-252717cdd080" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="e1d35b7f-fede-c293-2d34-9fa5a82444b9" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="0.0"/>
               </conditions>
