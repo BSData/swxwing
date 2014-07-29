@@ -4615,6 +4615,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="3f548f1d-328d-cc8d-6e39-b786029e7927" name="Gunner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9af926f9-3ac2-d9a7-aeaf-5628f2c1ba6d" profileTypeId="332e30334372657723232344415441232323" name="Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You cannot perform another attack this round."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4876,6 +4891,9 @@
           <modifiers/>
         </link>
         <link id="4831154d-b1b3-68b6-b423-9b46b31ba75a" targetId="82dd7305-076e-76cb-c46b-16e944b61f0c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e05a5720-750e-2a6f-b735-2ba7c72991da" targetId="3f548f1d-328d-cc8d-6e39-b786029e7927" linkType="entry">
           <modifiers/>
         </link>
       </links>
