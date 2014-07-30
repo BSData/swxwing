@@ -6469,6 +6469,21 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="f2f81bf7-3391-2f21-e3ce-b4309f8dcdf4" name="Stay on Target†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="cba19173-9aa0-df02-f958-97dff86add52" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Stay on Target" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat that maneuver as a red maneuver."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
