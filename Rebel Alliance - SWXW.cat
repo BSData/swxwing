@@ -5204,7 +5204,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="f952e99e-894d-fe16-02d9-e3168477e46c" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Bright Hope" hidden="false" page="0">
+        <profile id="f952e99e-894d-fe16-02d9-e3168477e46c" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Bright Hope" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+2"/>
             <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="A reinforce token assigned to your fore section adds 2 [evade] results (instead of 1)."/>
@@ -5220,7 +5220,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a0931371-8323-6b8b-769b-645571b28079" profileTypeId="332e30334372657723232344415441232323" name="•C-3PO" hidden="false" page="0">
+        <profile id="a0931371-8323-6b8b-769b-645571b28079" profileTypeId="332e30334372657723232344415441232323" name="C-3PO" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Once per round, before you roll 1 or more defense dice, you may guess aloud a number of [evade] results. If you roll that many [evade] results (before modifying dice), add 1 [evade] result."/>
           </characteristics>
@@ -5235,7 +5235,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e52f2225-da0a-cff3-d043-8534d6300f54" profileTypeId="332e30334372657723232344415441232323" name="•Carlist Rieekan" hidden="false" page="0">
+        <profile id="e52f2225-da0a-cff3-d043-8534d6300f54" profileTypeId="332e30334372657723232344415441232323" name="Carlist Rieekan" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the Activation phase, you may discard this card to treat each friendly ship&apos;s pilot skill value as &quot;12&quot; until the end of the phase."/>
           </characteristics>
@@ -5257,9 +5257,24 @@
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="29994993-a007-b878-7c04-8445aadbcbe0" profileTypeId="332e30334372657723232344415441232323" name="•Chewbacca" hidden="false" page="0">
+        <profile id="29994993-a007-b878-7c04-8445aadbcbe0" profileTypeId="332e30334372657723232344415441232323" name="Chewbacca" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you are dealt a damage card, you may immediately discard that card and recover 1 shield. Then, discard this upgrade card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5d62d862-36ca-1056-42f0-68d641d541db" name="•Dash Rendar†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="63a0251e-3b87-b8d9-7a28-a43c49d3610c" profileTypeId="332e30334372657723232344415441232323" name="Dash Rendar" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may perform attacks while overlapping an obstacle. Your attacks cannot be obstructed."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5272,7 +5287,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d36754a7-a935-e846-1bc8-5a9d8c3372b6" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Dodonna&apos;s Pride" hidden="false" page="0">
+        <profile id="d36754a7-a935-e846-1bc8-5a9d8c3372b6" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Dodonna&apos;s Pride" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit"/>
             <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="When you perform a coordinate action, you may choose 2 friendly ships (instead of 1). Those ships may each perform 1 free action."/>
@@ -5288,7 +5303,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="c5e29c15-1ff9-7208-d778-dfa6a99494a1" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Dutyfree" hidden="false" page="0">
+        <profile id="c5e29c15-1ff9-7208-d778-dfa6a99494a1" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Dutyfree" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+0"/>
             <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="When performing a jam action, you may choose an enemy ship at Range 1-3 (instead of at Range 1-2)."/>
@@ -5311,7 +5326,7 @@
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="71f1a820-aae9-67ac-9f60-d590af7037a6" profileTypeId="332e30334372657723232344415441232323" name="•Han Solo" hidden="false" page="0">
+        <profile id="71f1a820-aae9-67ac-9f60-d590af7037a6" profileTypeId="332e30334372657723232344415441232323" name="Han Solo" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking, if you have a target lock on the defender, you may spend that target lock to change all of your [focus] results to [hit] results."/>
           </characteristics>
@@ -5326,7 +5341,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="789784df-ff5b-6bc3-a625-955c91f6301f" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Jaina&apos;s Light" hidden="false" page="0">
+        <profile id="789784df-ff5b-6bc3-a625-955c91f6301f" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Jaina&apos;s Light" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit"/>
             <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="When defending, once per attack, if you are dealt a faceup Damage card, you may discard it and draw another faceup Damage card."/>
@@ -5342,7 +5357,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d8a3ba8f-3235-1609-5e2d-a6405f99ec14" profileTypeId="332e30334372657723232344415441232323" name="•Jan Dodonna" hidden="false" page="0">
+        <profile id="d8a3ba8f-3235-1609-5e2d-a6405f99ec14" profileTypeId="332e30334372657723232344415441232323" name="Jan Dodonna" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When another friendly ship at Range 1 is attacking, it may change 1 of its [hit] results to a [critical hit] result."/>
           </characteristics>
@@ -5364,7 +5379,7 @@
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="5a69a5ef-6383-2b48-1c67-55c758476dc0" profileTypeId="332e30334372657723232344415441232323" name="•Jan Ors" hidden="false" page="0">
+        <profile id="5a69a5ef-6383-2b48-1c67-55c758476dc0" profileTypeId="332e30334372657723232344415441232323" name="Jan Ors" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Once per round, when a friendly ship at Range 1-3 performs a focus action or would be assigned a focus token, you may assign that ship an evade token instead."/>
           </characteristics>
@@ -5386,7 +5401,7 @@
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="7eba2c57-fe98-4911-d1d1-f60445eec16d" profileTypeId="332e30334372657723232344415441232323" name="•Kyle Katarn" hidden="false" page="0">
+        <profile id="7eba2c57-fe98-4911-d1d1-f60445eec16d" profileTypeId="332e30334372657723232344415441232323" name="Kyle Katarn" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you remove a stress token from your ship, you may assign a focus token to your ship."/>
           </characteristics>
@@ -5408,7 +5423,7 @@
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="6a3e0ba4-dcaa-67f5-2717-dc94fa531c08" profileTypeId="332e30334372657723232344415441232323" name="•Lando Calrissian" hidden="false" page="0">
+        <profile id="6a3e0ba4-dcaa-67f5-2717-dc94fa531c08" profileTypeId="332e30334372657723232344415441232323" name="Lando Calrissian" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Roll 2 defense dice. For each [focus] result, assign 1 focus token to your ship. For each [evade] result, assign 1 evade token to your ship."/>
           </characteristics>
@@ -5423,7 +5438,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="3d2b73da-b087-7138-1e08-1604199ba606" profileTypeId="332e30334372657723232344415441232323" name="•Leia Organa" hidden="false" page="0">
+        <profile id="3d2b73da-b087-7138-1e08-1604199ba606" profileTypeId="332e30334372657723232344415441232323" name="Leia Organa" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the Activation phase, you may discard this card to allow all friendly ships that reveal a red maneuver to treat that maneuver as a white maneuver until the end of the phase."/>
           </characteristics>
@@ -5445,7 +5460,7 @@
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="8fcc1ee7-3344-f657-49c3-52ea35c3125d" profileTypeId="332e30334372657723232344415441232323" name="•Luke Skywalker" hidden="false" page="0">
+        <profile id="8fcc1ee7-3344-f657-49c3-52ea35c3125d" profileTypeId="332e30334372657723232344415441232323" name="Luke Skywalker" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You may change 1 [focus] result to a [hit] result. You cannot perform another attack this round."/>
           </characteristics>
@@ -5460,7 +5475,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="05ad1e1e-90bc-3975-2724-7b1a7e7d5ad5" profileTypeId="332e30315469746c6523232344415441232323" name="•Millenium Falcon" hidden="false" page="0">
+        <profile id="05ad1e1e-90bc-3975-2724-7b1a7e7d5ad5" profileTypeId="332e30315469746c6523232344415441232323" name="Millenium Falcon" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your action bar gains the [evade] action icon."/>
           </characteristics>
@@ -5475,7 +5490,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0a0fd77f-af10-6027-79ba-b61365c1e078" profileTypeId="332e30315469746c6523232344415441232323" name="•Moldy Crow" hidden="false" page="0">
+        <profile id="0a0fd77f-af10-6027-79ba-b61365c1e078" profileTypeId="332e30315469746c6523232344415441232323" name="Moldy Crow" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="During the End phase, do not remove unused focus tokens from your ship."/>
           </characteristics>
@@ -5490,7 +5505,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="5ddf6608-38d9-c964-482b-abc44e81d8ab" profileTypeId="332e30334372657723232344415441232323" name="•Nien Nunb" hidden="false" page="0">
+        <profile id="5ddf6608-38d9-c964-482b-abc44e81d8ab" profileTypeId="332e30334372657723232344415441232323" name="Nien Nunb" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may treat all [straight] maneuvers as green maneuvers."/>
           </characteristics>
@@ -5505,7 +5520,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="8b59b722-8a6f-cf7b-231f-68d4b295c0ff" profileTypeId="332e30315469746c6523232344415441232323" name="•Outrider" hidden="false" page="0">
+        <profile id="8b59b722-8a6f-cf7b-231f-68d4b295c0ff" profileTypeId="332e30315469746c6523232344415441232323" name="Outrider" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="While you have a [cannon] Upgrade card equipped, you cannot perform primary weapon attacks and you may perform [cannon] secondary weapon attacks against ships outside your firing arc."/>
           </characteristics>
@@ -5520,7 +5535,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d460f3ce-795d-c95a-f2af-5039e7173447" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Quantum Storm" hidden="false" page="0">
+        <profile id="d460f3ce-795d-c95a-f2af-5039e7173447" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Quantum Storm" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+1"/>
             <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="At the start of the End phase, if you have 1 or fewer energy tokens, gain 1 energy token."/>
@@ -5536,7 +5551,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="8a2aa994-2d17-529e-5c07-ae85bb7c7a26" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R2-D2" hidden="false" page="0">
+        <profile id="8a2aa994-2d17-529e-5c07-ae85bb7c7a26" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R2-D2" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="After executing a green maneuver, you may recover 1 shield (up to your shield value)."/>
           </characteristics>
@@ -5558,7 +5573,7 @@
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="15648306-f888-7acb-d892-4b4d59b0bf55" profileTypeId="332e30334372657723232344415441232323" name="•R2-D2" hidden="false" page="0">
+        <profile id="15648306-f888-7acb-d892-4b4d59b0bf55" profileTypeId="332e30334372657723232344415441232323" name="R2-D2" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the end of the End phase, if you have no shields, you may recover 1 shield and roll 1 attack die. On a [hit] result, randomly flip 1 of your facedown Damage cards faceup and resolve it."/>
           </characteristics>
@@ -5573,7 +5588,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="4d7c97e6-f10f-2b5e-e34c-41e74f490ad8" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R2-D6" hidden="false" page="0">
+        <profile id="4d7c97e6-f10f-2b5e-e34c-41e74f490ad8" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R2-D6" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="Your upgrade bar gains the [elite pilot talent] upgrade icon."/>
           </characteristics>
@@ -5588,7 +5603,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="dc552ec0-ab56-25e3-dadf-34c89b84e617" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R2-F2" hidden="false" page="0">
+        <profile id="dc552ec0-ab56-25e3-dadf-34c89b84e617" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R2-F2" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="Action: Increase your agility value by 1 until the end of this game round."/>
           </characteristics>
@@ -5603,7 +5618,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="42130f87-e02a-dff4-ad7d-f18aa7be3e0d" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R3-A2" hidden="false" page="0">
+        <profile id="42130f87-e02a-dff4-ad7d-f18aa7be3e0d" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R3-A2" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="When you declare the target of your attack, if the defender is inside your firing arc, you may receive 1 stress token to cause the defender to receive 1 stress token."/>
           </characteristics>
@@ -5618,7 +5633,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="c4eeaea5-64e1-4611-50f0-fbc0f0754090" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R4-D6" hidden="false" page="0">
+        <profile id="c4eeaea5-64e1-4611-50f0-fbc0f0754090" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R4-D6" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="When you are hit by an attack and there are at least 3 uncancelled [hit] results, you may choose and cancel those results until there are 2 remaining. For each result cancelled in this way, receive 1 stress token."/>
           </characteristics>
@@ -5633,7 +5648,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="667b70e7-2e0e-a08f-9e82-5a72b60a185b" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R5-D8" hidden="false" page="0">
+        <profile id="667b70e7-2e0e-a08f-9e82-5a72b60a185b" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R5-D8" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="Action: Roll 1 defense die. On a [evade] or [focus] result, discard 1 of your facedown Damage cards."/>
           </characteristics>
@@ -5648,7 +5663,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2b2d3a64-d698-2bf7-eca4-ec2a1c1af62f" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R5-K6" hidden="false" page="0">
+        <profile id="2b2d3a64-d698-2bf7-eca4-ec2a1c1af62f" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R5-K6" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="After spending your target lock, roll 1 defense die. On a [evade] result, immediately acquire a target lock on that same ship. You cannot spend this target lock during this attack."/>
           </characteristics>
@@ -5663,7 +5678,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="3cfa9367-2973-8bee-90fa-4923707a7545" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R5-P9" hidden="false" page="0">
+        <profile id="3cfa9367-2973-8bee-90fa-4923707a7545" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R5-P9" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="At the end of the Combat phase, you may spend 1 of your focus tokens to recover 1 shield (up to your shield value)."/>
           </characteristics>
@@ -5678,7 +5693,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d82c0059-949b-63d9-2e39-ab350db63911" profileTypeId="332e34417374726f6d65636823232344415441232323" name="•R7-T1" hidden="false" page="0">
+        <profile id="d82c0059-949b-63d9-2e39-ab350db63911" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R7-T1" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="Action: Choose an enemy ship at Range 1-2. If you are inside that ship&apos;s firing arc, you may acquire a target lock on that ship. Then, you may perform a free boost action."/>
           </characteristics>
@@ -5693,7 +5708,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2d6a62e4-55ea-c9e1-2009-689ebcd14c68" profileTypeId="332e30334372657723232344415441232323" name="•Raymus Antilles" hidden="false" page="0">
+        <profile id="2d6a62e4-55ea-c9e1-2009-689ebcd14c68" profileTypeId="332e30334372657723232344415441232323" name="Raymus Antilles" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the Activation phase, choose 1 enemy ship at Range 1-3. You may look at that ship&apos;s chosen maneuver. If the maneuver is white, assign that ship 1 stress token."/>
           </characteristics>
@@ -5708,7 +5723,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="4a3d5d0c-e14b-f670-895d-1bddc80dfed3" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="•Squad Leader" hidden="false" page="0">
+        <profile id="4a3d5d0c-e14b-f670-895d-1bddc80dfed3" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Squad Leader" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Choose 1 ship at Range 1-2 that has a lower pilot skill than you. The chosen ship may immediately perform 1 free action."/>
           </characteristics>
@@ -5723,7 +5738,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="64a153a5-7ef7-4a09-7298-3108bc9da1a7" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="•Tantive IV" hidden="false" page="0">
+        <profile id="64a153a5-7ef7-4a09-7298-3108bc9da1a7" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Tantive IV" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit"/>
             <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="Your fore section upgrade bar gains 1 additional [crew] and 1 additional [team] upgrade icon."/>
@@ -5739,24 +5754,9 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0a2c9e13-080e-9395-7d4d-5c8f00f1015b" profileTypeId="332e30334372657723232344415441232323" name="•Toryn Farr" hidden="false" page="0">
+        <profile id="0a2c9e13-080e-9395-7d4d-5c8f00f1015b" profileTypeId="332e30334372657723232344415441232323" name="Toryn Farr" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Spend any amount of energy to choose that many enemy ships at Range 1-2. Remove all focus, evade, and blue target lock tokens from those ships."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="5d62d862-36ca-1056-42f0-68d641d541db" name="•Dash Rendar†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="63a0251e-3b87-b8d9-7a28-a43c49d3610c" profileTypeId="332e30334372657723232344415441232323" name="•Dash Rendar" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may perform attacks while overlapping an obstacle. Your attacks cannot be obstructed."/>
           </characteristics>
           <modifiers/>
         </profile>
