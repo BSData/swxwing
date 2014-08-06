@@ -5269,7 +5269,14 @@
     <entry id="5d62d862-36ca-1056-42f0-68d641d541db" name="•Dash Rendar†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="acbb931d-dbf0-7e0d-d91d-319f712547f8" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="63a0251e-3b87-b8d9-7a28-a43c49d3610c" profileTypeId="332e30334372657723232344415441232323" name="Dash Rendar" hidden="false">
