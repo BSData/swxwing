@@ -4546,7 +4546,7 @@
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="f2c12471-8f42-ec64-6250-61fa4b362f5a" profileTypeId="332e30334372657723232344415441232323" name="•Darth Vader" hidden="false" page="0">
+        <profile id="f2c12471-8f42-ec64-6250-61fa4b362f5a" profileTypeId="332e30334372657723232344415441232323" name="Darth Vader" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack against an enemy ship, you may suffer 2 damage to cause that ship to suffer 1 critical damage."/>
           </characteristics>
@@ -4561,7 +4561,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d30f4ea1-307f-3249-0ef0-db5d3199197f" profileTypeId="332e30334372657723232344415441232323" name="•Mara Jade" hidden="false" page="0">
+        <profile id="d30f4ea1-307f-3249-0ef0-db5d3199197f" profileTypeId="332e30334372657723232344415441232323" name="Mara Jade" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the end of the Combat phase, each enemy ship at Range 1 that does not have a stress token receives 1 stress token."/>
           </characteristics>
@@ -4576,7 +4576,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="f8cb3348-aecd-325a-8a43-120edef1dfd4" profileTypeId="332e30334372657723232344415441232323" name="•Rebel Captive" hidden="false" page="0">
+        <profile id="f8cb3348-aecd-325a-8a43-120edef1dfd4" profileTypeId="332e30334372657723232344415441232323" name="Rebel Captive" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Once per round, the first ship that declares you as the target of an attack immediately recieves 1 stress token."/>
           </characteristics>
@@ -4591,7 +4591,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e66c4801-7a7e-a0ad-ecbc-61c42f12df78" profileTypeId="332e30315469746c6523232344415441232323" name="•Slave 1" hidden="false" page="0">
+        <profile id="e66c4801-7a7e-a0ad-ecbc-61c42f12df78" profileTypeId="332e30315469746c6523232344415441232323" name="Slave 1" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [torpedoes] upgrade icon."/>
           </characteristics>
@@ -4606,7 +4606,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="5666b00b-7571-bc94-9fdf-c39b3ff8a728" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="•Squad Leader" hidden="false" page="0">
+        <profile id="5666b00b-7571-bc94-9fdf-c39b3ff8a728" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Squad Leader" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Choose 1 ship at Range 1-2 that has a lower pilot skill than you. The chosen ship may immediately perform 1 free action."/>
           </characteristics>
@@ -4621,7 +4621,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="7a11235b-ffc0-ef58-aed3-301a0cd9cbde" profileTypeId="332e30315469746c6523232344415441232323" name="•ST-321" hidden="false" page="0">
+        <profile id="7a11235b-ffc0-ef58-aed3-301a0cd9cbde" profileTypeId="332e30315469746c6523232344415441232323" name="ST-321" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="When acquiring a target lock, you may lock onto any enemy ship in the play area."/>
           </characteristics>
