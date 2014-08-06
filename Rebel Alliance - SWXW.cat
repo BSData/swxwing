@@ -5748,6 +5748,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="5d62d862-36ca-1056-42f0-68d641d541db" name="•Dash Rendar†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="63a0251e-3b87-b8d9-7a28-a43c49d3610c" profileTypeId="332e30334372657723232344415441232323" name="•Dash Rendar" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may perform attacks while overlapping an obstacle. Your attacks cannot be obstructed."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6067,6 +6082,9 @@
         <link id="e9a78963-7d65-780d-f090-e2a805dce4ac" targetId="9eb90f5d-3d76-37db-f3c0-fb6cf743b310" linkType="entry">
           <modifiers/>
         </link>
+        <link id="53e58449-f3f1-cf64-4ed4-71acb82a4cd4" targetId="5d62d862-36ca-1056-42f0-68d641d541db" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="60819a12-fd97-e9e0-7691-09cd50bb8184" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6146,6 +6164,9 @@
         <link id="b8087d83-1eba-509c-9f27-a0f064fb625d" targetId="a94857f8-f114-359d-6865-3ea961bd2c06" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3da2f4be-3553-65f7-67e9-ef9812b2b15b" targetId="5d62d862-36ca-1056-42f0-68d641d541db" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="cde72115-f886-0ac2-8687-18a412900249" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6223,6 +6244,9 @@
           <modifiers/>
         </link>
         <link id="69449dda-c041-d31d-dd91-d55c3790e990" targetId="a94857f8-f114-359d-6865-3ea961bd2c06" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0ef5e023-667b-fdd5-84cb-ce26482b50bc" targetId="5d62d862-36ca-1056-42f0-68d641d541db" linkType="entry">
           <modifiers/>
         </link>
       </links>
