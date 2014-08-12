@@ -4875,6 +4875,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="354008f1-5792-9749-b9bd-df221932df26" name="•Moff Jerjerrod†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="75ae55e7-eca4-b88f-366c-c68de639572a" profileTypeId="332e30334372657723232344415441232323" name="•Moff Jerjerrod†" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you are dealt a faceup Damage card, you may discard this Upgrade card or another [crew] Upgrade card to flip that Damage card facedown (without resolving its effect)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5095,6 +5110,9 @@
         <link id="c41d40ae-779e-f127-3241-ee6ddbad9599" targetId="9a1592a3-76d2-99a6-dfb7-0495e0292cd1" linkType="entry">
           <modifiers/>
         </link>
+        <link id="741d079e-40fe-8cb1-1476-ee57da6a7ca6" targetId="354008f1-5792-9749-b9bd-df221932df26" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="6701e928-8f3d-9408-032c-fab510f88032" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5145,6 +5163,9 @@
           <modifiers/>
         </link>
         <link id="9cc22b27-d9c9-e909-d2f0-67b34f2c9f96" targetId="9a1592a3-76d2-99a6-dfb7-0495e0292cd1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0d01434d-d521-1ae2-6abd-7c36dbd4b6e9" targetId="354008f1-5792-9749-b9bd-df221932df26" linkType="entry">
           <modifiers/>
         </link>
       </links>
