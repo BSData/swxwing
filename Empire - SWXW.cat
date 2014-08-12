@@ -4658,6 +4658,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="cad0aac2-e19b-4618-2d90-25a641a49b0e" name="Tactical Jammer†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c40200b2-5210-8268-9070-fac8eb75774b" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Tactical Jammer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your ship can obstruct enemy attacks."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="9f8eb646-2aa2-2a4c-8eab-f96fe14dce5f" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -4884,21 +4899,6 @@
         <profile id="2652e24e-43cb-7798-3fdd-f729b0ffa011" profileTypeId="332e30334372657723232344415441232323" name="Ysanne Isard" hidden="false">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the Combat phase, if you have no shields and at least 1 Damage card assigned to your ship, you may perform a free evade action."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="cad0aac2-e19b-4618-2d90-25a641a49b0e" name="Tactical Jammer†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c40200b2-5210-8268-9070-fac8eb75774b" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Tactical Jammer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your ship can obstruct enemy attacks."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5436,6 +5436,36 @@
             <profile id="1c569150-970a-3fa7-e2bd-8549b595c37f" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Stay on Target" hidden="false">
               <characteristics>
                 <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat that maneuver as a red maneuver."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="841b0799-d3f0-3378-b4cd-5da0d1047d7d" name="Intimidation†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="cd011795-b154-223f-cfed-17aab4f58eb1" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Intimidation" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="While you are touching an enemy ship, reduce that ship&apos;s agility value by 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fca4d2cb-41a5-ef36-4854-b657bdcadcdf" name="Ruthlessness†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a8724b76-5965-751e-e134-078a66c3d5dd" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Ruthlessness" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="After you perform an attack that hits, you must choose 1 other ship at Range 1 of the defender (other than yourself). That ship suffers 1 damage."/>
               </characteristics>
               <modifiers/>
             </profile>
