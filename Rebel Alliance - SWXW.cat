@@ -5491,6 +5491,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="3eba70f9-5817-4935-7c78-40e27894d031" name="•Lone Wolf†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7c1d3cc1-9654-69f1-349b-1c1e9673dc7b" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lone Wolf" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if there are no friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="a94857f8-f114-359d-6865-3ea961bd2c06" name="•Luke Skywalker" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5807,15 +5822,30 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="3eba70f9-5817-4935-7c78-40e27894d031" name="•Lone Wolf†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8cac254f-077b-0754-ca11-969aaa8bb286" name="•Experimental Interface†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="7c1d3cc1-9654-69f1-349b-1c1e9673dc7b" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lone Wolf" hidden="false">
+        <profile id="1dbeb0c7-4149-8b76-a4e4-87d1318d1fb5" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Experimental Interface" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if there are no friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the &quot;Action:&quot; header. Then receive 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d38fd4d5-be08-1148-f675-e02824af9ee3" name="Countermeasures†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a6aec456-2f2c-58dc-de44-d416b409d866" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Countermeasures" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round. Then you may remove 1 enemy target lock from your ship."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6732,6 +6762,9 @@
         <link id="0e5e36d8-9003-b5e0-7c0a-60c2758d478a" targetId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" linkType="entry">
           <modifiers/>
         </link>
+        <link id="584a9dd7-1f59-4fa8-ffc5-ccffa289b202" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="dd21508f-8798-3e2e-ae30-16613096cf4a" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6766,6 +6799,12 @@
         <link id="3a4cc0d3-6207-38a9-1302-3a22287c54f0" targetId="3bc4e45d-235b-dd2c-7070-6dd8522e6275" linkType="entry">
           <modifiers/>
         </link>
+        <link id="470c5198-de80-5ebb-7979-4cc6504fcbdf" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c823bbcc-11f1-4bb1-e206-8f27796bae69" targetId="d38fd4d5-be08-1148-f675-e02824af9ee3" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6794,6 +6833,9 @@
         <link id="1988e7da-9472-9708-77d8-c6c5263e59d9" targetId="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" linkType="entry">
           <modifiers/>
         </link>
+        <link id="1c19c901-25e9-c4b4-584d-eaecc9b36a43" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="c30d64de-d278-0167-b900-e2a2bf88d797" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6820,6 +6862,9 @@
           <modifiers/>
         </link>
         <link id="95bb97ef-e98f-a6d7-7891-7e5267fd1ffb" targetId="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e9549d6f-93dd-4c13-a913-f5e2e9a702de" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
       </links>
