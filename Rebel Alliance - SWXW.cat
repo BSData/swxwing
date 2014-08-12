@@ -5807,6 +5807,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="3eba70f9-5817-4935-7c78-40e27894d031" name="•Lone Wolf†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7c1d3cc1-9654-69f1-349b-1c1e9673dc7b" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lone Wolf" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if there are no friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6575,6 +6590,9 @@
           <modifiers/>
         </link>
         <link id="31a5c0d6-5046-e33d-6e8e-fc0d09e5ca1e" targetId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8ee3634f-b9d7-26e9-96d0-c2d298dcd6c9" targetId="3eba70f9-5817-4935-7c78-40e27894d031" linkType="entry">
           <modifiers/>
         </link>
       </links>
