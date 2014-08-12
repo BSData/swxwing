@@ -4890,6 +4890,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="cad0aac2-e19b-4618-2d90-25a641a49b0e" name="Tactical Jammer†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c40200b2-5210-8268-9070-fac8eb75774b" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Tactical Jammer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your ship can obstruct enemy attacks."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5569,6 +5584,9 @@
           <modifiers/>
         </link>
         <link id="1e0f090b-35ef-3ed9-1e65-ff0a3ce25c73" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1a5db6d7-83eb-9df1-f089-79c614f1dac9" targetId="cad0aac2-e19b-4618-2d90-25a641a49b0e" linkType="entry">
           <modifiers/>
         </link>
       </links>
