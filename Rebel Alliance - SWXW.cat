@@ -4468,6 +4468,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="d38fd4d5-be08-1148-f675-e02824af9ee3" name="Countermeasures†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a6aec456-2f2c-58dc-de44-d416b409d866" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Countermeasures" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round. Then you may remove 1 enemy target lock from your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="9d617177-1358-92cf-9b97-67e07ff8a5b5" name="EM Emitter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5357,6 +5372,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="8cac254f-077b-0754-ca11-969aaa8bb286" name="•Experimental Interface†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1dbeb0c7-4149-8b76-a4e4-87d1318d1fb5" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Experimental Interface" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the &quot;Action:&quot; header. Then receive 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="d8c872b7-6d29-222f-7525-bd18d85da924" name="•Han Solo" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5822,30 +5852,15 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="8cac254f-077b-0754-ca11-969aaa8bb286" name="•Experimental Interface†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" name="•&quot;Leebo&quot;†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="1dbeb0c7-4149-8b76-a4e4-87d1318d1fb5" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Experimental Interface" hidden="false">
+        <profile id="23213bb1-d567-77bd-3098-69b06d3af30d" profileTypeId="332e30334372657723232344415441232323" name="&quot;Leebo&quot;" hidden="false">
           <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the &quot;Action:&quot; header. Then receive 1 stress token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="d38fd4d5-be08-1148-f675-e02824af9ee3" name="Countermeasures†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="a6aec456-2f2c-58dc-de44-d416b409d866" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Countermeasures" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round. Then you may remove 1 enemy target lock from your ship."/>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Perform a free boost action. Then receive 1 ion token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6174,6 +6189,9 @@
         <link id="53e58449-f3f1-cf64-4ed4-71acb82a4cd4" targetId="5d62d862-36ca-1056-42f0-68d641d541db" linkType="entry">
           <modifiers/>
         </link>
+        <link id="8826e8da-b550-9a0d-f1f8-5530b258b1db" targetId="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="60819a12-fd97-e9e0-7691-09cd50bb8184" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6256,6 +6274,9 @@
         <link id="3da2f4be-3553-65f7-67e9-ef9812b2b15b" targetId="5d62d862-36ca-1056-42f0-68d641d541db" linkType="entry">
           <modifiers/>
         </link>
+        <link id="2837fd0c-6b5e-6749-b596-aa6cb5d81854" targetId="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="cde72115-f886-0ac2-8687-18a412900249" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6336,6 +6357,9 @@
           <modifiers/>
         </link>
         <link id="0ef5e023-667b-fdd5-84cb-ce26482b50bc" targetId="5d62d862-36ca-1056-42f0-68d641d541db" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7b87065b-de37-fe65-c525-9e61889617b0" targetId="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" linkType="entry">
           <modifiers/>
         </link>
       </links>
