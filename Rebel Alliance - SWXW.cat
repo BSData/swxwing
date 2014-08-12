@@ -4340,7 +4340,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="e6d3cbd8-0083-f6b6-70ee-532b2d810f49" name="Backup Shield Generator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="e6d3cbd8-0083-f6b6-70ee-532b2d810f49" name="Backup Shield Generator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4499,7 +4499,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="54050293-08c5-c7af-9a9c-5c7172cc0307" name="EM Emitter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="54050293-08c5-c7af-9a9c-5c7172cc0307" name="EM Emitter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4531,7 +4531,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="fd71df51-1c5c-dd9b-a58a-23334dd8e75c" name="Engine Booster" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="fd71df51-1c5c-dd9b-a58a-23334dd8e75c" name="Engine Booster" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4562,7 +4562,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="4eb1c822-695f-5e64-ed44-961c806d4f33" name="Engineering Team" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="4eb1c822-695f-5e64-ed44-961c806d4f33" name="Engineering Team" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4646,7 +4646,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="df209bf5-b8e1-6d13-c3c7-56fc6c7013ff" name="Frequency Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="df209bf5-b8e1-6d13-c3c7-56fc6c7013ff" name="Frequency Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4677,7 +4677,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="998a2df6-2efa-fc7e-0695-0e1cf8d13f7b" name="Gunnery Team" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="998a2df6-2efa-fc7e-0695-0e1cf8d13f7b" name="Gunnery Team" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4826,7 +4826,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="26bea32f-adbf-6590-b161-0dbe2e54795c" name="Ionization Reactor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="26bea32f-adbf-6590-b161-0dbe2e54795c" name="Ionization Reactor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5158,7 +5158,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="1ef38ace-c769-489b-e6ba-7a0e3dcff8e0" name="Targeting Coordinator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="1ef38ace-c769-489b-e6ba-7a0e3dcff8e0" name="Targeting Coordinator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5189,7 +5189,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="ac7025a6-4e98-2b0d-986d-eb15a4b93bf8" name="Tibanna Gas Supplies" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="ac7025a6-4e98-2b0d-986d-eb15a4b93bf8" name="Tibanna Gas Supplies" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
