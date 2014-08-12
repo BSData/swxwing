@@ -4773,6 +4773,28 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="bf63b09c-20b2-ea60-7ee6-03ba127ac8e5" name="Ion Torpedoes†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="497a297e-d304-dd7a-e0f5-ff995611c7e1" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Ion Torpedoes" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, the defender and each ship at Range 1 of it receives 1 ion token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="306489a3-dade-5584-dfea-12aa0996f916" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" name="Ion Torpedoes " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="7fa4d704-7013-a8cf-dd12-b4a54bd5abad" name="Ionization Reactor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -6897,6 +6919,9 @@
         <link id="60dbef28-edda-2a84-9427-e657e61d58c2" targetId="2f4d5990-d840-0815-9bdb-6a80b064aa66" linkType="entry">
           <modifiers/>
         </link>
+        <link id="d5e52adc-972f-993c-06c6-6046b48db1b5" targetId="bf63b09c-20b2-ea60-7ee6-03ba127ac8e5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="9545e3df-9bdf-e54d-e148-00bcf6a456e3" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6911,6 +6936,9 @@
           <modifiers/>
         </link>
         <link id="4efbddea-8f2c-8321-3964-4dac96617a02" targetId="64b2a37d-c81b-ccce-4cc0-72530c01fa83" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5f34aa60-33cb-47ce-ac10-6dd6c04a53f4" targetId="bf63b09c-20b2-ea60-7ee6-03ba127ac8e5" linkType="entry">
           <modifiers/>
         </link>
       </links>
