@@ -115,6 +115,9 @@
         <link id="ea278006-ae47-9b95-aaff-18d6116f9264" targetId="a827a198-1515-0790-a949-ae48b2155c24" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="aa69d2b4-65ca-f7fb-bee2-edc11aec9a75" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" linkType="entry group">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="a89642a3-8fe9-68f8-9bf3-a9aeebe44324" name="PS 7 - •N&apos;dru Suhlak†" points="17.0" categoryId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
@@ -344,6 +347,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="4fae9934-c15c-2a0b-3856-75105fa4e5fb" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" linkType="entry group">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c6bb0ed7-0c44-d84f-e311-94343ddc34dd" name="PS 8 - •Serissu†" points="20.0" categoryId="b3c1c304-3188-a645-b4da-26fd616a9304" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -562,6 +568,28 @@
           <characteristics>
             <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
             <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" name="Blaster Turret" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="98450431-ae81-d637-27c2-7871228c255f" profileTypeId="375475727265747323232344415441232323" name="Blaster Turret " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="adc55062-268e-230a-53fc-b0c96819d272" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Blaster Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc)."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -895,6 +923,28 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="0b7ac2f6-ece6-5356-150e-821fdc3c900e" name="Ion Cannon Turret" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a4692374-a4e1-1197-8bb3-84c0063403a5" profileTypeId="375475727265747323232344415441232323" name="Ion Cannon Turret " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e15916d8-52ad-0e24-7f1e-9740965ffc4e" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Ion Cannon Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="b417e97c-ebf8-5800-67f8-56dda529ec65" name="Ion Pulse Missiles" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1178,6 +1228,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="660f5eb3-2c26-35b5-96e1-4d030768dd0a" name="•Slave 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d680f4b0-94c5-ea33-62e5-4ac2d808599f" profileTypeId="332e30315469746c6523232344415441232323" name="•Slave 1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [torpedoes] upgrade icon."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="25661a78-52a4-43a2-b558-43dfcaafe055" name="•Squad Leader" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1208,59 +1273,63 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="0b7ac2f6-ece6-5356-150e-821fdc3c900e" name="Ion Cannon Turret" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d0bfa110-91c0-3cdf-8bc4-1659a6bc6cd1" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a4692374-a4e1-1197-8bb3-84c0063403a5" profileTypeId="375475727265747323232344415441232323" name="Ion Cannon Turret " hidden="false">
+        <profile id="8291aa76-027a-0909-1b24-0be45d646194" profileTypeId="39426f6d6223232344415441232323" name="Seismic Charges" hidden="false">
           <characteristics>
-            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
-            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token. This token detonates at the end of the Activation phase."/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="e15916d8-52ad-0e24-7f1e-9740965ffc4e" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Ion Cannon Turret" hidden="false">
+        <profile id="8627df96-9468-1393-ec24-b3102f309434" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Seismic Charge Token" hidden="false">
           <characteristics>
-            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage. Then discard this token."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links/>
     </entry>
-    <entry id="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" name="Blaster Turret" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="de000700-3ac0-b28f-88f3-96a141fad4d1" name="Proximity Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="98450431-ae81-d637-27c2-7871228c255f" profileTypeId="375475727265747323232344415441232323" name="Blaster Turret " hidden="false">
+        <profile id="2be72f2c-6729-00b4-49de-a127fe004aea" profileTypeId="39426f6d6223232344415441232323" name="Proximity Mines" hidden="false">
           <characteristics>
-            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
-            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 proximity mine token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="adc55062-268e-230a-53fc-b0c96819d272" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Blaster Turret" hidden="false">
+        <profile id="31bb6a3a-7600-d62d-f57f-7471bc49f577" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proximity Mine Token" hidden="false">
           <characteristics>
-            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc)."/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage [hit] and critical damage [critical hit] rolled. Then discard this token."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links/>
     </entry>
-    <entry id="660f5eb3-2c26-35b5-96e1-4d030768dd0a" name="•Slave 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="78a5a605-fc92-ada5-a8a1-ba214b4ec650" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d680f4b0-94c5-ea33-62e5-4ac2d808599f" profileTypeId="332e30315469746c6523232344415441232323" name="•Slave 1" hidden="false">
+        <profile id="9eea23f1-7a16-53dd-632f-86a054be5d9f" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proton Bomb Token" hidden="false">
           <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [torpedoes] upgrade icon."/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, deal 1 faceup Damage card to each ship at Range 1 of the token. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b57eea1e-246e-c623-c677-44b9dbdf9f8a" profileTypeId="39426f6d6223232344415441232323" name="Proton Bombs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 proton bomb token. This token detonates at the end of the Activation phase."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1444,19 +1513,6 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="b2a776cc-a7de-7f19-2bdd-48d2db4012fd" name="Turret" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="e0fb71b3-cf40-caad-697f-98b4b35c94fc" targetId="0b7ac2f6-ece6-5356-150e-821fdc3c900e" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a7b61730-241e-c305-8b22-31fb6b9e24e0" targetId="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
     <entryGroup id="0d8e6cae-48d5-ab7b-1f1e-71bd9707404c" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1472,6 +1528,35 @@
           <modifiers/>
         </link>
         <link id="9ce7f2c9-09bd-b5e7-eb2c-17c225db73bb" targetId="5cc6b486-241c-cec5-32a0-3921be32d15b" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="b2a776cc-a7de-7f19-2bdd-48d2db4012fd" name="Turret" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="e0fb71b3-cf40-caad-697f-98b4b35c94fc" targetId="0b7ac2f6-ece6-5356-150e-821fdc3c900e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a7b61730-241e-c305-8b22-31fb6b9e24e0" targetId="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="0c424bbd-a0ae-2666-ac34-b0c4c6d8a6c7" targetId="d0bfa110-91c0-3cdf-8bc4-1659a6bc6cd1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c8ec5082-35cf-73e6-dd96-bdaa040fca8a" targetId="de000700-3ac0-b28f-88f3-96a141fad4d1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1d2b33dc-cfb1-d3b9-5dde-3fd6d8e681c5" targetId="78a5a605-fc92-ada5-a8a1-ba214b4ec650" linkType="entry">
           <modifiers/>
         </link>
       </links>
