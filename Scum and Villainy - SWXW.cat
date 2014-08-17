@@ -263,7 +263,18 @@
     </entry>
     <entry id="38436adf-0540-8e9e-ef6e-28ac888bacb2" name="PS 8 - •Boba Fett†" points="39.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="aa785c00-682b-b213-96ef-9b93b6ac79d9" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="d5e212de-d94f-8a76-a353-df54858f294e" targetId="660f5eb3-2c26-35b5-96e1-4d030768dd0a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
@@ -280,6 +291,12 @@
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="9f2407c6-42ea-7836-fcba-fc145b967789" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb, Crew, Torpedoes, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="660f5eb3-2c26-35b5-96e1-4d030768dd0a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -316,6 +333,16 @@
         </link>
         <link id="c735bb37-3cac-c777-c4b1-8b893c0c4b23" targetId="b2f54238-b4ff-a160-02a0-8211d14cbc69" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="b9711f47-96ec-eeb2-cc0d-3f4ea6486265" targetId="04037047-bfd0-f18b-f57a-cd6fe0cf848c" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="660f5eb3-2c26-35b5-96e1-4d030768dd0a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -1219,6 +1246,21 @@
         <profile id="adc55062-268e-230a-53fc-b0c96819d272" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Blaster Turret" hidden="false">
           <characteristics>
             <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="660f5eb3-2c26-35b5-96e1-4d030768dd0a" name="•Slave 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d680f4b0-94c5-ea33-62e5-4ac2d808599f" profileTypeId="332e30315469746c6523232344415441232323" name="•Slave 1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [torpedoes] upgrade icon."/>
           </characteristics>
           <modifiers/>
         </profile>
