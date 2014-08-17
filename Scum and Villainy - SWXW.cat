@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="3" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="4" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ce3df76b-6999-732c-51ba-cdc14f961d34" name="PS 4 - Placeholder Y-Wing Pilot††" points="20.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -29,15 +29,13 @@
         <link id="c953390b-2c4c-7b6c-a42b-0b1f276207b7" targetId="10ec179e-5dc2-e433-2b26-47a74ed0db71" linkType="profile">
           <modifiers/>
         </link>
-        <link id="e4956bf4-90ef-a661-da9f-8593c151aa7b" targetId="04037047-bfd0-f18b-f57a-cd6fe0cf848c" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
         <link id="a72385b8-9582-6655-589d-74e6b7b1bb6e" targetId="1040ae13-d315-b3f8-823c-2fdaec9f3f80" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="aa082762-8072-9c0a-8866-88590eadb3ab" targetId="b2a776cc-a7de-7f19-2bdd-48d2db4012fd" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="ed8e945f-ec16-5274-7bc1-d4a4eeb09ee5" targetId="0d8e6cae-48d5-ab7b-1f1e-71bd9707404c" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -1183,6 +1181,50 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="0b7ac2f6-ece6-5356-150e-821fdc3c900e" name="Ion Cannon Turret" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a4692374-a4e1-1197-8bb3-84c0063403a5" profileTypeId="375475727265747323232344415441232323" name="Ion Cannon Turret " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e15916d8-52ad-0e24-7f1e-9740965ffc4e" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Ion Cannon Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" name="Blaster Turret" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="98450431-ae81-d637-27c2-7871228c255f" profileTypeId="375475727265747323232344415441232323" name="Blaster Turret " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="adc55062-268e-230a-53fc-b0c96819d272" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Blaster Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="03872483-f881-ee65-93c3-41af11ed5c1c" name="Cannon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1356,6 +1398,38 @@
           <modifiers/>
         </link>
         <link id="66049bf6-8741-eb71-7569-5e3828fe1549" targetId="3750bfae-0501-c7b0-0b83-519011c46ebe" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="b2a776cc-a7de-7f19-2bdd-48d2db4012fd" name="Turret" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="e0fb71b3-cf40-caad-697f-98b4b35c94fc" targetId="0b7ac2f6-ece6-5356-150e-821fdc3c900e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a7b61730-241e-c305-8b22-31fb6b9e24e0" targetId="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="0d8e6cae-48d5-ab7b-1f1e-71bd9707404c" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="c8021919-bf9d-8711-e915-7e8ecb41512e" targetId="c35ead51-34d0-5fbf-207c-0a3ee5b74768" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cb2c517c-d62f-1bbc-342f-52015ae1f81c" targetId="316e1187-a31c-62f2-889c-2912eb4e5eb5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a54df6d0-e1e3-3f04-9442-5e148055d138" targetId="3750bfae-0501-c7b0-0b83-519011c46ebe" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9ce7f2c9-09bd-b5e7-eb2c-17c225db73bb" targetId="5cc6b486-241c-cec5-32a0-3921be32d15b" linkType="entry">
           <modifiers/>
         </link>
       </links>
