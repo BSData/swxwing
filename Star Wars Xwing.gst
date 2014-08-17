@@ -31,7 +31,7 @@
           <modifiers>
             <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
               <conditions>
-                <condition parentId="485a0a61-0056-76de-0cc8-af9e87627885" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="485a0a61-0056-76de-0cc8-af9e87627885" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -58,10 +58,10 @@
         <category id="bc4d1195-9439-b009-42b2-94056a0b366c" name="HWK-290" minSelections="0" maxSelections="12" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" name="Firespray-31" minSelections="0" maxSelections="6" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" name="Aggressor" minSelections="0" maxSelections="6" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="ad57052c-5c57-d3ae-2581-754b40de6619" name="IG-2000" minSelections="0" maxSelections="6" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="ad57052c-5c57-d3ae-2581-754b40de6619" name="Firespray-31" minSelections="0" maxSelections="6" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
         <category id="5753eb32-f764-9d39-c66f-0c9951854ce6" name="Lambda-Class Shuttle" minSelections="0" maxSelections="6" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
@@ -99,24 +99,24 @@
         <characteristic id="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="335365636f6e6461727920576561706f6e7323232344415441232323" name="3.0Torpedoes">
+    <profileType id="335365636f6e6461727920576561706f6e7323232344415441232323" name="3.2Torpedoes">
       <characteristics>
         <characteristic id="576561706f6e2052616e676523232344415441232323" name="Weapon Range"/>
         <characteristic id="41747461636b2056616c756523232344415441232323" name="Attack Value"/>
       </characteristics>
     </profileType>
-    <profileType id="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="3.1Torpedoes Ability">
+    <profileType id="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="3.3Torpedoes Ability">
       <characteristics>
         <characteristic id="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="354d697373696c6520576561706f6e7323232344415441232323" name="3.2Missiles">
+    <profileType id="354d697373696c6520576561706f6e7323232344415441232323" name="3.4Missiles">
       <characteristics>
         <characteristic id="576561706f6e2052616e676523232344415441232323" name="Weapon Range"/>
         <characteristic id="41747461636b2056616c756523232344415441232323" name="Attack Value"/>
       </characteristics>
     </profileType>
-    <profileType id="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="3.3Missiles Ability">
+    <profileType id="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="3.5Missiles Ability">
       <characteristics>
         <characteristic id="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability"/>
       </characteristics>
@@ -152,7 +152,7 @@
         <characteristic id="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="332e30334372657723232344415441232323" name="2.6Crew">
+    <profileType id="332e30334372657723232344415441232323" name="2.7Crew">
       <characteristics>
         <characteristic id="43726577204162696c69747923232344415441232323" name="Crew Ability"/>
       </characteristics>
@@ -178,7 +178,7 @@
         <characteristic id="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="4d360cf5-142f-0608-3a14-be3ee1303117" name="2.5Sensors">
+    <profileType id="4d360cf5-142f-0608-3a14-be3ee1303117" name="2.6Sensors">
       <characteristics>
         <characteristic id="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability"/>
       </characteristics>
@@ -206,13 +206,13 @@
         <characteristic id="9d9b1389-be43-ffef-020c-9f49626921d4" name="Hardpoint Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="2.7Cargo">
+    <profileType id="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="2.8Cargo">
       <characteristics>
         <characteristic id="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
         <characteristic id="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="2.8Team">
+    <profileType id="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="2.9Team">
       <characteristics>
         <characteristic id="eb3c4162-2db9-88f2-3869-0eb79bda378f" name="Team Ability"/>
       </characteristics>
@@ -229,6 +229,22 @@
         <characteristic id="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon"/>
         <characteristic id="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon"/>
         <characteristic id="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+    </profileType>
+    <profileType id="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="2.5Salvaged Astromech">
+      <characteristics>
+        <characteristic id="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability"/>
+      </characteristics>
+    </profileType>
+    <profileType id="2de957fe-85ec-5e2d-3a50-87cba297a282" name="3.0Illicit Upgrade">
+      <characteristics>
+        <characteristic id="081eaf8b-1fdf-5a05-ed94-61f173c64f14" name="Weapon Range"/>
+        <characteristic id="8085a6bb-b10e-8c8a-62e1-6e9d9e027977" name="Attack Value"/>
+      </characteristics>
+    </profileType>
+    <profileType id="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="3.1Illicit Upgrade Ability">
+      <characteristics>
+        <characteristic id="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability"/>
       </characteristics>
     </profileType>
   </profileTypes>
