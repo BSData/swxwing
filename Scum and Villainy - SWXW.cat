@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="3" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="ce3df76b-6999-732c-51ba-cdc14f961d34" name="PS 4 - Placeholder Y-Wing Pilot" points="20.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ce3df76b-6999-732c-51ba-cdc14f961d34" name="PS 4 - Placeholder Y-Wing Pilot††" points="20.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -432,6 +432,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="5456f954-7eef-bb4a-4187-903609cec08f" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3a793427-8b69-24f3-b136-d354ee456458" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Accuracy Corrector" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="451ee401-131a-8229-fad9-596146ba8879" name="Adrenaline Rush" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -463,6 +478,21 @@
           <characteristics>
             <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
             <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e26a68fa-d26c-9ba5-4471-cb0c0ad09620" name="Advanced Sensors" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="40aa0361-eb14-c0c9-8a5f-3aef3c065f7d" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Advanced Sensors" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -647,6 +677,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="f0488824-7565-f983-5bcf-17f397a3f926" name="Enhanced Scopes†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="bebcfbdf-acb3-3abd-2b50-083e2cfe0970" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Enhanced Scopes" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="During the Activation phase, treat your pilot skill value as &quot;0.&quot;"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="5e14c662-084c-0371-6570-b15462b73c1c" name="Expert Handling" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -671,6 +716,21 @@
         <profile id="bb641a40-4363-b8d8-d026-b5ee3f2c8c66" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Expose" hidden="false">
           <characteristics>
             <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Until the end of the round, increase your primary weapon value by 1 and decrease your agility by 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="b7f2519e-9778-d26a-f31f-6385941db861" name="Fire-Control System" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8940c4fd-7e96-9117-1247-0a55e53b849f" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Fire-Control System" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="After you perform an attack, you may acquire a target lock on the defender."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -973,7 +1033,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="f4e6ab40-8476-7c3c-7c48-eb4340857010" name="R4 Astromech†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f4e6ab40-8476-7c3c-7c48-eb4340857010" name="R4 Astromech††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -982,6 +1042,21 @@
         <profile id="c99a38b6-2476-c454-8f80-6d856677528a" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="R4 Astromech" hidden="false">
           <characteristics>
             <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="Placeholder Salvaged Astromech."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="0e5ef706-5e5a-645f-23b5-1d26ebf64b9e" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4c8b809b-b2c3-5521-cc68-b60e19acc433" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Sensor Jammer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When defending, you may change 1 of the attacker&apos;s [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1102,81 +1177,6 @@
         <profile id="7fd5f96d-9480-3e30-a063-eaaed92dcfcc" profileTypeId="332e30315469746c6523232344415441232323" name="Virago" hidden="false">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [sensors] and [illicit upgrade] icons."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="b7f2519e-9778-d26a-f31f-6385941db861" name="Fire-Control System" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8940c4fd-7e96-9117-1247-0a55e53b849f" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Fire-Control System" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="After you perform an attack, you may acquire a target lock on the defender."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="f0488824-7565-f983-5bcf-17f397a3f926" name="Enhanced Scopes†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="bebcfbdf-acb3-3abd-2b50-083e2cfe0970" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Enhanced Scopes" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="During the Activation phase, treat your pilot skill value as &quot;0.&quot;"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="0e5ef706-5e5a-645f-23b5-1d26ebf64b9e" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="4c8b809b-b2c3-5521-cc68-b60e19acc433" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Sensor Jammer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When defending, you may change 1 of the attacker&apos;s [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="e26a68fa-d26c-9ba5-4471-cb0c0ad09620" name="Advanced Sensors" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="40aa0361-eb14-c0c9-8a5f-3aef3c065f7d" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Advanced Sensors" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="5456f954-7eef-bb4a-4187-903609cec08f" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="3a793427-8b69-24f3-b136-d354ee456458" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Accuracy Corrector" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1319,25 +1319,6 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="04037047-bfd0-f18b-f57a-cd6fe0cf848c" name="Torpedoes" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="4bba45fe-771f-8091-3dc1-0771bc3198c8" targetId="c35ead51-34d0-5fbf-207c-0a3ee5b74768" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a9cd03f0-a607-3bcd-7a14-b27da5f7c573" targetId="316e1187-a31c-62f2-889c-2912eb4e5eb5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="41d15d4f-caa5-1132-b5ca-3d0ccb7a0a4b" targetId="5cc6b486-241c-cec5-32a0-3921be32d15b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="66049bf6-8741-eb71-7569-5e3828fe1549" targetId="3750bfae-0501-c7b0-0b83-519011c46ebe" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
     <entryGroup id="a827a198-1515-0790-a949-ae48b2155c24" name="Sensors" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1356,6 +1337,25 @@
           <modifiers/>
         </link>
         <link id="aac858e4-2fe3-c4ff-45da-f5d2b1d16932" targetId="5456f954-7eef-bb4a-4187-903609cec08f" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="04037047-bfd0-f18b-f57a-cd6fe0cf848c" name="Torpedoes" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="4bba45fe-771f-8091-3dc1-0771bc3198c8" targetId="c35ead51-34d0-5fbf-207c-0a3ee5b74768" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a9cd03f0-a607-3bcd-7a14-b27da5f7c573" targetId="316e1187-a31c-62f2-889c-2912eb4e5eb5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="41d15d4f-caa5-1132-b5ca-3d0ccb7a0a4b" targetId="5cc6b486-241c-cec5-32a0-3921be32d15b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="66049bf6-8741-eb71-7569-5e3828fe1549" targetId="3750bfae-0501-c7b0-0b83-519011c46ebe" linkType="entry">
           <modifiers/>
         </link>
       </links>
