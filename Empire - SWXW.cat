@@ -3342,7 +3342,7 @@
       <profiles>
         <profile id="76840975-fdc2-03b2-bacc-39ff80630bf7" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Tetran Cowall" hidden="false" page="0">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When you reveal a [koiogran turn] maneuver, you may treat the speed of that maneuver as &quot;1,&quot; &quot;3,&quot; or &quot;5.&quot; "/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When you reveal a [Koiogran turn] maneuver, you may treat the speed of that maneuver as &quot;1,&quot; &quot;3,&quot; or &quot;5.&quot; "/>
           </characteristics>
           <modifiers/>
         </profile>
