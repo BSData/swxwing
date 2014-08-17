@@ -799,7 +799,7 @@
         </link>
       </links>
     </entry>
-    <entry id="114cccd7-db12-855e-4a62-993908968b8a" name="PS 3 - GR-75 Medium Transport" points="30.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="114cccd7-db12-855e-4a62-993908968b8a" name="PS 3 - GR-75 Medium Transport" points="30.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="87faa50e-8f7a-5cd5-6914-2f3f73f09a93" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1190,7 +1190,7 @@
         </link>
       </links>
     </entry>
-    <entry id="a8abf554-54ec-748d-1418-8c7e74972a2a" name="PS 4 - CR90 Corvette" points="0.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="a8abf554-54ec-748d-1418-8c7e74972a2a" name="PS 4 - CR90 Corvette" points="0.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="1176775e-0e68-cf12-01fe-27b782a15479" name="CR90 Corvette (Fore)" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -6279,13 +6279,13 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="97f454cf-82e7-8579-ca1a-9c7a95574f27" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Ion Cannon " hidden="false" page="0">
+            <profile id="97f454cf-82e7-8579-ca1a-9c7a95574f27" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Ion Cannon" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
               </characteristics>
               <modifiers/>
             </profile>
-            <profile id="05db23fa-7dc5-ab9f-3de3-0e9095993c8d" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Ion Cannon" hidden="false" page="0">
+            <profile id="05db23fa-7dc5-ab9f-3de3-0e9095993c8d" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Ion Cannon " hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
                 <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
@@ -6301,13 +6301,13 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="4cf71460-fb00-b8cd-3f69-821dbc2d7c24" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Heavy Laser Cannon " hidden="false" page="0">
+            <profile id="4cf71460-fb00-b8cd-3f69-821dbc2d7c24" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Heavy Laser Cannon" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Immediately after rolling your attack dice, you must change all of your [critical hit] results to [hit] results."/>
               </characteristics>
               <modifiers/>
             </profile>
-            <profile id="c3554c2e-1237-ba06-734f-c7e34875acb9" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Heavy Laser Cannon" hidden="false" page="0">
+            <profile id="c3554c2e-1237-ba06-734f-c7e34875acb9" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Heavy Laser Cannon " hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
                 <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
@@ -6323,13 +6323,13 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="a6180e46-05ab-ea19-963f-7f22885fb3e7" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Autoblaster " hidden="false" page="0">
+            <profile id="a6180e46-05ab-ea19-963f-7f22885fb3e7" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Autoblaster" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Your [hit] results cannot be cancelled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
               </characteristics>
               <modifiers/>
             </profile>
-            <profile id="9d6f0edd-a04a-c5c9-8719-0e7c73f84114" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Autoblaster" hidden="false" page="0">
+            <profile id="9d6f0edd-a04a-c5c9-8719-0e7c73f84114" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Autoblaster " hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
                 <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
