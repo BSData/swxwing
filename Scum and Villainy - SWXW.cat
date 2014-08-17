@@ -1,64 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="3" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="38436adf-0540-8e9e-ef6e-28ac888bacb2" name="PS 8 - •Boba Fett†" points="39.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="d052f14d-1ebc-0c9e-d2fe-ff47ec16b342" profileTypeId="31536869707323232344415441232323" name="•Boba Fett" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="8"/>
-            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
-            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
-            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
-            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Cannon, Bomb, Crew, Missiles, Illicit Upgrade"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="9f2407c6-42ea-7836-fcba-fc145b967789" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile id="e788e7e4-7c59-ec8e-a85e-c219c1eb5d56" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Boba Fett" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking or defending, you may reroll 1 of your dice for each enemy ship at Range 1."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a7ba5176-f92a-a8c4-3105-5b4220bd1a8f" targetId="63963f80-442c-4b75-3e66-4b0f62be9dd3" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bebfcabb-6de4-15ba-c5a9-c4358048743d" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9ce55b1e-48df-a2dd-f61a-80ca7018d05f" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4303a64f-5f38-355c-68b0-16557c70742d" targetId="03872483-f881-ee65-93c3-41af11ed5c1c" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="1242b001-8230-edbf-5992-953d4ed6f49a" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="146f0ca0-f63a-c81d-5cf4-0971afa0d3f6" targetId="2749eab7-0fe2-0198-c7aa-c119cb08c41a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="bb558fd1-bbbe-67a0-f34a-19a47af24eda" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="c735bb37-3cac-c777-c4b1-8b893c0c4b23" targetId="b2f54238-b4ff-a160-02a0-8211d14cbc69" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="ce3df76b-6999-732c-51ba-cdc14f961d34" name="Fringe Y-Wing Pilot" points="20.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -88,58 +30,6 @@
           <modifiers/>
         </link>
         <link id="e4956bf4-90ef-a661-da9f-8593c151aa7b" targetId="04037047-bfd0-f18b-f57a-cd6fe0cf848c" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a89642a3-8fe9-68f8-9bf3-a9aeebe44324" name="PS 7 - •N&apos;dru Suhlak†" points="17.0" categoryId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="da6049b7-ca9e-5a96-143a-49fa6153a32a" profileTypeId="31536869707323232344415441232323" name="•N&apos;dru Suhlak" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="7"/>
-            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
-            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
-            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
-            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missiles, Illicit Upgrade"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="a89642a3-8fe9-68f8-9bf3-a9aeebe44324" childId="9f2407c6-42ea-7836-fcba-fc145b967789" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile id="6bc12939-b920-f3f4-b29b-2d0e231cf08a" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="N&apos;dru Suhlak" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking, if there are no friendly ships at Range 1-2, roll 1 additional attack die."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="712ada84-9f1c-eb18-a56e-ae881601fe81" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a6bb656f-629e-0123-2ceb-468ebaf6cba5" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="eaffa385-54fb-52ab-3ed0-6801103d0379" targetId="2749eab7-0fe2-0198-c7aa-c119cb08c41a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="7711fa7f-6248-e307-94d6-c6c619719fea" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="1c94dd8e-d45b-4c08-1305-b609397a2a6b" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="d7dfab0a-245b-4ed6-0111-665b6c80392e" targetId="b7ffb7a0-d7fb-4fab-6c8d-b754c0c70370" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -218,6 +108,58 @@
         </link>
       </links>
     </entry>
+    <entry id="a89642a3-8fe9-68f8-9bf3-a9aeebe44324" name="PS 7 - •N&apos;dru Suhlak†" points="17.0" categoryId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="da6049b7-ca9e-5a96-143a-49fa6153a32a" profileTypeId="31536869707323232344415441232323" name="•N&apos;dru Suhlak" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="7"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missiles, Illicit Upgrade"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a89642a3-8fe9-68f8-9bf3-a9aeebe44324" childId="9f2407c6-42ea-7836-fcba-fc145b967789" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="6bc12939-b920-f3f4-b29b-2d0e231cf08a" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="N&apos;dru Suhlak" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking, if there are no friendly ships at Range 1-2, roll 1 additional attack die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="712ada84-9f1c-eb18-a56e-ae881601fe81" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a6bb656f-629e-0123-2ceb-468ebaf6cba5" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eaffa385-54fb-52ab-3ed0-6801103d0379" targetId="2749eab7-0fe2-0198-c7aa-c119cb08c41a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7711fa7f-6248-e307-94d6-c6c619719fea" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="1c94dd8e-d45b-4c08-1305-b609397a2a6b" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d7dfab0a-245b-4ed6-0111-665b6c80392e" targetId="b7ffb7a0-d7fb-4fab-6c8d-b754c0c70370" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="79f00a18-a8af-ec3c-f807-286c21af23a0" name="PS 7 - •Prince Xizor†" points="31.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -269,6 +211,64 @@
           <modifiers/>
         </link>
         <link id="5246e4e2-9f5d-4882-a908-b45f9fb30043" targetId="e1ec2b51-ca31-7a1a-8ee3-ff5777f3fc8e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="38436adf-0540-8e9e-ef6e-28ac888bacb2" name="PS 8 - •Boba Fett†" points="39.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d052f14d-1ebc-0c9e-d2fe-ff47ec16b342" profileTypeId="31536869707323232344415441232323" name="•Boba Fett" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="8"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Cannon, Bomb, Crew, Missiles, Illicit Upgrade"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="9f2407c6-42ea-7836-fcba-fc145b967789" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="e788e7e4-7c59-ec8e-a85e-c219c1eb5d56" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Boba Fett" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking or defending, you may reroll 1 of your dice for each enemy ship at Range 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a7ba5176-f92a-a8c4-3105-5b4220bd1a8f" targetId="63963f80-442c-4b75-3e66-4b0f62be9dd3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bebfcabb-6de4-15ba-c5a9-c4358048743d" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9ce55b1e-48df-a2dd-f61a-80ca7018d05f" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4303a64f-5f38-355c-68b0-16557c70742d" targetId="03872483-f881-ee65-93c3-41af11ed5c1c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="1242b001-8230-edbf-5992-953d4ed6f49a" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="146f0ca0-f63a-c81d-5cf4-0971afa0d3f6" targetId="2749eab7-0fe2-0198-c7aa-c119cb08c41a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="bb558fd1-bbbe-67a0-f34a-19a47af24eda" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c735bb37-3cac-c777-c4b1-8b893c0c4b23" targetId="b2f54238-b4ff-a160-02a0-8211d14cbc69" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -970,7 +970,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="e5eef4c8-ed0b-4b82-9b3a-d94bddd27bb6" name="•IG-2000†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e5eef4c8-ed0b-4b82-9b3a-d94bddd27bb6" name="IG-2000†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1009,6 +1009,21 @@
         <profile id="0e90009c-2415-27ed-121a-101b6763c875" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Squad Leader" hidden="false">
           <characteristics>
             <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Choose 1 ship at Range 1-2 that has a lower pilot skill than you. The chosen ship may immediately perform 1 free action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="0b7c7263-0dfd-b1af-42c4-3ebb15518237" name="•Bodyguard†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9c8e1f2e-41ca-f786-45b2-e0d26cf1e93a" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Bodyguard" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may spend a focus token to choose a friendly ship at Range 1 with higher pilot skill than you. Increase its agility value by 1 until the end of the round."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1101,6 +1116,9 @@
         <link id="6b5c7d12-bcc0-a6d3-dbb5-da0c26e777c6" targetId="25661a78-52a4-43a2-b558-43dfcaafe055" linkType="entry">
           <modifiers/>
         </link>
+        <link id="8d8598c7-c9ad-d60e-5814-4ebca883b53d" targetId="0b7c7263-0dfd-b1af-42c4-3ebb15518237" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" name="Illicit Upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1176,6 +1194,42 @@
     </rule>
   </sharedRules>
   <sharedProfiles>
+    <profile id="37f7a02d-09a8-9556-3520-ca637b5cc6bc" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Aggressor" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b2f54238-b4ff-a160-02a0-8211d14cbc69" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Firespray-31" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Auxiliary Arc"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9586b353-5cb0-faf4-0d2e-d10064e24b2b" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="HWK-290" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0d3f4671-0d5c-b367-7034-8210ad90eb4a" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="M3-A Interceptor" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="a54d832c-e1de-d1d5-47d6-e63a28944233" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="StarViper" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
@@ -1194,46 +1248,10 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="37f7a02d-09a8-9556-3520-ca637b5cc6bc" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Aggressor" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
-        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
-        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="0d3f4671-0d5c-b367-7034-8210ad90eb4a" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="M3-A Interceptor" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
-        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
-        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="9586b353-5cb0-faf4-0d2e-d10064e24b2b" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="HWK-290" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
-        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
-        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="b7ffb7a0-d7fb-4fab-6c8d-b754c0c70370" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Z-95 Headhunter" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
         <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
-        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
-        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="b2f54238-b4ff-a160-02a0-8211d14cbc69" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Firespray-31" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Auxiliary Arc"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
