@@ -5945,6 +5945,21 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="c0b7a68e-cc4a-d311-9912-3342cab69851" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="db811afa-eb97-3ac6-7d9c-2c0722a212df" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Accuracy Corrector" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>

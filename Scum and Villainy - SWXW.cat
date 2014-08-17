@@ -1168,6 +1168,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="5456f954-7eef-bb4a-4187-903609cec08f" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3a793427-8b69-24f3-b136-d354ee456458" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Accuracy Corrector" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="03872483-f881-ee65-93c3-41af11ed5c1c" name="Cannon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1338,6 +1353,9 @@
           <modifiers/>
         </link>
         <link id="32259c6a-7a23-b298-2ced-c341c29ceb6c" targetId="b7f2519e-9778-d26a-f31f-6385941db861" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="aac858e4-2fe3-c4ff-45da-f5d2b1d16932" targetId="5456f954-7eef-bb4a-4187-903609cec08f" linkType="entry">
           <modifiers/>
         </link>
       </links>

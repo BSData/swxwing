@@ -7274,6 +7274,21 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="057efbbf-f32f-a9dc-e5dd-28a25c529d4d" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="19612ad1-d111-fa20-c4f5-bd420bb4fbc0" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Accuracy Corrector" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -7349,6 +7364,25 @@
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="e9d9f084-5a33-aa78-14c7-c8088b5a6b09" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="7646ad93-7fe9-ba38-2e8e-4b0817463fed" targetId="64b2a37d-c81b-ccce-4cc0-72530c01fa83" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3507d31f-5941-80a4-9e6a-b98232548dae" targetId="73a00ede-84ee-8603-c6c7-383a38467912" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="34a7ae5b-4863-66d1-1228-a21df0322262" targetId="bf63b09c-20b2-ea60-7ee6-03ba127ac8e5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="492c7166-6407-2b61-a15a-5b6276ba1e39" targetId="2f4d5990-d840-0815-9bdb-6a80b064aa66" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
     <entryGroup id="b3f61166-089a-f1df-88d7-63f8983dd33c" name="Turret" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -7371,25 +7405,6 @@
           <modifiers/>
         </link>
         <link id="69590257-50bd-835c-9efc-876ba45c2e80" targetId="6c4fa9ff-5216-46ab-7a2d-2a77d009474a" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="e9d9f084-5a33-aa78-14c7-c8088b5a6b09" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="7646ad93-7fe9-ba38-2e8e-4b0817463fed" targetId="64b2a37d-c81b-ccce-4cc0-72530c01fa83" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="3507d31f-5941-80a4-9e6a-b98232548dae" targetId="73a00ede-84ee-8603-c6c7-383a38467912" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="34a7ae5b-4863-66d1-1228-a21df0322262" targetId="bf63b09c-20b2-ea60-7ee6-03ba127ac8e5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="492c7166-6407-2b61-a15a-5b6276ba1e39" targetId="2f4d5990-d840-0815-9bdb-6a80b064aa66" linkType="entry">
           <modifiers/>
         </link>
       </links>
