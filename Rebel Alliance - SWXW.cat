@@ -432,7 +432,7 @@
         <link id="312fe35b-2b3c-8039-0d9a-8d181ddbba11" targetId="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="f404e046-1fc9-b490-ec44-2421d9218dc0" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
+        <link id="f404e046-1fc9-b490-ec44-2421d9218dc0" targetId="e9d9f084-5a33-aa78-14c7-c8088b5a6b09" linkType="entry group">
           <modifiers/>
         </link>
         <link id="16aa0df4-d01e-7764-ab6b-d2e293c52d0a" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
@@ -1545,7 +1545,7 @@
         <link id="8ea3c726-0952-baa3-2df6-948edd16e253" targetId="c30d64de-d278-0167-b900-e2a2bf88d797" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="5caab379-b0b8-e86b-e3f5-9d7035299069" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
+        <link id="5caab379-b0b8-e86b-e3f5-9d7035299069" targetId="e9d9f084-5a33-aa78-14c7-c8088b5a6b09" linkType="entry group">
           <modifiers/>
         </link>
         <link id="d3a4f859-d069-5a96-919d-d88f95a20cb9" targetId="4093e9ca-4779-a09e-e575-db3887586679" linkType="entry group">
@@ -2594,7 +2594,7 @@
         <link id="ed8e42e6-4f48-364d-c368-ec42bd20cedf" targetId="c30d64de-d278-0167-b900-e2a2bf88d797" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="1a83e79d-91cf-57b4-f4b6-712c9afe555c" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
+        <link id="1a83e79d-91cf-57b4-f4b6-712c9afe555c" targetId="e9d9f084-5a33-aa78-14c7-c8088b5a6b09" linkType="entry group">
           <modifiers/>
         </link>
         <link id="50fd896d-4bdb-114d-2c64-b67bc39a82b5" targetId="4093e9ca-4779-a09e-e575-db3887586679" linkType="entry group">
@@ -3849,7 +3849,7 @@
         <link id="dc5d4610-6631-036a-f204-b063a6df1087" targetId="c30d64de-d278-0167-b900-e2a2bf88d797" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="8d0c7ad6-47dc-a0a5-02b0-32ca94157246" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
+        <link id="8d0c7ad6-47dc-a0a5-02b0-32ca94157246" targetId="e9d9f084-5a33-aa78-14c7-c8088b5a6b09" linkType="entry group">
           <modifiers/>
         </link>
         <link id="bc70e18f-ef95-fb8d-68b2-5849e59659a4" targetId="4093e9ca-4779-a09e-e575-db3887586679" linkType="entry group">
@@ -7371,6 +7371,25 @@
           <modifiers/>
         </link>
         <link id="69590257-50bd-835c-9efc-876ba45c2e80" targetId="6c4fa9ff-5216-46ab-7a2d-2a77d009474a" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="e9d9f084-5a33-aa78-14c7-c8088b5a6b09" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="7646ad93-7fe9-ba38-2e8e-4b0817463fed" targetId="64b2a37d-c81b-ccce-4cc0-72530c01fa83" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3507d31f-5941-80a4-9e6a-b98232548dae" targetId="73a00ede-84ee-8603-c6c7-383a38467912" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="34a7ae5b-4863-66d1-1228-a21df0322262" targetId="bf63b09c-20b2-ea60-7ee6-03ba127ac8e5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="492c7166-6407-2b61-a15a-5b6276ba1e39" targetId="2f4d5990-d840-0815-9bdb-6a80b064aa66" linkType="entry">
           <modifiers/>
         </link>
       </links>
