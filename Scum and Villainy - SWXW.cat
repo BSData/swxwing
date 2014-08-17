@@ -162,7 +162,18 @@
     </entry>
     <entry id="79f00a18-a8af-ec3c-f807-286c21af23a0" name="PS 7 - •Prince Xizor†" points="31.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="2bfd9472-150a-2280-8f8d-4ab010525d33" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a4103dd9-fd25-47ab-ace9-80584bb4131d" targetId="2039ad7f-ef65-a658-0a7c-802066ea0971" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
@@ -179,6 +190,12 @@
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="79f00a18-a8af-ec3c-f807-286c21af23a0" childId="9f2407c6-42ea-7836-fcba-fc145b967789" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Sensors, Torpedoes, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="79f00a18-a8af-ec3c-f807-286c21af23a0" childId="2039ad7f-ef65-a658-0a7c-802066ea0971" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -212,6 +229,16 @@
         </link>
         <link id="5246e4e2-9f5d-4882-a908-b45f9fb30043" targetId="e1ec2b51-ca31-7a1a-8ee3-ff5777f3fc8e" linkType="rule">
           <modifiers/>
+        </link>
+        <link id="cb62c00c-25c0-fdfb-ca49-067caf809fa2" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="79f00a18-a8af-ec3c-f807-286c21af23a0" childId="2039ad7f-ef65-a658-0a7c-802066ea0971" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -369,7 +396,7 @@
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="25388210-d54c-2746-788e-132f71d6837b" name="&quot;Heavy Scyk&quot; Interceptor†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="25388210-d54c-2746-788e-132f71d6837b" name="&quot;Heavy Scyk&quot; Interceptor†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -970,7 +997,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="e5eef4c8-ed0b-4b82-9b3a-d94bddd27bb6" name="IG-2000†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e5eef4c8-ed0b-4b82-9b3a-d94bddd27bb6" name="IG-2000†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1015,7 +1042,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="0b7c7263-0dfd-b1af-42c4-3ebb15518237" name="•Bodyguard†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0b7c7263-0dfd-b1af-42c4-3ebb15518237" name="•Bodyguard†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1024,6 +1051,21 @@
         <profile id="9c8e1f2e-41ca-f786-45b2-e0d26cf1e93a" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Bodyguard" hidden="false">
           <characteristics>
             <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may spend a focus token to choose a friendly ship at Range 1 with higher pilot skill than you. Increase its agility value by 1 until the end of the round."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2039ad7f-ef65-a658-0a7c-802066ea0971" name="•Virago†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7fd5f96d-9480-3e30-a063-eaaed92dcfcc" profileTypeId="332e30315469746c6523232344415441232323" name="Virago" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [sensors] and [illicit upgrade] icons."/>
           </characteristics>
           <modifiers/>
         </profile>
