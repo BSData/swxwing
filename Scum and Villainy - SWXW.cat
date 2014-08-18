@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="5" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" name="PS 1 - Placeholder HWK-290 Pilot††" points="16.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" name="PS 1 - Placeholder HWK-290 Pilot††" points="16.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups>
         <entryGroup id="3063927c-02c3-5ea4-6e4f-e8717d861d38" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -80,7 +80,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ce3df76b-6999-732c-51ba-cdc14f961d34" name="PS 4 - Placeholder Y-Wing Pilot††" points="20.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ce3df76b-6999-732c-51ba-cdc14f961d34" name="PS 4 - Placeholder Y-Wing Pilot††" points="20.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1106,6 +1106,36 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="b5f90316-224b-28c7-130f-e8ef513a996f" name="Flight Instructor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e8cadadd-476f-d5c9-6a7e-0eeb6ec03feb" profileTypeId="332e30334372657723232344415441232323" name="Flight Instructor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When defending, you may reroll 1 of your [focus] results. If the attacker&apos;s pilot skill value is &quot;2&quot; or lower, you may reroll 1 of your blank results instead."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="8f3935da-009a-0697-5b47-46986b15ba00" name="Gunner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9fed06ee-f850-313c-9ef9-f11b61478dd5" profileTypeId="332e30334372657723232344415441232323" name="Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You cannot perform another attack this round."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="934af116-cafd-ef7c-201d-5623ab96162f" name="Heavy Laser Cannon" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1189,6 +1219,21 @@
         <profile id="9a5841b0-1052-974d-a477-7fe3f57153b8" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Inertial Dampeners" hidden="false">
           <characteristics>
             <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="When you reveal your maneuver, you may discard this card to instead perform a white [stationary 0] maneuver. Then receive 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a72c3e12-df26-9e4d-eb85-ba70bb3e9b35" name="Intelligence Agent" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8f0bfa3a-7e62-f455-a840-591d4e8fa2c2" profileTypeId="332e30334372657723232344415441232323" name="Intelligence Agent" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the Activation phase, choose 1 enemy ship at Range 1-2. You may look at that ship&apos;s chosen maneuver."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1313,6 +1358,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="735e9776-aa65-d10b-2ea6-3306977263ac" name="Mercenary Copilot" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4ececf27-a318-aa8f-2930-5be09ae636f1" profileTypeId="332e30334372657723232344415441232323" name="Mercenary Copilot" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking at Range 3, you may change 1 of your [hit] results to a [critical hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="8c2dd4e5-1251-f6f2-4b9f-b93bf183db40" name="Munitions Failsafe" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1322,6 +1382,21 @@
         <profile id="69b147e2-1676-f6fa-dad0-1f8fdc669875" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Munitions Failsafe" hidden="false">
           <characteristics>
             <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="31bf5364-9695-7905-198a-abef11eac1e0" name="Navigator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cc82fb24-5331-cdfc-a5d1-f66ae8f67154" profileTypeId="332e30334372657723232344415441232323" name="Navigator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing. You cannot rotate to a red maneuver if you have any stress tokens."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1489,6 +1564,36 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="1b14d503-e721-7433-4eb7-af8da7c6cfe3" name="Recon Specialist" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1ee28a17-43c0-7203-c0e4-ea59647bb5fb" profileTypeId="332e30334372657723232344415441232323" name="Recon Specialist" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you perform a focus action, assign 1 additional focus token to your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="67dcef78-1224-928e-331c-f4ec87fd16c4" name="Saboteur" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c9e5e807-8365-2ecf-cd33-0a8e33068b99" profileTypeId="332e30334372657723232344415441232323" name="Saboteur" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Choose 1 enemy ship at Range 1 and roll 1 attack die.  On a [hit] or [critical hit] result, choose 1 random facedown Damage card assigned to that ship, flip it faceup, and resolve it."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="d0bfa110-91c0-3cdf-8bc4-1659a6bc6cd1" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1615,6 +1720,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="5b33b7c4-008e-8c9e-3d2c-0d2749b7f2c5" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="914f390a-43d7-4cda-2ff3-74ac1edf81fc" profileTypeId="332e30334372657723232344415441232323" name="Tactician" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack against a ship inside your firing arc at Range 2, that ship receives 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="45386e60-c93d-62aa-5e03-e7ed1f0499cc" name="Targeting Computer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1630,6 +1750,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="dcbd00f7-6e7f-1710-4738-0d948e878bf4" name="Targeting Coordinator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9a561b39-afea-8a20-c98d-327550f47cb1" profileTypeId="332e30334372657723232344415441232323" name="Targeting Coordinator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Energy: You may spend 1 energy to choose 1 friendly ship at Range 1-2. Acquire a target lock, then assign the blue target lock token to the chosen ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="9f2407c6-42ea-7836-fcba-fc145b967789" name="Veteran Instincts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1639,6 +1774,21 @@
         <profile id="2c3e7109-1310-0cdd-b5dd-db3e1006bb24" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Veteran Instincts" hidden="false">
           <characteristics>
             <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Increase your pilot skill value by 2."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="17f5bd55-7c96-9e0a-a906-b8093e149edc" name="Weapons Engineer" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fc6827b4-aff6-6546-9d8f-d725d3bbe026" profileTypeId="332e30334372657723232344415441232323" name="Weapons Engineer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may maintain 2 target locks (only 1 per enemy ship). When you acquire a target lock you may lock onto 2 different ships."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1684,6 +1834,21 @@
         <profile id="ae724021-6cb2-69d9-e6c6-bec1ae7a6044" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Experimental Interface" hidden="false">
           <characteristics>
             <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the &quot;Action:&quot; header. Then receive 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="1a40d000-d9a7-2f8e-61b8-9afebf7f9b18" name="•Greedo†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0c279d8f-6efd-12cd-b1a2-72bfec5bf507" profileTypeId="332e30334372657723232344415441232323" name="Greedo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="The first time you attack each round and the first time you defend each round, the first Damage card dealt is dealt faceup."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1765,171 +1930,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="8f3935da-009a-0697-5b47-46986b15ba00" name="Gunner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="9fed06ee-f850-313c-9ef9-f11b61478dd5" profileTypeId="332e30334372657723232344415441232323" name="Gunner" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You cannot perform another attack this round."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="31bf5364-9695-7905-198a-abef11eac1e0" name="Navigator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="cc82fb24-5331-cdfc-a5d1-f66ae8f67154" profileTypeId="332e30334372657723232344415441232323" name="Navigator" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing. You cannot rotate to a red maneuver if you have any stress tokens."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="b5f90316-224b-28c7-130f-e8ef513a996f" name="Flight Instructor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="e8cadadd-476f-d5c9-6a7e-0eeb6ec03feb" profileTypeId="332e30334372657723232344415441232323" name="Flight Instructor" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When defending, you may reroll 1 of your [focus] results. If the attacker&apos;s pilot skill value is &quot;2&quot; or lower, you may reroll 1 of your blank results instead."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="5b33b7c4-008e-8c9e-3d2c-0d2749b7f2c5" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="914f390a-43d7-4cda-2ff3-74ac1edf81fc" profileTypeId="332e30334372657723232344415441232323" name="Tactician" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack against a ship inside your firing arc at Range 2, that ship receives 1 stress token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="dcbd00f7-6e7f-1710-4738-0d948e878bf4" name="Targeting Coordinator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="9a561b39-afea-8a20-c98d-327550f47cb1" profileTypeId="332e30334372657723232344415441232323" name="Targeting Coordinator" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Energy: You may spend 1 energy to choose 1 friendly ship at Range 1-2. Acquire a target lock, then assign the blue target lock token to the chosen ship."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="a72c3e12-df26-9e4d-eb85-ba70bb3e9b35" name="Intelligence Agent" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8f0bfa3a-7e62-f455-a840-591d4e8fa2c2" profileTypeId="332e30334372657723232344415441232323" name="Intelligence Agent" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the Activation phase, choose 1 enemy ship at Range 1-2. You may look at that ship&apos;s chosen maneuver."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="1b14d503-e721-7433-4eb7-af8da7c6cfe3" name="Recon Specialist" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="1ee28a17-43c0-7203-c0e4-ea59647bb5fb" profileTypeId="332e30334372657723232344415441232323" name="Recon Specialist" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you perform a focus action, assign 1 additional focus token to your ship."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="67dcef78-1224-928e-331c-f4ec87fd16c4" name="Saboteur" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c9e5e807-8365-2ecf-cd33-0a8e33068b99" profileTypeId="332e30334372657723232344415441232323" name="Saboteur" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Choose 1 enemy ship at Range 1 and roll 1 attack die.  On a [hit] or [critical hit] result, choose 1 random facedown Damage card assigned to that ship, flip it faceup, and resolve it."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="17f5bd55-7c96-9e0a-a906-b8093e149edc" name="Weapons Engineer" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="fc6827b4-aff6-6546-9d8f-d725d3bbe026" profileTypeId="332e30334372657723232344415441232323" name="Weapons Engineer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may maintain 2 target locks (only 1 per enemy ship). When you acquire a target lock you may lock onto 2 different ships."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="735e9776-aa65-d10b-2ea6-3306977263ac" name="Mercenary Copilot" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="4ececf27-a318-aa8f-2930-5be09ae636f1" profileTypeId="332e30334372657723232344415441232323" name="Mercenary Copilot" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking at Range 3, you may change 1 of your [hit] results to a [critical hit] result."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="1a40d000-d9a7-2f8e-61b8-9afebf7f9b18" name="•Greedo†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="0c279d8f-6efd-12cd-b1a2-72bfec5bf507" profileTypeId="332e30334372657723232344415441232323" name="Greedo" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="The first time you attack each round and the first time you defend each round, the first Damage card dealt is dealt faceup."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1960,6 +1960,46 @@
           <modifiers/>
         </link>
         <link id="1f707b3e-eb98-c684-cc8c-fdc33398914a" targetId="05d3294c-8d07-8ed6-49cd-abaac1ff03e5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="a8dfdd4b-40e2-976e-c473-995fccb6d096" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="3af163c5-95c8-ab64-c15a-ed8776cd19e3" targetId="8f3935da-009a-0697-5b47-46986b15ba00" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6dd5c804-a7bb-3bba-edd6-8ff971b365d2" targetId="31bf5364-9695-7905-198a-abef11eac1e0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8df11964-eda7-c346-1612-fba628de85c0" targetId="b5f90316-224b-28c7-130f-e8ef513a996f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f3a91f13-b081-c3b7-f452-e595369648b1" targetId="5b33b7c4-008e-8c9e-3d2c-0d2749b7f2c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="34823853-eabb-6166-0673-29f4dce48e4b" targetId="dcbd00f7-6e7f-1710-4738-0d948e878bf4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="22881ade-8608-d9fc-b1db-f8e42543c696" targetId="a72c3e12-df26-9e4d-eb85-ba70bb3e9b35" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="66d94608-9183-621c-7017-030c06695f46" targetId="1b14d503-e721-7433-4eb7-af8da7c6cfe3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e8b3f61f-da99-21b1-ca08-96881da2265b" targetId="67dcef78-1224-928e-331c-f4ec87fd16c4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b3565d37-6c91-ee35-b290-c3181db3f229" targetId="17f5bd55-7c96-9e0a-a906-b8093e149edc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b90fbf83-df11-8e15-4e1c-b7799cc6a23f" targetId="735e9776-aa65-d10b-2ea6-3306977263ac" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="091e103d-95dc-0755-3bdf-307574c40eb7" targetId="1a40d000-d9a7-2f8e-61b8-9afebf7f9b18" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2222,46 +2262,6 @@
           <modifiers/>
         </link>
         <link id="a7b61730-241e-c305-8b22-31fb6b9e24e0" targetId="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="a8dfdd4b-40e2-976e-c473-995fccb6d096" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="3af163c5-95c8-ab64-c15a-ed8776cd19e3" targetId="8f3935da-009a-0697-5b47-46986b15ba00" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6dd5c804-a7bb-3bba-edd6-8ff971b365d2" targetId="31bf5364-9695-7905-198a-abef11eac1e0" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8df11964-eda7-c346-1612-fba628de85c0" targetId="b5f90316-224b-28c7-130f-e8ef513a996f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f3a91f13-b081-c3b7-f452-e595369648b1" targetId="5b33b7c4-008e-8c9e-3d2c-0d2749b7f2c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="34823853-eabb-6166-0673-29f4dce48e4b" targetId="dcbd00f7-6e7f-1710-4738-0d948e878bf4" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="22881ade-8608-d9fc-b1db-f8e42543c696" targetId="a72c3e12-df26-9e4d-eb85-ba70bb3e9b35" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="66d94608-9183-621c-7017-030c06695f46" targetId="1b14d503-e721-7433-4eb7-af8da7c6cfe3" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="e8b3f61f-da99-21b1-ca08-96881da2265b" targetId="67dcef78-1224-928e-331c-f4ec87fd16c4" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b3565d37-6c91-ee35-b290-c3181db3f229" targetId="17f5bd55-7c96-9e0a-a906-b8093e149edc" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b90fbf83-df11-8e15-4e1c-b7799cc6a23f" targetId="735e9776-aa65-d10b-2ea6-3306977263ac" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="091e103d-95dc-0755-3bdf-307574c40eb7" targetId="1a40d000-d9a7-2f8e-61b8-9afebf7f9b18" linkType="entry">
           <modifiers/>
         </link>
       </links>
