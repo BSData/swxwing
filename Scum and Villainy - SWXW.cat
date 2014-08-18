@@ -611,6 +611,82 @@
         </link>
       </links>
     </entry>
+    <entry id="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" name="PS 1 - Placeholder HWK-290 Pilot††" points="16.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="3063927c-02c3-5ea4-6e4f-e8717d861d38" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f6d3212b-fc57-261f-7b78-9c8ab3b3d0e6" targetId="7833bfc6-ff06-109a-3649-82f586c7ce7d" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9c52a008-e94c-ad2f-793c-a9fede2a2e8e" profileTypeId="31536869707323232344415441232323" name="Placeholder HWK-290 Pilot" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="1"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="1"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Turret, Crew"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" childId="079210df-1fca-88cf-7b1d-d3f86728d42b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" childId="49c04071-073b-fc1f-305e-1f2f1cd99dda" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="90dc8ced-f809-4d02-bc8c-b68c85ff6972" targetId="9586b353-5cb0-faf4-0d2e-d10064e24b2b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4b32f05e-a7fa-0410-821f-7a7942cbbc86" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="27f9af65-15e2-9a54-7b12-d1dfece83a20" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4cb0fca2-c951-14ea-ae68-5c5355384562" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" childId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="073ba8ab-ea89-48b0-f1ad-007006e6f565" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="31bab58b-0adb-d801-197f-61feb343037d" targetId="b2a776cc-a7de-7f19-2bdd-48d2db4012fd" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -691,6 +767,21 @@
         <profile id="40aa0361-eb14-c0c9-8a5f-3aef3c065f7d" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Advanced Sensors" hidden="false">
           <characteristics>
             <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ce6d7ac1-e519-4d84-a06f-9e964851eae8" name="Anti-Pursuit Lasers" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="99a34112-1965-96e7-31ee-7b3175f52f4d" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Anti-Pursuit Lasers" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a [hit] or [critical hit] result, the enemy ship suffers 1 damage."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -807,6 +898,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="8adbfc73-e3d4-ba04-d5c6-a6501ab051f2" name="Countermeasures†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="79fcae00-9ea6-d2aa-d5a2-793c9aadf059" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Countermeasures" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round. Then you may remove 1 enemy target lock from your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="44885fcb-d589-1ecd-1bf0-03155d9fb868" name="Daredevil" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -891,6 +997,21 @@
         <profile id="9e245bd9-227d-5d13-0057-865e42d66133" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Elusiveness" hidden="false">
           <characteristics>
             <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When defending, you may receive 1 stress token to choose 1 attack die. The attacker must reroll that die. If you have at least 1 stress token, you cannot use this ability."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" name="Engine Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="476115b5-d72a-b05a-a76f-437e14cd825f" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Engine Upgrade" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your action bar gains the [boost] action icon."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1017,6 +1138,21 @@
         <profile id="4d731c74-e8c9-4326-c992-c44f6646bba3" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Homing Missiles" hidden="false">
           <characteristics>
             <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability" value="Attack (target lock): Discard this card to perform this attack. The defender cannot spend evade tokens during this attack."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="079210df-1fca-88cf-7b1d-d3f86728d42b" name="Hull Upgrade" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="db149f75-960e-88c5-8634-1e9f1b216c4f" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Hull Upgrade" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your hull value by 1."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1165,6 +1301,21 @@
         <profile id="1028f571-944f-9312-7882-a0ea3ffd9b2a" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Marksmanship" hidden="false">
           <characteristics>
             <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: When attacking this round, you may change 1 of your [focus] results to a [critical hit] result and all of your other [focus] results to [hit] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="8c2dd4e5-1251-f6f2-4b9f-b93bf183db40" name="Munitions Failsafe" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="69b147e2-1676-f6fa-dad0-1f8fdc669875" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Munitions Failsafe" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1368,6 +1519,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="49c04071-073b-fc1f-305e-1f2f1cd99dda" name="Shield Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c484451b-8a69-b27e-db2b-3739222934e9" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Shield Upgrade" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your shield value by 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="3cc260b8-76dc-9e4c-b6b2-f5f1b0105c3a" name="Stay on Target†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1383,6 +1549,36 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" name="Stealth Device" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a318f4b6-79c0-2f44-fb19-a743df89b4fc" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Stealth Device" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your agility value by 1. If you are hit by an attack, discard this card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="da28c7f2-2a11-6739-4591-87e9eb3799b0" name="Stygium Particle Accelerator" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c96dfde5-1f5f-1c8d-7b11-4380d8f76d39" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Stygium Particle Accelerator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When you either decloak or perform a cloak action, you may perform a free evade action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="d9539029-fd4b-5798-e3ed-b00626f0f077" name="Swarm Tactics" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1392,6 +1588,36 @@
         <profile id="414aaaa4-32f4-2431-4612-b48a509ca20d" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Swarm Tactics" hidden="false">
           <characteristics>
             <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1. Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="49f621b0-7fb8-4274-3fd6-85e7cb9e671f" name="Tactical Jammer†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fa661e83-868c-914e-b361-e90f2057faeb" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Tactical Jammer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your ship can obstruct enemy attacks."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="45386e60-c93d-62aa-5e03-e7ed1f0499cc" name="Targeting Computer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d35e1c31-7feb-2e72-2573-787ad82eebf2" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Targeting Computer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your action bar gains the [target lock] icon."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1443,6 +1669,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="aaaf0851-f656-b507-47b9-7d72f0533616" name="•Experimental Interface†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ae724021-6cb2-69d9-e6c6-bec1ae7a6044" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Experimental Interface" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the &quot;Action:&quot; header. Then receive 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="6c34c1f9-fdbd-2f6f-57ef-61c5eea72140" name="•Lone Wolf†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1464,7 +1705,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d680f4b0-94c5-ea33-62e5-4ac2d808599f" profileTypeId="332e30315469746c6523232344415441232323" name="•Slave 1" hidden="false">
+        <profile id="d680f4b0-94c5-ea33-62e5-4ac2d808599f" profileTypeId="332e30315469746c6523232344415441232323" name="Slave 1" hidden="false">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [torpedoes] upgrade icon."/>
           </characteristics>
@@ -1503,165 +1744,15 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="ce6d7ac1-e519-4d84-a06f-9e964851eae8" name="Anti-Pursuit Lasers" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7833bfc6-ff06-109a-3649-82f586c7ce7d" name="•Moldy Crow" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="99a34112-1965-96e7-31ee-7b3175f52f4d" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Anti-Pursuit Lasers" hidden="false">
+        <profile id="f84ec2f0-8c4b-1cd1-15d9-50b3b536e030" profileTypeId="332e30315469746c6523232344415441232323" name="Moldy Crow" hidden="false">
           <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a [hit] or [critical hit] result, the enemy ship suffers 1 damage."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="8adbfc73-e3d4-ba04-d5c6-a6501ab051f2" name="Countermeasures†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="79fcae00-9ea6-d2aa-d5a2-793c9aadf059" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Countermeasures" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round. Then you may remove 1 enemy target lock from your ship."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" name="Engine Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="476115b5-d72a-b05a-a76f-437e14cd825f" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Engine Upgrade" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your action bar gains the [boost] action icon."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="079210df-1fca-88cf-7b1d-d3f86728d42b" name="Hull Upgrade" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="db149f75-960e-88c5-8634-1e9f1b216c4f" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Hull Upgrade" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your hull value by 1."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="8c2dd4e5-1251-f6f2-4b9f-b93bf183db40" name="Munitions Failsafe" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="69b147e2-1676-f6fa-dad0-1f8fdc669875" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Munitions Failsafe" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="49c04071-073b-fc1f-305e-1f2f1cd99dda" name="Shield Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c484451b-8a69-b27e-db2b-3739222934e9" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Shield Upgrade" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your shield value by 1."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" name="Stealth Device" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="a318f4b6-79c0-2f44-fb19-a743df89b4fc" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Stealth Device" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Increase your agility value by 1. If you are hit by an attack, discard this card."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="da28c7f2-2a11-6739-4591-87e9eb3799b0" name="Stygium Particle Accelerator" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c96dfde5-1f5f-1c8d-7b11-4380d8f76d39" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Stygium Particle Accelerator" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When you either decloak or perform a cloak action, you may perform a free evade action."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="49f621b0-7fb8-4274-3fd6-85e7cb9e671f" name="Tactical Jammer†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="fa661e83-868c-914e-b361-e90f2057faeb" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Tactical Jammer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your ship can obstruct enemy attacks."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="45386e60-c93d-62aa-5e03-e7ed1f0499cc" name="Targeting Computer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="d35e1c31-7feb-2e72-2573-787ad82eebf2" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Targeting Computer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your action bar gains the [target lock] icon."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="aaaf0851-f656-b507-47b9-7d72f0533616" name="•Experimental Interface†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ae724021-6cb2-69d9-e6c6-bec1ae7a6044" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Experimental Interface" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the &quot;Action:&quot; header. Then receive 1 stress token."/>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="During the End phase, do not remove unused focus tokens from your ship."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1810,6 +1901,77 @@
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="ab5a7a0d-319a-c631-17e0-40d6c16ab7a2" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="3f09bdff-2b98-e7c6-c691-09f15704a807" targetId="ce6d7ac1-e519-4d84-a06f-9e964851eae8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="38a9f01d-c835-3e03-7054-690441d1c134" targetId="8adbfc73-e3d4-ba04-d5c6-a6501ab051f2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d7892c85-d537-92e3-9abb-953cc7469777" targetId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="436e90da-e0aa-8988-9ed0-64e7ab6f22af" targetId="079210df-1fca-88cf-7b1d-d3f86728d42b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1c24ae5f-a47a-80d1-c873-313a88aec13f" targetId="8c2dd4e5-1251-f6f2-4b9f-b93bf183db40" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7f659656-36a0-d46a-1b9d-6558e2d06013" targetId="49c04071-073b-fc1f-305e-1f2f1cd99dda" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6aa28e8f-f6e7-c9c4-ee6e-eab2df3a0824" targetId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d22d7c45-ce0b-5235-e768-538dfa22cb6c" targetId="da28c7f2-2a11-6739-4591-87e9eb3799b0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8881ad53-cc83-e655-dcdd-1f93a98b2a38" targetId="49f621b0-7fb8-4274-3fd6-85e7cb9e671f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a4bbf3ef-87d0-3415-6044-f4187c7bc76d" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="103f8f0c-d0dc-3581-40aa-fb12bd02df24" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="cc9a9928-6273-6cd0-092b-cfd7148f83ed" targetId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e00c7973-3585-c50f-026c-ecd0a9037776" targetId="079210df-1fca-88cf-7b1d-d3f86728d42b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="26b5d152-0871-b08e-6a3c-93b234e9ea07" targetId="8c2dd4e5-1251-f6f2-4b9f-b93bf183db40" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="11da0cb9-e3b3-b200-38ba-2c444b19d584" targetId="49c04071-073b-fc1f-305e-1f2f1cd99dda" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="980ede51-557c-da7e-2543-29cb2da15492" targetId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="563aad3e-3826-7d90-7895-b8b2ef307638" targetId="da28c7f2-2a11-6739-4591-87e9eb3799b0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7c0f8f08-ebf2-b218-21ec-5a28d37c1b7d" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="447fcbbc-88d1-f8ea-cdcc-cbd23cdd9979" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
     <entryGroup id="1040ae13-d315-b3f8-823c-2fdaec9f3f80" name="Salvaged Astromech" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1893,83 +2055,15 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="ab5a7a0d-319a-c631-17e0-40d6c16ab7a2" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="3f09bdff-2b98-e7c6-c691-09f15704a807" targetId="ce6d7ac1-e519-4d84-a06f-9e964851eae8" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="38a9f01d-c835-3e03-7054-690441d1c134" targetId="8adbfc73-e3d4-ba04-d5c6-a6501ab051f2" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="d7892c85-d537-92e3-9abb-953cc7469777" targetId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="436e90da-e0aa-8988-9ed0-64e7ab6f22af" targetId="079210df-1fca-88cf-7b1d-d3f86728d42b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="1c24ae5f-a47a-80d1-c873-313a88aec13f" targetId="8c2dd4e5-1251-f6f2-4b9f-b93bf183db40" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="7f659656-36a0-d46a-1b9d-6558e2d06013" targetId="49c04071-073b-fc1f-305e-1f2f1cd99dda" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6aa28e8f-f6e7-c9c4-ee6e-eab2df3a0824" targetId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="d22d7c45-ce0b-5235-e768-538dfa22cb6c" targetId="da28c7f2-2a11-6739-4591-87e9eb3799b0" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8881ad53-cc83-e655-dcdd-1f93a98b2a38" targetId="49f621b0-7fb8-4274-3fd6-85e7cb9e671f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a4bbf3ef-87d0-3415-6044-f4187c7bc76d" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="103f8f0c-d0dc-3581-40aa-fb12bd02df24" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="cc9a9928-6273-6cd0-092b-cfd7148f83ed" targetId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="e00c7973-3585-c50f-026c-ecd0a9037776" targetId="079210df-1fca-88cf-7b1d-d3f86728d42b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="26b5d152-0871-b08e-6a3c-93b234e9ea07" targetId="8c2dd4e5-1251-f6f2-4b9f-b93bf183db40" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="11da0cb9-e3b3-b200-38ba-2c444b19d584" targetId="49c04071-073b-fc1f-305e-1f2f1cd99dda" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="980ede51-557c-da7e-2543-29cb2da15492" targetId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="563aad3e-3826-7d90-7895-b8b2ef307638" targetId="da28c7f2-2a11-6739-4591-87e9eb3799b0" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="7c0f8f08-ebf2-b218-21ec-5a28d37c1b7d" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="447fcbbc-88d1-f8ea-cdcc-cbd23cdd9979" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
     <rule id="6faeaa7a-ead7-d900-9570-3d98bc8e7853" name="Barrel Roll" hidden="false">
       <modifiers/>
     </rule>
     <rule id="e1ec2b51-ca31-7a1a-8ee3-ff5777f3fc8e" name="Boost" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="10684109-1f5b-4dd4-bc2d-77237a3be1bf" name="Boost" hidden="true">
       <modifiers/>
     </rule>
     <rule id="63963f80-442c-4b75-3e66-4b0f62be9dd3" name="Evade" hidden="false">
@@ -1979,9 +2073,6 @@
       <modifiers/>
     </rule>
     <rule id="ad2f7767-ae8a-6176-4edb-6aeaf156267a" name="Target Lock" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="10684109-1f5b-4dd4-bc2d-77237a3be1bf" name="Boost - H" hidden="true">
       <modifiers/>
     </rule>
   </sharedRules>
