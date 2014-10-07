@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="7" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="8" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" name="PS 1 - Placeholder HWK-290 Pilot††" points="16.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -80,7 +80,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ce3df76b-6999-732c-51ba-cdc14f961d34" name="PS 4 - Placeholder Y-Wing Pilot††" points="20.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="ce3df76b-6999-732c-51ba-cdc14f961d34" name="PS 2 - Placeholder Y-Wing Pilot††" points="18.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -88,7 +88,7 @@
       <profiles>
         <profile id="0864dd1a-207c-93d6-fca7-8701240dc724" profileTypeId="31536869707323232344415441232323" name="Placeholder Y-Wing Pilot" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="4"/>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="2"/>
             <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
@@ -117,12 +117,6 @@
             <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Torpedoes x2, Salvaged Astromech, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="ce3df76b-6999-732c-51ba-cdc14f961d34" childId="d042b830-a325-fe39-2e65-2333f51d5bb3" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Torpedoes x2, Salvaged Astromech, Bomb x2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="ce3df76b-6999-732c-51ba-cdc14f961d34" childId="d000b640-a731-492d-b82b-6154ffbae140" field="selections" type="at least" value="2.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -166,12 +160,6 @@
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="ce3df76b-6999-732c-51ba-cdc14f961d34" childId="d042b830-a325-fe39-2e65-2333f51d5bb3" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="ce3df76b-6999-732c-51ba-cdc14f961d34" childId="d042b830-a325-fe39-2e65-2333f51d5bb3" field="selections" type="at least" value="2.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -875,15 +863,15 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="d042b830-a325-fe39-2e65-2333f51d5bb3" name="Bomb Upgrade Placeholder††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d042b830-a325-fe39-2e65-2333f51d5bb3" name="Bomb Loadout†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e39f6e62-28bd-8c4c-faf4-9474ef1cec94" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Bomb Upgrade Placeholder" hidden="false">
+        <profile id="e39f6e62-28bd-8c4c-faf4-9474ef1cec94" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Bomb Loadout" hidden="false">
           <characteristics>
-            <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Your upgrade bar gains the [bomb] upgrade icon."/>
+            <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Your upgrade bar gains the [bomb] icon."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1579,21 +1567,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="f4e6ab40-8476-7c3c-7c48-eb4340857010" name="R4 Astromech Placeholder††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c99a38b6-2476-c454-8f80-6d856677528a" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="R4 Astromech Placeholder" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="Placeholder Salvaged Astromech."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
     <entry id="1b14d503-e721-7433-4eb7-af8da7c6cfe3" name="Recon Specialist" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1960,8 +1933,99 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="ca4b25f7-f7ee-0b14-c33b-ea4b82e22992" name="•&quot;Genius&quot;†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="017e6c9d-3bdc-0839-f211-99c3b32656f4" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="&quot;Genius&quot;" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="If you are equipped with a bomb that can be dropped before you reveal your maneuver, you may drop the bomb after you execute your maneuver instead."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="cebc9c85-8e89-5638-c43c-35eb199898bd" name="Salvaged Astromech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="51ad1edd-9a08-149a-95bb-89f08b0ee440" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="Salvaged Astromech" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="When you are dealt a Damage card with the Ship trait, you may immediately discard that card (before resolving its effect). Then, discard this Upgrade card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="101e7c91-7ba6-99e9-4fa7-52e3c088701d" name="Unhinged Astromech†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e7e0f892-96f6-a59c-333f-c524a5ad7e65" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="Unhinged Astromech" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="You may treat all 3-speed maneuvers as green maneuvers."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
+    <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="a89a647c-f5ad-7ccf-4157-869ee649613e" targetId="c35ead51-34d0-5fbf-207c-0a3ee5b74768" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="72f04713-ebac-1a2b-ecbf-34654b09cc25" targetId="316e1187-a31c-62f2-889c-2912eb4e5eb5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="76c07809-cb04-fa45-4d97-3db02b3ce16e" targetId="3750bfae-0501-c7b0-0b83-519011c46ebe" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6b4e0132-cb10-095c-1969-48893b892e51" targetId="5cc6b486-241c-cec5-32a0-3921be32d15b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="168e3f53-5636-9f1c-457b-7ef6b6a40578" targetId="13588b52-b945-90ef-96de-4b87f3f4951a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="88cd5747-7a7c-087a-5c79-121121bcd501" targetId="8fbc1ee5-af18-a2dd-e7ae-a89e750439fc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c94332dc-6db4-46ad-243f-40edb36b9c8b" targetId="fe9a12a4-25eb-539d-76cd-2251d2fe7360" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="72d2aa22-f113-f704-dd34-a0c3674a48cb" targetId="0e1bdc24-46c1-2e3f-b770-df9da0dbfb21" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="10b43fa5-21f0-21b5-925a-9132afdedfcb" targetId="b417e97c-ebf8-5800-67f8-56dda529ec65" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c9a84f36-43ce-5ffb-fa78-528c9c333d32" targetId="582e8ee3-6b2d-0f82-8726-4687bd331db2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="02111be6-9bcb-781c-ef85-095f9e844723" targetId="05d3294c-8d07-8ed6-49cd-abaac1ff03e5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8c519a5f-f661-a8be-e142-0d452b5258bc" targetId="934af116-cafd-ef7c-201d-5623ab96162f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5309146a-3f25-d0d4-88d7-2a550e7812f7" targetId="7ec9f042-fa75-ea79-4a8a-f78c0044dfc6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2218,7 +2282,13 @@
       <entryGroups/>
       <modifiers/>
       <links>
-        <link id="90387bd5-1a45-d7fa-8b9a-19997bbc71c0" targetId="f4e6ab40-8476-7c3c-7c48-eb4340857010" linkType="entry">
+        <link id="3509a7fa-6847-f51c-af3f-4a9246de89b8" targetId="ca4b25f7-f7ee-0b14-c33b-ea4b82e22992" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e7aa2d99-2266-cea6-8ab8-0d6350e9178f" targetId="cebc9c85-8e89-5638-c43c-35eb199898bd" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3dffbae5-06f5-6ccc-8717-ce4b2a61a6a5" targetId="101e7c91-7ba6-99e9-4fa7-52e3c088701d" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2295,52 +2365,6 @@
           <modifiers/>
         </link>
         <link id="a7b61730-241e-c305-8b22-31fb6b9e24e0" targetId="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="a89a647c-f5ad-7ccf-4157-869ee649613e" targetId="c35ead51-34d0-5fbf-207c-0a3ee5b74768" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="72f04713-ebac-1a2b-ecbf-34654b09cc25" targetId="316e1187-a31c-62f2-889c-2912eb4e5eb5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="76c07809-cb04-fa45-4d97-3db02b3ce16e" targetId="3750bfae-0501-c7b0-0b83-519011c46ebe" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6b4e0132-cb10-095c-1969-48893b892e51" targetId="5cc6b486-241c-cec5-32a0-3921be32d15b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="168e3f53-5636-9f1c-457b-7ef6b6a40578" targetId="13588b52-b945-90ef-96de-4b87f3f4951a" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="88cd5747-7a7c-087a-5c79-121121bcd501" targetId="8fbc1ee5-af18-a2dd-e7ae-a89e750439fc" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c94332dc-6db4-46ad-243f-40edb36b9c8b" targetId="fe9a12a4-25eb-539d-76cd-2251d2fe7360" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="72d2aa22-f113-f704-dd34-a0c3674a48cb" targetId="0e1bdc24-46c1-2e3f-b770-df9da0dbfb21" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="10b43fa5-21f0-21b5-925a-9132afdedfcb" targetId="b417e97c-ebf8-5800-67f8-56dda529ec65" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c9a84f36-43ce-5ffb-fa78-528c9c333d32" targetId="582e8ee3-6b2d-0f82-8726-4687bd331db2" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="02111be6-9bcb-781c-ef85-095f9e844723" targetId="05d3294c-8d07-8ed6-49cd-abaac1ff03e5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8c519a5f-f661-a8be-e142-0d452b5258bc" targetId="934af116-cafd-ef7c-201d-5623ab96162f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5309146a-3f25-d0d4-88d7-2a550e7812f7" targetId="7ec9f042-fa75-ea79-4a8a-f78c0044dfc6" linkType="entry">
           <modifiers/>
         </link>
       </links>
