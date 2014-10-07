@@ -2590,6 +2590,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="4787f909-f655-3cba-c6f7-b085804e685f" childId="58cfe501-23fa-747f-81a1-fe6da70fd623" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="97e6cb62-bf7d-2066-4d7a-b0d4d6039476" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Dutch&quot; Vander" hidden="false" page="0">
@@ -3845,6 +3851,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="e18006c3-2f07-b6a0-cad1-7e648a568eb4" childId="58cfe501-23fa-747f-81a1-fe6da70fd623" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="5ab9ff2f-74ad-03d4-8531-ce4439660c70" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Horton Salm" hidden="false" page="0">
@@ -4696,6 +4708,21 @@
         <profile id="38a0600d-3569-8d4f-f9d9-b8024b9d3e85" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Blaster Turret" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="58cfe501-23fa-747f-81a1-fe6da70fd623" name="Bomb Loadout†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="aa6f76e0-e496-860b-efbb-77886c74edb5" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Bomb Loadout" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Your upgrade bar gains the [bomb] icon."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6192,21 +6219,6 @@
         <profile id="0a2c9e13-080e-9395-7d4d-5c8f00f1015b" profileTypeId="332e30334372657723232344415441232323" name="Toryn Farr" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Spend any amount of energy to choose that many enemy ships at Range 1-2. Remove all focus, evade, and blue target lock tokens from those ships."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="58cfe501-23fa-747f-81a1-fe6da70fd623" name="Bomb Loadout†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="aa6f76e0-e496-860b-efbb-77886c74edb5" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Bomb Loadout" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Your upgrade bar gains the [bomb] icon."/>
           </characteristics>
           <modifiers/>
         </profile>
