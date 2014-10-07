@@ -460,6 +460,16 @@
         <link id="7d4acf76-4f11-0e48-8b85-aa620874cd86" targetId="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" linkType="profile">
           <modifiers/>
         </link>
+        <link id="2b636a80-cac5-19f1-4f97-43d9f5dd9f2f" targetId="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6eb58898-813b-3f9a-ee82-bb4d07434c31" childId="58cfe501-23fa-747f-81a1-fe6da70fd623" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="c9da1ddf-2e6d-c9c4-60e0-7ba0319b5229" name="PS 2 - Rebel Operative" points="16.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -1592,6 +1602,16 @@
         <link id="67910ea5-8600-e624-983c-402d337f8897" targetId="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" linkType="profile">
           <modifiers/>
         </link>
+        <link id="64966f0f-66b2-c067-0631-b6f2c3398b20" targetId="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="859482a3-d16d-a07d-e984-8cffc40cd6f0" childId="58cfe501-23fa-747f-81a1-fe6da70fd623" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="1df75cfd-78d8-c318-8f59-ab9769836a4f" name="PS 4 - Red Squadron Pilot" points="23.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -2646,6 +2666,16 @@
         </link>
         <link id="db283dd3-0b9c-06d3-1b7a-26f9ffdac59d" targetId="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="0f482165-29bd-aedf-7cbf-900ad9aa3eb7" targetId="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="4787f909-f655-3cba-c6f7-b085804e685f" childId="58cfe501-23fa-747f-81a1-fe6da70fd623" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -3907,6 +3937,16 @@
         </link>
         <link id="cbfacecb-f631-6826-ca35-3d8b082d0461" targetId="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="359298ae-3633-9559-c2b8-69db247c97bf" targetId="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="e18006c3-2f07-b6a0-cad1-7e648a568eb4" childId="58cfe501-23fa-747f-81a1-fe6da70fd623" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -6225,6 +6265,69 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="577379c0-d59e-f955-1002-119375d1e11f" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1341640b-a390-29c7-15d2-4dfd71a34a3a" profileTypeId="39426f6d6223232344415441232323" name="Proton Bombs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 proton bomb token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a045fa4d-441d-fea3-a4ca-6295ab8b62a2" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proton Bomb Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, deal 1 faceup Damage card to each ship at Range 1 of the token. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e2e08cab-6adf-67d4-449b-22a8e3290304" name="Proximity Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="85f91245-b858-b6d2-1995-8ef88c4cbac6" profileTypeId="39426f6d6223232344415441232323" name="Proximity Mines" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 proximity mine token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="65cd87a4-9792-c851-eb34-c59fa5517a8c" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proximity Mine Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage [hit] and critical damage [critical hit] rolled. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="634b13d8-e9a8-ae61-234c-fcc7607c54e9" profileTypeId="39426f6d6223232344415441232323" name="Seismic Charges" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d4dd60f6-3212-e924-ee5f-c59b92a8a552" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Seismic Charge Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7447,6 +7550,22 @@
           <modifiers/>
         </link>
         <link id="69590257-50bd-835c-9efc-876ba45c2e80" targetId="6c4fa9ff-5216-46ab-7a2d-2a77d009474a" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="51919b05-e4af-8b75-6f33-086d16de3b70" targetId="577379c0-d59e-f955-1002-119375d1e11f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="27cf04e9-06a2-92e6-5331-ccce0895a8e5" targetId="e2e08cab-6adf-67d4-449b-22a8e3290304" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8e2526ce-7f66-a969-c703-ddce304ed419" targetId="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" linkType="entry">
           <modifiers/>
         </link>
       </links>
