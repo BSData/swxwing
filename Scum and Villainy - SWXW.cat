@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="9" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="10" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" name="PS 1 - Placeholder HWK-290 Pilot††" points="16.0" categoryId="bc4d1195-9439-b009-42b2-94056a0b366c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -2046,6 +2046,58 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="a424fb7f-514c-94bd-d4d6-7bcdfa893d18" name="&quot;Hot Shot&quot; Blaster†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d1e42c2b-61c9-0d60-9734-a4f2a560d65f" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="&quot;Hot Shot&quot; Blaster" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="Attack: Discard this card to attack 1 ship (even a ship outside your firing arc)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="36ab4087-53b5-ecf3-7bd9-fdaf62b2e588" profileTypeId="2de957fe-85ec-5e2d-3a50-87cba297a282" name="&quot;Hot Shot&quot; Blaster " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="081eaf8b-1fdf-5a05-ed94-61f173c64f14" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="8085a6bb-b10e-8c8a-62e1-6e9d9e027977" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="0eb6bee3-5073-5456-7020-fe765e02c6cd" name="Dead Man&apos;s Switch†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e0c94072-a556-0914-8b9c-e36446df57f9" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Dead Man&apos;s Switch" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="When you are destroyed, each ship at Range 1 suffers 1 damage."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="851db10d-7ad9-b3fb-6eee-5c40c0a8d681" name="Feedback Array†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f943128c-5240-1ae4-889a-7a97bc00e642" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Feedback Array" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="During the Combat phase, instead of performing any attacks, you may receive 1 ion token and suffer 1 damage to choose 1 enemy ship at Range 1. That ship suffers 1 damage."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -2245,6 +2297,15 @@
       <modifiers/>
       <links>
         <link id="f01d3c15-938f-e72f-a019-ca4bc0d4523d" targetId="d0c2c3ba-4083-a8c3-3ad9-7527a89fbba4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d7934e7f-8a64-0cf6-d24a-c5aeae517ae2" targetId="a424fb7f-514c-94bd-d4d6-7bcdfa893d18" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ef9b8ee0-06df-5a89-b61f-cbb7d3512cef" targetId="0eb6bee3-5073-5456-7020-fe765e02c6cd" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="da5d411d-0214-8b91-4561-0dfd22fc7dfb" targetId="851db10d-7ad9-b3fb-6eee-5c40c0a8d681" linkType="entry">
           <modifiers/>
         </link>
       </links>
