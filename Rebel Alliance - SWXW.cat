@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="42" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="43" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -5278,6 +5278,27 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="577379c0-d59e-f955-1002-119375d1e11f" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1341640b-a390-29c7-15d2-4dfd71a34a3a" profileTypeId="39426f6d6223232344415441232323" name="Proton Bombs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 proton bomb token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a045fa4d-441d-fea3-a4ca-6295ab8b62a2" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proton Bomb Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, deal 1 faceup Damage card to each ship at Range 1 of the token. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="4c1e8575-2cb1-dc71-d01e-a8dfd1a07700" name="Proton Rockets" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5316,6 +5337,27 @@
         <profile id="bbe84d39-de23-a2d0-7924-cada362ce844" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Proton Torpedoes" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. You may change 1 of your [focus] results to a [critical hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e2e08cab-6adf-67d4-449b-22a8e3290304" name="Proximity Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="85f91245-b858-b6d2-1995-8ef88c4cbac6" profileTypeId="39426f6d6223232344415441232323" name="Proximity Mines" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 proximity mine token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="65cd87a4-9792-c851-eb34-c59fa5517a8c" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proximity Mine Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage [hit] and critical damage [critical hit] rolled. Then discard this token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5391,6 +5433,27 @@
         <profile id="ef4870c8-f000-774e-8e63-b5343ed84059" profileTypeId="332e30334372657723232344415441232323" name="Saboteur" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Choose 1 enemy ship at Range 1 and roll 1 attack die.  On a [hit] or [critical hit] result, choose 1 random facedown Damage card assigned to that ship, flip it faceup, and resolve it."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="634b13d8-e9a8-ae61-234c-fcc7607c54e9" profileTypeId="39426f6d6223232344415441232323" name="Seismic Charges" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d4dd60f6-3212-e924-ee5f-c59b92a8a552" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Seismic Charge Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage. Then discard this token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5942,7 +6005,7 @@
       <profiles>
         <profile id="7c1d3cc1-9654-69f1-349b-1c1e9673dc7b" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lone Wolf" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if there are no friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if there are no other friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6265,69 +6328,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="577379c0-d59e-f955-1002-119375d1e11f" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="1341640b-a390-29c7-15d2-4dfd71a34a3a" profileTypeId="39426f6d6223232344415441232323" name="Proton Bombs" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 proton bomb token. This token detonates at the end of the Activation phase."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="a045fa4d-441d-fea3-a4ca-6295ab8b62a2" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proton Bomb Token" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, deal 1 faceup Damage card to each ship at Range 1 of the token. Then discard this token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="e2e08cab-6adf-67d4-449b-22a8e3290304" name="Proximity Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="85f91245-b858-b6d2-1995-8ef88c4cbac6" profileTypeId="39426f6d6223232344415441232323" name="Proximity Mines" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 proximity mine token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="65cd87a4-9792-c851-eb34-c59fa5517a8c" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proximity Mine Token" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage [hit] and critical damage [critical hit] rolled. Then discard this token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="634b13d8-e9a8-ae61-234c-fcc7607c54e9" profileTypeId="39426f6d6223232344415441232323" name="Seismic Charges" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token. This token detonates at the end of the Activation phase."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="d4dd60f6-3212-e924-ee5f-c59b92a8a552" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Seismic Charge Token" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage. Then discard this token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6409,6 +6409,22 @@
           <modifiers/>
         </link>
         <link id="93167d31-b64b-fbeb-fc5b-f1beb460d7dc" targetId="1022cb37-e0eb-bdee-5235-d221137b7e14" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="51919b05-e4af-8b75-6f33-086d16de3b70" targetId="577379c0-d59e-f955-1002-119375d1e11f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="27cf04e9-06a2-92e6-5331-ccce0895a8e5" targetId="e2e08cab-6adf-67d4-449b-22a8e3290304" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8e2526ce-7f66-a969-c703-ddce304ed419" targetId="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -7075,7 +7091,7 @@
           <profiles>
             <profile id="cba19173-9aa0-df02-f958-97dff86add52" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Stay on Target" hidden="false">
               <characteristics>
-                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat that maneuver as a red maneuver."/>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat your maneuver as a red maneuver."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -7550,22 +7566,6 @@
           <modifiers/>
         </link>
         <link id="69590257-50bd-835c-9efc-876ba45c2e80" targetId="6c4fa9ff-5216-46ab-7a2d-2a77d009474a" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="51919b05-e4af-8b75-6f33-086d16de3b70" targetId="577379c0-d59e-f955-1002-119375d1e11f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="27cf04e9-06a2-92e6-5331-ccce0895a8e5" targetId="e2e08cab-6adf-67d4-449b-22a8e3290304" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8e2526ce-7f66-a969-c703-ddce304ed419" targetId="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" linkType="entry">
           <modifiers/>
         </link>
       </links>

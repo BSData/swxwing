@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="42" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="43" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4947,7 +4947,7 @@
       <profiles>
         <profile id="bab37f75-aaa6-3912-ed2e-44e7b470dd86" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lone Wolf" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if there are no friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if there are no other friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5589,7 +5589,7 @@
           <profiles>
             <profile id="1c569150-970a-3fa7-e2bd-8549b595c37f" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Stay on Target" hidden="false">
               <characteristics>
-                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat that maneuver as a red maneuver."/>
+                <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat your maneuver as a red maneuver."/>
               </characteristics>
               <modifiers/>
             </profile>
