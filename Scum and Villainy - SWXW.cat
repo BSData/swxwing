@@ -888,7 +888,7 @@
         </link>
       </links>
     </entry>
-    <entry id="38d1c562-200b-f75c-f708-b89347278efe" name="PS 5 - •Drea Renthal†" points="22.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="38d1c562-200b-f75c-f708-b89347278efe" name="PS 5 - •Drea Renthal†" points="22.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="46591b60-de90-2785-ac62-fa6420d6e404" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2341,6 +2341,36 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="91fb2958-1bab-0205-7a26-2a68fdea70bf" name="•R4-B11†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="37f12175-bd79-4112-a275-1eadf242b73d" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="R4-B11" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="When attacking, if you have a target lock on the defender, you may spend the target lock to choose any or all defense dice. The defender must reroll the chosen dice."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="46ded1c9-945e-4ff1-c30a-4ad31aac7185" name="R4 Agromech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a2d7614e-bb10-f33b-9db2-597d38a6a6fb" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="R4 Agromech" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="When attacking, after you spend a focus token, you may acquire a target lock on the defender."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -2661,6 +2691,12 @@
           <modifiers/>
         </link>
         <link id="3dffbae5-06f5-6ccc-8717-ce4b2a61a6a5" targetId="101e7c91-7ba6-99e9-4fa7-52e3c088701d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="187bf8f4-8055-b562-d099-dd69f8220967" targetId="91fb2958-1bab-0205-7a26-2a68fdea70bf" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e35ac1b2-889d-b89c-8dad-37baa4a84679" targetId="46ded1c9-945e-4ff1-c30a-4ad31aac7185" linkType="entry">
           <modifiers/>
         </link>
       </links>
