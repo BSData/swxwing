@@ -246,6 +246,110 @@
         </link>
       </links>
     </entry>
+    <entry id="38d1c562-200b-f75c-f708-b89347278efe" name="PS 5 - •Drea Renthal†" points="22.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="46591b60-de90-2785-ac62-fa6420d6e404" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="0542af71-11d3-c32f-7c79-adb97e27fb0f" targetId="c5740f6c-7f80-2c34-ab4d-f61f6df0126a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ff5ba69b-bf76-209e-369c-ca4fe67607ec" profileTypeId="31536869707323232344415441232323" name="•Drea Renthal" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="3"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Turret, Torpedoes x2, Salvaged Astromech"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="079210df-1fca-88cf-7b1d-d3f86728d42b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="49c04071-073b-fc1f-305e-1f2f1cd99dda" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Torpedoes x2, Salvaged Astromech, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="d042b830-a325-fe39-2e65-2333f51d5bb3" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="978db2e1-e041-c920-35f2-c2fe9e9b0d6d" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Drea Renthal" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="After you spend a target lock, you may receive 1 stress token to acquire a target lock."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="60c644ab-0106-9efc-ca5a-01bfe4982d06" targetId="10ec179e-5dc2-e433-2b26-47a74ed0db71" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4dadbcb3-f902-74f2-1fcc-04f3e3e7fb3e" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f7cede03-0fb6-8abb-5e73-cc4f2e3e6e90" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e0b2dcb0-d3b4-4cd8-b09a-4de80f8dd818" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="618b618f-f372-c462-f8a5-91c75a1aafbe" targetId="0d8e6cae-48d5-ab7b-1f1e-71bd9707404c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0ea31fb4-81fe-31ef-f874-e299b80e7037" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="86650758-9472-6a6f-165e-e69eaf64ddf8" targetId="b2a776cc-a7de-7f19-2bdd-48d2db4012fd" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="68ab3dfa-23d0-49a2-28ea-e3f3f4849a77" targetId="1040ae13-d315-b3f8-823c-2fdaec9f3f80" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8426417c-94d8-b982-8061-b45a68ec273b" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="d042b830-a325-fe39-2e65-2333f51d5bb3" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
     <entry id="eac5e2ea-45fe-7091-a8e9-bce3ec73d2ed" name="PS 6 - •IG-88D†" points="36.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -881,110 +985,6 @@
             <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="c6bb0ed7-0c44-d84f-e311-94343ddc34dd" childId="25388210-d54c-2746-788e-132f71d6837b" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="38d1c562-200b-f75c-f708-b89347278efe" name="PS 5 - •Drea Renthal†" points="22.0" categoryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="46591b60-de90-2785-ac62-fa6420d6e404" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="0542af71-11d3-c32f-7c79-adb97e27fb0f" targetId="c5740f6c-7f80-2c34-ab4d-f61f6df0126a" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ff5ba69b-bf76-209e-369c-ca4fe67607ec" profileTypeId="31536869707323232344415441232323" name="•Drea Renthal" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
-            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
-            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
-            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
-            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="3"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Turret, Torpedoes x2, Salvaged Astromech"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="079210df-1fca-88cf-7b1d-d3f86728d42b" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="49c04071-073b-fc1f-305e-1f2f1cd99dda" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Torpedoes x2, Salvaged Astromech, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="d042b830-a325-fe39-2e65-2333f51d5bb3" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile id="978db2e1-e041-c920-35f2-c2fe9e9b0d6d" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Drea Renthal" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="After you spend a target lock, you may receive 1 stress token to acquire a target lock."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="60c644ab-0106-9efc-ca5a-01bfe4982d06" targetId="10ec179e-5dc2-e433-2b26-47a74ed0db71" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="4dadbcb3-f902-74f2-1fcc-04f3e3e7fb3e" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f7cede03-0fb6-8abb-5e73-cc4f2e3e6e90" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e0b2dcb0-d3b4-4cd8-b09a-4de80f8dd818" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
-          <modifiers>
-            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="618b618f-f372-c462-f8a5-91c75a1aafbe" targetId="0d8e6cae-48d5-ab7b-1f1e-71bd9707404c" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="0ea31fb4-81fe-31ef-f874-e299b80e7037" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="86650758-9472-6a6f-165e-e69eaf64ddf8" targetId="b2a776cc-a7de-7f19-2bdd-48d2db4012fd" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="68ab3dfa-23d0-49a2-28ea-e3f3f4849a77" targetId="1040ae13-d315-b3f8-823c-2fdaec9f3f80" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="8426417c-94d8-b982-8061-b45a68ec273b" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" linkType="entry group">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="38d1c562-200b-f75c-f708-b89347278efe" childId="d042b830-a325-fe39-2e65-2333f51d5bb3" field="selections" type="equal to" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1930,6 +1930,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="46ded1c9-945e-4ff1-c30a-4ad31aac7185" name="R4 Agromech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a2d7614e-bb10-f33b-9db2-597d38a6a6fb" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="R4 Agromech" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="When attacking, after you spend a focus token, you may acquire a target lock on the defender."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="1b14d503-e721-7433-4eb7-af8da7c6cfe3" name="Recon Specialist" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2296,6 +2311,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="91fb2958-1bab-0205-7a26-2a68fdea70bf" name="•R4-B11†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="37f12175-bd79-4112-a275-1eadf242b73d" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="R4-B11" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="When attacking, if you have a target lock on the defender, you may spend the target lock to choose any or all defense dice. The defender must reroll the chosen dice."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="660f5eb3-2c26-35b5-96e1-4d030768dd0a" name="•Slave 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2341,30 +2371,22 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="91fb2958-1bab-0205-7a26-2a68fdea70bf" name="•R4-B11†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="afd9945b-87d3-3bce-4f99-eb9a20743946" name="Autoblaster Turret†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="37f12175-bd79-4112-a275-1eadf242b73d" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="R4-B11" hidden="false">
+        <profile id="2543f0aa-af11-5dfe-dc56-4fc009f240dd" profileTypeId="375475727265747323232344415441232323" name="Autoblaster Turret " hidden="false">
           <characteristics>
-            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="When attacking, if you have a target lock on the defender, you may spend the target lock to choose any or all defense dice. The defender must reroll the chosen dice."/>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
           </characteristics>
           <modifiers/>
         </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="46ded1c9-945e-4ff1-c30a-4ad31aac7185" name="R4 Agromech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="a2d7614e-bb10-f33b-9db2-597d38a6a6fb" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="R4 Agromech" hidden="false">
+        <profile id="4f85e4d2-6dcf-88bb-1aa8-fded2a58a2c8" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Autoblaster Turret" hidden="false">
           <characteristics>
-            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="When attacking, after you spend a focus token, you may acquire a target lock on the defender."/>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -2773,6 +2795,9 @@
           <modifiers/>
         </link>
         <link id="a7b61730-241e-c305-8b22-31fb6b9e24e0" targetId="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2f92770a-56cf-7fed-c0ce-cdb53fd074eb" targetId="afd9945b-87d3-3bce-4f99-eb9a20743946" linkType="entry">
           <modifiers/>
         </link>
       </links>

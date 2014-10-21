@@ -4813,6 +4813,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="6f2b0a9f-93ca-22ae-eb5b-6df8f294ec25" name="BTL-A4 Y-Wing†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="243c5a6a-3943-b50e-f23b-29feb7437384" profileTypeId="332e30315469746c6523232344415441232323" name="BTL-A4 Y-Wing" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="You cannot attack ships outside your firing arc. After you perform a primary weapon attack, you may immediately perform an attack with a [turret] secondary weapon."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" name="Chardaan Refit" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -6372,15 +6387,22 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="6f2b0a9f-93ca-22ae-eb5b-6df8f294ec25" name="BTL-A4 Y-Wing†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="2d29f1ed-f792-ad4f-ae99-cde65167f4a9" name="Autoblaster Turret†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="243c5a6a-3943-b50e-f23b-29feb7437384" profileTypeId="332e30315469746c6523232344415441232323" name="BTL-A4 Y-Wing" hidden="false">
+        <profile id="b00c869e-f733-d77d-ef38-2e57194b3f6a" profileTypeId="375475727265747323232344415441232323" name="Autoblaster Turret " hidden="false">
           <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="You cannot attack ships outside your firing arc. After you perform a primary weapon attack, you may immediately perform an attack with a [turret] secondary weapon."/>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a1a29a69-1fd3-2843-eb0c-79f82ad1c89d" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Autoblaster Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -7614,6 +7636,9 @@
         <link id="c232ae53-5e02-8bef-6a07-468613e335bc" targetId="6c4fa9ff-5216-46ab-7a2d-2a77d009474a" linkType="entry">
           <modifiers/>
         </link>
+        <link id="58a490a0-cfaf-019d-6f8d-29d8c0d096d2" targetId="2d29f1ed-f792-ad4f-ae99-cde65167f4a9" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="424d9844-d01c-4099-65db-d2cba6384ce5" name="Turret" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7625,6 +7650,9 @@
           <modifiers/>
         </link>
         <link id="69590257-50bd-835c-9efc-876ba45c2e80" targetId="6c4fa9ff-5216-46ab-7a2d-2a77d009474a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1cc83c4b-0f65-7a2c-af5b-0d3fbcbec8bb" targetId="2d29f1ed-f792-ad4f-ae99-cde65167f4a9" linkType="entry">
           <modifiers/>
         </link>
       </links>
