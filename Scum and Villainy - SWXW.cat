@@ -1145,7 +1145,7 @@
       <profiles>
         <profile id="e67916d8-2114-c174-f3d5-011a185da26b" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Autoblaster" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Your [hit] results cannot be cancelled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1153,6 +1153,28 @@
           <characteristics>
             <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
             <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="afd9945b-87d3-3bce-4f99-eb9a20743946" name="Autoblaster Turret†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2543f0aa-af11-5dfe-dc56-4fc009f240dd" profileTypeId="375475727265747323232344415441232323" name="Autoblaster Turret " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4f85e4d2-6dcf-88bb-1aa8-fded2a58a2c8" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Autoblaster Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -2365,28 +2387,6 @@
         <profile id="7fd5f96d-9480-3e30-a063-eaaed92dcfcc" profileTypeId="332e30315469746c6523232344415441232323" name="Virago" hidden="false">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [sensors] and [illicit upgrade] icons."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="afd9945b-87d3-3bce-4f99-eb9a20743946" name="Autoblaster Turret†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2543f0aa-af11-5dfe-dc56-4fc009f240dd" profileTypeId="375475727265747323232344415441232323" name="Autoblaster Turret " hidden="false">
-          <characteristics>
-            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
-            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="4f85e4d2-6dcf-88bb-1aa8-fded2a58a2c8" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Autoblaster Turret" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
           </characteristics>
           <modifiers/>
         </profile>

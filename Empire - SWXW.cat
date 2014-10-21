@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="43" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="44" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -5185,7 +5185,7 @@
           <profiles>
             <profile id="08138243-fd4f-cf58-1da3-654490c458a8" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Autoblaster " hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Your [hit] results cannot be cancelled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
+                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
               </characteristics>
               <modifiers/>
             </profile>
