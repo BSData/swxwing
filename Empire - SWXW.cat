@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="44" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="45" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -855,6 +855,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="bdec933d-63fb-a8d1-fef2-3e34447a83c0" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="85b34629-013e-8603-8657-2a9acf94772d" name="PS 3 - Sigma Squadron Pilot" points="25.0" categoryId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -1375,6 +1378,9 @@
           <modifiers/>
         </link>
         <link id="d75b35e7-50fc-a7a2-cf45-7707fcab5411" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="63a2390a-0d34-2037-f4e3-f2e07a28677b" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2741,6 +2747,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="950473c9-8d7b-d73d-cd87-4ac560dda37a" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="0939e6e4-ff9e-6af0-9e31-2596f2af6e72" name="PS 6 - •Kir Kanos" points="24.0" categoryId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
@@ -4028,6 +4037,9 @@
         <link id="2b3f493e-17b4-535b-7f50-597efe7c4cc8" targetId="9645f782-da69-5241-6b12-99189c689611" linkType="profile">
           <modifiers/>
         </link>
+        <link id="ff9eb836-0816-442e-6817-e110d4b069cd" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="ce360707-f31a-a30c-95e1-4b717f1bbb8b" name="PS 8 - •Rexler Brath" points="37.0" categoryId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -4438,7 +4450,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="936244ec-2bce-13df-2123-6d8ea4ec220d" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="10ab420d-65b4-4909-2eee-b7b6863c6824" name="Engine Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4490,7 +4506,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="13386a9c-7fc5-44df-80ea-8d72d6d15012" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="462664db-26df-f4a4-db44-1ae09d1cdae3" name="Flight Instructor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4616,7 +4636,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="17310f3a-2411-ea9d-f2b4-e4d45df1f8d7" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="45181e59-a39d-4fa2-4ead-61d721c64d88" name="Mercenary Copilot" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4795,7 +4819,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="4b0eb6f1-1332-3de4-e0b6-8aa049694403" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="9f8eb646-2aa2-2a4c-8eab-f96fe14dce5f" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4922,7 +4950,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="e78ac9a9-038d-32dd-e1e8-7abb9202d951" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="774e5dd5-90a7-e8cf-8f68-0ced4489e377" name="•Experimental Interface†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -4937,7 +4969,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="d5007934-8612-fd55-a7ef-44583f6b3630" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="94d61f6e-0db3-97cf-dcec-fbc31bf3cc13" name="•Lone Wolf†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -4952,7 +4988,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="2abea48b-47c8-5739-a7e1-9086dfc20c79" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="7f0c8075-9cd2-75cd-bd5d-a657f99a4bc1" name="•Mara Jade†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4967,7 +5007,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="837865d6-b1e9-2509-4ddf-1af890b038ba" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="354008f1-5792-9749-b9bd-df221932df26" name="•Moff Jerjerrod†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -4982,7 +5026,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="621cb23c-430e-d2c2-8fb6-76a028996dc6" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="12835746-d073-eb83-9a32-8f881d468a85" name="•Rebel Captive" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -5057,7 +5105,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="dea05ec6-d2e1-022a-5b66-d14035059627" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -5594,7 +5646,11 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="7981e96f-f008-ea04-4563-e5eb82a75874" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="841b0799-d3f0-3378-b4cd-5da0d1047d7d" name="Intimidation†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5609,7 +5665,11 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="e3d269a1-323d-471d-1ed6-d9b3c054c972" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="fca4d2cb-41a5-ef36-4854-b657bdcadcdf" name="Ruthlessness†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5624,7 +5684,11 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="ae578e33-7614-fa20-c179-c552e96c7477" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
@@ -5958,7 +6022,11 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="36d2137a-cce8-81ae-b9c0-029d381668f6" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
@@ -6128,6 +6196,12 @@
         <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" profileTypeId="a285251b-01f4-7499-3b4d-39a062b4d963" name="† - Unreleased" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="7ba819ca-effa-8c45-5542-10f769608bbc" name="Symbol Key" value="Cards marked with a dagger symbol (†) have not been officially released by Fantasy Flight Games. This information is based on official Fantasy Flight spoiler articles or early releases of product at tournaments or conventions. Cards maked with the dagger symbol may not have their final official text, are subject to change, and are generally not legal for tournament play."/>
       </characteristics>
       <modifiers/>
     </profile>

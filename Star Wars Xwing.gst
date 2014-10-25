@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="17" battleScribeVersion="1.14b" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="18" battleScribeVersion="1.14b" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="5374616e6461726423232344415441232323" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -245,6 +245,11 @@
     <profileType id="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="3.1Illicit Upgrade Ability">
       <characteristics>
         <characteristic id="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability"/>
+      </characteristics>
+    </profileType>
+    <profileType id="a285251b-01f4-7499-3b4d-39a062b4d963" name="9.9Symbol">
+      <characteristics>
+        <characteristic id="7ba819ca-effa-8c45-5542-10f769608bbc" name="Symbol Key"/>
       </characteristics>
     </profileType>
   </profileTypes>
