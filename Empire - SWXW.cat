@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="45" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="46" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -531,6 +531,9 @@
             <link id="2abc5a80-dde8-d849-4992-99b0556287a3" targetId="eae80c36-ab08-0879-9474-2f3d1b070cb7" linkType="entry">
               <modifiers/>
             </link>
+            <link id="9c778030-5676-9bd7-cf49-7fc03543caeb" targetId="048ed74d-359b-3eee-57d2-22cfc05043de" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -571,6 +574,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Bomb x3, Crew, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -595,7 +604,14 @@
           <modifiers/>
         </link>
         <link id="48d05f77-6569-8caa-0fd1-a787bfc816df" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="762be8e8-5d26-9604-b48b-667fd62b67d3" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
           <modifiers/>
@@ -1827,6 +1843,9 @@
             <link id="03880bca-5c55-fc26-5a3b-66fbd717b6c3" targetId="eae80c36-ab08-0879-9474-2f3d1b070cb7" linkType="entry">
               <modifiers/>
             </link>
+            <link id="5d6893f2-877f-1465-4640-b5b52f60d369" targetId="048ed74d-359b-3eee-57d2-22cfc05043de" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -1873,6 +1892,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Bomb x3, Crew, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="874f40ae-d171-5f27-beac-794042fe1e39" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -1897,7 +1922,14 @@
           <modifiers/>
         </link>
         <link id="8121b808-713b-92f9-d033-eeecd65a2387" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="874f40ae-d171-5f27-beac-794042fe1e39" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="bea1d1d3-9efe-1d2f-5148-18ea751fe51d" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
           <modifiers/>
@@ -3044,6 +3076,9 @@
             <link id="91cfe12c-bca9-acd8-4ec4-f7f4a87a2ed5" targetId="eae80c36-ab08-0879-9474-2f3d1b070cb7" linkType="entry">
               <modifiers/>
             </link>
+            <link id="84496714-cab2-e01b-2d37-0065a865d131" targetId="048ed74d-359b-3eee-57d2-22cfc05043de" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -3096,6 +3131,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb x3, Crew, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="37328b3b-ecc8-bb91-8714-af59825dc9a0" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -3123,7 +3164,14 @@
           <modifiers/>
         </link>
         <link id="9466b45b-db31-d2d7-dd56-b5fbde515db7" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="37328b3b-ecc8-bb91-8714-af59825dc9a0" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="f6645acf-0945-2a11-5f83-bdf89c31b561" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
           <modifiers/>
@@ -3635,6 +3683,9 @@
             <link id="4679861a-2308-b2ee-d0ea-473d7ba32025" targetId="eae80c36-ab08-0879-9474-2f3d1b070cb7" linkType="entry">
               <modifiers/>
             </link>
+            <link id="de7fba6d-efbe-7a3c-9fa0-6366a90f9933" targetId="048ed74d-359b-3eee-57d2-22cfc05043de" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -3687,6 +3738,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb x3, Crew, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="55f108e0-7576-5470-8cbe-b79f6663a5bb" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -3714,7 +3771,14 @@
           <modifiers/>
         </link>
         <link id="49631a86-208b-e648-f1b3-2c16670b706d" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="55f108e0-7576-5470-8cbe-b79f6663a5bb" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="6275f3b6-49eb-e4e3-2e9d-2e564b59e75b" targetId="280afff9-1d87-b019-cccf-e2e9b880f8b8" linkType="rule">
           <modifiers/>
@@ -5107,6 +5171,25 @@
       </profiles>
       <links>
         <link id="dea05ec6-d2e1-022a-5b66-d14035059627" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="048ed74d-359b-3eee-57d2-22cfc05043de" name="•Andrasta†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2021c77c-e572-2137-ae43-b87a2c65b22d" profileTypeId="332e30315469746c6523232344415441232323" name="Andrasta" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains two additional [bomb] upgrade icons."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c156764a-cd46-4c35-4808-2f52286e333d" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
       </links>
