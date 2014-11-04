@@ -1052,7 +1052,14 @@
           </modifiers>
         </link>
         <link id="4fae9934-c15c-2a0b-3856-75105fa4e5fb" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="291f5d87-45a8-29f3-0e55-73b17728ec77" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="07337273-3a11-a42c-9167-9aca72035a3a" targetId="ab5a7a0d-319a-c631-17e0-40d6c16ab7a2" linkType="entry group">
           <modifiers/>
@@ -1994,6 +2001,25 @@
         </link>
       </links>
     </entry>
+    <entry id="d0e36b20-a4f1-3be7-4b28-33ef4ea872ed" name="K4 Security Droid†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2578d573-535b-fbb2-1e96-aa6955a8b94f" profileTypeId="332e30334372657723232344415441232323" name="K4 Security Droid" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After executing a green maneuver, you may acquire a target lock."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0ee1d014-8b6f-59f0-943c-f49696c2d10f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="38e630a6-a3ad-b74c-eba5-81a72d861c1f" name="Marksmanship" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2068,6 +2094,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="5cad9854-ba79-4148-9ce6-86c00642d2e1" name="Outlaw Tech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d4d9a340-a56e-2d37-8411-e866280395b2" profileTypeId="332e30334372657723232344415441232323" name="Outlaw Tech" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you execute a red maneuver, you may assign 1 focus token to your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="06f0b0d8-8c03-2fea-72f1-a99d52d9e1fb" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="1e103180-9b7c-fcf6-affc-d564bb5470e8" name="Outmaneuver" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -2530,6 +2575,25 @@
         </link>
       </links>
     </entry>
+    <entry id="291f5d87-45a8-29f3-0e55-73b17728ec77" name="•Andrasta†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="82b9909d-820e-d7ba-74de-2fd766d854bf" profileTypeId="332e30315469746c6523232344415441232323" name="Andrasta" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains two additional [bomb] upgrade icons."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1b6afd3c-5f08-a3c0-5e73-ca40477c8cca" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="0b7c7263-0dfd-b1af-42c4-3ebb15518237" name="•Bodyguard†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2685,63 +2749,6 @@
       </profiles>
       <links>
         <link id="7a77525f-be83-8254-87da-455f19e829c4" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="5cad9854-ba79-4148-9ce6-86c00642d2e1" name="Outlaw Tech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="d4d9a340-a56e-2d37-8411-e866280395b2" profileTypeId="332e30334372657723232344415441232323" name="Outlaw Tech" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you execute a red maneuver, you may assign 1 focus token to your ship."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="06f0b0d8-8c03-2fea-72f1-a99d52d9e1fb" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="d0e36b20-a4f1-3be7-4b28-33ef4ea872ed" name="K4 Security Droid†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2578d573-535b-fbb2-1e96-aa6955a8b94f" profileTypeId="332e30334372657723232344415441232323" name="K4 Security Droid" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After executing a green maneuver, you may acquire a target lock."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="0ee1d014-8b6f-59f0-943c-f49696c2d10f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="291f5d87-45a8-29f3-0e55-73b17728ec77" name="•Andrasta†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="82b9909d-820e-d7ba-74de-2fd766d854bf" profileTypeId="332e30315469746c6523232344415441232323" name="Andrasta" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains two additional [bomb] upgrade icons."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="1b6afd3c-5f08-a3c0-5e73-ca40477c8cca" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
       </links>
