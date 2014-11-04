@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="14" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="15" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.14b" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b454e158-cfc6-9881-884d-3e9bacad5428" name="PS 1 - Binayre Pirate†" points="12.0" categoryId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -952,6 +952,9 @@
             <link id="d5e212de-d94f-8a76-a353-df54858f294e" targetId="660f5eb3-2c26-35b5-96e1-4d030768dd0a" linkType="entry">
               <modifiers/>
             </link>
+            <link id="e3a9f244-ab58-1f5a-3d9f-f0f1a29f1aee" targetId="291f5d87-45a8-29f3-0e55-73b17728ec77" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -995,6 +998,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb x3, Crew, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="291f5d87-45a8-29f3-0e55-73b17728ec77" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2680,6 +2689,63 @@
         </link>
       </links>
     </entry>
+    <entry id="5cad9854-ba79-4148-9ce6-86c00642d2e1" name="Outlaw Tech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d4d9a340-a56e-2d37-8411-e866280395b2" profileTypeId="332e30334372657723232344415441232323" name="Outlaw Tech" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you execute a red maneuver, you may assign 1 focus token to your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="06f0b0d8-8c03-2fea-72f1-a99d52d9e1fb" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d0e36b20-a4f1-3be7-4b28-33ef4ea872ed" name="K4 Security Droid†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2578d573-535b-fbb2-1e96-aa6955a8b94f" profileTypeId="332e30334372657723232344415441232323" name="K4 Security Droid" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After executing a green maneuver, you may acquire a target lock."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0ee1d014-8b6f-59f0-943c-f49696c2d10f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="291f5d87-45a8-29f3-0e55-73b17728ec77" name="•Andrasta†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="82b9909d-820e-d7ba-74de-2fd766d854bf" profileTypeId="332e30315469746c6523232344415441232323" name="Andrasta" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains two additional [bomb] upgrade icons."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1b6afd3c-5f08-a3c0-5e73-ca40477c8cca" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -2796,6 +2862,12 @@
           <modifiers/>
         </link>
         <link id="091e103d-95dc-0755-3bdf-307574c40eb7" targetId="1a40d000-d9a7-2f8e-61b8-9afebf7f9b18" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="11c72abd-eef4-8f5d-32b9-47def0f753e4" targetId="5cad9854-ba79-4148-9ce6-86c00642d2e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="95901434-268e-c2b4-4413-2b9c2b11ff02" targetId="d0e36b20-a4f1-3be7-4b28-33ef4ea872ed" linkType="entry">
           <modifiers/>
         </link>
       </links>
