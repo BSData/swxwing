@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="18" battleScribeVersion="1.14b" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="19" battleScribeVersion="1.15" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="5374616e6461726423232344415441232323" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -84,7 +84,7 @@
     </forceType>
   </forceTypes>
   <profileTypes>
-    <profileType id="31536869707323232344415441232323" name="1.0Ships">
+    <profileType id="31536869707323232344415441232323" name="1.1 Small and Large Ships">
       <characteristics>
         <characteristic id="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill"/>
         <characteristic id="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon"/>
@@ -94,96 +94,96 @@
         <characteristic id="557067726164652042617223232344415441232323" name="Upgrade Bar"/>
       </characteristics>
     </profileType>
-    <profileType id="3250696c6f74204162696c69747923232344415441232323" name="2.0Pilot Ability">
+    <profileType id="3250696c6f74204162696c69747923232344415441232323" name="2.1 Pilot Abilities">
       <characteristics>
         <characteristic id="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="335365636f6e6461727920576561706f6e7323232344415441232323" name="3.2Torpedoes">
+    <profileType id="335365636f6e6461727920576561706f6e7323232344415441232323" name="5.1 Torpedoes">
       <characteristics>
         <characteristic id="576561706f6e2052616e676523232344415441232323" name="Weapon Range"/>
         <characteristic id="41747461636b2056616c756523232344415441232323" name="Attack Value"/>
       </characteristics>
     </profileType>
-    <profileType id="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="3.3Torpedoes Ability">
+    <profileType id="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="5.2 Torpedoes Abilities">
       <characteristics>
         <characteristic id="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="354d697373696c6520576561706f6e7323232344415441232323" name="3.4Missiles">
+    <profileType id="354d697373696c6520576561706f6e7323232344415441232323" name="5.3 Missiles">
       <characteristics>
         <characteristic id="576561706f6e2052616e676523232344415441232323" name="Weapon Range"/>
         <characteristic id="41747461636b2056616c756523232344415441232323" name="Attack Value"/>
       </characteristics>
     </profileType>
-    <profileType id="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="3.5Missiles Ability">
+    <profileType id="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="5.4 Missiles Abilities">
       <characteristics>
         <characteristic id="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="375475727265747323232344415441232323" name="4.1Turret">
+    <profileType id="375475727265747323232344415441232323" name="6.1 Turrets">
       <characteristics>
         <characteristic id="576561706f6e2052616e676523232344415441232323" name="Weapon Range"/>
         <characteristic id="41747461636b2056616c756523232344415441232323" name="Attack Value"/>
       </characteristics>
     </profileType>
-    <profileType id="38547572726574204162696c69747923232344415441232323" name="4.2Turret Ability">
+    <profileType id="38547572726574204162696c69747923232344415441232323" name="6.2 Turret Abilities">
       <characteristics>
         <characteristic id="547572726574204162696c69747923232344415441232323" name="Turret Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="2.1Elite Pilot Talent">
+    <profileType id="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="2.2 Elite Pilot Talents">
       <characteristics>
         <characteristic id="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="332e34417374726f6d65636823232344415441232323" name="2.4Astromech">
+    <profileType id="332e34417374726f6d65636823232344415441232323" name="3.2 Astromechs">
       <characteristics>
         <characteristic id="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="332e30315469746c6523232344415441232323" name="2.20Title">
+    <profileType id="332e30315469746c6523232344415441232323" name="2.4 Titles">
       <characteristics>
         <characteristic id="5469746c65204162696c69747923232344415441232323" name="Title Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="332e30324d6f64696669636174696f6e23232344415441232323" name="2.3Modification">
+    <profileType id="332e30324d6f64696669636174696f6e23232344415441232323" name="3.1 Modifications">
       <characteristics>
         <characteristic id="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="332e30334372657723232344415441232323" name="2.7Crew">
+    <profileType id="332e30334372657723232344415441232323" name="3.6 Crew">
       <characteristics>
         <characteristic id="43726577204162696c69747923232344415441232323" name="Crew Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="39426f6d6223232344415441232323" name="6.0Bomb">
+    <profileType id="39426f6d6223232344415441232323" name="8.1 Bombs">
       <characteristics>
         <characteristic id="426f6d62204162696c69747923232344415441232323" name="Bomb Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="392e31426f6d62204162696c69747923232344415441232323" name="6.1Bomb Token">
+    <profileType id="392e31426f6d62204162696c69747923232344415441232323" name="8.2 Bomb Tokens">
       <characteristics>
         <characteristic id="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="313043616e6e6f6e7323232344415441232323" name="4.3Cannon">
+    <profileType id="313043616e6e6f6e7323232344415441232323" name="6.3 Cannons">
       <characteristics>
         <characteristic id="576561706f6e2052616e676523232344415441232323" name="Weapon Range"/>
         <characteristic id="41747461636b2056616c756523232344415441232323" name="Attack Value"/>
       </characteristics>
     </profileType>
-    <profileType id="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="4.4Cannon Ability">
+    <profileType id="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="6.4 Cannon Abilities">
       <characteristics>
         <characteristic id="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="4d360cf5-142f-0608-3a14-be3ee1303117" name="2.6Sensors">
+    <profileType id="4d360cf5-142f-0608-3a14-be3ee1303117" name="3.4 Sensors">
       <characteristics>
         <characteristic id="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="00cb6ab5-6bfa-0854-5849-f0149f71bc90" name="1.1Epic Ships">
+    <profileType id="00cb6ab5-6bfa-0854-5849-f0149f71bc90" name="1.2 Epic Ships">
       <characteristics>
         <characteristic id="f5301fdb-8a00-84c5-0ea6-c09c828cc617" name="Pilot Skill"/>
         <characteristic id="10285ec3-de2a-0880-45cc-46ceeed43dee" name="Primary Weapon"/>
@@ -194,36 +194,36 @@
         <characteristic id="55f10216-1b9e-b207-f867-d3bce45de89b" name="Upgrade Bar"/>
       </characteristics>
     </profileType>
-    <profileType id="03f3952f-d582-3574-fa2e-0238d07251d6" name="5.0Hardpoint">
+    <profileType id="03f3952f-d582-3574-fa2e-0238d07251d6" name="7.1 Hardpoint">
       <characteristics>
         <characteristic id="6c51a39a-e133-d5f5-e790-ba40cd44e799" name="Energy Limit"/>
         <characteristic id="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" name="Weapon Range"/>
         <characteristic id="7f9c0f86-1f23-709b-5d82-c37313ad45a5" name="Attack Value"/>
       </characteristics>
     </profileType>
-    <profileType id="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" name="5.1Hardpoint Ability">
+    <profileType id="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" name="7.2 Hardpoint Abilities">
       <characteristics>
         <characteristic id="9d9b1389-be43-ffef-020c-9f49626921d4" name="Hardpoint Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="2.8Cargo">
+    <profileType id="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="3.8 Cargo">
       <characteristics>
         <characteristic id="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
         <characteristic id="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="2.9Team">
+    <profileType id="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="3.9 Teams">
       <characteristics>
         <characteristic id="eb3c4162-2db9-88f2-3869-0eb79bda378f" name="Team Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="2.21Epic Title">
+    <profileType id="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="2.5 Epic Titles">
       <characteristics>
         <characteristic id="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit"/>
         <characteristic id="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="876b5288-62fa-bc8e-32fe-989964372b8f" name="1.2Ship Rules">
+    <profileType id="876b5288-62fa-bc8e-32fe-989964372b8f" name="1.3 Ship Profiles">
       <characteristics>
         <characteristic id="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size"/>
         <characteristic id="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon"/>
@@ -231,23 +231,23 @@
         <characteristic id="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
     </profileType>
-    <profileType id="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="2.5Salvaged Astromech">
+    <profileType id="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="3.3 Salvaged Astromechs">
       <characteristics>
         <characteristic id="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="2de957fe-85ec-5e2d-3a50-87cba297a282" name="3.0Illicit Upgrade">
+    <profileType id="2de957fe-85ec-5e2d-3a50-87cba297a282" name="4.1 Illicit Upgrades">
       <characteristics>
         <characteristic id="081eaf8b-1fdf-5a05-ed94-61f173c64f14" name="Weapon Range"/>
         <characteristic id="8085a6bb-b10e-8c8a-62e1-6e9d9e027977" name="Attack Value"/>
       </characteristics>
     </profileType>
-    <profileType id="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="3.1Illicit Upgrade Ability">
+    <profileType id="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="4.2 Illicit Upgrade Abilities">
       <characteristics>
         <characteristic id="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="a285251b-01f4-7499-3b4d-39a062b4d963" name="9.9Symbol">
+    <profileType id="a285251b-01f4-7499-3b4d-39a062b4d963" name="9.9 Symbols">
       <characteristics>
         <characteristic id="7ba819ca-effa-8c45-5542-10f769608bbc" name="Symbol Key"/>
       </characteristics>
