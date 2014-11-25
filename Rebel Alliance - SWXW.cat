@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="47" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="48" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -207,7 +207,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="0f580e02-3699-6ce9-b10a-2179920894f8" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="0f580e02-3699-6ce9-b10a-2179920894f8" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
           <modifiers/>
         </link>
         <link id="55bbb1da-ca98-fb7c-afde-7429ffbc79f6" targetId="4d3b6152-b4cc-81df-2cb7-702429221084" linkType="rule">
@@ -988,7 +988,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="feb72e0e-c9c1-f6f3-e2d8-fb9b8c7a6503" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="feb72e0e-c9c1-f6f3-e2d8-fb9b8c7a6503" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
           <modifiers/>
         </link>
         <link id="75a8c374-47b2-eab1-3c41-09447eadbc6f" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
@@ -2472,7 +2472,7 @@
         <link id="d57b0891-f259-579d-9406-b2f062289d4d" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
           <modifiers/>
         </link>
-        <link id="6c42575a-f783-e875-1416-cb898f94e237" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="6c42575a-f783-e875-1416-cb898f94e237" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
           <modifiers/>
         </link>
         <link id="7650e803-75c4-8eaf-1e33-21625e95ed1e" targetId="93d86341-fc63-ab0f-db15-de74c8bd1715" linkType="entry group">
@@ -2788,7 +2788,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="6e7ad7f8-e512-f348-9281-e10ffc35f63a" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="6e7ad7f8-e512-f348-9281-e10ffc35f63a" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
           <modifiers/>
         </link>
         <link id="9188de57-39f3-16c4-7ae5-1f742b1c852b" targetId="4d3b6152-b4cc-81df-2cb7-702429221084" linkType="rule">
@@ -3388,7 +3388,7 @@
             </modifier>
           </modifiers>
         </link>
-        <link id="1d0de901-8788-7f5d-2478-5ce6d407c9a4" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="1d0de901-8788-7f5d-2478-5ce6d407c9a4" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
           <modifiers/>
         </link>
         <link id="641933e7-0cbd-cb0d-2346-fc88df565604" targetId="93d86341-fc63-ab0f-db15-de74c8bd1715" linkType="entry group">
@@ -4355,7 +4355,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="a1c18973-6c8a-7c87-87e5-617c3738077e" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="a1c18973-6c8a-7c87-87e5-617c3738077e" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
           <modifiers/>
         </link>
         <link id="ed99f140-1838-53f3-0ccc-dada7f3b39be" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
@@ -6469,6 +6469,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="b27eab50-9a25-d752-4552-4f7070c837a5" name="Autothrusters†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="40dc827b-a27b-1581-6503-f2732e014d09" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Autothrusters" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When defending, if you are beyond Range 2 or outside the attacker&apos;s firing arc, you may change 1 of your blank results to a [evade] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3e76fbdd-78fc-a031-45e0-0356edecf2e4" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7725,6 +7744,40 @@
           <modifiers/>
         </link>
         <link id="1cc83c4b-0f65-7a2c-af5b-0d3fbcbec8bb" targetId="2d29f1ed-f792-ad4f-ae99-cde65167f4a9" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="6c4fef52-3c4f-eb71-2089-2c28cfc0c110" targetId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2fa3753d-a3e8-667d-2c02-47e0484e11de" targetId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cc2448fd-b454-9592-258c-325633f56e4e" targetId="cfca4701-2652-694e-fc52-5434a3a3475d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a1a0b725-7be6-15eb-4d76-d75263330451" targetId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="91b7fedb-b0ad-d21f-1417-bd1322b402eb" targetId="871ad81a-0fc2-59cb-3339-f812d5543554" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8007d5d0-5832-1747-389f-ecbc89d8a8e7" targetId="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="81e61156-12f3-7d88-83f4-0059a16aaf7a" targetId="bde29740-52d6-ac5d-b455-acb1b511b181" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a69c059a-84aa-44fc-288a-078dfbadd1b7" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="811b6c07-924f-0808-1042-33e9969e71fa" targetId="b27eab50-9a25-d752-4552-4f7070c837a5" linkType="entry">
           <modifiers/>
         </link>
       </links>
