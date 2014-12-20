@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="49" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="50" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -383,7 +383,18 @@
     </entry>
     <entry id="49ac3d55-33f5-b7e7-e3ef-9310c3d3334c" name="PS 2 - Tempest Squadron Pilot" points="21.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="5421451b-596a-2219-4d8c-f97b01813e7f" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="e07ba2fd-37e5-9b24-04df-5bde29ecab54" targetId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
@@ -412,6 +423,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="49ac3d55-33f5-b7e7-e3ef-9310c3d3334c" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Sensors, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="49ac3d55-33f5-b7e7-e3ef-9310c3d3334c" childId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -449,6 +466,16 @@
         </link>
         <link id="21eb5dbd-01b3-200f-fba0-7cba502941e6" targetId="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="97b6a5bd-31b8-43d5-f817-e0d4ad54e28e" targetId="a5417ca7-0159-6554-094d-39ab6d8a6bad" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="49ac3d55-33f5-b7e7-e3ef-9310c3d3334c" childId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -1224,7 +1251,18 @@
     </entry>
     <entry id="17ec93fb-d0ac-e06f-11e5-73cc448167c5" name="PS 4 - Storm Squadron Pilot" points="23.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="4f92a44e-0b89-c663-1711-7b2b39111241" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="b9153337-0a8e-ee4d-c6cc-c98dc3a3c001" targetId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
@@ -1253,6 +1291,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="17ec93fb-d0ac-e06f-11e5-73cc448167c5" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Sensors, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="17ec93fb-d0ac-e06f-11e5-73cc448167c5" childId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1290,6 +1334,16 @@
         </link>
         <link id="25927b16-e0d2-2ccd-570a-5d19bb42ce37" targetId="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="2faa7f3c-efc0-6d37-7835-bc39dd24d12d" targetId="a5417ca7-0159-6554-094d-39ab6d8a6bad" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="17ec93fb-d0ac-e06f-11e5-73cc448167c5" childId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -3193,7 +3247,18 @@
     </entry>
     <entry id="81b309dc-ce71-d318-a1c8-816385739e61" name="PS 7 - •Maarek Stele" points="27.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="24c09356-56fb-0509-c916-00c013228b1b" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="384c4c7a-8991-08ae-7692-c1074e92c4de" targetId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
@@ -3228,6 +3293,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="81b309dc-ce71-d318-a1c8-816385739e61" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Sensors, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="81b309dc-ce71-d318-a1c8-816385739e61" childId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3274,6 +3345,16 @@
         </link>
         <link id="dfb1ae5f-59e8-950e-cecc-7438ec11be0d" targetId="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="676b4aac-36bc-ebc4-8aee-49c86aa2e46c" targetId="a5417ca7-0159-6554-094d-39ab6d8a6bad" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="81b309dc-ce71-d318-a1c8-816385739e61" childId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -4182,7 +4263,18 @@
     </entry>
     <entry id="fe12f41d-e18f-e711-1a80-011d6eb0d680" name="PS 9 - •Darth Vader" points="29.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="e1148334-9a46-bee8-21a2-fc7096134490" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f78babde-d742-b2a6-36cd-07550de82de7" targetId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
@@ -4217,6 +4309,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="fe12f41d-e18f-e711-1a80-011d6eb0d680" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Sensors, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="fe12f41d-e18f-e711-1a80-011d6eb0d680" childId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4263,6 +4361,16 @@
         </link>
         <link id="4042da9b-1bcd-2007-acb9-7d6083930d65" targetId="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="1428a5c0-9f1a-8bc8-3e3a-5a9619d9245f" targetId="a5417ca7-0159-6554-094d-39ab6d8a6bad" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="fe12f41d-e18f-e711-1a80-011d6eb0d680" childId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -4371,6 +4479,25 @@
   <rules/>
   <links/>
   <sharedEntries>
+    <entry id="131b01a2-f526-8568-b205-42dd5eaf4429" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="81efc6a8-7209-b786-ba43-d769ba1d0da3" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Accuracy Corrector" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7e43ff80-14f3-66ac-7324-bf47cca1d54a" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="cf0df15b-cb79-2387-6bd1-eadf3b5288c0" name="Adv. Proton Torpedoes" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -4393,6 +4520,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="42610bc7-d63a-199b-1d2d-f658069d9cb8" name="Adv. Targeting Computer†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7cccc407-3165-4285-817f-c45f87695069" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Adv. Targeting Computer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking with your primary weapon, if you have a target lock on the defender, you may add 1 [critical hit] result to your roll. If you do, you cannot spend target locks during this attack."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5649c286-eb5c-3e9e-5459-ef6c7bb9a25e" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="c85f1de3-b5ff-2d2c-b9ff-a804f3a0c648" name="Advanced Cloaking Device" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -4402,6 +4548,21 @@
         <profile id="284e81d1-b912-5393-12d4-cda6ba7e4032" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Advanced Cloaking Device" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After you perform an attack, you may perform a free cloak action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="9610f60f-d8ac-8153-f6af-ef327a580725" name="Advanced Sensors" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="dc625652-1a52-48d3-df84-12c9776806a0" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Advanced Sensors" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4532,6 +4693,36 @@
         <profile id="a13a4755-ec44-ed5a-24ab-37dd9ab4636a" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Engine Upgrade" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your action bar gains the [boost] icon."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6687e228-fe93-b1b8-a742-0948674580ff" name="Enhanced Scopes" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="721644bb-4c2b-537b-261c-017b14d7d58c" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Enhanced Scopes" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="During the Activation phase, treat your pilot skill value as &quot;0.&quot;"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="201b4575-a610-4f05-715b-d998636f415d" name="Fire-Control System" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2e1e3b7f-d40c-227b-06a6-c58d35a52641" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Fire-Control System" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="After you perform an attack, you may acquire a target lock on the defender."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4820,6 +5011,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="3263001d-c4f3-bb86-d5d0-85cb45ded3f9" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="54d550d1-6a0a-b2ae-af72-fc1d696b04fa" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Sensor Jammer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When defending, you may change 1 of the attacker&apos;s [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="d42382ad-b0f8-f83d-9d81-65852b819553" name="Shield Upgrade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -4924,6 +5130,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" name="TIE/x1†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="76d8eb71-5d4c-946b-9a44-982d557c4f82" profileTypeId="332e30315469746c6523232344415441232323" name="TIE/x1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [sensors] upgrade icon. If you equip a [sensors] upgrade, its squad point cost is reduced by 4 (to a minimum of 0)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="79fc9f16-953f-7284-bb0b-62fd5fa4ecf2" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="20760798-c41b-4865-fc96-19f012d80a13" name="Veteran Instincts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -6081,7 +6306,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="c0b7a68e-cc4a-d311-9912-3342cab69851" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c0b7a68e-cc4a-d311-9912-3342cab69851" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6104,6 +6329,61 @@
       <entryGroups/>
       <modifiers/>
       <links/>
+    </entryGroup>
+    <entryGroup id="a5417ca7-0159-6554-094d-39ab6d8a6bad" name="Sensors x1" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="ddbb0cbc-915b-ba23-34d0-7617de2265de" targetId="3263001d-c4f3-bb86-d5d0-85cb45ded3f9" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="ab9e333b-acc9-6e4d-78b4-953646e6ed3d" targetId="201b4575-a610-4f05-715b-d998636f415d" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="cf44b514-948a-467b-61b3-de50a7c419ed" targetId="42610bc7-d63a-199b-1d2d-f658069d9cb8" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="6cdaef47-a163-675e-db7e-a00bb46f475d" targetId="131b01a2-f526-8568-b205-42dd5eaf4429" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="bfb5982c-605e-d8f6-9647-fc3354138827" targetId="6687e228-fe93-b1b8-a742-0948674580ff" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="8646a402-ce0d-9d50-1562-7b49b87019fc" targetId="9610f60f-d8ac-8153-f6af-ef327a580725" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="62357bce-b8fa-7b04-587f-52fc38922f21" name="Torpedoes" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
