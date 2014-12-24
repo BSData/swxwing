@@ -1957,7 +1957,14 @@
           <modifiers/>
         </link>
         <link id="0705fc69-7fce-48a7-4a0d-64b77f687fbf" targetId="a5417ca7-0159-6554-094d-39ab6d8a6bad" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="8d835004-eade-d8d6-76e0-52eae3c2949e" childId="aa7346ec-9bcf-6f1a-327c-d7ec271d46eb" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="277ecaf8-88da-9de4-4097-b6462cde7872" targetId="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" linkType="profile">
           <modifiers/>
