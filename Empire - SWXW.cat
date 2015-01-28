@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="51" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="52" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1143,6 +1143,120 @@
           </modifiers>
         </link>
         <link id="5b7cd6a8-6506-b0b0-dc73-9092a3c5c0b6" targetId="a297d578-0917-8842-4c0b-7cf366b77b9e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="235c-8fbf-9af6-2fc4" name="PS 4 - Raider-class Corv." points="0.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="2ea0-8372-8f4c-7e54" name="Raider-class Corv. (Aft)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5a3b-263a-2dec-f198" profileTypeId="00cb6ab5-6bfa-0854-5849-f0149f71bc90" name="Raider-class Corv. (Aft)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="f5301fdb-8a00-84c5-0ea6-c09c828cc617" name="Pilot Skill" value="4"/>
+                <characteristic characteristicId="10285ec3-de2a-0880-45cc-46ceeed43dee" name="Primary Weapon" value=""/>
+                <characteristic characteristicId="d8bffd2a-dbed-fab5-8c95-cd05842a3992" name="Energy Limit" value="6"/>
+                <characteristic characteristicId="cd566978-1c76-26ce-ee14-45a97972c436" name="Agility" value="0"/>
+                <characteristic characteristicId="dcdbaa57-cf03-7585-d0c0-404b34db4f0b" name="Hull" value="8"/>
+                <characteristic characteristicId="fcc41ce1-296c-ecd2-a2c5-ac1daf9423f6" name="Shields" value="4"/>
+                <characteristic characteristicId="55f10216-1b9e-b207-f867-d3bce45de89b" name="Upgrade Bar" value="Crew x2, Hardpoint x2, Team x2, Cargo"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="a50b-dd93-4b08-aa6c" targetId="6701e928-8f3d-9408-032c-fab510f88032" linkType="entry group">
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="52b6-8a04-af92-5f03" targetId="19fafa04-c2e0-a946-03f5-f19a76eaf5f4" linkType="entry group">
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="cc5e-4a71-16fb-cecf" targetId="69c9e2ec-8cdf-2b8b-86aa-1808809e7f01" linkType="entry group">
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="4ebf-80c3-5229-7d52" targetId="c61aa67f-6324-675c-870f-7b750052920e" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="18cd-02d0-e7c4-2cbd" targetId="003a-1fc2-4d75-f46d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a04d-6aac-7f06-676c" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e294-0377-bcf2-51e3" name="Raider-class Corv. (Fore)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f4a7-bd10-5850-d9c8" profileTypeId="00cb6ab5-6bfa-0854-5849-f0149f71bc90" name="Raider-class Corv. (Fore)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="f5301fdb-8a00-84c5-0ea6-c09c828cc617" name="Pilot Skill" value="4"/>
+                <characteristic characteristicId="10285ec3-de2a-0880-45cc-46ceeed43dee" name="Primary Weapon" value="4"/>
+                <characteristic characteristicId="d8bffd2a-dbed-fab5-8c95-cd05842a3992" name="Energy Limit" value=""/>
+                <characteristic characteristicId="cd566978-1c76-26ce-ee14-45a97972c436" name="Agility" value="0"/>
+                <characteristic characteristicId="dcdbaa57-cf03-7585-d0c0-404b34db4f0b" name="Hull" value="8"/>
+                <characteristic characteristicId="fcc41ce1-296c-ecd2-a2c5-ac1daf9423f6" name="Shields" value="6"/>
+                <characteristic characteristicId="55f10216-1b9e-b207-f867-d3bce45de89b" name="Upgrade Bar" value="Hardpoint, Team, Cargo"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="b949-543c-b5bf-e880" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Raider-class Corv. (Fore)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="Once per round, after you perform a primary weapon attack, you may spend 2 energy to perform another primary weapon attack."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="c056-d4a2-86b7-a67b" targetId="bde6-6ef2-b627-e283" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="3ac4-3176-2ad4-a329" targetId="7a65-6cb0-55c8-f173" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="7d4a-4e2e-165d-2c4f" targetId="c61aa67f-6324-675c-870f-7b750052920e" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="09cb-96c8-9971-9641" targetId="19fafa04-c2e0-a946-03f5-f19a76eaf5f4" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="10a9-2185-b1b1-b9d4" targetId="69c9e2ec-8cdf-2b8b-86aa-1808809e7f01" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7847-78aa-c5f5-d908" targetId="27ad-7166-a011-a43a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b7b6-8ee4-ea94-1e37" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -6967,10 +7081,19 @@
     <rule id="c145000d-2b11-c32e-fa5e-11defb49ff1e" name="Cloak" hidden="false" page="0">
       <modifiers/>
     </rule>
+    <rule id="003a-1fc2-4d75-f46d" name="Coordinate" hidden="false">
+      <modifiers/>
+    </rule>
     <rule id="280afff9-1d87-b019-cccf-e2e9b880f8b8" name="Evade" hidden="false" page="0">
       <modifiers/>
     </rule>
     <rule id="06523bf4-9247-1c9c-753e-c800ffd3f1a1" name="Focus" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="7a65-6cb0-55c8-f173" name="Recover" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="bde6-6ef2-b627-e283" name="Reinforce" hidden="false">
       <modifiers/>
     </rule>
     <rule id="34781497-273f-2469-b1ef-94ffc2db5083" name="Target Lock" hidden="false" page="0">
@@ -6996,6 +7119,15 @@
         <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="27ad-7166-a011-a43a" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Raider-class Corv." hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Huge"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Expanded Arc, Range 2-4"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="Yes"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points" value="?"/>
       </characteristics>
       <modifiers/>
     </profile>
