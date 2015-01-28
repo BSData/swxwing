@@ -1147,7 +1147,7 @@
         </link>
       </links>
     </entry>
-    <entry id="235c-8fbf-9af6-2fc4" name="PS 4 - Raider-class Corv." points="0.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="235c-8fbf-9af6-2fc4" name="PS 4 - Raider-class Corvette" points="0.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="2ea0-8372-8f4c-7e54" name="Raider-class Corv. (Aft)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
