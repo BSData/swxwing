@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="27" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="29" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b454e158-cfc6-9881-884d-3e9bacad5428" name="PS 1 - Binayre Pirate†" points="12.0" categoryId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -882,7 +882,7 @@
         </link>
       </links>
     </entry>
-    <entry id="5f50-4f64-a336-474b" name="PS 5 - Placeholder M3-A††" points="17.0" categoryId="b3c1c304-3188-a645-b4da-26fd616a9304" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="5f50-4f64-a336-474b" name="PS 5 - Tansarii Point Veteran†" points="17.0" categoryId="b3c1c304-3188-a645-b4da-26fd616a9304" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="3bb9-28d0-3e8a-d675" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -899,7 +899,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="65eb-32c2-000d-da79" profileTypeId="31536869707323232344415441232323" name="Placeholder M3-A" hidden="false">
+        <profile id="65eb-32c2-000d-da79" profileTypeId="31536869707323232344415441232323" name="Tansarii Point Veteran" hidden="false">
           <characteristics>
             <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
             <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
@@ -962,7 +962,7 @@
         <link id="808a-8ed1-c146-f905" targetId="0d3f4671-0d5c-b367-7034-8210ad90eb4a" linkType="profile">
           <modifiers/>
         </link>
-        <link id="1476-92d9-9d97-faab" targetId="ebc743a4-89a7-92b0-6e49-82817596f9b0" linkType="profile">
+        <link id="1476-92d9-9d97-faab" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
         <link id="c82b-7386-3929-c34b" targetId="6faeaa7a-ead7-d900-9570-3d98bc8e7853" linkType="rule">
@@ -4464,6 +4464,25 @@
         </link>
       </links>
     </entry>
+    <entry id="44f7-7c8e-4426-1a14" name="Calculation†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0555-342c-65c5-e742" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Calculation" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, you may spend a focus token to change 1 of your [focus] results to a [critical hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c80e-41e5-ddef-0391" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -4671,6 +4690,9 @@
           <modifiers/>
         </link>
         <link id="8d8598c7-c9ad-d60e-5814-4ebca883b53d" targetId="0b7c7263-0dfd-b1af-42c4-3ebb15518237" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="534c-df8e-5722-af70" targetId="44f7-7c8e-4426-1a14" linkType="entry">
           <modifiers/>
         </link>
       </links>
