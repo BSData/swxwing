@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="52" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="53" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4729,7 +4729,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="2d29f1ed-f792-ad4f-ae99-cde65167f4a9" name="Autoblaster Turret†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="2d29f1ed-f792-ad4f-ae99-cde65167f4a9" name="Autoblaster Turret" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4749,13 +4749,9 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="34dbd3ca-a012-5409-98be-cbbc308be91c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
-    <entry id="b27eab50-9a25-d752-4552-4f7070c837a5" name="Autothrusters†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b27eab50-9a25-d752-4552-4f7070c837a5" name="Autothrusters" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4768,11 +4764,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="3e76fbdd-78fc-a031-45e0-0356edecf2e4" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="5c3b2e53-06ac-12b9-f425-1709db8d8d84" name="B-Wing/E2" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4843,7 +4835,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="58cfe501-23fa-747f-81a1-fe6da70fd623" name="Bomb Loadout†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="58cfe501-23fa-747f-81a1-fe6da70fd623" name="Bomb Loadout" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4856,13 +4848,9 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="b56cfa91-441d-42c9-39f7-00c504ca24c5" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
-    <entry id="6f2b0a9f-93ca-22ae-eb5b-6df8f294ec25" name="BTL-A4 Y-Wing†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6f2b0a9f-93ca-22ae-eb5b-6df8f294ec25" name="BTL-A4 Y-Wing" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4875,11 +4863,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="db97e703-99e9-4009-6c86-4cbb53606f16" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" name="Chardaan Refit" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -6609,7 +6593,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="039cf344-1192-25f3-3b25-c61de55d88c0" name="Flechette Cannon†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="039cf344-1192-25f3-3b25-c61de55d88c0" name="Flechette Cannon" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6629,13 +6613,9 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="fcf09308-61f9-ec50-95d5-805af9d425ae" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
-        <entry id="6177d763-ef65-f668-0d82-f1b8dea88c87" name="&quot;Mangler&quot; Cannon†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6177d763-ef65-f668-0d82-f1b8dea88c87" name="&quot;Mangler&quot; Cannon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6655,11 +6635,7 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="e6b54554-2e32-bdc1-bfd9-813c616754e7" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
@@ -7277,7 +7253,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="ad79-08e0-cd78-1c91" name="Calculation†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ad79-08e0-cd78-1c91" name="Calculation" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -7290,11 +7266,7 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="330f-1a8f-2f82-5104" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
@@ -7676,7 +7648,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="057efbbf-f32f-a9dc-e5dd-28a25c529d4d" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="057efbbf-f32f-a9dc-e5dd-28a25c529d4d" name="Accuracy Corrector" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -7689,11 +7661,7 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="358eba0c-d887-8a8a-7c08-d6cf0d7d3d51" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
