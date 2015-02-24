@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="53" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="54" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1147,9 +1147,9 @@
         </link>
       </links>
     </entry>
-    <entry id="235c-8fbf-9af6-2fc4" name="PS 4 - Raider-class Corvette" points="0.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="235c-8fbf-9af6-2fc4" name="PS 4 - Raider-class Corvette†" points="0.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="2ea0-8372-8f4c-7e54" name="Raider-class Corv. (Aft)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2ea0-8372-8f4c-7e54" name="Raider-class Corv. (Aft)†" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1204,7 +1204,7 @@
             </link>
           </links>
         </entry>
-        <entry id="e294-0377-bcf2-51e3" name="Raider-class Corv. (Fore)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e294-0377-bcf2-51e3" name="Raider-class Corv. (Fore)†" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4709,7 +4709,7 @@
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="131b01a2-f526-8568-b205-42dd5eaf4429" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="131b01a2-f526-8568-b205-42dd5eaf4429" name="Accuracy Corrector" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4722,11 +4722,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="7e43ff80-14f3-66ac-7324-bf47cca1d54a" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="cf0df15b-cb79-2387-6bd1-eadf3b5288c0" name="Adv. Proton Torpedoes" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4836,7 +4832,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="3e21babb-0cfc-6059-5823-260b61f76c81" name="Autothrusters†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3e21babb-0cfc-6059-5823-260b61f76c81" name="Autothrusters" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4849,11 +4845,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="017e769d-d17e-94ca-ae91-891afe7df0fb" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="6aa7b595-6e0d-2957-85cb-a1b57f8cf9d5" name="Backup Shield Generator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -5702,7 +5694,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="048ed74d-359b-3eee-57d2-22cfc05043de" name="•Andrasta†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="048ed74d-359b-3eee-57d2-22cfc05043de" name="•Andrasta" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5715,11 +5707,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="c156764a-cd46-4c35-4808-2f52286e333d" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="d199de17-5e87-c51d-04b0-329ebf848a0b" name="•Darth Vader" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -6033,7 +6021,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="00034d14-4871-f9d9-612d-5930919bf590" name="&quot;Mangler&quot; Cannon†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="00034d14-4871-f9d9-612d-5930919bf590" name="&quot;Mangler&quot; Cannon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6053,13 +6041,9 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="6138abab-26b5-70bf-c7eb-1229c5d49b70" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
-        <entry id="76f1a8ab-0b67-6290-8a08-842284b7caeb" name="Flechette Cannon†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="76f1a8ab-0b67-6290-8a08-842284b7caeb" name="Flechette Cannon" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6079,11 +6063,7 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="bbf81117-fd08-76d8-dc1c-9c7432e9e523" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
@@ -6546,7 +6526,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="f9f5-964b-6cac-8778" name="Calculation†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f9f5-964b-6cac-8778" name="Calculation" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6559,11 +6539,7 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="5cdb-526b-a7e1-a4e1" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
@@ -6934,7 +6910,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="c0b7a68e-cc4a-d311-9912-3342cab69851" name="Accuracy Corrector†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c0b7a68e-cc4a-d311-9912-3342cab69851" name="Accuracy Corrector" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6947,11 +6923,7 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="36d2137a-cce8-81ae-b9c0-029d381668f6" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
