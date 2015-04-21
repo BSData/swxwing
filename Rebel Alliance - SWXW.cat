@@ -4651,6 +4651,100 @@
         </link>
       </links>
     </entry>
+    <entry id="76a4-df77-47ac-9c64" name="PS 8 - •Miranda Doni†" points="29.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0950-1fa1-41be-9979" profileTypeId="31536869707323232344415441232323" name="•Miranda Doni" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="8"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Turret, Torpedoes x2, Missiles, Crew, Bomb x2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="76a4-df77-47ac-9c64" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="76a4-df77-47ac-9c64" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="76a4-df77-47ac-9c64" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="88e1-aff6-691e-5673" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Miranda Doni" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="Once per round when attacking, you may either spend 1 shield to roll 1 additional attack die or roll 1 fewer attack die to recover 1 shield."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7032-e54b-d8fa-febd" targetId="a0fb-5139-205f-6af6" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="397b-0036-22cf-7465" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d72f-01b8-ab3e-f796" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b10d-87cd-91d1-b7a9" targetId="d444-e1ee-fb74-db99" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="957a-8e92-cc50-724a" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="76a4-df77-47ac-9c64" childId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="94f2-4be4-7658-5f2d" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="aaac-c5c3-b0e0-da13" targetId="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" linkType="entry group">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="1ae7-89ac-049e-e267" targetId="c402c4c4-a0ca-77ed-0561-65ee9e567521" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5d53-c7b8-7948-c8bc" targetId="b3f61166-089a-f1df-88d7-63f8983dd33c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0be1-e1fc-35b3-ed31" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="53cc-856a-779d-3637" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d8f3-5ff2-5357-3d5a" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -6443,6 +6537,25 @@
         </link>
       </links>
     </entry>
+    <entry id="d700-dbb5-b5e4-85b8" name="Advanced SLAM†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="673d-d175-e68b-2894" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Advanced SLAM" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After performing a SLAM action, if you did not overlap an obstacle or another ship, you may perform a free action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9faf-c2d2-8dbc-8414" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7467,6 +7580,9 @@
         <link id="584a9dd7-1f59-4fa8-ffc5-ccffa289b202" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
+        <link id="c2f0-9e2a-c3f7-3279" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="dd21508f-8798-3e2e-ae30-16613096cf4a" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7507,6 +7623,9 @@
         <link id="c823bbcc-11f1-4bb1-e206-8f27796bae69" targetId="d38fd4d5-be08-1148-f675-e02824af9ee3" linkType="entry">
           <modifiers/>
         </link>
+        <link id="1417-c907-b67a-a769" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7538,6 +7657,9 @@
         <link id="1c19c901-25e9-c4b4-584d-eaecc9b36a43" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
+        <link id="4e5f-5bf3-7e11-5e97" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="c30d64de-d278-0167-b900-e2a2bf88d797" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7567,6 +7689,9 @@
           <modifiers/>
         </link>
         <link id="e9549d6f-93dd-4c13-a913-f5e2e9a702de" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d8d3-35a1-5c2e-fa02" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -7601,6 +7726,9 @@
           <modifiers/>
         </link>
         <link id="811b6c07-924f-0808-1042-33e9969e71fa" targetId="b27eab50-9a25-d752-4552-4f7070c837a5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ed1c-68d3-59cb-950f" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -7855,6 +7983,9 @@
     <rule id="0bb78332-cebd-332a-f312-8de96ea4e42a" name="Target Lock" hidden="false" page="0">
       <modifiers/>
     </rule>
+    <rule id="d444-e1ee-fb74-db99" name="SLAM" hidden="false">
+      <modifiers/>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="f988a6f2-311b-c010-7d16-7abedb354e6d" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="A-Wing" hidden="false" page="0">
@@ -7959,6 +8090,15 @@
     <profile id="1c7dc41e-39b2-d792-2521-2bf7ae33c548" profileTypeId="a285251b-01f4-7499-3b4d-39a062b4d963" name="† - Unreleased" hidden="false">
       <characteristics>
         <characteristic characteristicId="7ba819ca-effa-8c45-5542-10f769608bbc" name="Symbol Key" value="Cards marked with a dagger symbol (†) have not been officially released by Fantasy Flight Games. This information is based on official Fantasy Flight spoiler articles or early releases of product at tournaments or conventions. Cards maked with the dagger symbol may not have their final official text, are subject to change, and are generally not legal for tournament play."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a0fb-5139-205f-6af6" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="K-Wing" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
       <modifiers/>
     </profile>
