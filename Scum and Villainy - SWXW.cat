@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="34" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="35" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b454e158-cfc6-9881-884d-3e9bacad5428" name="PS 1 - Binayre Pirate" points="12.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -4299,6 +4299,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="de55-328e-59ad-60b0" name="Glitterstim†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="561a-5496-73f7-c9fc" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Glitterstim" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="At the start of the Combat phase, you may discard this card and receive 1 stress token. If you do, until the end of the round, when attacking or defending, you may change all of your [focus] results to [hit] or [evade] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1fc8-5217-63c6-5b33" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -4528,6 +4547,9 @@
           <modifiers/>
         </link>
         <link id="da5d411d-0214-8b91-4561-0dfd22fc7dfb" targetId="851db10d-7ad9-b3fb-6eee-5c40c0a8d681" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7abc-2d34-ba0a-5592" targetId="de55-328e-59ad-60b0" linkType="entry">
           <modifiers/>
         </link>
       </links>
