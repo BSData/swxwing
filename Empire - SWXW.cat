@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="57" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="58" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1994,7 +1994,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8d835004-eade-d8d6-76e0-52eae3c2949e" name="PS 5 - •Commander Alonzen†" points="25.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8d835004-eade-d8d6-76e0-52eae3c2949e" name="PS 5 - •Commander Alozen†" points="25.0" categoryId="a0a339ce-8800-249c-5e65-28150db454f7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="436c89f9-63e5-552d-fd38-73ec4e096231" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2011,13 +2011,13 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="65843550-6e5a-0ed1-3ea1-3bcb43bcdbea" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Commander Alonzen" hidden="false">
+        <profile id="65843550-6e5a-0ed1-3ea1-3bcb43bcdbea" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Commander Alozen" hidden="false">
           <characteristics>
             <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="At the start of the Combat phase, you may acquire a target lock on an enemy ship at Range 1."/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="1ec5bef2-47dd-fb34-cb42-803cf91e583f" profileTypeId="31536869707323232344415441232323" name="•Commander Alonzen" hidden="false">
+        <profile id="1ec5bef2-47dd-fb34-cb42-803cf91e583f" profileTypeId="31536869707323232344415441232323" name="•Commander Alozen" hidden="false">
           <characteristics>
             <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
             <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="2"/>
@@ -4968,6 +4968,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="0a85-c646-3ab2-68b0" name="Cluster Mines†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9361-232c-c211-26b6" profileTypeId="39426f6d6223232344415441232323" name="Cluster Mines" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 cluster mine token set. When a ship&apos;s base or maneuver template overlaps a cluster mine token, that token detonates."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4124-8431-9261-73ae" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="065b4cf5-253a-e8a3-1f73-3e7e44d2f3d2" name="Cluster Missiles" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -6004,25 +6023,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="0a85-c646-3ab2-68b0" name="Cluster Mines†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="9361-232c-c211-26b6" profileTypeId="39426f6d6223232344415441232323" name="Cluster Mines" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 cluster mine token set. When a ship&apos;s base or maneuver template overlaps a cluster mine token, that token detonates."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="4124-8431-9261-73ae" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
