@@ -6024,6 +6024,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="829f-2be5-2063-f96d" name="•Grand Moff Tarkin†" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1dc5-661e-c4f6-0f85" profileTypeId="332e30334372657723232344415441232323" name="Grand Moff Tarkin" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the Combat phase, you may choose another ship at Range 1-4. Either remove 1 focus token from the chosen ship or assign 1 focus token to that ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="49c7-5bda-9720-c0d9" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6382,6 +6401,9 @@
           <modifiers/>
         </link>
         <link id="0d01434d-d521-1ae2-6abd-7c36dbd4b6e9" targetId="354008f1-5792-9749-b9bd-df221932df26" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cd6c-ecbc-63a9-bb6f" targetId="829f-2be5-2063-f96d" linkType="entry">
           <modifiers/>
         </link>
       </links>
