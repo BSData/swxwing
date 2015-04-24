@@ -6062,6 +6062,25 @@
         </link>
       </links>
     </entry>
+    <entry id="b3c2-fac6-f660-52ef" name="•Admiral Ozzel†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="674d-773b-7374-3b18" profileTypeId="332e30334372657723232344415441232323" name="Admiral Ozzel" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Energy: You may remove up to 3 shields from your ship. For each shield removed, gain 1 energy."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c90d-8f49-8ccf-54e0" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6426,6 +6445,9 @@
           <modifiers/>
         </link>
         <link id="bc03-4ada-deb3-27e8" targetId="28b1-a29c-c263-de6d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="af6e-a162-9b39-68e0" targetId="b3c2-fac6-f660-52ef" linkType="entry">
           <modifiers/>
         </link>
       </links>
