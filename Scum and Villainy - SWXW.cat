@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="38" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="39" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b454e158-cfc6-9881-884d-3e9bacad5428" name="PS 1 - Binayre Pirate" points="12.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -2073,13 +2073,8 @@
         <link id="1a51-7a46-bd9b-a844" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
           <modifiers/>
         </link>
-        <link id="17fb-7f16-d1bc-0f4a" targetId="a8dfdd4b-40e2-976e-c473-995fccb6d096" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="17fb-7f16-d1bc-0f4a" targetId="eec0-c689-de97-3665" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="d1c6-0950-a999-6860" targetId="2749eab7-0fe2-0198-c7aa-c119cb08c41a" linkType="entry group">
           <modifiers/>
@@ -3254,6 +3249,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="bbaa-67fe-3f18-6eb3" name="Bombardier†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a5e4-a9ca-bcfc-4ca7" profileTypeId="332e30334372657723232344415441232323" name="Bombardier" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When dropping a bomb, you may use the [straight 2] template instead of the [straight 1] template."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f66e-f790-d8da-5f2f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="c5740f6c-7f80-2c34-ab4d-f61f6df0126a" name="BTL-A4 Y-Wing" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -4588,25 +4602,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="bbaa-67fe-3f18-6eb3" name="Bombardier†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="a5e4-a9ca-bcfc-4ca7" profileTypeId="332e30334372657723232344415441232323" name="Bombardier" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When dropping a bomb, you may use the [straight 2] template instead of the [straight 1] template."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="f66e-f790-d8da-5f2f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -4747,6 +4742,55 @@
           <modifiers/>
         </link>
         <link id="9efc-93a3-2c04-625f" targetId="bbaa-67fe-3f18-6eb3" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="eec0-c689-de97-3665" name="Crew" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="b962-04c1-f9e3-9870" targetId="bbaa-67fe-3f18-6eb3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0254-24f8-392f-a2a7" targetId="b5f90316-224b-28c7-130f-e8ef513a996f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a32d-d3c9-a419-890b" targetId="8f3935da-009a-0697-5b47-46986b15ba00" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1158-b03b-dbe5-9b86" targetId="a72c3e12-df26-9e4d-eb85-ba70bb3e9b35" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6e4d-9b8b-429e-cc4b" targetId="d0e36b20-a4f1-3be7-4b28-33ef4ea872ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a85f-6527-e734-3e0d" targetId="735e9776-aa65-d10b-2ea6-3306977263ac" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e9d7-aef6-4515-f047" targetId="31bf5364-9695-7905-198a-abef11eac1e0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="473a-5ba1-4c0d-de6b" targetId="5cad9854-ba79-4148-9ce6-86c00642d2e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f9b8-f19b-6b28-a128" targetId="1b14d503-e721-7433-4eb7-af8da7c6cfe3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7a61-7cd5-c6e5-faef" targetId="67dcef78-1224-928e-331c-f4ec87fd16c4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2b22-7a84-9fc2-88de" targetId="5b33b7c4-008e-8c9e-3d2c-0d2749b7f2c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9d27-9e36-b4d0-111b" targetId="dcbd00f7-6e7f-1710-4738-0d948e878bf4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fe1e-ea45-0e55-f649" targetId="17f5bd55-7c96-9e0a-a906-b8093e149edc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6831-cf4e-b96d-36a1" targetId="1a40d000-d9a7-2f8e-61b8-9afebf7f9b18" linkType="entry">
           <modifiers/>
         </link>
       </links>
