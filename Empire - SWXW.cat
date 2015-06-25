@@ -268,13 +268,8 @@
         <link id="ed1f-e047-11b2-1698" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9bbc-da3f-07b4-1056" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="9bbc-da3f-07b4-1056" targetId="ee14-ad6e-a233-3c6a" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="ebf0-d258-8dff-c56d" targetId="da9b-e30d-1aff-d7bf" linkType="entry group">
           <modifiers/>
@@ -3600,13 +3595,8 @@
         <link id="094d-6f87-ba89-e4c7" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="476e-5ec3-38b1-454f" targetId="898dc91b-8db6-8030-3b5b-3c24860e976a" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="476e-5ec3-38b1-454f" targetId="ee14-ad6e-a233-3c6a" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="8fbb-148d-9fc7-c14e" targetId="da9b-e30d-1aff-d7bf" linkType="entry group">
           <modifiers/>
@@ -6541,198 +6531,221 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="ee14-e8c0-4aa8-a892" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1830-c613-9653-1230" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Seismic Charge Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="90cc-9e59-2da3-54e6" profileTypeId="39426f6d6223232344415441232323" name="Seismic Charges" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6dc9-cb44-de4f-5b3c" name="Proximity Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="224b-a2f6-2082-c0a4" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proximity Mine Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage [hit] and critical damage [critical hit] rolled. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d29c-5ba8-0c03-a6de" profileTypeId="39426f6d6223232344415441232323" name="Proximity Mines" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 proximity mine token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="4e41-a500-6090-7d7e" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0251-06db-4f7a-f09a" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proton Bomb Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, deal 1 faceup Damage card to each ship at Range 1 of the token. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4038-6848-e83a-3f99" profileTypeId="39426f6d6223232344415441232323" name="Proton Bombs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 proton bomb token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5c66-637a-822c-76cc" name="Ion Cannon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b83e-94e0-3f7c-d4c3" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Ion Cannon " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4106-4b27-6dc2-c31b" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Ion Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="44ff-1b66-312d-5c07" name="Heavy Laser Cannon" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="689d-3109-fe5e-d7fd" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Heavy Laser Cannon " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="fab1-7e2c-3851-806c" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Heavy Laser Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Immediately after rolling your attack dice, you must change all of your [critical hit] results to [hit] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="4a3d-3b90-9e4f-dca8" name="Flechette Cannon" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2bff-591c-0841-70a6" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Flechette Cannon " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ac32-5fd3-1c81-83b7" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Flechette Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token. Then, cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c23c-48e3-663e-0b47" name="Autoblaster" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="eb7e-50c0-3d81-1653" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Autoblaster " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2298-b173-1c5a-e5a2" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Autoblaster" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3a5c-cdce-445a-dc78" name="&quot;Mangler&quot; Cannon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="aba5-e1f4-8c8f-a3c4" profileTypeId="313043616e6e6f6e7323232344415441232323" name="&quot;Mangler&quot; Cannon " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e1d5-14fc-d8d3-1fe1" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="&quot;Mangler&quot; Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. When attacking, you may change one of your [hit] results to a [critical hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="48d5cb10-2d56-9db2-0b6c-9fa036640c23" name="Seismic Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="e3b8300d-7b4b-e29a-7186-5e9baadeaa3b" profileTypeId="39426f6d6223232344415441232323" name="Seismic Charges" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token. This token detonates at the end of the Activation phase."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="8bc31725-4f4d-a2fc-266e-addf561e700c" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Seismic Charge Token" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage. Then discard this token."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="7f677c40-30ff-45df-31d0-133730f1c442" name="Proximity Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="461ed7bf-5a06-5345-3ddf-001c849e9eb2" profileTypeId="39426f6d6223232344415441232323" name="Proximity Mines" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 proximity mine token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="8fae94a6-cf0c-2f84-e3b8-e80494618704" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proximity Mine Token" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage [hit] and critical damage [critical hit] rolled. Then discard this token."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="8eecb698-5f3f-8914-e473-f2885dd1859a" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="25228026-0a32-4edc-ac02-3fb561fc7c1f" profileTypeId="39426f6d6223232344415441232323" name="Proton Bombs" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 proton bomb token. This token detonates at the end of the Activation phase."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="54f271e9-abbd-e2fa-f8fc-711be6aef8c1" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proton Bomb Token" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, deal 1 faceup Damage card to each ship at Range 1 of the token. Then discard this token."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <links>
         <link id="5428-c2e9-5729-57c0" targetId="0a85-c646-3ab2-68b0" linkType="entry">
           <modifiers/>
         </link>
+        <link id="2954-82ea-653f-d4fa" targetId="ee14-e8c0-4aa8-a892" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5858-1a37-d22c-f484" targetId="6dc9-cb44-de4f-5b3c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d9cd-d56b-41ed-2e40" targetId="4e41-a500-6090-7d7e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="15c2343d-0add-534b-6a79-ed3dba7cf823" name="Cannon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="ff2d5d81-d203-a276-ecc4-1e01dac2e733" name="Ion Cannon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="09c62444-dd65-23d1-4352-ebce0c48a81b" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Ion Cannon " hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="2c5fc582-6077-ad9f-1442-fe0980830611" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Ion Cannon" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="490d3c86-dda0-d975-5125-bb4f26ebbe83" name="Heavy Laser Cannon" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="c759b649-5439-9b60-3ac1-fb7f4257f0ef" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Heavy Laser Cannon " hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Immediately after rolling your attack dice, you must change all of your [critical hit] results to [hit] results."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="97722fbd-620e-b500-9e61-95b627b4db15" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Heavy Laser Cannon" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="31d0c305-7d23-26ac-1a64-4e1cfee321fc" name="Autoblaster" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="08138243-fd4f-cf58-1da3-654490c458a8" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Autoblaster " hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="60e95e28-df68-31f5-095f-e116895140bb" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Autoblaster" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="00034d14-4871-f9d9-612d-5930919bf590" name="&quot;Mangler&quot; Cannon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="82bde692-653e-1702-6f04-f43f2702aa2b" profileTypeId="313043616e6e6f6e7323232344415441232323" name="&quot;Mangler&quot; Cannon " hidden="false">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="59eddc7a-6d63-0535-8133-2590c1d71942" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="&quot;Mangler&quot; Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. When attacking, you may change one of your [hit] results to a [critical hit] result."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="76f1a8ab-0b67-6290-8a08-842284b7caeb" name="Flechette Cannon" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="97abccb1-8286-45d7-2cf8-aee8b4afd2d2" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Flechette Cannon " hidden="false">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="f7c65f25-7717-4171-3bb1-2101e95b1a0b" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Flechette Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token. Then, cancel all dice results."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="5903-54f1-b9ee-88d9" targetId="5c66-637a-822c-76cc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5c5e-90d4-6af8-090b" targetId="44ff-1b66-312d-5c07" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8a13-ba64-6b20-6c20" targetId="4a3d-3b90-9e4f-dca8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="754f-c910-2c08-6c43" targetId="c23c-48e3-663e-0b47" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a788-4930-0e61-ca98" targetId="3a5c-cdce-445a-dc78" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="c61aa67f-6324-675c-870f-7b750052920e" name="Cargo" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -7764,6 +7777,25 @@
           <modifiers/>
         </link>
         <link id="231c-a92b-c728-9dd9" targetId="9457b375-d267-4a8c-d042-75f0bca5ab0c" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="ee14-ad6e-a233-3c6a" name="Bomb" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="d909-9d64-b35f-6e3a" targetId="ee14-e8c0-4aa8-a892" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="61b9-5ffd-00e9-8937" targetId="6dc9-cb44-de4f-5b3c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="103a-fa4b-ddfd-b515" targetId="4e41-a500-6090-7d7e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="adb3-ef0b-0e87-4fda" targetId="0a85-c646-3ab2-68b0" linkType="entry">
           <modifiers/>
         </link>
       </links>
