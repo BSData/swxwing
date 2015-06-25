@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="59" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="60" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -127,13 +127,8 @@
         </profile>
       </profiles>
       <links>
-        <link id="54352adb-b44c-127a-615e-a64175bbe534" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="54352adb-b44c-127a-615e-a64175bbe534" targetId="809b-eddb-0859-03bd" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="1ef9d5c6-865a-9bbb-f070-559e4b4b861d" targetId="dd21508f-8798-3e2e-ae30-16613096cf4a" linkType="entry group">
           <modifiers/>
@@ -2338,13 +2333,8 @@
         <link id="317fb337-3b6d-cd06-9faf-d2a6feadbd01" targetId="f01d-656f-5b3a-cc44" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="d9784cf7-0397-5ae3-7d0e-daa2ad2361e2" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="d9784cf7-0397-5ae3-7d0e-daa2ad2361e2" targetId="809b-eddb-0859-03bd" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="e494682e-f6b1-2eee-7083-5ea45685c421" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
           <modifiers/>
@@ -3742,13 +3732,8 @@
         <link id="9aae769e-86a4-ca6f-c8e9-20273bf33497" targetId="f01d-656f-5b3a-cc44" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="8c10560d-e8dc-8b2a-ca03-8c8bd6aebc50" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="8c10560d-e8dc-8b2a-ca03-8c8bd6aebc50" targetId="809b-eddb-0859-03bd" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="c4c2b323-d943-db8f-ef1a-a47c669049e0" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
           <modifiers/>
@@ -4708,13 +4693,8 @@
         <link id="5aebb957-a8a9-c51e-8445-ff93812aba33" targetId="f01d-656f-5b3a-cc44" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="b30b7df1-892f-7c6b-ea85-cdfae70c611a" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="b30b7df1-892f-7c6b-ea85-cdfae70c611a" targetId="809b-eddb-0859-03bd" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="12bd6d09-46cb-676d-a76d-aa187169e196" targetId="dd21508f-8798-3e2e-ae30-16613096cf4a" linkType="entry group">
           <modifiers/>
@@ -4846,6 +4826,21 @@
         <profile id="93fa957d-f175-4178-093e-171b8c931f94" profileTypeId="332e30315469746c6523232344415441232323" name="A-Wing Test Pilot" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains 1 [elite pilot talent] upgrade icon. You cannot equip 2 of the same [elite pilot talent] Upgrade cards."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="7822-267d-43f2-95c1" name="Adrenaline Rush" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c815-6ad2-05e4-fc3d" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Adrenaline Rush" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5085,6 +5080,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="7805-6177-0e3e-1999" name="Calculation" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c398-727e-399c-e09e" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Calculation" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, you may spend a focus token to change 1 of your [focus] results to a [critical hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" name="Chardaan Refit" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5209,6 +5219,96 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="92e5-401c-ad27-a8aa" name="Daredevil" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9842-4c6d-6f1e-feb6" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Daredevil" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Execute a white [left turn 1] or [right turn 1] maneuver. Then, receive one stress token. Then, if you do not have the Boost action icon, roll 2 attack dice. Suffer any damage [hit] and critical damage [critical hit] rolled."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2169-6875-574e-7bef" name="Deadeye" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2514-c6f6-dffc-d5c7" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Deadeye" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="You may treat the &quot;Attack (target lock):&quot; header as &quot;Attack (focus):.&quot;  When an attack instructs you to spend a target lock, you may spend a focus token instead."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="591d-333f-e9ad-7fc9" name="Decoy" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8d5c-b75c-ba6c-4dae" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Decoy" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2. Exchange your pilot skill with that ship&apos;s pilot skill until the end of the phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="1c1b-9ea7-3fa1-af75" name="Determination" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="142d-369c-e22c-3c76" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Determination" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you are dealt a faceup Damage card with the Pilot trait, discard it immediately without resolving its effect."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="246f-698e-7f14-f94e" name="Draw Their Fire" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ffed-ebbb-2bcf-ee47" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Draw Their Fire" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncancelled [critical hit] results instead of the target ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="17dd-5c36-29cc-913a" name="Elusiveness" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="962c-ed29-ee90-fecc" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Elusiveness" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When defending, you may receive 1 stress token to choose 1 attack die. The attacker must reroll that die. If you have at least 1 stress token, you cannot use this ability."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="9d617177-1358-92cf-9b97-67e07ff8a5b5" name="EM Emitter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5313,6 +5413,36 @@
           <characteristics>
             <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
             <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Once per round, when you would be dealt a faceup Damage card, you may draw that card from either the fore or aft Damage deck."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="17ee-c766-cc51-9ad6" name="Expert Handling" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="af75-761f-ef11-08cf" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Expert Handling" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Perform a free barrel roll action. If you do not have the [barrel roll] action icon, receive 1 stress token. You may then remove 1 enemy target lock token from your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="bebe-7883-d768-9062" name="Expose" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e4ba-a5f3-980e-2c11" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Expose" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Until the end of the round, increase your primary weapon value by 1 and decrease your agility by 1."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5489,6 +5619,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="eac6-2371-ed63-ab4b" name="Intimidation" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="704f-8da6-f358-ab08" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Intimidation" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="While you are touching an enemy ship, reduce that ship&apos;s agility value by 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="6c4fa9ff-5216-46ab-7a2d-2a77d009474a" name="Ion Cannon Turret" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5587,6 +5732,40 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="7cda-0c30-be93-2dcc" name="Lightning Reflexes†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9365-fb8d-2813-29d2" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lightning Reflexes" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="After you execute a white or green maneuver on your dial, you may discard this card to rotate your ship 180°. Then receive 1 stress token after the &quot;Check Pilot Stress&quot; step."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e6d1-ecb0-4f41-bc3e" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="374d-116d-5e24-88a6" name="Marksmanship" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="83d3-2630-2fdb-6ff2" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Marksmanship" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: When attacking this round, you may change 1 of your [focus] results to a [critical hit] result and all of your other [focus] results to [hit] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="6d6e04bd-e481-4fe2-9b96-203a17ccfc0c" name="Mercenary Copilot" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5626,6 +5805,51 @@
         <profile id="6facb9cf-551f-8489-4326-380b40f77408" profileTypeId="332e30334372657723232344415441232323" name="Navigator" hidden="false">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing. You cannot rotate to a red maneuver if you have any stress tokens."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ec4d-a1a9-f6a2-0448" name="Opportunist" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b6a7-4018-dede-eb77" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Opportunist" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, if the defender does not have any focus or evade tokens, you may receive 1 stress token to roll 1 additional attack die. You cannot use this ability if you have any stress tokens."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="abf7-5c89-c07c-c9a5" name="Outmaneuver" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ee40-cd8b-adac-c42f" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Outmaneuver" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking a ship inside your firing arc, if you are not inside that ship&apos;s firing arc, reduce its agility value by 1 (to a minimum of 0)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3d8f-7048-fec5-df85" name="Predator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8f02-f2e1-c77b-4764" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Predator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, you may reroll 1 attack die. If the defender&apos;s pilot skill value is &quot;2&quot; or lower, you may instead reroll up to 2 attack dice."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5712,6 +5936,21 @@
         <profile id="65cd87a4-9792-c851-eb34-c59fa5517a8c" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Proximity Mine Token" hidden="false">
           <characteristics>
             <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage [hit] and critical damage [critical hit] rolled. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d198-f4ab-1c2b-bc2d" name="Push the Limit" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="293c-5167-601e-8cf5" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Push the Limit" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Once per round, after you perform an action, you may perform 1 free action shown in your action bar. Then receive 1 stress token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5876,6 +6115,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="b252-3e9e-6ebb-7fee" name="Stay on Target" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2f28-ece6-20bc-2446" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Stay on Target" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat your maneuver as a red maneuver."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="871ad81a-0fc2-59cb-3339-f812d5543554" name="Stealth Device" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5900,6 +6154,21 @@
         <profile id="786c9244-f56d-42e8-3eef-1f1448f13357" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Stygium Particle Accelerator" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When you either decloak or perform a cloak action, you may perform a free evade action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f181-7330-94bf-55c2" name="Swarm Tactics" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7e44-a871-5735-c34a" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Swarm Tactics" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1. Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6052,6 +6321,21 @@
         <profile id="dacf35c7-8fc2-02c4-bb50-a758b8d955ad" profileTypeId="332e30334372657723232344415441232323" name="WED-15 Repair Droid" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Spend 1 energy to discard 1 of your facedown Damage cards, or spend 3 energy to discard one of your faceup Damage cards."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3d9d-3e83-5363-fd56" name="Wingman" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6d86-49cd-7cd5-51fe" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Wingman" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, remove 1 stress token from another friendly ship at Range 1."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6682,310 +6966,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="3d9d-3e83-5363-fd56" name="Wingman" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="6d86-49cd-7cd5-51fe" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Wingman" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, remove 1 stress token from another friendly ship at Range 1."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="f181-7330-94bf-55c2" name="Swarm Tactics" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="7e44-a871-5735-c34a" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Swarm Tactics" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1. Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="b252-3e9e-6ebb-7fee" name="Stay on Target" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2f28-ece6-20bc-2446" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Stay on Target" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat your maneuver as a red maneuver."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="d198-f4ab-1c2b-bc2d" name="Push the Limit" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="293c-5167-601e-8cf5" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Push the Limit" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Once per round, after you perform an action, you may perform 1 free action shown in your action bar. Then receive 1 stress token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="3d8f-7048-fec5-df85" name="Predator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8f02-f2e1-c77b-4764" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Predator" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, you may reroll 1 attack die. If the defender&apos;s pilot skill value is &quot;2&quot; or lower, you may instead reroll up to 2 attack dice."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="abf7-5c89-c07c-c9a5" name="Outmaneuver" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ee40-cd8b-adac-c42f" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Outmaneuver" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking a ship inside your firing arc, if you are not inside that ship&apos;s firing arc, reduce its agility value by 1 (to a minimum of 0)."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="ec4d-a1a9-f6a2-0448" name="Opportunist" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="b6a7-4018-dede-eb77" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Opportunist" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, if the defender does not have any focus or evade tokens, you may receive 1 stress token to roll 1 additional attack die. You cannot use this ability if you have any stress tokens."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="374d-116d-5e24-88a6" name="Marksmanship" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="83d3-2630-2fdb-6ff2" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Marksmanship" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: When attacking this round, you may change 1 of your [focus] results to a [critical hit] result and all of your other [focus] results to [hit] results."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="eac6-2371-ed63-ab4b" name="Intimidation" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="704f-8da6-f358-ab08" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Intimidation" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="While you are touching an enemy ship, reduce that ship&apos;s agility value by 1."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="bebe-7883-d768-9062" name="Expose" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="e4ba-a5f3-980e-2c11" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Expose" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Until the end of the round, increase your primary weapon value by 1 and decrease your agility by 1."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="17ee-c766-cc51-9ad6" name="Expert Handling" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="af75-761f-ef11-08cf" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Expert Handling" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Perform a free barrel roll action. If you do not have the [barrel roll] action icon, receive 1 stress token. You may then remove 1 enemy target lock token from your ship."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="17dd-5c36-29cc-913a" name="Elusiveness" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="962c-ed29-ee90-fecc" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Elusiveness" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When defending, you may receive 1 stress token to choose 1 attack die. The attacker must reroll that die. If you have at least 1 stress token, you cannot use this ability."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="246f-698e-7f14-f94e" name="Draw Their Fire" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ffed-ebbb-2bcf-ee47" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Draw Their Fire" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncancelled [critical hit] results instead of the target ship."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="1c1b-9ea7-3fa1-af75" name="Determination" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="142d-369c-e22c-3c76" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Determination" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you are dealt a faceup Damage card with the Pilot trait, discard it immediately without resolving its effect."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="591d-333f-e9ad-7fc9" name="Decoy" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8d5c-b75c-ba6c-4dae" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Decoy" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2. Exchange your pilot skill with that ship&apos;s pilot skill until the end of the phase."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="2169-6875-574e-7bef" name="Deadeye" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2514-c6f6-dffc-d5c7" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Deadeye" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="You may treat the &quot;Attack (target lock):&quot; header as &quot;Attack (focus):.&quot;  When an attack instructs you to spend a target lock, you may spend a focus token instead."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="92e5-401c-ad27-a8aa" name="Daredevil" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="9842-4c6d-6f1e-feb6" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Daredevil" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Execute a white [left turn 1] or [right turn 1] maneuver. Then, receive one stress token. Then, if you do not have the Boost action icon, roll 2 attack dice. Suffer any damage [hit] and critical damage [critical hit] rolled."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="7805-6177-0e3e-1999" name="Calculation" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c398-727e-399c-e09e" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Calculation" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, you may spend a focus token to change 1 of your [focus] results to a [critical hit] result."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="7822-267d-43f2-95c1" name="Adrenaline Rush" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c815-6ad2-05e4-fc3d" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Adrenaline Rush" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="7cda-0c30-be93-2dcc" name="Lightning Reflexes†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="9365-fb8d-2813-29d2" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lightning Reflexes" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="After you execute a white or green maneuver on your dial, you may discard this card to rotate your ship 180°. Then receive 1 stress token after the &quot;Check Pilot Stress&quot; step."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e6d1-ecb0-4f41-bc3e" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7279,38 +7259,7 @@
       </links>
     </entryGroup>
     <entryGroup id="36eeea94-d532-d908-ec73-5b687d37d133" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="2c09599f-45a7-7fa6-7e0e-6f2102d78496" name="Gunner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="a2ff539e-6935-5db9-6215-2693e32f1488" profileTypeId="332e30334372657723232344415441232323" name="Gunner" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You cannot perform another attack this round."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="a65a971c-36cb-2c9f-38fd-39fe3af426bf" name="Navigator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="8f34c868-eb59-bdad-52bb-861ca4600117" profileTypeId="332e30334372657723232344415441232323" name="Navigator" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing. You cannot rotate to a red maneuver if you have any stress tokens."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <links>
@@ -7375,6 +7324,12 @@
           <modifiers/>
         </link>
         <link id="949c-c014-79cc-cf1b" targetId="d310-25ae-4f2e-d588" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="579e-8696-bdb2-a60b" targetId="b4a7fa89-cee8-635b-3c86-dea77419396e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2f85-2f01-d2f3-1d2d" targetId="439c3bf9-8432-533c-6da9-b27a56c2a190" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -7627,6 +7582,79 @@
           <modifiers/>
         </link>
         <link id="e86d-e00f-b009-ab28" targetId="7cda-0c30-be93-2dcc" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="f01d-656f-5b3a-cc44" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="31c9-2104-e0d5-6ffc" targetId="3d9d-3e83-5363-fd56" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="aa25-e6e5-b6f7-b961" targetId="3eba70f9-5817-4935-7c78-40e27894d031" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cc71-9275-3cbc-74bb" targetId="d3bf7d4a-8188-7337-6470-d7015dd1765c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c39b-1dbc-f7e1-e644" targetId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2cb0-1d1a-6485-d484" targetId="f181-7330-94bf-55c2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="27f8-a42c-d76a-515e" targetId="b252-3e9e-6ebb-7fee" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8809-91e9-5189-43c0" targetId="d198-f4ab-1c2b-bc2d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="eedf-c08e-d682-5d9d" targetId="3d8f-7048-fec5-df85" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f50e-2f8c-ac89-d546" targetId="abf7-5c89-c07c-c9a5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ffe1-cd17-1ee2-1fbb" targetId="ec4d-a1a9-f6a2-0448" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cce6-eb6e-c1c4-01c5" targetId="374d-116d-5e24-88a6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2645-1020-85cf-60a4" targetId="eac6-2371-ed63-ab4b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2293-62bd-54e5-0754" targetId="bebe-7883-d768-9062" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ec2b-2f7e-7c11-9011" targetId="17ee-c766-cc51-9ad6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0476-f897-3c75-3bdc" targetId="17dd-5c36-29cc-913a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cea2-89e0-9a85-68e1" targetId="246f-698e-7f14-f94e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6f9f-a4e0-ecff-b5b7" targetId="1c1b-9ea7-3fa1-af75" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="96f3-bad3-f695-97fd" targetId="591d-333f-e9ad-7fc9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f164-f60f-1c62-21fa" targetId="2169-6875-574e-7bef" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0bcb-974a-da1d-01d5" targetId="92e5-401c-ad27-a8aa" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="85ec-8d5a-21de-071c" targetId="7805-6177-0e3e-1999" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2b0c-b1ce-428c-05c7" targetId="7822-267d-43f2-95c1" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8164,75 +8192,78 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="f01d-656f-5b3a-cc44" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="809b-eddb-0859-03bd" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <links>
-        <link id="31c9-2104-e0d5-6ffc" targetId="3d9d-3e83-5363-fd56" linkType="entry">
+        <link id="7639-506a-255f-0b6f" targetId="d310-25ae-4f2e-d588" linkType="entry">
           <modifiers/>
         </link>
-        <link id="aa25-e6e5-b6f7-b961" targetId="3eba70f9-5817-4935-7c78-40e27894d031" linkType="entry">
+        <link id="ee25-a2b7-a94b-3a86" targetId="59edbed5-4b15-fc51-2c66-d91f8e567b15" linkType="entry">
           <modifiers/>
         </link>
-        <link id="cc71-9275-3cbc-74bb" targetId="d3bf7d4a-8188-7337-6470-d7015dd1765c" linkType="entry">
+        <link id="ec63-4416-f741-2114" targetId="439c3bf9-8432-533c-6da9-b27a56c2a190" linkType="entry">
           <modifiers/>
         </link>
-        <link id="c39b-1dbc-f7e1-e644" targetId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" linkType="entry">
+        <link id="9c7c-89bd-aeec-628d" targetId="128955b3-dd26-2afd-0055-802c4a47de15" linkType="entry">
           <modifiers/>
         </link>
-        <link id="2cb0-1d1a-6485-d484" targetId="f181-7330-94bf-55c2" linkType="entry">
+        <link id="8756-cb96-7df1-6853" targetId="6d6e04bd-e481-4fe2-9b96-203a17ccfc0c" linkType="entry">
           <modifiers/>
         </link>
-        <link id="27f8-a42c-d76a-515e" targetId="b252-3e9e-6ebb-7fee" linkType="entry">
+        <link id="a844-54fb-ff0f-29dc" targetId="b4a7fa89-cee8-635b-3c86-dea77419396e" linkType="entry">
           <modifiers/>
         </link>
-        <link id="8809-91e9-5189-43c0" targetId="d198-f4ab-1c2b-bc2d" linkType="entry">
+        <link id="62db-378f-ed1f-2b17" targetId="eba21848-ea25-a6d8-366f-102a91dff96b" linkType="entry">
           <modifiers/>
         </link>
-        <link id="eedf-c08e-d682-5d9d" targetId="3d8f-7048-fec5-df85" linkType="entry">
+        <link id="39fb-2983-f966-139b" targetId="b37f854a-a0ae-d972-6aac-c75ed53ce18c" linkType="entry">
           <modifiers/>
         </link>
-        <link id="f50e-2f8c-ac89-d546" targetId="abf7-5c89-c07c-c9a5" linkType="entry">
+        <link id="c72e-1d54-8735-55a0" targetId="3b1fe974-df4c-3674-2c81-fd5a4cffe9d3" linkType="entry">
           <modifiers/>
         </link>
-        <link id="ffe1-cd17-1ee2-1fbb" targetId="ec4d-a1a9-f6a2-0448" linkType="entry">
+        <link id="4c94-86cd-e140-1c8a" targetId="cdeb20d8-b11d-b1b6-dc84-82de6ddec940" linkType="entry">
           <modifiers/>
         </link>
-        <link id="cce6-eb6e-c1c4-01c5" targetId="374d-116d-5e24-88a6" linkType="entry">
+        <link id="531e-e2f3-c9f0-54b6" targetId="a9395ddd-ae68-0bfa-e15c-8777f4419a1d" linkType="entry">
           <modifiers/>
         </link>
-        <link id="2645-1020-85cf-60a4" targetId="eac6-2371-ed63-ab4b" linkType="entry">
+        <link id="df3b-25f9-8ce4-d2ca" targetId="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" linkType="entry">
           <modifiers/>
         </link>
-        <link id="2293-62bd-54e5-0754" targetId="bebe-7883-d768-9062" linkType="entry">
+        <link id="a75d-ee5a-977d-0543" targetId="31d6cad6-2e35-a968-d1c2-7b73baad118f" linkType="entry">
           <modifiers/>
         </link>
-        <link id="ec2b-2f7e-7c11-9011" targetId="17ee-c766-cc51-9ad6" linkType="entry">
+        <link id="6e6e-7e3c-9f0d-d859" targetId="539137f4-6cd0-2fc5-aea3-86580bd47f63" linkType="entry">
           <modifiers/>
         </link>
-        <link id="0476-f897-3c75-3bdc" targetId="17dd-5c36-29cc-913a" linkType="entry">
+        <link id="c05b-6f92-26d5-8839" targetId="5d62d862-36ca-1056-42f0-68d641d541db" linkType="entry">
           <modifiers/>
         </link>
-        <link id="cea2-89e0-9a85-68e1" targetId="246f-698e-7f14-f94e" linkType="entry">
+        <link id="24d5-3b02-dd35-98da" targetId="d8c872b7-6d29-222f-7525-bd18d85da924" linkType="entry">
           <modifiers/>
         </link>
-        <link id="6f9f-a4e0-ecff-b5b7" targetId="1c1b-9ea7-3fa1-af75" linkType="entry">
+        <link id="c430-111a-7827-730b" targetId="b0416eaf-e4ad-ae7a-39c0-56049b73131f" linkType="entry">
           <modifiers/>
         </link>
-        <link id="96f3-bad3-f695-97fd" targetId="591d-333f-e9ad-7fc9" linkType="entry">
+        <link id="1099-378e-0bc8-b47a" targetId="3d612f57-1727-84ac-4304-a919b734f498" linkType="entry">
           <modifiers/>
         </link>
-        <link id="f164-f60f-1c62-21fa" targetId="2169-6875-574e-7bef" linkType="entry">
+        <link id="6a74-54ee-0480-e22e" targetId="9eb90f5d-3d76-37db-f3c0-fb6cf743b310" linkType="entry">
           <modifiers/>
         </link>
-        <link id="0bcb-974a-da1d-01d5" targetId="92e5-401c-ad27-a8aa" linkType="entry">
+        <link id="ce24-8323-1779-4318" targetId="29b6d0df-61cc-899d-0089-4660fca5e1fe" linkType="entry">
           <modifiers/>
         </link>
-        <link id="85ec-8d5a-21de-071c" targetId="7805-6177-0e3e-1999" linkType="entry">
+        <link id="4c14-07c7-6208-6858" targetId="a94857f8-f114-359d-6865-3ea961bd2c06" linkType="entry">
           <modifiers/>
         </link>
-        <link id="2b0c-b1ce-428c-05c7" targetId="7822-267d-43f2-95c1" linkType="entry">
+        <link id="8576-8803-3931-9c01" targetId="69f71f17-32fd-7125-c948-562c31dcd52d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5970-ff95-a07c-b281" targetId="ea81f40a-6790-bed2-4d79-d5c38995fd6b" linkType="entry">
           <modifiers/>
         </link>
       </links>
