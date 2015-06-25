@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="60" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="61" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -688,13 +688,8 @@
         <link id="1eff-3822-232a-ad87" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
-        <link id="e0cf-b2fb-3bd2-cd27" targetId="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="e0cf-b2fb-3bd2-cd27" targetId="2160-eee0-9671-df42" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="729b-a4db-1424-2dd6" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
           <modifiers/>
@@ -922,6 +917,22 @@
             </link>
           </links>
         </entryGroup>
+        <entryGroup id="9f10-79d4-ecf1-e535" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="55c1-2dea-5bc2-5f35" targetId="12f45c62-9cea-6248-71a9-b219196fdd5a" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2585-3fa9-f4c7-c37c" targetId="d8ffe171-4ba0-7845-a8be-888b165b7d7d" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1718-9e77-df60-44cf" targetId="c57c1d42-db30-e618-d4da-b5675b30dadb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
@@ -998,9 +1009,6 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-        </link>
-        <link id="dd498e6a-654c-9376-0d27-27263a2cec94" targetId="7b35c875-8c1a-83f8-97f6-4ca29ba32d1a" linkType="entry group">
-          <modifiers/>
         </link>
         <link id="4033f4d9-3bb5-abc0-5c85-869be1856c9c" targetId="3da23787-37f8-de11-11fc-155f0f091577" linkType="profile">
           <modifiers/>
@@ -4313,13 +4321,8 @@
         <link id="94f2-4be4-7658-5f2d" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="aaac-c5c3-b0e0-da13" targetId="9755f8ca-8e05-5b9e-3b0b-7d23366a2472" linkType="entry group">
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="aaac-c5c3-b0e0-da13" targetId="2160-eee0-9671-df42" linkType="entry group">
+          <modifiers/>
         </link>
         <link id="1ae7-89ac-049e-e267" targetId="c402c4c4-a0ca-77ed-0561-65ee9e567521" linkType="entry group">
           <modifiers/>
@@ -6966,6 +6969,264 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="9980-b173-9608-4f2c" name="Accuracy Corrector" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6a59-3e4f-eebe-a53e" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Accuracy Corrector" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking, during the &quot;Modify Attack Dice&quot; step, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c50c-68ef-ef93-5a63" name="Advanced Sensors" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3aa6-5923-e3e2-f4a2" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Advanced Sensors" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="4497-72c5-c4ca-d166" name="Enhanced Scopes" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6418-7b38-a0c4-c74d" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Enhanced Scopes" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="During the Activation phase, treat your pilot skill value as &quot;0.&quot;"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a7a1-7dee-247c-c0e9" name="Fire-Control System" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="97dc-8b2e-f117-1448" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Fire-Control System" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="After you perform an attack, you may acquire a target lock on the defender."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6468-b3b1-08f0-14a2" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f9a5-3cf6-7b2a-e774" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Sensor Jammer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When defending, you may change 1 of the attacker&apos;s [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="de3b-6169-6a66-0f83" name="Single Turbolasers" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7397-5646-46a8-ff11" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6" name="Single Turbolasers " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="6c51a39a-e133-d5f5-e790-ba40cd44e799" name="Energy Limit" value="2"/>
+            <characteristic characteristicId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" name="Weapon Range" value="3-5"/>
+            <characteristic characteristicId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" name="Attack Value" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e727-0269-a13c-f39b" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" name="Single Turbolasers" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="9d9b1389-be43-ffef-020c-9f49626921d4" name="Hardpoint Ability" value="Attack (energy): Spend 2 energy from this card to perform this attack. The defender doubles his agility value against this attack. You may change 1 of your [focus] results to a [hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ed17-397e-939f-f8f1" name="Quad Laser Cannons" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9656-2b44-1003-4202" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6" name="Quad Laser Cannons " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="6c51a39a-e133-d5f5-e790-ba40cd44e799" name="Energy Limit" value="2"/>
+            <characteristic characteristicId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="bd81-562d-5d01-eddd" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" name="Quad Laser Cannons" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="9d9b1389-be43-ffef-020c-9f49626921d4" name="Hardpoint Ability" value="Attack (energy): Spend 1 energy from this card to perform this attack. If this attack does not hit, you may immediately spend 1 energy from this card to perform this attack again."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="680a-079d-af46-caa3" name="Ion Cannon Battery†" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="280d-3ad4-ab27-6599" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6" name="Ion Cannon Battery " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="6c51a39a-e133-d5f5-e790-ba40cd44e799" name="Energy Limit" value="2"/>
+            <characteristic characteristicId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" name="Weapon Range" value="2-4"/>
+            <characteristic characteristicId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" name="Attack Value" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="268d-1a1b-c87c-2ccf" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" name="Ion Cannon Battery" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="9d9b1389-be43-ffef-020c-9f49626921d4" name="Hardpoint Ability" value="Attack (energy): Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0802-2034-977d-3869" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="dca6-9e12-5a5f-9e5e" name="Ion Cannon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="15cd-2c77-33fe-90d0" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Ion Cannon " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f990-314f-cb52-0a0c" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Ion Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f13d-0392-efba-6650" name="Heavy Laser Cannon" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="979e-b729-5897-daa5" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Heavy Laser Cannon " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f28b-1407-cf22-d4bd" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Heavy Laser Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Immediately after rolling your attack dice, you must change all of your [critical hit] results to [hit] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="256c-10e8-3ea1-6fa7" name="Flechette Cannon" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cbf8-49e9-7c09-19f9" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Flechette Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token. Then, cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9afc-ac35-ff3f-7119" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Flechette Cannon " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e09d-6c9b-5195-1a8b" name="Autoblaster" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="14b6-4e99-ad94-e335" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Autoblaster " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="db36-3bcd-13b3-b557" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Autoblaster" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="66ce-19ce-47b9-345b" name="&quot;Mangler&quot; Cannon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="43bb-37b2-909a-1695" profileTypeId="313043616e6e6f6e7323232344415441232323" name="&quot;Mangler&quot; Cannon " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b613-0aee-92a2-f73e" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="&quot;Mangler&quot; Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. When attacking, you may change one of your [hit] results to a [critical hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7071,121 +7332,26 @@
       </links>
     </entryGroup>
     <entryGroup id="b86c7f93-efe8-508f-fb41-be4d0b129d00" name="Cannon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="0cdc673c-6c75-056e-765b-703d5926631a" name="Ion Cannon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="97f454cf-82e7-8579-ca1a-9c7a95574f27" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Ion Cannon" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="05db23fa-7dc5-ab9f-3de3-0e9095993c8d" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Ion Cannon " hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="214eece3-54a4-d208-34d1-fbc191237eb3" name="Heavy Laser Cannon" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="4cf71460-fb00-b8cd-3f69-821dbc2d7c24" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Heavy Laser Cannon" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Immediately after rolling your attack dice, you must change all of your [critical hit] results to [hit] results."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="c3554c2e-1237-ba06-734f-c7e34875acb9" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Heavy Laser Cannon " hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="0e59b549-eb91-2860-62fd-883e0a8255b0" name="Autoblaster" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="a6180e46-05ab-ea19-963f-7f22885fb3e7" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Autoblaster" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="9d6f0edd-a04a-c5c9-8719-0e7c73f84114" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Autoblaster " hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="039cf344-1192-25f3-3b25-c61de55d88c0" name="Flechette Cannon" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="a6ef269f-2d49-a442-697e-db4e4ebc966f" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Flechette Cannon " hidden="false">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="34f5e54b-45f0-410b-ce5b-632289003a1d" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Flechette Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token. Then, cancel all dice results."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="6177d763-ef65-f668-0d82-f1b8dea88c87" name="&quot;Mangler&quot; Cannon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="3b4b6cb0-adfe-acb9-fff4-82bdd03483a3" profileTypeId="313043616e6e6f6e7323232344415441232323" name="&quot;Mangler&quot; Cannon " hidden="false">
-              <characteristics>
-                <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
-                <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="d8bfefc2-eb71-ce5d-2b4b-5f967e5ec40f" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="&quot;Mangler&quot; Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. When attacking, you may change one of your [hit] results to a [critical hit] result."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="8cbe-a026-3675-492e" targetId="dca6-9e12-5a5f-9e5e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="46a0-3773-84c6-88bd" targetId="f13d-0392-efba-6650" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="84b0-dd1f-04f1-dc5e" targetId="256c-10e8-3ea1-6fa7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="41b6-2df8-2d59-0536" targetId="e09d-6c9b-5195-1a8b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="75b6-f73d-dd3c-169d" targetId="66ce-19ce-47b9-345b" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="c2b77e6f-db74-e619-2233-b6204fb05ded" name="Cargo" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -7510,6 +7676,82 @@
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="809b-eddb-0859-03bd" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="7639-506a-255f-0b6f" targetId="d310-25ae-4f2e-d588" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ee25-a2b7-a94b-3a86" targetId="59edbed5-4b15-fc51-2c66-d91f8e567b15" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ec63-4416-f741-2114" targetId="439c3bf9-8432-533c-6da9-b27a56c2a190" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9c7c-89bd-aeec-628d" targetId="128955b3-dd26-2afd-0055-802c4a47de15" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8756-cb96-7df1-6853" targetId="6d6e04bd-e481-4fe2-9b96-203a17ccfc0c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a844-54fb-ff0f-29dc" targetId="b4a7fa89-cee8-635b-3c86-dea77419396e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="62db-378f-ed1f-2b17" targetId="eba21848-ea25-a6d8-366f-102a91dff96b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="39fb-2983-f966-139b" targetId="b37f854a-a0ae-d972-6aac-c75ed53ce18c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c72e-1d54-8735-55a0" targetId="3b1fe974-df4c-3674-2c81-fd5a4cffe9d3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4c94-86cd-e140-1c8a" targetId="cdeb20d8-b11d-b1b6-dc84-82de6ddec940" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="531e-e2f3-c9f0-54b6" targetId="a9395ddd-ae68-0bfa-e15c-8777f4419a1d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="df3b-25f9-8ce4-d2ca" targetId="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a75d-ee5a-977d-0543" targetId="31d6cad6-2e35-a968-d1c2-7b73baad118f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6e6e-7e3c-9f0d-d859" targetId="539137f4-6cd0-2fc5-aea3-86580bd47f63" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c05b-6f92-26d5-8839" targetId="5d62d862-36ca-1056-42f0-68d641d541db" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="24d5-3b02-dd35-98da" targetId="d8c872b7-6d29-222f-7525-bd18d85da924" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c430-111a-7827-730b" targetId="b0416eaf-e4ad-ae7a-39c0-56049b73131f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1099-378e-0bc8-b47a" targetId="3d612f57-1727-84ac-4304-a919b734f498" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6a74-54ee-0480-e22e" targetId="9eb90f5d-3d76-37db-f3c0-fb6cf743b310" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ce24-8323-1779-4318" targetId="29b6d0df-61cc-899d-0089-4660fca5e1fe" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4c14-07c7-6208-6858" targetId="a94857f8-f114-359d-6865-3ea961bd2c06" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8576-8803-3931-9c01" targetId="69f71f17-32fd-7125-c948-562c31dcd52d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5970-ff95-a07c-b281" targetId="ea81f40a-6790-bed2-4d79-d5c38995fd6b" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
     <entryGroup id="8d499ac9-9735-e014-4301-5b7c5c523a9c" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -7660,84 +7902,20 @@
       </links>
     </entryGroup>
     <entryGroup id="328a587b-e94a-b5be-7c1e-382dc8fb45e1" name="Hardpoint" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="163acc1d-341f-6e2f-4642-4c2c3e5c4872" name="Single Turbolasers" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="f82a8c69-9db2-53ac-6397-9a7e58320414" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" name="Single Turbolasers" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="9d9b1389-be43-ffef-020c-9f49626921d4" name="Hardpoint Ability" value="Attack (energy): Spend 2 energy from this card to perform this attack. The defender doubles his agility value against this attack. You may change 1 of your [focus] results to a [hit] result."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="c3c35e12-d2d1-d565-79d0-65ec1e5eeaac" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6" name="Single Turbolasers " hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="6c51a39a-e133-d5f5-e790-ba40cd44e799" name="Energy Limit" value="2"/>
-                <characteristic characteristicId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" name="Weapon Range" value="3-5"/>
-                <characteristic characteristicId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" name="Attack Value" value="4"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="c9565481-c28d-7b6d-1460-acc7eb34bae9" name="Quad Laser Cannons" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="26fcaa60-efc7-ab59-a9b9-c65388c7d67f" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" name="Quad Laser Cannons" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="9d9b1389-be43-ffef-020c-9f49626921d4" name="Hardpoint Ability" value="Attack (energy): Spend 1 energy from this card to perform this attack. If this attack does not hit, you may immediately spend 1 energy from this card to perform this attack again."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="250e07b4-9446-f0f8-e32c-d6fa0d751384" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6" name="Quad Laser Cannons " hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="6c51a39a-e133-d5f5-e790-ba40cd44e799" name="Energy Limit" value="2"/>
-                <characteristic characteristicId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" name="Weapon Range" value="1-2"/>
-                <characteristic characteristicId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" name="Attack Value" value="3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="3ef0e296-96e7-af94-3bea-e25a98662660" name="Ion Cannon Battery†" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="1df910a4-072e-35f7-60bb-01bb04c42c94" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6" name="Ion Cannon Battery " hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6c51a39a-e133-d5f5-e790-ba40cd44e799" name="Energy Limit" value="2"/>
-                <characteristic characteristicId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" name="Weapon Range" value="2-4"/>
-                <characteristic characteristicId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" name="Attack Value" value="4"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="f0e38a7f-bbf2-1d46-82bf-dd1c472b542f" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" name="Ion Cannon Battery" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="9d9b1389-be43-ffef-020c-9f49626921d4" name="Hardpoint Ability" value="Attack (energy): Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel all dice results."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="d42df506-e6f9-5ce9-ca1c-7d98278adaaf" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="ef17-0fd6-1d9e-8522" targetId="de3b-6169-6a66-0f83" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6588-a489-764c-cc1e" targetId="ed17-397e-939f-f8f1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a840-93cf-f834-1fc2" targetId="680a-079d-af46-caa3" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="93d86341-fc63-ab0f-db15-de74c8bd1715" name="Missiles" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -7978,86 +8156,26 @@
       </links>
     </entryGroup>
     <entryGroup id="083d8193-2a5a-b924-9f98-10c4a45a5ebe" name="Sensors" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="bac3d2ba-1655-2144-2fb1-3efe55f81495" name="Fire-Control System" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="42401f21-87af-7fa2-edd2-701ec6cb16cb" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Fire-Control System" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="After you perform an attack, you may acquire a target lock on the defender."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="cd780ddf-fa47-7be3-07a1-6eb5fa0a35e1" name="Advanced Sensors" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="3069dd79-8fe9-9d5d-e591-00d99bd86d89" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Advanced Sensors" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="5efedbdf-aa91-24da-9daf-069ec0b2bfea" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="53c5e88e-91fd-8f6e-6f44-5006679262e6" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Sensor Jammer" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When defending, you may change 1 of the attacker&apos;s [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="ac461f51-1872-27e7-91e2-39b497d95de8" name="Enhanced Scopes" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="956088a2-fc96-4395-d2e8-1422553780e5" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Enhanced Scopes" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="During the Activation phase, treat your pilot skill value as &quot;0.&quot;"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="057efbbf-f32f-a9dc-e5dd-28a25c529d4d" name="Accuracy Corrector" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="19612ad1-d111-fa20-c4f5-bd420bb4fbc0" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Accuracy Corrector" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking, during the &quot;Modify Attack Dice&quot; step, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="dee2-c210-3a7e-342c" targetId="9980-b173-9608-4f2c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8b55-08fb-5480-bfed" targetId="c50c-68ef-ef93-5a63" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3d2d-5a4c-5cfd-c85d" targetId="4497-72c5-c4ca-d166" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="355c-9472-accc-b520" targetId="a7a1-7dee-247c-c0e9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1d2d-19f5-05d3-73e7" targetId="6468-b3b1-08f0-14a2" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="88b05494-eda3-3759-8b15-9516a8a85e86" name="Team" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -8071,22 +8189,6 @@
           <modifiers/>
         </link>
         <link id="4971644a-5802-0763-1869-f6392a056618" targetId="8d5a8b96-d5f1-2539-1651-dd98e04cd3ea" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="7b35c875-8c1a-83f8-97f6-4ca29ba32d1a" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="c196b841-18c4-f2a6-e060-40f349e67c28" targetId="c57c1d42-db30-e618-d4da-b5675b30dadb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="9d52bea0-e08e-6eae-cd78-7128afaa3f9f" targetId="12f45c62-9cea-6248-71a9-b219196fdd5a" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="068817fa-b760-5d62-90d7-11739aa390ec" targetId="d8ffe171-4ba0-7845-a8be-888b165b7d7d" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8192,78 +8294,21 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="809b-eddb-0859-03bd" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="2160-eee0-9671-df42" name="Bomb" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <links>
-        <link id="7639-506a-255f-0b6f" targetId="d310-25ae-4f2e-d588" linkType="entry">
+        <link id="0300-0a5e-50b3-6b18" targetId="f384-059e-fc36-019c" linkType="entry">
           <modifiers/>
         </link>
-        <link id="ee25-a2b7-a94b-3a86" targetId="59edbed5-4b15-fc51-2c66-d91f8e567b15" linkType="entry">
+        <link id="15cb-5477-937e-2e4b" targetId="577379c0-d59e-f955-1002-119375d1e11f" linkType="entry">
           <modifiers/>
         </link>
-        <link id="ec63-4416-f741-2114" targetId="439c3bf9-8432-533c-6da9-b27a56c2a190" linkType="entry">
+        <link id="a1ec-7e30-85ce-a45e" targetId="e2e08cab-6adf-67d4-449b-22a8e3290304" linkType="entry">
           <modifiers/>
         </link>
-        <link id="9c7c-89bd-aeec-628d" targetId="128955b3-dd26-2afd-0055-802c4a47de15" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8756-cb96-7df1-6853" targetId="6d6e04bd-e481-4fe2-9b96-203a17ccfc0c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a844-54fb-ff0f-29dc" targetId="b4a7fa89-cee8-635b-3c86-dea77419396e" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="62db-378f-ed1f-2b17" targetId="eba21848-ea25-a6d8-366f-102a91dff96b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="39fb-2983-f966-139b" targetId="b37f854a-a0ae-d972-6aac-c75ed53ce18c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c72e-1d54-8735-55a0" targetId="3b1fe974-df4c-3674-2c81-fd5a4cffe9d3" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4c94-86cd-e140-1c8a" targetId="cdeb20d8-b11d-b1b6-dc84-82de6ddec940" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="531e-e2f3-c9f0-54b6" targetId="a9395ddd-ae68-0bfa-e15c-8777f4419a1d" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="df3b-25f9-8ce4-d2ca" targetId="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a75d-ee5a-977d-0543" targetId="31d6cad6-2e35-a968-d1c2-7b73baad118f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6e6e-7e3c-9f0d-d859" targetId="539137f4-6cd0-2fc5-aea3-86580bd47f63" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c05b-6f92-26d5-8839" targetId="5d62d862-36ca-1056-42f0-68d641d541db" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="24d5-3b02-dd35-98da" targetId="d8c872b7-6d29-222f-7525-bd18d85da924" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c430-111a-7827-730b" targetId="b0416eaf-e4ad-ae7a-39c0-56049b73131f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="1099-378e-0bc8-b47a" targetId="3d612f57-1727-84ac-4304-a919b734f498" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6a74-54ee-0480-e22e" targetId="9eb90f5d-3d76-37db-f3c0-fb6cf743b310" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ce24-8323-1779-4318" targetId="29b6d0df-61cc-899d-0089-4660fca5e1fe" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4c14-07c7-6208-6858" targetId="a94857f8-f114-359d-6865-3ea961bd2c06" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8576-8803-3931-9c01" targetId="69f71f17-32fd-7125-c948-562c31dcd52d" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5970-ff95-a07c-b281" targetId="ea81f40a-6790-bed2-4d79-d5c38995fd6b" linkType="entry">
+        <link id="8678-4bc1-4a2e-4ac2" targetId="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" linkType="entry">
           <modifiers/>
         </link>
       </links>
