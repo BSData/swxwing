@@ -7277,6 +7277,32 @@
         </link>
       </links>
     </entry>
+    <entry id="b240-7a9d-38e4-4bf6" name="Plasma Torpedoes†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9a2d-cc03-7b16-a056" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Plasma Torpedoes" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, after dealing damage, remove 1 shield token from the defender."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2161-20fe-2b3d-ebf1" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" name="Plasma Torpedoes " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a018-59b2-7550-cdef" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8294,6 +8320,9 @@
         <link id="e92d-30aa-bdb3-77ce" targetId="cde6-6a3d-f3e2-a791" linkType="entry">
           <modifiers/>
         </link>
+        <link id="4691-6777-954b-70a7" targetId="b240-7a9d-38e4-4bf6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="9545e3df-9bdf-e54d-e148-00bcf6a456e3" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8314,6 +8343,9 @@
           <modifiers/>
         </link>
         <link id="0faf-ece5-e5f1-fd88" targetId="cde6-6a3d-f3e2-a791" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="99b4-ea02-164a-7980" targetId="b240-7a9d-38e4-4bf6" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8339,6 +8371,9 @@
           <modifiers/>
         </link>
         <link id="36d2-a447-7dae-9fb0" targetId="cde6-6a3d-f3e2-a791" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8e0f-7111-4380-7fca" targetId="b240-7a9d-38e4-4bf6" linkType="entry">
           <modifiers/>
         </link>
       </links>
