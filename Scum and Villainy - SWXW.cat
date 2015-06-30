@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="42" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="43" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot†" points="0.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -260,6 +260,77 @@
           <modifiers/>
         </link>
         <link id="a3b0-2563-d14d-e0ac" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6430-ee92-a23c-c69d" name="PS 2 - Cartel Marauder†" points="20.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="65ec-af87-726f-d3f9" profileTypeId="31536869707323232344415441232323" name="Cartel Marauder" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="2"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit Upgrade"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6430-ee92-a23c-c69d" childId="079210df-1fca-88cf-7b1d-d3f86728d42b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6430-ee92-a23c-c69d" childId="49c04071-073b-fc1f-305e-1f2f1cd99dda" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6430-ee92-a23c-c69d" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3901-7c2e-6e30-0c5e" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="86d7-b4aa-2433-84c8" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3470-6cc8-c6a8-6ca4" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6be2-09d0-bcd9-ce97" targetId="c439-cb25-8049-32b2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="547b-1a55-5ad9-a521" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="2425-9114-328f-5eea" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6430-ee92-a23c-c69d" childId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="fff1-8496-ca86-2cf9" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d384-1a69-5400-72cf" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -856,6 +927,86 @@
           <modifiers/>
         </link>
         <link id="d2df-c1f0-1b8c-6200" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f1a4-8cd7-92cf-4452" name="PS 5 - Black Sun Ace†" points="23.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ecfa-47bb-0211-a767" profileTypeId="31536869707323232344415441232323" name="Black Sun Ace" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missiles, Illicit Upgrade"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f1a4-8cd7-92cf-4452" childId="9f2407c6-42ea-7836-fcba-fc145b967789" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f1a4-8cd7-92cf-4452" childId="079210df-1fca-88cf-7b1d-d3f86728d42b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f1a4-8cd7-92cf-4452" childId="49c04071-073b-fc1f-305e-1f2f1cd99dda" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f1a4-8cd7-92cf-4452" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="73c3-a2e5-fdd3-7723" targetId="c439-cb25-8049-32b2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="ed28-579f-79a1-128e" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="02c3-c7ae-6e23-5e91" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f1a4-8cd7-92cf-4452" childId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="9aac-f414-1caf-2f5a" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9f1c-3322-5ac3-9fea" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7b72-3ca1-48a5-bcfe" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="9b87-67ef-7f49-fee9" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c682-a96f-ac6e-a73f" targetId="2749eab7-0fe2-0198-c7aa-c119cb08c41a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="e73e-d9bb-06f8-7ad5" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -1713,6 +1864,83 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="173d-8fc5-17c4-7962" name="PS 6 - •Graz the Hunter†" points="25.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="aae3-ee81-5b38-040c" profileTypeId="31536869707323232344415441232323" name="•Graz the Hunter" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="6"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit Upgrade"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="173d-8fc5-17c4-7962" childId="079210df-1fca-88cf-7b1d-d3f86728d42b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="173d-8fc5-17c4-7962" childId="49c04071-073b-fc1f-305e-1f2f1cd99dda" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="173d-8fc5-17c4-7962" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="304e-56af-f89a-824a" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Graz the Hunter" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When defending, if the attacker is inside your firing arc, roll 1 additional defense die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7d4c-11ee-1364-6d36" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="bc21-9f07-b37d-e291" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="efe1-faf6-9d6c-3e73" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="62ca-c5e1-9521-2d0c" targetId="c439-cb25-8049-32b2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="529b-e7ba-2576-2862" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="444f-dcd6-d650-6b83" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="173d-8fc5-17c4-7962" childId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="ce21-513a-bd89-db8c" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4f5e-200d-e24e-0f13" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -3182,234 +3410,6 @@
         </link>
       </links>
     </entry>
-    <entry id="173d-8fc5-17c4-7962" name="PS 6 - •Graz the Hunter†" points="25.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="aae3-ee81-5b38-040c" profileTypeId="31536869707323232344415441232323" name="•Graz the Hunter" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="6"/>
-            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
-            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
-            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
-            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit Upgrade"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="173d-8fc5-17c4-7962" childId="079210df-1fca-88cf-7b1d-d3f86728d42b" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="173d-8fc5-17c4-7962" childId="49c04071-073b-fc1f-305e-1f2f1cd99dda" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="173d-8fc5-17c4-7962" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile id="304e-56af-f89a-824a" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Graz the Hunter" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When defending, if the attacker is inside your firing arc, roll 1 additional defense die."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="7d4c-11ee-1364-6d36" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="bc21-9f07-b37d-e291" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="efe1-faf6-9d6c-3e73" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="62ca-c5e1-9521-2d0c" targetId="c439-cb25-8049-32b2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="529b-e7ba-2576-2862" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="444f-dcd6-d650-6b83" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
-          <modifiers>
-            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="173d-8fc5-17c4-7962" childId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="ce21-513a-bd89-db8c" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4f5e-200d-e24e-0f13" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="f1a4-8cd7-92cf-4452" name="PS 5 - Black Sun Ace†" points="23.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ecfa-47bb-0211-a767" profileTypeId="31536869707323232344415441232323" name="Black Sun Ace" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
-            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
-            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
-            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
-            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missiles, Illicit Upgrade"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="f1a4-8cd7-92cf-4452" childId="9f2407c6-42ea-7836-fcba-fc145b967789" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="f1a4-8cd7-92cf-4452" childId="079210df-1fca-88cf-7b1d-d3f86728d42b" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="f1a4-8cd7-92cf-4452" childId="49c04071-073b-fc1f-305e-1f2f1cd99dda" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="f1a4-8cd7-92cf-4452" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="73c3-a2e5-fdd3-7723" targetId="c439-cb25-8049-32b2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="ed28-579f-79a1-128e" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="02c3-c7ae-6e23-5e91" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
-          <modifiers>
-            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="f1a4-8cd7-92cf-4452" childId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="9aac-f414-1caf-2f5a" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9f1c-3322-5ac3-9fea" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7b72-3ca1-48a5-bcfe" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="9b87-67ef-7f49-fee9" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="c682-a96f-ac6e-a73f" targetId="2749eab7-0fe2-0198-c7aa-c119cb08c41a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="e73e-d9bb-06f8-7ad5" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6430-ee92-a23c-c69d" name="PS 2 - Cartel Marauder†" points="20.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="65ec-af87-726f-d3f9" profileTypeId="31536869707323232344415441232323" name="Cartel Marauder" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="2"/>
-            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
-            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
-            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
-            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit Upgrade"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="6430-ee92-a23c-c69d" childId="079210df-1fca-88cf-7b1d-d3f86728d42b" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="6430-ee92-a23c-c69d" childId="49c04071-073b-fc1f-305e-1f2f1cd99dda" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="6430-ee92-a23c-c69d" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="3901-7c2e-6e30-0c5e" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="86d7-b4aa-2433-84c8" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="3470-6cc8-c6a8-6ca4" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="6be2-09d0-bcd9-ce97" targetId="c439-cb25-8049-32b2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="547b-1a55-5ad9-a521" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="2425-9114-328f-5eea" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
-          <modifiers>
-            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="6430-ee92-a23c-c69d" childId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="fff1-8496-ca86-2cf9" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d384-1a69-5400-72cf" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </entries>
   <rules/>
   <links/>
@@ -4348,6 +4348,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="0c47-a4a7-b0b7-62e4" name="Lightning Reflexes†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f34a-1f9b-4ff1-e2c1" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lightning Reflexes" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="After you execute a white or green maneuver on your dial, you may discard this card to rotate your ship 180°. Then receive 1 stress token after the &quot;Check Pilot Stress&quot; step."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f4ab-3455-ee2a-3904" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="38e630a6-a3ad-b74c-eba5-81a72d861c1f" name="Marksmanship" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -5070,25 +5089,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="0c47-a4a7-b0b7-62e4" name="Lightning Reflexes†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="f34a-1f9b-4ff1-e2c1" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lightning Reflexes" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="After you execute a white or green maneuver on your dial, you may discard this card to rotate your ship 180°. Then receive 1 stress token after the &quot;Check Pilot Stress&quot; step."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="f4ab-3455-ee2a-3904" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -5141,6 +5141,9 @@
         <link id="90f7028a-afcd-df1e-db9d-c3bd0d4e50d3" targetId="d42474b8-78f1-9952-9780-f0a343d0dd32" linkType="entry">
           <modifiers/>
         </link>
+        <link id="92d4-474d-b8cb-6052" targetId="432f-4a7a-268f-561f" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5180,6 +5183,28 @@
           <modifiers/>
         </link>
         <link id="a97039fa-b61e-e5e9-d8bb-3bbcec4a48a7" targetId="d42474b8-78f1-9952-9780-f0a343d0dd32" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="8a24-c30c-7a30-f1e6" name="Cannon" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="5cab-edca-3831-041f" targetId="d42474b8-78f1-9952-9780-f0a343d0dd32" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f84e-2aa5-ea5d-392e" targetId="05d3294c-8d07-8ed6-49cd-abaac1ff03e5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3a44-78b0-6212-d040" targetId="d1a0523c-0e00-2b33-7c17-6d29b1c6b25d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="26ae-f3e8-1d4f-49dd" targetId="934af116-cafd-ef7c-201d-5623ab96162f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9363-6c6c-9b10-38c8" targetId="7ec9f042-fa75-ea79-4a8a-f78c0044dfc6" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -5363,6 +5388,82 @@
           <modifiers/>
         </link>
         <link id="cbcc-9636-d8bb-77cc" targetId="0c47-a4a7-b0b7-62e4" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="6c29-e554-71ed-ed9e" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="2d7e-60f8-b348-b1a5" targetId="25661a78-52a4-43a2-b558-43dfcaafe055" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6d83-ac77-6580-9143" targetId="6c34c1f9-fdbd-2f6f-57ef-61c5eea72140" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="299a-7b78-51ea-95f3" targetId="0b7c7263-0dfd-b1af-42c4-3ebb15518237" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="90dc-3c92-1e67-42d1" targetId="a316b77b-01c0-1cd6-5389-b2766b7dc3be" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5993-7ec8-45db-5329" targetId="9f2407c6-42ea-7836-fcba-fc145b967789" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9eb4-a8e0-4c6a-c931" targetId="d9539029-fd4b-5798-e3ed-b00626f0f077" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9642-453f-2661-0174" targetId="3cc260b8-76dc-9e4c-b6b2-f5f1b0105c3a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2362-5c09-2092-3033" targetId="b716c76f-0642-50e7-f82b-5dd4c8f8fa54" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2954-311f-64ce-8f06" targetId="a15564ab-c7d2-ff82-5fc8-abfbb9aee49b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d752-17de-4edf-ff33" targetId="1e103180-9b7c-fcf6-affc-d564bb5470e8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ecd0-3a0d-6cea-0206" targetId="f9e13de3-8466-8c04-795a-8387be87bb5f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3a50-2dc3-1ae6-791c" targetId="38e630a6-a3ad-b74c-eba5-81a72d861c1f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b0cd-fe4e-f2c7-8e4c" targetId="f95c36fa-e1a8-29b1-c6ea-a0ad4e2b79ff" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f91a-09b4-b3ed-aadd" targetId="38029a2c-d705-9f5c-860e-409b54a8fa0b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="61b9-6637-1ac0-5972" targetId="5e14c662-084c-0371-6570-b15462b73c1c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8ce7-bd05-5771-f26d" targetId="a914b7ed-2616-6781-038f-da24cadad294" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="85e5-efbe-3eac-c11b" targetId="3022898e-b500-87f3-6944-a42c0102a526" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="249d-f157-eb2d-f5f6" targetId="9ab0fe50-6306-d5cd-fb50-f806382bff80" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0d50-e718-b178-d882" targetId="902fcba1-2970-3b30-3c94-c5bb1a685255" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4fd7-8f5c-0216-b7c9" targetId="fbc4087c-0f01-b1bb-5c2b-8682b5f94583" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1adb-a8c0-08c1-9bb2" targetId="44885fcb-d589-1ecd-1bf0-03155d9fb868" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1407-705c-89d5-911f" targetId="44f7-7c8e-4426-1a14" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="625f-8866-2214-0808" targetId="451ee401-131a-8229-fad9-596146ba8879" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -5720,104 +5821,6 @@
           <modifiers/>
         </link>
         <link id="2f92770a-56cf-7fed-c0ce-cdb53fd074eb" targetId="afd9945b-87d3-3bce-4f99-eb9a20743946" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="6c29-e554-71ed-ed9e" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="2d7e-60f8-b348-b1a5" targetId="25661a78-52a4-43a2-b558-43dfcaafe055" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6d83-ac77-6580-9143" targetId="6c34c1f9-fdbd-2f6f-57ef-61c5eea72140" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="299a-7b78-51ea-95f3" targetId="0b7c7263-0dfd-b1af-42c4-3ebb15518237" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="90dc-3c92-1e67-42d1" targetId="a316b77b-01c0-1cd6-5389-b2766b7dc3be" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5993-7ec8-45db-5329" targetId="9f2407c6-42ea-7836-fcba-fc145b967789" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="9eb4-a8e0-4c6a-c931" targetId="d9539029-fd4b-5798-e3ed-b00626f0f077" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="9642-453f-2661-0174" targetId="3cc260b8-76dc-9e4c-b6b2-f5f1b0105c3a" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2362-5c09-2092-3033" targetId="b716c76f-0642-50e7-f82b-5dd4c8f8fa54" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2954-311f-64ce-8f06" targetId="a15564ab-c7d2-ff82-5fc8-abfbb9aee49b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="d752-17de-4edf-ff33" targetId="1e103180-9b7c-fcf6-affc-d564bb5470e8" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ecd0-3a0d-6cea-0206" targetId="f9e13de3-8466-8c04-795a-8387be87bb5f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="3a50-2dc3-1ae6-791c" targetId="38e630a6-a3ad-b74c-eba5-81a72d861c1f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b0cd-fe4e-f2c7-8e4c" targetId="f95c36fa-e1a8-29b1-c6ea-a0ad4e2b79ff" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f91a-09b4-b3ed-aadd" targetId="38029a2c-d705-9f5c-860e-409b54a8fa0b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="61b9-6637-1ac0-5972" targetId="5e14c662-084c-0371-6570-b15462b73c1c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8ce7-bd05-5771-f26d" targetId="a914b7ed-2616-6781-038f-da24cadad294" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="85e5-efbe-3eac-c11b" targetId="3022898e-b500-87f3-6944-a42c0102a526" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="249d-f157-eb2d-f5f6" targetId="9ab0fe50-6306-d5cd-fb50-f806382bff80" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="0d50-e718-b178-d882" targetId="902fcba1-2970-3b30-3c94-c5bb1a685255" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4fd7-8f5c-0216-b7c9" targetId="fbc4087c-0f01-b1bb-5c2b-8682b5f94583" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="1adb-a8c0-08c1-9bb2" targetId="44885fcb-d589-1ecd-1bf0-03155d9fb868" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="1407-705c-89d5-911f" targetId="44f7-7c8e-4426-1a14" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="625f-8866-2214-0808" targetId="451ee401-131a-8229-fad9-596146ba8879" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="8a24-c30c-7a30-f1e6" name="Cannon" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="5cab-edca-3831-041f" targetId="d42474b8-78f1-9952-9780-f0a343d0dd32" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f84e-2aa5-ea5d-392e" targetId="05d3294c-8d07-8ed6-49cd-abaac1ff03e5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="3a44-78b0-6212-d040" targetId="d1a0523c-0e00-2b33-7c17-6d29b1c6b25d" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="26ae-f3e8-1d4f-49dd" targetId="934af116-cafd-ef7c-201d-5623ab96162f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="9363-6c6c-9b10-38c8" targetId="7ec9f042-fa75-ea79-4a8a-f78c0044dfc6" linkType="entry">
           <modifiers/>
         </link>
       </links>
