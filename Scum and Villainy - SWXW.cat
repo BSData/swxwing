@@ -3755,7 +3755,7 @@
         </profile>
         <profile id="ba6c-f375-2639-505a" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Cluster Mine Token" hidden="false">
           <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers all damage (hit) rolled. Then discard that token."/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers all damage [hit] rolled. Then discard that token."/>
           </characteristics>
           <modifiers/>
         </profile>

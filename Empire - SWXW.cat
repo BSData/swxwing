@@ -5472,7 +5472,7 @@
         </profile>
         <profile id="b4db-d263-ad95-fa2b" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Cluster Mine Token" hidden="false">
           <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers all damage (hit) rolled. Then discard that token."/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers all damage [hit] rolled. Then discard that token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -7105,6 +7105,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="7fe5-cd9d-af88-3b20" name="Twin Ion Engine Mk. II†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8a7f-3a19-1680-fd79" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Twin Ion Engine Mk. II" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="You may treat all bank maneuvers ([left bank] or [right bank]) as green maneuvers."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3e95-f865-a444-41fa" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7705,6 +7724,9 @@
         <link id="d2ce-8dc2-f69f-32e3" targetId="0b78-9436-56e0-5a8b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="9239-e7ca-5acf-f27d" targetId="7fe5-cd9d-af88-3b20" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7782,6 +7804,9 @@
         <link id="2bb0-b686-59d4-fe57" targetId="0b78-9436-56e0-5a8b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="db37-e302-7a21-623b" targetId="7fe5-cd9d-af88-3b20" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7814,6 +7839,9 @@
           <modifiers/>
         </link>
         <link id="3d8b-1c19-d29a-e3db" targetId="0b78-9436-56e0-5a8b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="56e6-95e1-838d-aca1" targetId="7fe5-cd9d-af88-3b20" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -7853,6 +7881,9 @@
         <link id="5e6b-d3d6-33b2-eca0" targetId="0b78-9436-56e0-5a8b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="2eb5-7ec6-2013-9e27" targetId="7fe5-cd9d-af88-3b20" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="291043c5-bb08-1166-c130-35a071336897" name="Modifications" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7888,6 +7919,9 @@
           <modifiers/>
         </link>
         <link id="712b-15ba-10b9-bbd8" targetId="0b78-9436-56e0-5a8b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7318-e03c-5491-3af2" targetId="7fe5-cd9d-af88-3b20" linkType="entry">
           <modifiers/>
         </link>
       </links>
