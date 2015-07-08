@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="64" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="65" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -5470,6 +5470,12 @@
           </characteristics>
           <modifiers/>
         </profile>
+        <profile id="b4db-d263-ad95-fa2b" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Cluster Mine Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers all damage (hit) rolled. Then discard that token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
       </profiles>
       <links>
         <link id="4124-8431-9261-73ae" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
@@ -5536,6 +5542,31 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="1baa-7e08-ca20-7f0e" name="Conner Net†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="84be-1e79-0d0b-ae47" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Conner Net Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, the ship that moved through or overlapped this token suffers 1 damage, receives 2 ion tokens, and skips its &quot;Perform Action&quot; step. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="fa87-b961-46ea-5cfc" profileTypeId="39426f6d6223232344415441232323" name="Conner Net" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 Conner net token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="69e3-2060-353e-8d46" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="ae4c2862-2ac5-bd6b-9542-517f81922e0e" name="Countermeasures" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -5992,6 +6023,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="8e37-02dc-1411-c82a" name="Ion Bombs†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7b57-ead7-1166-2817" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Ion Bomb Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, each ship at Range 1 of the token receives 2 ion tokens. Then discard this token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4b55-23e7-c4e3-3965" profileTypeId="39426f6d6223232344415441232323" name="Ion Bombs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 ion bomb token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9718-8f61-15c2-0bd1" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="5c66-637a-822c-76cc" name="Ion Cannon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -6209,6 +6265,32 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="ff9c-bfaa-c0a4-48a5" name="Plasma Torpedoes†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="af9b-c233-1b14-4b8e" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" name="Plasma Torpedoes " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4048-7d84-90c9-8c2c" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Plasma Torpedoes" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, after dealing damage, remove 1 shield token from the defender."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3fa3-9538-c28b-6abd" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="92aa-e0d2-fea2-9f9e" name="Predator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -7022,82 +7104,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="ff9c-bfaa-c0a4-48a5" name="Plasma Torpedoes†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="af9b-c233-1b14-4b8e" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" name="Plasma Torpedoes " hidden="false">
-          <characteristics>
-            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2-3"/>
-            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="4"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="4048-7d84-90c9-8c2c" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Plasma Torpedoes" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, after dealing damage, remove 1 shield token from the defender."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="3fa3-9538-c28b-6abd" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8e37-02dc-1411-c82a" name="Ion Bombs†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="7b57-ead7-1166-2817" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Ion Bomb Token" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, each ship at Range 1 of the token receives 2 ion tokens. Then discard this token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="4b55-23e7-c4e3-3965" profileTypeId="39426f6d6223232344415441232323" name="Ion Bombs" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 ion bomb token. This token detonates at the end of the Activation phase."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="9718-8f61-15c2-0bd1" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1baa-7e08-ca20-7f0e" name="Conner Net†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="84be-1e79-0d0b-ae47" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Conner Net Token" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, the ship that moved through or overlapped this token suffers 1 damage, receives 2 ion tokens, and skips its &quot;Perform Action&quot; step. Then discard this token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="fa87-b961-46ea-5cfc" profileTypeId="39426f6d6223232344415441232323" name="Conner Net" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 Conner net token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="69e3-2060-353e-8d46" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>

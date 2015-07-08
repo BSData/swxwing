@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="45" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="46" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot†" points="0.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -3750,6 +3750,12 @@
         <profile id="ebca-e867-7542-9397" profileTypeId="39426f6d6223232344415441232323" name="Cluster Mines" hidden="false">
           <characteristics>
             <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="Action: Discard this card to drop 1 cluster mine token set. When a ship&apos;s base or maneuver template overlaps a cluster mine token, that token detonates."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ba6c-f375-2639-505a" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Cluster Mine Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers all damage (hit) rolled. Then discard that token."/>
           </characteristics>
           <modifiers/>
         </profile>
