@@ -5755,6 +5755,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="c11f-c6b6-90ff-9721" name="Crack Shot†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b756-24b2-ea57-9f82" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Crack Shot" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking a ship inside your firing arc, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="735b-6d52-fddd-e8bd" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f750-c9fa-a782-1ef4" name="Daredevil" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -7311,21 +7330,21 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="c11f-c6b6-90ff-9721" name="Crack Shot†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4a71-5afd-73df-3c5d" name="Ion Projector†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="b756-24b2-ea57-9f82" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Crack Shot" hidden="false">
+        <profile id="c55f-dd84-0967-d30c" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Ion Projector" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking a ship inside your firing arc, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a [hit] or [critical hit] result, the enemy ship receives 1 ion token."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="735b-6d52-fddd-e8bd" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+        <link id="97b6-76e4-0cb3-ba15" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -7992,6 +8011,9 @@
           <modifiers/>
         </link>
         <link id="3a75-d01b-812b-ef8c" targetId="0b78-9436-56e0-5a8b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="958d-8a4c-6996-1b60" targetId="4a71-5afd-73df-3c5d" linkType="entry">
           <modifiers/>
         </link>
       </links>
