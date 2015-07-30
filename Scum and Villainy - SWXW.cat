@@ -5317,6 +5317,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="ee2d-2238-4de4-2fbb" name="Maneuvering Fins†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="22e4-f35c-0264-e859" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Maneuvering Fins" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When you reveal a turn maneuver ([left turn] or [right turn]), you may rotate your dial to the corresponding bank maneuver ([left bank] or [right bank]) of the same speed."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="57cd-d217-666c-d08a" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -5957,6 +5976,9 @@
           <modifiers/>
         </link>
         <link id="5a48-36b3-713d-45fd" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="22f8-a287-0f14-4b80" targetId="ee2d-2238-4de4-2fbb" linkType="entry">
           <modifiers/>
         </link>
       </links>
