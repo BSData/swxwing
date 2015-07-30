@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="66" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="67" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -6637,6 +6637,21 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="41d8-19e1-cb76-dda5" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="729c-6c05-19c5-0cde" profileTypeId="332e30334372657723232344415441232323" name="Tactician" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack against a ship inside your firing arc at Range 2, that ship receives 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="bde29740-52d6-ac5d-b455-acb1b511b181" name="Targeting Computer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -7424,20 +7439,31 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="41d8-19e1-cb76-dda5" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8611-726b-934c-f83b" name="Adv. Homing Missiles†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="729c-6c05-19c5-0cde" profileTypeId="332e30334372657723232344415441232323" name="Tactician" hidden="false">
+        <profile id="c036-cda2-5631-97fb" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Adv. Homing Missiles" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack against a ship inside your firing arc at Range 2, that ship receives 1 stress token."/>
+            <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability" value="Attack (target lock): Discard this card to perform this attack. If this attack hits, deal 1 faceup Damage card to the defender. Then cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8816-86ab-a749-fea7" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="Adv. Homing Missiles " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="58a6-d12e-9341-43ba" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -8186,6 +8212,9 @@
         <link id="14152bf7-9cfe-f656-44cd-f2f392ac048d" targetId="4c1e8575-2cb1-dc71-d01e-a8dfd1a07700" linkType="entry">
           <modifiers/>
         </link>
+        <link id="a25d-3acc-0966-bbbd" targetId="8611-726b-934c-f83b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="c402c4c4-a0ca-77ed-0561-65ee9e567521" name="Missiles" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8209,6 +8238,9 @@
           <modifiers/>
         </link>
         <link id="bb36d04f-b02d-5ce9-81df-26fa43a26bca" targetId="4c1e8575-2cb1-dc71-d01e-a8dfd1a07700" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1cd8-afb9-25bd-ac53" targetId="8611-726b-934c-f83b" linkType="entry">
           <modifiers/>
         </link>
       </links>
