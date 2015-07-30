@@ -4543,6 +4543,25 @@
         </link>
       </links>
     </entry>
+    <entry id="ee2d-2238-4de4-2fbb" name="Maneuvering Fins†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="22e4-f35c-0264-e859" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Maneuvering Fins" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When you reveal a turn maneuver ([left turn] or [right turn]), you may rotate your dial to the corresponding bank maneuver ([left bank] or [right bank]) of the same speed."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="57cd-d217-666c-d08a" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="38e630a6-a3ad-b74c-eba5-81a72d861c1f" name="Marksmanship" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -5317,21 +5336,21 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="ee2d-2238-4de4-2fbb" name="Maneuvering Fins†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4f4d-5299-1a10-9afe" name="Crack Shot†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="22e4-f35c-0264-e859" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Maneuvering Fins" hidden="false">
+        <profile id="8c95-3f23-0f70-927f" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Crack Shot" hidden="false">
           <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When you reveal a turn maneuver ([left turn] or [right turn]), you may rotate your dial to the corresponding bank maneuver ([left bank] or [right bank]) of the same speed."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking a ship inside your firing arc, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="57cd-d217-666c-d08a" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+        <link id="ca5a-2470-59ca-5f1f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -5649,6 +5668,9 @@
         <link id="cbcc-9636-d8bb-77cc" targetId="0c47-a4a7-b0b7-62e4" linkType="entry">
           <modifiers/>
         </link>
+        <link id="1c12-387b-338d-89a7" targetId="4f4d-5299-1a10-9afe" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="6c29-e554-71ed-ed9e" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5723,6 +5745,9 @@
           <modifiers/>
         </link>
         <link id="625f-8866-2214-0808" targetId="451ee401-131a-8229-fad9-596146ba8879" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="50fd-8542-1ed8-853d" targetId="4f4d-5299-1a10-9afe" linkType="entry">
           <modifiers/>
         </link>
       </links>

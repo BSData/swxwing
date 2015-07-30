@@ -5390,6 +5390,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="644a-5365-e592-da41" name="Adv. Homing Missiles†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4ce2-7616-98ec-4418" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="Adv. Homing Missiles " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="bfb4-b915-e28d-4d70" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Adv. Homing Missiles" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability" value="Attack (target lock): Discard this card to perform this attack. If this attack hits, deal 1 faceup Damage card to the defender. Then cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a2b7-1015-dea0-1388" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="cf0df15b-cb79-2387-6bd1-eadf3b5288c0" name="Adv. Proton Torpedoes" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -7285,28 +7311,21 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="644a-5365-e592-da41" name="Adv. Homing Missiles†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c11f-c6b6-90ff-9721" name="Crack Shot†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="4ce2-7616-98ec-4418" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="Adv. Homing Missiles " hidden="false">
+        <profile id="b756-24b2-ea57-9f82" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Crack Shot" hidden="false">
           <characteristics>
-            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="2"/>
-            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="bfb4-b915-e28d-4d70" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Adv. Homing Missiles" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability" value="Attack (target lock): Discard this card to perform this attack. If this attack hits, deal 1 faceup Damage card to the defender. Then cancel all dice results."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking a ship inside your firing arc, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="a2b7-1015-dea0-1388" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+        <link id="735b-6d52-fddd-e8bd" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -7685,6 +7704,9 @@
         <link id="4cd4-2d75-4c5a-5b6b" targetId="afd6-52c5-2393-0d84" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3fbf-2b65-5cb4-2fed" targetId="c11f-c6b6-90ff-9721" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="a110-9472-9df0-2c9b" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7759,6 +7781,9 @@
           <modifiers/>
         </link>
         <link id="cf0d-6253-717a-ee5b" targetId="0544-0795-dd90-c08d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5042-083c-3cca-a5b2" targetId="c11f-c6b6-90ff-9721" linkType="entry">
           <modifiers/>
         </link>
       </links>
