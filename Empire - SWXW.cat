@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="67" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="68" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -285,7 +285,7 @@
         </link>
       </links>
     </entry>
-    <entry id="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" name="PS 2 - Omicron Group Pilot" points="21.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" name="PS 2 - Omicron Group Pilot" points="21.0" categoryId="475f-be18-84aa-ca49" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="16db90c9-cf2c-ecef-77c3-94d5c6ed58e2" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -614,7 +614,7 @@
         </link>
       </links>
     </entry>
-    <entry id="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" name="PS 3 - Bounty Hunter" points="33.0" categoryId="83d597a7-e33a-db41-78eb-773f8f3a972a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="cb49d5f4-66c3-5372-2ada-56b35a6e5c52" name="PS 3 - Bounty Hunter" points="33.0" categoryId="e101-de50-f929-d42c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="924bec6f-53a5-95e2-bad4-8ead681a7587" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -880,7 +880,7 @@
         </link>
       </links>
     </entry>
-    <entry id="1fe4044f-0471-ba7f-2512-d4687db16750" name="PS 3 - Patrol Leader" points="40.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1fe4044f-0471-ba7f-2512-d4687db16750" name="PS 3 - Patrol Leader" points="40.0" categoryId="de9b-9f09-9046-1d04" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="4d70368c-bf98-20ea-d447-cb072120a486" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1388,7 +1388,7 @@
         </link>
       </links>
     </entry>
-    <entry id="235c-8fbf-9af6-2fc4" name="PS 4 - Raider-class Corvette†" points="0.0" categoryId="3a86-50f7-ddea-720c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="235c-8fbf-9af6-2fc4" name="PS 4 - Raider-class Corvette†" points="0.0" categoryId="dd7a-8997-0ba4-d8f6" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="2ea0-8372-8f4c-7e54" name="Raider-class Corv. (Aft)†" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1704,7 +1704,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ffb872cd-4c4e-8ded-51ce-e32ccf707939" name="PS 4 - •Captain Oicunn" points="42.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ffb872cd-4c4e-8ded-51ce-e32ccf707939" name="PS 4 - •Captain Oicunn" points="42.0" categoryId="de9b-9f09-9046-1d04" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="c41b3e05-492a-9056-ccb6-df04798a8a62" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1808,7 +1808,7 @@
         </link>
       </links>
     </entry>
-    <entry id="fba2f951-a380-cabe-f9e3-66f123127891" name="PS 4 - •Captain Yorr" points="24.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="fba2f951-a380-cabe-f9e3-66f123127891" name="PS 4 - •Captain Yorr" points="24.0" categoryId="475f-be18-84aa-ca49" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="db01be99-17df-3585-e250-7259b362797f" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2357,7 +2357,7 @@
         </link>
       </links>
     </entry>
-    <entry id="874f40ae-d171-5f27-beac-794042fe1e39" name="PS 5 - •Krassis Trelix" points="36.0" categoryId="83d597a7-e33a-db41-78eb-773f8f3a972a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="874f40ae-d171-5f27-beac-794042fe1e39" name="PS 5 - •Krassis Trelix" points="36.0" categoryId="e101-de50-f929-d42c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="71535bc9-0d52-3cd5-7c2c-8750d7493277" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3096,7 +3096,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7dabb71f-ea3b-bfb7-b868-87493d58dccf" name="PS 6 - •Colonel Jendon" points="26.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="7dabb71f-ea3b-bfb7-b868-87493d58dccf" name="PS 6 - •Colonel Jendon" points="26.0" categoryId="475f-be18-84aa-ca49" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="a64e2945-4e98-4284-3a1c-36ac45c6e4e7" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3277,7 +3277,7 @@
         </link>
       </links>
     </entry>
-    <entry id="f138077d-e39f-faf9-5460-4a44db430cf2" name="PS 6 - •Commander Kenkirk" points="44.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f138077d-e39f-faf9-5460-4a44db430cf2" name="PS 6 - •Commander Kenkirk" points="44.0" categoryId="de9b-9f09-9046-1d04" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="a3c8a967-81c1-b247-7dbc-f96e019da16b" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3854,7 +3854,7 @@
         </link>
       </links>
     </entry>
-    <entry id="37328b3b-ecc8-bb91-8714-af59825dc9a0" name="PS 7 - •Kath Scarlet" points="38.0" categoryId="83d597a7-e33a-db41-78eb-773f8f3a972a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="37328b3b-ecc8-bb91-8714-af59825dc9a0" name="PS 7 - •Kath Scarlet" points="38.0" categoryId="e101-de50-f929-d42c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="caf4d45b-b920-9430-c103-2a55a8d9c842" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4483,7 +4483,7 @@
         </link>
       </links>
     </entry>
-    <entry id="55f108e0-7576-5470-8cbe-b79f6663a5bb" name="PS 8 - •Boba Fett" points="39.0" categoryId="83d597a7-e33a-db41-78eb-773f8f3a972a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="55f108e0-7576-5470-8cbe-b79f6663a5bb" name="PS 8 - •Boba Fett" points="39.0" categoryId="e101-de50-f929-d42c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="aa243daf-4361-67aa-cbe0-66032118012f" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4618,7 +4618,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ba998080-9052-eb99-0e12-d8fc4d8efb98" name="PS 8 - •Captain Kagi" points="27.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="ba998080-9052-eb99-0e12-d8fc4d8efb98" name="PS 8 - •Captain Kagi" points="27.0" categoryId="475f-be18-84aa-ca49" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="abaefb75-60ce-041b-47f8-d4bbd1c6cd4f" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4930,7 +4930,7 @@
         </link>
       </links>
     </entry>
-    <entry id="664786ed-de17-e3be-19f1-f03d981e86f8" name="PS 8 - •Rear Admiral Chiraneau" points="46.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="664786ed-de17-e3be-19f1-f03d981e86f8" name="PS 8 - •Rear Admiral Chiraneau" points="46.0" categoryId="de9b-9f09-9046-1d04" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="ec53d6ac-d72f-172b-cd75-0d6eec8ba3f1" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6288,6 +6288,25 @@
         </link>
       </links>
     </entry>
+    <entry id="4a71-5afd-73df-3c5d" name="Ion Projector†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c55f-dd84-0967-d30c" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Ion Projector" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a [hit] or [critical hit] result, the enemy ship receives 1 ion token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="97b6-76e4-0cb3-ba15" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="ba87cb5a-b645-753c-f75c-6eda161e6a06" name="Ion Pulse Missiles" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -7329,25 +7348,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="4a71-5afd-73df-3c5d" name="Ion Projector†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c55f-dd84-0967-d30c" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Ion Projector" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a [hit] or [critical hit] result, the enemy ship receives 1 ion token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="97b6-76e4-0cb3-ba15" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
