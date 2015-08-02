@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="53" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="54" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum and Villainy" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot†" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -5326,6 +5326,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="2ab1-aac7-17cb-c082" name="Tractor Beam†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2820-4b14-1ddc-fc34" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Tractor Beam " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e6f4-f47f-6fe0-bba6" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Tractor Beam" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender receives 1 tractor beam token. Then cancel all dice results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a3c1-9a55-ee9c-79de" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7a63-a9d5-7b48-1d4d" name="Twin Laser Turret†" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -5675,28 +5701,28 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="2ab1-aac7-17cb-c082" name="Tractor Beam†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a02a-e386-586f-f022" name="XX-23 S-Thread Tracers†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2820-4b14-1ddc-fc34" profileTypeId="313043616e6e6f6e7323232344415441232323" name="Tractor Beam " hidden="false">
+        <profile id="e399-d6bb-d774-dd23" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" name="XX-23 S-Thread Tracers " hidden="false">
           <characteristics>
             <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-3"/>
             <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="3"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="e6f4-f47f-6fe0-bba6" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" name="Tractor Beam" hidden="false">
+        <profile id="64e5-f712-0b67-6920" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" name="XX-23 S-Thread Tracers" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43616e6e6f6e204162696c69747923232344415441232323" name="Cannon Ability" value="Attack: Attack 1 ship. If this attack hits, the defender receives 1 tractor beam token. Then cancel all dice results."/>
+            <characteristic characteristicId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" name="Missiles Ability" value="Attack (focus): Discard this card to perform this attack. If this attack hits, each friendly ship at Range 1-2 of you may acquire a target lock on the defender. Then cancel all dice results."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="a3c1-9a55-ee9c-79de" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+        <link id="c82a-cdad-222e-7c0e" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -5763,6 +5789,9 @@
           <modifiers/>
         </link>
         <link id="8699-7544-d405-2109" targetId="2ab1-aac7-17cb-c082" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c790-02a8-440a-2532" targetId="a02a-e386-586f-f022" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -6178,6 +6207,9 @@
           <modifiers/>
         </link>
         <link id="bbf2-d8e3-6193-0855" targetId="592c-ceb7-67ad-0203" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="003c-bce7-a8d3-ddf9" targetId="a02a-e386-586f-f022" linkType="entry">
           <modifiers/>
         </link>
       </links>
