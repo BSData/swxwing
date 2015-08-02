@@ -5509,6 +5509,71 @@
         </link>
       </links>
     </entry>
+    <entry id="7750-719e-945a-891e" name="PS 2 - Gozanti-class Cruiser†" points="40.0" categoryId="dd7a-8997-0ba4-d8f6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5d0d-11eb-9171-c2ab" profileTypeId="00cb6ab5-6bfa-0854-5849-f0149f71bc90" name="Gozanti-class Cruiser" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f5301fdb-8a00-84c5-0ea6-c09c828cc617" name="Pilot Skill" value="2"/>
+            <characteristic characteristicId="10285ec3-de2a-0880-45cc-46ceeed43dee" name="Primary Weapon" value=""/>
+            <characteristic characteristicId="d8bffd2a-dbed-fab5-8c95-cd05842a3992" name="Energy Limit" value="4"/>
+            <characteristic characteristicId="cd566978-1c76-26ce-ee14-45a97972c436" name="Agility" value="0"/>
+            <characteristic characteristicId="dcdbaa57-cf03-7585-d0c0-404b34db4f0b" name="Hull" value="9"/>
+            <characteristic characteristicId="fcc41ce1-296c-ecd2-a2c5-ac1daf9423f6" name="Shields" value="5"/>
+            <characteristic characteristicId="55f10216-1b9e-b207-f867-d3bce45de89b" name="Upgrade Bar" value="Crew x2, Hardpoint, Team, Cargo x2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b5e5-5199-5597-29f8" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Gozanti-class Cruiser" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="After you execute a maneuver, you may deploy up to 2 docked ships."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e377-4b58-db7d-0532" targetId="a82a-d259-a6aa-1755" linkType="entry group">
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7750-719e-945a-891e" childId="2c93-2bb4-3020-79c8" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="ec65-3c8b-8a77-b9b6" targetId="19fafa04-c2e0-a946-03f5-f19a76eaf5f4" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6be0-d6b8-84f9-2cb5" targetId="d4d8-696a-ac4b-de9c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="9a71-c6ad-d674-ad9a" targetId="9b3d-21ba-51e0-a803" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="edb7-305a-e3a9-6c75" targetId="bde6-6ef2-b627-e283" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e723-3d50-a808-1114" targetId="7a65-6cb0-55c8-f173" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="444d-49e4-e171-7e07" targetId="003a-1fc2-4d75-f46d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0fea-4858-6bf0-d82b" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="20c0-6896-fc83-c857" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="362f-1a5f-3122-c5a0" targetId="9129-cd9f-120a-13e2" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -9013,6 +9078,15 @@
     <profile id="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" profileTypeId="a285251b-01f4-7499-3b4d-39a062b4d963" name="† - Unreleased" hidden="false">
       <characteristics>
         <characteristic characteristicId="7ba819ca-effa-8c45-5542-10f769608bbc" name="Symbol Key" value="Cards marked with a dagger symbol (†) have not been officially released by Fantasy Flight Games. This information is based on official Fantasy Flight spoiler articles or early releases of product at tournaments or conventions. Cards maked with the dagger symbol may not have their final official text, are subject to change, and are generally not legal for tournament play."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9129-cd9f-120a-13e2" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Gozanti-class Cruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Huge"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="None"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="Yes"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points" value="2"/>
       </characteristics>
       <modifiers/>
     </profile>
