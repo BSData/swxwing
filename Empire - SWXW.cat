@@ -7603,6 +7603,25 @@
         </link>
       </links>
     </entry>
+    <entry id="7d26-1be6-cc57-6ad6" name="Shield Technician†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4034-03d6-1587-ca3b" profileTypeId="332e30334372657723232344415441232323" name="Shield Technician" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you perform a recover action, instead of spending all of your energy, you can choose any amount of energy to spend."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="55ea-2541-81f3-42a6" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7838,6 +7857,9 @@
           <modifiers/>
         </link>
         <link id="a916-c00c-5535-9e93" targetId="2c93-2bb4-3020-79c8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9946-0e55-8012-2562" targetId="7d26-1be6-cc57-6ad6" linkType="entry">
           <modifiers/>
         </link>
       </links>

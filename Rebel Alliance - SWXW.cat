@@ -7586,6 +7586,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="5666-dcf8-509e-5e8b" name="Shield Technician†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="dca4-8dd8-a8de-6927" profileTypeId="332e30334372657723232344415441232323" name="Shield Technician" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you perform a recover action, instead of spending all of your energy, you can choose any amount of energy to spend."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="51a0-849e-5e3d-08f8" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7976,6 +7995,9 @@
         <link id="21f4-09ad-1455-e4de" targetId="d310-25ae-4f2e-d588" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3ee1-42c0-c037-f5fe" targetId="5666-dcf8-509e-5e8b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="cde72115-f886-0ac2-8687-18a412900249" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8062,6 +8084,9 @@
           <modifiers/>
         </link>
         <link id="d3bb-4e48-761d-e493" targetId="d310-25ae-4f2e-d588" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="71ad-486c-83ee-e55d" targetId="5666-dcf8-509e-5e8b" linkType="entry">
           <modifiers/>
         </link>
       </links>
