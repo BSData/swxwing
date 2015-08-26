@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="71" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="72" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -286,6 +286,73 @@
           </modifiers>
         </link>
         <link id="81981b45-5452-8103-5285-d617c311f0cc" targetId="6dedcf14-27b9-c2b5-40f5-df73957310c6" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6c6c-e98e-f958-2a7e" name="PS 2 - Blue Squadron Novice†" points="24.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6d80-edfc-8530-0b25" profileTypeId="31536869707323232344415441232323" name="Blue Squadron Novice" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="2"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="3"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Torpedoes, Astromech, Tech"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6c6c-e98e-f958-2a7e" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6c6c-e98e-f958-2a7e" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6c6c-e98e-f958-2a7e" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1727-01da-45db-088b" targetId="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="f83d-a0bf-3120-ae2d" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3bdd-c84b-fbde-78d3" targetId="78fd6480-0f7c-ffb0-e00b-87196180eb88" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8c78-37d4-646c-6712" targetId="4800-77ea-d0cb-6ae5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="28d0-2d37-10a6-b55a" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6802-56bb-e30a-5254" targetId="4d3b6152-b4cc-81df-2cb7-702429221084" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d4e7-558d-d3cb-ce11" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8f08-f5e4-f350-49c4" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d25c-738d-0e31-3c8d" targetId="c464-c2ee-9859-5e19" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -1996,6 +2063,82 @@
         </link>
       </links>
     </entry>
+    <entry id="b4bc-085a-7279-1d03" name="PS 4 - Red Squadron Veteran†" points="26.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a3db-8768-8b37-0d8b" profileTypeId="31536869707323232344415441232323" name="Red Squadron Veteran" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="4"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="3"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Torpedoes, Astromech, Tech"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b4bc-085a-7279-1d03" childId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b4bc-085a-7279-1d03" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b4bc-085a-7279-1d03" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b4bc-085a-7279-1d03" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3402-449f-8a02-06a9" targetId="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c3b9-1bb4-7614-2b4d" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="e3aa-ddd5-f265-6f6f" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7b6c-0127-b710-7b05" targetId="78fd6480-0f7c-ffb0-e00b-87196180eb88" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="368a-201f-c603-3e4a" targetId="4800-77ea-d0cb-6ae5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="86f3-2034-0084-5b14" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="7519-9561-ebd2-05da" targetId="4d3b6152-b4cc-81df-2cb7-702429221084" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="444e-2af1-db08-960d" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4b41-f2cd-75e1-da09" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2709-bfc8-d72d-5254" targetId="c464-c2ee-9859-5e19" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8ee6299d-6b09-1c99-eb0d-7ceeb6287f73" name="PS 4 - Tala Squadron Pilot" points="13.0" categoryId="83d597a7-e33a-db41-78eb-773f8f3a972a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -2244,6 +2387,101 @@
           </modifiers>
         </link>
         <link id="d65a2285-a6dc-0c27-4b77-8196635e2ff8" targetId="857a64f1-695d-c79c-907b-bc6dd73148fe" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7e78-293f-8e30-a858" name="PS 5 - •&quot;Blue Ace&quot;†" points="27.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6d27-5b74-40db-d7f6" profileTypeId="31536869707323232344415441232323" name="•&quot;Blue Ace&quot;" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="3"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Torpedoes, Astromech, Tech"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Torpedoes, Astromech, Tech" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7e78-293f-8e30-a858" childId="34fc6417-ef00-4054-1f58-77456a225f53" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7e78-293f-8e30-a858" childId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7e78-293f-8e30-a858" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7e78-293f-8e30-a858" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7e78-293f-8e30-a858" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="fe17-5411-7701-6bae" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Blue Ace&quot;" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When performing a boost action, you may use the [left turn 1] or [right turn 1] template."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fe40-fa0a-9066-015e" targetId="4093e9ca-4779-a09e-e575-db3887586679" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b8e2-2584-f915-6253" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7e78-293f-8e30-a858" childId="34fc6417-ef00-4054-1f58-77456a225f53" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="857b-72e7-bcd0-1d39" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3722-02c4-f5b0-1d04" targetId="78fd6480-0f7c-ffb0-e00b-87196180eb88" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="f66d-190f-d512-1cf6" targetId="4800-77ea-d0cb-6ae5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6081-b462-e6c5-40f2" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6306-64ce-38db-eb7b" targetId="4d3b6152-b4cc-81df-2cb7-702429221084" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2275-6ece-f1b9-878b" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b5fd-3307-a00f-3547" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c67d-05ae-17fb-8a72" targetId="c464-c2ee-9859-5e19" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -5022,6 +5260,88 @@
         </link>
       </links>
     </entry>
+    <entry id="a8fa-a12f-00a0-4536" name="PS 8 - •Poe Dameron†" points="31.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5fd2-ac3e-9e47-64d1" profileTypeId="31536869707323232344415441232323" name="•Poe Dameron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="8"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="3"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="3"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Torpedoes, Astromech, Tech"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a8fa-a12f-00a0-4536" childId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a8fa-a12f-00a0-4536" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a8fa-a12f-00a0-4536" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a8fa-a12f-00a0-4536" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="45b2-dc86-b3db-fadb" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Poe Dameron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking or defending, if you have a focus token, you may change 1 of your [focus] results to a [hit] or [evade] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9099-9a53-c95b-cc47" targetId="78fd6480-0f7c-ffb0-e00b-87196180eb88" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="1671-2d50-149b-a825" targetId="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="2c3f-28b4-316a-7db4" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="f100-8b65-9892-5b5b" targetId="2a7cad6e-d9fd-31cd-a70b-5a21a6c91b32" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="08b4-23e1-9f1d-96e7" targetId="4d3b6152-b4cc-81df-2cb7-702429221084" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7ca3-bff0-67e0-413c" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ed8d-e73a-8c8a-ba00" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3cf5-b86e-314c-8b79" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="bd00-8cd6-f355-e1cb" targetId="4800-77ea-d0cb-6ae5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="11ab-7476-b7b0-fec6" targetId="c464-c2ee-9859-5e19" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="e1d35b7f-fede-c293-2d34-9fa5a82444b9" name="PS 8 - •Ten Numb" points="31.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -7430,6 +7750,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="3da0-a6a7-d4b8-42d0" name="Weapons Guidance†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fd30-403c-b383-09ee" profileTypeId="c9e2-1064-13c6-2ead" name="Weapons Guidance" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="When attacking, you may spend a focus token to change 1 of your blank results to a [hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2c92-ffd6-d508-2134" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="b9faa60b-7cbc-8e5e-4011-3459cd15a3bc" name="WED-15 Repair Droid" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -7459,6 +7798,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="e6d6-c23f-47bb-2f76" name="Wired†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2394-de00-2c54-cdfc" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Wired" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if you are stressed, you may reroll 1 or more of your [focus] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3e6d-3c72-44bc-bc71" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="9f56-aa9a-9b35-4c7d" name="XX-23 S-Thread Tracers†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -7507,6 +7865,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="7633-f1e6-bd1b-57f6" name="•BB-8†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4620-fd01-4cbf-af20" profileTypeId="332e34417374726f6d65636823232344415441232323" name="BB-8" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="When you reveal a green maneuver, you may perform a free barrel roll action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2808-67cb-7b15-2e6f" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="12f45c62-9cea-6248-71a9-b219196fdd5a" name="•Bright Hope" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -8079,6 +8456,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="444c-e678-e29d-5869" name="•R5-X3†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9cb0-c2cc-7014-4be6" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R5-X3" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="Before you reveal your maneuver, you may discard this card to ignore obstacles until the end of the round."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6d5c-6a5a-d71d-7c16" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="ab627952-8cc0-8695-a767-0d98bed4d9a6" name="•R7-T1" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -8195,6 +8591,12 @@
         <link id="594d0461-96ff-4d94-c49a-209cf2a17054" targetId="1022cb37-e0eb-bdee-5235-d221137b7e14" linkType="entry">
           <modifiers/>
         </link>
+        <link id="75f6-cd9f-e596-a1e2" targetId="7633-f1e6-bd1b-57f6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c810-fd9a-29d0-4126" targetId="444c-e678-e29d-5869" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="4093e9ca-4779-a09e-e575-db3887586679" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8236,6 +8638,12 @@
           <modifiers/>
         </link>
         <link id="93167d31-b64b-fbeb-fc5b-f1beb460d7dc" targetId="1022cb37-e0eb-bdee-5235-d221137b7e14" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d5e5-05c4-261f-3650" targetId="7633-f1e6-bd1b-57f6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f263-9f24-a112-2aeb" targetId="444c-e678-e29d-5869" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8797,6 +9205,9 @@
         <link id="db60-20a0-5a59-37fa" targetId="bbaa-037a-1a70-2b1c" linkType="entry">
           <modifiers/>
         </link>
+        <link id="443d-bd29-5a79-9879" targetId="e6d6-c23f-47bb-2f76" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="f01d-656f-5b3a-cc44" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8871,6 +9282,9 @@
           <modifiers/>
         </link>
         <link id="d7f6-0522-ad1b-c839" targetId="bbaa-037a-1a70-2b1c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4244-e9bc-d54c-f53d" targetId="e6d6-c23f-47bb-2f76" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -9182,6 +9596,16 @@
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="c464-c2ee-9859-5e19" name="Tech" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="4b7a-c0c0-ea5f-5c0b" targetId="3da0-a6a7-d4b8-42d0" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
     <entryGroup id="78fd6480-0f7c-ffb0-e00b-87196180eb88" name="Torpedoes" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -9427,6 +9851,15 @@
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
         <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4800-77ea-d0cb-6ae5" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="T-70 X-Wing" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
