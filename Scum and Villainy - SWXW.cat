@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="56" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="57" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -63,7 +63,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -203,7 +203,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Turret, Crew, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Turret, Crew, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -274,7 +274,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -546,7 +546,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="6"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Missiles, Crew x3, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Missiles, Crew x3, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -620,7 +620,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -760,7 +760,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Turret, Crew, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Turret, Crew, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -935,7 +935,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -1026,16 +1026,16 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Cannon, Bomb, Crew, Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Cannon, Bomb, Crew, Missiles, Illicit"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb, Crew, Torpedoes, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb, Crew, Torpedoes, Missiles, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="1f389646-9042-f81d-5492-19f56cdbed71" childId="660f5eb3-2c26-35b5-96e1-4d030768dd0a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb x3, Crew, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x3, Crew, Missiles, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="1f389646-9042-f81d-5492-19f56cdbed71" childId="291f5d87-45a8-29f3-0e55-73b17728ec77" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -1155,7 +1155,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -1182,7 +1182,7 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon/Torpedoes/Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon/Torpedoes/Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="5f50-4f64-a336-474b" childId="25388210-d54c-2746-788e-132f71d6837b" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -1363,10 +1363,10 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Torpedoes"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Torpedoes"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Sensors, Torpedoes, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, System, Torpedoes, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="119f5172-686e-5da6-3fe8-9bd53995ae68" childId="2039ad7f-ef65-a658-0a7c-802066ea0971" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -1465,7 +1465,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -1559,7 +1559,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="6"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Missiles, Crew x3, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Missiles, Crew x3, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -1650,7 +1650,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Turret, Crew, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Turret, Crew, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -1750,7 +1750,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Bomb, Crew, Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Bomb, Crew, Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -1771,13 +1771,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Bomb, Crew, Torpedoes, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Bomb, Crew, Torpedoes, Missiles, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="b93b624b-5771-669e-0844-96ed00099aec" childId="660f5eb3-2c26-35b5-96e1-4d030768dd0a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Bomb x3, Crew, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Bomb x3, Crew, Missiles, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="b93b624b-5771-669e-0844-96ed00099aec" childId="291f5d87-45a8-29f3-0e55-73b17728ec77" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -1865,7 +1865,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -1956,7 +1956,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Sensors, Cannon x2, Bomb, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, System, Cannon x2, Bomb, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2052,7 +2052,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Sensors, Cannon x2, Bomb, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, System, Cannon x2, Bomb, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2148,7 +2148,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Sensors, Cannon x2, Bomb, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, System, Cannon x2, Bomb, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2238,7 +2238,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Sensors, Cannon x2, Bomb, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, System, Cannon x2, Bomb, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2441,7 +2441,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="6"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Missiles, Crew x3, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Cannon, Missiles, Crew x3, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2526,7 +2526,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="6"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Cannon, Missiles, Crew x3, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Cannon, Missiles, Crew x3, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2626,7 +2626,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Turret, Crew, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Turret, Crew, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2726,16 +2726,16 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Cannon, Bomb, Crew, Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Cannon, Bomb, Crew, Missiles, Illicit"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb, Crew, Torpedoes, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb, Crew, Torpedoes, Missiles, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="75bead11-eccf-0c6e-02c9-c03e5a4797c3" childId="660f5eb3-2c26-35b5-96e1-4d030768dd0a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb x3, Crew, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x3, Crew, Missiles, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="75bead11-eccf-0c6e-02c9-c03e5a4797c3" childId="291f5d87-45a8-29f3-0e55-73b17728ec77" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -2861,7 +2861,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="3"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Turret, Torpedoes x2, Salvaged Astromech"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Turret, Torpedoes x2, Salvaged Astromech"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2888,7 +2888,7 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Turret, Torpedoes x2, Salvaged Astromech, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Turret, Torpedoes x2, Salvaged Astromech, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="64ed35b7-d8ff-d440-3aeb-e7e956fd613f" childId="d042b830-a325-fe39-2e65-2333f51d5bb3" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -2963,7 +2963,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3057,7 +3057,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Torpedoes"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Torpedoes"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3066,7 +3066,7 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Sensors, Torpedoes, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, System, Torpedoes, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="79f00a18-a8af-ec3c-f807-286c21af23a0" childId="2039ad7f-ef65-a658-0a7c-802066ea0971" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -3193,7 +3193,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Crew, Sensors, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Crew, System, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3309,7 +3309,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="6"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Cannon, Bomb, Crew, Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Cannon, Bomb, Crew, Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3318,7 +3318,7 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb, Crew, Torpedoes, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb, Crew, Torpedoes, Missiles, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="660f5eb3-2c26-35b5-96e1-4d030768dd0a" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -3342,7 +3342,7 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon, Bomb x3, Crew, Missiles, Illicit Upgrade" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x3, Crew, Missiles, Illicit" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="38436adf-0540-8e9e-ef6e-28ac888bacb2" childId="291f5d87-45a8-29f3-0e55-73b17728ec77" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -3444,7 +3444,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="3"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3453,7 +3453,7 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite Pilot Talent, Cannon/Torpedoes/Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon/Torpedoes/Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="c6bb0ed7-0c44-d84f-e311-94343ddc34dd" childId="25388210-d54c-2746-788e-132f71d6837b" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -3554,7 +3554,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="5"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Torpedoes x2, Crew, Salvaged Astromech, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Torpedoes x2, Crew, Salvaged Astromech, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3655,7 +3655,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="1"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite Pilot Talent, Missiles, Illicit Upgrade"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Missiles, Illicit"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3752,7 +3752,7 @@
       <profiles>
         <profile id="d1e42c2b-61c9-0d60-9734-a4f2a560d65f" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="&quot;Hot Shot&quot; Blaster" hidden="false">
           <characteristics>
-            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="Attack: Discard this card to attack 1 ship (even a ship outside your firing arc)."/>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Attack: Discard this card to attack 1 ship (even a ship outside your firing arc)."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3796,7 +3796,7 @@
       <profiles>
         <profile id="3a793427-8b69-24f3-b136-d354ee456458" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Accuracy Corrector" hidden="false">
           <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When attacking, during the &quot;Modify Attack Dice&quot; step, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="System Ability" value="When attacking, during the &quot;Modify Attack Dice&quot; step, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3811,7 +3811,7 @@
       <profiles>
         <profile id="f4efae92-d3af-54f4-199b-aa38e677ed34" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Adrenaline Rush" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3870,7 +3870,7 @@
       <profiles>
         <profile id="40aa0361-eb14-c0c9-8a5f-3aef3c065f7d" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Advanced Sensors" hidden="false">
           <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="System Ability" value="Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4063,7 +4063,7 @@
       <profiles>
         <profile id="0555-342c-65c5-e742" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Calculation" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, you may spend a focus token to change 1 of your [focus] results to a [critical hit] result."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking, you may spend a focus token to change 1 of your [focus] results to a [critical hit] result."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4179,7 +4179,7 @@
       <profiles>
         <profile id="8c95-3f23-0f70-927f" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Crack Shot" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking a ship inside your firing arc, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking a ship inside your firing arc, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4194,7 +4194,7 @@
       <profiles>
         <profile id="24586e97-0997-5df7-45a6-a9e3803418e5" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Daredevil" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Execute a white [left turn 1] or [right turn 1] maneuver. Then, receive one stress token. Then, if you do not have the Boost action icon, roll 2 attack dice. Suffer any damage [hit] and critical damage [critical hit] rolled."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Action: Execute a white [left turn 1] or [right turn 1] maneuver. Then, receive one stress token. Then, if you do not have the Boost action icon, roll 2 attack dice. Suffer any damage [hit] and critical damage [critical] rolled."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4209,7 +4209,7 @@
       <profiles>
         <profile id="e0c94072-a556-0914-8b9c-e36446df57f9" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Dead Man&apos;s Switch" hidden="false">
           <characteristics>
-            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="When you are destroyed, each ship at Range 1 suffers 1 damage."/>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="When you are destroyed, each ship at Range 1 suffers 1 damage."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4224,7 +4224,7 @@
       <profiles>
         <profile id="27cb8e33-d0bc-a52e-9f02-49cd6f120fdd" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Deadeye" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="You may treat the &quot;Attack (target lock):&quot; header as &quot;Attack (focus):.&quot;  When an attack instructs you to spend a target lock, you may spend a focus token instead."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="You may treat the &quot;Attack (target lock):&quot; header as &quot;Attack (focus):.&quot;  When an attack instructs you to spend a target lock, you may spend a focus token instead."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4239,7 +4239,7 @@
       <profiles>
         <profile id="239ed4e6-ee86-d06a-e714-896889f43ef7" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Decoy" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2. Exchange your pilot skill with that ship&apos;s pilot skill until the end of the phase."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2. Exchange your pilot skill with that ship&apos;s pilot skill until the end of the phase."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4254,7 +4254,7 @@
       <profiles>
         <profile id="99e75790-1127-0962-679b-5a71d212abb0" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Determination" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you are dealt a faceup Damage card with the Pilot trait, discard it immediately without resolving its effect."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When you are dealt a faceup Damage card with the Pilot trait, discard it immediately without resolving its effect."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4269,7 +4269,7 @@
       <profiles>
         <profile id="e59fed78-5be8-d4d8-cd28-5dabdce457cf" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Draw Their Fire" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncancelled [critical hit] results instead of the target ship."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncancelled [critical hit] results instead of the target ship."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4284,7 +4284,7 @@
       <profiles>
         <profile id="9e245bd9-227d-5d13-0057-865e42d66133" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Elusiveness" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When defending, you may receive 1 stress token to choose 1 attack die. The attacker must reroll that die. If you have at least 1 stress token, you cannot use this ability."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When defending, you may receive 1 stress token to choose 1 attack die. The attacker must reroll that die. If you have at least 1 stress token, you cannot use this ability."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4314,7 +4314,7 @@
       <profiles>
         <profile id="bebcfbdf-acb3-3abd-2b50-083e2cfe0970" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Enhanced Scopes" hidden="false">
           <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="During the Activation phase, treat your pilot skill value as &quot;0.&quot;"/>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="System Ability" value="During the Activation phase, treat your pilot skill value as &quot;0.&quot;"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4329,7 +4329,7 @@
       <profiles>
         <profile id="de28b3e2-73d1-63e9-a68a-8cefa945e35a" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Expert Handling" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Perform a free barrel roll action. If you do not have the [barrel roll] action icon, receive 1 stress token. You may then remove 1 enemy target lock token from your ship."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Action: Perform a free barrel roll action. If you do not have the [barrel roll] action icon, receive 1 stress token. You may then remove 1 enemy target lock token from your ship."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4344,7 +4344,7 @@
       <profiles>
         <profile id="bb641a40-4363-b8d8-d026-b5ee3f2c8c66" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Expose" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Until the end of the round, increase your primary weapon value by 1 and decrease your agility by 1."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Action: Until the end of the round, increase your primary weapon value by 1 and decrease your agility by 1."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4374,7 +4374,7 @@
       <profiles>
         <profile id="f943128c-5240-1ae4-889a-7a97bc00e642" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Feedback Array" hidden="false">
           <characteristics>
-            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="During the Combat phase, instead of performing any attacks, you may receive 1 ion token and suffer 1 damage to choose 1 enemy ship at Range 1. That ship suffers 1 damage."/>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="During the Combat phase, instead of performing any attacks, you may receive 1 ion token and suffer 1 damage to choose 1 enemy ship at Range 1. That ship suffers 1 damage."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4389,7 +4389,7 @@
       <profiles>
         <profile id="8940c4fd-7e96-9117-1247-0a55e53b849f" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Fire-Control System" hidden="false">
           <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="After you perform an attack, you may acquire a target lock on the defender."/>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="System Ability" value="After you perform an attack, you may acquire a target lock on the defender."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4463,7 +4463,7 @@
       <profiles>
         <profile id="561a-5496-73f7-c9fc" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Glitterstim" hidden="false">
           <characteristics>
-            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="At the start of the Combat phase, you may discard this card and receive 1 stress token. If you do, until the end of the round, when attacking or defending, you may change all of your [focus] results to [hit] or [evade] results."/>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="At the start of the Combat phase, you may discard this card and receive 1 stress token. If you do, until the end of the round, when attacking or defending, you may change all of your [focus] results to [hit] or [evade] results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4567,7 +4567,7 @@
       <profiles>
         <profile id="9a5841b0-1052-974d-a477-7fe3f57153b8" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Inertial Dampeners" hidden="false">
           <characteristics>
-            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="When you reveal your maneuver, you may discard this card to instead perform a white [stationary 0] maneuver. Then receive 1 stress token."/>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="When you reveal your maneuver, you may discard this card to instead perform a white [stationary 0] maneuver. Then receive 1 stress token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4597,7 +4597,7 @@
       <profiles>
         <profile id="3173e8cd-bc7c-5c04-f0c2-d25872dc3f64" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Intimidation" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="While you are touching an enemy ship, reduce that ship&apos;s agility value by 1."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="While you are touching an enemy ship, reduce that ship&apos;s agility value by 1."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4751,7 +4751,7 @@
       <profiles>
         <profile id="f34a-1f9b-4ff1-e2c1" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lightning Reflexes" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="After you execute a white or green maneuver on your dial, you may discard this card to rotate your ship 180°. Then receive 1 stress token after the &quot;Check Pilot Stress&quot; step."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="After you execute a white or green maneuver on your dial, you may discard this card to rotate your ship 180°. Then receive 1 stress token after the &quot;Check Pilot Stress&quot; step."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4781,7 +4781,7 @@
       <profiles>
         <profile id="1028f571-944f-9312-7882-a0ea3ffd9b2a" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Marksmanship" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: When attacking this round, you may change 1 of your [focus] results to a [critical hit] result and all of your other [focus] results to [hit] results."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Action: When attacking this round, you may change 1 of your [focus] results to a [critical hit] result and all of your other [focus] results to [hit] results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4841,7 +4841,7 @@
       <profiles>
         <profile id="c69998cd-4f19-acc7-654b-e8d6277c7d2c" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Opportunist" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, if the defender does not have any focus or evade tokens, you may receive 1 stress token to roll 1 additional attack die. You cannot use this ability if you have any stress tokens."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking, if the defender does not have any focus or evade tokens, you may receive 1 stress token to roll 1 additional attack die. You cannot use this ability if you have any stress tokens."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4871,7 +4871,7 @@
       <profiles>
         <profile id="bcfaf88f-1241-d889-296f-96880a865d51" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Outmaneuver" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking a ship inside your firing arc, if you are not inside that ship&apos;s firing arc, reduce its agility value by 1 (to a minimum of 0)."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking a ship inside your firing arc, if you are not inside that ship&apos;s firing arc, reduce its agility value by 1 (to a minimum of 0)."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4908,7 +4908,7 @@
       <profiles>
         <profile id="d04e0da3-3cd4-e287-d10b-6a7c8c5ec011" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Predator" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking, you may reroll 1 attack die. If the defender&apos;s pilot skill value is &quot;2&quot; or lower, you may instead reroll up to 2 attack dice."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking, you may reroll 1 attack die. If the defender&apos;s pilot skill value is &quot;2&quot; or lower, you may instead reroll up to 2 attack dice."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5009,7 +5009,7 @@
       <profiles>
         <profile id="8fb07704-a98f-17b5-a081-da91132ca1c5" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Push the Limit" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Once per round, after you perform an action, you may perform 1 free action shown in your action bar. Then receive 1 stress token."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Once per round, after you perform an action, you may perform 1 free action shown in your action bar. Then receive 1 stress token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5105,7 +5105,7 @@
       <profiles>
         <profile id="4c8b809b-b2c3-5521-cc68-b60e19acc433" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Sensor Jammer" hidden="false">
           <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="Sensors Ability" value="When defending, you may change 1 of the attacker&apos;s [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="System Ability" value="When defending, you may change 1 of the attacker&apos;s [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5135,7 +5135,7 @@
       <profiles>
         <profile id="fc8c2e39-d5ee-0657-f139-8cda510c905a" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Stay on Target†" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat your maneuver as a red maneuver."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat your maneuver as a red maneuver."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5180,7 +5180,7 @@
       <profiles>
         <profile id="414aaaa4-32f4-2431-4612-b48a509ca20d" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Swarm Tactics" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1. Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1. Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5322,7 +5322,7 @@
       <profiles>
         <profile id="2c3e7109-1310-0cdd-b5dd-db3e1006bb24" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Veteran Instincts" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Increase your pilot skill value by 2."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Increase your pilot skill value by 2."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5352,14 +5352,14 @@
       <profiles>
         <profile id="626d4c15-53af-1a1c-4be3-971101dbb9bc" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Wingman" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, remove 1 stress token from another friendly ship at Range 1."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="At the start of the Combat phase, remove 1 stress token from another friendly ship at Range 1."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links/>
     </entry>
-    <entry id="3712-c86d-379a-6664" name="Wired†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3712-c86d-379a-6664" name="Wired" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5367,16 +5367,12 @@
       <profiles>
         <profile id="22a7-7f20-042c-e1a1" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Wired" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if you are stressed, you may reroll 1 or more of your [focus] results."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking or defending, if you are stressed, you may reroll 1 or more of your [focus] results."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="976c-9c43-c35d-22e1" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="a02a-e386-586f-f022" name="XX-23 S-Thread Tracers†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -5442,7 +5438,7 @@
       <profiles>
         <profile id="9c8e1f2e-41ca-f786-45b2-e0d26cf1e93a" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Bodyguard" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="At the start of the Combat phase, you may spend a focus token to choose a friendly ship at Range 1 with higher pilot skill than you. Increase its agility value by 1 until the end of the round."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="At the start of the Combat phase, you may spend a focus token to choose a friendly ship at Range 1 with higher pilot skill than you. Increase its agility value by 1 until the end of the round."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5479,7 +5475,7 @@
       <profiles>
         <profile id="9e05-df1c-d590-4baf" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Cloaking Device" hidden="false">
           <characteristics>
-            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability" value="Action: Perform a free cloak action. At the end of each round, if you are cloaked, roll 1 attack die. On a [focus] result, discard this card, then decloak or discard your cloak token."/>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Action: Perform a free cloak action. At the end of each round, if you are cloaked, roll 1 attack die. On a [focus] result, discard this card, then decloak or discard your cloak token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5543,7 +5539,7 @@
       <profiles>
         <profile id="d24382f8-82b6-69b2-c467-89bcd445b0d7" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Lone Wolf" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="When attacking or defending, if there are no other friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking or defending, if there are no other friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5637,7 +5633,7 @@
       <profiles>
         <profile id="0e90009c-2415-27ed-121a-101b6763c875" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Squad Leader" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Pilot Talent Ability" value="Action: Choose 1 ship at Range 1-2 that has a lower pilot skill than you. The chosen ship may immediately perform 1 free action."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Action: Choose 1 ship at Range 1-2 that has a lower pilot skill than you. The chosen ship may immediately perform 1 free action."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5652,7 +5648,7 @@
       <profiles>
         <profile id="7fd5f96d-9480-3e30-a063-eaaed92dcfcc" profileTypeId="332e30315469746c6523232344415441232323" name="Virago" hidden="false">
           <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [sensors] and [illicit upgrade] icons."/>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [system] and [illicit] icons."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5907,7 +5903,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="2749eab7-0fe2-0198-c7aa-c119cb08c41a" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="2749eab7-0fe2-0198-c7aa-c119cb08c41a" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5992,7 +5988,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="6c29-e554-71ed-ed9e" name="Elite Pilot Talent" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="6c29-e554-71ed-ed9e" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -6074,7 +6070,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" name="Illicit Upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" name="Illicit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -6099,7 +6095,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="81a5-0a05-2068-e548" name="Illicit Upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="81a5-0a05-2068-e548" name="Illicit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -6389,7 +6385,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="a827a198-1515-0790-a949-ae48b2155c24" name="Sensors" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="a827a198-1515-0790-a949-ae48b2155c24" name="System" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
