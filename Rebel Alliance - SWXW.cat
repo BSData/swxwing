@@ -6307,6 +6307,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="536a-22cf-4a9d-c678" name="Cool Hand†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e871-cb45-4884-0bdd" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Cool Hand" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When you receive a stress token, you may discard this card to assign 1 focus or evade token to your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8be2-1280-4594-0964" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="d38fd4d5-be08-1148-f675-e02824af9ee3" name="Countermeasures" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -7019,6 +7038,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="bfef-7900-6387-a7fa" name="Juke†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8e43-2eff-18d2-122b" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Juke" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking, if you have an evade token, you may change 1 of the defender&apos;s [evade] results to a [focus] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="decf-c85c-171b-005c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="7cda-0c30-be93-2dcc" name="Lightning Reflexes" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -8542,40 +8580,21 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="bfef-7900-6387-a7fa" name="Juke†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5ee8-b97e-63b5-7cfc" name="Comm Relay†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="8e43-2eff-18d2-122b" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Juke" hidden="false">
+        <profile id="9a1f-c26d-227a-6250" profileTypeId="c9e2-1064-13c6-2ead" name="Comm Relay" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking, if you have an evade token, you may change 1 of the defender&apos;s [evade] results to a [focus] result."/>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="You cannot have more than 1 evade token. During the End phase, do not remove an unused evade token from your ship."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="decf-c85c-171b-005c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="536a-22cf-4a9d-c678" name="Cool Hand†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="e871-cb45-4884-0bdd" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Cool Hand" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When you receive a stress token, you may discard this card to assign 1 focus or evade token to your ship."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8be2-1280-4594-0964" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+        <link id="4e02-b37f-46cd-7275" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -9717,6 +9736,9 @@
       <modifiers/>
       <links>
         <link id="4b7a-c0c0-ea5f-5c0b" targetId="3da0-a6a7-d4b8-42d0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cff5-53e2-6263-f318" targetId="5ee8-b97e-63b5-7cfc" linkType="entry">
           <modifiers/>
         </link>
       </links>
