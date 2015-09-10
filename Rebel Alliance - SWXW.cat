@@ -8561,6 +8561,25 @@
         </link>
       </links>
     </entry>
+    <entry id="536a-22cf-4a9d-c678" name="Cool Hand†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e871-cb45-4884-0bdd" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Cool Hand" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When you receive a stress token, you may discard this card to assign 1 focus or evade token to your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8be2-1280-4594-0964" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9221,6 +9240,9 @@
         <link id="1c83-59a5-d772-2a38" targetId="bfef-7900-6387-a7fa" linkType="entry">
           <modifiers/>
         </link>
+        <link id="e5a3-f468-8648-1c82" targetId="536a-22cf-4a9d-c678" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="f01d-656f-5b3a-cc44" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9298,6 +9320,9 @@
           <modifiers/>
         </link>
         <link id="4244-e9bc-d54c-f53d" targetId="e6d6-c23f-47bb-2f76" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cd3a-254c-8cbe-dc28" targetId="536a-22cf-4a9d-c678" linkType="entry">
           <modifiers/>
         </link>
       </links>

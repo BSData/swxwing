@@ -5674,6 +5674,25 @@
         </link>
       </links>
     </entry>
+    <entry id="fef1-6739-94fa-812e" name="Cool Hand†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8d17-aecd-2556-6abc" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Cool Hand" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When you receive a stress token, you may discard this card to assign 1 focus or evade token to your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f7ac-5cbd-6696-847e" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -6008,6 +6027,9 @@
         <link id="6f7b-b56c-6a0e-6ed5" targetId="9e6f-94bd-607f-13e2" linkType="entry">
           <modifiers/>
         </link>
+        <link id="a394-76d2-b3c3-8016" targetId="fef1-6739-94fa-812e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="6c29-e554-71ed-ed9e" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6088,6 +6110,9 @@
           <modifiers/>
         </link>
         <link id="3d42-c4ac-1bfc-eda8" targetId="3712-c86d-379a-6664" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e3a4-e8aa-ae22-61e1" targetId="fef1-6739-94fa-812e" linkType="entry">
           <modifiers/>
         </link>
       </links>
