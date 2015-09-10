@@ -6792,6 +6792,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="07d0-2dc8-381b-cbae" name="Integrated Astromech†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="95fe-5088-f7d6-05e3" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Integrated Astromech" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When you are dealt a Damage card, you may discard 1 of your [astromech] Upgrade cards to discard that Damage card (without resolving its effect)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0f4b-9b73-ef05-f4b1" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="128955b3-dd26-2afd-0055-802c4a47de15" name="Intelligence Agent" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -8523,21 +8542,21 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="07d0-2dc8-381b-cbae" name="Integrated Astromech†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="bfef-7900-6387-a7fa" name="Juke†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="95fe-5088-f7d6-05e3" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Integrated Astromech" hidden="false" book="">
+        <profile id="8e43-2eff-18d2-122b" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Juke" hidden="false">
           <characteristics>
-            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="When you are dealt a Damage card, you may discard 1 of your [astromech] Upgrade cards to discard that Damage card (without resolving its effect)."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking, if you have an evade token, you may change 1 of the defender&apos;s [evade] results to a [focus] result."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="0f4b-9b73-ef05-f4b1" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+        <link id="decf-c85c-171b-005c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -9199,6 +9218,9 @@
         <link id="443d-bd29-5a79-9879" targetId="e6d6-c23f-47bb-2f76" linkType="entry">
           <modifiers/>
         </link>
+        <link id="1c83-59a5-d772-2a38" targetId="bfef-7900-6387-a7fa" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="f01d-656f-5b3a-cc44" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9549,6 +9571,83 @@
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="da37-6140-c499-d86d" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="0c7b-ea52-ae5b-695c" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5f92-7418-256c-fc28" targetId="b27eab50-9a25-d752-4552-4f7070c837a5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8462-2e71-c818-215d" targetId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a01d-3848-627e-4a66" targetId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e6ca-7bcd-cb0a-016d" targetId="cfca4701-2652-694e-fc52-5434a3a3475d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="607a-a99c-b7f0-24d7" targetId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c4de-4d3e-aded-3e4e" targetId="871ad81a-0fc2-59cb-3339-f812d5543554" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d392-8b74-8d00-deb9" targetId="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="af7e-c1e4-af9a-d054" targetId="bde29740-52d6-ac5d-b455-acb1b511b181" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ddb5-578f-19e5-7f88" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f3f3-a8b6-8b7a-973d" targetId="07d0-2dc8-381b-cbae" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="5d38-1f52-fc87-efca" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="038e-75a7-e237-651f" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="097d-829a-a357-5322" targetId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f446-2a14-afff-8b10" targetId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e591-7661-5bcd-dbf3" targetId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="789c-0564-b408-5f8c" targetId="871ad81a-0fc2-59cb-3339-f812d5543554" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f7e2-d4bd-4048-d632" targetId="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6560-c5fd-bf2d-7bd1" targetId="bde29740-52d6-ac5d-b455-acb1b511b181" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f4ad-970b-3754-004e" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5c2f-5dfd-f9d1-1aad" targetId="07d0-2dc8-381b-cbae" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cd1e-2a44-b49b-8a35" targetId="cfca4701-2652-694e-fc52-5434a3a3475d" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
     <entryGroup id="083d8193-2a5a-b924-9f98-10c4a45a5ebe" name="System" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -9728,83 +9827,6 @@
           <modifiers/>
         </link>
         <link id="fd74-8690-e7e2-061e" targetId="29d0-8aa8-3958-c286" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="da37-6140-c499-d86d" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="0c7b-ea52-ae5b-695c" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5f92-7418-256c-fc28" targetId="b27eab50-9a25-d752-4552-4f7070c837a5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8462-2e71-c818-215d" targetId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a01d-3848-627e-4a66" targetId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="e6ca-7bcd-cb0a-016d" targetId="cfca4701-2652-694e-fc52-5434a3a3475d" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="607a-a99c-b7f0-24d7" targetId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c4de-4d3e-aded-3e4e" targetId="871ad81a-0fc2-59cb-3339-f812d5543554" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="d392-8b74-8d00-deb9" targetId="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="af7e-c1e4-af9a-d054" targetId="bde29740-52d6-ac5d-b455-acb1b511b181" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ddb5-578f-19e5-7f88" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f3f3-a8b6-8b7a-973d" targetId="07d0-2dc8-381b-cbae" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="5d38-1f52-fc87-efca" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="038e-75a7-e237-651f" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="097d-829a-a357-5322" targetId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f446-2a14-afff-8b10" targetId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="e591-7661-5bcd-dbf3" targetId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="789c-0564-b408-5f8c" targetId="871ad81a-0fc2-59cb-3339-f812d5543554" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f7e2-d4bd-4048-d632" targetId="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6560-c5fd-bf2d-7bd1" targetId="bde29740-52d6-ac5d-b455-acb1b511b181" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f4ad-970b-3754-004e" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5c2f-5dfd-f9d1-1aad" targetId="07d0-2dc8-381b-cbae" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="cd1e-2a44-b49b-8a35" targetId="cfca4701-2652-694e-fc52-5434a3a3475d" linkType="entry">
           <modifiers/>
         </link>
       </links>
