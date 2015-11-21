@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="74" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="75" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -353,7 +353,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7750-719e-945a-891e" name="PS 2 - Gozanti-class Cruiser†" points="40.0" categoryId="dd7a-8997-0ba4-d8f6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7750-719e-945a-891e" name="PS 2 - Gozanti-class Cruiser†" points="40.0" categoryId="dd7a-8997-0ba4-d8f6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -414,6 +414,9 @@
           <modifiers/>
         </link>
         <link id="362f-1a5f-3122-c5a0" targetId="9129-cd9f-120a-13e2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4090-3bd1-e069-879b" targetId="57c4-f61a-45b7-45ad" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -1796,6 +1799,16 @@
             <link id="a04d-6aac-7f06-676c" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
               <modifiers/>
             </link>
+            <link id="4f9a-cef3-a433-5975" targetId="57c4-f61a-45b7-45ad" linkType="entry group">
+              <modifiers>
+                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="235c-8fbf-9af6-2fc4" childId="a321-ddad-5226-1d8d" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
           </links>
         </entry>
         <entry id="e294-0377-bcf2-51e3" name="Raider-class Corv. (Fore)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1850,6 +1863,16 @@
             </link>
             <link id="10a9-2185-b1b1-b9d4" targetId="69c9e2ec-8cdf-2b8b-86aa-1808809e7f01" linkType="entry group">
               <modifiers/>
+            </link>
+            <link id="a321-ddad-5226-1d8d" targetId="57c4-f61a-45b7-45ad" linkType="entry group">
+              <modifiers>
+                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="235c-8fbf-9af6-2fc4" childId="4f9a-cef3-a433-5975" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </link>
           </links>
         </entry>
@@ -8505,6 +8528,63 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="14c8-bf36-93ac-968a" name="Automated Protocols†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ba09-d0e9-e0a3-d7db" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Automated Protocols" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Once per round, after you perform an action that is not a recover or reinforce action, you may spend 1 energy to perform a free recover or reinforce action."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2ebe-0489-4ffa-5ffd" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4bd5-285e-d1bf-e0ce" name="Optimized Generators†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4199-81e3-b9f8-6815" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Optimized Generators" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Once per round, when you assign energy to an equipped Upgrade card, gain 2 energy."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1c61-d766-f0a0-25ae" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ac09-820d-21ea-ff1c" name="Ordnance Tubes†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2482-07cf-3edb-c06b" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Ordnance Tubes" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="You may treat each of your [hardpoint] upgrade icons as a [torpedoes] or [missiles] upgrade icon. When you are instructed to discard a [torpedoes] or [missiles] Upgrade card, do not discard it."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9b2d-e691-ce94-0f70" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9673,6 +9753,22 @@
           <modifiers/>
         </link>
         <link id="a09d-50c9-437d-cb1f" targetId="ff9c-bfaa-c0a4-48a5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="57c4-f61a-45b7-45ad" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="aced-eb3e-92cf-e0bb" targetId="14c8-bf36-93ac-968a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4c4c-0168-8b82-9646" targetId="4bd5-285e-d1bf-e0ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9823-9e40-9820-bd4d" targetId="ac09-820d-21ea-ff1c" linkType="entry">
           <modifiers/>
         </link>
       </links>
