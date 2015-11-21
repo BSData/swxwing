@@ -419,6 +419,16 @@
         <link id="4090-3bd1-e069-879b" targetId="57c4-f61a-45b7-45ad" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="6f4a-204e-ada7-b479" targetId="a383-d879-da30-312e" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7750-719e-945a-891e" childId="a09a-73c3-7446-48ed" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" name="PS 2 - Omicron Group Pilot" points="21.0" categoryId="475f-be18-84aa-ca49" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -1690,6 +1700,82 @@
                 </link>
               </links>
             </entryGroup>
+            <entryGroup id="768c-1c6c-e2c3-9182" name="Cargo" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="157d-e8a8-018e-d972" targetId="ab9f-40d4-6acd-f8f3" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="a18d-04cf-41ac-52f9" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="dcf4-4f5e-25d2-fe1f" targetId="360bb8c7-fa2c-83b0-6971-997f36512e01" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="003e-2f60-dff1-8378" targetId="5b8a-211f-db96-db6d" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="fa51-bac9-6d30-ad90" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="6c49-f7c7-8c01-2cfb" targetId="2e4b-fe96-7496-46df" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="0422-1299-fd67-f764" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="d54c-1b2d-0ec6-a4f3" targetId="91bb-532c-c86a-f767" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="aafa-c1ed-f159-66d9" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="d21f-7e3b-c337-e2c3" targetId="df4f-4a32-9b56-ce42" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="e2b1-931e-ce3f-2b63" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="a45d-6c34-d4bb-5e38" targetId="839d2858-c9ab-0a40-6aba-71989fd5ed09" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="4efe-4c76-b9cf-d1b5" targetId="a61901a8-5152-1386-eb64-1a5e1c19b5ea" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="2c39-d913-ab78-2dec" targetId="2b2c-181d-559d-fa6d" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="b468-e24f-4233-aec4" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
           </entryGroups>
           <modifiers/>
           <rules/>
@@ -1790,9 +1876,6 @@
                 </modifier>
               </modifiers>
             </link>
-            <link id="4ebf-80c3-5229-7d52" targetId="c61aa67f-6324-675c-870f-7b750052920e" linkType="entry group">
-              <modifiers/>
-            </link>
             <link id="18cd-02d0-e7c4-2cbd" targetId="003a-1fc2-4d75-f46d" linkType="rule">
               <modifiers/>
             </link>
@@ -1813,7 +1896,84 @@
         </entry>
         <entry id="e294-0377-bcf2-51e3" name="Raider-class Corv. (Fore)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="ba2b-ae29-e4b7-8f5e" name="Cargo" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="a18d-04cf-41ac-52f9" targetId="ab9f-40d4-6acd-f8f3" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="157d-e8a8-018e-d972" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="7d27-7058-dd3a-9b3c" targetId="360bb8c7-fa2c-83b0-6971-997f36512e01" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="fa51-bac9-6d30-ad90" targetId="5b8a-211f-db96-db6d" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="003e-2f60-dff1-8378" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="0422-1299-fd67-f764" targetId="2e4b-fe96-7496-46df" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="6c49-f7c7-8c01-2cfb" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="aafa-c1ed-f159-66d9" targetId="91bb-532c-c86a-f767" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="d54c-1b2d-0ec6-a4f3" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="e2b1-931e-ce3f-2b63" targetId="df4f-4a32-9b56-ce42" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="d21f-7e3b-c337-e2c3" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="68fd-e15f-adc5-3249" targetId="839d2858-c9ab-0a40-6aba-71989fd5ed09" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b674-7b53-8f22-88ef" targetId="a61901a8-5152-1386-eb64-1a5e1c19b5ea" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b468-e24f-4233-aec4" targetId="2b2c-181d-559d-fa6d" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="2c39-d913-ab78-2dec" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
           <rules/>
           <profiles>
@@ -1853,9 +2013,6 @@
               <modifiers/>
             </link>
             <link id="3ac4-3176-2ad4-a329" targetId="7a65-6cb0-55c8-f173" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="7d4a-4e2e-165d-2c4f" targetId="c61aa67f-6324-675c-870f-7b750052920e" linkType="entry group">
               <modifiers/>
             </link>
             <link id="09cb-96c8-9971-9641" targetId="19fafa04-c2e0-a946-03f5-f19a76eaf5f4" linkType="entry group">
@@ -6457,22 +6614,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="6aa7b595-6e0d-2957-85cb-a1b57f8cf9d5" name="Backup Shield Generator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="f009415d-0159-2b45-c16e-b38148889142" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Backup Shield Generator" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit" value=""/>
-            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="At the end of each round, you may spend 1 energy to recover 1 shield (up to your shield value)."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
     <entry id="ab9f-40d4-6acd-f8f3" name="Backup Shield Generator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -6779,22 +6920,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="386ae42c-a7f1-14e6-7e37-24dc91eac460" name="EM Emitter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c1e643d2-70e2-b18e-1a6a-8b23b4cb494c" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="EM Emitter" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="When you obstruct an attack, the defender rolls 3 additional defense dice (instead of 1)."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
     <entry id="5b8a-211f-db96-db6d" name="EM Emitter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -6805,22 +6930,6 @@
           <characteristics>
             <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
             <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="When you obstruct an attack, the defender rolls 3 additional defense dice (instead of 1)."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="ef36a3e7-0be3-f2a0-be85-903c92f8f8b6" name="Engine Booster" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="afd4cebc-16b2-77b6-f60a-74b2f2f88f3d" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Engine Booster" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Immediately before you reveal your maneuver dial, you may spend 1 energy to execute a white [straight 1] maneuver. You cannot use this ability if you would overlap another ship."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -7031,22 +7140,6 @@
         <profile id="3fab5aaf-6c0a-3f76-0a18-95c21053c9b3" profileTypeId="332e30334372657723232344415441232323" name="Flight Instructor" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When defending, you may reroll 1 of your [focus] results. If the attacker&apos;s pilot skill value is &quot;2&quot; or lower, you may reroll 1 of your blank results instead."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="ea4a1683-5fb5-b9b6-e68c-4b347380bc5a" name="Frequency Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="70ce305a-2742-fbd2-9dd1-822aaeea878b" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Frequency Jammer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="When you perform a jam action, choose 1 enemy ship that does not have a stress token and is at Range 1 of the jammed ship. The chosen ship receives 1 stress token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -7322,22 +7415,6 @@
         <profile id="cf4233e4-87d2-dec8-b3cf-7a4f2c98bdae" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Ion Torpedoes" hidden="false">
           <characteristics>
             <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, the defender and each ship at Range 1 of it receives 1 ion token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="f24dc821-6525-c48e-2bb1-a0e5c09d769d" name="Ionization Reactor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="669e14c9-c297-806e-d0e9-35b4a444a0f4" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Ionization Reactor" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit" value="5"/>
-            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Energy: Spend 5 energy from this card and discard this card to cause each other ship at Range 1 to suffer 1 damage and receive 1 ion token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -7991,22 +8068,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="497b22a1-04a8-db2e-f6ec-824b8ca0ba1d" name="Tibanna Gas Supplies" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="69d2e2aa-2411-9136-1b3f-053216597ab9" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Tibanna Gas Supplies" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Energy: You may discard this card to gain 3 energy."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
     <entry id="2b2c-181d-559d-fa6d" name="Tibanna Gas Supplies" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8585,6 +8646,46 @@
         </link>
       </links>
     </entry>
+    <entry id="a09a-73c3-7446-48ed" name="Broadcast Array†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="20d2-388e-6d87-a8a0" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Broadcast Array" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit" value=""/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="Your action bar gains the [jam] action icon."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9242-d67e-ac2f-0356" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ed63-749a-0904-2f3b" name="Docking Clamps†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="aeb9-b953-42a8-a49a" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Docking Clamps" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="You may dock up to 4 TIE fighters, TIE Interceptors, TIE bombers, or TIE Advanced to this ship. All of these ships must have the same ship type."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0b54-b769-4ab9-9da3" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8662,40 +8763,6 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c61aa67f-6324-675c-870f-7b750052920e" name="Cargo" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="b8815f04-546e-f37f-909f-80bc792e0f62" targetId="6aa7b595-6e0d-2957-85cb-a1b57f8cf9d5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a86f98c9-fd1e-5072-486a-fe7cda7fe1c0" targetId="360bb8c7-fa2c-83b0-6971-997f36512e01" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ab7ecb3a-9dd6-4965-3ae7-bfaf15970d47" targetId="386ae42c-a7f1-14e6-7e37-24dc91eac460" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="17b93482-5da1-b5d6-cb2a-899b1066a543" targetId="ef36a3e7-0be3-f2a0-be85-903c92f8f8b6" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="abde1bda-7e61-5d06-b29f-12f719db5880" targetId="ea4a1683-5fb5-b9b6-e68c-4b347380bc5a" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ebf8e245-8972-c939-136d-5ee0a2b03c22" targetId="f24dc821-6525-c48e-2bb1-a0e5c09d769d" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="19e2ebcf-7278-77b8-3f39-fcce0cdc47bc" targetId="839d2858-c9ab-0a40-6aba-71989fd5ed09" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="cca89c4d-e34d-5094-9553-c88a24a4cdab" targetId="a61901a8-5152-1386-eb64-1a5e1c19b5ea" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="e4cfed64-bbb2-b071-dc52-e5b9cd634011" targetId="497b22a1-04a8-db2e-f6ec-824b8ca0ba1d" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
     <entryGroup id="d4d8-696a-ac4b-de9c" name="Cargo" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8726,6 +8793,12 @@
           <modifiers/>
         </link>
         <link id="ab6b-5753-2ca6-a13b" targetId="2b2c-181d-559d-fa6d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ace1-995c-6d99-beef" targetId="a09a-73c3-7446-48ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="71db-5fa8-2e36-b937" targetId="ed63-749a-0904-2f3b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -9806,6 +9879,9 @@
       <modifiers/>
     </rule>
     <rule id="e90f4925-5b80-a934-2969-95896294256d" name="Target Lock" hidden="true" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="a383-d879-da30-312e" name="Jam" hidden="true">
       <modifiers/>
     </rule>
   </sharedRules>
