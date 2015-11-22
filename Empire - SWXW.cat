@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="75" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="76" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -8993,7 +8993,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="774e5dd5-90a7-e8cf-8f68-0ced4489e377" name="•Experimental Interface" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8cac254f-077b-0754-ca11-969aaa8bb286" name="•Experimental Interface" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -9100,6 +9100,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="8607-9625-2b62-deb7" name="•Rear Admiral Chiraneau†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="664786ed-de17-e3be-19f1-f03d981e86f8" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="c9f1-4ed0-3c7e-5ba4" profileTypeId="332e30334372657723232344415441232323" name="Rear Admiral Chiraneau" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Execute a white [straight 1] maneuver."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ae18-94e1-058e-34f7" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="12835746-d073-eb83-9a32-8f881d468a85" name="•Rebel Captive" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -9174,32 +9200,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="8607-9625-2b62-deb7" name="•Rear Admiral Chiraneau†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="664786ed-de17-e3be-19f1-f03d981e86f8" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles>
-        <profile id="c9f1-4ed0-3c7e-5ba4" profileTypeId="332e30334372657723232344415441232323" name="Rear Admiral Chiraneau" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Execute a white [straight 1] maneuver."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="ae18-94e1-058e-34f7" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -9862,7 +9862,7 @@
         <link id="e3c5ccc1-2f9d-d6fa-2056-2ff899d52200" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
           <modifiers/>
         </link>
-        <link id="250b5adb-54dc-181c-cc36-fe44f223a2a0" targetId="774e5dd5-90a7-e8cf-8f68-0ced4489e377" linkType="entry">
+        <link id="250b5adb-54dc-181c-cc36-fe44f223a2a0" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="d2ce-8dc2-f69f-32e3" targetId="0b78-9436-56e0-5a8b" linkType="entry">
@@ -9905,7 +9905,7 @@
         <link id="1a5db6d7-83eb-9df1-f089-79c614f1dac9" targetId="cad0aac2-e19b-4618-2d90-25a641a49b0e" linkType="entry">
           <modifiers/>
         </link>
-        <link id="ecb85404-a1bb-1eb0-cc37-2d1307bff549" targetId="774e5dd5-90a7-e8cf-8f68-0ced4489e377" linkType="entry">
+        <link id="ecb85404-a1bb-1eb0-cc37-2d1307bff549" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="0404400e-1c08-8944-744a-382acf15f33d" targetId="ae4c2862-2ac5-bd6b-9542-517f81922e0e" linkType="entry">
@@ -9945,7 +9945,7 @@
         <link id="d5519080-0217-d8ad-1b87-3536ad65e3c8" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
           <modifiers/>
         </link>
-        <link id="276c6fc9-6f34-5eec-e20a-c72693e57c44" targetId="774e5dd5-90a7-e8cf-8f68-0ced4489e377" linkType="entry">
+        <link id="276c6fc9-6f34-5eec-e20a-c72693e57c44" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="2bb0-b686-59d4-fe57" targetId="0b78-9436-56e0-5a8b" linkType="entry">
@@ -9982,7 +9982,7 @@
         <link id="9a4f47bf-7048-b8c2-d30f-7a951ad785f0" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
           <modifiers/>
         </link>
-        <link id="28973ba1-def5-500b-14f4-ab24b74c5a77" targetId="774e5dd5-90a7-e8cf-8f68-0ced4489e377" linkType="entry">
+        <link id="28973ba1-def5-500b-14f4-ab24b74c5a77" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="3d8b-1c19-d29a-e3db" targetId="0b78-9436-56e0-5a8b" linkType="entry">
@@ -10022,7 +10022,7 @@
         <link id="a1bd4978-4b6b-1562-a9f1-e8b28b48b6bc" targetId="c85f1de3-b5ff-2d2c-b9ff-a804f3a0c648" linkType="entry">
           <modifiers/>
         </link>
-        <link id="8b01d11a-0340-80a8-eeb6-e75e7439106c" targetId="774e5dd5-90a7-e8cf-8f68-0ced4489e377" linkType="entry">
+        <link id="8b01d11a-0340-80a8-eeb6-e75e7439106c" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="5e6b-d3d6-33b2-eca0" targetId="0b78-9436-56e0-5a8b" linkType="entry">
@@ -10059,7 +10059,7 @@
         <link id="96ad5fe0-daed-bbe1-a81c-0908d10b265d" targetId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" linkType="entry">
           <modifiers/>
         </link>
-        <link id="88753738-5ca7-823f-a537-207c74c2c916" targetId="774e5dd5-90a7-e8cf-8f68-0ced4489e377" linkType="entry">
+        <link id="88753738-5ca7-823f-a537-207c74c2c916" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="1b9593ac-543a-889e-be83-fbd16a95f813" targetId="3e21babb-0cfc-6059-5823-260b61f76c81" linkType="entry">

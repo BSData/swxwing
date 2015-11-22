@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="60" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="61" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -5527,7 +5527,7 @@
         </link>
       </links>
     </entry>
-    <entry id="aaaf0851-f656-b507-47b9-7d72f0533616" name="•Experimental Interface" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8cac254f-077b-0754-ca11-969aaa8bb286" name="•Experimental Interface" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5572,7 +5572,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="6c34c1f9-fdbd-2f6f-57ef-61c5eea72140" name="•Lone Wolf" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="94d61f6e-0db3-97cf-dcec-fbc31bf3cc13" name="•Lone Wolf" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5666,7 +5666,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="25661a78-52a4-43a2-b558-43dfcaafe055" name="•Squad Leader" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8faa9d50-2ea2-5800-91b5-de98f9c68ebe" name="•Squad Leader" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -6006,10 +6006,10 @@
         <link id="d016ee29-3b17-6f87-ca9b-dc94f8b29cdc" targetId="9f2407c6-42ea-7836-fcba-fc145b967789" linkType="entry">
           <modifiers/>
         </link>
-        <link id="5e533214-52b4-c202-c6a8-8a4374c50a43" targetId="6c34c1f9-fdbd-2f6f-57ef-61c5eea72140" linkType="entry">
+        <link id="5e533214-52b4-c202-c6a8-8a4374c50a43" targetId="94d61f6e-0db3-97cf-dcec-fbc31bf3cc13" linkType="entry">
           <modifiers/>
         </link>
-        <link id="6b5c7d12-bcc0-a6d3-dbb5-da0c26e777c6" targetId="25661a78-52a4-43a2-b558-43dfcaafe055" linkType="entry">
+        <link id="6b5c7d12-bcc0-a6d3-dbb5-da0c26e777c6" targetId="8faa9d50-2ea2-5800-91b5-de98f9c68ebe" linkType="entry">
           <modifiers/>
         </link>
         <link id="8d8598c7-c9ad-d60e-5814-4ebca883b53d" targetId="0b7c7263-0dfd-b1af-42c4-3ebb15518237" linkType="entry">
@@ -6040,10 +6040,10 @@
       <entryGroups/>
       <modifiers/>
       <links>
-        <link id="2d7e-60f8-b348-b1a5" targetId="25661a78-52a4-43a2-b558-43dfcaafe055" linkType="entry">
+        <link id="2d7e-60f8-b348-b1a5" targetId="8faa9d50-2ea2-5800-91b5-de98f9c68ebe" linkType="entry">
           <modifiers/>
         </link>
-        <link id="6d83-ac77-6580-9143" targetId="6c34c1f9-fdbd-2f6f-57ef-61c5eea72140" linkType="entry">
+        <link id="6d83-ac77-6580-9143" targetId="94d61f6e-0db3-97cf-dcec-fbc31bf3cc13" linkType="entry">
           <modifiers/>
         </link>
         <link id="299a-7b78-51ea-95f3" targetId="0b7c7263-0dfd-b1af-42c4-3ebb15518237" linkType="entry">
@@ -6233,7 +6233,7 @@
         <link id="a4bbf3ef-87d0-3415-6044-f4187c7bc76d" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
           <modifiers/>
         </link>
-        <link id="103f8f0c-d0dc-3581-40aa-fb12bd02df24" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
+        <link id="103f8f0c-d0dc-3581-40aa-fb12bd02df24" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="410a-6976-7359-36de" targetId="2ceb-c29f-5f42-f950" linkType="entry">
@@ -6270,7 +6270,7 @@
         <link id="7c0f8f08-ebf2-b218-21ec-5a28d37c1b7d" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
           <modifiers/>
         </link>
-        <link id="447fcbbc-88d1-f8ea-cdcc-cbd23cdd9979" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
+        <link id="447fcbbc-88d1-f8ea-cdcc-cbd23cdd9979" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="2451-2f79-3494-5ed8" targetId="2ceb-c29f-5f42-f950" linkType="entry">
@@ -6313,7 +6313,7 @@
         <link id="7ca710e5-e102-2931-d763-c25650c1492a" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
           <modifiers/>
         </link>
-        <link id="2b6e0ec8-75a7-a9f2-2fed-db2553396f87" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
+        <link id="2b6e0ec8-75a7-a9f2-2fed-db2553396f87" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="9e0253af-4e62-922a-8f2a-635b442a1a95" targetId="ede7a4b3-613f-012f-d210-aabb70216ff2" linkType="entry">
@@ -6353,7 +6353,7 @@
         <link id="e1dd0f9d-58b0-a9de-d764-446c9c87f7ec" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
           <modifiers/>
         </link>
-        <link id="d530c9c9-ca45-f5ae-d6b6-e89c7324874f" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
+        <link id="d530c9c9-ca45-f5ae-d6b6-e89c7324874f" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="555406c4-4a4c-8296-489e-c2e0a7fbc7a1" targetId="ede7a4b3-613f-012f-d210-aabb70216ff2" linkType="entry">
@@ -6402,7 +6402,7 @@
         <link id="ca2c-64ce-6b4f-3a1c" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
           <modifiers/>
         </link>
-        <link id="5a48-36b3-713d-45fd" targetId="aaaf0851-f656-b507-47b9-7d72f0533616" linkType="entry">
+        <link id="5a48-36b3-713d-45fd" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
           <modifiers/>
         </link>
         <link id="22f8-a287-0f14-4b80" targetId="ee2d-2238-4de4-2fbb" linkType="entry">
