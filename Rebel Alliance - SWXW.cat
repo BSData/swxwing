@@ -3348,7 +3348,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="f1674a9d-e9aa-8365-46da-e26ad90b07b2" profileTypeId="31536869707323232344415441232323" name="•&quot;Leebo&quot;" hidden="false">
@@ -3556,7 +3563,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="539137f4-6cd0-2fc5-aea3-86580bd47f63" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="07f73faf-dc55-b96c-ba57-b0641aea84e4" profileTypeId="31536869707323232344415441232323" name="•Chewbacca" hidden="false" page="0">
@@ -4667,7 +4681,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="3d612f57-1727-84ac-4304-a919b734f498" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="5b4fe8e9-b857-f96d-d3a2-ca25e0d1c156" profileTypeId="31536869707323232344415441232323" name="•Kyle Katarn" hidden="false" page="0">
@@ -4841,7 +4862,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="5d62d862-36ca-1056-42f0-68d641d541db" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="a3379152-7873-0abd-640e-f26c48327960" profileTypeId="31536869707323232344415441232323" name="•Dash Rendar" hidden="false" page="0">
@@ -4953,7 +4981,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c706-6a17-0237-c59d" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="f512-b685-e0a1-ccd9" profileTypeId="31536869707323232344415441232323" name="•Hera Syndulla" hidden="false">
@@ -5058,9 +5093,9 @@
         </entryGroup>
       </entryGroups>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="f74a-6fdc-f12d-87a7" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="f74a-6fdc-f12d-87a7" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -5456,7 +5491,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="9eb90f5d-3d76-37db-f3c0-fb6cf743b310" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="1709c600-29af-1e86-e20c-45f3d872231d" profileTypeId="31536869707323232344415441232323" name="•Lando Calrissian" hidden="false" page="0">
@@ -5858,7 +5900,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b0416eaf-e4ad-ae7a-39c0-56049b73131f" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="4b8bdb13-8f5a-ef4e-1278-b1cfe9490c6a" profileTypeId="31536869707323232344415441232323" name="•Jan Ors" hidden="false" page="0">
@@ -5941,7 +5990,14 @@
     <entry id="74520573-302f-d98f-f93b-0d0d1bb0045e" name="PS 8 - •Luke Skywalker" points="28.0" categoryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="a94857f8-f114-359d-6865-3ea961bd2c06" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="4899b289-42e6-9596-4f59-926994e6a6df" profileTypeId="31536869707323232344415441232323" name="•Luke Skywalker" hidden="false" page="0">
@@ -6488,7 +6544,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="d8c872b7-6d29-222f-7525-bd18d85da924" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="3f7eeca9-39a8-3658-fbca-50521273ad13" profileTypeId="31536869707323232344415441232323" name="•Han Solo" hidden="false" page="0">
@@ -7981,6 +8044,25 @@
         </link>
       </links>
     </entry>
+    <entry id="9d4d-9e08-bfcf-b221" name="Ordnance Experts†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="135d-da2e-db64-f7a6" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="Ordnance Experts" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="eb3c4162-2db9-88f2-3869-0eb79bda378f" name="Team Ability" value="Once per round, when a friendly ship at Range 1-3 performs an attack with a [torpedoes] or [missiles] secondary weapon, it may change 1 of its blank results to a [hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ebd4-e629-251b-c08b" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="dae8-ff96-deac-babf" name="Ordnance Tubes†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8691,9 +8773,9 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="b28aa0bc-79bf-71c9-8e07-49d2ec02480f" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="b28aa0bc-79bf-71c9-8e07-49d2ec02480f" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -8774,9 +8856,9 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="75594592-a6a6-3687-b6f5-73d68a751f0e" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="75594592-a6a6-3687-b6f5-73d68a751f0e" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -8796,9 +8878,9 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="acbb931d-dbf0-7e0d-d91d-319f712547f8" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="acbb931d-dbf0-7e0d-d91d-319f712547f8" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -8884,9 +8966,9 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="44792c3a-5411-9276-9786-6a6ff2b7608e" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="44792c3a-5411-9276-9786-6a6ff2b7608e" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -8937,9 +9019,9 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="226ef195-13a2-2188-78ac-c84e2c97f99e" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="226ef195-13a2-2188-78ac-c84e2c97f99e" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -8959,9 +9041,9 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="fc08990d-32b0-6f52-0f02-f5b7aae7700a" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="fc08990d-32b0-6f52-0f02-f5b7aae7700a" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -8981,9 +9063,9 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="fec31098-536a-403b-1603-7ab0ad1c4b71" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="fec31098-536a-403b-1603-7ab0ad1c4b71" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -9033,9 +9115,9 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="74520573-302f-d98f-f93b-0d0d1bb0045e" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="74520573-302f-d98f-f93b-0d0d1bb0045e" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -9156,7 +9238,14 @@
     <entry id="cbfb72aa-3f10-bc68-0b82-91c64b008d57" name="•R2-D2" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="ea81f40a-6790-bed2-4d79-d5c38995fd6b" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="8a2aa994-2d17-529e-5c07-ae85bb7c7a26" profileTypeId="332e34417374726f6d65636823232344415441232323" name="R2-D2" hidden="false" page="0">
@@ -9172,9 +9261,9 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="cbfb72aa-3f10-bc68-0b82-91c64b008d57" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="roster" childId="cbfb72aa-3f10-bc68-0b82-91c64b008d57" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -9385,25 +9474,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="9d4d-9e08-bfcf-b221" name="Ordnance Experts†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="135d-da2e-db64-f7a6" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="Ordnance Experts" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="eb3c4162-2db9-88f2-3869-0eb79bda378f" name="Team Ability" value="Once per round, when a friendly ship at Range 1-3 performs an attack with a [torpedoes] or [missiles] secondary weapon, it may change 1 of its blank results to a [hit] result."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="ebd4-e629-251b-c08b" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
