@@ -1776,6 +1776,46 @@
                 </link>
               </links>
             </entryGroup>
+            <entryGroup id="f428-f86b-25f6-dd9d" name="Team" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="dbc9-6f87-68d1-58f9" targetId="d290-036e-b97c-4164" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="286d-9575-8bee-dbc4" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="4f71-dba1-6a6c-2348" targetId="3ef4-91e5-2c16-d6c0" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="6859-0307-958a-3ef9" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="17f8-3b40-93fd-bc62" targetId="3008bb7f-58b2-4fd1-6ae3-8f6ec03feef9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="026a-1c2f-6f2f-3375" targetId="3264-9022-cadf-bdef" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="1dd2-42d2-6ab2-117f" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
           </entryGroups>
           <modifiers/>
           <rules/>
@@ -1861,14 +1901,6 @@
               </modifiers>
             </link>
             <link id="52b6-8a04-af92-5f03" targetId="19fafa04-c2e0-a946-03f5-f19a76eaf5f4" linkType="entry group">
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="cc5e-4a71-16fb-cecf" targetId="69c9e2ec-8cdf-2b8b-86aa-1808809e7f01" linkType="entry group">
               <modifiers>
                 <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
@@ -1973,6 +2005,46 @@
                 </link>
               </links>
             </entryGroup>
+            <entryGroup id="1fdb-8e28-5cb5-8ef8" name="Team" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="286d-9575-8bee-dbc4" targetId="d290-036e-b97c-4164" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="dbc9-6f87-68d1-58f9" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="6859-0307-958a-3ef9" targetId="3ef4-91e5-2c16-d6c0" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="4f71-dba1-6a6c-2348" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="0e10-8945-daf9-bb5c" targetId="3008bb7f-58b2-4fd1-6ae3-8f6ec03feef9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1dd2-42d2-6ab2-117f" targetId="3264-9022-cadf-bdef" linkType="entry">
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="235c-8fbf-9af6-2fc4" childId="026a-1c2f-6f2f-3375" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
           </entryGroups>
           <modifiers/>
           <rules/>
@@ -2016,9 +2088,6 @@
               <modifiers/>
             </link>
             <link id="09cb-96c8-9971-9641" targetId="19fafa04-c2e0-a946-03f5-f19a76eaf5f4" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="10a9-2185-b1b1-b9d4" targetId="69c9e2ec-8cdf-2b8b-86aa-1808809e7f01" linkType="entry group">
               <modifiers/>
             </link>
             <link id="a321-ddad-5226-1d8d" targetId="57c4-f61a-45b7-45ad" linkType="entry group">
@@ -6967,21 +7036,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="33dcdc3b-82bb-5246-8a36-19df7af1b6c2" name="Engineering Team" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="b0ffc274-5c53-e127-6bd7-9d60cbd9718c" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="Engineering Team" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="eb3c4162-2db9-88f2-3869-0eb79bda378f" name="Team Ability" value="During the Activation phase, when you reveal a [straight] maneuver, gain 1 additional energy during the &quot;Gain Energy&quot; step."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
     <entry id="d290-036e-b97c-4164" name="Engineering Team" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -7171,21 +7225,6 @@
         <profile id="9af926f9-3ac2-d9a7-aeaf-5628f2c1ba6d" profileTypeId="332e30334372657723232344415441232323" name="Gunner" hidden="false">
           <characteristics>
             <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You cannot perform another attack this round."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="bcc74073-78c1-5b01-61d9-8039607036a5" name="Gunnery Team" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="0c948a81-579e-dc5a-1039-9e6d32d8e66b" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="Gunnery Team" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="eb3c4162-2db9-88f2-3869-0eb79bda378f" name="Team Ability" value="Once per round, when attacking with a secondary weapon, you may spend 1 energy to change 1 of your blank results to a [hit] result."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -8686,6 +8725,25 @@
         </link>
       </links>
     </entry>
+    <entry id="3264-9022-cadf-bdef" name="Ordnance Experts†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3dd1-3ce8-3d1b-4349" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" name="Ordnance Experts" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="eb3c4162-2db9-88f2-3869-0eb79bda378f" name="Team Ability" value="Once per round, when a friendly ship at Range 1-3 performs an attack with a [torpedoes] or [missiles] secondary weapon, it may change 1 of its blank results to a [hit] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0d30-d4c9-03e8-c1fb" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9710,22 +9768,6 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="69c9e2ec-8cdf-2b8b-86aa-1808809e7f01" name="Team" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="06f35d40-9baa-dca3-d1b1-fb5457e7612d" targetId="33dcdc3b-82bb-5246-8a36-19df7af1b6c2" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c939b3ad-781a-8482-f44f-b993f2df9a25" targetId="bcc74073-78c1-5b01-61d9-8039607036a5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="04f9f94c-2c36-dc5b-9cf3-7b45aace3266" targetId="3008bb7f-58b2-4fd1-6ae3-8f6ec03feef9" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
     <entryGroup id="9b3d-21ba-51e0-a803" name="Team" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -9738,6 +9780,9 @@
           <modifiers/>
         </link>
         <link id="71bc-8c49-f3ec-9a31" targetId="3ef4-91e5-2c16-d6c0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8fdc-75fc-34cd-c054" targetId="3264-9022-cadf-bdef" linkType="entry">
           <modifiers/>
         </link>
       </links>
