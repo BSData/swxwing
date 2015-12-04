@@ -9510,6 +9510,44 @@
         </link>
       </links>
     </entry>
+    <entry id="509f-8891-3ae2-dbf6" name="•&quot;Zeb&quot; Orrelios†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="11" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3120-65d2-d938-b71c" profileTypeId="332e30334372657723232344415441232323" name="&quot;Zeb&quot; Orrelios" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Enemy ships inside your firing arc that you are touching are not considered to be touching you when either you or they activate during the Combat phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="32a2-74b7-fa6d-ad84" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c3d0-d48f-3a2a-c424" name="•Kanan Jarrus†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8f19-9cb1-05de-d969" profileTypeId="332e30334372657723232344415441232323" name="Kanan Jarrus" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Once per round, after a friendly ship at Range 1-2 executes a white maneuver, you may remove 1 stress token from that ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e1e3-beb5-3bd4-961f" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9793,6 +9831,12 @@
         <link id="2f85-2f01-d2f3-1d2d" targetId="439c3bf9-8432-533c-6da9-b27a56c2a190" linkType="entry">
           <modifiers/>
         </link>
+        <link id="248e-79c0-c896-8941" targetId="c3d0-d48f-3a2a-c424" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ebcc-7d49-8550-bf0c" targetId="509f-8891-3ae2-dbf6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="60819a12-fd97-e9e0-7691-09cd50bb8184" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9884,6 +9928,12 @@
         <link id="3ee1-42c0-c037-f5fe" targetId="5666-dcf8-509e-5e8b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="5735-fc15-8ca7-4cfd" targetId="c3d0-d48f-3a2a-c424" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="aec0-7385-65d2-3a19" targetId="509f-8891-3ae2-dbf6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="809b-eddb-0859-03bd" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9958,6 +10008,12 @@
           <modifiers/>
         </link>
         <link id="5970-ff95-a07c-b281" targetId="ea81f40a-6790-bed2-4d79-d5c38995fd6b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7331-7f88-a8b3-2b4e" targetId="c3d0-d48f-3a2a-c424" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="18d4-cc29-0db2-937b" targetId="509f-8891-3ae2-dbf6" linkType="entry">
           <modifiers/>
         </link>
       </links>
