@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="61" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="62" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -5696,6 +5696,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="d9de-c2cc-056b-f345" name="Dorsal Turret†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="94df-762a-57ea-46af" profileTypeId="375475727265747323232344415441232323" name="Dorsal Turret " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7a31-0f18-2b0c-806e" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Dorsal Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). If the target of this attack is at Range 1, roll 1 additional attack die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e0b6-2cf9-37bd-ff4b" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -6550,6 +6576,9 @@
           <modifiers/>
         </link>
         <link id="e306-da84-1b71-4d52" targetId="7a63-a9d5-7b48-1d4d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0247-4073-c968-63be" targetId="d9de-c2cc-056b-f345" linkType="entry">
           <modifiers/>
         </link>
       </links>

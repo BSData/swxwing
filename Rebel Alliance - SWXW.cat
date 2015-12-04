@@ -9206,7 +9206,7 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="hide" field="minInRoster" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="minInRoster" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9a75-e01f-6d0b-8ef6" field="selections" type="equal to" value="1.0"/>
           </conditions>
@@ -9483,6 +9483,32 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="1770-ca39-0f72-e0e1" name="Dorsal Turret†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8111-60db-b87f-a1be" profileTypeId="375475727265747323232344415441232323" name="Dorsal Turret " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4a4f-cd17-2507-dfac" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Dorsal Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). If the target of this attack is at Range 1, roll 1 additional attack die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6bc2-29fd-91b1-9e2c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -10582,6 +10608,9 @@
         <link id="4a16-63f0-da77-84a8" targetId="29d0-8aa8-3958-c286" linkType="entry">
           <modifiers/>
         </link>
+        <link id="496b-3f0d-b13f-14c4" targetId="1770-ca39-0f72-e0e1" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="424d9844-d01c-4099-65db-d2cba6384ce5" name="Turret" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10601,6 +10630,9 @@
         <link id="0d0c-174a-9b20-b1f0" targetId="29d0-8aa8-3958-c286" linkType="entry">
           <modifiers/>
         </link>
+        <link id="b127-519c-4835-8b8e" targetId="1770-ca39-0f72-e0e1" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="565d-2c3f-b931-8ae6" name="Turret" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10618,6 +10650,9 @@
           <modifiers/>
         </link>
         <link id="fd74-8690-e7e2-061e" targetId="29d0-8aa8-3958-c286" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1c6b-8f0d-6b83-15bd" targetId="1770-ca39-0f72-e0e1" linkType="entry">
           <modifiers/>
         </link>
       </links>
