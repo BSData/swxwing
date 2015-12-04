@@ -7366,6 +7366,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="1770-ca39-0f72-e0e1" name="Dorsal Turret†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8111-60db-b87f-a1be" profileTypeId="375475727265747323232344415441232323" name="Dorsal Turret " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4a4f-cd17-2507-dfac" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Dorsal Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). If the target of this attack is at Range 1, roll 1 additional attack die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6bc2-29fd-91b1-9e2c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="246f-698e-7f14-f94e" name="Draw Their Fire" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8327,6 +8353,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="625c-afc1-05e7-a379" name="Reinforced Deflectors†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6544-080e-6190-9776" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Reinforced Deflectors" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After you suffer 3 or more damage from an attack, recover 1 shield (up to your shield value)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="51fa-2845-808b-d3d5" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="b37f854a-a0ae-d972-6aac-c75ed53ce18c" name="Saboteur" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -8800,6 +8845,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="509f-8891-3ae2-dbf6" name="•&quot;Zeb&quot; Orrelios†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3120-65d2-d938-b71c" profileTypeId="332e30334372657723232344415441232323" name="&quot;Zeb&quot; Orrelios" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Enemy ships inside your firing arc that you are touching are not considered to be touching you when either you or they activate during the Combat phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="32a2-74b7-fa6d-ad84" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7633-f1e6-bd1b-57f6" name="•BB-8" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -9045,6 +9109,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="c3d0-d48f-3a2a-c424" name="•Kanan Jarrus†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8f19-9cb1-05de-d969" profileTypeId="332e30334372657723232344415441232323" name="Kanan Jarrus" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Once per round, after a friendly ship at Range 1-2 executes a white maneuver, you may remove 1 stress token from that ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e1e3-beb5-3bd4-961f" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="3d612f57-1727-84ac-4304-a919b734f498" name="•Kyle Katarn" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -9483,70 +9566,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="1770-ca39-0f72-e0e1" name="Dorsal Turret†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8111-60db-b87f-a1be" profileTypeId="375475727265747323232344415441232323" name="Dorsal Turret " hidden="false">
-          <characteristics>
-            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
-            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="4a4f-cd17-2507-dfac" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Dorsal Turret" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). If the target of this attack is at Range 1, roll 1 additional attack die."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="6bc2-29fd-91b1-9e2c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="509f-8891-3ae2-dbf6" name="•&quot;Zeb&quot; Orrelios†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="11" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="3120-65d2-d938-b71c" profileTypeId="332e30334372657723232344415441232323" name="&quot;Zeb&quot; Orrelios" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Enemy ships inside your firing arc that you are touching are not considered to be touching you when either you or they activate during the Combat phase."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="32a2-74b7-fa6d-ad84" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c3d0-d48f-3a2a-c424" name="•Kanan Jarrus†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8f19-9cb1-05de-d969" profileTypeId="332e30334372657723232344415441232323" name="Kanan Jarrus" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Once per round, after a friendly ship at Range 1-2 executes a white maneuver, you may remove 1 stress token from that ship."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e1e3-beb5-3bd4-961f" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -10332,6 +10351,9 @@
           <modifiers/>
         </link>
         <link id="3b5a-6680-fea3-30a9" targetId="f764-1479-2681-d450" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c86f-0a82-e83b-843f" targetId="625c-afc1-05e7-a379" linkType="entry">
           <modifiers/>
         </link>
       </links>

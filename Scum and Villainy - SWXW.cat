@@ -4287,6 +4287,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="d9de-c2cc-056b-f345" name="Dorsal Turret†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="94df-762a-57ea-46af" profileTypeId="375475727265747323232344415441232323" name="Dorsal Turret " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
+            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7a31-0f18-2b0c-806e" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Dorsal Turret" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). If the target of this attack is at Range 1, roll 1 additional attack die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e0b6-2cf9-37bd-ff4b" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="3022898e-b500-87f3-6944-a42c0102a526" name="Draw Their Fire" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -5091,6 +5117,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="4201-c5a2-05e4-4adc" name="Reinforced Deflectors†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0279-29d3-3732-8cf2" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Reinforced Deflectors" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="After you suffer 3 or more damage from an attack, recover 1 shield (up to your shield value)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6007-48f3-b05d-7c8f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="67dcef78-1224-928e-331c-f4ec87fd16c4" name="Saboteur" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -5696,32 +5741,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="d9de-c2cc-056b-f345" name="Dorsal Turret†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="94df-762a-57ea-46af" profileTypeId="375475727265747323232344415441232323" name="Dorsal Turret " hidden="false">
-          <characteristics>
-            <characteristic characteristicId="576561706f6e2052616e676523232344415441232323" name="Weapon Range" value="1-2"/>
-            <characteristic characteristicId="41747461636b2056616c756523232344415441232323" name="Attack Value" value="2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="7a31-0f18-2b0c-806e" profileTypeId="38547572726574204162696c69747923232344415441232323" name="Dorsal Turret" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="547572726574204162696c69747923232344415441232323" name="Turret Ability" value="Attack: Attack 1 ship (even a ship outside your firing arc). If the target of this attack is at Range 1, roll 1 additional attack die."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e0b6-2cf9-37bd-ff4b" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -6268,6 +6287,9 @@
         <link id="7811-bbe8-cd20-e69e" targetId="3647-e99a-2d1a-4c16" linkType="entry">
           <modifiers/>
         </link>
+        <link id="525e-b355-938a-17fb" targetId="4201-c5a2-05e4-4adc" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6349,6 +6371,9 @@
           <modifiers/>
         </link>
         <link id="82c6-2f17-848a-954c" targetId="3647-e99a-2d1a-4c16" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7708-def4-9dd8-31d9" targetId="4201-c5a2-05e4-4adc" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -6435,6 +6460,9 @@
           <modifiers/>
         </link>
         <link id="10e0-babb-50ff-3f42" targetId="3647-e99a-2d1a-4c16" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a1d8-c688-239c-cb6d" targetId="4201-c5a2-05e4-4adc" linkType="entry">
           <modifiers/>
         </link>
       </links>
