@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="78" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="79" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1179,7 +1179,98 @@
         </link>
       </links>
     </entry>
-    <entry id="c749-708e-299d-a916" name="PS 3 - •&quot;Zeb&quot; Orrelios††" points="21.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="cef8-657e-f737-e33c" name="PS 3 - Lothal Rebel††" points="35.0" categoryId="3a86-50f7-ddea-720c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="b737-6907-a04d-6f53" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="5271-639e-d38c-76e7" targetId="9a75-e01f-6d0b-8ef6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ebcb-ea29-a2f8-c9b3" profileTypeId="31536869707323232344415441232323" name="Lothal Rebel" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="3"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="4"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="0"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="10"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="6"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="System, Turret, Torpedoes x2, Crew x2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="cef8-657e-f737-e33c" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="cef8-657e-f737-e33c" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="cef8-657e-f737-e33c" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c5e6-64ea-604c-60a5" targetId="809b-eddb-0859-03bd" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a615-491f-15eb-e75c" targetId="dd21508f-8798-3e2e-ae30-16613096cf4a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6331-546a-ed09-9497" targetId="395a-79d6-a246-e310" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6d93-d0a9-13ee-5b11" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d3d1-487e-ffb4-7614" targetId="565d-2c3f-b931-8ae6" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7464-e1b3-ea89-8b26" targetId="4e82-6505-7d16-09b6" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="c3b9-5373-5728-4db9" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6368-ecb2-1b04-bc02" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="cef8-657e-f737-e33c" childId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="423e-510c-a7d7-181c" targetId="37c15aa9-e3c9-8767-4fca-b6dd5a438e7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0528-d01e-6a60-5425" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0119-29c2-f380-0ab1" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c749-708e-299d-a916" name="PS 3 - •&quot;Zeb&quot; Orrelios††" points="19.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups>
         <entryGroup id="9e43-39ff-c221-def5" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -1200,7 +1291,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="509f-8891-3ae2-dbf6" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="e266-f406-74cc-5e34" profileTypeId="31536869707323232344415441232323" name="•&quot;Zeb&quot; Orrelios" hidden="false">
@@ -1232,6 +1330,12 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </profile>
+        <profile id="5c00-c7dc-3c04-9729" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Zeb&quot; Orrelios" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -1849,6 +1953,24 @@
                 <link id="c15d-01e3-cc28-95b0" targetId="afc89c42-42c5-935a-5156-9d721eea00e0" linkType="entry">
                   <modifiers/>
                 </link>
+                <link id="8590-111c-744e-5704" targetId="56da-2547-e02a-381c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="60e7-622f-5dd0-42fb" targetId="46ce-3ec3-fa2b-f71a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="bf27-fa2f-9d0f-3a37" targetId="40a3-c42e-292f-5495" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="31e4-28fd-03bd-33d6" targetId="f97c-dea0-955b-a9b3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="d7ce-c010-ec84-744c" targetId="509f-8891-3ae2-dbf6" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="e4b8-688c-84de-1de4" targetId="c3d0-d48f-3a2a-c424" linkType="entry">
+                  <modifiers/>
+                </link>
               </links>
             </entryGroup>
             <entryGroup id="be34-e576-a2cb-95d0" name="Team" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2332,6 +2454,24 @@
                   <modifiers/>
                 </link>
                 <link id="3c3b-d04b-df2f-afb8" targetId="afc89c42-42c5-935a-5156-9d721eea00e0" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b81e-4ae3-60d4-c2c8" targetId="f97c-dea0-955b-a9b3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a6ff-1902-36f2-4718" targetId="40a3-c42e-292f-5495" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="be25-6637-fd91-c00c" targetId="46ce-3ec3-fa2b-f71a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1daa-cf5d-dbdb-1641" targetId="56da-2547-e02a-381c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="bc1b-42fe-9884-4116" targetId="509f-8891-3ae2-dbf6" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="198b-89e1-4ab8-a5d7" targetId="c3d0-d48f-3a2a-c424" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -2959,6 +3099,110 @@
         </link>
       </links>
     </entry>
+    <entry id="b57a-0a10-b433-ed96" name="PS 4 - •&quot;Chopper&quot;††" points="37.0" categoryId="3a86-50f7-ddea-720c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e0b0-df60-cbac-7aa9" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="e7ef-ff5a-5f07-2d28" targetId="9a75-e01f-6d0b-8ef6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="f97c-dea0-955b-a9b3" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="f0a6-96e3-5235-2d74" profileTypeId="31536869707323232344415441232323" name="•&quot;Chopper&quot;" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="4"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="4"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="0"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="10"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="6"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="System, Turret, Torpedoes x2, Crew x2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b57a-0a10-b433-ed96" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b57a-0a10-b433-ed96" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b57a-0a10-b433-ed96" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="59e4-b4c8-21c4-ab8c" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Chopper&quot;" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="845e-d1c5-e4dd-be99" targetId="809b-eddb-0859-03bd" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="758e-37fa-06b5-a93a" targetId="dd21508f-8798-3e2e-ae30-16613096cf4a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a2b3-7a28-7352-1b94" targetId="395a-79d6-a246-e310" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="79ca-dd29-b99c-158c" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="de16-f0ed-11a6-3a2c" targetId="565d-2c3f-b931-8ae6" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5499-7bfa-f993-1ce3" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="60aa-1225-595b-542e" targetId="4e82-6505-7d16-09b6" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="ea86-651d-024f-e962" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b57a-0a10-b433-ed96" childId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="783d-8955-a2d6-4d30" targetId="37c15aa9-e3c9-8767-4fca-b6dd5a438e7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3c94-2b4b-fb80-754c" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f226-c485-5d60-5141" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="aab6-9821-94da-0bb7" name="PS 4 - •Ezra Bridger†" points="20.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -2980,7 +3224,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="40a3-c42e-292f-5495" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="27d9-b441-2c89-9aad" profileTypeId="31536869707323232344415441232323" name="•Ezra Bridger" hidden="false">
@@ -3008,6 +3259,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="aab6-9821-94da-0bb7" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="aab6-9821-94da-0bb7" childId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3861,6 +4118,110 @@
         </link>
       </links>
     </entry>
+    <entry id="ce4c-1411-c5b7-f3e4" name="PS 5 - •Kanan Jarrus††" points="38.0" categoryId="3a86-50f7-ddea-720c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ce1f-b9fa-03b3-a5f6" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="cd54-be16-6b4d-a131" targetId="9a75-e01f-6d0b-8ef6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c3d0-d48f-3a2a-c424" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="0152-7d00-bcba-a5fd" profileTypeId="31536869707323232344415441232323" name="•Kanan Jarrus" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="5"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="4"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="0"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="10"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="6"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="System, Turret, Torpedoes x2, Crew x2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ce4c-1411-c5b7-f3e4" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ce4c-1411-c5b7-f3e4" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ce4c-1411-c5b7-f3e4" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="2803-ca5c-faf4-896e" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Kanan Jarrus" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6f57-9e86-f993-9e7e" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5305-4a21-4297-c90c" targetId="4e82-6505-7d16-09b6" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="60b0-feba-e98d-da1e" targetId="809b-eddb-0859-03bd" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d854-a470-2682-8a93" targetId="dd21508f-8798-3e2e-ae30-16613096cf4a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a116-9074-e879-d2ee" targetId="395a-79d6-a246-e310" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5551-3292-0509-0bcc" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="99e2-1527-9a67-bffc" targetId="565d-2c3f-b931-8ae6" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="795a-228f-3e71-34ce" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="87af-f896-61ea-b168" targetId="37c15aa9-e3c9-8767-4fca-b6dd5a438e7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7a75-430f-e313-cc7e" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="388e-2836-915d-c57e" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ce4c-1411-c5b7-f3e4" childId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
     <entry id="e5d2aeec-a18e-7617-5bb5-f35c6aac1a4f" name="PS 5 - •Nera Dantels" points="26.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -3966,7 +4327,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3e0f-42e3-2635-9a1c" name="PS 5 - •Sabine Wren††" points="23.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="3e0f-42e3-2635-9a1c" name="PS 5 - •Sabine Wren††" points="21.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups>
         <entryGroup id="8862-6161-49e0-4487" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -3987,7 +4348,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="46ce-3ec3-fa2b-f71a" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="394e-5d59-9c9b-4bb1" profileTypeId="31536869707323232344415441232323" name="•Sabine Wren" hidden="false">
@@ -4019,6 +4387,12 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </profile>
+        <profile id="922a-4981-806e-8cad" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Sabine Wren" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -4992,10 +5366,16 @@
       </entryGroups>
       <modifiers>
         <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="c706-6a17-0237-c59d" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="c706-6a17-0237-c59d" field="selections" type="at least" value="1.0"/>
+                <condition parentId="roster" childId="56da-2547-e02a-381c" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -5080,7 +5460,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c706-6a17-0237-c59d" name="PS 7 - •Hera Syndulla††" points="25.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="c706-6a17-0237-c59d" name="PS 7 - •Hera Syndulla††" points="24.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups>
         <entryGroup id="c509-d4e8-905a-9bcc" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -5103,10 +5483,16 @@
       </entryGroups>
       <modifiers>
         <modifier type="hide" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="f74a-6fdc-f12d-87a7" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="f74a-6fdc-f12d-87a7" field="selections" type="at least" value="1.0"/>
+                <condition parentId="roster" childId="56da-2547-e02a-381c" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -5146,6 +5532,12 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </profile>
+        <profile id="c8f2-979d-9b37-c57e" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Hera Syndulla" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -8823,6 +9215,32 @@
         </link>
       </links>
     </entry>
+    <entry id="f97c-dea0-955b-a9b3" name="•&quot;Chopper&quot;††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b57a-0a10-b433-ed96" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="ab7a-5679-1962-a314" profileTypeId="332e30334372657723232344415441232323" name="&quot;Chopper&quot;" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f7a0-0fc2-868b-35eb" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" name="•&quot;Leebo&quot;" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8848,7 +9266,14 @@
     <entry id="509f-8891-3ae2-dbf6" name="•&quot;Zeb&quot; Orrelios†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c749-708e-299d-a916" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="3120-65d2-d938-b71c" profileTypeId="332e30334372657723232344415441232323" name="&quot;Zeb&quot; Orrelios" hidden="false">
@@ -9016,6 +9441,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="40a3-c42e-292f-5495" name="•Ezra Bridger††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="aab6-9821-94da-0bb7" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="6309-4de6-9e2e-ad66" profileTypeId="332e30334372657723232344415441232323" name="Ezra Bridger" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c07b-7f87-c9ad-9045" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="9a75-e01f-6d0b-8ef6" name="•Ghost†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -9056,6 +9507,38 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="56da-2547-e02a-381c" name="•Hera Syndulla††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="f74a-6fdc-f12d-87a7" field="selections" type="at least" value="1.0"/>
+                <condition parentId="roster" childId="c706-6a17-0237-c59d" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="35ac-6695-1154-d61a" profileTypeId="332e30334372657723232344415441232323" name="Hera Syndulla" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="80c1-25c7-1203-4fe0" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="fc787ffd-d75a-bb58-8931-12b16133f1eb" name="•Jaina&apos;s Light" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -9113,7 +9596,14 @@
     <entry id="c3d0-d48f-3a2a-c424" name="•Kanan Jarrus†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="ce4c-1411-c5b7-f3e4" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="8f19-9cb1-05de-d969" profileTypeId="332e30334372657723232344415441232323" name="Kanan Jarrus" hidden="false">
@@ -9521,6 +10011,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="46ce-3ec3-fa2b-f71a" name="•Sabine Wren††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="3e0f-42e3-2635-9a1c" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="4924-ae27-77b9-96cd" profileTypeId="332e30334372657723232344415441232323" name="Sabine Wren" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="03af-258a-c5ec-aa80" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8faa9d50-2ea2-5800-91b5-de98f9c68ebe" name="•Squad Leader" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -9856,6 +10372,18 @@
         <link id="ebcc-7d49-8550-bf0c" targetId="509f-8891-3ae2-dbf6" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3393-1ed6-bb41-e63a" targetId="56da-2547-e02a-381c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3e68-825f-679a-b47c" targetId="46ce-3ec3-fa2b-f71a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5044-a8c5-dd85-fb7c" targetId="40a3-c42e-292f-5495" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a0e3-a62d-d291-99c6" targetId="f97c-dea0-955b-a9b3" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="60819a12-fd97-e9e0-7691-09cd50bb8184" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9953,6 +10481,18 @@
         <link id="aec0-7385-65d2-3a19" targetId="509f-8891-3ae2-dbf6" linkType="entry">
           <modifiers/>
         </link>
+        <link id="5c80-bfd4-4ca6-cb57" targetId="56da-2547-e02a-381c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="da54-8ac9-80f4-8162" targetId="46ce-3ec3-fa2b-f71a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9472-8c36-2d4f-f808" targetId="40a3-c42e-292f-5495" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="31cc-0f09-5761-daa4" targetId="f97c-dea0-955b-a9b3" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="809b-eddb-0859-03bd" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10033,6 +10573,18 @@
           <modifiers/>
         </link>
         <link id="18d4-cc29-0db2-937b" targetId="509f-8891-3ae2-dbf6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d1f8-2edc-104d-0265" targetId="56da-2547-e02a-381c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a4c7-583e-960f-f80e" targetId="46ce-3ec3-fa2b-f71a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e2e6-8f00-5163-9475" targetId="40a3-c42e-292f-5495" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2e00-fade-e905-19c8" targetId="f97c-dea0-955b-a9b3" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -10575,6 +11127,31 @@
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="395a-79d6-a246-e310" name="System" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="1c94-3f66-f0f7-2469" targetId="9980-b173-9608-4f2c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="70c7-1749-53e6-7bbe" targetId="c50c-68ef-ef93-5a63" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="65d3-8f27-f579-ad9f" targetId="4497-72c5-c4ca-d166" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="672c-2dec-ddda-6106" targetId="a7a1-7dee-247c-c0e9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1ba0-371e-1a26-4dd1" targetId="6468-b3b1-08f0-14a2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6769-0707-bc13-a7de" targetId="625c-afc1-05e7-a379" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
     <entryGroup id="c464-c2ee-9859-5e19" name="Tech" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -10728,31 +11305,6 @@
           <modifiers/>
         </link>
         <link id="1c6b-8f0d-6b83-15bd" targetId="1770-ca39-0f72-e0e1" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="395a-79d6-a246-e310" name="System" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="1c94-3f66-f0f7-2469" targetId="9980-b173-9608-4f2c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="70c7-1749-53e6-7bbe" targetId="c50c-68ef-ef93-5a63" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="65d3-8f27-f579-ad9f" targetId="4497-72c5-c4ca-d166" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="672c-2dec-ddda-6106" targetId="a7a1-7dee-247c-c0e9" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="1ba0-371e-1a26-4dd1" targetId="6468-b3b1-08f0-14a2" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6769-0707-bc13-a7de" targetId="625c-afc1-05e7-a379" linkType="entry">
           <modifiers/>
         </link>
       </links>
