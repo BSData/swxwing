@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="63" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="64" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -5741,6 +5741,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="9085-8bee-d797-2adc" name="Thermal Detonator††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8957-a907-2a16-b459" profileTypeId="39426f6d6223232344415441232323" name="Thermal Detonator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="889e-0fb7-743b-d6fe" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Thermal Detonator Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="856b-5d6b-7d55-b6bc" targetId="ebc743a4-89a7-92b0-6e49-82817596f9b0" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="bb12bf61-b962-fa63-92f0-8f38b838b274" name="&quot;Heavy Scyk&quot; Secondary Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -5831,6 +5856,9 @@
           <modifiers/>
         </link>
         <link id="8e69-83f3-7a2d-4c0c" targetId="4455-7a11-f0dc-d156" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="32ad-2ca4-f1ed-25c1" targetId="9085-8bee-d797-2adc" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -6502,6 +6530,31 @@
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="f6b7-e549-d02c-e979" name="System" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="265f-b8c1-c1c4-d02d" targetId="5456f954-7eef-bb4a-4187-903609cec08f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="66cd-a24c-0fce-044c" targetId="e26a68fa-d26c-9ba5-4471-cb0c0ad09620" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3a8a-ed73-8715-2f82" targetId="f0488824-7565-f983-5bcf-17f397a3f926" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="19fc-1f63-67ca-0703" targetId="b7f2519e-9778-d26a-f31f-6385941db861" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7621-cc4d-4a62-4502" targetId="0e5ef706-5e5a-645f-23b5-1d26ebf64b9e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f5eb-4423-9827-0a9a" targetId="4201-c5a2-05e4-4adc" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
     <entryGroup id="04037047-bfd0-f18b-f57a-cd6fe0cf848c" name="Torpedoes" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -6598,31 +6651,6 @@
           <modifiers/>
         </link>
         <link id="0247-4073-c968-63be" targetId="d9de-c2cc-056b-f345" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="f6b7-e549-d02c-e979" name="System" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="265f-b8c1-c1c4-d02d" targetId="5456f954-7eef-bb4a-4187-903609cec08f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="66cd-a24c-0fce-044c" targetId="e26a68fa-d26c-9ba5-4471-cb0c0ad09620" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="3a8a-ed73-8715-2f82" targetId="f0488824-7565-f983-5bcf-17f397a3f926" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="19fc-1f63-67ca-0703" targetId="b7f2519e-9778-d26a-f31f-6385941db861" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="7621-cc4d-4a62-4502" targetId="0e5ef706-5e5a-645f-23b5-1d26ebf64b9e" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f5eb-4423-9827-0a9a" targetId="4201-c5a2-05e4-4adc" linkType="entry">
           <modifiers/>
         </link>
       </links>

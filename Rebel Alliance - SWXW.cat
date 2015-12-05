@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="79" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="80" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -10083,6 +10083,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="8607-bc6e-3f15-361a" name="Thermal Detonator††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0ba3-c841-5102-1506" profileTypeId="39426f6d6223232344415441232323" name="Thermal Detonator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ffbc-08ba-9bc0-7a53" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Thermal Detonator Token" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="[placeholder]"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3828-392b-d406-8149" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10203,6 +10228,9 @@
         <link id="2e41-640a-ee0d-7c4a" targetId="ba30-6b8f-797b-cd98" linkType="entry">
           <modifiers/>
         </link>
+        <link id="2e4e-d02c-ce5e-0791" targetId="8607-bc6e-3f15-361a" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="2160-eee0-9671-df42" name="Bomb" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10226,6 +10254,9 @@
           <modifiers/>
         </link>
         <link id="2589-b689-2be8-3004" targetId="ba30-6b8f-797b-cd98" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3d65-6f2d-3bd6-c70c" targetId="8607-bc6e-3f15-361a" linkType="entry">
           <modifiers/>
         </link>
       </links>
