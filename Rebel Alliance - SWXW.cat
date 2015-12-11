@@ -4407,7 +4407,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ce4c-1411-c5b7-f3e4" name="PS 5 - •Kanan Jarrus††" points="38.0" categoryId="3a86-50f7-ddea-720c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="ce4c-1411-c5b7-f3e4" name="PS 5 - •Kanan Jarrus†" points="38.0" categoryId="3a86-50f7-ddea-720c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="ce1f-b9fa-03b3-a5f6" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4469,13 +4469,13 @@
         </profile>
         <profile id="2803-ca5c-faf4-896e" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Kanan Jarrus" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When an enemy ship at Range 1-2 is attacking, you may spend a focus token. If you do, the attacker rolls 1 fewer attack die."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="6f57-9e86-f993-9e7e" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="6f57-9e86-f993-9e7e" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="5305-4a21-4297-c90c" targetId="4e82-6505-7d16-09b6" linkType="profile">
