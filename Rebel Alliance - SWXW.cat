@@ -1125,6 +1125,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="55f10216-1b9e-b207-f867-d3bce45de89b" value="Crew x2, Cargo x3, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="114cccd7-db12-855e-4a62-993908968b8a" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -1159,6 +1165,16 @@
         </link>
         <link id="4033f4d9-3bb5-abc0-5c85-869be1856c9c" targetId="3da23787-37f8-de11-11fc-155f0f091577" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="797d-f20d-e1d2-ad83" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="114cccd7-db12-855e-4a62-993908968b8a" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -2178,6 +2194,12 @@
                   </conditions>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="append" field="55f10216-1b9e-b207-f867-d3bce45de89b" value=", Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="1176775e-0e68-cf12-01fe-27b782a15479" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
             </profile>
             <profile id="7dd9e4d5-8d95-6255-3ba3-32fd3026ec7b" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="CR90 Corvette (Fore) " hidden="false" page="0">
@@ -2215,6 +2237,12 @@
                   </conditions>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="append" field="55f10216-1b9e-b207-f867-d3bce45de89b" value=" (Bomb)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="1176775e-0e68-cf12-01fe-27b782a15479" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
             </profile>
           </profiles>
@@ -2230,6 +2258,16 @@
                 <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions>
                     <condition parentId="a8abf554-54ec-748d-1418-8c7e74972a2a" childId="6941-1425-c628-7e6a" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="a79a-4629-c6d4-2bde" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="1176775e-0e68-cf12-01fe-27b782a15479" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -2655,7 +2693,14 @@
                 <characteristic characteristicId="fcc41ce1-296c-ecd2-a2c5-ac1daf9423f6" name="Shields" value="3"/>
                 <characteristic characteristicId="55f10216-1b9e-b207-f867-d3bce45de89b" name="Upgrade Bar" value="Crew, Hardpoint, Team, Cargo"/>
               </characteristics>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="55f10216-1b9e-b207-f867-d3bce45de89b" value="Crew, Hardpoint, Team, Cargo, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="55a5b0cc-b23f-bc92-64ca-2c1e747dd016" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </profile>
             <profile id="fa2fddc7-9581-673b-4591-3d3be226455d" profileTypeId="00cb6ab5-6bfa-0854-5849-f0149f71bc90" name="CR90 Corvette (Aft) [Crippled]" hidden="false" page="0">
               <characteristics>
@@ -2688,6 +2733,16 @@
                 <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions>
                     <condition parentId="a8abf554-54ec-748d-1418-8c7e74972a2a" childId="06a7-ecdb-eb0d-2cfa" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="634e-595a-2708-e38a" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="55a5b0cc-b23f-bc92-64ca-2c1e747dd016" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
