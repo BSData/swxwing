@@ -3099,7 +3099,7 @@
         </link>
       </links>
     </entry>
-    <entry id="b57a-0a10-b433-ed96" name="PS 4 - •&quot;Chopper&quot;††" points="37.0" categoryId="3a86-50f7-ddea-720c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="b57a-0a10-b433-ed96" name="PS 4 - •&quot;Chopper&quot;†" points="37.0" categoryId="3a86-50f7-ddea-720c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="e0b0-df60-cbac-7aa9" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3155,7 +3155,7 @@
         </profile>
         <profile id="59e4-b4c8-21c4-ab8c" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Chopper&quot;" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="At the start of the Combat phase, each enemy ship you are touching receives 1 stress token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3176,7 +3176,7 @@
         <link id="de16-f0ed-11a6-3a2c" targetId="565d-2c3f-b931-8ae6" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="5499-7bfa-f993-1ce3" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="5499-7bfa-f993-1ce3" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="60aa-1225-595b-542e" targetId="4e82-6505-7d16-09b6" linkType="profile">
@@ -9341,7 +9341,7 @@
         </link>
       </links>
     </entry>
-    <entry id="f97c-dea0-955b-a9b3" name="•&quot;Chopper&quot;††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="f97c-dea0-955b-a9b3" name="•&quot;Chopper&quot;†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -9356,13 +9356,13 @@
       <profiles>
         <profile id="ab7a-5679-1962-a314" profileTypeId="332e30334372657723232344415441232323" name="&quot;Chopper&quot;" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[placeholder]"/>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You may perform actions even while you are stressed. After you perform an action while you are stressed, suffer 1 damage."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="f7a0-0fc2-868b-35eb" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="f7a0-0fc2-868b-35eb" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
