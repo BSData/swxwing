@@ -4648,7 +4648,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3e0f-42e3-2635-9a1c" name="PS 5 - •Sabine Wren††" points="21.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="3e0f-42e3-2635-9a1c" name="PS 5 - •Sabine Wren†" points="21.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="8862-6161-49e0-4487" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -4686,7 +4686,7 @@
             <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="2"/>
             <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="2"/>
             <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="2"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Turret, Crew"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, Turret, Crew"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4711,7 +4711,7 @@
         </profile>
         <profile id="922a-4981-806e-8cad" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Sabine Wren" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="Immediately before you reveal your maneuver, you may perform a free boost or barrel roll action."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4720,7 +4720,7 @@
         <link id="262c-73c4-4963-78ba" targetId="8f2a-9551-16f7-8962" linkType="profile">
           <modifiers/>
         </link>
-        <link id="8552-3c28-7815-1de9" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="8552-3c28-7815-1de9" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="6dc0-fbd8-c5cb-2c2f" targetId="d4d009b0-ea83-3b8d-ffd6-ff27bb0df55b" linkType="rule">
@@ -4760,6 +4760,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="4d97-7412-2e59-e7e5" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" linkType="entry group">
+          <modifiers/>
         </link>
       </links>
     </entry>
