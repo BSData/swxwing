@@ -5838,7 +5838,7 @@
         </link>
       </links>
     </entry>
-    <entry id="70fb-19fb-bdc0-a268" name="PS 7 - •&quot;Zeta Leader&quot;††" points="20.0" categoryId="6193-0aa3-fe00-5d84" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="70fb-19fb-bdc0-a268" name="PS 7 - •&quot;Zeta Leader&quot;†" points="20.0" categoryId="6193-0aa3-fe00-5d84" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5846,7 +5846,7 @@
       <profiles>
         <profile id="0f46-951c-b750-2a46" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Zeta Leader&quot;" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking, if you are not stressed, you may receive 1 stress token to roll 1 additional attack die."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5900,7 +5900,7 @@
         <link id="7cee-8d06-8ea9-059a" targetId="1ff7-4317-4348-6365" linkType="profile">
           <modifiers/>
         </link>
-        <link id="a2d7-cf09-0a92-3f61" targetId="6d24-8b4c-8a17-f424" linkType="profile">
+        <link id="a2d7-cf09-0a92-3f61" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
         <link id="88c0-dafa-3615-3406" targetId="de7d91b9-b19d-e2d2-4af8-77b194a4f6dc" linkType="rule">
