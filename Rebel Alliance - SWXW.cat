@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="80" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="81" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1270,7 +1270,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c749-708e-299d-a916" name="PS 3 - •&quot;Zeb&quot; Orrelios††" points="19.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="c749-708e-299d-a916" name="PS 3 - •&quot;Zeb&quot; Orrelios†" points="18.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="9e43-39ff-c221-def5" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -1333,7 +1333,7 @@
         </profile>
         <profile id="5c00-c7dc-3c04-9729" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Zeb&quot; Orrelios" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When defending, you may cancel [critical] results before [hit] results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1351,7 +1351,7 @@
         <link id="9545-e7f0-65dd-6455" targetId="8f2a-9551-16f7-8962" linkType="profile">
           <modifiers/>
         </link>
-        <link id="d2b0-8f60-b18f-7307" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="d2b0-8f60-b18f-7307" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="78c9-6e8f-af1a-9ebc" targetId="d4d009b0-ea83-3b8d-ffd6-ff27bb0df55b" linkType="rule">
@@ -9087,6 +9087,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="8e73-9fca-4cff-8c24" name="Targeting Astromech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="061b-9f6c-2a65-653e" profileTypeId="332e34417374726f6d65636823232344415441232323" name="Targeting Astromech" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="After you execute a red maneuver, you may acquire a target lock."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c5dd-63a9-5e2b-2072" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="bde29740-52d6-ac5d-b455-acb1b511b181" name="Targeting Computer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -10189,25 +10208,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="8e73-9fca-4cff-8c24" name="Targeting Astromech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="061b-9f6c-2a65-653e" profileTypeId="332e34417374726f6d65636823232344415441232323" name="Targeting Astromech" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="After you execute a red maneuver, you may acquire a target lock."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="c5dd-63a9-5e2b-2072" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
