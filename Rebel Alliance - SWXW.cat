@@ -771,6 +771,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Torpedoes x2, Missiles, Crew, Bomb x3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="557f-33d6-a531-295b" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -798,7 +804,14 @@
           <modifiers/>
         </link>
         <link id="e0cf-b2fb-3bd2-cd27" targetId="2160-eee0-9671-df42" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="557f-33d6-a531-295b" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="729b-a4db-1424-2dd6" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
           <modifiers/>
@@ -2921,6 +2934,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Torpedoes x2, Missiles, Crew, Bomb x3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="41cc-1cad-7b6c-e9fd" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -2963,7 +2982,14 @@
           <modifiers/>
         </link>
         <link id="b247-d49f-58a9-aeac" targetId="2160-eee0-9671-df42" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="41cc-1cad-7b6c-e9fd" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -4957,6 +4983,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Torpedoes x2, Missiles, Crew, Bomb x3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6507-1fe6-ff15-7b89" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="5941-8464-e11a-968d" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Esege Tuketu" hidden="false">
@@ -4968,7 +5000,14 @@
       </profiles>
       <links>
         <link id="5598-b51a-e2c8-d4c7" targetId="2160-eee0-9671-df42" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6507-1fe6-ff15-7b89" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="4836-e392-1ca9-9234" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
           <modifiers/>
@@ -6850,6 +6889,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Torpedoes x2, Missiles, Crew, Bomb x3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="76a4-df77-47ac-9c64" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="88e1-aff6-691e-5673" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Miranda Doni" hidden="false">
@@ -6886,7 +6931,14 @@
           <modifiers/>
         </link>
         <link id="aaac-c5c3-b0e0-da13" targetId="2160-eee0-9671-df42" linkType="entry group">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="76a4-df77-47ac-9c64" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="1ae7-89ac-049e-e267" targetId="c402c4c4-a0ca-77ed-0561-65ee9e567521" linkType="entry group">
           <modifiers/>
