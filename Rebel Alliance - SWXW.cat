@@ -123,6 +123,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Crew x2, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="74829344-7635-3ed4-1fc4-e188d4d21e5c" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -161,6 +167,16 @@
         </link>
         <link id="d591afcc-51ed-8e3c-651a-057ca9409d13" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="b677-6fc5-6069-3c0d" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="74829344-7635-3ed4-1fc4-e188d4d21e5c" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -587,6 +603,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Crew, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c9da1ddf-2e6d-c9c4-60e0-7ba0319b5229" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -618,6 +640,16 @@
         </link>
         <link id="c2fe61ff-ea47-e35f-1736-1ecb70707c46" targetId="857a64f1-695d-c79c-907b-bc6dd73148fe" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="7754-080c-9903-a1c0" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c9da1ddf-2e6d-c9c4-60e0-7ba0319b5229" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -826,6 +858,12 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Missiles, Crew, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="be9001d3-56c8-ffbe-d3f7-0aab60dc692a" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -859,6 +897,16 @@
             <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="be9001d3-56c8-ffbe-d3f7-0aab60dc692a" childId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="599b-79aa-1e4d-02a6" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="be9001d3-56c8-ffbe-d3f7-0aab60dc692a" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1448,6 +1496,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Missiles, Crew, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ce6bfb0a-4377-4565-43de-29ba01cc419f" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -1485,6 +1539,16 @@
         </link>
         <link id="335041a8-d816-d21c-ae4c-051eeddd76b1" targetId="dd21508f-8798-3e2e-ae30-16613096cf4a" linkType="entry group">
           <modifiers/>
+        </link>
+        <link id="63fe-5653-2761-9474" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ce6bfb0a-4377-4565-43de-29ba01cc419f" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -3372,6 +3436,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Crew, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="9846b55e-fa59-edbb-2c71-37a07c8ddea4" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="c495971a-a627-d917-1f1a-316168b2b65d" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Roark Garnet" hidden="false" page="0">
@@ -3409,6 +3479,16 @@
         </link>
         <link id="d65a2285-a6dc-0c27-4b77-8196635e2ff8" targetId="857a64f1-695d-c79c-907b-bc6dd73148fe" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="4967-0084-4867-7226" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="9846b55e-fa59-edbb-2c71-37a07c8ddea4" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -3670,6 +3750,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Missiles, Crew, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b28aa0bc-79bf-71c9-8e07-49d2ec02480f" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="99b49713-566a-dc43-d8dc-713b8a85636b" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Leebo&quot;" hidden="false">
@@ -3716,6 +3802,16 @@
         </link>
         <link id="6f6aeaa4-6c55-970d-d10f-d2960dc47ad0" targetId="dd21508f-8798-3e2e-ae30-16613096cf4a" linkType="entry group">
           <modifiers/>
+        </link>
+        <link id="1880-2c8f-b992-f97f" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b28aa0bc-79bf-71c9-8e07-49d2ec02480f" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -3873,6 +3969,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Missiles, Crew x2, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="75594592-a6a6-3687-b6f5-73d68a751f0e" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="fe05bf3e-70ae-3c48-a5d6-2037043836c4" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Chewbacca" hidden="false" page="0">
@@ -3923,6 +4025,16 @@
         </link>
         <link id="bdd138f4-8482-f723-edbf-9920280bf86a" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="2a0f-a7d7-57af-651e" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="75594592-a6a6-3687-b6f5-73d68a751f0e" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -5108,6 +5220,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Turret, Crew, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="fc08990d-32b0-6f52-0f02-f5b7aae7700a" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="3368a044-5972-40e9-6f22-eef11d5e3ada" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Kyle Katarn" hidden="false" page="0">
@@ -5148,6 +5266,16 @@
         </link>
         <link id="0c7b4b6e-19a0-0b71-02f6-bbe9d270b595" targetId="857a64f1-695d-c79c-907b-bc6dd73148fe" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="dd5d-88a3-9c8b-b914" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="fc08990d-32b0-6f52-0f02-f5b7aae7700a" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -5383,6 +5511,12 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Missiles, Crew, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="acbb931d-dbf0-7e0d-d91d-319f712547f8" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="79d049b4-eb50-c5b3-104a-0fffc0cdbeeb" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Dash Rendar" hidden="false" page="0">
@@ -5429,6 +5563,16 @@
         </link>
         <link id="dfde49e9-bac2-2d25-71c2-200c7aef091c" targetId="8a03f483-b4c8-7535-c3da-f8bfcffce346" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="18ea-d6ce-3d86-2fb1" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="acbb931d-dbf0-7e0d-d91d-319f712547f8" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -6018,6 +6162,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Missiles, Crew x2, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="fec31098-536a-403b-1603-7ab0ad1c4b71" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="569c147c-a16d-e007-771a-8ab55b6e6d24" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Lando Calrissian" hidden="false" page="0">
@@ -6068,6 +6218,16 @@
         </link>
         <link id="83618076-e6b7-10d8-96db-42ee0b2291c0" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="3f23-6e94-d3ce-a3fe" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="fec31098-536a-403b-1603-7ab0ad1c4b71" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -6427,6 +6587,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Turret, Crew, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="226ef195-13a2-2188-78ac-c84e2c97f99e" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="38f3192e-295d-52cb-8fdb-fc70a12e5344" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Jan Ors" hidden="false" page="0">
@@ -6467,6 +6633,16 @@
         </link>
         <link id="3dc79f0b-109e-4063-b511-4d1aac463651" targetId="857a64f1-695d-c79c-907b-bc6dd73148fe" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="9825-54f9-3e73-3a9d" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="226ef195-13a2-2188-78ac-c84e2c97f99e" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -7071,6 +7247,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Missiles, Crew x2, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="44792c3a-5411-9276-9786-6a6ff2b7608e" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="84fa9c3e-e121-fc0a-eae7-9b33a1ea9c0f" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Han Solo" hidden="false" page="0">
@@ -7119,7 +7301,17 @@
             </modifier>
           </modifiers>
         </link>
-        <link id="cbcbe024-6cf6-3472-4e35-e7270c56a5e3" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
+        <link id="cbcbe024-6cf6-3472-4e35-e7270c56a5e3" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="44792c3a-5411-9276-9786-6a6ff2b7608e" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="4921-1694-eb8c-9af9" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -10137,7 +10329,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="46ce-3ec3-fa2b-f71a" name="•Sabine Wren††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="46ce-3ec3-fa2b-f71a" name="•Sabine Wren†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -10152,13 +10344,13 @@
       <profiles>
         <profile id="4924-ae27-77b9-96cd" profileTypeId="332e30334372657723232344415441232323" name="Sabine Wren" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[placeholder]"/>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Your upgrade bar gains the [bomb] icon. Once per turn, before a friendly bomb token is removed, choose 1 enemy ship at Range 1 of that token. That ship suffers 1 damage."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="03af-258a-c5ec-aa80" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="03af-258a-c5ec-aa80" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -11443,6 +11635,34 @@
           <modifiers/>
         </link>
         <link id="1c6b-8f0d-6b83-15bd" targetId="1770-ca39-0f72-e0e1" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="8260-d5a8-d85f-0774" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="08b7-5505-cab4-cbdc" targetId="f384-059e-fc36-019c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b357-df20-b15e-4dba" targetId="ba30-6b8f-797b-cd98" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="29a8-2094-8736-3fc5" targetId="c45f-501d-ba00-70b6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="631f-5980-0dc2-7f71" targetId="577379c0-d59e-f955-1002-119375d1e11f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8d3b-c90b-6a10-d564" targetId="e2e08cab-6adf-67d4-449b-22a8e3290304" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2896-d41c-97ad-4c75" targetId="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="27e2-c6fb-6690-573e" targetId="8607-bc6e-3f15-361a" linkType="entry">
           <modifiers/>
         </link>
       </links>
