@@ -4707,6 +4707,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="3e0f-42e3-2635-9a1c" childId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="922a-4981-806e-8cad" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Sabine Wren" hidden="false">
@@ -5943,7 +5949,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c706-6a17-0237-c59d" name="PS 7 - •Hera Syndulla††" points="24.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="c706-6a17-0237-c59d" name="PS 7 - •Hera Syndulla†" points="22.0" categoryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="c509-d4e8-905a-9bcc" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -6024,13 +6030,13 @@
         </profile>
         <profile id="c8f2-979d-9b37-c57e" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Hera Syndulla" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When you reveal a green or red maneuver, you may rotate your dial to another maneuver of the same difficulty."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="10d7-df76-585a-4b0b" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="10d7-df76-585a-4b0b" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="e5f0-7f4e-4c3b-2dab" targetId="8f2a-9551-16f7-8962" linkType="profile">
@@ -10144,7 +10150,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="56da-2547-e02a-381c" name="•Hera Syndulla††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="56da-2547-e02a-381c" name="•Hera Syndulla†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -10165,13 +10171,13 @@
       <profiles>
         <profile id="35ac-6695-1154-d61a" profileTypeId="332e30334372657723232344415441232323" name="Hera Syndulla" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[placeholder]"/>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You can reveal and execute red maneuvers even while you are stressed."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="80c1-25c7-1203-4fe0" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="80c1-25c7-1203-4fe0" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
