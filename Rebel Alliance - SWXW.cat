@@ -9567,7 +9567,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="40a3-c42e-292f-5495" name="•Ezra Bridger††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="40a3-c42e-292f-5495" name="•Ezra Bridger†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -9582,13 +9582,13 @@
       <profiles>
         <profile id="6309-4de6-9e2e-ad66" profileTypeId="332e30334372657723232344415441232323" name="Ezra Bridger" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[placeholder]"/>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking, if you are stressed, you may change 1 of your [focus] results to a [critical] result."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="c07b-7f87-c9ad-9045" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="c07b-7f87-c9ad-9045" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
