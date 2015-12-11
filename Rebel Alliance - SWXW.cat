@@ -404,9 +404,15 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="System, Cannon, Torpedoes x2, Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="f2dd1913-ab04-da47-0ca4-db37a2321d61" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f2dd1913-ab04-da47-0ca4-db37a2321d61" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -457,6 +463,16 @@
         </link>
         <link id="0dfa33a4-502e-9db9-3ace-ce6f093f3816" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="a449-857c-1c76-7ba5" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f2dd1913-ab04-da47-0ca4-db37a2321d61" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -2679,9 +2695,15 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="System, Cannon, Torpedoes x2, Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="9d39f9a8-8473-1bec-3642-8fb51174ad79" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="9d39f9a8-8473-1bec-3642-8fb51174ad79" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2732,6 +2754,16 @@
         </link>
         <link id="218c1cf6-478f-868f-cc57-f63ac1d73dae" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="203e-7354-a62a-fc7d" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="9d39f9a8-8473-1bec-3642-8fb51174ad79" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -4350,7 +4382,7 @@
             <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, System, Cannon, Torpedoes x2"/>
           </characteristics>
           <modifiers>
-            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, System, Cannon, Torpedoes x2, Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="e5d2aeec-a18e-7617-5bb5-f35c6aac1a4f" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -4377,6 +4409,12 @@
             <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="e5d2aeec-a18e-7617-5bb5-f35c6aac1a4f" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="e5d2aeec-a18e-7617-5bb5-f35c6aac1a4f" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4436,6 +4474,16 @@
         </link>
         <link id="3d7232b5-c14d-a205-a316-04734ac9848f" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="24a3-3132-d4e9-120d" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="e5d2aeec-a18e-7617-5bb5-f35c6aac1a4f" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -5097,9 +5145,15 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, System, Cannon, Torpedoes x2, Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="bcb91787-88cd-24c3-aa69-4c6416f05645" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="bcb91787-88cd-24c3-aa69-4c6416f05645" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5159,6 +5213,16 @@
         </link>
         <link id="1013cb29-5790-8be8-f8ba-bb3824b9606d" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="7b5a-8d84-eb86-9f39" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="bcb91787-88cd-24c3-aa69-4c6416f05645" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -6045,9 +6109,15 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, System, Cannon, Torpedoes x2, Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="a1ae33d3-e999-62e9-c680-708dd6a38416" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a1ae33d3-e999-62e9-c680-708dd6a38416" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6101,6 +6171,16 @@
         </link>
         <link id="6fb93326-8d98-38ac-fe1e-438878f97546" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="0c86-917d-0c0c-6b38" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a1ae33d3-e999-62e9-c680-708dd6a38416" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -6941,9 +7021,15 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, System, Cannon, Torpedoes x2, Crew" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="e1d35b7f-fede-c293-2d34-9fa5a82444b9" childId="5c3b2e53-06ac-12b9-f425-1709db8d8d84" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="557067726164652042617223232344415441232323" value=", Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="e1d35b7f-fede-c293-2d34-9fa5a82444b9" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7003,6 +7089,16 @@
         </link>
         <link id="075ad2db-fd24-5cda-8e32-11e9f5785bdd" targetId="43a1c728-1842-b681-33d5-352d14e1d88f" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="6f8f-38e7-aa6e-cedf" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="e1d35b7f-fede-c293-2d34-9fa5a82444b9" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
