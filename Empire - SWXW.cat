@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="80" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="81" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -342,7 +342,7 @@
         <link id="ebf0-d258-8dff-c56d" targetId="da9b-e30d-1aff-d7bf" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="b560-29bc-836f-3394" targetId="291043c5-bb08-1166-c130-35a071336897" linkType="entry group">
+        <link id="b560-29bc-836f-3394" targetId="a29e-8a38-fb99-43ba" linkType="entry group">
           <modifiers/>
         </link>
         <link id="241f-19a5-50cb-1580" targetId="4677c765-57fb-1da9-f01c-459dd324fe54" linkType="entry group">
@@ -736,7 +736,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="856befef-768b-899f-6f03-315ab6d6f241" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+        <link id="856befef-768b-899f-6f03-315ab6d6f241" targetId="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" linkType="entry group">
           <modifiers/>
         </link>
         <link id="30534cf4-d1eb-80a6-1270-78f47c42b7fd" targetId="da9b-e30d-1aff-d7bf" linkType="entry group">
@@ -1828,7 +1828,7 @@
         <link id="7438-5ff6-e24a-9a90" targetId="da9b-e30d-1aff-d7bf" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="cc8a-9d9d-1657-5b91" targetId="291043c5-bb08-1166-c130-35a071336897" linkType="entry group">
+        <link id="cc8a-9d9d-1657-5b91" targetId="a29e-8a38-fb99-43ba" linkType="entry group">
           <modifiers/>
         </link>
         <link id="ade7-a90e-ea5f-e09d" targetId="4677c765-57fb-1da9-f01c-459dd324fe54" linkType="entry group">
@@ -1973,7 +1973,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="72b74341-f7f6-c886-0283-4da6a7336e73" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+        <link id="72b74341-f7f6-c886-0283-4da6a7336e73" targetId="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" linkType="entry group">
           <modifiers/>
         </link>
         <link id="aaee2a30-1071-c3b0-4c23-0e00052d7a7f" targetId="da9b-e30d-1aff-d7bf" linkType="entry group">
@@ -4445,7 +4445,7 @@
         <link id="6298-d903-23d7-e12f" targetId="da9b-e30d-1aff-d7bf" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="9614-795c-3ffd-ec72" targetId="291043c5-bb08-1166-c130-35a071336897" linkType="entry group">
+        <link id="9614-795c-3ffd-ec72" targetId="a29e-8a38-fb99-43ba" linkType="entry group">
           <modifiers/>
         </link>
         <link id="2330-a2c2-0925-704d" targetId="4677c765-57fb-1da9-f01c-459dd324fe54" linkType="entry group">
@@ -4787,7 +4787,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="1d6b0b81-d8b9-2fe9-60c9-a66dc767069b" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+        <link id="1d6b0b81-d8b9-2fe9-60c9-a66dc767069b" targetId="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" linkType="entry group">
           <modifiers/>
         </link>
         <link id="f8f54172-5e0c-d569-58e2-16a0edb89550" targetId="da9b-e30d-1aff-d7bf" linkType="entry group">
@@ -5629,7 +5629,7 @@
         <link id="15d0-c93b-e971-fd7d" targetId="34781497-273f-2469-b1ef-94ffc2db5083" linkType="rule">
           <modifiers/>
         </link>
-        <link id="24e1-ea4c-d30a-9b01" targetId="291043c5-bb08-1166-c130-35a071336897" linkType="entry group">
+        <link id="24e1-ea4c-d30a-9b01" targetId="a29e-8a38-fb99-43ba" linkType="entry group">
           <modifiers/>
         </link>
         <link id="094d-6f87-ba89-e4c7" targetId="c7276d08-70c8-9319-bbb4-755eb87e6e95" linkType="entry group">
@@ -6225,7 +6225,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="9fb8e226-fe23-e763-8d39-f355abe794bc" targetId="76b68268-070c-3e72-1f15-b839933dd191" linkType="entry group">
+        <link id="9fb8e226-fe23-e763-8d39-f355abe794bc" targetId="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" linkType="entry group">
           <modifiers/>
         </link>
         <link id="0e6cbad5-4435-872a-740d-d372373fd325" targetId="da9b-e30d-1aff-d7bf" linkType="entry group">
@@ -7441,7 +7441,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="b1de2521-a5a7-3e14-4db3-1cb370f1df66" targetId="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" linkType="entry group">
+        <link id="b1de2521-a5a7-3e14-4db3-1cb370f1df66" targetId="da92a164-bdf9-4213-3d30-544d1e243e5d" linkType="entry group">
           <modifiers/>
         </link>
         <link id="5818a1ce-452a-c04d-6d10-515ea1022651" targetId="81464b2d-6a40-f341-e561-05ac6326c0e0" linkType="entry group">
@@ -10010,6 +10010,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="dcbb-0baf-5538-5741" name="Long-Range Scanners†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d43a-7e40-d94e-feb9" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Long-Range Scanners" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="You can acquire target locks on ships at Range 3 and beyond. You cannot acquire target locks on ships at Range 1-2."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3f64-46ba-7800-b089" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10732,6 +10751,16 @@
         <link id="958d-8a4c-6996-1b60" targetId="4a71-5afd-73df-3c5d" linkType="entry">
           <modifiers/>
         </link>
+        <link id="88a9-3900-7484-310c" targetId="dcbb-0baf-5538-5741" linkType="entry">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="eae80c36-ab08-0879-9474-2f3d1b070cb7" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="76b68268-070c-3e72-1f15-b839933dd191" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10804,6 +10833,9 @@
           <modifiers/>
         </link>
         <link id="56e6-95e1-838d-aca1" targetId="7fe5-cd9d-af88-3b20" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d864-93c3-c221-c15c" targetId="dcbb-0baf-5538-5741" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -11109,6 +11141,49 @@
           <modifiers/>
         </link>
         <link id="a09d-50c9-437d-cb1f" targetId="ff9c-bfaa-c0a4-48a5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="a29e-8a38-fb99-43ba" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="30e6-a6a9-d4ab-515c" targetId="0b78-9436-56e0-5a8b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e66d-eb9c-73b2-1856" targetId="10ab420d-65b4-4909-2eee-b7b6863c6824" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5efc-d90e-544c-6d93" targetId="abf7d91a-9d9e-1b62-1dec-d538c9bf1539" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="19db-c78a-a73d-e1df" targetId="dcbb-0baf-5538-5741" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4827-150e-b077-a5e9" targetId="5830a5ea-5260-e33e-f58d-f6e099d469b6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f5e9-5987-0d59-4588" targetId="d42382ad-b0f8-f83d-9d81-65852b819553" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="dbe8-2785-0ec4-1202" targetId="cdfb9b25-3315-998d-6532-1a9934a71c40" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8724-703d-864f-55ca" targetId="e7346974-c373-8b03-eb9e-334c181b029b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="db58-708b-bf80-7489" targetId="7b652eb7-52a7-5e68-964c-d9cd5920d80b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cd3a-5351-044d-1e8c" targetId="7fe5-cd9d-af88-3b20" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="20b5-350b-5af0-1927" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ebdb-7057-f128-8c56" targetId="3e21babb-0cfc-6059-5823-260b61f76c81" linkType="entry">
           <modifiers/>
         </link>
       </links>

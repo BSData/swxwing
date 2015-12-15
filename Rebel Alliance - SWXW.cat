@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="81" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="82" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -819,7 +819,7 @@
         <link id="1bbb-699c-58e2-35fd" targetId="c402c4c4-a0ca-77ed-0561-65ee9e567521" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="d5ba-6215-6973-7d88" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="d5ba-6215-6973-7d88" targetId="26fc-e75d-7d13-c2c6" linkType="entry group">
           <modifiers/>
         </link>
         <link id="c63a-19d0-5418-0e1a" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
@@ -3059,7 +3059,7 @@
         <link id="d6bd-ad43-1f10-bf87" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="383a-8133-82f4-0bb9" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="383a-8133-82f4-0bb9" targetId="26fc-e75d-7d13-c2c6" linkType="entry group">
           <modifiers/>
         </link>
         <link id="1085-291f-9845-8fd8" targetId="c402c4c4-a0ca-77ed-0561-65ee9e567521" linkType="entry group">
@@ -5159,7 +5159,7 @@
         <link id="8dc4-2fd2-0c07-deab" targetId="c402c4c4-a0ca-77ed-0561-65ee9e567521" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="e567-45e0-4034-11d9" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="e567-45e0-4034-11d9" targetId="26fc-e75d-7d13-c2c6" linkType="entry group">
           <modifiers/>
         </link>
         <link id="72cb-0475-43c6-fc6f" targetId="9545e3df-9bdf-e54d-e148-00bcf6a456e3" linkType="entry group">
@@ -7122,7 +7122,7 @@
         <link id="5d53-c7b8-7948-c8bc" targetId="b3f61166-089a-f1df-88d7-63f8983dd33c" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="0be1-e1fc-35b3-ed31" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" linkType="entry group">
+        <link id="0be1-e1fc-35b3-ed31" targetId="26fc-e75d-7d13-c2c6" linkType="entry group">
           <modifiers/>
         </link>
         <link id="53cc-856a-779d-3637" targetId="36eeea94-d532-d908-ec73-5b687d37d133" linkType="entry group">
@@ -10725,6 +10725,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="76a5-dbcb-bf66-f2bb" name="Long-Range Scanners†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f95b-a036-c60e-20e0" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Long-Range Scanners" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="You can acquire target locks on ships at Range 3 and beyond. You cannot acquire target locks on ships at Range 1-2."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5981-e878-ef2d-de1c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10880,6 +10899,34 @@
           <modifiers/>
         </link>
         <link id="3d65-6f2d-3bd6-c70c" targetId="8607-bc6e-3f15-361a" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="8260-d5a8-d85f-0774" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="08b7-5505-cab4-cbdc" targetId="f384-059e-fc36-019c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b357-df20-b15e-4dba" targetId="ba30-6b8f-797b-cd98" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="29a8-2094-8736-3fc5" targetId="c45f-501d-ba00-70b6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="631f-5980-0dc2-7f71" targetId="577379c0-d59e-f955-1002-119375d1e11f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8d3b-c90b-6a10-d564" targetId="e2e08cab-6adf-67d4-449b-22a8e3290304" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2896-d41c-97ad-4c75" targetId="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="27e2-c6fb-6690-573e" targetId="8607-bc6e-3f15-361a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -11963,30 +12010,39 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="8260-d5a8-d85f-0774" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entryGroup id="26fc-e75d-7d13-c2c6" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <links>
-        <link id="08b7-5505-cab4-cbdc" targetId="f384-059e-fc36-019c" linkType="entry">
+        <link id="f19e-1448-c9a7-8d5f" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
           <modifiers/>
         </link>
-        <link id="b357-df20-b15e-4dba" targetId="ba30-6b8f-797b-cd98" linkType="entry">
+        <link id="401c-ca90-8112-a6b7" targetId="1a52bfeb-0fa5-2c31-7988-2cdfa0b884b8" linkType="entry">
           <modifiers/>
         </link>
-        <link id="29a8-2094-8736-3fc5" targetId="c45f-501d-ba00-70b6" linkType="entry">
+        <link id="4124-a59c-9ed7-321d" targetId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" linkType="entry">
           <modifiers/>
         </link>
-        <link id="631f-5980-0dc2-7f71" targetId="577379c0-d59e-f955-1002-119375d1e11f" linkType="entry">
+        <link id="6bfb-d3c6-2d42-e722" targetId="cfca4701-2652-694e-fc52-5434a3a3475d" linkType="entry">
           <modifiers/>
         </link>
-        <link id="8d3b-c90b-6a10-d564" targetId="e2e08cab-6adf-67d4-449b-22a8e3290304" linkType="entry">
+        <link id="29e2-85f4-cd0d-139b" targetId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" linkType="entry">
           <modifiers/>
         </link>
-        <link id="2896-d41c-97ad-4c75" targetId="fbcdd620-b0fa-538a-6c0a-9bc1a44da129" linkType="entry">
+        <link id="4a91-48f0-e618-6534" targetId="871ad81a-0fc2-59cb-3339-f812d5543554" linkType="entry">
           <modifiers/>
         </link>
-        <link id="27e2-c6fb-6690-573e" targetId="8607-bc6e-3f15-361a" linkType="entry">
+        <link id="67c4-8870-4429-571a" targetId="72e4d26e-3a86-2ce7-3b09-beb2aded5b46" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="140c-8dac-f97c-6fe9" targetId="bde29740-52d6-ac5d-b455-acb1b511b181" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="92ae-d716-9a97-182c" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4936-2244-1c56-ba39" targetId="76a5-dbcb-bf66-f2bb" linkType="entry">
           <modifiers/>
         </link>
       </links>
