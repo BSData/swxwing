@@ -157,6 +157,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value=" " repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="86431e03-a87d-dcbf-2300-659603769ca8" childId="0b02-e1ad-b3fb-ec4a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -183,6 +189,9 @@
           <modifiers/>
         </link>
         <link id="0743ac01-9d14-a868-391f-507041dc88ae" targetId="3f36f029-e215-9c25-266f-1a1bb0f43abe" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3315-72ed-96be-162a" targetId="c5d1-d539-d1b7-9212" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -1151,6 +1160,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value=" " repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="8a42fb9b-66d6-9fdf-4067-f6d067c37c77" childId="0b02-e1ad-b3fb-ec4a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -1177,6 +1192,9 @@
           <modifiers/>
         </link>
         <link id="4f96e932-4ddb-091b-2156-90d9d5cf3790" targetId="3f36f029-e215-9c25-266f-1a1bb0f43abe" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="cd3b-0333-5088-c011" targetId="c5d1-d539-d1b7-9212" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -4662,6 +4680,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7d4bf72f-037e-bcfa-cefe-f3a32e067807" childId="0b02-e1ad-b3fb-ec4a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="010c0390-f145-0c02-f768-fab02aeaa8f1" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Colonel Vessery" hidden="false" page="0">
@@ -4697,6 +4721,9 @@
           <modifiers/>
         </link>
         <link id="2adee18d-8c20-d3bf-14e6-509a17ed147c" targetId="3f36f029-e215-9c25-266f-1a1bb0f43abe" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="e55d-b307-e6a9-b5a3" targetId="c5d1-d539-d1b7-9212" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -6764,6 +6791,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ce360707-f31a-a30c-95e1-4b717f1bbb8b" childId="0b02-e1ad-b3fb-ec4a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="681a929e-d546-70d9-d608-bb2c312c30ef" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Rexler Brath" hidden="false" page="0">
@@ -6799,6 +6832,9 @@
           <modifiers/>
         </link>
         <link id="a31bcd69-69bb-44ca-eeb7-d5d23aab2ae6" targetId="3f36f029-e215-9c25-266f-1a1bb0f43abe" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="e9e9-d88a-30f4-4e8e" targetId="c5d1-d539-d1b7-9212" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -9541,6 +9577,44 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="0b02-e1ad-b3fb-ec4a" name="TIE/x7†" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b3cb-d657-5ae8-154e" profileTypeId="332e30315469746c6523232344415441232323" name="TIE/x7" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar loses the [cannon] and [missiles] upgrade icons. After executing a 3-, 4-, or 5-speed maneuver, you may assign 1 evade token to your ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fde6-d201-5aa7-f206" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="16aa-b4f5-0c2f-5d13" name="TIE/D†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d5fe-d58c-0ae6-bb34" profileTypeId="332e30315469746c6523232344415441232323" name="TIE/D" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Once per round, after you perform an attack with a [cannon] secondary weapon that costs 3 or fewer squad points, you may perform a primary weapon attack."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="482e-bc13-7ac6-cec5" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9602,7 +9676,14 @@
     <entryGroup id="15c2343d-0add-534b-6a79-ed3dba7cf823" name="Cannon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="0b02-e1ad-b3fb-ec4a" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <links>
         <link id="5903-54f1-b9ee-88d9" targetId="5c66-637a-822c-76cc" linkType="entry">
           <modifiers/>
@@ -10061,7 +10142,14 @@
     <entryGroup id="3671e8b2-4419-156c-2a26-9164209fe54a" name="Missiles" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="0b02-e1ad-b3fb-ec4a" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <links>
         <link id="2cec613d-288f-2f45-f6db-8d71171e933a" targetId="f509f70f-65ea-665d-4eb1-beb57adc0040" linkType="entry">
           <modifiers/>
@@ -10696,6 +10784,19 @@
           <modifiers/>
         </link>
         <link id="a09d-50c9-437d-cb1f" targetId="ff9c-bfaa-c0a4-48a5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="c5d1-d539-d1b7-9212" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="7e5c-0e41-2d8b-4d5b" targetId="0b02-e1ad-b3fb-ec4a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b21f-cfc6-c617-375a" targetId="16aa-b4f5-0c2f-5d13" linkType="entry">
           <modifiers/>
         </link>
       </links>
