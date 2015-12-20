@@ -10221,6 +10221,25 @@
         </link>
       </links>
     </entry>
+    <entry id="1d59-ebe5-5e8d-62de" name="Construction Droid†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b6cd-433b-89e0-4b68" profileTypeId="332e30334372657723232344415441232323" name="Construction Droid" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you perform a recover action, you may spend 1 energy to discard 1 facedown Damage card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8596-81b2-167c-c52e" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10514,6 +10533,9 @@
           <modifiers/>
         </link>
         <link id="a157-cde9-a331-3a7b" targetId="8607-9625-2b62-deb7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2119-19e2-8335-edf0" targetId="1d59-ebe5-5e8d-62de" linkType="entry">
           <modifiers/>
         </link>
       </links>
