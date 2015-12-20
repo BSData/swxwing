@@ -2170,6 +2170,9 @@
                     </modifier>
                   </modifiers>
                 </link>
+                <link id="5045-c0d3-6fe5-215f" targetId="6edc-9bdf-5c9c-d375" linkType="entry">
+                  <modifiers/>
+                </link>
               </links>
             </entryGroup>
             <entryGroup id="f428-f86b-25f6-dd9d" name="Team" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2545,6 +2548,9 @@
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
+                </link>
+                <link id="8656-4950-34ab-6357" targetId="6edc-9bdf-5c9c-d375" linkType="entry">
+                  <modifiers/>
                 </link>
               </links>
             </entryGroup>
@@ -10195,6 +10201,26 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="6edc-9bdf-5c9c-d375" name="Cluster Bombs†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f388-c937-cb2b-72ae" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Cluster Bombs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="After defending, you may discard this card. If you do, each other ship at Range 1 of the defending section rolls 2 attack dice, suffering all damage [hit] and critical damage [critical] rolled."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c87c-f12c-1938-2241" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10328,6 +10354,9 @@
           <modifiers/>
         </link>
         <link id="71db-5fa8-2e36-b937" targetId="ed63-749a-0904-2f3b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8b7b-6a90-ba10-fa7d" targetId="6edc-9bdf-5c9c-d375" linkType="entry">
           <modifiers/>
         </link>
       </links>
