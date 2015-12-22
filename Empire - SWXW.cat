@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="85" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="86" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -8034,6 +8034,26 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="6edc-9bdf-5c9c-d375" name="Cluster Bombs†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f388-c937-cb2b-72ae" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Cluster Bombs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
+            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="After defending, you may discard this card. If you do, each other ship at Range 1 of the defending section rolls 2 attack dice, suffering all damage [hit] and critical damage [critical] rolled."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c87c-f12c-1938-2241" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="0a85-c646-3ab2-68b0" name="Cluster Mines" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8151,6 +8171,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="1d59-ebe5-5e8d-62de" name="Construction Droid†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b6cd-433b-89e0-4b68" profileTypeId="332e30334372657723232344415441232323" name="Construction Droid" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you perform a recover action, you may spend 1 energy to discard 1 facedown Damage card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8596-81b2-167c-c52e" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="4c1e-fd71-3882-878b" name="Cool Hand" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8189,7 +8228,7 @@
       <profiles>
         <profile id="b756-24b2-ea57-9f82" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Crack Shot" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking a ship inside your firing arc, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking a ship inside your firing arc, at the start of the &apos;Compare Results&apos; step, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -9948,66 +9987,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="e02d-029d-7945-d6cd" name="•Requiem†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="efa0-77e9-68ca-b2f0" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Requiem" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+0"/>
-            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="When you deploy a ship, treat its pilot skill value as &quot;8&quot; until the end of the round."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="95cd-a8d8-3dcc-e66e" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7779-b490-1932-fcef" name="•Vector†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="254d-58f5-7c77-e977" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Vector" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+1"/>
-            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="After you execute a maneuver, you may deploy up to 4 docked ships (instead of 2)."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e065-31dd-a64e-7bc2" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6bc2-4dd9-8365-9e98" name="•Suppressor†" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="9fd6-a656-3a10-8502" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Suppressor" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+2"/>
-            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="Once per round, after you acquire a target lock on an enemy ship, you may remove 1 focus, evade, or blue target lock token from that ship."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="f31b-5a32-e6d8-fb0a" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="829f-2be5-2063-f96d" name="•Grand Moff Tarkin" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -10141,6 +10120,26 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="e02d-029d-7945-d6cd" name="•Requiem†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="efa0-77e9-68ca-b2f0" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Requiem" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+0"/>
+            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="When you deploy a ship, treat its pilot skill value as &quot;8&quot; until the end of the round."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="95cd-a8d8-3dcc-e66e" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="eae80c36-ab08-0879-9474-2f3d1b070cb7" name="•Slave 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -10186,6 +10185,46 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="6bc2-4dd9-8365-9e98" name="•Suppressor†" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9fd6-a656-3a10-8502" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Suppressor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+2"/>
+            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="Once per round, after you acquire a target lock on an enemy ship, you may remove 1 focus, evade, or blue target lock token from that ship."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f31b-5a32-e6d8-fb0a" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7779-b490-1932-fcef" name="•Vector†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="254d-58f5-7c77-e977" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" name="Vector" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f4a56447-215a-5343-058b-2b008bbc3b17" name="Energy Limit" value="+1"/>
+            <characteristic characteristicId="35dd7d85-e297-9105-3752-6f3270058b24" name="Huge Ship Title Ability" value="After you execute a maneuver, you may deploy up to 4 docked ships (instead of 2)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e065-31dd-a64e-7bc2" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="9a1592a3-76d2-99a6-dfb7-0495e0292cd1" name="•Ysanne Isard" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -10200,45 +10239,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="6edc-9bdf-5c9c-d375" name="Cluster Bombs†" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="f388-c937-cb2b-72ae" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" name="Cluster Bombs" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f590613e-2952-c1fb-5a8a-a3b252fcb478" name="Energy Limit"/>
-            <characteristic characteristicId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" name="Cargo Ability" value="After defending, you may discard this card. If you do, each other ship at Range 1 of the defending section rolls 2 attack dice, suffering all damage [hit] and critical damage [critical] rolled."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="c87c-f12c-1938-2241" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1d59-ebe5-5e8d-62de" name="Construction Droid†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="b6cd-433b-89e0-4b68" profileTypeId="332e30334372657723232344415441232323" name="Construction Droid" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When you perform a recover action, you may spend 1 energy to discard 1 facedown Damage card."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8596-81b2-167c-c52e" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
