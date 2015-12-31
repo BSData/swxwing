@@ -742,7 +742,7 @@
         </link>
       </links>
     </entry>
-    <entry id="1e02-7a4d-b863-d60e" name="PS 2 - Sienar Test Pilot††" points="18.0" categoryId="485a0a61-0056-76de-0cc8-af9e87627885" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="1e02-7a4d-b863-d60e" name="PS 2 - Sienar Test Pilot†" points="14.0" categoryId="485a0a61-0056-76de-0cc8-af9e87627885" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="886f-8987-791d-3261" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -791,7 +791,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="53c4-8f53-3780-9948" targetId="6d24-8b4c-8a17-f424" linkType="profile">
+        <link id="53c4-8f53-3780-9948" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
         <link id="f2fe-3b59-e4ef-1a8a" targetId="efc2-e8c1-8068-e439" linkType="profile">
