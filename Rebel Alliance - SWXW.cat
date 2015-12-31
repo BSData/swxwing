@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="87" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="88" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -10339,6 +10339,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="c9cf-d1e1-5980-ae7d" name="Guidance Chips†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1e9e-b273-94c1-190f" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Guidance Chips" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Once per round, when attacking with a [torpedoes] or [missiles] secondary weapon, you may change 1 die result to a [hit] result (or a [critical] result if your primary weapon value is &quot;3&quot; or higher)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3ac2-45a0-8ea6-36ca" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11161,6 +11180,9 @@
         <link id="c2f0-9e2a-c3f7-3279" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
           <modifiers/>
         </link>
+        <link id="1aa3-50e8-58c4-fc83" targetId="c9cf-d1e1-5980-ae7d" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="dd21508f-8798-3e2e-ae30-16613096cf4a" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11207,6 +11229,9 @@
         <link id="3b5a-6680-fea3-30a9" targetId="f764-1479-2681-d450" linkType="entry">
           <modifiers/>
         </link>
+        <link id="6566-d9a3-0a76-1aef" targetId="c9cf-d1e1-5980-ae7d" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11241,6 +11266,9 @@
         <link id="4e5f-5bf3-7e11-5e97" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
           <modifiers/>
         </link>
+        <link id="8eca-d5cf-7f65-7cdc" targetId="c9cf-d1e1-5980-ae7d" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="c30d64de-d278-0167-b900-e2a2bf88d797" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11273,6 +11301,9 @@
           <modifiers/>
         </link>
         <link id="d8d3-35a1-5c2e-fa02" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="459e-c0b8-66bf-1ba3" targetId="c9cf-d1e1-5980-ae7d" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -11310,6 +11341,9 @@
           <modifiers/>
         </link>
         <link id="ed1c-68d3-59cb-950f" targetId="d700-dbb5-b5e4-85b8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="62d9-2615-9451-4c69" targetId="c9cf-d1e1-5980-ae7d" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -11352,6 +11386,9 @@
         <link id="f3f3-a8b6-8b7a-973d" targetId="07d0-2dc8-381b-cbae" linkType="entry">
           <modifiers/>
         </link>
+        <link id="7ddf-4f53-f43d-dd99" targetId="c9cf-d1e1-5980-ae7d" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="5d38-1f52-fc87-efca" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11387,6 +11424,9 @@
           <modifiers/>
         </link>
         <link id="cd1e-2a44-b49b-8a35" targetId="cfca4701-2652-694e-fc52-5434a3a3475d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6c45-442d-2650-1f99" targetId="c9cf-d1e1-5980-ae7d" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -11440,6 +11480,9 @@
           <modifiers/>
         </link>
         <link id="4936-2244-1c56-ba39" targetId="76a5-dbcb-bf66-f2bb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d6b4-fed8-0cc3-4afe" targetId="c9cf-d1e1-5980-ae7d" linkType="entry">
           <modifiers/>
         </link>
       </links>
