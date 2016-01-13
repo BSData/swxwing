@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="74" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="75" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -1812,7 +1812,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="1d9a-49f0-bc7b-03d3" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="dd00-1541-c660-052a" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="4-LOM" hidden="false">
@@ -3385,7 +3392,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="fc10-ecb7-c321-aaec" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="f280-aa67-5100-6849" profileTypeId="31536869707323232344415441232323" name="•Zuckuss" hidden="false">
@@ -5711,6 +5725,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="1d9a-49f0-bc7b-03d3" name="•4-LOM†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e4d5-cad9-125b-ec8e" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="3ca5-bb63-7c6f-da9f" profileTypeId="332e30334372657723232344415441232323" name="4-LOM" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking, during the &quot;Modify Attack Dice&quot; step, you may receive 1 ion token to choose 1 of the defender&apos;s focus or evade tokens. That token cannot be spent during this attack."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c1f1-c786-a590-6da9" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="291f5d87-45a8-29f3-0e55-73b17728ec77" name="•Andrasta" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -5951,29 +5991,17 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="1d9a-49f0-bc7b-03d3" name="•4-LOM†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="3ca5-bb63-7c6f-da9f" profileTypeId="332e30334372657723232344415441232323" name="4-LOM" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking, during the &quot;Modify Attack Dice&quot; step, you may receive 1 ion token to choose 1 of the defender&apos;s focus or evade tokens. That token cannot be spent during this attack."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="c1f1-c786-a590-6da9" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="fc10-ecb7-c321-aaec" name="•Zuckuss†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b729-8349-2227-073f" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="a175-d94b-e338-5845" profileTypeId="332e30334372657723232344415441232323" name="Zuckuss" hidden="false">
@@ -5985,6 +6013,25 @@
       </profiles>
       <links>
         <link id="c746-786e-4c9f-d2d5" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="117c-4f45-7eb0-9c4d" name="Electronic Baffle†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6409-07f4-d741-5ac8" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Electronic Baffle" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="System Ability" value="When you receive a stress token or an ion token, you may suffer 1 damage to discard that token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="caf3-b0fd-e165-ebcb" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -6805,6 +6852,9 @@
         <link id="aac858e4-2fe3-c4ff-45da-f5d2b1d16932" targetId="5456f954-7eef-bb4a-4187-903609cec08f" linkType="entry">
           <modifiers/>
         </link>
+        <link id="bd52-bf28-8684-19fc" targetId="117c-4f45-7eb0-9c4d" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="f6b7-e549-d02c-e979" name="System" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6828,6 +6878,9 @@
           <modifiers/>
         </link>
         <link id="f5eb-4423-9827-0a9a" targetId="4201-c5a2-05e4-4adc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="173a-be7d-2d21-2629" targetId="117c-4f45-7eb0-9c4d" linkType="entry">
           <modifiers/>
         </link>
       </links>
