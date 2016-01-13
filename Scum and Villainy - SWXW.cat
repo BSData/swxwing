@@ -6036,6 +6036,25 @@
         </link>
       </links>
     </entry>
+    <entry id="f2dc-4273-adff-f544" name="Adaptability†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="de26-28b2-1ffd-62ff" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Adaptability" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Dual card. Increase your pilot skill value by 1. [OR] Dual card. Decrease your pilot skill value by 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="efef-4ca6-e079-a0c4" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6360,6 +6379,9 @@
         <link id="a394-76d2-b3c3-8016" targetId="fef1-6739-94fa-812e" linkType="entry">
           <modifiers/>
         </link>
+        <link id="86f8-86dd-8c36-4ff6" targetId="f2dc-4273-adff-f544" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="6c29-e554-71ed-ed9e" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6443,6 +6465,9 @@
           <modifiers/>
         </link>
         <link id="e3a4-e8aa-ae22-61e1" targetId="fef1-6739-94fa-812e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3b3e-2b84-cbed-8e40" targetId="f2dc-4273-adff-f544" linkType="entry">
           <modifiers/>
         </link>
       </links>
