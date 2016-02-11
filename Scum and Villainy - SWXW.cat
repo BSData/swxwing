@@ -6278,6 +6278,25 @@
         </link>
       </links>
     </entry>
+    <entry id="5f46-579b-27c5-3824" name="Attanni Mindlink†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8dfa-6b17-4362-b473" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Attanni Mindlink" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Each time you are assigned a focus or stress token, each other friendly ship with Attanni Mindlink must also be assigned the same type of token if it does not already have one."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="410c-5e87-63e1-2de5" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6608,6 +6627,9 @@
         <link id="e418-177e-2b23-e3b5" targetId="5b4e-65e2-d392-6500" linkType="entry">
           <modifiers/>
         </link>
+        <link id="fdc2-23e4-2ff8-ee2c" targetId="5f46-579b-27c5-3824" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="6c29-e554-71ed-ed9e" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6697,6 +6719,9 @@
           <modifiers/>
         </link>
         <link id="e5ca-ea46-bf88-5d90" targetId="5b4e-65e2-d392-6500" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6dc5-ae2f-d897-e759" targetId="5f46-579b-27c5-3824" linkType="entry">
           <modifiers/>
         </link>
       </links>
