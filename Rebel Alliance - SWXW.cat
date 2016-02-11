@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="89" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="90" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -7379,6 +7379,26 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="d86d-219a-4d54-0bd7" name="Adaptability†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="16ed-667d-7bcc-0ecf" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Adaptability" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Dual card. Increase your pilot skill value by 1. [OR] 
+Dual card. Decrease your pilot skill value by 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="26a4-523f-d1a7-c656" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7822-267d-43f2-95c1" name="Adrenaline Rush" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8015,6 +8035,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="5e85-8eb4-f5dd-c43f" name="Electronic Baffle†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e736-ebae-b329-96e5" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Electronic Baffle" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="System Ability" value="When you receive a stress token or an ion token, you may suffer 1 damage to discard that token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d79d-2d3c-a89c-f0c1" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="17dd-5c36-29cc-913a" name="Elusiveness" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -10358,40 +10397,21 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="5e85-8eb4-f5dd-c43f" name="Electronic Baffle†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="83fa-c2b6-338a-f7d6" name="Rage†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e736-ebae-b329-96e5" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Electronic Baffle" hidden="false">
+        <profile id="cf09-d511-052d-4c6f" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Rage" hidden="false">
           <characteristics>
-            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="System Ability" value="When you receive a stress token or an ion token, you may suffer 1 damage to discard that token."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Action: Assign 1 focus token to your ship and receive 2 stress tokens. Until the end of the round, when attacking, you may reroll up to 3 attack dice."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="d79d-2d3c-a89c-f0c1" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="d86d-219a-4d54-0bd7" name="Adaptability†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="16ed-667d-7bcc-0ecf" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Adaptability" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Dual card. Increase your pilot skill value by 1. [OR] Dual card. Decrease your pilot skill value by 1."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="26a4-523f-d1a7-c656" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+        <link id="1986-7697-cf16-0f2f" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -11037,6 +11057,9 @@
         <link id="8459-77b5-aeb2-0a27" targetId="d86d-219a-4d54-0bd7" linkType="entry">
           <modifiers/>
         </link>
+        <link id="75ac-8679-bde5-9224" targetId="83fa-c2b6-338a-f7d6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="f01d-656f-5b3a-cc44" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11120,6 +11143,9 @@
           <modifiers/>
         </link>
         <link id="bd4b-3711-de42-1056" targetId="d86d-219a-4d54-0bd7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0109-61fd-e98d-92b7" targetId="83fa-c2b6-338a-f7d6" linkType="entry">
           <modifiers/>
         </link>
       </links>
