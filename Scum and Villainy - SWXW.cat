@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="76" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="77" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -3334,7 +3334,7 @@
         </profile>
         <profile id="22d5-6df7-92e9-7dad" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Tel Trevura" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="The first time you should be destroyed, cancel all remaining damage, discard all your damage cards and assign 4 facedown damage cards in their place. [Translated from French]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="The first time you would be destroyed, instead cancel any remaining damage, discard all Damage cards, and deal 4 facedown Damage cards to this ship."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3987,8 +3987,7 @@
       <profiles>
         <profile id="de26-28b2-1ffd-62ff" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Adaptability" hidden="false">
           <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Dual card. Increase your pilot skill value by 1. [OR] 
-Dual card. Decrease your pilot skill value by 1."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Dual card. Increase your pilot skill value by 1. [OR]  Dual card. Decrease your pilot skill value by 1."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5340,6 +5339,25 @@ Dual card. Decrease your pilot skill value by 1."/>
       </profiles>
       <links/>
     </entry>
+    <entry id="5b4e-65e2-d392-6500" name="Rage†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="807b-e71f-0a0f-8b78" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Rage" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Action: Assign 1 focus token to your ship and receive 2 stress tokens. Until the end of the round, when attacking, you may reroll up to 3 attack dice."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="257e-6d7f-4cca-7bfb" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="1b14d503-e721-7433-4eb7-af8da7c6cfe3" name="Recon Specialist" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -6052,25 +6070,6 @@ Dual card. Decrease your pilot skill value by 1."/>
       </profiles>
       <links>
         <link id="c746-786e-4c9f-d2d5" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="5b4e-65e2-d392-6500" name="Rage†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="807b-e71f-0a0f-8b78" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Rage" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="Action: Assign 1 focus token to your ship and receive 2 stress tokens. Until the end of the round, when attacking, you may reroll up to 3 attack dice."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="257e-6d7f-4cca-7bfb" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
       </links>
