@@ -6383,6 +6383,25 @@ Action: Remove 1 shield token from this card to recover 1 shield (up to your shi
         </link>
       </links>
     </entry>
+    <entry id="83da-91e0-a932-a6c1" name="•R5-P8†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fcad-116c-8ab9-231e" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" name="R5-P8" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="76f62e20-6c9d-37b2-b892-8898a587998c" name="Salvaged Astromech Ability" value="Once per round, after defending, you may roll 1 attack die. On a [hit] result, the attacker suffers 1 damage. On a [critical] result, you and the attacker each suffer 1 damage."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8113-fa86-18e9-dc2d" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7211,6 +7230,9 @@ Action: Remove 1 shield token from this card to recover 1 shield (up to your shi
           <modifiers/>
         </link>
         <link id="e35ac1b2-889d-b89c-8dad-37baa4a84679" targetId="46ded1c9-945e-4ff1-c30a-4ad31aac7185" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e2c5-63e0-30ed-a32a" targetId="83da-91e0-a932-a6c1" linkType="entry">
           <modifiers/>
         </link>
       </links>
