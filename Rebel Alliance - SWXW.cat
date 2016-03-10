@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="91" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="92" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -9354,9 +9354,9 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="ffbc-08ba-9bc0-7a53" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Thermal Detonator Token" hidden="true">
+        <profile id="ffbc-08ba-9bc0-7a53" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Thermal Detonator Token" hidden="false">
           <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="[placeholder]"/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage and receives 1 stress token. Then discard this token."/>
           </characteristics>
           <modifiers/>
         </profile>
