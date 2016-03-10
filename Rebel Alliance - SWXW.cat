@@ -9342,19 +9342,19 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="8607-bc6e-3f15-361a" name="Thermal Detonator††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="8607-bc6e-3f15-361a" name="Thermal Detonators†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0ba3-c841-5102-1506" profileTypeId="39426f6d6223232344415441232323" name="Thermal Detonator" hidden="false">
+        <profile id="0ba3-c841-5102-1506" profileTypeId="39426f6d6223232344415441232323" name="Thermal Detonators" hidden="false">
           <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="[placeholder]"/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Ability" value="When you reveal your maneuver dial, you may discard this card to drop 1 thermal detonator token. This token detonates at the end of the Activation phase."/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="ffbc-08ba-9bc0-7a53" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Thermal Detonator Token" hidden="false">
+        <profile id="ffbc-08ba-9bc0-7a53" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Thermal Detonator Token" hidden="true">
           <characteristics>
             <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="[placeholder]"/>
           </characteristics>
@@ -9362,7 +9362,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="3828-392b-d406-8149" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="3828-392b-d406-8149" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
