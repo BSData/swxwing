@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="92" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="93" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1748,6 +1748,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="28f4-580b-14f2-c595" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -1885,6 +1891,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="d8633d64-2dce-a77c-b33a-60325036cfb5" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="d8633d64-2dce-a77c-b33a-60325036cfb5" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2042,6 +2054,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="d897-7f06-d03d-c30e" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="d897-7f06-d03d-c30e" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2882,6 +2900,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="3b59fd6a-0366-a503-ea6c-f4ed5a5f5095" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -3198,6 +3222,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ffb872cd-4c4e-8ded-51ce-e32ccf707939" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="ec3c7142-de88-1ff3-cf96-1669d81c4478" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Captain Oicunn" hidden="false">
@@ -3377,6 +3407,12 @@
             <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew x2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="da8f-f5f2-6716-ef8a" childId="5816-9d5c-26d9-6813" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="da8f-f5f2-6716-ef8a" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3758,6 +3794,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a512-2cb2-08a7-d65f" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="8723-5c84-efb7-d35b" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Zeta Ace&quot;" hidden="false">
@@ -3860,6 +3902,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="8d835004-eade-d8d6-76e0-52eae3c2949e" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -3946,6 +3994,12 @@
             <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="c103-43dd-ff24-6dac" childId="0b02-e1ad-b3fb-ec4a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c103-43dd-ff24-6dac" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4244,6 +4298,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="3948-24f0-0404-221d" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -4331,6 +4391,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="05a91619-050a-b595-99eb-cce57e3d1ff5" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="05a91619-050a-b595-99eb-cce57e3d1ff5" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4618,6 +4684,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="1bd8275c-7553-e164-3a0b-8950dace2875" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="1789e3f3-9433-f5c6-2b88-d4ded1c5a903" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Echo&quot;" hidden="false" page="0">
@@ -4773,6 +4845,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="41c6-72f4-abff-c5ce" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="1035-76ad-0b97-620d" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Youngster&quot;" hidden="false">
@@ -4863,6 +4941,12 @@
             <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew x2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="aff8a3ef-f52f-ee8e-fd46-2742550824e5" childId="5816-9d5c-26d9-6813" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="aff8a3ef-f52f-ee8e-fd46-2742550824e5" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5038,6 +5122,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7d4bf72f-037e-bcfa-cefe-f3a32e067807" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="010c0390-f145-0c02-f768-fab02aeaa8f1" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Colonel Vessery" hidden="false" page="0">
@@ -5128,6 +5218,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="f138077d-e39f-faf9-5460-4a44db430cf2" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f138077d-e39f-faf9-5460-4a44db430cf2" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5311,6 +5407,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="fe51-6db8-9696-6666" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="a3da-e950-e732-9025" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Valen Rudor" hidden="false">
@@ -5407,6 +5509,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a473-1827-bd43-0958" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="ad52-d24d-bee2-a2db" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Zertik Strom" hidden="false">
@@ -5496,6 +5604,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ded5f73d-7b71-ca9f-7348-7e6dcebf1239" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="3dc8900f-5280-8907-a8f7-faa397cd7302" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Mauler Mithel&quot;" hidden="false" page="0">
@@ -5569,6 +5683,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="bef2-349c-8fc3-bd69" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="bef2-349c-8fc3-bd69" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5724,6 +5844,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f5ed-f98e-3cdb-26f7" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="b2f1-f7d0-7974-8594" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Scourge&quot;" hidden="false">
@@ -5797,6 +5923,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="60705d9a-5b91-d637-36ca-5a609d73f76c" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="60705d9a-5b91-d637-36ca-5a609d73f76c" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5888,6 +6020,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="70fb-19fb-bdc0-a268" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="70fb-19fb-bdc0-a268" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5993,6 +6131,12 @@
             <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x3, Crew, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="37328b3b-ecc8-bb91-8714-af59825dc9a0" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="37328b3b-ecc8-bb91-8714-af59825dc9a0" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6116,6 +6260,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="81b309dc-ce71-d318-a1c8-816385739e61" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="e62f9151-3bb1-f897-61e3-1d130ba7c719" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Maarek Stele" hidden="false" page="0">
@@ -6215,6 +6365,12 @@
             <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="dcd8-1ac8-ee8e-6e93" childId="0b02-e1ad-b3fb-ec4a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="dcd8-1ac8-ee8e-6e93" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6320,6 +6476,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="d01533a4-ad16-47b2-2b4e-e7b2290ae0e9" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="c48c8272-4bc7-e8a0-f8f9-8ddeba0f4034" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Major Rhymer" hidden="false" page="0">
@@ -6422,6 +6584,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="d44dd637-cb70-3540-389e-bc121be6246c" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -6510,6 +6678,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="af24129c-2d19-3e15-4671-7d0ce9ec1455" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="734aec3a-24c8-c8a7-82bc-1410e9ee422d" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Turr Phennir" hidden="false" page="0">
@@ -6593,6 +6767,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6bc815d9-447b-22b9-1cec-7ef7736b7436" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="edf8107c-50e6-4622-c4d4-01316cdc8f5a" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Howlrunner&quot;" hidden="false" page="0">
@@ -6672,6 +6852,12 @@
             <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="046b-431b-a12e-2589" childId="20760798-c41b-4865-fc96-19f012d80a13" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="046b-431b-a12e-2589" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6777,6 +6963,12 @@
             <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x3, Crew, Missiles" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="55f108e0-7576-5470-8cbe-b79f6663a5bb" childId="048ed74d-359b-3eee-57d2-22cfc05043de" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="55f108e0-7576-5470-8cbe-b79f6663a5bb" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6974,6 +7166,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a4f51917-ed5c-8a1f-acc1-f6af97878720" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -7065,6 +7263,12 @@
             <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="33db-21a3-3be6-641d" childId="d42382ad-b0f8-f83d-9d81-65852b819553" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="33db-21a3-3be6-641d" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7175,6 +7379,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="664786ed-de17-e3be-19f1-f03d981e86f8" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="d672acc8-55d4-bd92-3cd0-2617d6bf2da9" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Rear Admiral Chiraneau" hidden="false" page="0">
@@ -7262,6 +7472,12 @@
             <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="ce360707-f31a-a30c-95e1-4b717f1bbb8b" childId="0b02-e1ad-b3fb-ec4a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ce360707-f31a-a30c-95e1-4b717f1bbb8b" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7358,6 +7574,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="d36b-e089-01b2-e070" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="b651-9bcb-f404-03b7" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="The Inquisitor" hidden="false">
@@ -7451,6 +7673,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="30c9-ac25-a132-7407" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="30c9-ac25-a132-7407" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7566,6 +7794,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="fe12f41d-e18f-e711-1a80-011d6eb0d680" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="5aab058c-1d75-81b0-cb11-2a00863846e1" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Darth Vader" hidden="false" page="0">
@@ -7663,6 +7897,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="fa2e0c9d-9cb6-fb90-58a7-e56cce870702" childId="cdfb9b25-3315-998d-6532-1a9934a71c40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="fa2e0c9d-9cb6-fb90-58a7-e56cce870702" childId="a5ed-d1e7-13ab-636b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
