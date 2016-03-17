@@ -12023,7 +12023,7 @@
     <profile id="f988a6f2-311b-c010-7d16-7abedb354e6d" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="A-Wing" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12032,7 +12032,7 @@
     <profile id="8f2a-9551-16f7-8962" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Attack Shuttle" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12041,7 +12041,7 @@
     <profile id="43a1c728-1842-b681-33d5-352d14e1d88f" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="B-Wing" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12050,7 +12050,7 @@
     <profile id="b412b57d-c172-079e-d932-a00f26aea36c" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="CR90 Corvette" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Huge"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret, Range 3-5"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Turret, Range 3-5 and Nonstandard Arc"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="Yes"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points" value="3"/>
       </characteristics>
@@ -12059,7 +12059,7 @@
     <profile id="d4c5e104-6058-e728-a6c5-e77d759b9c19" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="E-Wing" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12068,7 +12068,7 @@
     <profile id="3da23787-37f8-de11-11fc-155f0f091577" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="GR-75 Medium Transport" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Huge"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="None"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="None"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="Yes"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points" value="2"/>
       </characteristics>
@@ -12077,7 +12077,7 @@
     <profile id="857a64f1-695d-c79c-907b-bc6dd73148fe" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="HWK-290" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12086,7 +12086,7 @@
     <profile id="a0fb-5139-205f-6af6" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="K-Wing" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Turret"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12095,7 +12095,7 @@
     <profile id="4800-77ea-d0cb-6ae5" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="T-70 X-Wing" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12104,7 +12104,7 @@
     <profile id="4e82-6505-7d16-09b6" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="VCX-100" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Special Firing Arc (Torpedoes)"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12113,7 +12113,7 @@
     <profile id="7e5c1c48-5512-ee7b-3673-7d2e1741d18e" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="X-Wing" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12122,7 +12122,7 @@
     <profile id="0cdeea60-6455-26d1-fc5c-32d4ba247e8f" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Y-Wing" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12131,7 +12131,7 @@
     <profile id="57f2725c-a960-c304-a697-fa62d5c3488f" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="YT-1300" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Turret"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12140,7 +12140,7 @@
     <profile id="8a03f483-b4c8-7535-c3da-f8bfcffce346" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="YT-2400" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Turret"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -12149,7 +12149,7 @@
     <profile id="6dedcf14-27b9-c2b5-40f5-df73957310c6" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Z-95 Headhunter" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>

@@ -11839,7 +11839,7 @@
     <profile id="a26c47c4-9b55-6a64-c306-eca014e8d76a" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Firespray-31" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Auxiliary Arc"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Auxiliary Arc"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11848,7 +11848,7 @@
     <profile id="9129-cd9f-120a-13e2" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Gozanti-class Cruiser" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Huge"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="None"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Nonstandard Arc"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="Yes"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points" value="2"/>
       </characteristics>
@@ -11857,7 +11857,7 @@
     <profile id="39d979af-507c-5da3-39ed-14515a62a0cb" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Lambda-Class Shuttle" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11866,7 +11866,7 @@
     <profile id="27ad-7166-a011-a43a" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="Raider-class Corv." hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Huge"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Expanded Arc, Range 2-4"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Nonstandard Arc, Range 2-4"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="Yes"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points" value="3"/>
       </characteristics>
@@ -11875,7 +11875,7 @@
     <profile id="efc2-e8c1-8068-e439" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Adv. Prototype" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11884,7 +11884,7 @@
     <profile id="02218e8c-bbac-eb68-cfa7-d1e5aa0fae91" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Advanced" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11893,7 +11893,7 @@
     <profile id="a297d578-0917-8842-4c0b-7cf366b77b9e" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Bomber" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11902,7 +11902,7 @@
     <profile id="3f36f029-e215-9c25-266f-1a1bb0f43abe" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Defender" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11911,7 +11911,7 @@
     <profile id="13cbac1a-819a-e33d-9be1-6abfd1a45063" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Fighter" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11920,7 +11920,7 @@
     <profile id="cf234dce-ebb4-1a70-7213-d3ede914bc18" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Interceptor" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11929,7 +11929,7 @@
     <profile id="4fdd784f-546a-dadb-6b4e-4f0cc15255b0" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Phantom" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11938,7 +11938,7 @@
     <profile id="b3b5-9a66-b88c-1df3" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE Punisher" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11947,7 +11947,7 @@
     <profile id="1ff7-4317-4348-6365" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="TIE/fo Fighter" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Small"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Standard"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
@@ -11956,7 +11956,7 @@
     <profile id="9645f782-da69-5241-6b12-99189c689611" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="VT-49 Decimator" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon" value="Turret"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Turret"/>
         <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
         <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>

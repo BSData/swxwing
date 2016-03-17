@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="25" battleScribeVersion="1.15" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="26" battleScribeVersion="1.15" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="5374616e6461726423232344415441232323" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -134,7 +134,7 @@
     <profileType id="876b5288-62fa-bc8e-32fe-989964372b8f" name="1.3 Ship Profiles">
       <characteristics>
         <characteristic id="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size"/>
-        <characteristic id="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Primary Weapon"/>
+        <characteristic id="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc"/>
         <characteristic id="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon"/>
         <characteristic id="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
