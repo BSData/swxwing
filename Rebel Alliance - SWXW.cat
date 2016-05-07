@@ -10375,6 +10375,7 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="16294112-91b2-242e-30f7-2d999f1cd556" name="•Millennium Falcon (I)" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -10387,6 +10388,7 @@
       </modifiers>
       <rules/>
       <profiles>
+        <profile id="05ad1e1e-90bc-3975-2724-7b1a7e7d5ad5" profileTypeId="332e30315469746c6523232344415441232323" name="Millennium Falcon (I)" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your action bar gains the [evade] action icon."/>
           </characteristics>
@@ -10740,6 +10742,7 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="a951-9228-3eef-e955" name="•Millennium Falcon (II)†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -10752,6 +10755,7 @@
       </modifiers>
       <rules/>
       <profiles>
+        <profile id="ebb2-61b2-8cb8-b5db" profileTypeId="332e30315469746c6523232344415441232323" name="Millennium Falcon (II)" hidden="false">
           <characteristics>
             <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="After you execute a 3-speed bank maneuver ([left bank] or [right bank]), if you are not touching another ship and you are not stressed, you may receive 1 stress token to rotate your ship 180°."/>
           </characteristics>
