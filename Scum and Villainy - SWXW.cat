@@ -109,6 +109,9 @@
         <link id="b9a4a2b3-e38c-71d4-9467-d9c8f7cc4ac9" targetId="b7ffb7a0-d7fb-4fab-6c8d-b754c0c70370" linkType="profile">
           <modifiers/>
         </link>
+        <link id="e9f6-10ec-d52b-26e6" targetId="f316-2862-05d7-dda4" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9c7bfa61-3ca4-7250-33e2-63731dd2eef3" name="PS 1 - Black Sun Enforcer" points="25.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -245,6 +248,9 @@
         <link id="a3b0-2563-d14d-e0ac" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="5dbb-9a43-c1a1-5363" targetId="f316-2862-05d7-dda4" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="6430-ee92-a23c-c69d" name="PS 2 - Cartel Marauder" points="20.0" categoryId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -304,6 +310,9 @@
           <modifiers/>
         </link>
         <link id="d384-1a69-5400-72cf" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6f2e-aa3f-5ffb-390d" targetId="f316-2862-05d7-dda4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -484,6 +493,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="80d3-0933-ff65-1012" targetId="f316-2862-05d7-dda4" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="76ee-8ea5-8fad-837f" name="PS 2 - Trandoshan Slaver" points="29.0" categoryId="4513-2f0d-7f6d-6d0b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -621,6 +633,9 @@
           <modifiers/>
         </link>
         <link id="28b0b22e-1565-0aca-b6e2-9f0b462d49f5" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="9b74-d6d7-75c6-f6a0" targetId="f316-2862-05d7-dda4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -957,6 +972,9 @@
         <link id="07c7bfce-96fa-dff6-43ad-cefd5f7670f9" targetId="c258eba7-7c5b-87d4-d27f-c543b8d3d79a" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="3101-8278-33d1-d367" targetId="f316-2862-05d7-dda4" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="fa14-1e5d-633f-731c" name="PS 4 - Hired Gun" points="20.0" categoryId="4d5ff5f5-7111-78aa-bc54-d84cce160888" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1046,6 +1064,9 @@
           <modifiers/>
         </link>
         <link id="d2df-c1f0-1b8c-6200" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1dc2-a07e-794f-237d" targetId="f316-2862-05d7-dda4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1230,6 +1251,9 @@
           <modifiers/>
         </link>
         <link id="e73e-d9bb-06f8-7ad5" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6401-24bd-1760-8c89" targetId="f316-2862-05d7-dda4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1661,6 +1685,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="4267-fe65-07ed-6124" targetId="f316-2862-05d7-dda4" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="119f5172-686e-5da6-3fe8-9bd53995ae68" name="PS 5 - •Guri" points="30.0" categoryId="ad57052c-5c57-d3ae-2581-754b40de6619" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1862,6 +1889,9 @@
         <link id="985d4e2c-59cc-51b6-9c75-af05f0111f81" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="f8eb-d308-b956-1b7c" targetId="f316-2862-05d7-dda4" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="5577-da54-37f8-eb96" name="PS 5 - •Latts Razzi" points="33.0" categoryId="4513-2f0d-7f6d-6d0b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2040,6 +2070,9 @@
           <modifiers/>
         </link>
         <link id="0f7f3140-a92d-8e7e-b4c9-c540ed5cd87e" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b620-e47b-f867-d51b" targetId="f316-2862-05d7-dda4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2428,6 +2461,9 @@
           <modifiers/>
         </link>
         <link id="4f5e-200d-e24e-0f13" targetId="6238a22b-2bd5-03a6-9ae7-f0b2eb294b7e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ee94-a779-c26b-5b01" targetId="f316-2862-05d7-dda4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3217,6 +3253,9 @@
         <link id="49354993-a360-bbbb-02f2-915d500ad138" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="84d6-7143-4b01-0ed2" targetId="f316-2862-05d7-dda4" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="75bead11-eccf-0c6e-02c9-c03e5a4797c3" name="PS 7 - •Kath Scarlet" points="38.0" categoryId="e101-de50-f929-d42c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3466,6 +3505,9 @@
         <link id="3b8814d8-4ccd-f96d-99a1-abc52f735b65" targetId="2749eab7-0fe2-0198-c7aa-c119cb08c41a" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="31dc-fef9-1e18-f152" targetId="f316-2862-05d7-dda4" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f61e-21cb-ce08-d5e9" name="PS 7 - •Ketsu Onyo†" points="38.0" categoryId="6472-e53a-8660-c6d6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3648,6 +3690,9 @@
           <modifiers/>
         </link>
         <link id="4585b39b-2808-61da-123a-949cc04a8f40" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1e54-a4bf-63e3-13ce" targetId="f316-2862-05d7-dda4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4532,6 +4577,9 @@
           <modifiers/>
         </link>
         <link id="e3c7-d6ec-1a17-c89a" targetId="c439-cb25-8049-32b2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="74d6-3abc-fb6b-1da0" targetId="f316-2862-05d7-dda4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -6219,6 +6267,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="e93f-245d-670f-e868" name="Tail Gunner†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c79b-de1c-213f-eb2d" profileTypeId="332e30334372657723232344415441232323" name="Tail Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking from your rear-facing auxiliary firing arc, reduce the defender&apos;s agility by 1 (to a minimum of &quot;0&quot;)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="007a-5e86-8c67-205d" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="45386e60-c93d-62aa-5e03-e7ed1f0499cc" name="Targeting Computer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -6795,21 +6862,21 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="e93f-245d-670f-e868" name="Tail Gunner†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="04e7-f166-a0e3-64d8" name="Vectored Thrusters†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="c79b-de1c-213f-eb2d" profileTypeId="332e30334372657723232344415441232323" name="Tail Gunner" hidden="false">
+        <profile id="1277-51b9-d587-75da" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Vectored Thrusters" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking from your rear-facing auxiliary firing arc, reduce the defender&apos;s agility by 1 (to a minimum of &quot;0&quot;)."/>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Your action bar gains the [barrel roll] action icon."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="007a-5e86-8c67-205d" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+        <link id="ae49-a853-7cf5-be1f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -7506,6 +7573,9 @@
         <link id="722f-75f7-1f5c-c94b" targetId="0206-62de-4bd0-5f9b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="4e95-8d54-de7b-652f" targetId="04e7-f166-a0e3-64d8" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="b0d1577a-9591-21be-5bb8-c5b145d0d6a1" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7596,6 +7666,9 @@
           <modifiers/>
         </link>
         <link id="1535-e58d-6263-ba82" targetId="0206-62de-4bd0-5f9b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ef0c-326a-377c-6092" targetId="04e7-f166-a0e3-64d8" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -7952,10 +8025,16 @@
     <rule id="f316-2862-05d7-dda4" name="Barrel Roll" hidden="true">
       <modifiers>
         <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="4da7-6ea7-81f2-fb2b" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="direct parent" childId="4da7-6ea7-81f2-fb2b" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="direct parent" childId="04e7-f166-a0e3-64d8" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </rule>
