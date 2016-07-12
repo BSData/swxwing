@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="98" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="99" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -10548,6 +10548,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="b77e-b5d9-40c2-5e1d" name="Tail Gunner†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="800f-b40f-156d-26c4" profileTypeId="332e30334372657723232344415441232323" name="Tail Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking from your rear-facing auxiliary firing arc, reduce the defender&apos;s agility by 1 (to a minimum of &quot;0&quot;)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f4ee-955a-315e-5e68" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10760,6 +10779,9 @@
         <link id="3647-17da-d10c-a82c" targetId="07b7-c8a9-9965-2654" linkType="entry">
           <modifiers/>
         </link>
+        <link id="5f32-f05d-b8f6-e60c" targetId="b77e-b5d9-40c2-5e1d" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="6701e928-8f3d-9408-032c-fab510f88032" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10852,6 +10874,9 @@
         <link id="db81-9d57-86e9-4f3d" targetId="07b7-c8a9-9965-2654" linkType="entry">
           <modifiers/>
         </link>
+        <link id="6ce0-6798-c3ad-616c" targetId="b77e-b5d9-40c2-5e1d" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="656a-480d-3a20-3c92" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10914,6 +10939,9 @@
           <modifiers/>
         </link>
         <link id="f2b0-cb74-b5ef-fb47" targetId="07b7-c8a9-9965-2654" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9bee-8fa8-e886-7695" targetId="b77e-b5d9-40c2-5e1d" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -10979,6 +11007,9 @@
           <modifiers/>
         </link>
         <link id="28df-5c6c-704b-9de6" targetId="07b7-c8a9-9965-2654" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4399-519a-d49e-2c26" targetId="b77e-b5d9-40c2-5e1d" linkType="entry">
           <modifiers/>
         </link>
       </links>

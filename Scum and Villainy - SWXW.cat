@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="86" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="87" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -6795,6 +6795,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="e93f-245d-670f-e868" name="Tail Gunner†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c79b-de1c-213f-eb2d" profileTypeId="332e30334372657723232344415441232323" name="Tail Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking from your rear-facing auxiliary firing arc, reduce the defender&apos;s agility by 1 (to a minimum of &quot;0&quot;)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="007a-5e86-8c67-205d" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6979,6 +6998,9 @@
         <link id="7443-e705-af79-7dd0" targetId="f27c-a5f2-5fa5-750f" linkType="entry">
           <modifiers/>
         </link>
+        <link id="8ed6-b95e-e604-4af5" targetId="e93f-245d-670f-e868" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="eec0-c689-de97-3665" name="Crew" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7044,6 +7066,9 @@
           <modifiers/>
         </link>
         <link id="5e27-1997-1969-6f43" targetId="f27c-a5f2-5fa5-750f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="198a-2d48-1497-f160" targetId="e93f-245d-670f-e868" linkType="entry">
           <modifiers/>
         </link>
       </links>
