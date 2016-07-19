@@ -10877,6 +10877,44 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="4c9f-325f-cbd2-8488" name="Sensor Cluster†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6a07-0bf3-f963-773f" profileTypeId="c9e2-1064-13c6-2ead" name="Sensor Cluster" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="When defending, you may spend a focus token to change 1 of your blank results to an [evade] result."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a3c5-8ac2-df8e-93bc" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7b48-ba34-637e-da36" name="Collision Detector†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e09f-7388-f9c0-5976" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" name="Collision Detector" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" name="System Ability" value="When performing a boost, barrel roll, or decloak, your ship and maneuver template can overlap obstacles. When rolling for obstacle damage, ignore all [critical] results."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2ba5-ce9c-835f-b868" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -12028,6 +12066,9 @@
         <link id="20bb-07cc-5b91-7d54" targetId="6689-442f-0e97-35eb" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3647-8a00-3c7e-26f9" targetId="7b48-ba34-637e-da36" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="a5417ca7-0159-6554-094d-39ab6d8a6bad" name="System" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -12091,6 +12132,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="27dd-0daa-d76c-4da8" targetId="7b48-ba34-637e-da36" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="81a8-d0a3-d163-09fb" name="System" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -12117,6 +12161,9 @@
           <modifiers/>
         </link>
         <link id="eeb7-0798-de3c-ea83" targetId="6689-442f-0e97-35eb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f8d7-51bb-2540-a66d" targetId="7b48-ba34-637e-da36" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -12149,6 +12196,9 @@
           <modifiers/>
         </link>
         <link id="4d5f-3839-71fe-d016" targetId="fde0-a06a-a79b-1eb1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7f78-755e-1ba5-0f78" targetId="4c9f-325f-cbd2-8488" linkType="entry">
           <modifiers/>
         </link>
       </links>
