@@ -7530,6 +7530,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="81a5-cbd3-0eb0-dd12" name="Fearlessness†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="05c2-22ef-887b-b868" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Fearlessness" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="When attacking, if you are inside the defender&apos;s firing arc at Range 1 and the defender is inside your firing arc, you may add 1 [hit] result to your roll."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8289-2b78-b18c-810e" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7887,6 +7906,9 @@
         <link id="fdc2-23e4-2ff8-ee2c" targetId="5f46-579b-27c5-3824" linkType="entry">
           <modifiers/>
         </link>
+        <link id="eebe-76db-d28b-bf16" targetId="81a5-cbd3-0eb0-dd12" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="6c29-e554-71ed-ed9e" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7979,6 +8001,9 @@
           <modifiers/>
         </link>
         <link id="6dc5-ae2f-d897-e759" targetId="5f46-579b-27c5-3824" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="adec-cf85-ee4f-f839" targetId="81a5-cbd3-0eb0-dd12" linkType="entry">
           <modifiers/>
         </link>
       </links>
