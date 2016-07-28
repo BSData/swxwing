@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="28" battleScribeVersion="1.15" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="29" battleScribeVersion="1.15" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="5374616e6461726423232344415441232323" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -238,7 +238,7 @@
     </profileType>
     <profileType id="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="4.2 Illicit Ability">
       <characteristics>
-        <characteristic id="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Upgrade Ability"/>
+        <characteristic id="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability"/>
       </characteristics>
     </profileType>
     <profileType id="335365636f6e6461727920576561706f6e7323232344415441232323" name="5.1 Torpedoes">
