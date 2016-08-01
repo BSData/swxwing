@@ -2244,7 +2244,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="431b-fb9a-92b1-a642" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="d9f8-b1cd-e9f2-c063" profileTypeId="31536869707323232344415441232323" name="•Latts Razzi" hidden="false">
@@ -3226,7 +3233,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="8103-672d-5b4a-0653" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="032d28a1-23f0-8066-8f06-6d736c5ca5f6" profileTypeId="31536869707323232344415441232323" name="•IG-88D" hidden="false">
@@ -4058,7 +4072,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="1442-f28b-e7a0-d1b3" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="21c5-9747-0d6c-3507" profileTypeId="31536869707323232344415441232323" name="•Ketsu Onyo" hidden="false">
@@ -7549,6 +7570,84 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="8103-672d-5b4a-0653" name="•IG-88D†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="eac5e2ea-45fe-7091-a8e9-bce3ec73d2ed" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="e5aa-75ad-93aa-9165" profileTypeId="332e30334372657723232344415441232323" name="IG-88D" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="You have the pilot ability of each friendly ship with the IG-2000 Upgrade card (in addition to your own pilot ability)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9d08-17be-3388-f7ee" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="431b-fb9a-92b1-a642" name="•Latts Razzi†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="5577-da54-37f8-eb96" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="6635-49a0-96c1-e18b" profileTypeId="332e30334372657723232344415441232323" name="Latts Razzi" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When defending, you may remove 1 stress token from the attacker to add 1 [evade] result to your roll."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c671-008c-73a1-79d1" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1442-f28b-e7a0-d1b3" name="•Ketsu Onyo†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="f61e-21cb-ce08-d5e9" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="9b65-f323-c88e-c0ff" profileTypeId="332e30334372657723232344415441232323" name="Ketsu Onyo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the End phase, you may choose 1 enemy ship inside your firing arc at Range 1-2. That ship does not remove its tractor beam tokens."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ab62-b67b-df15-dd98" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7736,6 +7835,15 @@
         <link id="8ed6-b95e-e604-4af5" targetId="e93f-245d-670f-e868" linkType="entry">
           <modifiers/>
         </link>
+        <link id="6575-5db4-c820-3b08" targetId="8103-672d-5b4a-0653" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="389d-ecb4-0a0d-7c9b" targetId="431b-fb9a-92b1-a642" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9d7d-105f-ceac-2c68" targetId="1442-f28b-e7a0-d1b3" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="eec0-c689-de97-3665" name="Crew" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7804,6 +7912,15 @@
           <modifiers/>
         </link>
         <link id="198a-2d48-1497-f160" targetId="e93f-245d-670f-e868" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f711-08e3-ca00-3866" targetId="1442-f28b-e7a0-d1b3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1835-1887-4ff8-ef54" targetId="431b-fb9a-92b1-a642" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b820-1fcf-71f2-5ff1" targetId="8103-672d-5b4a-0653" linkType="entry">
           <modifiers/>
         </link>
       </links>
