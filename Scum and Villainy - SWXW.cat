@@ -6785,6 +6785,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="0dc2-f90e-7a1e-9ba9" name="Rigged Cargo Chute†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5be5-e59b-f0b6-a559" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Rigged Cargo Chute" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Action: Discard this card to drop one cargo token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d251-597d-9945-6d4f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="67dcef78-1224-928e-331c-f4ec87fd16c4" name="Saboteur" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -6835,6 +6854,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="a43b-33cb-82c6-1936" name="Seismic Torpedo†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="235e-242d-a855-1e9e" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Seismic Torpedo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" name="Torpedoes Ability" value="Action: Discard this card to choose an obstacle at Range 1-2 and inside your primary firing arc. Each ship at Range 1 of the obstacle rolls 1 attack die and suffers any damage [hit] or critical damage [critical] rolled. Then remove the obstacle."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4e4b-6a76-8bea-be53" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="0e5ef706-5e5a-645f-23b5-1d26ebf64b9e" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -7647,25 +7685,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="0dc2-f90e-7a1e-9ba9" name="Rigged Cargo Chute†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="5be5-e59b-f0b6-a559" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Rigged Cargo Chute" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Action: Discard this card to drop one cargo token."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="d251-597d-9945-6d4f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -8700,6 +8719,9 @@
         <link id="8393-4006-095f-9a0b" targetId="13a9-4a5b-5690-1348" linkType="entry">
           <modifiers/>
         </link>
+        <link id="d74c-0457-8171-ab53" targetId="a43b-33cb-82c6-1936" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="0d8e6cae-48d5-ab7b-1f1e-71bd9707404c" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8728,6 +8750,9 @@
         <link id="8c66-511e-cd1a-42ee" targetId="13a9-4a5b-5690-1348" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3e0b-ddf4-dd6a-2548" targetId="a43b-33cb-82c6-1936" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="48c9-99d0-caa3-54c0" name="Torpedoes" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8751,6 +8776,9 @@
           <modifiers/>
         </link>
         <link id="e43a-4dfd-62d1-8627" targetId="5cc6b486-241c-cec5-32a0-3921be32d15b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8c61-4084-3b0f-96bc" targetId="a43b-33cb-82c6-1936" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8790,6 +8818,9 @@
           <modifiers/>
         </link>
         <link id="7b72-9534-890a-363d" targetId="5cc6b486-241c-cec5-32a0-3921be32d15b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1a9c-7347-9291-429c" targetId="a43b-33cb-82c6-1936" linkType="entry">
           <modifiers/>
         </link>
       </links>
