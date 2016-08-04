@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="92" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="93" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -479,7 +479,7 @@
         </link>
       </links>
     </entry>
-    <entry id="07a2-b4e7-9395-6bea" name="PS 2 - Shadowport Pilot††" points="32.0" categoryId="6472-e53a-8660-c6d6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="07a2-b4e7-9395-6bea" name="PS 2 - Shadowport Hunter†" points="33.0" categoryId="6472-e53a-8660-c6d6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="2364-d18e-d865-3819" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -496,7 +496,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a6a9-8cc0-9290-79e3" profileTypeId="31536869707323232344415441232323" name="Shadowport Pilot" hidden="false">
+        <profile id="a6a9-8cc0-9290-79e3" profileTypeId="31536869707323232344415441232323" name="Shadowport Hunter" hidden="false">
           <characteristics>
             <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="2"/>
             <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
@@ -534,10 +534,10 @@
         <link id="9eac-3b01-fc39-5499" targetId="0719-388f-4032-7762" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="86ec-d1fa-4fbf-f6f7" targetId="04d0-f7ed-97eb-3888" linkType="entry group">
+        <link id="86ec-d1fa-4fbf-f6f7" targetId="d91a-1986-e58d-8812" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="5bb5-f452-dbcc-1d81" targetId="ebc743a4-89a7-92b0-6e49-82817596f9b0" linkType="profile">
+        <link id="5bb5-f452-dbcc-1d81" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
         <link id="f0d8-9cf5-bb43-25bd" targetId="cd5b-348f-6ca9-bde6" linkType="profile">
@@ -2478,7 +2478,7 @@
         <link id="aed4-39f1-322b-d261" targetId="a8dfdd4b-40e2-976e-c473-995fccb6d096" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="dd07-4793-667c-12f7" targetId="04d0-f7ed-97eb-3888" linkType="entry group">
+        <link id="dd07-4793-667c-12f7" targetId="d91a-1986-e58d-8812" linkType="entry group">
           <modifiers/>
         </link>
         <link id="c55c-3b78-4eb3-203b" targetId="0719-388f-4032-7762" linkType="entry group">
@@ -2695,7 +2695,7 @@
         <link id="debd-6e69-4dea-7157" targetId="0719-388f-4032-7762" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="62c9-ee2e-7272-3241" targetId="04d0-f7ed-97eb-3888" linkType="entry group">
+        <link id="62c9-ee2e-7272-3241" targetId="d91a-1986-e58d-8812" linkType="entry group">
           <modifiers/>
         </link>
         <link id="d511-d509-b334-1e12" targetId="cd5b-348f-6ca9-bde6" linkType="profile">
@@ -4153,7 +4153,7 @@
         <link id="ad26-77fd-4b65-bf87" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
-        <link id="60e6-b567-a370-c0e4" targetId="04d0-f7ed-97eb-3888" linkType="entry group">
+        <link id="60e6-b567-a370-c0e4" targetId="d91a-1986-e58d-8812" linkType="entry group">
           <modifiers/>
         </link>
         <link id="e367-061b-d2b7-0eb2" targetId="6c29-e554-71ed-ed9e" linkType="entry group">
@@ -7686,6 +7686,44 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="2df1-3a25-9fed-167c" name="Black Market Slicer Tools†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5ea3-7b76-4484-a8d8" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Black Market Slicer Tools" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Action: Choose a stressed enemy ship at Range 1-2 and roll 1 attack die. On a [hit] or [critical] result, remove 1 stress token and deal it 1 facedown Damage card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f10b-7057-9351-a2ce" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="89a6-4c58-28b0-bfed" name="Gyroscopic Targeting†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="936e-3a6a-2e55-1f65" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Gyroscopic Targeting" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="At the end of the Combat phase, if you executed a 3-, 4-, or 5-speed maneuver this round, you may rotate your mobile firing arc."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="66d3-d712-c628-5832" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8186,6 +8224,9 @@
         <link id="57b6-1fc3-33bc-c645" targetId="61c2-6af0-1b22-96f9" linkType="entry">
           <modifiers/>
         </link>
+        <link id="ae91-f55d-1772-5ea9" targetId="2df1-3a25-9fed-167c" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="81a5-0a05-2068-e548" name="Illicit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8211,6 +8252,9 @@
         <link id="0ff9-3d4f-4dc8-2cf9" targetId="0dc2-f90e-7a1e-9ba9" linkType="entry">
           <modifiers/>
         </link>
+        <link id="947e-4e0c-a59c-72e0" targetId="2df1-3a25-9fed-167c" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="0719-388f-4032-7762" name="Illicit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8234,6 +8278,9 @@
           <modifiers/>
         </link>
         <link id="3671-24bf-df6a-8fa5" targetId="0dc2-f90e-7a1e-9ba9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d035-a08c-4bac-b4bd" targetId="2df1-3a25-9fed-167c" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8866,6 +8913,58 @@
           <modifiers/>
         </link>
         <link id="0247-4073-c968-63be" targetId="d9de-c2cc-056b-f345" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="d91a-1986-e58d-8812" name="Modification" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="a660-559f-0361-11b9" targetId="2ceb-c29f-5f42-f950" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="af8a-86a8-2afc-1533" targetId="ce6d7ac1-e519-4d84-a06f-9e964851eae8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f683-a6a7-3cba-16ed" targetId="8adbfc73-e3d4-ba04-d5c6-a6501ab051f2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7507-cf3f-27b0-edd1" targetId="61720c4d-a57e-6df3-c5a7-f7be59ce54b7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f185-d345-ec7d-5fda" targetId="0206-62de-4bd0-5f9b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ac6a-936c-a840-a71d" targetId="079210df-1fca-88cf-7b1d-d3f86728d42b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9bb5-7768-7c94-97a3" targetId="3647-e99a-2d1a-4c16" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="55ac-22b6-10e7-cfcd" targetId="8c2dd4e5-1251-f6f2-4b9f-b93bf183db40" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cbf7-9f86-bfcf-b702" targetId="49c04071-073b-fc1f-305e-1f2f1cd99dda" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b5dc-099a-e17d-d084" targetId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5e1c-9852-f81a-9771" targetId="da28c7f2-2a11-6739-4591-87e9eb3799b0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="45e4-80e2-4d33-3d23" targetId="49f621b0-7fb8-4274-3fd6-85e7cb9e671f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3649-ea36-257a-084d" targetId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6369-5947-7b6b-0a47" targetId="8cac254f-077b-0754-ca11-969aaa8bb286" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="db54-0131-eecc-7c78" targetId="89a6-4c58-28b0-bfed" linkType="entry">
           <modifiers/>
         </link>
       </links>
