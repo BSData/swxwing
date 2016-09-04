@@ -2417,6 +2417,12 @@
                 <link id="170a-c049-a302-93b8" targetId="cb8d-97fb-e96f-d109" linkType="entry">
                   <modifiers/>
                 </link>
+                <link id="1e89-e689-9473-fadc" targetId="4fce-5306-45ec-d656" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="f5dc-e313-e471-f0db" targetId="bbec-ea17-b702-d328" linkType="entry">
+                  <modifiers/>
+                </link>
               </links>
             </entryGroup>
             <entryGroup id="be34-e576-a2cb-95d0" name="Team" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2962,6 +2968,12 @@
                   <modifiers/>
                 </link>
                 <link id="a412-74fe-cbb0-8958" targetId="cb8d-97fb-e96f-d109" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="033e-84d6-3b88-703e" targetId="4fce-5306-45ec-d656" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="33a4-84b7-183f-fef1" targetId="bbec-ea17-b702-d328" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -9509,7 +9521,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="4fce-5306-45ec-d656" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="b086-b01b-a4d0-c854" profileTypeId="31536869707323232344415441232323" name="•Cassian Andor" hidden="false">
@@ -13141,6 +13160,51 @@
         </link>
       </links>
     </entry>
+    <entry id="4fce-5306-45ec-d656" name="•Cassian Andor†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c117-d5b7-6be4-edef" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="a319-53cb-aa45-d2bd" profileTypeId="332e30334372657723232344415441232323" name="Cassian Andor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship&apos;s bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ddcf-ccd6-92fe-fc08" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bbec-ea17-b702-d328" name="•Jyn Erso†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2eef-8450-3c8a-5afe" profileTypeId="332e30334372657723232344415441232323" name="Jyn Erso" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Choose 1 friendly ship at Range 1-2. Assign 1 focus token to that ship for each enemy ship inside your firing arc at Range 1-3. You cannot assign more than 3 tokens in this way."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3095-4b9f-94c9-511c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -13507,6 +13571,12 @@
         <link id="8a3b-1784-46e5-2460" targetId="cb8d-97fb-e96f-d109" linkType="entry">
           <modifiers/>
         </link>
+        <link id="4486-fb8b-71d9-d52e" targetId="4fce-5306-45ec-d656" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d6b8-1e37-0a8a-593b" targetId="bbec-ea17-b702-d328" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="60819a12-fd97-e9e0-7691-09cd50bb8184" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -13628,6 +13698,12 @@
         <link id="d0d9-c7fc-483a-caaa" targetId="cb8d-97fb-e96f-d109" linkType="entry">
           <modifiers/>
         </link>
+        <link id="cdac-0510-665f-bc70" targetId="4fce-5306-45ec-d656" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7e4e-c056-2f47-b450" targetId="bbec-ea17-b702-d328" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="809b-eddb-0859-03bd" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -13729,6 +13805,12 @@
           <modifiers/>
         </link>
         <link id="9e30-81c5-fdc7-714b" targetId="cb8d-97fb-e96f-d109" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5386-c81f-15b4-6f2f" targetId="4fce-5306-45ec-d656" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ba74-b28e-05ed-9a7d" targetId="bbec-ea17-b702-d328" linkType="entry">
           <modifiers/>
         </link>
       </links>
