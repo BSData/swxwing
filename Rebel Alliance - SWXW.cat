@@ -2423,6 +2423,9 @@
                 <link id="f5dc-e313-e471-f0db" targetId="bbec-ea17-b702-d328" linkType="entry">
                   <modifiers/>
                 </link>
+                <link id="6d6e-b726-fe3d-4761" targetId="8e71-f87b-9214-1eda" linkType="entry">
+                  <modifiers/>
+                </link>
               </links>
             </entryGroup>
             <entryGroup id="be34-e576-a2cb-95d0" name="Team" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2974,6 +2977,9 @@
                   <modifiers/>
                 </link>
                 <link id="33a4-84b7-183f-fef1" targetId="bbec-ea17-b702-d328" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="61f7-65c6-1b86-b788" targetId="8e71-f87b-9214-1eda" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -13086,7 +13092,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="0623-5d12-a6d4-5219" name="•Rey††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="0623-5d12-a6d4-5219" name="•Rey†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -13101,13 +13107,13 @@
       <profiles>
         <profile id="9549-fd0a-496f-0314" profileTypeId="332e30334372657723232344415441232323" name="Rey" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the start of the End phase, you may place 1 of your ship&apos;s focus tokens on this card. At the start of the Combat phase, you may assign 1 of those tokens to your ship."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="72f9-dacb-332b-39b8" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="72f9-dacb-332b-39b8" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -13204,6 +13210,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="8e71-f87b-9214-1eda" name="•Finn†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a85b-c5b4-dab1-93ac" profileTypeId="332e30334372657723232344415441232323" name="Finn" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking with a primary weapon or defending, if the enemy ship is inside your firing arc, you may add 1 blank result to your roll."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3647-64cc-2730-23fa" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -13577,6 +13602,9 @@
         <link id="d6b8-1e37-0a8a-593b" targetId="bbec-ea17-b702-d328" linkType="entry">
           <modifiers/>
         </link>
+        <link id="4c99-ddcc-0d8f-83d9" targetId="8e71-f87b-9214-1eda" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="60819a12-fd97-e9e0-7691-09cd50bb8184" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -13704,6 +13732,9 @@
         <link id="7e4e-c056-2f47-b450" targetId="bbec-ea17-b702-d328" linkType="entry">
           <modifiers/>
         </link>
+        <link id="53d3-f4ab-6cf5-e78f" targetId="8e71-f87b-9214-1eda" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="809b-eddb-0859-03bd" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -13811,6 +13842,9 @@
           <modifiers/>
         </link>
         <link id="ba74-b28e-05ed-9a7d" targetId="bbec-ea17-b702-d328" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5a13-5228-5e3e-e806" targetId="8e71-f87b-9214-1eda" linkType="entry">
           <modifiers/>
         </link>
       </links>
