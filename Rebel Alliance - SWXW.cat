@@ -162,6 +162,9 @@
         <link id="a1af-2138-23f8-0ac1" targetId="0b26-58ae-c363-9be7" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="8838-fa62-af71-598d" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="00e43fd4-05fe-0a1a-6c80-ae5ca70ff04c" name="PS 1 - Prototype Pilot" points="17.0" categoryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -883,6 +886,9 @@
           <modifiers/>
         </link>
         <link id="b35c-25d6-63aa-01a1" targetId="0b26-58ae-c363-9be7" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="ffec-b3b1-06bf-8a17" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1795,6 +1801,9 @@
           </modifiers>
         </link>
         <link id="2d3f-8e53-3227-b76d" targetId="0b26-58ae-c363-9be7" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="766d-1202-d578-906d" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4543,6 +4552,9 @@
         <link id="4b4b-6abf-ac93-6db3" targetId="0b26-58ae-c363-9be7" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="66cd-e39c-7c3c-0d15" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="5a95bbae-0e98-afc8-a0ba-1ac1f7e8daa9" name="PS 5 - •Biggs Darklighter" points="25.0" categoryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4771,6 +4783,9 @@
         <link id="f49b-2618-3ece-8a2d" targetId="0b26-58ae-c363-9be7" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="acef-b3da-ccec-f2e1" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="bf64-29bc-c160-5715" name="PS 5 - •Chewbacca†" points="42.0" categoryId="92ac-3969-4658-d8dd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4902,6 +4917,9 @@
           <modifiers/>
         </link>
         <link id="441e-f8a8-2bee-288b" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="90d0-fe95-b64b-447f" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -7024,6 +7042,9 @@
         <link id="e868-feaa-050a-dcf2" targetId="0b26-58ae-c363-9be7" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="ae5c-a5fa-c715-1c66" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f21d-caf0-346c-169f" name="PS 7 - •Ello Asty" points="30.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7801,6 +7822,9 @@
           <modifiers/>
         </link>
         <link id="85c5-ff11-2ebe-5e17" targetId="0b26-58ae-c363-9be7" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="1fcb-8b94-3119-aa22" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -8856,6 +8880,9 @@
         <link id="cc21-bfc9-5601-7d32" targetId="0b26-58ae-c363-9be7" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="e69e-823d-29de-d0d2" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="e1d35b7f-fede-c293-2d34-9fa5a82444b9" name="PS 8 - •Ten Numb" points="31.0" categoryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -9305,6 +9332,9 @@
         <link id="aa4e-b2e6-f2ba-9f50" targetId="0b26-58ae-c363-9be7" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="f9e1-4a23-bea4-dc90" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="d27a-1067-739f-96dc" name="PS 9 - •Han Solo†" points="46.0" categoryId="92ac-3969-4658-d8dd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9436,6 +9466,9 @@
           <modifiers/>
         </link>
         <link id="c195-14da-95fd-c9ee" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6807-b515-9493-1acb" targetId="8e17-b4e8-6192-1fe2" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -13230,6 +13263,25 @@
         </link>
       </links>
     </entry>
+    <entry id="26c8-a5ad-709a-105f" name="Burnout SLAM†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fa46-cf78-0efd-9f0b" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Burnout SLAM" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Your action bar gains the [SLAM] action icon. After you perform a SLAM action, discard this card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7085-6dac-66b3-a126" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -14068,6 +14120,9 @@
           <modifiers/>
         </link>
         <link id="564c-951f-7339-436c" targetId="919c-b042-e433-35a1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d8bd-ea22-fb89-78d6" targetId="26c8-a5ad-709a-105f" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -14959,6 +15014,16 @@
         <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="direct parent" childId="bde29740-52d6-ac5d-b455-acb1b511b181" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </rule>
+    <rule id="8e17-b4e8-6192-1fe2" name="SLAM" hidden="true">
+      <modifiers>
+        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="26c8-a5ad-709a-105f" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>

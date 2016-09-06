@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="95" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="96" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -558,6 +558,9 @@
         <link id="a25b-5fa0-6108-6c84" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="ceac-621a-49c2-6566" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="ce3df76b-6999-732c-51ba-cdc14f961d34" name="PS 2 - Syndicate Thug" points="18.0" categoryId="4d5ff5f5-7111-78aa-bc54-d84cce160888" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -728,6 +731,9 @@
           <modifiers/>
         </link>
         <link id="c26a-560f-9a43-1e07" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="417a-15e0-f39c-c4a6" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1045,6 +1051,9 @@
           <modifiers/>
         </link>
         <link id="992c-cc30-9d87-2702" targetId="a8dfdd4b-40e2-976e-c473-995fccb6d096" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a682-cb63-ab2e-6c9d" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1509,6 +1518,9 @@
         <link id="a037-3465-99f4-c76a" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="7b9f-ac50-88b0-334a" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f1a4-8cd7-92cf-4452" name="PS 5 - Black Sun Ace" points="23.0" categoryId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1906,6 +1918,9 @@
           <modifiers/>
         </link>
         <link id="747520f9-7ca9-8087-6a78-fa9b436db812" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9eae-296a-84cd-52fc" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2405,6 +2420,9 @@
         <link id="765c-8e4c-4b03-c384" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="ab67-39a0-3d01-348a" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="1347510a-9c81-6566-d972-71619c2c22b0" name="PS 5 - •Palob Godalhi" points="20.0" categoryId="19556eec-413d-a849-9d27-efafdbd36775" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2589,6 +2607,9 @@
           <modifiers/>
         </link>
         <link id="fa48-b8fb-101d-9cfe" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="54b2-f073-163d-451f" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2805,6 +2826,9 @@
         <link id="b7b3-2a0d-634e-95aa" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="9654-8869-78b0-aa74" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="b93b624b-5771-669e-0844-96ed00099aec" name="PS 6 - •Emon Azzameen" points="36.0" categoryId="e101-de50-f929-d42c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2925,6 +2949,9 @@
           <modifiers/>
         </link>
         <link id="62f1b7c8-5788-a98f-dc04-fc157800956f" targetId="10684109-1f5b-4dd4-bc2d-77237a3be1bf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="65f7-75d3-634e-dcb1" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3099,6 +3126,9 @@
         <link id="abd0-b5c2-cfe3-2bb5" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="00c5-c40f-33f0-92d6" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f6de-2b8c-2ec1-2f11" name="PS 6 - •IG-88B" points="36.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3201,6 +3231,9 @@
         <link id="bb79-9394-5231-4d75" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="0fbe-ae68-c3ac-e1ee" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="0e79-3533-bcb3-9381" name="PS 6 - •IG-88C" points="36.0" categoryId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3301,6 +3334,9 @@
           <modifiers/>
         </link>
         <link id="c3a8-7986-6358-72f8" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5379-320b-fe75-a665" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3410,6 +3446,9 @@
           <modifiers/>
         </link>
         <link id="56456732-1fc8-9d9a-d5ef-090c4681cb06" targetId="b0d1577a-9591-21be-5bb8-c5b145d0d6a1" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4581-9e75-516a-be4e" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3685,6 +3724,9 @@
         <link id="4207-6d2e-deea-3f5b" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="aa5c-787a-6dbe-3bc3" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9463-5704-b6d4-5e2e" name="PS 7 - •Bossk" points="35.0" categoryId="4513-2f0d-7f6d-6d0b" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3789,6 +3831,9 @@
           <modifiers/>
         </link>
         <link id="1ab7-d586-fc3f-fa0d" targetId="a09d9bfc-db45-d2a7-9109-2166b5ccdc69" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d862-54f5-fbb6-258b" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4027,6 +4072,9 @@
         <link id="5c6fbf6f-601f-49de-2580-40dbd9a24462" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="4793-8ef7-a45d-4a19" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="64ed35b7-d8ff-d440-3aeb-e7e956fd613f" name="PS 7 - •Kavil" points="24.0" categoryId="4d5ff5f5-7111-78aa-bc54-d84cce160888" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4249,6 +4297,9 @@
           <modifiers/>
         </link>
         <link id="561e-7f73-25c1-9ec8" targetId="0719-388f-4032-7762" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="1757-4bee-4ce3-f1e7" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4659,6 +4710,9 @@
         <link id="67e4-2427-cef3-404f" targetId="ad2f7767-ae8a-6176-4edb-6aeaf156267a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="d5ea-1d4f-1550-fc50" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="b729-8349-2227-073f" name="PS 7 - •Zuckuss" points="28.0" categoryId="b3c1c304-3188-a645-b4da-26fd616a9304" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4915,6 +4969,9 @@
         <link id="eca4e101-d547-95b9-1503-28f2452a2826" targetId="a8dfdd4b-40e2-976e-c473-995fccb6d096" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="defb-104c-a4e0-4ebe" targetId="76f5-4f49-45a2-a581" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c6bb0ed7-0c44-d84f-e311-94343ddc34dd" name="PS 8 - •Serissu" points="20.0" categoryId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5136,6 +5193,9 @@
           <modifiers/>
         </link>
         <link id="d54e-0f9e-38a4-cbbe" targetId="48c9-99d0-caa3-54c0" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b491-1ecf-de1b-af23" targetId="76f5-4f49-45a2-a581" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -7916,6 +7976,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="c34a-83ac-3d5c-4e27" name="Burnout SLAM†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2611-2f9f-a9bf-aad4" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Burnout SLAM" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Your action bar gains the [SLAM] action icon. After you perform a SLAM action, discard this card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="35b7-dc35-4dac-da58" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8459,6 +8538,9 @@
         <link id="947e-4e0c-a59c-72e0" targetId="2df1-3a25-9fed-167c" linkType="entry">
           <modifiers/>
         </link>
+        <link id="5c64-62eb-7129-1bd5" targetId="c34a-83ac-3d5c-4e27" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="0719-388f-4032-7762" name="Illicit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8485,6 +8567,9 @@
           <modifiers/>
         </link>
         <link id="d035-a08c-4bac-b4bd" targetId="2df1-3a25-9fed-167c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="481f-bf09-892e-03d0" targetId="c34a-83ac-3d5c-4e27" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -9280,6 +9365,16 @@
         <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="direct parent" childId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </rule>
+    <rule id="76f5-4f49-45a2-a581" name="SLAM" hidden="true">
+      <modifiers>
+        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="c34a-83ac-3d5c-4e27" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
