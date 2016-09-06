@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="106" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="107" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -4767,7 +4767,7 @@
         </link>
       </links>
     </entry>
-    <entry id="bf64-29bc-c160-5715" name="PS 5 - •Chewbacca††" points="42.0" categoryId="92ac-3969-4658-d8dd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="bf64-29bc-c160-5715" name="PS 5 - •Chewbacca†" points="42.0" categoryId="92ac-3969-4658-d8dd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="d15d-e761-d513-ea82" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4856,7 +4856,7 @@
         </profile>
         <profile id="524c-cd94-781e-ec11" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Chewbacca" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="After another friendly ship at Range 1-3 is destroyed (but has not fled the battlefield), you may perform an attack."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -4883,7 +4883,7 @@
         <link id="0301-470b-9da0-2dac" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
           <modifiers/>
         </link>
-        <link id="3ab5-2070-cb6c-1be8" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="3ab5-2070-cb6c-1be8" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="1357-80cf-1425-f0e4" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
@@ -6024,6 +6024,127 @@
           <modifiers/>
         </link>
         <link id="7430-5389-7c9b-6610" targetId="6f2a-6581-0c26-c893" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c117-d5b7-6be4-edef" name="PS 6 - •Cassian Andor†" points="27.0" categoryId="65e2-69cd-6b28-79ab" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="9b56-f9c0-a432-b2bf" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="c014-17c7-9ec4-a40a" targetId="1c1d-c1fa-fbce-0f0a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="4fce-5306-45ec-d656" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="b086-b01b-a4d0-c854" profileTypeId="31536869707323232344415441232323" name="•Cassian Andor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="6"/>
+            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
+            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
+            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
+            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
+            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, System, Torpedoes, Crew x2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c117-d5b7-6be4-edef" childId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="4167696c69747923232344415441232323" value="1 or 2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c117-d5b7-6be4-edef" childId="1c1d-c1fa-fbce-0f0a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c117-d5b7-6be4-edef" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c117-d5b7-6be4-edef" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c117-d5b7-6be4-edef" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c117-d5b7-6be4-edef" childId="d86d-219a-4d54-0bd7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, System, Torpedoes, Crew x2, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c117-d5b7-6be4-edef" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="2488-b577-c7d3-03d8" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Cassian Andor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="At the start of the Activation phase, you may remove 1 stress token from 1 other friendly ship at Range 1-2."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="85db-c4e4-ad76-ae87" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7a64-58ba-5cb8-733f" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f27e-9602-ecaf-3bd6" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bd52-f572-dfee-873b" targetId="94f5-8aac-9ce7-5164" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6d65-e472-20f3-f9e5" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="cf18-7e1a-e826-2f1b" targetId="809b-eddb-0859-03bd" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="48d2-2204-7780-4c2b" targetId="4547-6ce3-b673-bc85" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8389-7f1c-fb9d-7283" targetId="395a-79d6-a246-e310" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="ce90-4def-2b6a-32fa" targetId="f01d-656f-5b3a-cc44" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0dbe-7641-9455-d92b" targetId="8260-d5a8-d85f-0774" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b045-00f3-fdb9-be69" targetId="78fd6480-0f7c-ffb0-e00b-87196180eb88" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -9180,7 +9301,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d27a-1067-739f-96dc" name="PS 9 - •Han Solo††" points="46.0" categoryId="92ac-3969-4658-d8dd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="d27a-1067-739f-96dc" name="PS 9 - •Han Solo†" points="46.0" categoryId="92ac-3969-4658-d8dd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="4426-7b63-b60b-a0cb" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9269,13 +9390,13 @@
         </profile>
         <profile id="1473-2b4f-3abf-5a99" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Han Solo" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When you are placed during setup, you can be placed anywhere in the play area beyond Range 3 of enemy ships."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="f0ea-df26-13f7-32da" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="f0ea-df26-13f7-32da" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="d2eb-806c-4e22-2752" targetId="57f2725c-a960-c304-a697-fa62d5c3488f" linkType="profile">
@@ -9503,127 +9624,6 @@
           <modifiers/>
         </link>
         <link id="4179-8a40-c2f5-e60f" targetId="6f2a-6581-0c26-c893" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c117-d5b7-6be4-edef" name="PS 6 - •Cassian Andor†" points="27.0" categoryId="65e2-69cd-6b28-79ab" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="9b56-f9c0-a432-b2bf" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="c014-17c7-9ec4-a40a" targetId="1c1d-c1fa-fbce-0f0a" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="4fce-5306-45ec-d656" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles>
-        <profile id="b086-b01b-a4d0-c854" profileTypeId="31536869707323232344415441232323" name="•Cassian Andor" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="6"/>
-            <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="3"/>
-            <characteristic characteristicId="4167696c69747923232344415441232323" name="Agility" value="1"/>
-            <characteristic characteristicId="48756c6c23232344415441232323" name="Hull" value="4"/>
-            <characteristic characteristicId="536869656c647323232344415441232323" name="Shields" value="4"/>
-            <characteristic characteristicId="557067726164652042617223232344415441232323" name="Upgrade Bar" value="Elite, System, Torpedoes, Crew x2"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="c117-d5b7-6be4-edef" childId="b504b9e9-1c2c-a0ce-9837-62b401c6b336" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="4167696c69747923232344415441232323" value="1 or 2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="c117-d5b7-6be4-edef" childId="1c1d-c1fa-fbce-0f0a" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="c117-d5b7-6be4-edef" childId="ea2515d3-1e57-5f4b-fff6-c8d38159e063" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="536869656c647323232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="c117-d5b7-6be4-edef" childId="7e80ed1d-1f0a-7d2c-3360-aa505f9ff3c9" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="c117-d5b7-6be4-edef" childId="871ad81a-0fc2-59cb-3339-f812d5543554" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="c117-d5b7-6be4-edef" childId="d86d-219a-4d54-0bd7" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, System, Torpedoes, Crew x2, Bomb" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="c117-d5b7-6be4-edef" childId="46ce-3ec3-fa2b-f71a" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile id="2488-b577-c7d3-03d8" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Cassian Andor" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="At the start of the Activation phase, you may remove 1 stress token from 1 other friendly ship at Range 1-2."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="85db-c4e4-ad76-ae87" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7a64-58ba-5cb8-733f" targetId="c8c4c651-a176-ccfa-0957-4f27171f9db0" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f27e-9602-ecaf-3bd6" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bd52-f572-dfee-873b" targetId="94f5-8aac-9ce7-5164" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6d65-e472-20f3-f9e5" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="cf18-7e1a-e826-2f1b" targetId="809b-eddb-0859-03bd" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="48d2-2204-7780-4c2b" targetId="4547-6ce3-b673-bc85" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="8389-7f1c-fb9d-7283" targetId="395a-79d6-a246-e310" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="ce90-4def-2b6a-32fa" targetId="f01d-656f-5b3a-cc44" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="0dbe-7641-9455-d92b" targetId="8260-d5a8-d85f-0774" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="b045-00f3-fdb9-be69" targetId="78fd6480-0f7c-ffb0-e00b-87196180eb88" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -11227,6 +11227,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="1c1d-c1fa-fbce-0f0a" name="Pivot Wing†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4cde-f4c4-01a0-b83a" profileTypeId="332e30315469746c6523232344415441232323" name="Pivot Wing (Attack)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Dual card. Increase your agility value by 1. After you execute a maneuver, you may flip this card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="044f-0bba-e93f-63fb" profileTypeId="332e30315469746c6523232344415441232323" name="Pivot Wing (Landing)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Dual card. When you reveal a [stationary 0] maneuver, you may rotate your ship 180°. After you execute a maneuver, you may flip this card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6c79-e7f2-bc6e-5654" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="b240-7a9d-38e4-4bf6" name="Plasma Torpedoes" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -12308,6 +12333,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="4fce-5306-45ec-d656" name="•Cassian Andor†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c117-d5b7-6be4-edef" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="a319-53cb-aa45-d2bd" profileTypeId="332e30334372657723232344415441232323" name="Cassian Andor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship&apos;s bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ddcf-ccd6-92fe-fc08" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="539137f4-6cd0-2fc5-aea3-86580bd47f63" name="•Chewbacca" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -12565,6 +12616,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="bbec-ea17-b702-d328" name="•Jyn Erso†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2eef-8450-3c8a-5afe" profileTypeId="332e30334372657723232344415441232323" name="Jyn Erso" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Choose 1 friendly ship at Range 1-2. Assign 1 focus token to that ship for each enemy ship inside your firing arc at Range 1-3. You cannot assign more than 3 tokens in this way."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3095-4b9f-94c9-511c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="c3d0-d48f-3a2a-c424" name="•Kanan Jarrus" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -13134,76 +13204,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="1c1d-c1fa-fbce-0f0a" name="Pivot Wing†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="4cde-f4c4-01a0-b83a" profileTypeId="332e30315469746c6523232344415441232323" name="Pivot Wing (Attack)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Dual card. Increase your agility value by 1. After you execute a maneuver, you may flip this card."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="044f-0bba-e93f-63fb" profileTypeId="332e30315469746c6523232344415441232323" name="Pivot Wing (Landing)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Dual card. When you reveal a [stationary 0] maneuver, you may rotate your ship 180°. After you execute a maneuver, you may flip this card."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="6c79-e7f2-bc6e-5654" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="4fce-5306-45ec-d656" name="•Cassian Andor†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="c117-d5b7-6be4-edef" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles>
-        <profile id="a319-53cb-aa45-d2bd" profileTypeId="332e30334372657723232344415441232323" name="Cassian Andor" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship&apos;s bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="ddcf-ccd6-92fe-fc08" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="bbec-ea17-b702-d328" name="•Jyn Erso†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2eef-8450-3c8a-5afe" profileTypeId="332e30334372657723232344415441232323" name="Jyn Erso" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Choose 1 friendly ship at Range 1-2. Assign 1 focus token to that ship for each enemy ship inside your firing arc at Range 1-3. You cannot assign more than 3 tokens in this way."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="3095-4b9f-94c9-511c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -15031,6 +15031,15 @@
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="94f5-8aac-9ce7-5164" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="U-Wing" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
+        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
+        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
+        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="4e82-6505-7d16-09b6" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="VCX-100" hidden="false">
       <characteristics>
         <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
@@ -15094,15 +15103,6 @@
     <profile id="ffb3-fd00-18d7-5b5d" profileTypeId="a285251b-01f4-7499-3b4d-39a062b4d963" name="†† - Placeholder" hidden="false">
       <characteristics>
         <characteristic characteristicId="7ba819ca-effa-8c45-5542-10f769608bbc" name="Symbol Key" value="Cards marked with a double dagger symbol (††) are not actual cards made by Fantasy Flight Games. They are not intended for game play and exist only to fill in blanks in the catalogue file."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="94f5-8aac-9ce7-5164" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" name="U-Wing" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" name="Size" value="Large"/>
-        <characteristic characteristicId="34420436-d2e3-e411-acbe-c4c3f0473a42" name="Firing Arc" value="Standard"/>
-        <characteristic characteristicId="a4371b99-67ea-4fb5-e87a-d4e9d025c81c" name="Epic Icon" value="No"/>
-        <characteristic characteristicId="c8111d75-b747-6db7-b2a5-c8f2195033c3" name="Epic Points"/>
       </characteristics>
       <modifiers/>
     </profile>
