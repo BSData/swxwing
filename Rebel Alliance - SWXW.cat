@@ -13308,6 +13308,25 @@
         </link>
       </links>
     </entry>
+    <entry id="6d22-9fe3-6b12-2661" name="•M9-G8†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8421-edd5-f778-2fde" profileTypeId="332e34417374726f6d65636823232344415441232323" name="M9-G8" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="When a ship you have locked is attacking, you may choose 1 attack die. The attacker must reroll that die. You can acquire target locks on other friendly ships."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f7a5-fdae-02ef-ab76" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -13358,6 +13377,9 @@
           <modifiers/>
         </link>
         <link id="12eb-87a1-cda4-4ae2" targetId="0e4d-3f0c-58e5-9879" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1861-1586-a67f-2f62" targetId="6d22-9fe3-6b12-2661" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -13413,6 +13435,9 @@
           <modifiers/>
         </link>
         <link id="26de-8bc8-23f7-f469" targetId="0e4d-3f0c-58e5-9879" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4589-8529-cbae-dd75" targetId="6d22-9fe3-6b12-2661" linkType="entry">
           <modifiers/>
         </link>
       </links>
