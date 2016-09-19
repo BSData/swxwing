@@ -11546,6 +11546,44 @@
         </link>
       </links>
     </entry>
+    <entry id="3893-c384-a743-961b" name="Primed Thrusters†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1cd0-22f3-f342-ba03" profileTypeId="c9e2-1064-13c6-2ead" name="Primed Thrusters" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="Stress tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a56f-6c47-65c3-ab6a" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4bc0-9c0b-9f8c-04d9" name="Pattern Analyzer†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e274-bd50-1c2c-7672" profileTypeId="c9e2-1064-13c6-2ead" name="Pattern Analyzer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="When executing a maneuver, you may resolve the &quot;Check Pilot Stress&quot; step after the &quot;Perform Action&quot; step (instead of before that step)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c342-a397-fe9a-5f96" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -12868,6 +12906,12 @@
         <link id="7f78-755e-1ba5-0f78" targetId="4c9f-325f-cbd2-8488" linkType="entry">
           <modifiers/>
         </link>
+        <link id="85a0-400a-003c-f4ff" targetId="3893-c384-a743-961b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e6ef-6224-96d4-ef68" targetId="4bc0-9c0b-9f8c-04d9" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="7743-1910-693f-2dc1" name="Tech" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -12882,6 +12926,9 @@
           <modifiers/>
         </link>
         <link id="8d60-967e-2d1f-9834" targetId="3d7e-50ab-4a2e-9cc5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="75b7-1a35-4abc-f390" targetId="4bc0-9c0b-9f8c-04d9" linkType="entry">
           <modifiers/>
         </link>
       </links>

@@ -7147,6 +7147,32 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="3e55-af58-24d0-4e8c" name="Snap Shot†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2fd4-33c8-a7b1-9327" profileTypeId="8cb6-7ae7-807e-a3ca" name="Snap Shot " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="d7b4-6497-6709-155f" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="649a-dc27-6820-5d4e" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a3f7-3115-7e5c-8ba1" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Snap Shot" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="After an enemy ship executes a maneuver, you may perform this attack against that ship. Attack: Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3599-d47b-e9b6-2366" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="3cc260b8-76dc-9e4c-b6b2-f5f1b0105c3a" name="Stay on Target" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -7995,28 +8021,40 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="3e55-af58-24d0-4e8c" name="Snap Shot†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0a09-43d6-925a-fc56" name="Primed Thrusters†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2fd4-33c8-a7b1-9327" profileTypeId="8cb6-7ae7-807e-a3ca" name="Snap Shot " hidden="false">
+        <profile id="20a2-1a1e-b02e-9d99" profileTypeId="c9e2-1064-13c6-2ead" name="Primed Thrusters" hidden="false">
           <characteristics>
-            <characteristic characteristicId="d7b4-6497-6709-155f" name="Weapon Range" value="1"/>
-            <characteristic characteristicId="649a-dc27-6820-5d4e" name="Attack Value" value="2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="a3f7-3115-7e5c-8ba1" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Snap Shot" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="After an enemy ship executes a maneuver, you may perform this attack against that ship. Attack: Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."/>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="Stress tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="3599-d47b-e9b6-2366" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+        <link id="6d14-b6b8-4cb4-81ef" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ae68-1568-bea2-e27a" name="Pattern Analyzer†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ca9e-68e2-54dc-71ea" profileTypeId="c9e2-1064-13c6-2ead" name="Pattern Analyzer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="When executing a maneuver, you may resolve the &quot;Check Pilot Stress&quot; step after the &quot;Perform Action&quot; step (instead of before that step)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="60de-35b0-0513-f44f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -9168,6 +9206,12 @@
           <modifiers/>
         </link>
         <link id="1145-ec4b-303f-b3d8" targetId="2f5a-5d31-cc77-4266" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a7f9-474a-0f27-ea1b" targetId="0a09-43d6-925a-fc56" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9efb-2846-5e4d-10d6" targetId="ae68-1568-bea2-e27a" linkType="entry">
           <modifiers/>
         </link>
       </links>
