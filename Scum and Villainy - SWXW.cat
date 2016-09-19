@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="96" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="97" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -5766,6 +5766,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="c34a-83ac-3d5c-4e27" name="Burnout SLAM†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2611-2f9f-a9bf-aad4" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Burnout SLAM" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Your action bar gains the [SLAM] action icon. After you perform a SLAM action, discard this card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="35b7-dc35-4dac-da58" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="44f7-7c8e-4426-1a14" name="Calculation" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -7976,21 +7995,28 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="c34a-83ac-3d5c-4e27" name="Burnout SLAM†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3e55-af58-24d0-4e8c" name="Snap Shot†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2611-2f9f-a9bf-aad4" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Burnout SLAM" hidden="false">
+        <profile id="2fd4-33c8-a7b1-9327" profileTypeId="8cb6-7ae7-807e-a3ca" name="Snap Shot " hidden="false">
           <characteristics>
-            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Your action bar gains the [SLAM] action icon. After you perform a SLAM action, discard this card."/>
+            <characteristic characteristicId="d7b4-6497-6709-155f" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="649a-dc27-6820-5d4e" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a3f7-3115-7e5c-8ba1" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Snap Shot" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="After an enemy ship executes a maneuver, you may perform this attack against that ship. Attack: Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="35b7-dc35-4dac-da58" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+        <link id="3599-d47b-e9b6-2366" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -8382,6 +8408,9 @@
         <link id="e912-4774-4050-c9dd" targetId="af30-a7df-67ab-895a" linkType="entry">
           <modifiers/>
         </link>
+        <link id="2df0-6bce-cbcd-6e88" targetId="3e55-af58-24d0-4e8c" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="6c29-e554-71ed-ed9e" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8480,6 +8509,9 @@
           <modifiers/>
         </link>
         <link id="a840-bded-fea7-a714" targetId="af30-a7df-67ab-895a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f824-ae8f-b2b4-17a4" targetId="3e55-af58-24d0-4e8c" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -9357,6 +9389,16 @@
     <rule id="6881-4b1f-dbbc-e99f" name="Rotate Arc" hidden="false">
       <modifiers/>
     </rule>
+    <rule id="76f5-4f49-45a2-a581" name="SLAM" hidden="true">
+      <modifiers>
+        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="c34a-83ac-3d5c-4e27" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </rule>
     <rule id="ad2f7767-ae8a-6176-4edb-6aeaf156267a" name="Target Lock" hidden="false">
       <modifiers/>
     </rule>
@@ -9365,16 +9407,6 @@
         <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="direct parent" childId="45386e60-c93d-62aa-5e03-e7ed1f0499cc" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-    </rule>
-    <rule id="76f5-4f49-45a2-a581" name="SLAM" hidden="true">
-      <modifiers>
-        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="c34a-83ac-3d5c-4e27" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>

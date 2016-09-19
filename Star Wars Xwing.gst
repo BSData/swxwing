@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="31" battleScribeVersion="1.15" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" revision="32" battleScribeVersion="1.15" name="Star Wars - X-Wing Miniatures" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="5374616e6461726423232344415441232323" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -185,7 +185,13 @@
         <characteristic id="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability"/>
       </characteristics>
     </profileType>
-    <profileType id="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="2.2 Elite">
+    <profileType id="8cb6-7ae7-807e-a3ca" name="2.2 Elite">
+      <characteristics>
+        <characteristic id="d7b4-6497-6709-155f" name="Weapon Range"/>
+        <characteristic id="649a-dc27-6820-5d4e" name="Attack Value"/>
+      </characteristics>
+    </profileType>
+  <profileType id="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="2.3 Elite Ability">
       <characteristics>
         <characteristic id="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability"/>
       </characteristics>
@@ -329,5 +335,5 @@
         <characteristic id="7ba819ca-effa-8c45-5542-10f769608bbc" name="Symbol Key"/>
       </characteristics>
     </profileType>
-  </profileTypes>
+    </profileTypes>
 </gameSystem>

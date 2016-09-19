@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="107" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="108" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -10102,6 +10102,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="26c8-a5ad-709a-105f" name="Burnout SLAM†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fa46-cf78-0efd-9f0b" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Burnout SLAM" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Your action bar gains the [SLAM] action icon. After you perform a SLAM action, discard this card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7085-6dac-66b3-a126" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7805-6177-0e3e-1999" name="Calculation" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -12532,6 +12551,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="8e71-f87b-9214-1eda" name="•Finn†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a85b-c5b4-dab1-93ac" profileTypeId="332e30334372657723232344415441232323" name="Finn" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking with a primary weapon or defending, if the enemy ship is inside your firing arc, you may add 1 blank result to your roll."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3647-64cc-2730-23fa" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="9a75-e01f-6d0b-8ef6" name="•Ghost" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -13244,40 +13282,28 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="8e71-f87b-9214-1eda" name="•Finn†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a6ea-e450-b3bd-1167" name="Snap Shot†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a85b-c5b4-dab1-93ac" profileTypeId="332e30334372657723232344415441232323" name="Finn" hidden="false">
+        <profile id="d0c4-2df0-2a04-eb01" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Snap Shot" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="When attacking with a primary weapon or defending, if the enemy ship is inside your firing arc, you may add 1 blank result to your roll."/>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="After an enemy ship executes a maneuver, you may perform this attack against that ship. Attack: Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7836-5a25-12ba-6949" profileTypeId="8cb6-7ae7-807e-a3ca" name="Snap Shot " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="d7b4-6497-6709-155f" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="649a-dc27-6820-5d4e" name="Attack Value" value="2"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="3647-64cc-2730-23fa" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="26c8-a5ad-709a-105f" name="Burnout SLAM†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="fa46-cf78-0efd-9f0b" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="Burnout SLAM" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="Your action bar gains the [SLAM] action icon. After you perform a SLAM action, discard this card."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="7085-6dac-66b3-a126" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+        <link id="8d27-7184-e508-3e1d" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -13996,6 +14022,9 @@
         <link id="50d8-a3b9-5d77-6ccb" targetId="af30-a7df-67ab-895a" linkType="entry">
           <modifiers/>
         </link>
+        <link id="f444-8d1c-509a-46ab" targetId="a6ea-e450-b3bd-1167" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="f01d-656f-5b3a-cc44" name="Elite" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -14085,6 +14114,9 @@
           <modifiers/>
         </link>
         <link id="ed82-19c9-933a-5b61" targetId="af30-a7df-67ab-895a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a730-2e51-0aa1-df32" targetId="a6ea-e450-b3bd-1167" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -15006,6 +15038,16 @@
     <rule id="d444-e1ee-fb74-db99" name="SLAM" hidden="false">
       <modifiers/>
     </rule>
+    <rule id="8e17-b4e8-6192-1fe2" name="SLAM" hidden="true">
+      <modifiers>
+        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="26c8-a5ad-709a-105f" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </rule>
     <rule id="0bb78332-cebd-332a-f312-8de96ea4e42a" name="Target Lock" hidden="false" page="0">
       <modifiers/>
     </rule>
@@ -15014,16 +15056,6 @@
         <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="direct parent" childId="bde29740-52d6-ac5d-b455-acb1b511b181" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-    </rule>
-    <rule id="8e17-b4e8-6192-1fe2" name="SLAM" hidden="true">
-      <modifiers>
-        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="26c8-a5ad-709a-105f" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
