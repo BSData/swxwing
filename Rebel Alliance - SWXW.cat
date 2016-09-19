@@ -1808,7 +1808,7 @@
         </link>
       </links>
     </entry>
-    <entry id="6113-6ab6-c319-ba9b" name="PS 3 - •Jess Pava††" points="26.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="6113-6ab6-c319-ba9b" name="PS 3 - •Jess Pava†" points="25.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1864,7 +1864,7 @@
         </profile>
         <profile id="c980-a65d-44f0-6996" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Jess Pava" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When attacking or defending, you may reroll 1 of your dice for each other friendly ship at Range 1."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1873,7 +1873,7 @@
         <link id="7cd5-3484-d902-9352" targetId="4800-77ea-d0cb-6ae5" linkType="profile">
           <modifiers/>
         </link>
-        <link id="8a69-1e23-5f48-df2c" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="8a69-1e23-5f48-df2c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="bf19-537e-6c2b-5ac9" targetId="4093e9ca-4779-a09e-e575-db3887586679" linkType="entry group">
@@ -5834,7 +5834,7 @@
         </link>
       </links>
     </entry>
-    <entry id="81ee-69fb-caa0-c8ef" name="PS 6 - •&quot;Snap&quot; Wexley††" points="29.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="81ee-69fb-caa0-c8ef" name="PS 6 - •&quot;Snap&quot; Wexley†" points="28.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="99ab-4908-df2e-2c3c" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -5860,7 +5860,7 @@
       <profiles>
         <profile id="09a1-190c-eb8b-d582" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="&quot;Snap&quot; Wexley" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="After you execute a 2-, 3-, or 4-speed maneuver, if you are not touching a ship, you may perform a free boost action."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5923,7 +5923,7 @@
         <link id="d759-0df0-ecb4-15df" targetId="78fd6480-0f7c-ffb0-e00b-87196180eb88" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="9146-932a-d847-012f" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="9146-932a-d847-012f" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="62e4-6da1-bf4e-c29b" targetId="4800-77ea-d0cb-6ae5" linkType="profile">
@@ -7829,7 +7829,7 @@
         </link>
       </links>
     </entry>
-    <entry id="2568-6d2e-fad6-ea4f" name="PS 7 - •Nien Nunb††" points="30.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="2568-6d2e-fad6-ea4f" name="PS 7 - •Nien Nunb†" points="29.0" categoryId="8000-0b43-fa58-75fb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="b986-b3da-b40f-819e" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7855,7 +7855,7 @@
       <profiles>
         <profile id="ef1a-9b33-c1c4-e934" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Nien Nunb" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When you receive a stress token, if there is an enemy ship inside your firing arc at Range 1, you may discard that token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -7903,7 +7903,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="5eaa-c923-f2d3-9403" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="5eaa-c923-f2d3-9403" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="eef1-c122-95df-47e0" targetId="4800-77ea-d0cb-6ae5" linkType="profile">
