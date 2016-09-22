@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="108" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="109" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1560,7 +1560,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3c90-a696-739a-727b" name="PS 3 - •Braylen Stramm†" points="25.0" categoryId="5217-643e-7313-1d6d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3c90-a696-739a-727b" name="PS 3 - •Braylen Stramm" points="25.0" categoryId="5217-643e-7313-1d6d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="6ebe-a1da-5842-f07b" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1665,9 +1665,6 @@
           <modifiers/>
         </link>
         <link id="cdda-bce1-5e4e-cbe4" targetId="8bc8-b14e-f0cb-8647" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="d36f-7393-355e-3e75" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="95dc-c164-fe07-d258" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
@@ -4077,7 +4074,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7683-3cfe-adce-6fb2" name="PS 4 - •Thane Kyrell†" points="26.0" categoryId="5217-643e-7313-1d6d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7683-3cfe-adce-6fb2" name="PS 4 - •Thane Kyrell" points="26.0" categoryId="5217-643e-7313-1d6d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="e78d-29b3-40d9-ff68" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4182,9 +4179,6 @@
           <modifiers/>
         </link>
         <link id="f4e2-fd0f-dd63-c356" targetId="8bc8-b14e-f0cb-8647" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="1714-c674-0687-a62b" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="f5f8-42f4-cb95-9cf1" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
@@ -6673,7 +6667,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c207-09b1-8bd0-b9af" name="PS 6 - •Shara Bey†" points="28.0" categoryId="5217-643e-7313-1d6d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c207-09b1-8bd0-b9af" name="PS 6 - •Shara Bey" points="28.0" categoryId="5217-643e-7313-1d6d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="1b8e-b355-15a9-0b16" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6753,9 +6747,6 @@
           <modifiers/>
         </link>
         <link id="ef65-fbc4-e196-d65f" targetId="0bb78332-cebd-332a-f312-8de96ea4e42a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f4ac-8570-1ac6-d18d" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="173e-c84e-bc97-b620" targetId="8bc8-b14e-f0cb-8647" linkType="profile">
@@ -7938,7 +7929,7 @@
         </link>
       </links>
     </entry>
-    <entry id="f5c6-302a-525d-cc81" name="PS 7 - •Norra Wexley†" points="29.0" categoryId="5217-643e-7313-1d6d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f5c6-302a-525d-cc81" name="PS 7 - •Norra Wexley" points="29.0" categoryId="5217-643e-7313-1d6d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="fe83-d31e-0fff-60ac" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8030,9 +8021,6 @@
           <modifiers/>
         </link>
         <link id="f1e5-f22f-6884-ff76" targetId="8bc8-b14e-f0cb-8647" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="f3c9-2ce5-229c-6731" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="88b4-3947-027c-855d" targetId="e54fb2d4-ba24-cbf2-d448-1ba3dbc1deb8" linkType="rule">
@@ -9855,7 +9843,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="df45-fc6c-2df0-6422" name="Alliance Overhaul†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="df45-fc6c-2df0-6422" name="Alliance Overhaul" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -9868,11 +9856,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="fbd2-d206-163d-3f64" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="5b290428-c81a-a9d4-ed10-d5479e2122d7" name="Anti-Pursuit Lasers" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -10016,7 +10000,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="919c-b042-e433-35a1" name="Black Market Slicer Tools†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="919c-b042-e433-35a1" name="Black Market Slicer Tools" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -10029,11 +10013,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="ea33-3335-5785-4ec0" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="59db2c26-5d1d-cf86-d26b-6c74d8e537e8" name="Blaster Turret" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -10210,7 +10190,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="62c7-3f83-cac3-42df" name="Collision Detector†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="62c7-3f83-cac3-42df" name="Collision Detector" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -10223,11 +10203,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="ecdb-c5cd-db57-cab6" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="f65d78d8-315d-5bcb-448c-3939cb70bfaa" name="Combat Retrofit" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -11285,6 +11261,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="2c1b-7cc4-9c8a-db15" name="Pattern Analyzer†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5a83-8ecf-da13-fda8" profileTypeId="c9e2-1064-13c6-2ead" name="Pattern Analyzer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="When executing a maneuver, you may resolve the &quot;Check Pilot Stress&quot; step after the &quot;Perform Action&quot; step (instead of before that step)."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cb84-0365-99e4-6707" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="1c1d-c1fa-fbce-0f0a" name="Pivot Wing†" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -11346,6 +11341,25 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="07f5-8d6a-6b24-7592" name="Primed Thrusters†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b5b4-25e7-e753-9668" profileTypeId="c9e2-1064-13c6-2ead" name="Primed Thrusters" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="Stress tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bcd8-aca3-9a47-0830" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="577379c0-d59e-f955-1002-119375d1e11f" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -11486,7 +11500,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="0e4d-3f0c-58e5-9879" name="R3 Astromech†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0e4d-3f0c-58e5-9879" name="R3 Astromech" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -11499,11 +11513,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="c0aa-aa98-f7ea-85ef" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="75215c17-356f-d4e7-a016-d6465fa09884" name="R5 Astromech" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -11580,7 +11590,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="490c-c3ae-ec60-7b5f" name="Rigged Cargo Chute†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="490c-c3ae-ec60-7b5f" name="Rigged Cargo Chute" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -11593,11 +11603,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="33ca-988f-4c91-af8d" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="b37f854a-a0ae-d972-6aac-c75ed53ce18c" name="Saboteur" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -11635,7 +11641,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="bbbb-de83-cfb7-997a" name="Seismic Torpedo†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="bbbb-de83-cfb7-997a" name="Seismic Torpedo" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -11648,13 +11654,9 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="dc76-16df-977d-c61c" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
-    <entry id="05df-158b-b414-7d75" name="Sensor Cluster†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="05df-158b-b414-7d75" name="Sensor Cluster" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -11667,11 +11669,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="12d3-3f36-f801-a6d0" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="6468-b3b1-08f0-14a2" name="Sensor Jammer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -11807,6 +11805,32 @@
         </link>
       </links>
     </entry>
+    <entry id="a6ea-e450-b3bd-1167" name="Snap Shot†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d0c4-2df0-2a04-eb01" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Snap Shot" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="After an enemy ship executes a maneuver, you may perform this attack against that ship. Attack: Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7836-5a25-12ba-6949" profileTypeId="8cb6-7ae7-807e-a3ca" name="Snap Shot " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="d7b4-6497-6709-155f" name="Weapon Range" value="1"/>
+            <characteristic characteristicId="649a-dc27-6820-5d4e" name="Attack Value" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8d27-7184-e508-3e1d" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="b252-3e9e-6ebb-7fee" name="Stay on Target" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -11897,7 +11921,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="b0aa-8110-87e7-787a" name="Tail Gunner†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b0aa-8110-87e7-787a" name="Tail Gunner" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -11910,11 +11934,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="f864-a286-8531-eeed" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="8e73-9fca-4cff-8c24" name="Targeting Astromech" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -12057,7 +12077,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="1da0-a8d1-9ca6-f747" name="Vectored Thrusters†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1da0-a8d1-9ca6-f747" name="Vectored Thrusters" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -12070,11 +12090,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="5788-b3d2-2199-35e8" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="b504b9e9-1c2c-a0ce-9837-62b401c6b336" name="Veteran Instincts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -12831,6 +12847,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="6d22-9fe3-6b12-2661" name="•M9-G8†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8421-edd5-f778-2fde" profileTypeId="332e34417374726f6d65636823232344415441232323" name="M9-G8" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="When a ship you have locked is attacking, you may choose 1 attack die. The attacker must reroll that die. You can acquire target locks on other friendly ships."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f7a5-fdae-02ef-ab76" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="16294112-91b2-242e-30f7-2d999f1cd556" name="•Millennium Falcon (I)" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -13281,89 +13316,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="a6ea-e450-b3bd-1167" name="Snap Shot†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="d0c4-2df0-2a04-eb01" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" name="Snap Shot" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" name="Elite Ability" value="After an enemy ship executes a maneuver, you may perform this attack against that ship. Attack: Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="7836-5a25-12ba-6949" profileTypeId="8cb6-7ae7-807e-a3ca" name="Snap Shot " hidden="false">
-          <characteristics>
-            <characteristic characteristicId="d7b4-6497-6709-155f" name="Weapon Range" value="1"/>
-            <characteristic characteristicId="649a-dc27-6820-5d4e" name="Attack Value" value="2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8d27-7184-e508-3e1d" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6d22-9fe3-6b12-2661" name="•M9-G8†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8421-edd5-f778-2fde" profileTypeId="332e34417374726f6d65636823232344415441232323" name="M9-G8" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="417374726f6d656368204162696c69747923232344415441232323" name="Astromech Ability" value="When a ship you have locked is attacking, you may choose 1 attack die. The attacker must reroll that die. You can acquire target locks on other friendly ships."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="f7a5-fdae-02ef-ab76" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="07f5-8d6a-6b24-7592" name="Primed Thrusters†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="b5b4-25e7-e753-9668" profileTypeId="c9e2-1064-13c6-2ead" name="Primed Thrusters" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="Stress tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="bcd8-aca3-9a47-0830" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="2c1b-7cc4-9c8a-db15" name="Pattern Analyzer†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="5a83-8ecf-da13-fda8" profileTypeId="c9e2-1064-13c6-2ead" name="Pattern Analyzer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="When executing a maneuver, you may resolve the &quot;Check Pilot Stress&quot; step after the &quot;Perform Action&quot; step (instead of before that step)."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="cb84-0365-99e4-6707" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
