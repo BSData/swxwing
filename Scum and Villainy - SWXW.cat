@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="99" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="100" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -7758,6 +7758,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="17a3-d503-50aa-5c78" name="•EMP Device†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5a9c-aafa-c8a0-c090" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="EMP Device" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="During the Combat phase, instead of performing any attacks, you may discard this card to assign 2 ion tokens to each ship at Range 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f212-25a3-945f-c004" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8cac254f-077b-0754-ca11-969aaa8bb286" name="•Experimental Interface" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8588,6 +8607,9 @@
         <link id="ae91-f55d-1772-5ea9" targetId="2df1-3a25-9fed-167c" linkType="entry">
           <modifiers/>
         </link>
+        <link id="0dc9-e4a1-de01-7cd8" targetId="17a3-d503-50aa-5c78" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="81a5-0a05-2068-e548" name="Illicit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8619,6 +8641,9 @@
         <link id="5c64-62eb-7129-1bd5" targetId="c34a-83ac-3d5c-4e27" linkType="entry">
           <modifiers/>
         </link>
+        <link id="ec7f-5b74-c8dd-7ed3" targetId="17a3-d503-50aa-5c78" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="0719-388f-4032-7762" name="Illicit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8648,6 +8673,9 @@
           <modifiers/>
         </link>
         <link id="481f-bf09-892e-03d0" targetId="c34a-83ac-3d5c-4e27" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cfe6-e5cc-c924-c71d" targetId="17a3-d503-50aa-5c78" linkType="entry">
           <modifiers/>
         </link>
       </links>

@@ -13323,6 +13323,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="17a3-d503-50aa-5c78" name="•EMP Device†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="105a-76bf-421d-0d15" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" name="EMP Device" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f943a944-4fd4-9297-edc3-1ed106a27d87" name="Illicit Ability" value="During the Combat phase, instead of performing any attacks, you may discard this card to assign 2 ion tokens to each ship at Range 1."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f33d-e72b-7012-af4b" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -14178,6 +14197,9 @@
         <link id="d8bd-ea22-fb89-78d6" targetId="26c8-a5ad-709a-105f" linkType="entry">
           <modifiers/>
         </link>
+        <link id="ad2c-ff80-4157-d9ac" targetId="17a3-d503-50aa-5c78" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="39b0-c828-9586-863a" name="Illicit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -14211,6 +14233,9 @@
           <modifiers/>
         </link>
         <link id="932a-8e80-deea-efc3" targetId="82a5-7c3e-f9b9-0bf0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c62e-8002-f9d5-fc69" targetId="17a3-d503-50aa-5c78" linkType="entry">
           <modifiers/>
         </link>
       </links>
