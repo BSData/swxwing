@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="109" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" revision="110" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" points="27.0" categoryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1438,7 +1438,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7dcb-03d6-f4e7-7b74" name="PS 3 - •&quot;Zeb&quot; Orrelios††" points="13.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="7dcb-03d6-f4e7-7b74" name="PS 3 - •&quot;Zeb&quot; Orrelios†" points="13.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="8044-a1c8-6de0-5b3d" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1518,7 +1518,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="4bc7-5c3b-dd33-cfe3" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="4bc7-5c3b-dd33-cfe3" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="49c0-e5d4-abd9-8c2a" targetId="72f2-8855-3352-38b5" linkType="profile">
@@ -3746,7 +3746,7 @@
         </link>
       </links>
     </entry>
-    <entry id="cdeb-8a01-41a4-c296" name="PS 4 - •Captain Rex††" points="14.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="cdeb-8a01-41a4-c296" name="PS 4 - •Captain Rex†" points="14.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="a2bf-06f1-d070-f294" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3814,7 +3814,13 @@
         </profile>
         <profile id="b414-89bf-0865-4118" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Captain Rex" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="When you perform an attack, assign the &quot;Suppressive Fire&quot; Condition card to the defender."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7bdd-cf9c-da15-1179" profileTypeId="0874-76fd-36c4-9cd1" name="•Suppressive Fire" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="80e5-3743-2c52-c7eb" name="Condition Text" value="When attacking a ship other than &quot;Captain Rex,&quot; roll 1 fewer attack die. When you declare an attack targetting &quot;Captain Rex&quot; or when &quot;Captain Rex&quot; is destroyed, remove this card. At the end of the Combat phase, if &quot;Captain Rex&quot; did not perform an attack this phase, remove this card."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3823,7 +3829,7 @@
         <link id="b864-12b8-853f-241b" targetId="72f2-8855-3352-38b5" linkType="profile">
           <modifiers/>
         </link>
-        <link id="009b-e5b7-5e0a-b7c6" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="009b-e5b7-5e0a-b7c6" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="473b-bea2-b2cb-9fdd" targetId="8260-d5a8-d85f-0774" linkType="entry group">
@@ -6775,7 +6781,7 @@
         </link>
       </links>
     </entry>
-    <entry id="a1cf-b251-1215-0b9e" name="PS 7 - •Ahsoka Tano††" points="17.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="a1cf-b251-1215-0b9e" name="PS 7 - •Ahsoka Tano†" points="17.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="cdb4-3eaa-98db-3c9c" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6848,7 +6854,7 @@
         </profile>
         <profile id="dc3c-855d-9f28-6e45" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Ahsoka Tano" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="At the start of the Combat phase, you may spend 1 focus token to choose a friendly ship at Range 1. It may perform 1 free action."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6873,7 +6879,7 @@
         <link id="c8a6-2fb6-8c8b-6542" targetId="72f2-8855-3352-38b5" linkType="profile">
           <modifiers/>
         </link>
-        <link id="b555-155c-d1ae-68d2" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="b555-155c-d1ae-68d2" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
         <link id="3674-5d97-8e44-035a" targetId="d4d009b0-ea83-3b8d-ffd6-ff27bb0df55b" linkType="rule">
