@@ -12372,7 +12372,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="cb8d-97fb-e96f-d109" name="•Captain Rex††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="cb8d-97fb-e96f-d109" name="•Captain Rex†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -12387,13 +12387,13 @@
       <profiles>
         <profile id="d041-f9cf-f0cf-caf8" profileTypeId="332e30334372657723232344415441232323" name="Captain Rex" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After you perform an attack that does not hit, you may assign 1 focus token to your ship."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="c169-3a5c-eae0-23f0" targetId="ffb3-fd00-18d7-5b5d" linkType="profile">
+        <link id="c169-3a5c-eae0-23f0" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -13338,6 +13338,25 @@
       </profiles>
       <links>
         <link id="f33d-e72b-7012-af4b" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1350-06cb-5586-ba71" name="•Captured TIE†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6576-cab0-41ed-36e0" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" name="Captured TIE" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d6f64696669636174696f6e204162696c69747923232344415441232323" name="Modification Ability" value="Enemy ships with a pilot skill value lower than yours cannot declare you as the target of an attack. After you perform an attack or when you are the only remaining friendly ship in play, discard this card."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="059f-1e2c-25b8-2b18" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -14793,6 +14812,9 @@
           <modifiers/>
         </link>
         <link id="2e42-bcc9-1faa-ac24" targetId="cfa5-f295-ae7e-078c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b215-2c43-0a9d-c375" targetId="1350-06cb-5586-ba71" linkType="entry">
           <modifiers/>
         </link>
       </links>
