@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="100" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" revision="101" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" battleScribeVersion="1.15" name="Scum" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="261c-41b1-c71d-859f" name="PS * - •Nashtah Pup Pilot" points="0.0" categoryId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -437,6 +437,12 @@
             <modifier type="append" field="4167696c69747923232344415441232323" value=" +1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="77a241ad-1c23-4264-8be7-b601ed64e5c0" childId="c941e4c4-8ee3-c7ad-3ba7-7c93a4f32c48" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="77a241ad-1c23-4264-8be7-b601ed64e5c0" childId="25388210-d54c-2746-788e-132f71d6837b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1973,6 +1979,12 @@
             <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="5f50-4f64-a336-474b" childId="f2dc-4273-adff-f544" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="5f50-4f64-a336-474b" childId="25388210-d54c-2746-788e-132f71d6837b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3585,6 +3597,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="750dee51-1252-b541-0148-b83bdaa9e29d" childId="25388210-d54c-2746-788e-132f71d6837b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -5104,6 +5122,12 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c6bb0ed7-0c44-d84f-e311-94343ddc34dd" childId="25388210-d54c-2746-788e-132f71d6837b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </profile>
         <profile id="8fcda215-daa9-b892-be1b-08308a161ed4" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Serissu" hidden="false">
@@ -5457,7 +5481,7 @@
       <profiles>
         <profile id="671b4b38-0a30-8018-f40c-f9fb1551d5de" profileTypeId="332e30315469746c6523232344415441232323" name="&quot;Heavy Scyk&quot; Interceptor" hidden="false">
           <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [cannon], [torpedoes], or [missiles] upgrade icon."/>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="Your upgrade bar gains the [cannon], [torpedoes], or [missiles] upgrade icon. Increase your hull value by 1."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5874,7 +5898,7 @@
         </profile>
         <profile id="ba6c-f375-2639-505a" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" name="Cluster Mine Token" hidden="false">
           <characteristics>
-            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers all damage [hit] rolled. Then discard that token."/>
+            <characteristic characteristicId="426f6d62204162696c69747923232344415441232323" name="Bomb Token Rules" value="When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers 1 damage for each [hit] and [critical] rolled. Then discard that token."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -8538,9 +8562,6 @@
           <modifiers/>
         </link>
         <link id="0d50-e718-b178-d882" targetId="902fcba1-2970-3b30-3c94-c5bb1a685255" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4fd7-8f5c-0216-b7c9" targetId="fbc4087c-0f01-b1bb-5c2b-8682b5f94583" linkType="entry">
           <modifiers/>
         </link>
         <link id="1adb-a8c0-08c1-9bb2" targetId="44885fcb-d589-1ecd-1bf0-03155d9fb868" linkType="entry">
