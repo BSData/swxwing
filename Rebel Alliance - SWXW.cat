@@ -13556,6 +13556,44 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="497b-20db-4d43-12ee" name="Hyperwave Comm Scanner†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7152-e4ff-9ca9-a571" profileTypeId="c9e2-1064-13c6-2ead" name="Hyperwave Comm Scanner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="At the start of the &quot;Place Forces&quot; step, you may choose to treat your pilot skill value as &quot;0,&quot; &quot;6,&quot; or &quot;12&quot; until the end of the step. During setup, after another friendly ship is placed at Range 1-2, you may assign 1 focus or evade token to it."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4868-6d36-c7e5-76ca" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="31ca-9e7a-8d55-21f1" name="Targeting Synchronizer†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f9af-0b5f-776e-0acf" profileTypeId="c9e2-1064-13c6-2ead" name="Targeting Synchronizer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="11fa-44a2-d6a1-9b41" name="Tech Ability" value="When a friendly ship at Range 1-2 is attacking a ship you have locked, the friendly ship treats the &quot;Attack (target lock):&quot; header as &quot;Attack:.&quot; If a game effect instructs that ship to spend a target lock, it may spend your target lock instead."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c9b6-bb93-715b-e033" targetId="1c7dc41e-39b2-d792-2521-2bf7ae33c548" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -15088,6 +15126,12 @@
           <modifiers/>
         </link>
         <link id="3a0a-fbe9-9bb2-af3b" targetId="2c1b-7cc4-9c8a-db15" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="55f4-0d8e-f8cc-ed49" targetId="497b-20db-4d43-12ee" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3cd4-0938-8f53-ce9b" targetId="31ca-9e7a-8d55-21f1" linkType="entry">
           <modifiers/>
         </link>
       </links>
