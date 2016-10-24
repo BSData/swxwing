@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="110" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" revision="111" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ff946625-0dfa-e5da-b14d-c7ac009481b8" name="PS 1 - Academy Pilot" points="12.0" categoryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -817,7 +817,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8ff1-3f1d-4d8a-4c9e" name="PS 2 - Starkiller Pilot††" points="30.0" categoryId="c93c-fc23-e9c0-906c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="8ff1-3f1d-4d8a-4c9e" name="PS 2 - Starkiller Base Pilot†" points="30.0" categoryId="c93c-fc23-e9c0-906c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="a093-05f0-ea59-519d" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -834,7 +834,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0714-0562-8062-c85c" profileTypeId="31536869707323232344415441232323" name="Starkiller Pilot" hidden="false">
+        <profile id="0714-0562-8062-c85c" profileTypeId="31536869707323232344415441232323" name="Starkiller Base Pilot" hidden="false">
           <characteristics>
             <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="2"/>
             <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="4"/>
@@ -878,7 +878,7 @@
         <link id="bc6d-cfee-5e80-5ca8" targetId="06d3bc6f-f628-f8da-9314-25311f315d23" linkType="rule">
           <modifiers/>
         </link>
-        <link id="eb46-2c7d-2504-2da6" targetId="6d24-8b4c-8a17-f424" linkType="profile">
+        <link id="eb46-2c7d-2504-2da6" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
         <link id="0ae3-d6dc-dc45-561b" targetId="4a8b-1658-d981-8f50" linkType="profile">
@@ -1853,7 +1853,7 @@
         </link>
       </links>
     </entry>
-    <entry id="6d9f-2fec-f69a-e940" name="PS 3 - •Lieutenant Dornitz††" points="31.0" categoryId="c93c-fc23-e9c0-906c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="6d9f-2fec-f69a-e940" name="PS 3 - •Lieutenant Dormitz†" points="31.0" categoryId="c93c-fc23-e9c0-906c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="31ca-f057-3afc-5d4d" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1870,7 +1870,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="1076-97ab-3272-56c7" profileTypeId="31536869707323232344415441232323" name="•Lieutenant Dornitz" hidden="false">
+        <profile id="1076-97ab-3272-56c7" profileTypeId="31536869707323232344415441232323" name="•Lieutenant Dormitz" hidden="false">
           <characteristics>
             <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="3"/>
             <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="4"/>
@@ -1900,9 +1900,9 @@
             </modifier>
           </modifiers>
         </profile>
-        <profile id="9131-1ec0-9208-4dd3" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Lieutenant Dornitz" hidden="false">
+        <profile id="9131-1ec0-9208-4dd3" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Lieutenant Dormitz" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="During setup, friendly ships may be placed anywhere in the play area at Range 1-2 of you."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1923,7 +1923,7 @@
         <link id="6dc9-5827-33db-0fd5" targetId="4a8b-1658-d981-8f50" linkType="profile">
           <modifiers/>
         </link>
-        <link id="7a89-efc4-1d7c-36d0" targetId="6d24-8b4c-8a17-f424" linkType="profile">
+        <link id="7a89-efc4-1d7c-36d0" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
         <link id="8b00-019a-a00f-d04b" targetId="7743-1910-693f-2dc1" linkType="entry group">
@@ -3596,7 +3596,7 @@
         </link>
       </links>
     </entry>
-    <entry id="1877-30e4-317c-728b" name="PS 4 - •Major Pilot††" points="32.0" categoryId="c93c-fc23-e9c0-906c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="1877-30e4-317c-728b" name="PS 4 - •Major Stridan†" points="32.0" categoryId="c93c-fc23-e9c0-906c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="d87c-575c-0f64-0fe2" name="Title" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3613,7 +3613,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="f20e-2577-72fd-e91e" profileTypeId="31536869707323232344415441232323" name="•Major Pilot" hidden="false">
+        <profile id="f20e-2577-72fd-e91e" profileTypeId="31536869707323232344415441232323" name="•Major Stridan" hidden="false">
           <characteristics>
             <characteristic characteristicId="50696c6f7420536b696c6c23232344415441232323" name="Pilot Skill" value="4"/>
             <characteristic characteristicId="5072696d61727920576561706f6e23232344415441232323" name="Primary Weapon" value="4"/>
@@ -3643,9 +3643,9 @@
             </modifier>
           </modifiers>
         </profile>
-        <profile id="d6a3-c1f2-7c12-778f" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Major Pilot" hidden="false">
+        <profile id="d6a3-c1f2-7c12-778f" profileTypeId="3250696c6f74204162696c69747923232344415441232323" name="Major Stridan" hidden="false">
           <characteristics>
-            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="50696c6f74204162696c69747923232344415441232323" name="Pilot Ability" value="For the purpose of your actions and Upgrade cards, you may treat friendly ships at Range 2-3 as being at Range 1."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3663,7 +3663,7 @@
         <link id="0715-2a2c-c455-832a" targetId="7743-1910-693f-2dc1" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="2561-f13a-7dc2-b8ab" targetId="6d24-8b4c-8a17-f424" linkType="profile">
+        <link id="2561-f13a-7dc2-b8ab" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
         <link id="baf5-a27d-1fb6-85e3" targetId="4a8b-1658-d981-8f50" linkType="profile">
