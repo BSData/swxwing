@@ -11337,7 +11337,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="c753-8bc3-6299-b77b" name="•General Hux††" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="c753-8bc3-6299-b77b" name="•General Hux†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -11345,13 +11345,19 @@
       <profiles>
         <profile id="7ab7-511c-ae1a-7d0c" profileTypeId="332e30334372657723232344415441232323" name="General Hux" hidden="false">
           <characteristics>
-            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="[Placeholder]"/>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="Action: Choose up to 3 friendly ships at Range 1-2. Assign 1 focus token to each of those ships and assign the &quot;Fanatical Devotion&quot; Condition card to 1 of them. Then receive 1 stress token."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="0ebe-505c-254d-327c" profileTypeId="0874-76fd-36c4-9cd1" name="•Fanatical Devotion" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="80e5-3743-2c52-c7eb" name="Condition Text" value="When defending, you cannot spend focus tokens. When attacking, if you spend a focus token to change all [focus] results to [hit] results, set aside the first [focus] result that you change. The set-aside [hit] result cannot be canceled by defense dice, but the defender may cancel [critical] results before it. During the End phase, remove this card."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="9900-d56f-aada-4a00" targetId="6d24-8b4c-8a17-f424" linkType="profile">
+        <link id="9900-d56f-aada-4a00" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -11411,7 +11417,7 @@
       <profiles>
         <profile id="dfd5-7010-c6e7-02ed" profileTypeId="332e30315469746c6523232344415441232323" name="Kylo Ren&apos;s Shuttle" hidden="false">
           <characteristics>
-            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="At the end of the Combat phase, choose an unstressed enemy ship at Range 1-2. The owner must assign a stress token to it or assign a stress token to another ship at Range 1-2 of you that that player controls."/>
+            <characteristic characteristicId="5469746c65204162696c69747923232344415441232323" name="Title Ability" value="At the end of the Combat phase, choose an unstressed enemy ship at Range 1-2. Its owner must assign a stress token to it or assign a stress token to another ship at Range 1-2 of you that that player controls."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -12146,9 +12152,6 @@
           <modifiers/>
         </link>
         <link id="cc4d-1bf9-c8ec-518e" targetId="9d5e-09ce-c09a-b0dc" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ace2-2ac6-0736-3ff1" targetId="c753-8bc3-6299-b77b" linkType="entry">
           <modifiers/>
         </link>
       </links>
