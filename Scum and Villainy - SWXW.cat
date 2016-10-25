@@ -8148,6 +8148,25 @@
         </link>
       </links>
     </entry>
+    <entry id="8f53-2894-7225-2b42" name="Operations Specialist†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1480-dadf-e23b-7f53" profileTypeId="332e30334372657723232344415441232323" name="Operations Specialist" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After a friendly ship at Range 1-2 performs an attack that does not hit, you may assign 1 focus token to a friendly ship at Range 1-3 of the attacker."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fbb5-b4e0-97eb-10ce" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8347,6 +8366,9 @@
         <link id="4387-020e-4da6-a76d" targetId="dff8-aff0-f80d-e2c0" linkType="entry">
           <modifiers/>
         </link>
+        <link id="a87f-f846-ad23-a4c5" targetId="8f53-2894-7225-2b42" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="eec0-c689-de97-3665" name="Crew" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8427,6 +8449,9 @@
           <modifiers/>
         </link>
         <link id="6e6e-bb59-01cd-3e45" targetId="dff8-aff0-f80d-e2c0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a85e-c047-e0a1-b6e6" targetId="8f53-2894-7225-2b42" linkType="entry">
           <modifiers/>
         </link>
       </links>

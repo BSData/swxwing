@@ -11688,6 +11688,25 @@
         </link>
       </links>
     </entry>
+    <entry id="cb36-60ed-5777-c163" name="Operations Specialist†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a046-b412-8dd5-389d" profileTypeId="332e30334372657723232344415441232323" name="Operations Specialist" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="43726577204162696c69747923232344415441232323" name="Crew Ability" value="After a friendly ship at Range 1-2 performs an attack that does not hit, you may assign 1 focus token to a friendly ship at Range 1-3 of the attacker."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0f68-1bde-d200-6533" targetId="9a3d7f50-4251-5f24-16d4-9b6f93ff3151" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11909,6 +11928,9 @@
         <link id="5f49-8481-742e-070a" targetId="c753-8bc3-6299-b77b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="d708-8673-9afd-25b0" targetId="cb36-60ed-5777-c163" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="6701e928-8f3d-9408-032c-fab510f88032" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -12010,6 +12032,9 @@
         <link id="2e47-abea-d86f-879e" targetId="c753-8bc3-6299-b77b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3a40-5f25-24a7-b8c7" targetId="cb36-60ed-5777-c163" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="656a-480d-3a20-3c92" name="Crew" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -12083,6 +12108,9 @@
         <link id="239c-786a-76b0-c6cc" targetId="c753-8bc3-6299-b77b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="90ff-b7f4-95c2-b86d" targetId="cb36-60ed-5777-c163" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="b8d9-26c5-3bcf-798d" name="Crew" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
@@ -12152,6 +12180,9 @@
           <modifiers/>
         </link>
         <link id="cc4d-1bf9-c8ec-518e" targetId="9d5e-09ce-c09a-b0dc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3419-fe71-a312-99c1" targetId="cb36-60ed-5777-c163" linkType="entry">
           <modifiers/>
         </link>
       </links>
