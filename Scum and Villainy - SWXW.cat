@@ -5850,7 +5850,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="c34a-83ac-3d5c-4e27" name="Burnout SLAM†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c34a-83ac-3d5c-4e27" name="Burnout SLAM" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5863,11 +5863,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="35b7-dc35-4dac-da58" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="44f7-7c8e-4426-1a14" name="Calculation" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -6917,7 +6913,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="ae68-1568-bea2-e27a" name="Pattern Analyzer†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ae68-1568-bea2-e27a" name="Pattern Analyzer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -6930,11 +6926,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="60de-35b0-0513-f44f" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="13a9-4a5b-5690-1348" name="Plasma Torpedoes" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -6973,7 +6965,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="0a09-43d6-925a-fc56" name="Primed Thrusters†" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0a09-43d6-925a-fc56" name="Primed Thrusters" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -6986,11 +6978,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="6d14-b6b8-4cb4-81ef" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="78a5a605-fc92-ada5-a8a1-ba214b4ec650" name="Proton Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -7279,7 +7267,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="3e55-af58-24d0-4e8c" name="Snap Shot†" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3e55-af58-24d0-4e8c" name="Snap Shot" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -7299,11 +7287,7 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="3599-d47b-e9b6-2366" targetId="6ed03b51-4aa8-5f6d-4a46-353b3ff1108e" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="3cc260b8-76dc-9e4c-b6b2-f5f1b0105c3a" name="Stay on Target" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
