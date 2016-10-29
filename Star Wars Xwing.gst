@@ -610,7 +610,353 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="e6a6-a674-0a04-1921" name="&quot;Hot Shot&quot; Blaster" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a52e-c0a9-3568-43ca" name="&quot;Hot Shot&quot; Blaster" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="Attack: Discard this card to attack 1 ship (even a ship outside your firing arc)."/>
+          </characteristics>
+        </profile>
+        <profile id="cf84-9109-56cb-24d1" name="&quot;Hot Shot&quot; Blaster" hidden="false" profileTypeId="2de957fe-85ec-5e2d-3a50-87cba297a282" profileTypeName="4.1 Illicit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="081eaf8b-1fdf-5a05-ed94-61f173c64f14" value="1-2"/>
+            <characteristic name="Attack Value" characteristicTypeId="8085a6bb-b10e-8c8a-62e1-6e9d9e027977" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4082-b3f8-1fd6-7146" name="Black Market Slicer Tools" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="4ae5-05fe-ae95-08be" name="Black Market Slicer Tools" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="Action: Choose a stressed enemy ship at Range 1-2 and roll 1 attack die. On a [hit] or [critical] result, remove 1 stress token and deal it 1 facedown Damage card."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a242-6805-7b5a-621c" name="Burnout SLAM" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0e2c-5ec3-dfc1-1ab7" name="Burnout SLAM" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="Your action bar gains the [SLAM] action icon. After you perform a SLAM action, discard this card."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0b9b-59c5-fa3a-8d47" name="New InfoLink" hidden="false" targetId="6ea0-c204-b900-082c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="075d-5765-2579-f654" name="Dead Man&apos;s Switch" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a477-9910-a653-aa6f" name="Dead Man&apos;s Switch" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="When you are destroyed, each ship at Range 1 suffers 1 damage."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4410-dd3c-228e-2f4a" name="Feedback Array" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="dbf8-5c4a-8605-f1fe" name="Feedback Array" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="During the Combat phase, instead of performing any attacks, you may receive 1 ion token and suffer 1 damage to choose 1 enemy ship at Range 1. That ship suffers 1 damage."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1795-8cf6-412e-c0b9" name="Glitterstim" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7556-0809-0ef8-baa4" name="Glitterstim" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="At the start of the Combat phase, you may discard this card and receive 1 stress token. If you do, until the end of the round, when attacking or defending, you may change all of your [focus] results to [hit] or [evade] results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04b3-c043-de26-46b7" name="Inertial Dampeners" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0ed8-de53-e63d-d709" name="Inertial Dampeners" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="When you reveal your maneuver, you may discard this card to instead perform a white [stationary 0] maneuver. Then receive 1 stress token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a6f-90ea-0fce-e32d" name="Rigged Cargo Chute" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="01b9-e0e4-85ef-0637" name="Rigged Cargo Chute" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="Action: Discard this card to drop one cargo token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0dc0-6949-c0d8-8e1a" name="•Cloaking Device" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c219-b525-82b7-de6b" name="Cloaking Device" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="Action: Perform a free cloak action. At the end of each round, if you are cloaked, roll 1 attack die. On a [focus] result, discard this card, then decloak or discard your cloak token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a664-f193-dd8c-ba92" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f63c-c3b2-55d1-1749" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54b6-60a7-c277-fdb4" name="•EMP Device†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="488f-856c-52e9-3c3b" name="EMP Device" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="During the Combat phase, instead of performing any attacks, you may discard this card to assign 2 ion tokens to each ship at Range 1."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fb9d-6a90-e179-b50c" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e77a-fbfa-1fae-c923" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f948-851b-27d6-28b4" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8e1f-eb69-0949-59bd" name="Hull Upgrade" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3b61-3358-cc08-94eb" name="Hull Upgrade" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Increase your hull value by 1."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d668-5a60-8d02-eb85" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db18-cc90-f881-1d6a" name="Shield Upgrade" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7633-31ba-32f1-c019" name="Shield Upgrade" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Increase your shield value by 1."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a3a-e92c-b736-51f2" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4488-a9a0-7667-6e48" name="Stealth Device" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6c49-9823-452b-85c6" name="Stealth Device" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Increase your agility value by 1. If you are hit by an attack, discard this card."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c5f5-31f3-89f9-3cf0" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
     <rule id="7687-c4cb-f193-208b" name="Barrel Roll" hidden="false">
@@ -686,5 +1032,15 @@
       <modifiers/>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="6954-0852-e033-4b16" name="† - Unreleased" hidden="false" profileTypeId="a285251b-01f4-7499-3b4d-39a062b4d963" profileTypeName="9.9 Symbol">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Symbol Key" characteristicTypeId="7ba819ca-effa-8c45-5542-10f769608bbc" value="Cards marked with a dagger symbol (†) have not been officially released by Fantasy Flight Games. This information is based on official Fantasy Flight preview articles or early releases of product at tournaments or conventions. Cards maked with the dagger symbol may not have their final official text, are subject to change, and are generally not legal for tournament play."/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </gameSystem>
