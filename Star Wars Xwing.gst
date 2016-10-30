@@ -904,6 +904,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db18-cc90-f881-1d6a" name="Shield Upgrade" hidden="false" collective="false" type="upgrade">
@@ -929,6 +930,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4488-a9a0-7667-6e48" name="Stealth Device" hidden="false" collective="false" type="upgrade">
@@ -954,6 +956,418 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec0f-dffa-d584-d8f7" name="Advanced SLAM" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2e11-7899-9853-9b44" name="Advanced SLAM" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="After performing a SLAM action, if you did not overlap an obstacle or another ship, you may perform a free action."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="159d-5afc-c584-51c5" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5017-4145-06a8-f8db" name="Anti-Pursuit Lasers" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a173-bd8c-4218-9902" name="Anti-Pursuit Lasers" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a [hit] or [critical hit] result, the enemy ship suffers 1 damage."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f92-007e-db22-e10b" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0eb5-83a4-f231-dd04" name="Autothrusters" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6a07-d60e-9cb9-465e" name="Autothrusters" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="When defending, if you are inside the attacker&apos;s firing arc beyond Range 2 or outside the attacker&apos;s firing arc, you may change 1 of your blank results to a [evade] result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be47-7918-f231-4afa" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="582c-1a8a-fa2a-4058" name="Countermeasures" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6d2d-1c40-ca39-263e" name="Countermeasures" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round. Then you may remove 1 enemy target lock from your ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4db4-9123-d644-6ead" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6835-6741-2f8c-04c1" name="Engine Upgrade" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="cada-93e2-cbcb-0ff2" name="Engine Upgrade" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Your action bar gains the [boost] action icon."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0b6b-ae45-b739-5694" name="" hidden="false" targetId="39de-c655-7685-978f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6734-078d-ebc4-7f08" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abbf-e6d7-12a6-c1c5" name="Guidance Chips" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7810-697c-4216-d617" name="Guidance Chips" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Once per round, when attacking with a [torpedoes] or [missiles] secondary weapon, you may change 1 die result to a [hit] result (or a [critical] result if your primary weapon value is &quot;3&quot; or higher)."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ee4-f84d-dc47-ab36" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+        <cost name=" Points" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52e0-1f0d-f486-638a" name="Ion Projector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="96b4-e4ef-4f06-5c2a" name="Ion Projector" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a [hit] or [critical hit] result, the enemy ship receives 1 ion token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a08f-bd1d-8fe0-afc2" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64b4-a094-ee86-ed32" name="Long-Range Scanners" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="05fc-888b-34bd-8746" name="Long-Range Scanners" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="You can acquire target locks on ships at Range 3 and beyond. You cannot acquire target locks on ships at Range 1-2."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b928-ec73-093a-430f" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+        <cost name=" Points" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4a9-c9e5-f92b-e844" name="Munitions Failsafe" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="76aa-18e4-4bd0-92e7" name="Munitions Failsafe" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e52-8bd8-f20b-7ddf" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6795-6a56-d9fe-3339" name="Stygium Particle Accelerator" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e3a9-5acb-8b08-984a" name="Stygium Particle Accelerator" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="When you either decloak or perform a cloak action, you may perform a free evade action."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f602-6e9c-d602-342e" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b13c-3ffe-c575-49bc" name="Tactical Jammer" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ff11-6a4c-6e90-520b" name="Tactical Jammer" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Your ship can obstruct enemy attacks."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="19a1-e9a8-c122-c318" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6704-314c-58b9-45ab" name="Targeting Computer" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8658-8198-6b89-d3ec" name="Targeting Computer" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Your action bar gains the [target lock] icon."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ef4b-14d8-4aa5-51ee" name="New InfoLink" hidden="false" targetId="faa6-411c-27d0-85f8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d75d-5235-ca0a-10d3" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1cea-76e8-74ff-211b" name="•Experimental Interface" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="56d9-01c1-f89f-3df2" name="•Experimental Interface" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the &quot;Action:&quot; header. Then receive 1 stress token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78fb-c077-d9df-b768" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f883-7dc8-d810-87ac" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5420-d6e9-e9b0-18d2" name="Vectored Thrusters" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="51a1-593c-a828-2000" name="Vectored Thrusters" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Your action bar gains the [barrel roll] action icon."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e986-93bb-c4db-bef5" name="New InfoLink" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2ada-20dd-a21e-70aa" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a0f-4bbd-78f9-aa13" name="Twin Ion Engine Mk. II" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="91ab-e01b-c0fc-d575" name="Twin Ion Engine Mk. II" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="You may treat all bank maneuvers ([left bank] or [right bank]) as green maneuvers."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d78-d431-fb33-c523" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
