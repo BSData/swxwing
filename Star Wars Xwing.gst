@@ -1287,7 +1287,7 @@
     </selectionEntry>
     <selectionEntry id="1cea-76e8-74ff-211b" name="•Experimental Interface" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="56d9-01c1-f89f-3df2" name="•Experimental Interface" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+        <profile id="56d9-01c1-f89f-3df2" name="Experimental Interface" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1368,7 +1368,136 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="d71f-9aa7-9a59-d299" name="•Slave 1" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5f35-e479-eeba-fab9" name="Slave 1" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Title Ability" characteristicTypeId="5469746c65204162696c69747923232344415441232323" value="Your upgrade bar gains the [torpedoes] upgrade icon."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad14-df26-8a25-3108" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d48-aa3d-343f-4c29" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="fc7e-e9e9-9aad-885f" name="•Andrasta" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ac42-ccde-f653-2dd1" name="Andrasta" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Title Ability" characteristicTypeId="5469746c65204162696c69747923232344415441232323" value="Your upgrade bar gains two additional [bomb] upgrade icons."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="df1e-c957-0fd5-2e93" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="307d-c9f8-2ebf-77cf" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="8ffb-2776-ce81-a98d" name="Adaptability" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0ccd-163c-8ea0-0148" name="Adaptability" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Dual card. Increase your pilot skill value by 1."/>
+          </characteristics>
+        </profile>
+        <profile id="4a10-1718-867e-45ef" name="Adaptability " hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Dual card. Decrease your pilot skill value by 1."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a03f-75f7-1137-3d76" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5eb0-6c5c-1829-305a" name="Veteran Instincts" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0df9-0b64-f9bf-9720" name="Veteran Instincts" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Increase your pilot skill value by 2."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b21-c659-1205-77c8" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a624-cc75-1d8b-3de5" name="Bomb Loadout" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c2dc-7fa9-6200-c1f4" name="Bomb Loadout" hidden="false" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" profileTypeName="5.2 Torpedoes Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Torpedoes Ability" characteristicTypeId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" value="Your upgrade bar gains the [bomb] icon."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b2c4-323c-0ccf-cc22" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
