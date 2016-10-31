@@ -2683,6 +2683,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de26-b057-b829-9577" name="Hyperwave Comm Scanner†" hidden="false" collective="false" type="upgrade">
@@ -2713,6 +2714,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8271-165b-a099-e446" name="Pattern Analyzer" hidden="false" collective="false" type="upgrade">
@@ -2736,6 +2738,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea7b-a1fb-0717-8e7e" name="Primed Thrusters" hidden="false" collective="false" type="upgrade">
@@ -2759,6 +2762,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="49cf-e23d-63c5-3ed6" name="Sensor Cluster" hidden="false" collective="false" type="upgrade">
@@ -2782,6 +2786,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d67d-cfaa-5c9f-1d0e" name="Targeting Synchronizer†" hidden="false" collective="false" type="upgrade">
@@ -2812,6 +2817,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b18d-8e56-81a8-ba5a" name="Weapons Guidance" hidden="false" collective="false" type="upgrade">
@@ -2835,6 +2841,238 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="188e-d9d3-f493-48ef" name="BTL-A4 Y-Wing" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2b1e-8f04-7eee-714a" name="BTL-A4 Y-Wing" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Title Ability" characteristicTypeId="5469746c65204162696c69747923232344415441232323" value="You cannot attack ships outside your firing arc. After you perform a primary weapon attack, you may immediately perform an attack with a [turret] secondary weapon."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a99-197e-1bd9-2cf3" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="537a-b639-ae9b-2ca5" name="•Moldy Crow" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="bca5-243e-9188-0295" name="Moldy Crow" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Title Ability" characteristicTypeId="5469746c65204162696c69747923232344415441232323" value="During the End phase, do not remove unused focus tokens from your ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f0e5-8348-0ae3-66dd" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9209-35b6-a4c4-4530" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2736-377b-82bd-9f16" name="Accuracy Corrector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="10f2-7e26-7278-877a" name="Accuracy Corrector" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="When attacking, during the &quot;Modify Attack Dice&quot; step, you may cancel all of your dice results. Then, you may add 2 [hit] results to your roll. Your dice cannot be modified again during this attack."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df5c-ee66-795f-16cf" name="Advanced Sensors" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6a7b-ed4b-4362-e8dc" name="Advanced Sensors" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your &quot;Perform Action&quot; step during this round."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41d0-d5c2-a52d-1e76" name="Collision Detector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0277-43c1-2776-4650" name="Collision Detector" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="When performing a boost, barrel roll, or decloak, your ship and maneuver template can overlap obstacles. When rolling for obstacle damage, ignore all [critical] results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="84d6-050c-d2d2-dd83" name="Electronic Baffle" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0c49-f760-7e8e-c5c8" name="Electronic Baffle" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="When you receive a stress token or an ion token, you may suffer 1 damage to discard that token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b717-d9bf-83d9-939b" name="Enhanced Scopes" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8f8a-ccff-2428-d78d" name="Enhanced Scopes" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="During the Activation phase, treat your pilot skill value as &quot;0.&quot;"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d20b-6401-9ad6-1ac4" name="Fire-Control System" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2612-3f64-a671-faf5" name="Fire-Control System" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="After you perform an attack, you may acquire a target lock on the defender."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b2e9-2013-0a63-e48a" name="Reinforced Deflectors" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="93a8-916c-d60a-4e03" name="Reinforced Deflectors" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="After defending, if you suffered a combination of 3 or more damage and critical damage during the attack, recover 1 shield (up to your shield value)."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a01-0bc8-1eb9-f4d4" name="Sensor Jammer" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6374-144e-cf4b-8d59" name="Sensor Jammer" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="When defending, you may change 1 of the attacker&apos;s [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
