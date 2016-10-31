@@ -2332,6 +2332,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d540-39c6-0c39-16c1" name="Flight Instructor" hidden="false" collective="false" type="upgrade">
@@ -2355,6 +2356,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5aab-1e26-f911-ab11" name="Gunner" hidden="false" collective="false" type="upgrade">
@@ -2378,6 +2380,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="313a-ad2b-e4b7-ea25" name="Hotshot Co-pilot" hidden="false" collective="false" type="upgrade">
@@ -2401,6 +2404,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="429a-9722-450a-a748" name="Intelligence Agent" hidden="false" collective="false" type="upgrade">
@@ -2424,6 +2428,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="070a-449f-15a1-cf07" name="Mercenary Copilot" hidden="false" collective="false" type="upgrade">
@@ -2447,6 +2452,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f2b-3a0e-792a-c828" name="Navigator" hidden="false" collective="false" type="upgrade">
@@ -2470,6 +2476,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f5dd-6bc2-892e-625c" name="Operations Specialist†" hidden="false" collective="false" type="upgrade">
@@ -2502,6 +2509,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e463-0300-b25c-5a88" name="Recon Specialist" hidden="false" collective="false" type="upgrade">
@@ -2525,6 +2533,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="735f-d907-d5b7-e113" name="Saboteur" hidden="false" collective="false" type="upgrade">
@@ -2548,6 +2557,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4423-c3f5-7843-8069" name="Tactician" hidden="false" collective="false" type="upgrade">
@@ -2573,6 +2583,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="39e5-79e2-217a-b378" name="Tail Gunner" hidden="false" collective="false" type="upgrade">
@@ -2598,6 +2609,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1cf9-04d0-0b43-9a7d" name="Targeting Coordinator" hidden="false" collective="false" type="upgrade">
@@ -2623,6 +2635,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a55-15af-83a2-e36f" name="Weapons Engineer" hidden="false" collective="false" type="upgrade">
@@ -2646,6 +2659,182 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fa02-916b-5526-71e6" name="Comm Relay" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2033-f3a8-a446-a3b6" name="Comm Relay" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Tech Ability" characteristicTypeId="11fa-44a2-d6a1-9b41" value="You cannot have more than 1 evade token. During the End phase, do not remove an unused evade token from your ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de26-b057-b829-9577" name="Hyperwave Comm Scanner†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f632-db74-d886-654b" name="Hyperwave Comm Scanner" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Tech Ability" characteristicTypeId="11fa-44a2-d6a1-9b41" value="At the start of the &quot;Place Forces&quot; step, you may choose to treat your pilot skill value as &quot;0,&quot; &quot;6,&quot; or &quot;12&quot; until the end of the step. During setup, after another friendly ship is placed at Range 1-2, you may assign 1 focus or evade token to it."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="28e4-6f40-51f3-4566" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8271-165b-a099-e446" name="Pattern Analyzer" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1e37-8da5-0ddc-50e2" name="Pattern Analyzer" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Tech Ability" characteristicTypeId="11fa-44a2-d6a1-9b41" value="When executing a maneuver, you may resolve the &quot;Check Pilot Stress&quot; step after the &quot;Perform Action&quot; step (instead of before that step)."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea7b-a1fb-0717-8e7e" name="Primed Thrusters" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7105-d8e4-51b7-758a" name="Primed Thrusters" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Tech Ability" characteristicTypeId="11fa-44a2-d6a1-9b41" value="Stress tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="49cf-e23d-63c5-3ed6" name="Sensor Cluster" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="fda0-2363-aff8-3c2f" name="Sensor Cluster" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Tech Ability" characteristicTypeId="11fa-44a2-d6a1-9b41" value="When defending, you may spend a focus token to change 1 of your blank results to an [evade] result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d67d-cfaa-5c9f-1d0e" name="Targeting Synchronizer†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="17dd-99c2-5dc3-6a7d" name="Targeting Synchronizer" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Tech Ability" characteristicTypeId="11fa-44a2-d6a1-9b41" value="When a friendly ship at Range 1-2 is attacking a ship you have locked, the friendly ship treats the &quot;Attack (target lock):&quot; header as &quot;Attack:.&quot; If a game effect instructs that ship to spend a target lock, it may spend your target lock instead."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3738-73b3-938c-aaee" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b18d-8e56-81a8-ba5a" name="Weapons Guidance" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5888-34e6-817f-e69a" name="Weapons Guidance" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Tech Ability" characteristicTypeId="11fa-44a2-d6a1-9b41" value="When attacking, you may spend a focus token to change 1 of your blank results to a [hit] result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
