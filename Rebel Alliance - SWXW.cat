@@ -15166,32 +15166,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7822-267d-43f2-95c1" name="Adrenaline Rush" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="c815-6ad2-05e4-fc3d" name="Adrenaline Rush" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="8611-726b-934c-f83b" name="Adv. Homing Missiles" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="c036-cda2-5631-97fb" name="Adv. Homing Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
@@ -15575,32 +15549,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7805-6177-0e3e-1999" name="Calculation" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="c398-727e-399c-e09e" name="Calculation" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking, you may spend a focus token to change 1 of your [focus] results to a [critical] result."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" name="Chardaan Refit" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="d193187b-0283-842e-0aa7-359467e791b7" name="Chardaan Refit" page="0" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
@@ -15912,162 +15860,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="536a-22cf-4a9d-c678" name="Cool Hand" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="e871-cb45-4884-0bdd" name="Cool Hand" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When you receive a stress token, you may discard this card to assign 1 focus or evade token to your ship."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bbaa-037a-1a70-2b1c" name="Crack Shot" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="63aa-d850-8b03-c331" name="Crack Shot" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking a ship inside your firing arc, at the start of the &apos;Compare Results&apos; step, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="92e5-401c-ad27-a8aa" name="Daredevil" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="9842-4c6d-6f1e-feb6" name="Daredevil" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Action: Execute a white [left turn 1] or [right turn 1] maneuver. Then, receive one stress token. Then, if you do not have the Boost action icon, roll 2 attack dice. Suffer any damage [hit] and critical damage [critical] rolled."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2169-6875-574e-7bef" name="Deadeye" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="2514-c6f6-dffc-d5c7" name="Deadeye" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="You may treat the &quot;Attack (target lock):&quot; header as &quot;Attack (focus):.&quot;  When an attack instructs you to spend a target lock, you may spend a focus token instead."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="591d-333f-e9ad-7fc9" name="Decoy" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="8d5c-b75c-ba6c-4dae" name="Decoy" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2. Exchange your pilot skill with that ship&apos;s pilot skill until the end of the phase."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1c1b-9ea7-3fa1-af75" name="Determination" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="142d-369c-e22c-3c76" name="Determination" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When you are dealt a faceup Damage card with the Pilot trait, discard it immediately without resolving its effect."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="1770-ca39-0f72-e0e1" name="Dorsal Turret" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="8111-60db-b87f-a1be" name="Dorsal Turret " hidden="false" profileTypeId="375475727265747323232344415441232323">
@@ -16102,32 +15894,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="246f-698e-7f14-f94e" name="Draw Their Fire" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="ffed-ebbb-2bcf-ee47" name="Draw Their Fire" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncancelled [critical] results instead of the target ship."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5e85-8eb4-f5dd-c43f" name="Electronic Baffle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="e736-ebae-b329-96e5" name="Electronic Baffle" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117">
@@ -16149,32 +15915,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="17dd-5c36-29cc-913a" name="Elusiveness" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="962c-ed29-ee90-fecc" name="Elusiveness" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When defending, you may receive 1 stress token to choose 1 attack die. The attacker must reroll that die. If you have at least 1 stress token, you cannot use this ability."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16304,58 +16044,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="17ee-c766-cc51-9ad6" name="Expert Handling" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="af75-761f-ef11-08cf" name="Expert Handling" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Action: Perform a free barrel roll action. If you do not have the [barrel roll] action icon, receive 1 stress token. You may then remove 1 enemy target lock token from your ship."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bebe-7883-d768-9062" name="Expose" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="e4ba-a5f3-980e-2c11" name="Expose" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Action: Until the end of the round, increase your primary weapon value by 1 and decrease your agility by 1."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="4.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16725,32 +16413,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eac6-2371-ed63-ab4b" name="Intimidation" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="704f-8da6-f358-ab08" name="Intimidation" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="While you are touching an enemy ship, reduce that ship&apos;s agility value by 1."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="c45f-501d-ba00-70b6" name="Ion Bombs" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="dbda-437c-e3b4-aa26" name="Ion Bombs" hidden="false" profileTypeId="39426f6d6223232344415441232323">
@@ -16982,84 +16644,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfef-7900-6387-a7fa" name="Juke" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="8e43-2eff-18d2-122b" name="Juke" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking, if you have an evade token, you may change 1 of the defender&apos;s [evade] results to a [focus] result."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7cda-0c30-be93-2dcc" name="Lightning Reflexes" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="9365-fb8d-2813-29d2" name="Lightning Reflexes" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="After you execute a white or green maneuver on your dial, you may discard this card to rotate your ship 180°. Then receive 1 stress token after the &quot;Check Pilot Stress&quot; step."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="374d-116d-5e24-88a6" name="Marksmanship" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="83d3-2630-2fdb-6ff2" name="Marksmanship" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Action: When attacking this round, you may change 1 of your [focus] results to a [critical] result and all of your other [focus] results to [hit] results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="6d6e04bd-e481-4fe2-9b96-203a17ccfc0c" name="Mercenary Copilot" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="7aeab5a4-0cb0-3af5-1036-1396042928e5" name="Mercenary Copilot" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
@@ -17141,32 +16725,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec4d-a1a9-f6a2-0448" name="Opportunist" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="b6a7-4018-dede-eb77" name="Opportunist" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking, if the defender does not have any focus or evade tokens, you may receive 1 stress token to roll 1 additional attack die. You cannot use this ability if you have any stress tokens."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="4.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="12c1-0499-686d-d9e3" name="Optimized Generators" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="3312-e237-5a1d-7b98" name="Optimized Generators" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323">
@@ -17242,32 +16800,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="abf7-5c89-c07c-c9a5" name="Outmaneuver" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="ee40-cd8b-adac-c42f" name="Outmaneuver" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking a ship inside your firing arc, if you are not inside that ship&apos;s firing arc, reduce its agility value by 1 (to a minimum of 0)."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17363,32 +16895,6 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3d8f-7048-fec5-df85" name="Predator" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="8f02-f2e1-c77b-4764" name="Predator" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking, you may reroll 1 attack die. If the defender&apos;s pilot skill value is &quot;2&quot; or lower, you may instead reroll up to 2 attack dice."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -17555,32 +17061,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d198-f4ab-1c2b-bc2d" name="Push the Limit" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="293c-5167-601e-8cf5" name="Push the Limit" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Once per round, after you perform an action, you may perform 1 free action shown in your action bar. Then receive 1 stress token."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ed17-397e-939f-f8f1" name="Quad Laser Cannons" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="9656-2b44-1003-4202" name="Quad Laser Cannons " hidden="false" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6">
@@ -17709,32 +17189,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="83fa-c2b6-338a-f7d6" name="Rage" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="cf09-d511-052d-4c6f" name="Rage" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Action: Assign 1 focus token to your ship and receive 2 stress tokens. Until the end of the round, when attacking, you may reroll up to 3 attack dice."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -18074,94 +17528,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a6ea-e450-b3bd-1167" name="Snap Shot" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="d0c4-2df0-2a04-eb01" name="Snap Shot" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="After an enemy ship executes a maneuver, you may perform this attack against that ship. Attack: Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."/>
-          </characteristics>
-        </profile>
-        <profile id="7836-5a25-12ba-6949" name="Snap Shot " hidden="false" profileTypeId="8cb6-7ae7-807e-a3ca">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="d7b4-6497-6709-155f" value="1"/>
-            <characteristic name="Attack Value" characteristicTypeId="649a-dc27-6820-5d4e" value="2"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b252-3e9e-6ebb-7fee" name="Stay on Target" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="2f28-ece6-20bc-2446" name="Stay on Target" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat your maneuver as a red maneuver."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f181-7330-94bf-55c2" name="Swarm Tactics" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="7e44-a871-5735-c34a" name="Swarm Tactics" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1. Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="3b1fe974-df4c-3674-2c81-fd5a4cffe9d3" name="Tactician" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="22f75826-1237-1baf-1496-363d94e5d04f" name="Tactician" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
@@ -18495,58 +17861,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d9d-3e83-5363-fd56" name="Wingman" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="6d86-49cd-7cd5-51fe" name="Wingman" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="At the start of the Combat phase, remove 1 stress token from another friendly ship at Range 1."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e6d6-c23f-47bb-2f76" name="Wired" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="2394-de00-2c54-cdfc" name="Wired" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking or defending, if you are stressed, you may reroll 1 or more of your [focus] results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="9f56-aa9a-9b35-4c7d" name="XX-23 S-Thread Tracers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="6bbe-cd91-92be-bd52" name="XX-23 S-Thread Tracers " hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
@@ -18689,49 +18003,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="af30-a7df-67ab-895a" name="•A Score to Settle†" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="28f8-6d2e-66ab-e70d" name="A Score to Settle" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="During setup, before the &quot;Place Forces&quot; step, choose 1 enemy ship and assign the &quot;A Debt to Pay&quot; Condition card to it. When attacking a ship that has the &quot;A Debt to Pay&quot; Condition card, you may change 1 [focus] result to a [critical] result."/>
-          </characteristics>
-        </profile>
-        <profile id="e945-5478-280d-0cef" name="•A Debt to Pay" hidden="true" profileTypeId="0874-76fd-36c4-9cd1">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Condition Text" characteristicTypeId="80e5-3743-2c52-c7eb" value="[Placeholder]"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="f7fb-88c0-7022-d231" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="0.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -19548,33 +18819,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="94d61f6e-0db3-97cf-dcec-fbc31bf3cc13" name="•Lone Wolf" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="7c1d3cc1-9654-69f1-349b-1c1e9673dc7b" name="Lone Wolf" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking or defending, if there are no other friendly ships at Range 1-2, you may reroll 1 of your blank results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="a94857f8-f114-359d-6865-3ea961bd2c06" name="•Luke Skywalker" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="8fcc1ee7-3344-f657-49c3-52ea35c3125d" name="Luke Skywalker" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
@@ -20317,33 +19561,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8faa9d50-2ea2-5800-91b5-de98f9c68ebe" name="•Squad Leader" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="4a3d5d0c-e14b-f670-895d-1bddc80dfed3" name="Squad Leader" page="0" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Action: Choose 1 ship at Range 1-2 that has a lower pilot skill than you. The chosen ship may immediately perform 1 free action."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5697af85-9589-0a68-47f5-0fb82695df78" name="•Tantive IV" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="64a153a5-7ef7-4a09-7298-3108bc9da1a7" name="Tantive IV" page="0" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc">
@@ -20396,32 +19613,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="6.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1c9e-e034-f40e-1098" name="Trick Shot" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="64d4-bde8-4eec-2f89" name="Trick Shot" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking, if the attack is obstructed, you may roll 1 additional attack die."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="0.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -21986,7 +21177,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="4bc63945-675b-dce9-4595-26e545ed582a" hidden="false" targetId="8faa9d50-2ea2-5800-91b5-de98f9c68ebe" type="selectionEntry">
+        <entryLink id="4bc63945-675b-dce9-4595-26e545ed582a" hidden="false" targetId="05c9-4857-567c-2a1d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22000,175 +21191,175 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="8ee3634f-b9d7-26e9-96d0-c2d298dcd6c9" hidden="false" targetId="94d61f6e-0db3-97cf-dcec-fbc31bf3cc13" type="selectionEntry">
+        <entryLink id="8ee3634f-b9d7-26e9-96d0-c2d298dcd6c9" hidden="false" targetId="0214-f83c-7c56-ede2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="959e-167f-299f-d616" hidden="false" targetId="3d9d-3e83-5363-fd56" type="selectionEntry">
+        <entryLink id="959e-167f-299f-d616" hidden="false" targetId="0378-b17f-e6cd-ab83" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="d4fd-ce06-3056-1641" hidden="false" targetId="f181-7330-94bf-55c2" type="selectionEntry">
+        <entryLink id="d4fd-ce06-3056-1641" hidden="false" targetId="70dc-5137-6b37-8072" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="ecaf-5a1c-0bd9-11dd" hidden="false" targetId="b252-3e9e-6ebb-7fee" type="selectionEntry">
+        <entryLink id="ecaf-5a1c-0bd9-11dd" hidden="false" targetId="aeea-cfe9-d5f5-aa26" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="f9cd-75b7-5734-7ccd" hidden="false" targetId="d198-f4ab-1c2b-bc2d" type="selectionEntry">
+        <entryLink id="f9cd-75b7-5734-7ccd" hidden="false" targetId="ca7e-9e94-3e4f-5d46" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="7c17-6d71-4ebb-30cd" hidden="false" targetId="3d8f-7048-fec5-df85" type="selectionEntry">
+        <entryLink id="7c17-6d71-4ebb-30cd" hidden="false" targetId="edbe-8ace-5b00-b8c5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="b35f-eea7-ab2b-59f6" hidden="false" targetId="abf7-5c89-c07c-c9a5" type="selectionEntry">
+        <entryLink id="b35f-eea7-ab2b-59f6" hidden="false" targetId="c39b-dafe-b1ea-e986" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="504f-7c5e-1b4d-2ac3" hidden="false" targetId="ec4d-a1a9-f6a2-0448" type="selectionEntry">
+        <entryLink id="504f-7c5e-1b4d-2ac3" hidden="false" targetId="797a-ed44-ce6b-b533" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="ff3a-0118-a407-6574" hidden="false" targetId="374d-116d-5e24-88a6" type="selectionEntry">
+        <entryLink id="ff3a-0118-a407-6574" hidden="false" targetId="e4c2-5853-6876-e6f8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="6e13-0e51-9072-61a4" hidden="false" targetId="eac6-2371-ed63-ab4b" type="selectionEntry">
+        <entryLink id="6e13-0e51-9072-61a4" hidden="false" targetId="d285-48ea-f144-3284" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="d916-8651-dea0-f465" hidden="false" targetId="bebe-7883-d768-9062" type="selectionEntry">
+        <entryLink id="d916-8651-dea0-f465" hidden="false" targetId="ac29-ba8b-03d4-b81c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="06e3-c10e-c599-fec6" hidden="false" targetId="17ee-c766-cc51-9ad6" type="selectionEntry">
+        <entryLink id="06e3-c10e-c599-fec6" hidden="false" targetId="14f0-ded6-0378-bf8a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="f2e7-e1ae-1ef4-cd6c" hidden="false" targetId="17dd-5c36-29cc-913a" type="selectionEntry">
+        <entryLink id="f2e7-e1ae-1ef4-cd6c" hidden="false" targetId="fdc8-8736-3695-de36" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="5e25-8596-fd96-c2f2" hidden="false" targetId="246f-698e-7f14-f94e" type="selectionEntry">
+        <entryLink id="5e25-8596-fd96-c2f2" hidden="false" targetId="d15a-fb61-517c-1d8f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="a91c-48db-64c7-91e5" hidden="false" targetId="1c1b-9ea7-3fa1-af75" type="selectionEntry">
+        <entryLink id="a91c-48db-64c7-91e5" hidden="false" targetId="f689-059e-4a2c-3f75" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="e7ae-b389-024d-18c2" hidden="false" targetId="591d-333f-e9ad-7fc9" type="selectionEntry">
+        <entryLink id="e7ae-b389-024d-18c2" hidden="false" targetId="4b08-18eb-e527-8441" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="282c-f918-a47f-7e98" hidden="false" targetId="2169-6875-574e-7bef" type="selectionEntry">
+        <entryLink id="282c-f918-a47f-7e98" hidden="false" targetId="cd3b-2621-d44e-4f41" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="a2f1-d46d-4632-a86a" hidden="false" targetId="92e5-401c-ad27-a8aa" type="selectionEntry">
+        <entryLink id="a2f1-d46d-4632-a86a" hidden="false" targetId="5315-d258-ed50-b3d9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="9693-988f-5e66-6983" hidden="false" targetId="7805-6177-0e3e-1999" type="selectionEntry">
+        <entryLink id="9693-988f-5e66-6983" hidden="false" targetId="39f2-56e8-f415-7d36" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="381b-fd98-54ba-c336" hidden="false" targetId="7822-267d-43f2-95c1" type="selectionEntry">
+        <entryLink id="381b-fd98-54ba-c336" hidden="false" targetId="e166-69f5-b11a-baf5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="e86d-e00f-b009-ab28" hidden="false" targetId="7cda-0c30-be93-2dcc" type="selectionEntry">
+        <entryLink id="e86d-e00f-b009-ab28" hidden="false" targetId="c99a-6847-de0d-93d3" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="db60-20a0-5a59-37fa" hidden="false" targetId="bbaa-037a-1a70-2b1c" type="selectionEntry">
+        <entryLink id="db60-20a0-5a59-37fa" hidden="false" targetId="ccc3-eeaa-6341-504d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="443d-bd29-5a79-9879" hidden="false" targetId="e6d6-c23f-47bb-2f76" type="selectionEntry">
+        <entryLink id="443d-bd29-5a79-9879" hidden="false" targetId="f6bc-e692-5e55-f9b8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="1c83-59a5-d772-2a38" hidden="false" targetId="bfef-7900-6387-a7fa" type="selectionEntry">
+        <entryLink id="1c83-59a5-d772-2a38" hidden="false" targetId="d9fb-dbe6-e1dd-623a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="e5a3-f468-8648-1c82" hidden="false" targetId="536a-22cf-4a9d-c678" type="selectionEntry">
+        <entryLink id="e5a3-f468-8648-1c82" hidden="false" targetId="ea75-33f4-3472-17ff" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22182,28 +21373,28 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="75ac-8679-bde5-9224" hidden="false" targetId="83fa-c2b6-338a-f7d6" type="selectionEntry">
+        <entryLink id="75ac-8679-bde5-9224" hidden="false" targetId="aa29-bad4-159d-a8ac" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="50d8-a3b9-5d77-6ccb" hidden="false" targetId="af30-a7df-67ab-895a" type="selectionEntry">
+        <entryLink id="50d8-a3b9-5d77-6ccb" hidden="false" targetId="32c6-5f17-67ef-e224" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="f444-8d1c-509a-46ab" hidden="false" targetId="a6ea-e450-b3bd-1167" type="selectionEntry">
+        <entryLink id="f444-8d1c-509a-46ab" hidden="false" targetId="0156-1c7b-7dbd-bfd6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="1b0f-a26a-f273-8ce1" hidden="false" targetId="1c9e-e034-f40e-1098" type="selectionEntry">
+        <entryLink id="1b0f-a26a-f273-8ce1" hidden="false" targetId="bc2a-443b-b88b-acd0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22223,21 +21414,21 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="31c9-2104-e0d5-6ffc" hidden="false" targetId="3d9d-3e83-5363-fd56" type="selectionEntry">
+        <entryLink id="31c9-2104-e0d5-6ffc" hidden="false" targetId="0378-b17f-e6cd-ab83" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="aa25-e6e5-b6f7-b961" hidden="false" targetId="94d61f6e-0db3-97cf-dcec-fbc31bf3cc13" type="selectionEntry">
+        <entryLink id="aa25-e6e5-b6f7-b961" hidden="false" targetId="0214-f83c-7c56-ede2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="cc71-9275-3cbc-74bb" hidden="false" targetId="8faa9d50-2ea2-5800-91b5-de98f9c68ebe" type="selectionEntry">
+        <entryLink id="cc71-9275-3cbc-74bb" hidden="false" targetId="05c9-4857-567c-2a1d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22251,140 +21442,140 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="2cb0-1d1a-6485-d484" hidden="false" targetId="f181-7330-94bf-55c2" type="selectionEntry">
+        <entryLink id="2cb0-1d1a-6485-d484" hidden="false" targetId="70dc-5137-6b37-8072" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="27f8-a42c-d76a-515e" hidden="false" targetId="b252-3e9e-6ebb-7fee" type="selectionEntry">
+        <entryLink id="27f8-a42c-d76a-515e" hidden="false" targetId="aeea-cfe9-d5f5-aa26" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="8809-91e9-5189-43c0" hidden="false" targetId="d198-f4ab-1c2b-bc2d" type="selectionEntry">
+        <entryLink id="8809-91e9-5189-43c0" hidden="false" targetId="ca7e-9e94-3e4f-5d46" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="eedf-c08e-d682-5d9d" hidden="false" targetId="3d8f-7048-fec5-df85" type="selectionEntry">
+        <entryLink id="eedf-c08e-d682-5d9d" hidden="false" targetId="edbe-8ace-5b00-b8c5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="f50e-2f8c-ac89-d546" hidden="false" targetId="abf7-5c89-c07c-c9a5" type="selectionEntry">
+        <entryLink id="f50e-2f8c-ac89-d546" hidden="false" targetId="c39b-dafe-b1ea-e986" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="ffe1-cd17-1ee2-1fbb" hidden="false" targetId="ec4d-a1a9-f6a2-0448" type="selectionEntry">
+        <entryLink id="ffe1-cd17-1ee2-1fbb" hidden="false" targetId="797a-ed44-ce6b-b533" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="cce6-eb6e-c1c4-01c5" hidden="false" targetId="374d-116d-5e24-88a6" type="selectionEntry">
+        <entryLink id="cce6-eb6e-c1c4-01c5" hidden="false" targetId="e4c2-5853-6876-e6f8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="2645-1020-85cf-60a4" hidden="false" targetId="eac6-2371-ed63-ab4b" type="selectionEntry">
+        <entryLink id="2645-1020-85cf-60a4" hidden="false" targetId="d285-48ea-f144-3284" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="2293-62bd-54e5-0754" hidden="false" targetId="bebe-7883-d768-9062" type="selectionEntry">
+        <entryLink id="2293-62bd-54e5-0754" hidden="false" targetId="ac29-ba8b-03d4-b81c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="ec2b-2f7e-7c11-9011" hidden="false" targetId="17ee-c766-cc51-9ad6" type="selectionEntry">
+        <entryLink id="ec2b-2f7e-7c11-9011" hidden="false" targetId="14f0-ded6-0378-bf8a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="0476-f897-3c75-3bdc" hidden="false" targetId="17dd-5c36-29cc-913a" type="selectionEntry">
+        <entryLink id="0476-f897-3c75-3bdc" hidden="false" targetId="fdc8-8736-3695-de36" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="cea2-89e0-9a85-68e1" hidden="false" targetId="246f-698e-7f14-f94e" type="selectionEntry">
+        <entryLink id="cea2-89e0-9a85-68e1" hidden="false" targetId="d15a-fb61-517c-1d8f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="6f9f-a4e0-ecff-b5b7" hidden="false" targetId="1c1b-9ea7-3fa1-af75" type="selectionEntry">
+        <entryLink id="6f9f-a4e0-ecff-b5b7" hidden="false" targetId="f689-059e-4a2c-3f75" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="96f3-bad3-f695-97fd" hidden="false" targetId="591d-333f-e9ad-7fc9" type="selectionEntry">
+        <entryLink id="96f3-bad3-f695-97fd" hidden="false" targetId="4b08-18eb-e527-8441" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="0bcb-974a-da1d-01d5" hidden="false" targetId="92e5-401c-ad27-a8aa" type="selectionEntry">
+        <entryLink id="0bcb-974a-da1d-01d5" hidden="false" targetId="5315-d258-ed50-b3d9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="85ec-8d5a-21de-071c" hidden="false" targetId="7805-6177-0e3e-1999" type="selectionEntry">
+        <entryLink id="85ec-8d5a-21de-071c" hidden="false" targetId="39f2-56e8-f415-7d36" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="2b0c-b1ce-428c-05c7" hidden="false" targetId="7822-267d-43f2-95c1" type="selectionEntry">
+        <entryLink id="2b0c-b1ce-428c-05c7" hidden="false" targetId="e166-69f5-b11a-baf5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="d7f6-0522-ad1b-c839" hidden="false" targetId="bbaa-037a-1a70-2b1c" type="selectionEntry">
+        <entryLink id="d7f6-0522-ad1b-c839" hidden="false" targetId="ccc3-eeaa-6341-504d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="4244-e9bc-d54c-f53d" hidden="false" targetId="e6d6-c23f-47bb-2f76" type="selectionEntry">
+        <entryLink id="4244-e9bc-d54c-f53d" hidden="false" targetId="f6bc-e692-5e55-f9b8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="cd3a-254c-8cbe-dc28" hidden="false" targetId="536a-22cf-4a9d-c678" type="selectionEntry">
+        <entryLink id="cd3a-254c-8cbe-dc28" hidden="false" targetId="ea75-33f4-3472-17ff" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22398,28 +21589,28 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="0109-61fd-e98d-92b7" hidden="false" targetId="83fa-c2b6-338a-f7d6" type="selectionEntry">
+        <entryLink id="0109-61fd-e98d-92b7" hidden="false" targetId="aa29-bad4-159d-a8ac" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="ed82-19c9-933a-5b61" hidden="false" targetId="af30-a7df-67ab-895a" type="selectionEntry">
+        <entryLink id="ed82-19c9-933a-5b61" hidden="false" targetId="32c6-5f17-67ef-e224" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="a730-2e51-0aa1-df32" hidden="false" targetId="a6ea-e450-b3bd-1167" type="selectionEntry">
+        <entryLink id="a730-2e51-0aa1-df32" hidden="false" targetId="0156-1c7b-7dbd-bfd6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="5b81-9a41-ae5c-f444" hidden="false" targetId="1c9e-e034-f40e-1098" type="selectionEntry">
+        <entryLink id="5b81-9a41-ae5c-f444" hidden="false" targetId="bc2a-443b-b88b-acd0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
