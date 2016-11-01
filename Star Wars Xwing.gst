@@ -3120,6 +3120,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ac7-cb76-cf45-31f9" name="Autoblaster" hidden="false" collective="false" type="upgrade">
@@ -3153,6 +3154,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9d9-5707-ea6b-6abf" name="Flechette Cannon" hidden="false" collective="false" type="upgrade">
@@ -3186,6 +3188,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a704-e5d0-622b-1025" name="Heavy Laser Cannon" hidden="false" collective="false" type="upgrade">
@@ -3219,6 +3222,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="7.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc6b-f195-e8a5-0f06" name="Ion Cannon" hidden="false" collective="false" type="upgrade">
@@ -3252,6 +3256,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cac2-70cf-85c1-1fde" name="Tractor Beam" hidden="false" collective="false" type="upgrade">
@@ -3285,6 +3290,172 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a4e5-0404-77cf-c6b5" name="Autoblaster Turret" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ba20-cc77-948f-3702" name="Autoblaster Turret" hidden="false" profileTypeId="375475727265747323232344415441232323" profileTypeName="6.1 Turret">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="2"/>
+          </characteristics>
+        </profile>
+        <profile id="444f-57f5-777a-6b3c" name="Autoblaster Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323" profileTypeName="6.2 Turret Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Attack 1 ship (even a ship outside your firing arc). Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="58d1-de9a-2bd0-46c0" name="Blaster Turret" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c2c5-0205-3704-17d4" name="Blaster Turret" hidden="false" profileTypeId="375475727265747323232344415441232323" profileTypeName="6.1 Turret">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-2"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="0b3f-493b-632d-e04b" name="Blaster Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323" profileTypeName="6.2 Turret Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc)."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4069-ea40-4252-797a" name="Dorsal Turret" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b715-b104-4f90-1ee3" name="Dorsal Turret" hidden="false" profileTypeId="375475727265747323232344415441232323" profileTypeName="6.1 Turret">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-2"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="2"/>
+          </characteristics>
+        </profile>
+        <profile id="d3f1-a7f9-ca50-c348" name="Dorsal Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323" profileTypeName="6.2 Turret Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Attack 1 ship (even a ship outside your firing arc). If the target of this attack is at Range 1, roll 1 additional attack die."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3699-8fc5-d597-a31a" name="Ion Cannon Turret" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5939-fb6a-14a5-ab0c" name="Ion Cannon Turret" hidden="false" profileTypeId="375475727265747323232344415441232323" profileTypeName="6.1 Turret">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-2"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="8fb1-4cff-5c98-f2a7" name="Ion Cannon Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323" profileTypeName="6.2 Turret Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Attack 1 ship (even a ship outside your firing arc). If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="018d-c737-32df-fef0" name="Twin Laser Turret" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="be84-5927-a858-1957" name="Twin Laser Turret" hidden="false" profileTypeId="375475727265747323232344415441232323" profileTypeName="6.1 Turret">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="e678-cf51-cb23-7093" name="Twin Laser Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323" profileTypeName="6.2 Turret Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Perform this attack twice (even against a ship outside your firing arc). Each time this attack hits, the defender suffers 1 damage. Then cancel all dice results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="6.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

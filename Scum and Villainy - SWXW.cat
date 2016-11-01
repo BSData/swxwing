@@ -8634,74 +8634,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afd9945b-87d3-3bce-4f99-eb9a20743946" name="Autoblaster Turret" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="2543f0aa-af11-5dfe-dc56-4fc009f240dd" name="Autoblaster Turret " hidden="false" profileTypeId="375475727265747323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="2"/>
-          </characteristics>
-        </profile>
-        <profile id="4f85e4d2-6dcf-88bb-1aa8-fded2a58a2c8" name="Autoblaster Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Attack 1 ship (even a ship outside your firing arc). Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical hit] results before [hit] results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" name="Blaster Turret" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="98450431-ae81-d637-27c2-7871228c255f" name="Blaster Turret " hidden="false" profileTypeId="375475727265747323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-2"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="adc55062-268e-230a-53fc-b0c96819d272" name="Blaster Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc)."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="4.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="4d17-3fd6-3699-a748" name="Cluster Mines" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="ebca-e867-7542-9397" name="Cluster Mines" hidden="false" profileTypeId="39426f6d6223232344415441232323">
@@ -8859,40 +8791,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d9de-c2cc-056b-f345" name="Dorsal Turret" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="94df-762a-57ea-46af" name="Dorsal Turret " hidden="false" profileTypeId="375475727265747323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-2"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="2"/>
-          </characteristics>
-        </profile>
-        <profile id="7a31-0f18-2b0c-806e" name="Dorsal Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Attack 1 ship (even a ship outside your firing arc). If the target of this attack is at Range 1, roll 1 additional attack die."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9098,40 +8996,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0b7ac2f6-ece6-5356-150e-821fdc3c900e" name="Ion Cannon Turret" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="a4692374-a4e1-1197-8bb3-84c0063403a5" name="Ion Cannon Turret " hidden="false" profileTypeId="375475727265747323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-2"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="e15916d8-52ad-0e24-7f1e-9740965ffc4e" name="Ion Cannon Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Attack 1 ship (even a ship outside your firing arc). If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="5.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9610,40 +9474,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7a63-a9d5-7b48-1d4d" name="Twin Laser Turret" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="242f-6cee-58af-38ab" name="Twin Laser Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack: Perform this attack twice (even against a ship outside your firing arc). Each time this attack hits, the defender suffers 1 damage. Then cancel all dice results."/>
-          </characteristics>
-        </profile>
-        <profile id="83d1-ad49-6b07-03f6" name="Twin Laser Turret " hidden="false" profileTypeId="375475727265747323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="6.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13332,47 +13162,40 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="e0fb71b3-cf40-caad-697f-98b4b35c94fc" hidden="false" targetId="0b7ac2f6-ece6-5356-150e-821fdc3c900e" type="selectionEntry">
+        <entryLink id="e0fb71b3-cf40-caad-697f-98b4b35c94fc" hidden="false" targetId="3699-8fc5-d597-a31a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="a7b61730-241e-c305-8b22-31fb6b9e24e0" hidden="false" targetId="2619df95-4f6e-6c12-bcfa-c3f4bf5fa519" type="selectionEntry">
+        <entryLink id="a7b61730-241e-c305-8b22-31fb6b9e24e0" hidden="false" targetId="58d1-de9a-2bd0-46c0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="2f92770a-56cf-7fed-c0ce-cdb53fd074eb" hidden="false" targetId="afd9945b-87d3-3bce-4f99-eb9a20743946" type="selectionEntry">
+        <entryLink id="2f92770a-56cf-7fed-c0ce-cdb53fd074eb" hidden="false" targetId="a4e5-0404-77cf-c6b5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="e306-da84-1b71-4d52" hidden="false" targetId="7a63-a9d5-7b48-1d4d" type="selectionEntry">
+        <entryLink id="e306-da84-1b71-4d52" hidden="false" targetId="018d-c737-32df-fef0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="0247-4073-c968-63be" hidden="false" targetId="d9de-c2cc-056b-f345" type="selectionEntry">
+        <entryLink id="0247-4073-c968-63be" hidden="false" targetId="4069-ea40-4252-797a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
