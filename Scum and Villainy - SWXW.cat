@@ -8506,40 +8506,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="592c-ceb7-67ad-0203" name="Adv. Homing Missiles" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="8500-87b8-340d-07a7" name="Adv. Homing Missiles " hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="d76d-532d-6900-e07b" name="Adv. Homing Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Discard this card to perform this attack. If this attack hits, deal 1 faceup Damage card to the defender. Then cancel all dice results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="c35ead51-34d0-5fbf-207c-0a3ee5b74768" name="Adv. Proton Torpedoes" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="27557caf-788f-d6bc-6e5c-a5420f1219dc" name="Adv. Proton Torpedoes" hidden="false" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323">
@@ -8571,40 +8537,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="6.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="13588b52-b945-90ef-96de-4b87f3f4951a" name="Assault Missiles" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="7ee93ca2-0c15-5e8f-49ca-fe4332b29719" name="Assault Missiles " hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="4"/>
-          </characteristics>
-        </profile>
-        <profile id="f3e4eaff-d76a-5c88-2323-dfb997b36acb" name="Assault Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, each other ship at Range 1 of the defender suffers 1 damage."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="5.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -8667,40 +8599,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8fbc1ee5-af18-a2dd-e7ae-a89e750439fc" name="Cluster Missiles" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="fc343299-74b3-929c-7265-4c27975428d3" name="Cluster Missiles " hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-2"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="ff79aec8-ecce-e47a-f279-e819856c4ed6" name="Cluster Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Spend your target lock and discard this card to perform this attack twice."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="4.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="bf9e-554e-19a7-4909" name="Concord Dawn Protector" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="f9a3-f80b-2165-1f70" name="Concord Dawn Protector" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
@@ -8724,40 +8622,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fe9a12a4-25eb-539d-76cd-2251d2fe7360" name="Concussion Missiles" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="21cca2c1-330f-2992-680d-286eb10c7455" name="Concussion Missiles " hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="4"/>
-          </characteristics>
-        </profile>
-        <profile id="471e73c9-8860-eb22-6099-d63e2c415492" name="Concussion Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. You may change 1 of your blank results to a [hit] result."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="4.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -8906,40 +8770,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e1bdc24-46c1-2e3f-b770-df9da0dbfb21" name="Homing Missiles" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="d432f229-0bd6-04de-c882-804f678bd932" name="Homing Missiles " hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="4"/>
-          </characteristics>
-        </profile>
-        <profile id="4d731c74-e8c9-4326-c992-c44f6646bba3" name="Homing Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Discard this card to perform this attack. The defender cannot spend evade tokens during this attack."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="5.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="e5eef4c8-ed0b-4b82-9b3a-d94bddd27bb6" name="IG-2000" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="d521c5df-d787-b951-8a16-e5bf2ca16ab7" name="IG-2000" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
@@ -8996,40 +8826,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b417e97c-ebf8-5800-67f8-56dda529ec65" name="Ion Pulse Missiles" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="50847f13-74db-2eaa-c356-80f48ef56d9e" name="Ion Pulse Missiles " hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="10cdc5b2-a744-b731-2205-ce1e04029583" name="Ion Pulse Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Discard this card to perform this attack. If this attack hits, the defender suffers 1 damage and receives 2 ion tokens. Then cancel all dice results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9233,40 +9029,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="582e8ee3-6b2d-0f82-8726-4687bd331db2" name="Proton Rockets" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="6ff0c25c-3bb9-1ae3-f412-9bb3372b6cf7" name="Proton Rockets " hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="2"/>
-          </characteristics>
-        </profile>
-        <profile id="ed67b843-4bbe-5472-4011-0d74bdd977ea" name="Proton Rockets" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (focus): Discard this card to perform this attack. You may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9486,40 +9248,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Salvaged Astromech Ability" characteristicTypeId="76f62e20-6c9d-37b2-b892-8898a587998c" value="You may treat all 3-speed maneuvers as green maneuvers."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a02a-e386-586f-f022" name="XX-23 S-Thread Tracers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="e399-d6bb-d774-dd23" name="XX-23 S-Thread Tracers " hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="64e5-f712-0b67-6920" name="XX-23 S-Thread Tracers" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (focus): Discard this card to perform this attack. If this attack hits, each friendly ship at Range 1-2 of you may acquire a target lock on the defender. Then cancel all dice results."/>
           </characteristics>
         </profile>
       </profiles>
@@ -11538,68 +11266,61 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="2b3be958-cfbd-32f2-1792-3d75d6978f59" hidden="false" targetId="13588b52-b945-90ef-96de-4b87f3f4951a" type="selectionEntry">
+        <entryLink id="2b3be958-cfbd-32f2-1792-3d75d6978f59" hidden="false" targetId="7073-d993-e5e3-6954" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="d780d8ae-8d1f-ba14-1714-4e5787215315" hidden="false" targetId="8fbc1ee5-af18-a2dd-e7ae-a89e750439fc" type="selectionEntry">
+        <entryLink id="d780d8ae-8d1f-ba14-1714-4e5787215315" hidden="false" targetId="be92-760a-408c-39b2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="f2eaeeda-d9b7-0013-99b9-493e90e0419b" hidden="false" targetId="fe9a12a4-25eb-539d-76cd-2251d2fe7360" type="selectionEntry">
+        <entryLink id="f2eaeeda-d9b7-0013-99b9-493e90e0419b" hidden="false" targetId="19a1-561f-df06-ace4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="ca877bd6-436a-34ff-ae0f-d606e01a3afb" hidden="false" targetId="0e1bdc24-46c1-2e3f-b770-df9da0dbfb21" type="selectionEntry">
+        <entryLink id="ca877bd6-436a-34ff-ae0f-d606e01a3afb" hidden="false" targetId="22a8-abd3-b2ae-4714" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="d6211e64-9dd1-0411-fa0f-269486965302" hidden="false" targetId="b417e97c-ebf8-5800-67f8-56dda529ec65" type="selectionEntry">
+        <entryLink id="d6211e64-9dd1-0411-fa0f-269486965302" hidden="false" targetId="da04-c6b5-bd41-ad68" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="f50a79a4-3643-51b3-3798-ea13b4b8414e" hidden="false" targetId="582e8ee3-6b2d-0f82-8726-4687bd331db2" type="selectionEntry">
+        <entryLink id="f50a79a4-3643-51b3-3798-ea13b4b8414e" hidden="false" targetId="0103-4cf4-47e8-0dba" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="bbf2-d8e3-6193-0855" hidden="false" targetId="592c-ceb7-67ad-0203" type="selectionEntry">
+        <entryLink id="bbf2-d8e3-6193-0855" hidden="false" targetId="4f94-3da1-e3b2-352e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="003c-bce7-a8d3-ddf9" hidden="false" targetId="a02a-e386-586f-f022" type="selectionEntry">
+        <entryLink id="003c-bce7-a8d3-ddf9" hidden="false" targetId="0cb9-b058-3322-4278" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11629,68 +11350,61 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="99e3-ca25-cc3b-732c" hidden="false" targetId="592c-ceb7-67ad-0203" type="selectionEntry">
+        <entryLink id="99e3-ca25-cc3b-732c" hidden="false" targetId="4f94-3da1-e3b2-352e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="a991-314d-4151-9f60" hidden="false" targetId="13588b52-b945-90ef-96de-4b87f3f4951a" type="selectionEntry">
+        <entryLink id="a991-314d-4151-9f60" hidden="false" targetId="7073-d993-e5e3-6954" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="a545-2d19-fa8d-68a7" hidden="false" targetId="8fbc1ee5-af18-a2dd-e7ae-a89e750439fc" type="selectionEntry">
+        <entryLink id="a545-2d19-fa8d-68a7" hidden="false" targetId="be92-760a-408c-39b2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="5d54-9efb-a8b2-d559" hidden="false" targetId="fe9a12a4-25eb-539d-76cd-2251d2fe7360" type="selectionEntry">
+        <entryLink id="5d54-9efb-a8b2-d559" hidden="false" targetId="19a1-561f-df06-ace4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="ae14-1764-eddf-a9d0" hidden="false" targetId="0e1bdc24-46c1-2e3f-b770-df9da0dbfb21" type="selectionEntry">
+        <entryLink id="ae14-1764-eddf-a9d0" hidden="false" targetId="22a8-abd3-b2ae-4714" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="7c0d-0468-e641-32a4" hidden="false" targetId="b417e97c-ebf8-5800-67f8-56dda529ec65" type="selectionEntry">
+        <entryLink id="7c0d-0468-e641-32a4" hidden="false" targetId="da04-c6b5-bd41-ad68" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="308f-3903-da50-2990" hidden="false" targetId="582e8ee3-6b2d-0f82-8726-4687bd331db2" type="selectionEntry">
+        <entryLink id="308f-3903-da50-2990" hidden="false" targetId="0103-4cf4-47e8-0dba" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="b872-ffa3-5492-b796" hidden="false" targetId="a02a-e386-586f-f022" type="selectionEntry">
+        <entryLink id="b872-ffa3-5492-b796" hidden="false" targetId="0cb9-b058-3322-4278" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
