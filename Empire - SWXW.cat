@@ -13649,40 +13649,6 @@
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="3a5c-cdce-445a-dc78" name="&quot;Mangler&quot; Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="aba5-e1f4-8c8f-a3c4" name="&quot;Mangler&quot; Cannon " hidden="false" profileTypeId="313043616e6e6f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="e1d5-14fc-d8d3-1fe1" name="&quot;Mangler&quot; Cannon" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="Attack: Attack 1 ship. When attacking, you may change one of your [hit] results to a [critical] result."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="4.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="e0d2-d01e-c4db-2661" name="Adaptive Ailerons†" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="7283-8fd1-4a00-ece6" name="Adaptive Ailerons" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
@@ -13853,40 +13819,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, each other ship at Range 1 of the defender suffers 1 damage."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="5.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c23c-48e3-663e-0b47" name="Autoblaster" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="eb7e-50c0-3d81-1653" name="Autoblaster " hidden="false" profileTypeId="313043616e6e6f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="2298-b173-1c5a-e5a2" name="Autoblaster" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="Attack: Attack 1 ship. Your [hit] results cannot be canceled by defense dice. The defender may cancel [critical] results before [hit] results."/>
           </characteristics>
         </profile>
       </profiles>
@@ -14417,40 +14349,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a3d-3b90-9e4f-dca8" name="Flechette Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="2bff-591c-0841-70a6" name="Flechette Cannon " hidden="false" profileTypeId="313043616e6e6f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="ac32-5fd3-1c81-83b7" name="Flechette Cannon" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token. Then, cancel all dice results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="992875cf-545e-ba32-7e57-bbf3993be85b" name="Flechette Torpedoes" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="f82c98fa-2a31-bfb2-fc39-94dbe1cc4f05" name="Flechette Torpedoes " page="0" hidden="false" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323">
@@ -14562,40 +14460,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="44ff-1b66-312d-5c07" name="Heavy Laser Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="689d-3109-fe5e-d7fd" name="Heavy Laser Cannon " hidden="false" profileTypeId="313043616e6e6f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="4"/>
-          </characteristics>
-        </profile>
-        <profile id="fab1-7e2c-3851-806c" name="Heavy Laser Cannon" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="Attack: Attack 1 ship. Immediately after rolling your attack dice, you must change all of your [critical] results to [hit] results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="7.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="c43c419f-1047-4146-8404-de5ebc1663e8" name="Homing Missiles" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="d5ccd038-87e8-fa22-dc11-3526c66c1c4f" name="Homing Missiles " page="0" hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323">
@@ -14660,40 +14524,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5c66-637a-822c-76cc" name="Ion Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="b83e-94e0-3f7c-d4c3" name="Ion Cannon " hidden="false" profileTypeId="313043616e6e6f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="4106-4b27-6dc2-c31b" name="Ion Cannon" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel all dice results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -15593,40 +15423,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9318-2607-22aa-f2fd" name="Tractor Beam" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="e94f-a0bc-34b6-d0d6" name="Tractor Beam " hidden="false" profileTypeId="313043616e6e6f6e7323232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-3"/>
-            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="87d7-cca3-9825-1bbf" name="Tractor Beam" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="Attack: Attack 1 ship. If this attack hits, the defender receives 1 tractor beam token. Then cancel all dice results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="b8853b92-4761-bfaf-f0bd-9b5fbc4b8d35" name="WED-15 Repair Droid" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="5badaa00-6001-5758-5589-74d11337e23d" name="WED-15 Repair Droid" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
@@ -16509,54 +16305,47 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5903-54f1-b9ee-88d9" hidden="false" targetId="5c66-637a-822c-76cc" type="selectionEntry">
+        <entryLink id="5903-54f1-b9ee-88d9" hidden="false" targetId="fc6b-f195-e8a5-0f06" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="5c5e-90d4-6af8-090b" hidden="false" targetId="44ff-1b66-312d-5c07" type="selectionEntry">
+        <entryLink id="5c5e-90d4-6af8-090b" hidden="false" targetId="a704-e5d0-622b-1025" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="8a13-ba64-6b20-6c20" hidden="false" targetId="4a3d-3b90-9e4f-dca8" type="selectionEntry">
+        <entryLink id="8a13-ba64-6b20-6c20" hidden="false" targetId="a9d9-5707-ea6b-6abf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="754f-c910-2c08-6c43" hidden="false" targetId="c23c-48e3-663e-0b47" type="selectionEntry">
+        <entryLink id="754f-c910-2c08-6c43" hidden="false" targetId="6ac7-cb76-cf45-31f9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="a788-4930-0e61-ca98" hidden="false" targetId="3a5c-cdce-445a-dc78" type="selectionEntry">
+        <entryLink id="a788-4930-0e61-ca98" hidden="false" targetId="1547-5297-10ef-06ea" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="da4e-e848-9979-20e9" hidden="false" targetId="9318-2607-22aa-f2fd" type="selectionEntry">
+        <entryLink id="da4e-e848-9979-20e9" hidden="false" targetId="cac2-70cf-85c1-1fde" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
