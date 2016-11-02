@@ -3997,6 +3997,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="6.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a332-03fe-143a-0a0c" name="Extra Munitions" hidden="false" collective="false" type="upgrade">
@@ -4022,6 +4023,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfef-da32-7fae-197c" name="Flechette Torpedoes" hidden="false" collective="false" type="upgrade">
@@ -4055,6 +4057,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f2b-ed7a-2656-e7ec" name="Ion Torpedoes" hidden="false" collective="false" type="upgrade">
@@ -4088,6 +4091,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6438-d9a0-3f51-09de" name="Plasma Torpedoes" hidden="false" collective="false" type="upgrade">
@@ -4121,6 +4125,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7eac-4ba0-9152-827e" name="Proton Torpedoes" hidden="false" collective="false" type="upgrade">
@@ -4154,6 +4159,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98d6-56aa-a9d7-f100" name="Seismic Torpedo" hidden="false" collective="false" type="upgrade">
@@ -4177,6 +4183,180 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47f9-fdaf-a0f7-d522" name="Automated Protocols" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="90bf-4b44-5db3-6e1e" name="Automated Protocols" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Once per round, after you perform an action that is not a recover or reinforce action, you may spend 1 energy to perform a free recover or reinforce action."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59d4-2887-1e81-dadb" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3dcf-35da-21f7-be3f" name="Optimized Generators" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ffb4-9ed6-7bd5-8ec4" name="Optimized Generators" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Once per round, when you assign energy to an equipped Upgrade card, gain 2 energy."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e891-176a-ff1e-f879" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a366-3cc0-c359-e885" name="Ordnance Tubes" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ed3d-97ef-556a-ce67" name="Ordnance Tubes" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="You may treat each of your [hardpoint] upgrade icons as a [torpedoes] or [missiles] upgrade icon. When you are instructed to discard a [torpedoes] or [missiles] Upgrade card, do not discard it."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff28-f2d3-34ab-19ad" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6445-ea91-a2f8-a03d" name="Engineering Team" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d7a0-dc16-5d28-ce19" name="Engineering Team" hidden="false" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" profileTypeName="3.9 Team">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Team Ability" characteristicTypeId="eb3c4162-2db9-88f2-3869-0eb79bda378f" value="During the Activation phase, when you reveal a [straight] maneuver, gain 1 additional energy during the &quot;Gain Energy&quot; step."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c9d3-4a6d-40b5-f845" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8631-0e14-5535-781a" name="Gunnery Team" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a51f-d5ae-bc2d-e493" name="Gunnery Team" hidden="false" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" profileTypeName="3.9 Team">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Team Ability" characteristicTypeId="eb3c4162-2db9-88f2-3869-0eb79bda378f" value="Once per round, when attacking with a secondary weapon, you may spend 1 energy to change 1 of your blank results to a [hit] result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f3fc-99e6-8b57-3c46" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b27b-68cf-6914-ac2f" name="Ordnance Experts" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="af32-2ba7-c6ab-548b" name="Ordnance Experts" hidden="false" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" profileTypeName="3.9 Team">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Team Ability" characteristicTypeId="eb3c4162-2db9-88f2-3869-0eb79bda378f" value="Once per round, when a friendly ship at Range 1-3 performs an attack with a [torpedoes] or [missiles] secondary weapon, it may change 1 of its blank results to a [hit] result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="98e3-a6b0-0841-f698" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cde5-10d4-3f0d-f764" name="Sensor Team" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="296c-a0c4-00ce-500e" name="Sensor Team" hidden="false" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" profileTypeName="3.9 Team">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Team Ability" characteristicTypeId="eb3c4162-2db9-88f2-3869-0eb79bda378f" value="When acquiring a target lock, you may lock onto an enemy ship at Range 1-5 (instead of Range 1-3)."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
