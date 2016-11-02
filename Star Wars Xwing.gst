@@ -3324,6 +3324,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58d1-de9a-2bd0-46c0" name="Blaster Turret" hidden="false" collective="false" type="upgrade">
@@ -3357,6 +3358,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4069-ea40-4252-797a" name="Dorsal Turret" hidden="false" collective="false" type="upgrade">
@@ -3390,6 +3392,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3699-8fc5-d597-a31a" name="Ion Cannon Turret" hidden="false" collective="false" type="upgrade">
@@ -3423,6 +3426,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="018d-c737-32df-fef0" name="Twin Laser Turret" hidden="false" collective="false" type="upgrade">
@@ -3456,6 +3460,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="6.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f94-3da1-e3b2-352e" name="Adv. Homing Missiles" hidden="false" collective="false" type="upgrade">
@@ -3489,6 +3494,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7073-d993-e5e3-6954" name="Assault Missiles" hidden="false" collective="false" type="upgrade">
@@ -3522,6 +3528,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be92-760a-408c-39b2" name="Cluster Missiles" hidden="false" collective="false" type="upgrade">
@@ -3555,6 +3562,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="19a1-561f-df06-ace4" name="Concussion Missiles" hidden="false" collective="false" type="upgrade">
@@ -3588,6 +3596,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="22a8-abd3-b2ae-4714" name="Homing Missiles" hidden="false" collective="false" type="upgrade">
@@ -3621,6 +3630,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da04-c6b5-bd41-ad68" name="Ion Pulse Missiles" hidden="false" collective="false" type="upgrade">
@@ -3654,6 +3664,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0103-4cf4-47e8-0dba" name="Proton Rockets" hidden="false" collective="false" type="upgrade">
@@ -3687,6 +3698,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0cb9-b058-3322-4278" name="XX-23 S-Thread Tracers" hidden="false" collective="false" type="upgrade">
@@ -3720,6 +3732,451 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d8de-2652-82e7-8b2e" name="Cluster Mines" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="813a-e6bc-cc6e-cefe" name="Cluster Mines" hidden="false" profileTypeId="39426f6d6223232344415441232323" profileTypeName="8.1 Bomb">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="Action: Discard this card to drop 1 cluster mine token set. When a ship&apos;s base or maneuver template overlaps a cluster mine token, that token detonates."/>
+          </characteristics>
+        </profile>
+        <profile id="8523-9916-f067-d05f" name="Cluster Mine Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Token Rules" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers 1 damage for each [hit] and [critical] rolled. Then discard that token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a6c0-ac1d-d673-5d40" name="Conner Net" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="66da-2114-2393-6dc3" name="Conner Net" hidden="false" profileTypeId="39426f6d6223232344415441232323" profileTypeName="8.1 Bomb">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="Action: Discard this card to drop 1 Conner net token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
+          </characteristics>
+        </profile>
+        <profile id="3068-7fa6-f46c-2b31" name="Conner Net Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Token Rules" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When this bomb token detonates, the ship that moved through or overlapped this token suffers 1 damage, receives 2 ion tokens, and skips its &quot;Perform Action&quot; step. Then discard this token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ed2-1954-273e-cb5f" name="Ion Bombs" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="546c-4d9a-01f3-4c62" name="Ion Bombs" hidden="false" profileTypeId="39426f6d6223232344415441232323" profileTypeName="8.1 Bomb">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When you reveal your maneuver dial, you may discard this card to drop 1 ion bomb token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+        </profile>
+        <profile id="faed-a965-99d9-7c18" name="Ion Bomb Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Token Rules" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When this bomb token detonates, each ship at Range 1 of the token receives 2 ion tokens. Then discard this token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6bb2-5728-7e06-a589" name="Proton Bombs" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f78b-1930-2342-3710" name="Proton Bombs" hidden="false" profileTypeId="39426f6d6223232344415441232323" profileTypeName="8.1 Bomb">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When you reveal your maneuver dial, you may discard this card to drop 1 proton bomb token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+        </profile>
+        <profile id="4fd1-03d8-952e-a65a" name="Proton Bomb Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Token Rules" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When this bomb token detonates, deal 1 faceup Damage card to each ship at Range 1 of the token. Then discard this token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ae8-0199-23e8-665b" name="Proximity Mines" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2788-4d4e-9492-862e" name="Proximity Mines" hidden="false" profileTypeId="39426f6d6223232344415441232323" profileTypeName="8.1 Bomb">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="Action: Discard this card to drop 1 proximity mine token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
+          </characteristics>
+        </profile>
+        <profile id="f1e7-0840-b58a-51ec" name="Proximity Mine Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Token Rules" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage [hit] and critical damage [critical] rolled. Then discard this token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf35-bf5a-d165-4f28" name="Seismic Charges" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6419-860b-0e21-20f3" name="Seismic Charges" hidden="false" profileTypeId="39426f6d6223232344415441232323" profileTypeName="8.1 Bomb">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+        </profile>
+        <profile id="5d43-8b8c-4c63-2a83" name="Seismic Charge Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Token Rules" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage. Then discard this token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="caf1-1147-15d2-470d" name="Thermal Detonators" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9c9f-1cc8-dd56-302e" name="Thermal Detonators" hidden="false" profileTypeId="39426f6d6223232344415441232323" profileTypeName="8.1 Bomb">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When you reveal your maneuver dial, you may discard this card to drop 1 thermal detonator token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+        </profile>
+        <profile id="567e-657e-88ea-75f1" name="Thermal Detonator Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Token Rules" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage and receives 1 stress token. Then discard this token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9ab-2f40-1e68-8bdf" name="Adv. Proton Torpedoes" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ffc7-d738-c0b1-29ed" name="Adv. Proton Torpedoes" hidden="false" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" profileTypeName="5.2 Torpedoes Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Torpedoes Ability" characteristicTypeId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. You may change up to 3 of your blank results to [focus] results."/>
+          </characteristics>
+        </profile>
+        <profile id="a6f7-8bc9-3e8f-64b7" name="Adv. Proton Torpedoes" hidden="false" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" profileTypeName="5.1 Torpedoes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a332-03fe-143a-0a0c" name="Extra Munitions" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="80f3-b0de-b32a-a7e9" name="Extra Munitions" hidden="false" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" profileTypeName="5.2 Torpedoes Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Torpedoes Ability" characteristicTypeId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" value="When you equip this card, place 1 ordnance token on each equipped [torpedoes], [missiles], and [bomb] Upgrade card. When you are instructed to discard an Upgrade card, you may discard 1 ordnance token on that card instead."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a04-25dd-8406-7aa9" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dfef-da32-7fae-197c" name="Flechette Torpedoes" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="830d-10dc-b93a-bc29" name="Flechette Torpedoes" hidden="false" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" profileTypeName="5.1 Torpedoes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="43d9-01f4-4d61-11ad" name="Flechette Torpedoes" hidden="false" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" profileTypeName="5.2 Torpedoes Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Torpedoes Ability" characteristicTypeId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Discard this card and spend your target lock to perform this attack. After you perform this attack, the defender receives 1 stress token if its hull value is &quot;4&quot; or lower."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f2b-ed7a-2656-e7ec" name="Ion Torpedoes" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="05b6-29e7-77b9-86b0" name="Ion Torpedoes" hidden="false" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" profileTypeName="5.1 Torpedoes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="4f5a-9601-c35e-5cb0" name="Ion Torpedoes" hidden="false" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" profileTypeName="5.2 Torpedoes Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Torpedoes Ability" characteristicTypeId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, the defender and each ship at Range 1 of it receives 1 ion token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6438-d9a0-3f51-09de" name="Plasma Torpedoes" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f41e-4b09-1e1e-9796" name="Plasma Torpedoes" hidden="false" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" profileTypeName="5.1 Torpedoes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="18ef-09c7-2e12-cb26" name="Plasma Torpedoes" hidden="false" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" profileTypeName="5.2 Torpedoes Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Torpedoes Ability" characteristicTypeId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, after dealing damage, remove 1 shield token from the defender."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7eac-4ba0-9152-827e" name="Proton Torpedoes" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7b82-0789-a96e-5b1b" name="Proton Torpedoes" hidden="false" profileTypeId="335365636f6e6461727920576561706f6e7323232344415441232323" profileTypeName="5.1 Torpedoes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="a094-2503-4ba0-f979" name="Proton Torpedoes" hidden="false" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" profileTypeName="5.2 Torpedoes Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Torpedoes Ability" characteristicTypeId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Spend your target lock and discard this card to perform this attack. You may change 1 of your [focus] results to a [critical hit] result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98d6-56aa-a9d7-f100" name="Seismic Torpedo" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="aac5-7cd5-2dbe-ea85" name="Seismic Torpedo" hidden="false" profileTypeId="345365636f6e6461727920576561706f6e204162696c69747923232344415441232323" profileTypeName="5.2 Torpedoes Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Torpedoes Ability" characteristicTypeId="5365636f6e6461727920576561706f6e204162696c69747923232344415441232323" value="Action: Discard this card to choose an obstacle at Range 1-2 and inside your primary firing arc. Each ship at Range 1 of the obstacle rolls 1 attack die and suffers any damage [hit] or critical damage [critical] rolled. Then remove the obstacle."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
