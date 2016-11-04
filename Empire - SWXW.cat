@@ -809,21 +809,21 @@
               </modifiers>
               <constraints/>
             </entryLink>
-            <entryLink id="dcf5-19d1-3ce2-bf0c" hidden="false" targetId="91ab2377-704f-b46b-991d-6e62faf5a68e" type="selectionEntry">
+            <entryLink id="dcf5-19d1-3ce2-bf0c" hidden="false" targetId="ce38-2272-040b-0041" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="0dad-9558-fe57-1a51" hidden="false" targetId="7db398f6-93c6-e134-4106-8bf36ddd75d2" type="selectionEntry">
+            <entryLink id="0dad-9558-fe57-1a51" hidden="false" targetId="2998-b61d-3dbc-ac3a" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="c504-c543-6f90-7bd3" hidden="false" targetId="403471d1-b0ee-b707-a53f-7b593e075f56" type="selectionEntry">
+            <entryLink id="c504-c543-6f90-7bd3" hidden="false" targetId="7756-5020-91fa-abe1" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4223,21 +4223,21 @@
                   </modifiers>
                   <constraints/>
                 </entryLink>
-                <entryLink id="707f-6873-2d3b-9ee0" hidden="false" targetId="91ab2377-704f-b46b-991d-6e62faf5a68e" type="selectionEntry">
+                <entryLink id="707f-6873-2d3b-9ee0" hidden="false" targetId="ce38-2272-040b-0041" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="f551-6a28-3182-e948" hidden="false" targetId="403471d1-b0ee-b707-a53f-7b593e075f56" type="selectionEntry">
+                <entryLink id="f551-6a28-3182-e948" hidden="false" targetId="7756-5020-91fa-abe1" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="05f7-3819-284b-fab5" hidden="false" targetId="7db398f6-93c6-e134-4106-8bf36ddd75d2" type="selectionEntry">
+                <entryLink id="05f7-3819-284b-fab5" hidden="false" targetId="2998-b61d-3dbc-ac3a" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -4778,21 +4778,21 @@
                   </modifiers>
                   <constraints/>
                 </entryLink>
-                <entryLink id="8891-c5db-530f-2aeb" hidden="false" targetId="7db398f6-93c6-e134-4106-8bf36ddd75d2" type="selectionEntry">
+                <entryLink id="8891-c5db-530f-2aeb" hidden="false" targetId="2998-b61d-3dbc-ac3a" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="c808-0029-e6bf-c91f" hidden="false" targetId="91ab2377-704f-b46b-991d-6e62faf5a68e" type="selectionEntry">
+                <entryLink id="c808-0029-e6bf-c91f" hidden="false" targetId="ce38-2272-040b-0041" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="46f2-d6f6-b610-6c99" hidden="false" targetId="403471d1-b0ee-b707-a53f-7b593e075f56" type="selectionEntry">
+                <entryLink id="46f2-d6f6-b610-6c99" hidden="false" targetId="7756-5020-91fa-abe1" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -14131,41 +14131,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="91ab2377-704f-b46b-991d-6e62faf5a68e" name="Ion Cannon Battery" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="0c0c1f6b-4877-f9c8-9c2f-283afca5c9ab" name="Ion Cannon Battery " hidden="false" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Energy Limit" characteristicTypeId="6c51a39a-e133-d5f5-e790-ba40cd44e799" value="2"/>
-            <characteristic name="Weapon Range" characteristicTypeId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" value="2-4"/>
-            <characteristic name="Attack Value" characteristicTypeId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" value="4"/>
-          </characteristics>
-        </profile>
-        <profile id="7bdf5895-1be7-bd61-edfe-2edd717759a8" name="Ion Cannon Battery" hidden="false" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Hardpoint Ability" characteristicTypeId="9d9b1389-be43-ffef-020c-9f49626921d4" value="Attack (energy): Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel all dice results."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="6.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="df4f-4a32-9b56-ce42" name="Ionization Reactor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="1ed9-b165-68db-640d" name="Ionization Reactor" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed">
@@ -14190,41 +14155,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7db398f6-93c6-e134-4106-8bf36ddd75d2" name="Quad Laser Cannons" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="e2730525-cfab-d297-cc99-69d295888677" name="Quad Laser Cannons " hidden="false" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Energy Limit" characteristicTypeId="6c51a39a-e133-d5f5-e790-ba40cd44e799" value="2"/>
-            <characteristic name="Weapon Range" characteristicTypeId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" value="1-2"/>
-            <characteristic name="Attack Value" characteristicTypeId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="8f0aa79c-8281-20df-e188-0d16f5d320d0" name="Quad Laser Cannons" hidden="false" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Hardpoint Ability" characteristicTypeId="9d9b1389-be43-ffef-020c-9f49626921d4" value="Attack (energy): Spend 1 energy from this card to perform this attack. If this attack does not hit, you may immediately spend 1 energy from this card to perform this attack again."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="6.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -14326,41 +14256,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="403471d1-b0ee-b707-a53f-7b593e075f56" name="Single Turbolasers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="32252ec8-62f2-e8b1-f929-267a2491c60c" name="Single Turbolasers " hidden="false" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Energy Limit" characteristicTypeId="6c51a39a-e133-d5f5-e790-ba40cd44e799" value="2"/>
-            <characteristic name="Weapon Range" characteristicTypeId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" value="3-5"/>
-            <characteristic name="Attack Value" characteristicTypeId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" value="4"/>
-          </characteristics>
-        </profile>
-        <profile id="4f9333c9-dfd8-f55d-5e93-7ea738489362" name="Single Turbolasers" hidden="false" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Hardpoint Ability" characteristicTypeId="9d9b1389-be43-ffef-020c-9f49626921d4" value="Attack (energy): Spend 2 energy from this card to perform this attack. The defender doubles his agility value against this attack. You may change 1 of your [focus] results to a [hit] result."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="8.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>

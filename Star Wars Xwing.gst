@@ -4,8 +4,8 @@
   <rules/>
   <infoLinks/>
   <costTypes>
-    <costType id="points" name=" Points"/>
-    <costType id="884e-22c2-473a-a527" name=" Epic Points"/>
+    <costType id="points" name=" Points" defaultCostLimit="0.0"/>
+    <costType id="884e-22c2-473a-a527" name=" Epic Points" defaultCostLimit="0.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="31536869707323232344415441232323" name="1.1 Small and Large Ships">
@@ -4209,6 +4209,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3dcf-35da-21f7-be3f" name="Optimized Generators" hidden="false" collective="false" type="upgrade">
@@ -4234,6 +4235,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a366-3cc0-c359-e885" name="Ordnance Tubes" hidden="false" collective="false" type="upgrade">
@@ -4259,6 +4261,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6445-ea91-a2f8-a03d" name="Engineering Team" hidden="false" collective="false" type="upgrade">
@@ -4284,6 +4287,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8631-0e14-5535-781a" name="Gunnery Team" hidden="false" collective="false" type="upgrade">
@@ -4309,6 +4313,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b27b-68cf-6914-ac2f" name="Ordnance Experts" hidden="false" collective="false" type="upgrade">
@@ -4334,6 +4339,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="5.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cde5-10d4-3f0d-f764" name="Sensor Team" hidden="false" collective="false" type="upgrade">
@@ -4357,7 +4363,108 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="ce38-2272-040b-0041" name="Ion Cannon Battery" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6db9-3441-af4b-30b8" name="Ion Cannon Battery" hidden="false" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6" profileTypeName="7.1 Hardpoint">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="6c51a39a-e133-d5f5-e790-ba40cd44e799" value="2"/>
+            <characteristic name="Weapon Range" characteristicTypeId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" value="2-4"/>
+            <characteristic name="Attack Value" characteristicTypeId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="a95e-b645-f59a-d881" name="Ion Cannon Battery" hidden="false" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" profileTypeName="7.2 Hardpoint Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hardpoint Ability" characteristicTypeId="9d9b1389-be43-ffef-020c-9f49626921d4" value="Attack (energy): Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel all dice results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2998-b61d-3dbc-ac3a" name="Quad Laser Cannons" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f5c7-fd6b-7215-9354" name="Quad Laser Cannons" hidden="false" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6" profileTypeName="7.1 Hardpoint">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="6c51a39a-e133-d5f5-e790-ba40cd44e799" value="2"/>
+            <characteristic name="Weapon Range" characteristicTypeId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" value="1-2"/>
+            <characteristic name="Attack Value" characteristicTypeId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="f0a6-6182-380b-b6f4" name="Quad Laser Cannons" hidden="false" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" profileTypeName="7.2 Hardpoint Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hardpoint Ability" characteristicTypeId="9d9b1389-be43-ffef-020c-9f49626921d4" value="Attack (energy): Spend 1 energy from this card to perform this attack. If this attack does not hit, you may immediately spend 1 energy from this card to perform this attack again."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7756-5020-91fa-abe1" name="Single Turbolasers" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ca21-836e-9c6e-b1f1" name="Single Turbolasers" hidden="false" profileTypeId="03f3952f-d582-3574-fa2e-0238d07251d6" profileTypeName="7.1 Hardpoint">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="6c51a39a-e133-d5f5-e790-ba40cd44e799" value="2"/>
+            <characteristic name="Weapon Range" characteristicTypeId="36d45795-6a6e-bd5d-d71a-5071fbe7ba2b" value="3-5"/>
+            <characteristic name="Attack Value" characteristicTypeId="7f9c0f86-1f23-709b-5d82-c37313ad45a5" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="1d74-ef69-be66-a3d4" name="Single Turbolasers" hidden="false" profileTypeId="2fd72675-8c4d-f6cf-1d25-f9cbbb5629d2" profileTypeName="7.2 Hardpoint Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hardpoint Ability" characteristicTypeId="9d9b1389-be43-ffef-020c-9f49626921d4" value="Attack (energy): Spend 2 energy from this card to perform this attack. The defender doubles his agility value against this attack. You may change 1 of your [focus] results to a [hit] result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
