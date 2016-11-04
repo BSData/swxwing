@@ -3951,7 +3951,7 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="5c5f-66c1-a155-30bc" hidden="false" targetId="5666-dcf8-509e-5e8b" type="selectionEntry">
+                <entryLink id="5c5f-66c1-a155-30bc" hidden="false" targetId="0e02-27a4-0865-e88e" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -3995,7 +3995,7 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="49e1-93f1-6790-2c0d" hidden="false" targetId="b9faa60b-7cbc-8e5e-4011-3459cd15a3bc" type="selectionEntry">
+                <entryLink id="49e1-93f1-6790-2c0d" hidden="false" targetId="ea12-86d3-6265-4b46" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -4156,7 +4156,7 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="6723-1406-d5db-316b" hidden="false" targetId="7208-45ca-1c60-6a9a" type="selectionEntry">
+                <entryLink id="6723-1406-d5db-316b" hidden="false" targetId="5bbe-637c-91c5-a570" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -4876,7 +4876,7 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="0605-8474-6245-ec57" hidden="false" targetId="5666-dcf8-509e-5e8b" type="selectionEntry">
+                <entryLink id="0605-8474-6245-ec57" hidden="false" targetId="0e02-27a4-0865-e88e" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -4920,7 +4920,7 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="aefa-2799-a8ba-56e7" hidden="false" targetId="b9faa60b-7cbc-8e5e-4011-3459cd15a3bc" type="selectionEntry">
+                <entryLink id="aefa-2799-a8ba-56e7" hidden="false" targetId="ea12-86d3-6265-4b46" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5081,7 +5081,7 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="3132-75be-b4f5-fffe" hidden="false" targetId="7208-45ca-1c60-6a9a" type="selectionEntry">
+                <entryLink id="3132-75be-b4f5-fffe" hidden="false" targetId="5bbe-637c-91c5-a570" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -15288,32 +15288,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7208-45ca-1c60-6a9a" name="Construction Droid" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="1b98-695b-6855-462f" name="Construction Droid" hidden="false" profileTypeId="332e30334372657723232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When you perform a recover action, you may spend 1 energy to discard 1 facedown Damage card."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="9d617177-1358-92cf-9b97-67e07ff8a5b5" name="EM Emitter" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="e9536431-a2ca-9fc8-e72b-123504106378" name="EM Emitter" page="0" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed">
@@ -15634,30 +15608,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5666-dcf8-509e-5e8b" name="Shield Technician" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="dca4-8dd8-a8de-6927" name="Shield Technician" hidden="false" profileTypeId="332e30334372657723232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When you perform a recover action, instead of spending all of your energy, you can choose any amount of energy to spend."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="260d0909-ceed-b739-5310-9021942f40ba" name="Slicer Tools" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="dd620a17-b5fe-2bcc-0e13-bad755d99036" name="Slicer Tools" page="0" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed">
@@ -15757,30 +15707,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b9faa60b-7cbc-8e5e-4011-3459cd15a3bc" name="WED-15 Repair Droid" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="dacf35c7-8fc2-02c4-bb50-a758b8d955ad" name="WED-15 Repair Droid" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="Action: Spend 1 energy to discard 1 of your facedown Damage cards, or spend 3 energy to discard one of your faceup Damage cards."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -18415,7 +18341,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="ecc89188-ee20-f13e-39dd-5fc75fd31c7a" hidden="false" targetId="b9faa60b-7cbc-8e5e-4011-3459cd15a3bc" type="selectionEntry">
+        <entryLink id="ecc89188-ee20-f13e-39dd-5fc75fd31c7a" hidden="false" targetId="ea12-86d3-6265-4b46" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18513,7 +18439,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="3ee1-42c0-c037-f5fe" hidden="false" targetId="5666-dcf8-509e-5e8b" type="selectionEntry">
+        <entryLink id="3ee1-42c0-c037-f5fe" hidden="false" targetId="0e02-27a4-0865-e88e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18562,7 +18488,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="b74a-5527-bd5d-a4ee" hidden="false" targetId="7208-45ca-1c60-6a9a" type="selectionEntry">
+        <entryLink id="b74a-5527-bd5d-a4ee" hidden="false" targetId="5bbe-637c-91c5-a570" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

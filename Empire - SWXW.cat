@@ -13912,32 +13912,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1d59-ebe5-5e8d-62de" name="Construction Droid" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="b6cd-433b-89e0-4b68" name="Construction Droid" hidden="false" profileTypeId="332e30334372657723232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When you perform a recover action, you may spend 1 energy to discard 1 facedown Damage card."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="3.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ed63-749a-0904-2f3b" name="Docking Clamps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="aeb9-b953-42a8-a49a" name="Docking Clamps" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed">
@@ -14235,30 +14209,6 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d26-1be6-cc57-6ad6" name="Shield Technician" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="4034-03d6-1587-ca3b" name="Shield Technician" hidden="false" profileTypeId="332e30334372657723232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When you perform a recover action, instead of spending all of your energy, you can choose any amount of energy to spend."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="1.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="a61901a8-5152-1386-eb64-1a5e1c19b5ea" name="Slicer Tools" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="065aa8f8-4272-0560-079b-91f894298255" name="Slicer Tools" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed">
@@ -14491,30 +14441,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="-2.0"/>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b8853b92-4761-bfaf-f0bd-9b5fbc4b8d35" name="WED-15 Repair Droid" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="5badaa00-6001-5758-5589-74d11337e23d" name="WED-15 Repair Droid" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="Action: Spend 1 energy to discard 1 of your facedown Damage cards, or spend 3 energy to discard 1 of your faceup Damage cards."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="points" value="2.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -15752,7 +15678,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="a3fd2896-cc12-73c3-ae9a-97a4b5f8e1a1" hidden="false" targetId="b8853b92-4761-bfaf-f0bd-9b5fbc4b8d35" type="selectionEntry">
+        <entryLink id="a3fd2896-cc12-73c3-ae9a-97a4b5f8e1a1" hidden="false" targetId="ea12-86d3-6265-4b46" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15843,7 +15769,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="9946-0e55-8012-2562" hidden="false" targetId="7d26-1be6-cc57-6ad6" type="selectionEntry">
+        <entryLink id="9946-0e55-8012-2562" hidden="false" targetId="0e02-27a4-0865-e88e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15864,7 +15790,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="2119-19e2-8335-edf0" hidden="false" targetId="1d59-ebe5-5e8d-62de" type="selectionEntry">
+        <entryLink id="2119-19e2-8335-edf0" hidden="false" targetId="5bbe-637c-91c5-a570" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
