@@ -4398,6 +4398,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="6.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2998-b61d-3dbc-ac3a" name="Quad Laser Cannons" hidden="false" collective="false" type="upgrade">
@@ -4432,6 +4433,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="6.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7756-5020-91fa-abe1" name="Single Turbolasers" hidden="false" collective="false" type="upgrade">
@@ -4464,7 +4466,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+        <cost name=" Points" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5bbe-637c-91c5-a570" name="Construction Droid" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -4489,6 +4494,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e02-27a4-0865-e88e" name="Shield Technician" hidden="false" collective="false" type="upgrade">
@@ -4512,6 +4518,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea12-86d3-6265-4b46" name="WED-15 Repair Droid" hidden="false" collective="false" type="upgrade">
@@ -4535,6 +4542,259 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3097-59a1-75d5-c8fd" name="Backup Shield Generator" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3b35-3bed-c739-dddb" name="Backup Shield Generator" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="At the end of each round, you may spend 1 energy to recover 1 shield (up to your shield value)."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5256-b106-8fe6-e361" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69b2-fac2-df08-de45" name="Cluster Bombs" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f9f2-60c6-c5e8-005a" name="Cluster Bombs" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="After defending, you may discard this card. If you do, each other ship at Range 1 of the defending section rolls 2 attack dice, suffering all damage [hit] and critical damage [critical] rolled."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9556-7cf3-3e66-6326" name="Comms Booster" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b0b4-55ee-de27-12a0" name="Comms Booster" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="Energy: Spend 1 energy to remove all stress tokens from a friendly ship at Range 1-3. Then assign 1 focus token to that ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b15-9187-5c7c-2e25" name="EM Emitter" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="64b6-dfd7-fb29-170a" name="EM Emitter" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="When you obstruct an attack, the defender rolls 3 additional defense dice (instead of 1)."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c27f-4aca-9ae4-8576" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fa9f-dd35-65a8-e8ba" name="Engine Booster" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6bab-57dc-c21c-1997" name="Engine Booster" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="Immediately before you reveal your maneuver dial, you may spend 1 energy to execute a white [straight 1] maneuver. You cannot use this ability if you would overlap another ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dcea-bcfc-5791-26c2" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df27-ea2c-d9df-a8ca" name="Frequency Jammer" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0ce0-d1ee-4b7d-3c22" name="Frequency Jammer" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="When you perform a jam action, choose 1 enemy ship that does not have a stress token and is at Range 1 of the jammed ship. The chosen ship receives 1 stress token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8233-dab7-ee0f-dcee" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc59-9887-343a-50aa" name="Ionization Reactor" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b2af-0e86-0d41-82ef" name="Ionization Reactor" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478" value="5"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="Energy: Spend 5 energy from this card and discard this card to cause each other ship at Range 1 to suffer 1 damage and receive 1 ion token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="61f2-fb12-4ba6-07a3" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1145-86c1-1b5c-1db4" name="Shield Projector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8212-dd8e-5f9d-aa56" name="Shield Projector" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="When an enemy ship becomes the active ship during the Combat phase, you may spend 3 energy to force that ship to attack you, if possible, until the end of the phase."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89f1-3519-232e-cbc1" name="Slicer Tools" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="315d-b683-cc7d-eea2" name="Slicer Tools" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="Action: Choose 1 or more enemy ships at Range 1-3 that have a stress token. For each ship chosen, you may spend 1 energy to cause that ship to suffer 1 damage."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0474-9a22-c65d-0a01" name="Tibanna Gas Supplies" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9eb6-e31c-3036-805e" name="Tibanna Gas Supplies" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="Energy: You may discard this card to gain 3 energy."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e12b-9db1-fcc5-6da7" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
