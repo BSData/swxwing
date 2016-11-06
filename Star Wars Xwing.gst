@@ -5321,5 +5321,64 @@
         <characteristic name="Symbol Key" characteristicTypeId="7ba819ca-effa-8c45-5542-10f769608bbc" value="Cards marked with a dagger symbol (†) have not been officially released by Fantasy Flight Games. This information is based on official Fantasy Flight preview articles or early releases of product at tournaments or conventions. Cards maked with the dagger symbol may not have their final official text, are subject to change, and are generally not legal for tournament play."/>
       </characteristics>
     </profile>
+    <profile id="f6a0-7ed8-56e3-7568" name="†† - Placeholder" hidden="false" profileTypeId="a285251b-01f4-7499-3b4d-39a062b4d963" profileTypeName="9.9 Symbol">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Symbol Key" characteristicTypeId="7ba819ca-effa-8c45-5542-10f769608bbc" value="Cards marked with a double dagger symbol (††) are not actual cards made by Fantasy Flight Games. They are not intended for game play and exist only to fill in blanks in the catalogue file."/>
+      </characteristics>
+    </profile>
+    <profile id="c7fb-e7aa-033a-29da" name="HWK-290" hidden="false" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" profileTypeName="1.3 Ship Profiles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Size" characteristicTypeId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" value="Small"/>
+        <characteristic name="Firing Arc" characteristicTypeId="34420436-d2e3-e411-acbe-c4c3f0473a42" value="Standard"/>
+      </characteristics>
+    </profile>
+    <profile id="bbbb-6c87-c2ae-4466" name="TIE Fighter" hidden="false" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" profileTypeName="1.3 Ship Profiles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Size" characteristicTypeId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" value="Small"/>
+        <characteristic name="Firing Arc" characteristicTypeId="34420436-d2e3-e411-acbe-c4c3f0473a42" value="Standard"/>
+      </characteristics>
+    </profile>
+    <profile id="affc-ef51-bf2c-3c67" name="Y-Wing" hidden="false" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" profileTypeName="1.3 Ship Profiles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Size" characteristicTypeId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" value="Small"/>
+        <characteristic name="Firing Arc" characteristicTypeId="34420436-d2e3-e411-acbe-c4c3f0473a42" value="Standard"/>
+      </characteristics>
+    </profile>
+    <profile id="b962-a893-093c-b377" name="Z-95 Headhunter" hidden="false" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" profileTypeName="1.3 Ship Profiles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Size" characteristicTypeId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" value="Smal"/>
+        <characteristic name="Firing Arc" characteristicTypeId="34420436-d2e3-e411-acbe-c4c3f0473a42" value="Standard"/>
+      </characteristics>
+    </profile>
+    <profile id="d657-b916-b985-56fe" name="Firespray-31" hidden="false" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" profileTypeName="1.3 Ship Profiles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Size" characteristicTypeId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" value="Large"/>
+        <characteristic name="Firing Arc" characteristicTypeId="34420436-d2e3-e411-acbe-c4c3f0473a42" value="Auxiliary Arc"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
