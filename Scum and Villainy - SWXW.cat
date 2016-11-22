@@ -9662,6 +9662,38 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e898-b842-b534-b244" name="Spacetug Tractor Array†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="30c0-0b12-45b9-ece2" name="Spacetug Tractor Array" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="Action: Choose a ship inside your firing arc at Range 1 and assign a tractor beam token to it. If it is a friendly ship, resolve the effect of the tractor beam token as though it were an enemy ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7af6-ad69-e855-6d47" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7849-f302-e3c2-6c40" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" hidden="false" collective="false">
@@ -10817,6 +10849,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="f498-504f-6e25-cae5" name="New EntryLink" hidden="false" targetId="bfa4-f3de-3502-b15b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="81a5-0a05-2068-e548" name="Illicit" hidden="false" collective="false">
@@ -10893,6 +10932,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="ea7a-7e92-4ecf-72db" name="New EntryLink" hidden="false" targetId="bfa4-f3de-3502-b15b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0719-388f-4032-7762" name="Illicit" hidden="false" collective="false">
@@ -10963,6 +11009,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="cfe6-e5cc-c924-c71d" hidden="false" targetId="54b6-60a7-c277-fdb4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="48df-185b-00cb-63ce" name="New EntryLink" hidden="false" targetId="bfa4-f3de-3502-b15b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11915,6 +11968,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="ff82-d92e-2303-5d8b" hidden="false" targetId="1cea-76e8-74ff-211b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="50be-3989-d0ed-14e6" name="New EntryLink" hidden="false" targetId="e898-b842-b534-b244" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

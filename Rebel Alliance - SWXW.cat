@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="113" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="114" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -19030,6 +19030,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="3913-7aac-8011-a9a7" name="New EntryLink" hidden="false" targetId="bfa4-f3de-3502-b15b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="39b0-c828-9586-863a" name="Illicit" hidden="true" collective="false">
@@ -19101,6 +19108,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="c62e-8002-f9d5-fc69" hidden="false" targetId="54b6-60a7-c277-fdb4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="72e4-f143-6bad-e55b" name="New EntryLink" hidden="false" targetId="bfa4-f3de-3502-b15b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

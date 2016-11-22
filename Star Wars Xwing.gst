@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="34" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="35" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2225,13 +2225,13 @@
             <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="During setup, before the &quot;Place Forces&quot; step, choose 1 enemy ship and assign the &quot;A Debt to Pay&quot; Condition card to it. When attacking a ship that has the &quot;A Debt to Pay&quot; Condition card, you may change 1 [focus] result to a [critical] result."/>
           </characteristics>
         </profile>
-        <profile id="500c-d358-e7b8-b9ed" name="•A Debt to Pay" hidden="true" profileTypeId="0874-76fd-36c4-9cd1" profileTypeName="9.1 Condition">
+        <profile id="500c-d358-e7b8-b9ed" name="•A Debt to Pay" hidden="false" profileTypeId="0874-76fd-36c4-9cd1" profileTypeName="9.1 Condition">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Condition Text" characteristicTypeId="80e5-3743-2c52-c7eb" value="[Placeholder]"/>
+            <characteristic name="Condition Text" characteristicTypeId="80e5-3743-2c52-c7eb" value="When attacking a ship that has the &quot;A Score to Settle&quot; Upgrade card, you may change 1 [focus] result to a [critical] result."/>
           </characteristics>
         </profile>
       </profiles>
@@ -4805,6 +4805,36 @@
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfa4-f3de-3502-b15b" name="Scavenger Crane†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5348-7d17-cd3f-01d4" name="Scavenger Crane" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Illicit Ability" characteristicTypeId="f943a944-4fd4-9297-edc3-1ed106a27d87" value="After a ship at Range 1-2 is destroyed, you may choose a discarded [torpedoes], [missiles], [bomb], [cannon], [turret], or Modification Upgrade card that was equipped to your ship and flip it faceup. Then roll 1 attack die. On a blank result, discard Scavenger Crane."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="392b-9711-34f9-498e" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
