@@ -4237,6 +4237,27 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
+                <entryLink id="0a60-f701-e97e-0582" name="" hidden="false" targetId="7369-5f2f-9a15-cb64" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="46d5-1afc-f0c5-72cc" name="" hidden="false" targetId="3617-c116-2602-3ad4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="1cbf-1bbf-6e14-29a6" name="" hidden="false" targetId="5b5d-b33c-32fa-96b8" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="be34-e576-a2cb-95d0" name="Team" hidden="false" collective="false">
@@ -5156,6 +5177,27 @@
                   <constraints/>
                 </entryLink>
                 <entryLink id="1056-8f38-0de7-08d4" hidden="false" targetId="313a-ad2b-e4b7-ea25" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="1569-25c0-9648-e7a1" name="" hidden="false" targetId="7369-5f2f-9a15-cb64" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="ba44-5435-ad16-c25b" name="" hidden="false" targetId="3617-c116-2602-3ad4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="bf79-5d42-ef29-d8be" name="" hidden="false" targetId="5b5d-b33c-32fa-96b8" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -15160,7 +15202,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b5d-b33c-32fa-96b8" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -15385,6 +15435,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="24.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -17452,6 +17503,80 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3617-c116-2602-3ad4" name="•Baze Malbus†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0311-b5ef-a63c-2e81" name="Baze Malbus" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="After you perform an attack that does not hit, you may perform a primary weapon attack against a different ship. You cannot perform another attack this round."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="397f-98f5-7e22-d118" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b5d-b33c-32fa-96b8" name="•Bodhi Rook†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="29b0-2b62-769e-e1a3" name="Bodhi Rook" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When you acquire a target lock, you can lock onto an enemy ship at Range 1-3 of any friendly ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4e17-d481-ba82-0e5e" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="de2e-3c65-1c41-cdb6" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" hidden="false" collective="false">
@@ -18223,6 +18348,27 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="f0c4-a6ea-3c36-b90e" name="" hidden="false" targetId="7369-5f2f-9a15-cb64" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="1a3e-a5f1-4615-ccce" name="" hidden="false" targetId="3617-c116-2602-3ad4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="18bb-16ce-17b4-217d" name="" hidden="false" targetId="5b5d-b33c-32fa-96b8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="60819a12-fd97-e9e0-7691-09cd50bb8184" name="Crew" hidden="false" collective="false">
@@ -18537,6 +18683,27 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="b55f-2376-2475-b559" name="" hidden="false" targetId="7369-5f2f-9a15-cb64" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4e38-ee7f-5901-506f" name="" hidden="false" targetId="3617-c116-2602-3ad4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="6f88-9b83-e69c-28d4" name="" hidden="false" targetId="5b5d-b33c-32fa-96b8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="809b-eddb-0859-03bd" name="Crew" hidden="false" collective="false">
@@ -18803,6 +18970,27 @@
           <constraints/>
         </entryLink>
         <entryLink id="411a-b3ec-945b-1092" hidden="false" targetId="313a-ad2b-e4b7-ea25" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="cabf-a680-811a-2ac4" name="" hidden="false" targetId="7369-5f2f-9a15-cb64" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="c2ac-4ac4-106d-fe8c" name="" hidden="false" targetId="3617-c116-2602-3ad4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="1d34-16ac-e0fd-6ba9" name="" hidden="false" targetId="5b5d-b33c-32fa-96b8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
