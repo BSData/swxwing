@@ -15252,6 +15252,38 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c494-c225-0057-e870" name="Lightweight Frame†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b976-7be6-9f4c-c015" name="Lightweight Frame" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="When defending, after rolling defense dice, if there are more attack dice than defense dice, roll 1 additional defense die."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="43fa-77a8-d7db-a7d6" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" hidden="false" collective="false">
@@ -17372,6 +17404,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="eedd-7b60-b6ec-9d39" name="New EntryLink" hidden="false" targetId="c494-c225-0057-e870" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c7ddabe0-127c-9d9b-32f0-fd0358cd46ce" name="Modification" hidden="false" collective="false">
@@ -17484,6 +17523,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="4e3a-d47d-9ac1-d82b" name="" hidden="false" targetId="c494-c225-0057-e870" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="a458cc23-1004-1dcd-9d03-eb83119817c4" name="Modification" hidden="false" collective="false">
@@ -17582,6 +17628,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="2dd2-6e17-ed4f-2a5f" hidden="false" targetId="5420-d6e9-e9b0-18d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="537e-fb25-ee85-b59f" name="" hidden="false" targetId="c494-c225-0057-e870" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17831,6 +17884,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="4ba7-ba4d-786c-1d48" hidden="false" targetId="5420-d6e9-e9b0-18d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="6973-5ffe-23fe-c6e6" name="" hidden="false" targetId="c494-c225-0057-e870" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
