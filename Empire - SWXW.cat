@@ -8072,7 +8072,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d575-4530-5164-ac48" name="PS 6 - •&quot;Pure Sabacc&quot;††" hidden="true" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
+    <selectionEntry id="d575-4530-5164-ac48" name="PS 6 - •&quot;Pure Sabacc&quot;†" hidden="false" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
       <profiles>
         <profile id="41bf-9011-bffc-06a9" name="•&quot;Pure Sabacc&quot;" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -8130,13 +8130,13 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="[Placeholder]"/>
+            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="When attacking, if you have 1 or fewer Damage cards, roll 1 additional attack die."/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="0c66-2b31-9d3b-f62b" hidden="false" targetId="f6a0-7ed8-56e3-7568" type="profile">
+        <infoLink id="0c66-2b31-9d3b-f62b" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11544,7 +11544,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="When you have the &quot;Adaptive Ailerons&quot; Upgrade card equipped, you may choose to ignore its card ability."/>
+            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="While you have the &quot;Adaptive Ailerons&quot; Upgrade card equipped, you may choose to ignore its card ability."/>
           </characteristics>
         </profile>
       </profiles>
@@ -13652,9 +13652,9 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1ee-1743-9ed6-e872" name="PS 5 - •&quot;Placeholder Striker&quot;††" hidden="true" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
+    <selectionEntry id="c1ee-1743-9ed6-e872" name="PS 5 - •&quot;Countdown&quot;†" hidden="false" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
       <profiles>
-        <profile id="ea7f-0d07-48b1-2486" name="•&quot;Placeholder Striker&quot;" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
+        <profile id="ea7f-0d07-48b1-2486" name="•&quot;Countdown&quot;" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13690,13 +13690,13 @@
             <characteristic name="Upgrade Bar" characteristicTypeId="557067726164652042617223232344415441232323" value=""/>
           </characteristics>
         </profile>
-        <profile id="6a6b-c293-730e-b9c4" name="&quot;Placeholder Striker&quot;" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323" profileTypeName="2.1 Pilot Ability">
+        <profile id="6a6b-c293-730e-b9c4" name="&quot;Countdown&quot;" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323" profileTypeName="2.1 Pilot Ability">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="[Placeholder]"/>
+            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="When defending, if you are not stressed, during the &quot;Compare Results&quot; step, you may suffer 1 damage to cancel all dice results. If you do, receive 1 stress token."/>
           </characteristics>
         </profile>
       </profiles>
@@ -13726,7 +13726,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="c14e-e7d0-37ed-748b" name="" hidden="false" targetId="f6a0-7ed8-56e3-7568" type="profile">
+        <infoLink id="c14e-e7d0-37ed-748b" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13770,13 +13770,13 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="21.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="20.0"/>
         <cost name=" Points" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87f3-09b1-a592-4570" name="PS 1 - Low Generic Striker††" hidden="true" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
+    <selectionEntry id="87f3-09b1-a592-4570" name="PS 1 - Imperial Trainee†" hidden="false" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
       <profiles>
-        <profile id="699b-8cd9-ca25-d732" name="Low Generic Striker" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
+        <profile id="699b-8cd9-ca25-d732" name="Imperial Trainee" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13833,7 +13833,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d32e-07f1-3a63-aa1d" name="" hidden="false" targetId="f6a0-7ed8-56e3-7568" type="profile">
+        <infoLink id="d32e-07f1-3a63-aa1d" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13881,7 +13881,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="points" value="18.0"/>
+        <cost name=" Points" costTypeId="points" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e86-cc3d-8ba4-dc9d" name="PS 3 - Mid Generic Striker††" hidden="true" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
@@ -13991,10 +13991,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="points" value="19.0"/>
+        <cost name=" Points" costTypeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="59fd-bb04-881c-fea3" name="PS 4 - High Generic Striker††" hidden="false" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
+    <selectionEntry id="59fd-bb04-881c-fea3" name="PS 4 - High Generic Striker††" hidden="true" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
       <profiles>
         <profile id="7e25-fb88-46a9-e058" name="High Generic Striker" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -14122,7 +14122,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="points" value="20.0"/>
+        <cost name=" Points" costTypeId="points" value="19.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
