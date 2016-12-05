@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="115" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="116" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -17534,6 +17534,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5b5d-b33c-32fa-96b8" name="•Bodhi Rook†" hidden="false" collective="false" type="upgrade">
@@ -17575,6 +17576,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -19234,6 +19236,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="7db0-2ce5-ce94-14fe" name="" hidden="false" targetId="4ab1-d2a2-c27e-244a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f01d-656f-5b3a-cc44" name="Elite" hidden="false" collective="false">
@@ -19444,6 +19453,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="5b81-9a41-ae5c-f444" hidden="false" targetId="bc2a-443b-b88b-acd0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="26ac-b1e2-79af-53a6" name="" hidden="false" targetId="4ab1-d2a2-c27e-244a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

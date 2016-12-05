@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="108" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="109" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -10558,6 +10558,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="5eaa-bef7-8ad8-dd05" name="" hidden="false" targetId="4ab1-d2a2-c27e-244a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6c29-e554-71ed-ed9e" name="Elite" hidden="false" collective="false">
@@ -10789,6 +10796,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="6ea6-a106-a41c-9f5c" hidden="false" targetId="bc2a-443b-b88b-acd0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3eed-0abc-4bb0-1a66" name="" hidden="false" targetId="4ab1-d2a2-c27e-244a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

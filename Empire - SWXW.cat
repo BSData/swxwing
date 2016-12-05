@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="115" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="116" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -13882,6 +13882,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="17.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e86-cc3d-8ba4-dc9d" name="PS 3 - Mid Generic Striker††" hidden="true" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
@@ -13992,6 +13993,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="18.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="59fd-bb04-881c-fea3" name="PS 4 - High Generic Striker††" hidden="true" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
@@ -14123,6 +14125,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="19.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -15282,6 +15285,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -16638,6 +16642,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="4404-2f86-b031-2379" name="" hidden="false" targetId="4ab1-d2a2-c27e-244a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="a110-9472-9df0-2c9b" name="Elite" hidden="false" collective="false">
@@ -16855,6 +16866,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="6aa7-4939-ab1d-8c2a" hidden="false" targetId="bc2a-443b-b88b-acd0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="b30c-0f8e-597c-dae1" name="" hidden="false" targetId="4ab1-d2a2-c27e-244a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
