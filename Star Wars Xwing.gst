@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="37" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="38" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4900,6 +4900,40 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03aa-b184-0cb7-bab1" name="•BoShek†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0baa-4358-2f39-4f78" name="BoShek" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When a ship you are touching activates, you may look at its chosen maneuver dial. If you do, its owner must rotate the dial to an adjacent maneuver. The ship can reveal and execute that maneuver even while stressed."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="50bb-e001-f01f-0344" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2ca6-e06c-60a1-42f3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="57eb-e1a5-a585-f775" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
