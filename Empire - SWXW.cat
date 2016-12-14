@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="118" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="119" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -13885,9 +13885,9 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e86-cc3d-8ba4-dc9d" name="PS 3 - Mid Generic Striker††" hidden="true" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
+    <selectionEntry id="6e86-cc3d-8ba4-dc9d" name="PS 3 - Scarif Defender†" hidden="false" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
       <profiles>
-        <profile id="4ed7-7480-d708-dde0" name="Mid Generic Striker" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
+        <profile id="4ed7-7480-d708-dde0" name="Scarif Defender" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13944,7 +13944,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6464-bf20-b2ec-bd17" name="" hidden="false" targetId="f6a0-7ed8-56e3-7568" type="profile">
+        <infoLink id="6464-bf20-b2ec-bd17" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13996,9 +13996,9 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="59fd-bb04-881c-fea3" name="PS 4 - High Generic Striker††" hidden="true" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
+    <selectionEntry id="59fd-bb04-881c-fea3" name="PS 4 - Black Squadron Scout†" hidden="false" collective="false" categoryEntryId="47d7-a285-1371-3234" type="model">
       <profiles>
-        <profile id="7e25-fb88-46a9-e058" name="High Generic Striker" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
+        <profile id="7e25-fb88-46a9-e058" name="Black Squadron Scout" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14069,7 +14069,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e3ba-7cc1-ca38-ba60" name="" hidden="false" targetId="f6a0-7ed8-56e3-7568" type="profile">
+        <infoLink id="e3ba-7cc1-ca38-ba60" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14124,7 +14124,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="points" value="19.0"/>
+        <cost name=" Points" costTypeId="points" value="20.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
