@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="118" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="119" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -546,7 +546,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3df7-27e4-2b6f-6ff6" name="PS 2 - Blue Squadron Pathfinder†" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
+    <selectionEntry id="3df7-27e4-2b6f-6ff6" name="PS 2 - Blue Squadron Pathfinder" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
       <profiles>
         <profile id="6baa-7e07-af96-6b1f" name="Blue Squadron Pathfinder" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -601,12 +601,6 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="2e76-97a7-c7cd-e9e0" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="d71c-5cbc-ca51-db28" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
           <profiles/>
           <rules/>
@@ -9736,7 +9730,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c117-d5b7-6be4-edef" name="PS 6 - •Cassian Andor†" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
+    <selectionEntry id="c117-d5b7-6be4-edef" name="PS 6 - •Cassian Andor" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
       <profiles>
         <profile id="b086-b01b-a4d0-c854" name="•Cassian Andor" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -9827,12 +9821,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="bd52-f572-dfee-873b" hidden="false" targetId="94f5-8aac-9ce7-5164" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6d65-e472-20f3-f9e5" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15141,7 +15129,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de2e-3c65-1c41-cdb6" name="PS 4 - •Bodhi Rook†" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
+    <selectionEntry id="de2e-3c65-1c41-cdb6" name="PS 4 - •Bodhi Rook" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
       <profiles>
         <profile id="9eb0-f0f0-fe83-8950" name="•Bodhi Rook" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -15212,12 +15200,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="4920-54e2-90f9-f7ba" name="" hidden="false" targetId="faa6-411c-27d0-85f8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0125-ffca-cb7d-2bdc" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15308,7 +15290,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4841-3f79-2c42-dd6f" name="PS 3 - •Heff Tobber†" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
+    <selectionEntry id="4841-3f79-2c42-dd6f" name="PS 3 - •Heff Tobber" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
       <profiles>
         <profile id="beb1-bc1f-236c-4365" name="•Heff Tobber" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -15379,12 +15361,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="7a7d-a2d0-7a92-d2d2" name="New InfoLink" hidden="false" targetId="faa6-411c-27d0-85f8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="63f3-cfdb-0c41-2ef7" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15649,7 +15625,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c1d-c1fa-fbce-0f0a" name="Pivot Wing†" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="1c1d-c1fa-fbce-0f0a" name="Pivot Wing" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="4cde-f4c4-01a0-b83a" name="Pivot Wing (Attack)" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -15671,14 +15647,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="6c79-e7f2-bc6e-5654" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -16160,7 +16129,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fce-5306-45ec-d656" name="•Cassian Andor†" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="4fce-5306-45ec-d656" name="•Cassian Andor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="a319-53cb-aa45-d2bd" name="Cassian Andor" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16173,14 +16142,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="ddcf-ccd6-92fe-fc08" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
@@ -16595,7 +16557,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bbec-ea17-b702-d328" name="•Jyn Erso†" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="bbec-ea17-b702-d328" name="•Jyn Erso" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="2eef-8450-3c8a-5afe" name="Jyn Erso" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16608,14 +16570,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="3095-4b9f-94c9-511c" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -17531,7 +17486,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3617-c116-2602-3ad4" name="•Baze Malbus†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3617-c116-2602-3ad4" name="•Baze Malbus" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0311-b5ef-a63c-2e81" name="Baze Malbus" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
           <profiles/>
@@ -17544,14 +17499,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="397f-98f5-7e22-d118" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -17565,7 +17513,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b5d-b33c-32fa-96b8" name="•Bodhi Rook†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5b5d-b33c-32fa-96b8" name="•Bodhi Rook" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="29b0-2b62-769e-e1a3" name="Bodhi Rook" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
           <profiles/>
@@ -17578,14 +17526,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="4e17-d481-ba82-0e5e" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
@@ -17607,7 +17548,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="26c6-bff1-5840-e97d" name="•Bistan†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="26c6-bff1-5840-e97d" name="•Bistan" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d378-8dec-27ea-cb3d" name="Bistan" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
           <profiles/>
@@ -17620,14 +17561,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="3c5f-19d8-c1fd-422f" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -17638,6 +17572,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
