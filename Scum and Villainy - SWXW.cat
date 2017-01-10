@@ -644,6 +644,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="77a241ad-1c23-4264-8be7-b601ed64e5c0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3244-3ffa-63c6-c8cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="2"/>
@@ -710,6 +717,13 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="0b8e-5efa-2285-087c" name="" hidden="false" targetId="3244-3ffa-63c6-c8cd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -718,7 +732,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="77a241ad-1c23-4264-8be7-b601ed64e5c0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3244-3ffa-63c6-c8cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="5471-49dd-9890-110e" hidden="false" targetId="b8a4-ecb4-68fd-07d5" type="selectionEntryGroup">
@@ -3007,6 +3029,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5f50-4f64-a336-474b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3244-3ffa-63c6-c8cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="5"/>
@@ -3073,6 +3102,13 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="d13a-ed6b-f425-b4c4" name="" hidden="false" targetId="3244-3ffa-63c6-c8cd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3081,7 +3117,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5f50-4f64-a336-474b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3244-3ffa-63c6-c8cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="1150-7119-4e1e-ad24" hidden="false" targetId="2749eab7-0fe2-0198-c7aa-c119cb08c41a" type="selectionEntryGroup">
@@ -5532,6 +5576,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="750dee51-1252-b541-0148-b83bdaa9e29d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3244-3ffa-63c6-c8cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="6"/>
@@ -5600,6 +5651,13 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="ef8f-8b58-63d1-3fb1" name="" hidden="false" targetId="3244-3ffa-63c6-c8cd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5608,7 +5666,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="750dee51-1252-b541-0148-b83bdaa9e29d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3244-3ffa-63c6-c8cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="7860-e08e-ee40-e6f7" hidden="false" targetId="b8a4-ecb4-68fd-07d5" type="selectionEntryGroup">
@@ -7868,6 +7934,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c6bb0ed7-0c44-d84f-e311-94343ddc34dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3244-3ffa-63c6-c8cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="8"/>
@@ -7945,6 +8018,13 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="4f1a-da69-a985-98e1" name="" hidden="false" targetId="3244-3ffa-63c6-c8cd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7960,7 +8040,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c6bb0ed7-0c44-d84f-e311-94343ddc34dd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3244-3ffa-63c6-c8cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="420a-d477-b082-9fc1" hidden="false" targetId="b8a4-ecb4-68fd-07d5" type="selectionEntryGroup">
@@ -9971,6 +10059,38 @@
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3244-3ffa-63c6-c8cd" name="&quot;Light Scyk&quot; Interceptor†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1ac4-3300-ec55-97af" name="&quot;Light Scyk&quot; Interceptor" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Title Ability" characteristicTypeId="5469746c65204162696c69747923232344415441232323" value="All Damage cards dealt to you are dealt faceup. You may treat all bank maneuvers ([left bank] or [right bank]) as green maneuvers. You cannot equip Modification upgrades."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f8dd-d6fc-935b-7e82" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f2d-25c8-ba8a-d29b" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="-2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
