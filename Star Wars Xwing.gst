@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="40" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="41" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -557,7 +557,7 @@
           <modifiers>
             <modifier type="decrement" field="maxSelections" value="1.0">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b8d6-fa09-457d-2fb5" repeats="1"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b8d6-fa09-457d-2fb5" repeats="1" roundUp="false"/>
               </repeats>
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b8d6-fa09-457d-2fb5" type="atLeast"/>
@@ -837,7 +837,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54b6-60a7-c277-fdb4" name="•EMP Device†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="54b6-60a7-c277-fdb4" name="•EMP Device" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="488f-856c-52e9-3c3b" name="EMP Device" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
           <profiles/>
@@ -850,14 +850,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="fb9d-6a90-e179-b50c" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e77a-fbfa-1fae-c923" type="max"/>
@@ -2214,7 +2207,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="32c6-5f17-67ef-e224" name="•A Score to Settle†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="32c6-5f17-67ef-e224" name="•A Score to Settle" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="fea0-e157-8b8c-ea34" name="A Score to Settle" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
           <profiles/>
@@ -2236,14 +2229,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="3907-bcf4-971c-f67f" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7269-508f-cc56-32e0" type="max"/>
@@ -2479,9 +2465,9 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f5dd-6bc2-892e-625c" name="Operations Specialist†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f5dd-6bc2-892e-625c" name="Operations Specialist" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="038b-c664-7af6-519d" name="Operations Specialist†" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
+        <profile id="038b-c664-7af6-519d" name="Operations Specialist" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2492,14 +2478,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="e06f-78e7-890c-b89b" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f99-fdfb-c815-ba4b" type="max"/>
@@ -2686,7 +2665,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de26-b057-b829-9577" name="Hyperwave Comm Scanner†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="de26-b057-b829-9577" name="Hyperwave Comm Scanner" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="f632-db74-d886-654b" name="Hyperwave Comm Scanner" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
           <profiles/>
@@ -2699,14 +2678,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="28e4-6f40-51f3-4566" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -2789,7 +2761,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d67d-cfaa-5c9f-1d0e" name="Targeting Synchronizer†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d67d-cfaa-5c9f-1d0e" name="Targeting Synchronizer" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="17dd-99c2-5dc3-6a7d" name="Targeting Synchronizer" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
           <profiles/>
@@ -2802,14 +2774,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="3738-73b3-938c-aaee" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -4807,7 +4772,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfa4-f3de-3502-b15b" name="Scavenger Crane†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="bfa4-f3de-3502-b15b" name="Scavenger Crane" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="5348-7d17-cd3f-01d4" name="Scavenger Crane" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
           <profiles/>
@@ -4820,14 +4785,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="392b-9711-34f9-498e" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -4889,7 +4847,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="03aa-b184-0cb7-bab1" name="•BoShek†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="03aa-b184-0cb7-bab1" name="•BoShek" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0baa-4358-2f39-4f78" name="BoShek" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
           <profiles/>
@@ -4902,14 +4860,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="50bb-e001-f01f-0344" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2ca6-e06c-60a1-42f3" type="max"/>

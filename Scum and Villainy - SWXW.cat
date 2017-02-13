@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="113" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="114" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1924,7 +1924,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b50-7a8b-818c-eafe" name="PS 3 - •Unkar Plutt†" hidden="false" collective="false" categoryEntryId="5a48-b156-53f8-c9da" type="model">
+    <selectionEntry id="2b50-7a8b-818c-eafe" name="PS 3 - •Unkar Plutt" hidden="false" collective="false" categoryEntryId="5a48-b156-53f8-c9da" type="model">
       <profiles>
         <profile id="65d0-5585-5160-0e57" name="•Unkar Plutt" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -1974,12 +1974,6 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="213a-2a83-044d-1354" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="605d-cf32-ba06-32ff" hidden="false" targetId="0bc3-7bf7-6726-f8b1" type="profile">
           <profiles/>
           <rules/>
@@ -6010,7 +6004,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1ab-b506-7c1d-2833" name="PS 7 - •Constable Zuvio†" hidden="false" collective="false" categoryEntryId="5a48-b156-53f8-c9da" type="model">
+    <selectionEntry id="c1ab-b506-7c1d-2833" name="PS 7 - •Constable Zuvio" hidden="false" collective="false" categoryEntryId="5a48-b156-53f8-c9da" type="model">
       <profiles>
         <profile id="489e-4bef-5ca2-42cf" name="•Constable Zuvio" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -6075,12 +6069,6 @@
       <rules/>
       <infoLinks>
         <infoLink id="62ba-1ebf-d15c-2ba8" hidden="false" targetId="0bc3-7bf7-6726-f8b1" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="42b8-0613-da9a-8528" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8533,7 +8521,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc48-9c49-d2ed-b70e" name="PS 5 - •Sarco Plank†" hidden="false" collective="false" categoryEntryId="5a48-b156-53f8-c9da" type="model">
+    <selectionEntry id="bc48-9c49-d2ed-b70e" name="PS 5 - •Sarco Plank" hidden="false" collective="false" categoryEntryId="5a48-b156-53f8-c9da" type="model">
       <profiles>
         <profile id="4eba-fd6b-cbae-ca94" name="Sarco Plank" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323" profileTypeName="2.1 Pilot Ability">
           <profiles/>
@@ -8609,12 +8597,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="619c-156c-3c99-b725" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="7aaa-d6d4-8484-ddac" name="" hidden="false" targetId="0bc3-7bf7-6726-f8b1" type="profile">
           <profiles/>
           <rules/>
@@ -8677,7 +8659,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d06-51f9-6563-7cc7" name="PS 1 - Jakku Gunrunner†" hidden="false" collective="false" categoryEntryId="5a48-b156-53f8-c9da" type="model">
+    <selectionEntry id="8d06-51f9-6563-7cc7" name="PS 1 - Jakku Gunrunner" hidden="false" collective="false" categoryEntryId="5a48-b156-53f8-c9da" type="model">
       <profiles>
         <profile id="08f6-1da8-65ea-75c3" name="Jakku Gunrunner" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -8725,12 +8707,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="7052-f742-fc0d-c7e6" name="" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4310-0b6c-95c7-98f4" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9779,7 +9755,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dff8-aff0-f80d-e2c0" name="•Unkar Plutt†" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="dff8-aff0-f80d-e2c0" name="•Unkar Plutt" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="105b-61fd-ee28-e2e2" name="Unkar Plutt" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -9792,14 +9768,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="5718-8395-c45d-8089" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
@@ -9883,7 +9852,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e898-b842-b534-b244" name="Spacetug Tractor Array†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e898-b842-b534-b244" name="Spacetug Tractor Array" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="30c0-0b12-45b9-ece2" name="Spacetug Tractor Array" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
           <profiles/>
@@ -9896,14 +9865,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="7af6-ad69-e855-6d47" name="New InfoLink" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7849-f302-e3c2-6c40" type="max"/>
@@ -10091,6 +10053,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="-2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

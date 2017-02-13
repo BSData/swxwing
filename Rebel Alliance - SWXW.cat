@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="119" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="120" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2467,7 +2467,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7dcb-03d6-f4e7-7b74" name="PS 3 - •&quot;Zeb&quot; Orrelios†" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
+    <selectionEntry id="7dcb-03d6-f4e7-7b74" name="PS 3 - •&quot;Zeb&quot; Orrelios" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
       <profiles>
         <profile id="c572-d7b6-38e1-6804" name="•&quot;Zeb&quot; Orrelios" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -2531,12 +2531,6 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="4bc7-5c3b-dd33-cfe3" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="49c0-e5d4-abd9-8c2a" hidden="false" targetId="bbbb-6c87-c2ae-4466" type="profile">
           <profiles/>
           <rules/>
@@ -6282,7 +6276,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cdeb-8a01-41a4-c296" name="PS 4 - •Captain Rex†" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
+    <selectionEntry id="cdeb-8a01-41a4-c296" name="PS 4 - •Captain Rex" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
       <profiles>
         <profile id="b245-487f-e401-0221" name="•Captain Rex" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -6356,12 +6350,6 @@
       <rules/>
       <infoLinks>
         <infoLink id="b864-12b8-853f-241b" hidden="false" targetId="bbbb-6c87-c2ae-4466" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="009b-e5b7-5e0a-b7c6" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8848,7 +8836,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ed2-053c-039b-9966" name="PS 5 - •Sabine Wren†" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
+    <selectionEntry id="8ed2-053c-039b-9966" name="PS 5 - •Sabine Wren" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
       <profiles>
         <profile id="d390-30c6-8ab6-53b8" name="•Sabine Wren" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -8919,12 +8907,6 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="bc45-7560-441a-fdea" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="3dfb-4921-1744-0b82" hidden="false" targetId="bbbb-6c87-c2ae-4466" type="profile">
           <profiles/>
           <rules/>
@@ -10820,7 +10802,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1cf-b251-1215-0b9e" name="PS 7 - •Ahsoka Tano†" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
+    <selectionEntry id="a1cf-b251-1215-0b9e" name="PS 7 - •Ahsoka Tano" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
       <profiles>
         <profile id="8922-281d-5496-4936" name="•Ahsoka Tano" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -10899,12 +10881,6 @@
       <rules/>
       <infoLinks>
         <infoLink id="c8a6-2fb6-8c8b-6542" hidden="false" targetId="bbbb-6c87-c2ae-4466" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b555-155c-d1ae-68d2" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16026,7 +16002,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb8d-97fb-e96f-d109" name="•Captain Rex†" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="cb8d-97fb-e96f-d109" name="•Captain Rex" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="d041-f9cf-f0cf-caf8" name="Captain Rex" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16039,14 +16015,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="c169-3a5c-eae0-23f0" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
@@ -16068,7 +16037,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1350-06cb-5586-ba71" name="•Captured TIE†" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="1350-06cb-5586-ba71" name="•Captured TIE" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="6576-cab0-41ed-36e0" name="Captured TIE" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323">
           <profiles/>
@@ -16081,14 +16050,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="059f-1e2c-25b8-2b18" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -17397,7 +17359,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a92e-637f-3291-ac89" name="•Sabine&apos;s Masterpiece†" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="a92e-637f-3291-ac89" name="•Sabine&apos;s Masterpiece" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="2496-b94c-3e07-27fd" name="Sabine&apos;s Masterpiece" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -17410,14 +17372,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="c24f-725a-1cb1-eafc" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
