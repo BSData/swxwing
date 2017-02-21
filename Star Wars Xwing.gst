@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="41" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="42" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4898,6 +4898,72 @@
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a967-b67d-0001-5125" name="Quick-release Cargo Locks†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="267b-a0b2-fd93-588a" name="Quick-release Cargo Locks" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="At the end of the Activation phase, you may discard this card to place 1 container token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="96ee-f5cf-6459-642b" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e2d3-5886-45ce-02b9" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86ab-d070-127b-fdc0" name="Supercharged Power Cells†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="07df-fb94-14ee-a7d4" name="Supercharged Power Cells" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f590613e-2952-c1fb-5a8a-a3b252fcb478"/>
+            <characteristic name="Cargo Ability" characteristicTypeId="1a4a0a6c-aad9-1cff-931f-5716a45d6578" value="When attacking, you may discard this card to roll 2 additional attack dice."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a681-1033-ea2e-c433" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d44c-3841-03b0-9ce1" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

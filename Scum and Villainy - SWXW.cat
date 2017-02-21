@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="114" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="116" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8786,6 +8786,20 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="decrement" field="d8bffd2a-dbed-fab5-8c95-cd05842a3992" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="90b2-8620-e341-dc86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07e5-c91d-295c-4a97" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="d8bffd2a-dbed-fab5-8c95-cd05842a3992" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="90b2-8620-e341-dc86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be7a-7fc2-26e8-b492" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="f5301fdb-8a00-84c5-0ea6-c09c828cc617" value="1"/>
@@ -8801,6 +8815,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="574c-1cf0-1e93-3832" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dcef-90ed-2a70-5d14" name="" hidden="false" targetId="a799-fc86-6b13-ca64" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8823,6 +8843,20 @@
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="84c8-bc92-2380-c9b6" name="" hidden="false" targetId="34d0-82a0-4d37-ebe2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="f489-a592-f8ac-5b72" name="" hidden="false" targetId="07e5-c91d-295c-4a97" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="49c8-eb53-ac62-da6e" name="" hidden="false" targetId="be7a-7fc2-26e8-b492" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10054,6 +10088,74 @@
       <costs>
         <cost name=" Points" costTypeId="points" value="-2.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07e5-c91d-295c-4a97" name="•Insatiable Worrt†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1a2d-ba4a-0511-67ab" name="Insatiable Worrt" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" profileTypeName="2.5 Epic Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f4a56447-215a-5343-058b-2b008bbc3b17" value="-1"/>
+            <characteristic name="Huge Ship Title Ability" characteristicTypeId="35dd7d85-e297-9105-3752-6f3270058b24" value="After you perform the recover action, gain 3 energy."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e2c9-1579-266c-f6be" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0739-b903-a08b-587a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a72b-cb6e-52b8-72b8" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be7a-7fc2-26e8-b492" name="•Broken Horn†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6128-7c70-c087-1a6b" name="Broken Horn" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc" profileTypeName="2.5 Epic Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Energy Limit" characteristicTypeId="f4a56447-215a-5343-058b-2b008bbc3b17" value="+2"/>
+            <characteristic name="Huge Ship Title Ability" characteristicTypeId="35dd7d85-e297-9105-3752-6f3270058b24" value="When defending, if you have a reinforce token, you may add 1 additional [evade] result. If you do, after defending, discard your reinforce token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="feac-f55f-3dcd-8ab1" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26a6-2fbc-49e6-5b87" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d931-2797-6fcd-f0a0" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -12941,6 +13043,20 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="2304-e88a-f96f-d8ec" name="" hidden="false" targetId="a967-b67d-0001-5125" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="14eb-a47b-b05c-29fc" name="" hidden="false" targetId="86ab-d070-127b-fdc0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="af73-a6cc-3fb7-1405" name="Team" hidden="false" collective="false">
@@ -13608,6 +13724,16 @@
       <characteristics>
         <characteristic name="Size" characteristicTypeId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" value="Large"/>
         <characteristic name="Firing Arc" characteristicTypeId="34420436-d2e3-e411-acbe-c4c3f0473a42" value="Auxiliary Arcs"/>
+      </characteristics>
+    </profile>
+    <profile id="a799-fc86-6b13-ca64" name="C-ROC Cruiser" hidden="false" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" profileTypeName="1.3 Ship Profiles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Size" characteristicTypeId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" value="Huge"/>
+        <characteristic name="Firing Arc" characteristicTypeId="34420436-d2e3-e411-acbe-c4c3f0473a42" value="Nonstandard Arc"/>
       </characteristics>
     </profile>
   </sharedProfiles>

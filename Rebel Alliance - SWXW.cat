@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="120" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="122" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3598,6 +3598,21 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
+                <entryLink id="bb6c-7eca-5624-554c" name="" hidden="false" targetId="86ab-d070-127b-fdc0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="a8abf554-54ec-748d-1418-8c7e74972a2a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0a9a-a4f0-5751-83db" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="7903-1404-7ece-2767" name="Hardpoint" hidden="false" collective="false">
@@ -4564,6 +4579,21 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="0a9a-a4f0-5751-83db" name="" hidden="false" targetId="86ab-d070-127b-fdc0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="a8abf554-54ec-748d-1418-8c7e74972a2a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bb6c-7eca-5624-554c" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints/>
                 </entryLink>
               </entryLinks>
@@ -18023,6 +18053,20 @@
           <constraints/>
         </entryLink>
         <entryLink id="181a-f4c7-b0bf-cbdd" hidden="false" targetId="69b2-fac2-df08-de45" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="c886-5feb-d258-2983" name="" hidden="false" targetId="a967-b67d-0001-5125" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="ed1e-885e-6533-6fac" name="" hidden="false" targetId="86ab-d070-127b-fdc0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
