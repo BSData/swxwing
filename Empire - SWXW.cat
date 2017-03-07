@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="122" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="123" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -14537,7 +14537,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Title Ability" characteristicTypeId="5469746c65204162696c69747923232344415441232323" value="Your upgrade bar loses the [cannon] and [missiles] upgrade icons. After executing a 3-, 4-, or 5-speed maneuver, you may assign 1 evade token to your ship."/>
+            <characteristic name="Title Ability" characteristicTypeId="5469746c65204162696c69747923232344415441232323" value="Your upgrade bar loses the [cannon] and [missiles] upgrade icons. After executing a 3-, 4-, or 5-speed maneuver, if you did not overlap an obstacle or ship, you may perform a free evade action."/>
           </characteristics>
         </profile>
       </profiles>
@@ -14735,7 +14735,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="Once per round, you may change a friendly ship&apos;s die result to any other die result. That die result cannot be modified again."/>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="Once per round, before a friendly ship rolls dice, you may name a die result. After rolling, you must change 1 of your dice results to the named result. That die result cannot be modified again."/>
           </characteristics>
         </profile>
       </profiles>
