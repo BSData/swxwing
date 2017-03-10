@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="42" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="43" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4931,6 +4931,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="86ab-d070-127b-fdc0" name="Supercharged Power Cells†" hidden="false" collective="false" type="upgrade">
@@ -4964,6 +4965,74 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="38fa-78d2-3e68-acfe" name="ARC Caster†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="16ef-1fb1-97aa-6078" name="ARC Caster (Recharging)" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" profileTypeName="6.4 Cannon Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="Dual card. At the start of the Combat phase, you may receive a weapons disabled token to flip this card."/>
+          </characteristics>
+        </profile>
+        <profile id="5603-6501-7340-b5a7" name="ARC Caster" hidden="false" profileTypeId="313043616e6e6f6e7323232344415441232323" profileTypeName="6.3 Cannon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="5d01-8636-6d32-69db" name="ARC Caster" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" profileTypeName="6.4 Cannon Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="Dual card. Attack: Attack 1 ship. If this attack hits, you must choose 1 other ship at Range 1 of the defender to suffer 1 damage. Then flip this card."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b107-81df-fa14-5fdb" name="Pulsed Ray Shield†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="fc5c-b7d5-7031-3a95" name="Pulsed Ray Shield" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="During the End phase, you may receive 1 ion token to recover 1 shield (up to your shield value)."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="68bc-8b52-7d1c-63aa" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -5015,6 +5084,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="38cf-bca6-9541-93c4" name="New EntryLink" hidden="false" targetId="cac2-70cf-85c1-1fde" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="728f-8f56-4926-9ff4" name="" hidden="false" targetId="38fa-78d2-3e68-acfe" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
