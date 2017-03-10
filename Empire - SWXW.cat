@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="123" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="124" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1017,7 +1017,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="8ee7216d-371d-6e9c-ca15-c64c8703532a" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="8ee7216d-371d-6e9c-ca15-c64c8703532a" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1792,7 +1792,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="34125ac9-02d8-6593-f2e1-539290e77e92" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="34125ac9-02d8-6593-f2e1-539290e77e92" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5624,6 +5624,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="3783-1090-f685-7b86" name="" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="24.0"/>
@@ -7089,7 +7096,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="399c93fc-23b8-2a10-5eb7-25a89323b95d" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="399c93fc-23b8-2a10-5eb7-25a89323b95d" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8613,7 +8620,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="877b2eff-a752-1118-8d41-f5c50bc01b01" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="877b2eff-a752-1118-8d41-f5c50bc01b01" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10643,7 +10650,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="44b6d6d9-729e-2b86-3366-69cb8d624a8e" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="44b6d6d9-729e-2b86-3366-69cb8d624a8e" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12034,7 +12041,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="eb88966e-ed32-ffcf-6092-5e180c8f0a27" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="eb88966e-ed32-ffcf-6092-5e180c8f0a27" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12173,7 +12180,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="3e2c3054-c8ae-887c-1537-f223d931045b" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="3e2c3054-c8ae-887c-1537-f223d931045b" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14735,7 +14742,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="Once per round, before a friendly ship rolls dice, you may name a die result. After rolling, you must change 1 of your dice results to the named result. That die result cannot be modified again."/>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="Once per round, before a friendly ship rolls dice, you may name a die result. After rolling, you must change 1 of its dice results to the named result. That die result cannot be modified again."/>
           </characteristics>
         </profile>
       </profiles>
