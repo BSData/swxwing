@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="122" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="123" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1055,7 +1055,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c85242ea-714b-f22f-6fee-2526df44cc8b" hidden="false" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" type="selectionEntryGroup">
+        <entryLink id="c85242ea-714b-f22f-6fee-2526df44cc8b" hidden="false" targetId="15ad-c255-09a4-1004" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6770,7 +6770,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e96be0cb-7cb0-e15b-bec4-014f00762aea" hidden="false" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" type="selectionEntryGroup">
+        <entryLink id="e96be0cb-7cb0-e15b-bec4-014f00762aea" hidden="false" targetId="15ad-c255-09a4-1004" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10508,7 +10508,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c3db3ee5-efa5-6218-d717-dd873c695724" hidden="false" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" type="selectionEntryGroup">
+        <entryLink id="c3db3ee5-efa5-6218-d717-dd873c695724" hidden="false" targetId="15ad-c255-09a4-1004" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13304,7 +13304,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e2f155f2-3334-2d0d-6856-dd7809b167c0" hidden="false" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" type="selectionEntryGroup">
+        <entryLink id="e2f155f2-3334-2d0d-6856-dd7809b167c0" hidden="false" targetId="15ad-c255-09a4-1004" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20942,6 +20942,103 @@
           <constraints/>
         </entryLink>
         <entryLink id="27e2-743a-d7e5-2a85" hidden="false" targetId="98d6-56aa-a9d7-f100" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="15ad-c255-09a4-1004" name="Modification" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6660-26c1-93e7-77cf" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b1c0-4e62-da71-4857" name="" hidden="false" targetId="ec0f-dffa-d584-d8f7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="05a6-35af-b45d-085b" name="" hidden="false" targetId="6835-6741-2f8c-04c1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="8795-db2a-7629-00fc" name="" hidden="false" targetId="abbf-e6d7-12a6-c1c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e1b5-77ea-3d6d-5d5b" name="" hidden="false" targetId="8e1f-eb69-0949-59bd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="a70f-008c-499a-15ab" name="" hidden="false" targetId="d4a9-c9e5-f92b-e844" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="fb2a-ac80-01a0-c310" name="" hidden="false" targetId="db18-cc90-f881-1d6a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="8983-f26a-4199-7b35" name="" hidden="false" targetId="4488-a9a0-7667-6e48" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="8272-7ce4-196e-672f" name="" hidden="false" targetId="6795-6a56-d9fe-3339" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="958c-0b48-78f5-4395" name="" hidden="false" targetId="6704-314c-58b9-45ab" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="42c9-3b33-8683-8e14" name="" hidden="false" targetId="5420-d6e9-e9b0-18d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="f547-9888-e57b-312b" name="" hidden="false" targetId="1cea-76e8-74ff-211b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="191b-9000-d2a4-bf73" name="" hidden="false" targetId="b107-81df-fa14-5fdb" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
