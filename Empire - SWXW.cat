@@ -1014,7 +1014,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="8ee7216d-371d-6e9c-ca15-c64c8703532a" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
@@ -1419,7 +1427,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8ff1-3f1d-4d8a-4c9e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
       </entryLinks>
@@ -2135,9 +2151,11 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0">
+            <modifier type="set" field="maxSelections" value="3">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="1fe4044f-0471-ba7f-2512-d4687db16750" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="equalTo"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -3001,7 +3019,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6d9f-2fec-f69a-e940" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
       </entryLinks>
@@ -5478,9 +5504,11 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0">
+            <modifier type="set" field="maxSelections" value="3">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="ffb872cd-4c4e-8ded-51ce-e32ccf707939" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="equalTo"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -5607,7 +5635,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fba2f951-a380-cabe-f9e3-66f123127891" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="51b468a5-95ef-041e-f59e-c00578ae6a6a" hidden="false" targetId="e727-63c5-1cdc-e275" type="selectionEntryGroup">
@@ -5744,7 +5780,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1877-30e4-317c-728b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="e493-8fe1-51cf-1094" hidden="false" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" type="selectionEntryGroup">
@@ -8617,7 +8661,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7dabb71f-ea3b-bfb7-b868-87493d58dccf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="877b2eff-a752-1118-8d41-f5c50bc01b01" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
@@ -8914,9 +8966,11 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0">
+            <modifier type="set" field="maxSelections" value="3">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="f138077d-e39f-faf9-5460-4a44db430cf2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="equalTo"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -9232,7 +9286,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="620f-9e42-9162-2c2c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="ac44-df4e-574f-5e65" hidden="false" targetId="a2a0b732-5dcd-bde2-c2b3-ae6e74d0a9bc" type="selectionEntryGroup">
@@ -12177,7 +12239,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ba998080-9052-eb99-0e12-d8fc4d8efb98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="3e2c3054-c8ae-887c-1537-f223d931045b" hidden="false" targetId="15c2343d-0add-534b-6a79-ed3dba7cf823" type="selectionEntryGroup">
@@ -12669,9 +12739,11 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0">
+            <modifier type="set" field="maxSelections" value="3">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="664786ed-de17-e3be-19f1-f03d981e86f8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="equalTo"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -15745,15 +15817,7 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="decrement" field="maxSelections" value="1.0">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="6701e928-8f3d-9408-032c-fab510f88032" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a916-c00c-5535-9e93" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
