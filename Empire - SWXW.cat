@@ -894,7 +894,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7750-719e-945a-891e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="6be0-d6b8-84f9-2cb5" hidden="false" targetId="d4d8-696a-ac4b-de9c" type="selectionEntryGroup">
@@ -4288,7 +4296,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="2ea0-8372-8f4c-7e54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="4f9a-cef3-a433-5975" hidden="false" targetId="57c4-f61a-45b7-45ad" type="selectionEntryGroup">
@@ -15607,15 +15623,7 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="decrement" field="maxSelections" value="1.0">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="c63d05fe-ddca-7664-94ba-2c99802e2020" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef05-d0a2-50cc-4e58" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
