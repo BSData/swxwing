@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="43" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="44" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -226,6 +226,15 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryEntry>
+        <categoryEntry id="9e2a-aa1a-da9e-d8ed" name="Auzituck Gunship" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryEntry>
         <categoryEntry id="22fa1af4-ada6-51de-ceda-587f78d7ded9" name="B-Wing" hidden="false">
           <profiles/>
           <rules/>
@@ -307,6 +316,15 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryEntry>
+        <categoryEntry id="01f6-d582-079b-3c8f" name="Scurrg H-6 Bomber" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryEntry>
         <categoryEntry id="ad57052c-5c57-d3ae-2581-754b40de6619" name="StarViper" hidden="false">
           <profiles/>
           <rules/>
@@ -326,6 +344,15 @@
           </constraints>
         </categoryEntry>
         <categoryEntry id="485a0a61-0056-76de-0cc8-af9e87627885" name="TIE Adv. Prototype" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryEntry>
+        <categoryEntry id="e59b-b029-9964-aaf5" name="TIE Aggressor" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5008,6 +5035,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b107-81df-fa14-5fdb" name="Pulsed Ray Shield†" hidden="false" collective="false" type="upgrade">
@@ -5027,6 +5055,80 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="68bc-8b52-7d1c-63aa" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce2d-e2ec-1264-bda2" name="Synced Turret†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8775-66a0-7e3d-1f0a" name="Synced Turret" hidden="false" profileTypeId="375475727265747323232344415441232323" profileTypeName="6.1 Turret">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-2"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="4824-3973-e276-6c9c" name="Synced Turret" hidden="false" profileTypeId="38547572726574204162696c69747923232344415441232323" profileTypeName="6.2 Turret Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Turret Ability" characteristicTypeId="547572726574204162696c69747923232344415441232323" value="Attack (target lock): Attack 1 ship (even against a ship outside your firing arc). If the defender is inside your primary firing arc, you may reroll a number of attack dice up to your primary weapon value."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a367-6caf-95dc-bed2" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c841-7ed9-8d88-fa15" name="Unguided Rockets†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e80d-6baf-3de4-a850" name="Unguided Rockets" hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" profileTypeName="5.3 Missiles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-3"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="317a-8598-4339-d22f" name="Unguided Rockets" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" profileTypeName="5.4 Missiles Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (focus): Attack 1 ship. Your attack dice can be modified only by spending a focus token for its standard effect."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="72e8-3b23-4be8-4027" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -5208,6 +5310,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="8ae0-c554-602c-4523" name="New EntryLink" hidden="false" targetId="4069-ea40-4252-797a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3f74-6433-3f95-f823" name="" hidden="false" targetId="ce2d-e2ec-1264-bda2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
