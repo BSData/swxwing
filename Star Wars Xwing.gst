@@ -5125,7 +5125,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="ae85-9512-9426-1473" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="72e8-3b23-4be8-4027" type="max"/>
@@ -5135,6 +5142,113 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1db-0a8d-b2d4-6c61" name="•Havoc†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f5d8-dde3-4174-c0fb" name="Havoc" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Title Ability" characteristicTypeId="5469746c65204162696c69747923232344415441232323" value="Your upgrade bar gains the [system] and [salvaged astromech] icons and loses the [crew] upgrade icon. You cannot equip non-unique [salvaged astromech] upgrade cards."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0736-8b71-9904-0c81" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ed2-95ef-4ede-c10e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb78-c03b-596b-3ee1" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ca4b25f7-f7ee-0b14-c33b-ea4b82e22992" name="•&quot;Genius&quot;" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0f24-d200-73d2-32cf" name="&quot;Genius&quot;" hidden="false" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" profileTypeName="3.3 Salvaged Astromech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Salvaged Astromech Ability" characteristicTypeId="76f62e20-6c9d-37b2-b892-8898a587998c" value="If you are equipped with a bomb that can be dropped when you reveal your maneuver, you may drop the bomb after you execute your maneuver instead."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a6a1-b2c1-3460-2e76" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7273-ecb6-dc0a-5638" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="91fb2958-1bab-0205-7a26-2a68fdea70bf" name="•R4-B11" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1c24-b767-54c9-cdca" name="R4-B11" hidden="false" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" profileTypeName="3.3 Salvaged Astromech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Salvaged Astromech Ability" characteristicTypeId="76f62e20-6c9d-37b2-b892-8898a587998c" value="When attacking, if you have a target lock on the defender, you may spend the target lock to choose any or all defense dice. The defender must reroll the chosen dice."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8655-acfe-87af-d779" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9a9f-68cb-2047-1c33" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83da-91e0-a932-a6c1" name="•R5-P8" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="4ae8-1bbb-67b5-d605" name="R5-P8" hidden="false" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" profileTypeName="3.3 Salvaged Astromech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Salvaged Astromech Ability" characteristicTypeId="76f62e20-6c9d-37b2-b892-8898a587998c" value="Once per round, after defending, you may roll 1 attack die. On a [hit] result, the attacker suffers 1 damage. On a [critical] result, you and the attacker each suffer 1 damage."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="48b9-6c6f-d7eb-54f3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="22f3-6cc6-40bc-4529" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -5722,6 +5836,16 @@
       <characteristics>
         <characteristic name="Size" characteristicTypeId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" value="Large"/>
         <characteristic name="Firing Arc" characteristicTypeId="34420436-d2e3-e411-acbe-c4c3f0473a42" value="Auxiliary Arc"/>
+      </characteristics>
+    </profile>
+    <profile id="750c-bd3d-c44c-ffb2" name="Scurrg H-6 Bomber" book="" hidden="false" profileTypeId="876b5288-62fa-bc8e-32fe-989964372b8f" profileTypeName="1.3 Ship Profiles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Size" characteristicTypeId="f31f9632-460a-b9fe-2338-5f7cdc6bc86b" value="Small"/>
+        <characteristic name="Firing Arc" characteristicTypeId="34420436-d2e3-e411-acbe-c4c3f0473a42" value="Standard"/>
       </characteristics>
     </profile>
   </sharedProfiles>
