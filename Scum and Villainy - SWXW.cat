@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="120" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="121" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1148,7 +1148,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="76ee-8ea5-8fad-837f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="60ef-f8bc-7eff-9328" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="2509-dca3-a04e-5a11" hidden="false" targetId="63c4-7995-9015-8355" type="selectionEntryGroup">
@@ -3737,7 +3745,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5577-da54-37f8-eb96" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="60ef-f8bc-7eff-9328" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="a882-5855-7603-2ee3" hidden="false" targetId="81a5-0a05-2068-e548" type="selectionEntryGroup">
@@ -5806,7 +5822,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5c5c-dbd7-f72a-38d1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="60ef-f8bc-7eff-9328" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="95a8-0848-b28f-b3a0" hidden="false" targetId="81a5-0a05-2068-e548" type="selectionEntryGroup">
@@ -5967,7 +5991,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9463-5704-b6d4-5e2e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="60ef-f8bc-7eff-9328" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="d1c6-0950-a999-6860" hidden="false" targetId="6c29-e554-71ed-ed9e" type="selectionEntryGroup">
@@ -8908,6 +8940,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="decrement" field="dcd2-1855-426b-483f" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="90b2-8620-e341-dc86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="60ef-f8bc-7eff-9328" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints/>
         </entryLink>
@@ -9923,6 +9962,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="24.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -11072,6 +11112,39 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="60ef-f8bc-7eff-9328" name="•Jabba the Hutt†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="4dc0-0bfe-4f28-e822" name="Jabba the Hutt" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When you equip this card, place 1 illicit token on each [illicit] Upgrade card in your squad. When you are instructed to discard an Upgrade card, you may discard 1 illicit token on that card instead."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f63b-4a81-180c-b913" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d298-1c19-7f64-8b7f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d23-cb80-efd2-f8df" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" hidden="false" collective="false">
@@ -11713,6 +11786,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="6f8e-7cf7-fe4a-176c" name="" hidden="false" targetId="a248-3696-1972-904b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="bfe7-547e-e6b3-231f" name="" hidden="false" targetId="60ef-f8bc-7eff-9328" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14250,6 +14330,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="ddfb-222b-61fc-83ec" name="" hidden="false" targetId="ea12-86d3-6265-4b46" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5a4b-30f5-7425-a5f5" name="" hidden="false" targetId="60ef-f8bc-7eff-9328" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
