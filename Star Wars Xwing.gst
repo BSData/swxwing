@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="45" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="46" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5262,6 +5262,45 @@
         <cost name=" Points" costTypeId="points" value="3.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="e715-86e7-41ac-1927" name="Intensity†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2f36-2bd4-64ad-f14b" name="Intensity" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Dual card. After you perform a boost or barrel roll action, you may assign 1 focus or evade token to your ship. If you do, flip this card."/>
+          </characteristics>
+        </profile>
+        <profile id="5fec-e69e-b917-fffb" name="Intensity (Exhausted)" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="Dual card. At the end of the Combat phase, you may spend 1 focus or evade token to flip this card."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c673-30f4-e2e5-a04e" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="18f0-2866-80ae-084d" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
