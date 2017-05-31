@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="125" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="126" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4427,6 +4427,13 @@
                   </modifiers>
                   <constraints/>
                 </entryLink>
+                <entryLink id="2ed8-1a6c-2a73-48f8" name="" hidden="false" targetId="3361-4d39-e6f6-dcd7" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -5392,6 +5399,13 @@
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="bf05-b68f-6a40-93dc" name="" hidden="false" targetId="3361-4d39-e6f6-dcd7" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
                   <constraints/>
                 </entryLink>
               </entryLinks>

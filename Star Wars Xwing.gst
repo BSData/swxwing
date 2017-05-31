@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="46" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="47" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5303,6 +5303,36 @@
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3361-4d39-e6f6-dcd7" name="IG-RM Thug Droids†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9561-f553-3ac4-e363" name="IG-RM Thug Droids" hidden="false" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" profileTypeName="3.9 Team">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Team Ability" characteristicTypeId="eb3c4162-2db9-88f2-3869-0eb79bda378f" value="When attacking, you may change 1 of your [hit] results to a [critical] result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d526-dc0e-38d3-8d24" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
