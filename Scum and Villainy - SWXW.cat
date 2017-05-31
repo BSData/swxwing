@@ -250,7 +250,28 @@
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d57e-a600-58cc-bec9" name="Title" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="457c-f27f-f5d4-7bf7" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="68e8-0341-cd06-33e0" name="" hidden="false" targetId="3d9f-5d8a-98b6-9fc7" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8b6759e0-c7bc-92d3-9a92-3676d583f5b5" hidden="false" targetId="df9c-eb07-72cc-d3fc" type="selectionEntryGroup">
           <profiles/>
@@ -1360,7 +1381,28 @@
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="84e3-b864-cc5f-3f0d" name="Title" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c5eb-6423-0e4d-d07d" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6902-d97d-a509-8f62" name="" hidden="false" targetId="3d9f-5d8a-98b6-9fc7" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d07f296d-befb-dc82-9324-91f813a9ecb0" hidden="false" targetId="df9c-eb07-72cc-d3fc" type="selectionEntryGroup">
           <profiles/>
@@ -3473,12 +3515,19 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="2bfaf898-1a56-3e2e-4d1a-191af53befe7" hidden="false" targetId="2039ad7f-ef65-a658-0a7c-802066ea0971" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9498-351a-f480-7251" name="" hidden="false" targetId="3d9f-5d8a-98b6-9fc7" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7325,12 +7374,19 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="a4103dd9-fd25-47ab-ace9-80584bb4131d" hidden="false" targetId="2039ad7f-ef65-a658-0a7c-802066ea0971" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="834c-fc10-19de-3170" name="" hidden="false" targetId="3d9f-5d8a-98b6-9fc7" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10197,6 +10253,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="25.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -11411,6 +11468,38 @@
       <costs>
         <cost name=" Points" costTypeId="points" value="0.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d9f-5d8a-98b6-9fc7" name="StarViper Mk.II†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="843e-405f-f05b-40b2" name="StarViper Mk.II" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Title Ability" characteristicTypeId="5469746c65204162696c69747923232344415441232323" value="You may equip up to 2 different Title upgrades. When performing a barrel roll action, you must use the [left bank 1] or [right bank 1] template instead of the [straight 1] template."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cca1-ad50-f844-38e2" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a27c-be35-b96e-77f3" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="-3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
