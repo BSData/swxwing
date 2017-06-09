@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="47" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="48" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4927,7 +4927,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a967-b67d-0001-5125" name="Quick-release Cargo Locks†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a967-b67d-0001-5125" name="Quick-release Cargo Locks" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="267b-a0b2-fd93-588a" name="Quick-release Cargo Locks" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
           <profiles/>
@@ -4941,14 +4941,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="96ee-f5cf-6459-642b" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e2d3-5886-45ce-02b9" type="max"/>
@@ -4961,7 +4954,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="86ab-d070-127b-fdc0" name="Supercharged Power Cells†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="86ab-d070-127b-fdc0" name="Supercharged Power Cells" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="07df-fb94-14ee-a7d4" name="Supercharged Power Cells" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed" profileTypeName="3.8 Cargo">
           <profiles/>
@@ -4975,14 +4968,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="a681-1033-ea2e-c433" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d44c-3841-03b0-9ce1" type="max"/>
@@ -4995,7 +4981,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="38fa-78d2-3e68-acfe" name="ARC Caster†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="38fa-78d2-3e68-acfe" name="ARC Caster" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="16ef-1fb1-97aa-6078" name="ARC Caster (Recharging)" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" profileTypeName="6.4 Cannon Ability">
           <profiles/>
@@ -5038,7 +5024,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b107-81df-fa14-5fdb" name="Pulsed Ray Shield†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b107-81df-fa14-5fdb" name="Pulsed Ray Shield" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="fc5c-b7d5-7031-3a95" name="Pulsed Ray Shield" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323" profileTypeName="3.1 Modification">
           <profiles/>
@@ -5305,7 +5291,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3361-4d39-e6f6-dcd7" name="IG-RM Thug Droids†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3361-4d39-e6f6-dcd7" name="IG-RM Thug Droids" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9561-f553-3ac4-e363" name="IG-RM Thug Droids" hidden="false" profileTypeId="9eb2e588-e88d-55fc-324d-ad8f9f79ecce" profileTypeName="3.9 Team">
           <profiles/>
@@ -5318,14 +5304,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="d526-dc0e-38d3-8d24" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -5333,6 +5312,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
