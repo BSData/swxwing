@@ -1,5 +1,328 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="48" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="48" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums">
+<categoryEntries>
+<categoryEntry id="73a03c98-589e-96c4-76c9-4a99dea055e6" name="A-Wing" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="5217-643e-7313-1d6d" name="ARC-170" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" name="Attack Shuttle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="9e2a-aa1a-da9e-d8ed" name="Auzituck Gunship" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="22fa1af4-ada6-51de-ceda-587f78d7ded9" name="B-Wing" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="75b9b4a3-d812-66b3-4206-47e680ec5a3c" name="E-Wing" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="b3c1c304-3188-a645-b4da-26fd616a9304" name="G-1A Starfighter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="19556eec-413d-a849-9d27-efafdbd36775" name="HWK-290" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="d456fd74-70e2-fca1-ebe3-7bb3f035207b" name="K-Wing" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" name="Kihraxz Fighter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" name="M3-A Interceptor" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="0dab-5969-1454-3251" name="Protectorate Starfighter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="5a48-b156-53f8-c9da" name="Quadjumper" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="01f6-d582-079b-3c8f" name="Scurrg H-6 Bomber" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="ad57052c-5c57-d3ae-2581-754b40de6619" name="StarViper" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="a0a339ce-8800-249c-5e65-28150db454f7" name="TIE Advanced" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="485a0a61-0056-76de-0cc8-af9e87627885" name="TIE Adv. Prototype" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="e59b-b029-9964-aaf5" name="TIE Aggressor" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" name="TIE Bomber" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" name="TIE Defender" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="57609b29-6fb3-d25c-d2fa-7551ba3f054e" name="TIE Fighter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="6193-0aa3-fe00-5d84" name="TIE/fo Fighter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" name="TIE Interceptor" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" name="TIE Phantom" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="bc4d1195-9439-b009-42b2-94056a0b366c" name="TIE Punisher" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="8719-f1e5-5166-852f" name="TIE/sf Fighter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="47d7-a285-1371-3234" name="TIE Striker" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="5753eb32-f764-9d39-c66f-0c9951854ce6" name="X-Wing" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="8000-0b43-fa58-75fb" name="T-70 X-Wing" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="4d5ff5f5-7111-78aa-bc54-d84cce160888" name="Y-Wing" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="83d597a7-e33a-db41-78eb-773f8f3a972a" name="Z-95 Headhunter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="25de0ca2-06ef-4227-b70b-f65463cf7e5c" name="Z-95 Headhunter - Nashtah Pup" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="74a3fbeb-d053-e57a-37dd-55d01ad62f27" name="Aggressor" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="e101-de50-f929-d42c" name="Firespray-31" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="3d45-1850-5cac-c077" name="JumpMaster 5000" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="475f-be18-84aa-ca49" name="Lambda-Class Shuttle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="6472-e53a-8660-c6d6" name="Lancer-class Pursuit Craft" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="65e2-69cd-6b28-79ab" name="U-Wing" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="c93c-fc23-e9c0-906c" name="Upsilon-class Shuttle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="3a86-50f7-ddea-720c" name="VCX-100" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="de9b-9f09-9046-1d04" name="VT-49 Decimator" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="b8d6-fa09-457d-2fb5" name="YT-1300 - Rebel Alliance" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="92ac-3969-4658-d8dd" name="YT-1300 - Resistance" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="60d5-f2bc-7794-e995" name="YT-2400" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="4513-2f0d-7f6d-6d0b" name="YV-666" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="dd7a-8997-0ba4-d8f6" name="Epic Ships" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+</categoryEntries>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -193,13 +516,8 @@
   </profileTypes>
   <forceEntries>
     <forceEntry id="5374616e6461726423232344415441232323" name="Standard" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryEntries>
-        <categoryEntry id="73a03c98-589e-96c4-76c9-4a99dea055e6" name="A-Wing" hidden="false">
+<categoryLinks>
+<categoryLink id="5374616e6461726423232344415441232323-73a03c98-589e-96c4-76c9-4a99dea055e6" targetId="73a03c98-589e-96c4-76c9-4a99dea055e6" name="A-Wing" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -207,8 +525,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="5217-643e-7313-1d6d" name="ARC-170" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-5217-643e-7313-1d6d" targetId="5217-643e-7313-1d6d" name="ARC-170" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -216,8 +534,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" name="Attack Shuttle" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-c89a1da2-c1dd-2fa8-3c94-75bf539ba771" targetId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" name="Attack Shuttle" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -225,8 +543,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="9e2a-aa1a-da9e-d8ed" name="Auzituck Gunship" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-9e2a-aa1a-da9e-d8ed" targetId="9e2a-aa1a-da9e-d8ed" name="Auzituck Gunship" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -234,8 +552,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="22fa1af4-ada6-51de-ceda-587f78d7ded9" name="B-Wing" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-22fa1af4-ada6-51de-ceda-587f78d7ded9" targetId="22fa1af4-ada6-51de-ceda-587f78d7ded9" name="B-Wing" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -243,8 +561,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="75b9b4a3-d812-66b3-4206-47e680ec5a3c" name="E-Wing" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-75b9b4a3-d812-66b3-4206-47e680ec5a3c" targetId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" name="E-Wing" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -252,8 +570,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="b3c1c304-3188-a645-b4da-26fd616a9304" name="G-1A Starfighter" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-b3c1c304-3188-a645-b4da-26fd616a9304" targetId="b3c1c304-3188-a645-b4da-26fd616a9304" name="G-1A Starfighter" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -261,8 +579,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="19556eec-413d-a849-9d27-efafdbd36775" name="HWK-290" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-19556eec-413d-a849-9d27-efafdbd36775" targetId="19556eec-413d-a849-9d27-efafdbd36775" name="HWK-290" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -270,8 +588,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="d456fd74-70e2-fca1-ebe3-7bb3f035207b" name="K-Wing" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-d456fd74-70e2-fca1-ebe3-7bb3f035207b" targetId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" name="K-Wing" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -279,8 +597,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" name="Kihraxz Fighter" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-8c6d5843-d26b-44a8-a9aa-96716a66ccc3" targetId="8c6d5843-d26b-44a8-a9aa-96716a66ccc3" name="Kihraxz Fighter" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -288,8 +606,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" name="M3-A Interceptor" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" targetId="0b0cebd0-e952-9d1c-abbf-f9dda0cba9cd" name="M3-A Interceptor" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -297,8 +615,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="0dab-5969-1454-3251" name="Protectorate Starfighter" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-0dab-5969-1454-3251" targetId="0dab-5969-1454-3251" name="Protectorate Starfighter" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -306,8 +624,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="5a48-b156-53f8-c9da" name="Quadjumper" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-5a48-b156-53f8-c9da" targetId="5a48-b156-53f8-c9da" name="Quadjumper" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -315,8 +633,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="01f6-d582-079b-3c8f" name="Scurrg H-6 Bomber" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-01f6-d582-079b-3c8f" targetId="01f6-d582-079b-3c8f" name="Scurrg H-6 Bomber" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -324,8 +642,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="ad57052c-5c57-d3ae-2581-754b40de6619" name="StarViper" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-ad57052c-5c57-d3ae-2581-754b40de6619" targetId="ad57052c-5c57-d3ae-2581-754b40de6619" name="StarViper" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -333,8 +651,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="a0a339ce-8800-249c-5e65-28150db454f7" name="TIE Advanced" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-a0a339ce-8800-249c-5e65-28150db454f7" targetId="a0a339ce-8800-249c-5e65-28150db454f7" name="TIE Advanced" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -342,8 +660,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="485a0a61-0056-76de-0cc8-af9e87627885" name="TIE Adv. Prototype" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-485a0a61-0056-76de-0cc8-af9e87627885" targetId="485a0a61-0056-76de-0cc8-af9e87627885" name="TIE Adv. Prototype" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -351,8 +669,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="e59b-b029-9964-aaf5" name="TIE Aggressor" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-e59b-b029-9964-aaf5" targetId="e59b-b029-9964-aaf5" name="TIE Aggressor" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -360,8 +678,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" name="TIE Bomber" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" targetId="f6fcd5bc-7835-b70a-3d35-f4c9f21707f9" name="TIE Bomber" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -369,8 +687,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" name="TIE Defender" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" targetId="98f060e6-0eb4-a4b3-adc9-ef95fc612a3b" name="TIE Defender" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -378,8 +696,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="57609b29-6fb3-d25c-d2fa-7551ba3f054e" name="TIE Fighter" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-57609b29-6fb3-d25c-d2fa-7551ba3f054e" targetId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" name="TIE Fighter" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -387,8 +705,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="6193-0aa3-fe00-5d84" name="TIE/fo Fighter" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-6193-0aa3-fe00-5d84" targetId="6193-0aa3-fe00-5d84" name="TIE/fo Fighter" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -396,8 +714,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" name="TIE Interceptor" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-ddc797fc-fc98-6526-4d06-aa32d9d57ed0" targetId="ddc797fc-fc98-6526-4d06-aa32d9d57ed0" name="TIE Interceptor" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -405,8 +723,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" name="TIE Phantom" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" targetId="597dfc7c-cb3e-5e61-d3e3-3704b2e35ee2" name="TIE Phantom" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -414,8 +732,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="bc4d1195-9439-b009-42b2-94056a0b366c" name="TIE Punisher" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-bc4d1195-9439-b009-42b2-94056a0b366c" targetId="bc4d1195-9439-b009-42b2-94056a0b366c" name="TIE Punisher" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -423,8 +741,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="8719-f1e5-5166-852f" name="TIE/sf Fighter" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-8719-f1e5-5166-852f" targetId="8719-f1e5-5166-852f" name="TIE/sf Fighter" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -432,8 +750,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="47d7-a285-1371-3234" name="TIE Striker" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-47d7-a285-1371-3234" targetId="47d7-a285-1371-3234" name="TIE Striker" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -441,8 +759,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="5753eb32-f764-9d39-c66f-0c9951854ce6" name="X-Wing" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" name="X-Wing" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -450,8 +768,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="8000-0b43-fa58-75fb" name="T-70 X-Wing" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" name="T-70 X-Wing" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -459,8 +777,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="4d5ff5f5-7111-78aa-bc54-d84cce160888" name="Y-Wing" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-4d5ff5f5-7111-78aa-bc54-d84cce160888" targetId="4d5ff5f5-7111-78aa-bc54-d84cce160888" name="Y-Wing" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -468,8 +786,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="83d597a7-e33a-db41-78eb-773f8f3a972a" name="Z-95 Headhunter" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-83d597a7-e33a-db41-78eb-773f8f3a972a" targetId="83d597a7-e33a-db41-78eb-773f8f3a972a" name="Z-95 Headhunter" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -477,8 +795,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="25de0ca2-06ef-4227-b70b-f65463cf7e5c" name="Z-95 Headhunter - Nashtah Pup" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-25de0ca2-06ef-4227-b70b-f65463cf7e5c" targetId="25de0ca2-06ef-4227-b70b-f65463cf7e5c" name="Z-95 Headhunter - Nashtah Pup" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -486,8 +804,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="74a3fbeb-d053-e57a-37dd-55d01ad62f27" name="Aggressor" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-74a3fbeb-d053-e57a-37dd-55d01ad62f27" targetId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" name="Aggressor" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -495,8 +813,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="e101-de50-f929-d42c" name="Firespray-31" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-e101-de50-f929-d42c" targetId="e101-de50-f929-d42c" name="Firespray-31" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -504,8 +822,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="3d45-1850-5cac-c077" name="JumpMaster 5000" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-3d45-1850-5cac-c077" targetId="3d45-1850-5cac-c077" name="JumpMaster 5000" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -513,8 +831,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="475f-be18-84aa-ca49" name="Lambda-Class Shuttle" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-475f-be18-84aa-ca49" targetId="475f-be18-84aa-ca49" name="Lambda-Class Shuttle" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -522,8 +840,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="6472-e53a-8660-c6d6" name="Lancer-class Pursuit Craft" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-6472-e53a-8660-c6d6" targetId="6472-e53a-8660-c6d6" name="Lancer-class Pursuit Craft" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -531,8 +849,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="65e2-69cd-6b28-79ab" name="U-Wing" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-65e2-69cd-6b28-79ab" targetId="65e2-69cd-6b28-79ab" name="U-Wing" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -540,8 +858,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="c93c-fc23-e9c0-906c" name="Upsilon-class Shuttle" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-c93c-fc23-e9c0-906c" targetId="c93c-fc23-e9c0-906c" name="Upsilon-class Shuttle" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -549,8 +867,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="3a86-50f7-ddea-720c" name="VCX-100" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-3a86-50f7-ddea-720c" targetId="3a86-50f7-ddea-720c" name="VCX-100" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -558,8 +876,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="de9b-9f09-9046-1d04" name="VT-49 Decimator" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-de9b-9f09-9046-1d04" targetId="de9b-9f09-9046-1d04" name="VT-49 Decimator" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -567,8 +885,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="b8d6-fa09-457d-2fb5" name="YT-1300 - Rebel Alliance" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-b8d6-fa09-457d-2fb5" targetId="b8d6-fa09-457d-2fb5" name="YT-1300 - Rebel Alliance" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -576,8 +894,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="92ac-3969-4658-d8dd" name="YT-1300 - Resistance" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-92ac-3969-4658-d8dd" targetId="92ac-3969-4658-d8dd" name="YT-1300 - Resistance" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -595,8 +913,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="60d5-f2bc-7794-e995" name="YT-2400" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-60d5-f2bc-7794-e995" targetId="60d5-f2bc-7794-e995" name="YT-2400" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -604,8 +922,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="4513-2f0d-7f6d-6d0b" name="YV-666" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-4513-2f0d-7f6d-6d0b" targetId="4513-2f0d-7f6d-6d0b" name="YV-666" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -613,15 +931,21 @@
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="dd7a-8997-0ba4-d8f6" name="Epic Ships" hidden="false">
+        </categoryLink>
+<categoryLink id="5374616e6461726423232344415441232323-dd7a-8997-0ba4-d8f6" targetId="dd7a-8997-0ba4-d8f6" name="Epic Ships" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-      </categoryEntries>
+        </categoryLink>
+</categoryLinks>
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      
       <forceEntries/>
     </forceEntry>
   </forceEntries>
@@ -717,9 +1041,9 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="075d-5765-2579-f654" name="Dead Man&apos;s Switch" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="075d-5765-2579-f654" name="Dead Man's Switch" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="a477-9910-a653-aa6f" name="Dead Man&apos;s Switch" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
+        <profile id="a477-9910-a653-aa6f" name="Dead Man's Switch" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1029,7 +1353,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="When defending, if you are inside the attacker&apos;s firing arc beyond Range 2 or outside the attacker&apos;s firing arc, you may change 1 of your blank results to a [evade] result."/>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="When defending, if you are inside the attacker's firing arc beyond Range 2 or outside the attacker's firing arc, you may change 1 of your blank results to a [evade] result."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1608,7 +1932,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking a ship inside your firing arc, at the start of the &apos;Compare Results&apos; step, you may discard this card to cancel 1 of the defender&apos;s [evade] results."/>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking a ship inside your firing arc, at the start of the 'Compare Results' step, you may discard this card to cancel 1 of the defender's [evade] results."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1686,7 +2010,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2. Exchange your pilot skill with that ship&apos;s pilot skill until the end of the phase."/>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2. Exchange your pilot skill with that ship's pilot skill until the end of the phase."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1842,7 +2166,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="While you are touching an enemy ship, reduce that ship&apos;s agility value by 1."/>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="While you are touching an enemy ship, reduce that ship's agility value by 1."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1868,7 +2192,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking, if you have an evade token, you may change 1 of the defender&apos;s [evade] results to a [focus] result."/>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking, if you have an evade token, you may change 1 of the defender's [evade] results to a [focus] result."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1972,7 +2296,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking a ship inside your firing arc, if you are not inside that ship&apos;s firing arc, reduce its agility value by 1 (to a minimum of 0)."/>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking a ship inside your firing arc, if you are not inside that ship's firing arc, reduce its agility value by 1 (to a minimum of 0)."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1998,7 +2322,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking, you may reroll 1 attack die. If the defender&apos;s pilot skill value is &quot;2&quot; or lower, you may instead reroll up to 2 attack dice."/>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When attacking, you may reroll 1 attack die. If the defender's pilot skill value is &quot;2&quot; or lower, you may instead reroll up to 2 attack dice."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2356,7 +2680,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When defending, you may reroll 1 of your [focus] results. If the attacker&apos;s pilot skill value is &quot;2&quot; or lower, you may reroll 1 of your blank results instead."/>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When defending, you may reroll 1 of your [focus] results. If the attacker's pilot skill value is &quot;2&quot; or lower, you may reroll 1 of your blank results instead."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2428,7 +2752,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the start of the Activation phase, choose 1 enemy ship at Range 1-2. You may look at that ship&apos;s chosen maneuver."/>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the start of the Activation phase, choose 1 enemy ship at Range 1-2. You may look at that ship's chosen maneuver."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2600,7 +2924,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When attacking from your rear-facing auxiliary firing arc, reduce the defender&apos;s agility by 1 (to a minimum of &quot;0&quot;)."/>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When attacking from your rear-facing auxiliary firing arc, reduce the defender's agility by 1 (to a minimum of &quot;0&quot;)."/>
           </characteristics>
         </profile>
       </profiles>
@@ -3065,7 +3389,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="When defending, you may change 1 of the attacker&apos;s [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="When defending, you may change 1 of the attacker's [hit] results to a [focus] result. The attacker cannot reroll the die with the changed result."/>
           </characteristics>
         </profile>
       </profiles>
@@ -3735,7 +4059,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="Action: Discard this card to drop 1 cluster mine token set. When a ship&apos;s base or maneuver template overlaps a cluster mine token, that token detonates."/>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="Action: Discard this card to drop 1 cluster mine token set. When a ship's base or maneuver template overlaps a cluster mine token, that token detonates."/>
           </characteristics>
         </profile>
         <profile id="8523-9916-f067-d05f" name="Cluster Mine Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
@@ -3768,7 +4092,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="Action: Discard this card to drop 1 Conner net token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="Action: Discard this card to drop 1 Conner net token. When a ship's base or maneuver template overlaps this token, this token detonates."/>
           </characteristics>
         </profile>
         <profile id="3068-7fa6-f46c-2b31" name="Conner Net Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
@@ -3867,7 +4191,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="Action: Discard this card to drop 1 proximity mine token. When a ship&apos;s base or maneuver template overlaps this token, this token detonates."/>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="Action: Discard this card to drop 1 proximity mine token. When a ship's base or maneuver template overlaps this token, this token detonates."/>
           </characteristics>
         </profile>
         <profile id="f1e7-0840-b58a-51ec" name="Proximity Mine Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">

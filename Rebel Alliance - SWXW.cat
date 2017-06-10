@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="126" battleScribeVersion="2.00" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="127" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" hidden="false" collective="false" categoryEntryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model">
+    <selectionEntry id="701d8a38-e440-5d76-bb92-2af0c87819da" name="PS 1 - Knave Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="701d8a38-e440-5d76-bb92-2af0c87819da-75b9b4a3-d812-66b3-4206-47e680ec5a3c" targetId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7301c2fd-e095-c3c9-8228-7cefd508308f" name="Knave Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -118,7 +121,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74829344-7635-3ed4-1fc4-e188d4d21e5c" name="PS 1 - Outer Rim Smuggler" hidden="false" collective="false" categoryEntryId="b8d6-fa09-457d-2fb5" type="model">
+    <selectionEntry id="74829344-7635-3ed4-1fc4-e188d4d21e5c" name="PS 1 - Outer Rim Smuggler" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="74829344-7635-3ed4-1fc4-e188d4d21e5c-b8d6-fa09-457d-2fb5" targetId="b8d6-fa09-457d-2fb5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="2cf5469b-593b-eacb-384b-cf949affa674" name="Outer Rim Smuggler" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -267,7 +273,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="00e43fd4-05fe-0a1a-6c80-ae5ca70ff04c" name="PS 1 - Prototype Pilot" hidden="false" collective="false" categoryEntryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model">
+    <selectionEntry id="00e43fd4-05fe-0a1a-6c80-ae5ca70ff04c" name="PS 1 - Prototype Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="00e43fd4-05fe-0a1a-6c80-ae5ca70ff04c-73a03c98-589e-96c4-76c9-4a99dea055e6" targetId="73a03c98-589e-96c4-76c9-4a99dea055e6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f3ee7372-8a31-6454-401d-b5357dcb35d3" name="Prototype Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -364,7 +373,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="96712dcd-c3bc-0a9c-504e-7dfc91a513c9" name="PS 2 - Bandit Squadron Pilot" hidden="false" collective="false" categoryEntryId="83d597a7-e33a-db41-78eb-773f8f3a972a" type="model">
+    <selectionEntry id="96712dcd-c3bc-0a9c-504e-7dfc91a513c9" name="PS 2 - Bandit Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="96712dcd-c3bc-0a9c-504e-7dfc91a513c9-83d597a7-e33a-db41-78eb-773f8f3a972a" targetId="83d597a7-e33a-db41-78eb-773f8f3a972a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="8e8c96a7-239a-56fe-1c97-e3fc3c3b2f54" name="Bandit Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -449,7 +461,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c6c-e98e-f958-2a7e" name="PS 2 - Blue Squadron Novice" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="6c6c-e98e-f958-2a7e" name="PS 2 - Blue Squadron Novice" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6c6c-e98e-f958-2a7e-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6d80-edfc-8530-0b25" name="Blue Squadron Novice" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -554,7 +569,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3df7-27e4-2b6f-6ff6" name="PS 2 - Blue Squadron Pathfinder" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
+    <selectionEntry id="3df7-27e4-2b6f-6ff6" name="PS 2 - Blue Squadron Pathfinder" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="3df7-27e4-2b6f-6ff6-65e2-69cd-6b28-79ab" targetId="65e2-69cd-6b28-79ab" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6baa-7e07-af96-6b1f" name="Blue Squadron Pathfinder" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -703,7 +721,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2dd1913-ab04-da47-0ca4-db37a2321d61" name="PS 2 - Blue Squadron Pilot" hidden="false" collective="false" categoryEntryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model">
+    <selectionEntry id="f2dd1913-ab04-da47-0ca4-db37a2321d61" name="PS 2 - Blue Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="f2dd1913-ab04-da47-0ca4-db37a2321d61-22fa1af4-ada6-51de-ceda-587f78d7ded9" targetId="22fa1af4-ada6-51de-ceda-587f78d7ded9" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="02dfaea4-d706-caf1-ea4d-d95aba8e4ec1" name="Blue Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -844,7 +865,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6eb58898-813b-3f9a-ee82-bb4d07434c31" name="PS 2 - Gold Squadron Pilot" hidden="false" collective="false" categoryEntryId="4d5ff5f5-7111-78aa-bc54-d84cce160888" type="model">
+    <selectionEntry id="6eb58898-813b-3f9a-ee82-bb4d07434c31" name="PS 2 - Gold Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6eb58898-813b-3f9a-ee82-bb4d07434c31-4d5ff5f5-7111-78aa-bc54-d84cce160888" targetId="4d5ff5f5-7111-78aa-bc54-d84cce160888" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="40287aff-f00e-75af-52df-1ee3ab15ac18" name="Gold Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -978,7 +1002,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9da1ddf-2e6d-c9c4-60e0-7ba0319b5229" name="PS 2 - Rebel Operative" hidden="false" collective="false" categoryEntryId="19556eec-413d-a849-9d27-efafdbd36775" type="model">
+    <selectionEntry id="c9da1ddf-2e6d-c9c4-60e0-7ba0319b5229" name="PS 2 - Rebel Operative" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c9da1ddf-2e6d-c9c4-60e0-7ba0319b5229-19556eec-413d-a849-9d27-efafdbd36775" targetId="19556eec-413d-a849-9d27-efafdbd36775" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="181b4b06-37ae-a4c9-cb4e-e7b9e5a04e74" name="Rebel Operative" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -1105,7 +1132,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7e7336f-0515-333c-880a-49798393e7f8" name="PS 2 - Rookie Pilot" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="f7e7336f-0515-333c-880a-49798393e7f8" name="PS 2 - Rookie Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="f7e7336f-0515-333c-880a-49798393e7f8-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d02614c8-493e-9108-0469-8f8f2024e975" name="Rookie Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -1197,7 +1227,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="557f-33d6-a531-295b" name="PS 2 - Warden Squadron Pilot" hidden="false" collective="false" categoryEntryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model">
+    <selectionEntry id="557f-33d6-a531-295b" name="PS 2 - Warden Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="557f-33d6-a531-295b-d456fd74-70e2-fca1-ebe3-7bb3f035207b" targetId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="10b5-67f3-21f6-bd3f" name="Warden Squadron Pilot" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -1331,7 +1364,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be9001d3-56c8-ffbe-d3f7-0aab60dc692a" name="PS 2 - Wild Space Fringer" hidden="false" collective="false" categoryEntryId="60d5-f2bc-7794-e995" type="model">
+    <selectionEntry id="be9001d3-56c8-ffbe-d3f7-0aab60dc692a" name="PS 2 - Wild Space Fringer" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="be9001d3-56c8-ffbe-d3f7-0aab60dc692a-60d5-f2bc-7794-e995" targetId="60d5-f2bc-7794-e995" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="77fb1732-dae4-b62f-b817-74479d173133" name="Wild Space Fringer" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -1498,7 +1534,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e2143a8e-94db-b970-d8e8-ab95bfa89fca" name="PS 3 - Blackmoon Squadron Pilot" hidden="false" collective="false" categoryEntryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model">
+    <selectionEntry id="e2143a8e-94db-b970-d8e8-ab95bfa89fca" name="PS 3 - Blackmoon Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="e2143a8e-94db-b970-d8e8-ab95bfa89fca-75b9b4a3-d812-66b3-4206-47e680ec5a3c" targetId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="ee9a691b-850a-0b9f-3ec6-a07a6884d52d" name="Blackmoon Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -1645,7 +1684,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="114cccd7-db12-855e-4a62-993908968b8a" name="PS 3 - GR-75 Medium Transport" page="" hidden="false" collective="false" categoryEntryId="dd7a-8997-0ba4-d8f6" type="model">
+    <selectionEntry id="114cccd7-db12-855e-4a62-993908968b8a" name="PS 3 - GR-75 Medium Transport" page="" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="114cccd7-db12-855e-4a62-993908968b8a-dd7a-8997-0ba4-d8f6" targetId="dd7a-8997-0ba4-d8f6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1d9c7096-660b-dba3-6230-e70fb13a9ffd" name="GR-75 Medium Transport" page="0" hidden="false" profileTypeId="00cb6ab5-6bfa-0854-5849-f0149f71bc90">
           <profiles/>
@@ -1855,7 +1897,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3fae5d77-a5b6-3fc9-2918-50605d0de203" name="PS 3 - Green Squadron Pilot" hidden="false" collective="false" categoryEntryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model">
+    <selectionEntry id="3fae5d77-a5b6-3fc9-2918-50605d0de203" name="PS 3 - Green Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="3fae5d77-a5b6-3fc9-2918-50605d0de203-73a03c98-589e-96c4-76c9-4a99dea055e6" targetId="73a03c98-589e-96c4-76c9-4a99dea055e6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5e60ce56-22ab-a6ee-63d1-19933082041c" name="Green Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -2022,7 +2067,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cef8-657e-f737-e33c" name="PS 3 - Lothal Rebel" hidden="false" collective="false" categoryEntryId="3a86-50f7-ddea-720c" type="model">
+    <selectionEntry id="cef8-657e-f737-e33c" name="PS 3 - Lothal Rebel" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="cef8-657e-f737-e33c-3a86-50f7-ddea-720c" targetId="3a86-50f7-ddea-720c" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="ebcb-ea29-a2f8-c9b3" name="Lothal Rebel" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -2177,7 +2225,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c52-cb26-2435-e955" name="PS 3 - Resistance Sympathizer" hidden="false" collective="false" categoryEntryId="92ac-3969-4658-d8dd" type="model">
+    <selectionEntry id="6c52-cb26-2435-e955" name="PS 3 - Resistance Sympathizer" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6c52-cb26-2435-e955-92ac-3969-4658-d8dd" targetId="92ac-3969-4658-d8dd" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="4cb7-24c6-64a1-ad3f" name="Resistance Sympathizer" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -2333,7 +2384,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c749-708e-299d-a916" name="PS 3 - •&quot;Zeb&quot; Orrelios" hidden="false" collective="false" categoryEntryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model">
+    <selectionEntry id="c749-708e-299d-a916" name="PS 3 - •&quot;Zeb&quot; Orrelios" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c749-708e-299d-a916-c89a1da2-c1dd-2fa8-3c94-75bf539ba771" targetId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e266-f406-74cc-5e34" name="•&quot;Zeb&quot; Orrelios" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -2501,7 +2555,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7dcb-03d6-f4e7-7b74" name="PS 3 - •&quot;Zeb&quot; Orrelios" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
+    <selectionEntry id="7dcb-03d6-f4e7-7b74" name="PS 3 - •&quot;Zeb&quot; Orrelios" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="7dcb-03d6-f4e7-7b74-57609b29-6fb3-d25c-d2fa-7551ba3f054e" targetId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="c572-d7b6-38e1-6804" name="•&quot;Zeb&quot; Orrelios" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -2675,7 +2732,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3c90-a696-739a-727b" name="PS 3 - •Braylen Stramm" hidden="false" collective="false" categoryEntryId="5217-643e-7313-1d6d" type="model">
+    <selectionEntry id="3c90-a696-739a-727b" name="PS 3 - •Braylen Stramm" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="3c90-a696-739a-727b-5217-643e-7313-1d6d" targetId="5217-643e-7313-1d6d" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="438d-c9f0-6aba-8e11" name="Braylen Stramm" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
@@ -2856,7 +2916,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce6bfb0a-4377-4565-43de-29ba01cc419f" name="PS 3 - •Eaden Vrill" hidden="false" collective="false" categoryEntryId="60d5-f2bc-7794-e995" type="model">
+    <selectionEntry id="ce6bfb0a-4377-4565-43de-29ba01cc419f" name="PS 3 - •Eaden Vrill" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="ce6bfb0a-4377-4565-43de-29ba01cc419f-60d5-f2bc-7794-e995" targetId="60d5-f2bc-7794-e995" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="596b2545-20c0-894e-a5a8-883c80423d88" name="Eaden Vrill" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
@@ -3042,7 +3105,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6113-6ab6-c319-ba9b" name="PS 3 - •Jess Pava" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="6113-6ab6-c319-ba9b" name="PS 3 - •Jess Pava" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6113-6ab6-c319-ba9b-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e7c9-0e8e-7c67-eb34" name="•Jess Pava" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -3194,7 +3260,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ab0207a9-6822-010c-a222-34d3daa28534" name="PS 3 - •Tarn Mison" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="ab0207a9-6822-010c-a222-34d3daa28534" name="PS 3 - •Tarn Mison" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="ab0207a9-6822-010c-a222-34d3daa28534-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9ac891d7-1637-ebe2-7767-5b16698e8f08" name="•Tarn Mison" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -3333,7 +3402,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8abf554-54ec-748d-1418-8c7e74972a2a" name="PS 4 - CR90 Corvette" hidden="false" collective="false" categoryEntryId="dd7a-8997-0ba4-d8f6" type="unit">
+    <selectionEntry id="a8abf554-54ec-748d-1418-8c7e74972a2a" name="PS 4 - CR90 Corvette" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="a8abf554-54ec-748d-1418-8c7e74972a2a-dd7a-8997-0ba4-d8f6" targetId="dd7a-8997-0ba4-d8f6" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3347,7 +3419,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="1176775e-0e68-cf12-01fe-27b782a15479" name="CR90 Corvette (Fore)" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="1176775e-0e68-cf12-01fe-27b782a15479" name="CR90 Corvette (Fore)" page="0" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="1a2763a5-26cc-d155-c2bd-73b736ab8088" name="CR90 Corvette (Fore)" page="0" hidden="false" profileTypeId="00cb6ab5-6bfa-0854-5849-f0149f71bc90">
               <profiles/>
@@ -4466,7 +4538,7 @@
             <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="55a5b0cc-b23f-bc92-64ca-2c1e747dd016" name="CR90 Corvette (Aft)" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="55a5b0cc-b23f-bc92-64ca-2c1e747dd016" name="CR90 Corvette (Aft)" page="0" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="85644d3c-434e-5e38-6672-8ed0b409077d" name="CR90 Corvette (Aft)" page="0" hidden="false" profileTypeId="00cb6ab5-6bfa-0854-5849-f0149f71bc90">
               <profiles/>
@@ -5448,7 +5520,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d39f9a8-8473-1bec-3642-8fb51174ad79" name="PS 4 - Dagger Squadron Pilot" page="0" hidden="false" collective="false" categoryEntryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model">
+    <selectionEntry id="9d39f9a8-8473-1bec-3642-8fb51174ad79" name="PS 4 - Dagger Squadron Pilot" page="0" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="9d39f9a8-8473-1bec-3642-8fb51174ad79-22fa1af4-ada6-51de-ceda-587f78d7ded9" targetId="22fa1af4-ada6-51de-ceda-587f78d7ded9" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3ef6f549-d5b0-6b13-4127-75e21aa18ba8" name="Dagger Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -5589,7 +5664,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="859482a3-d16d-a07d-e984-8cffc40cd6f0" name="PS 4 - Gray Squadron Pilot" hidden="false" collective="false" categoryEntryId="4d5ff5f5-7111-78aa-bc54-d84cce160888" type="model">
+    <selectionEntry id="859482a3-d16d-a07d-e984-8cffc40cd6f0" name="PS 4 - Gray Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="859482a3-d16d-a07d-e984-8cffc40cd6f0-4d5ff5f5-7111-78aa-bc54-d84cce160888" targetId="4d5ff5f5-7111-78aa-bc54-d84cce160888" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="acc05b73-c929-c6fb-4b96-2ee4ffc2ec80" name="Gray Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -5759,7 +5837,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="41cc-1cad-7b6c-e9fd" name="PS 4 - Guardian Squadron Pilot" hidden="false" collective="false" categoryEntryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model">
+    <selectionEntry id="41cc-1cad-7b6c-e9fd" name="PS 4 - Guardian Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="41cc-1cad-7b6c-e9fd-d456fd74-70e2-fca1-ebe3-7bb3f035207b" targetId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5830-723f-0296-6e44" name="Guardian Squadron Pilot" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -5893,7 +5974,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1df75cfd-78d8-c318-8f59-ab9769836a4f" name="PS 4 - Red Squadron Pilot" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="1df75cfd-78d8-c318-8f59-ab9769836a4f" name="PS 4 - Red Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="1df75cfd-78d8-c318-8f59-ab9769836a4f-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d2d96c76-0f64-96e5-27f5-ac5b16edc05c" name="Red Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -6021,7 +6105,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b4bc-085a-7279-1d03" name="PS 4 - Red Squadron Veteran" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="b4bc-085a-7279-1d03" name="PS 4 - Red Squadron Veteran" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="b4bc-085a-7279-1d03-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="a3db-8768-8b37-0d8b" name="Red Squadron Veteran" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -6147,7 +6234,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ee6299d-6b09-1c99-eb0d-7ceeb6287f73" name="PS 4 - Tala Squadron Pilot" hidden="false" collective="false" categoryEntryId="83d597a7-e33a-db41-78eb-773f8f3a972a" type="model">
+    <selectionEntry id="8ee6299d-6b09-1c99-eb0d-7ceeb6287f73" name="PS 4 - Tala Squadron Pilot" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="8ee6299d-6b09-1c99-eb0d-7ceeb6287f73-83d597a7-e33a-db41-78eb-773f8f3a972a" targetId="83d597a7-e33a-db41-78eb-773f8f3a972a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b9691cc6-57a4-9d6f-6acf-444663aa912a" name="Tala Squadron Pilot" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -6232,7 +6322,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b57a-0a10-b433-ed96" name="PS 4 - •&quot;Chopper&quot;" hidden="false" collective="false" categoryEntryId="3a86-50f7-ddea-720c" type="model">
+    <selectionEntry id="b57a-0a10-b433-ed96" name="PS 4 - •&quot;Chopper&quot;" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="b57a-0a10-b433-ed96-3a86-50f7-ddea-720c" targetId="3a86-50f7-ddea-720c" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f0a6-96e3-5235-2d74" name="•&quot;Chopper&quot;" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -6407,7 +6500,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cdeb-8a01-41a4-c296" name="PS 4 - •Captain Rex" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
+    <selectionEntry id="cdeb-8a01-41a4-c296" name="PS 4 - •Captain Rex" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="cdeb-8a01-41a4-c296-57609b29-6fb3-d25c-d2fa-7551ba3f054e" targetId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b245-487f-e401-0221" name="•Captain Rex" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -6584,7 +6680,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aab6-9821-94da-0bb7" name="PS 4 - •Ezra Bridger" hidden="false" collective="false" categoryEntryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model">
+    <selectionEntry id="aab6-9821-94da-0bb7" name="PS 4 - •Ezra Bridger" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="aab6-9821-94da-0bb7-c89a1da2-c1dd-2fa8-3c94-75bf539ba771" targetId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="27d9-b441-2c89-9aad" name="•Ezra Bridger" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -6767,7 +6866,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9846b55e-fa59-edbb-2c71-37a07c8ddea4" name="PS 4 - •Roark Garnet" hidden="false" collective="false" categoryEntryId="19556eec-413d-a849-9d27-efafdbd36775" type="model">
+    <selectionEntry id="9846b55e-fa59-edbb-2c71-37a07c8ddea4" name="PS 4 - •Roark Garnet" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="9846b55e-fa59-edbb-2c71-37a07c8ddea4-19556eec-413d-a849-9d27-efafdbd36775" targetId="19556eec-413d-a849-9d27-efafdbd36775" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="68058db9-def7-554d-0550-ed4ee46284be" name="•Roark Garnet" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -6818,7 +6920,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="At the start of the Combat phase, choose 1 other friendly ship at Range 1-3. Until the end of the phase, treat that ship&apos;s pilot skill value as &apos;12.&apos;"/>
+            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="At the start of the Combat phase, choose 1 other friendly ship at Range 1-3. Until the end of the phase, treat that ship's pilot skill value as '12.'"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6905,7 +7007,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7683-3cfe-adce-6fb2" name="PS 4 - •Thane Kyrell" hidden="false" collective="false" categoryEntryId="5217-643e-7313-1d6d" type="model">
+    <selectionEntry id="7683-3cfe-adce-6fb2" name="PS 4 - •Thane Kyrell" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="7683-3cfe-adce-6fb2-5217-643e-7313-1d6d" targetId="5217-643e-7313-1d6d" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="90d3-145d-5073-0169" name="Thane Kyrell" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
@@ -7086,7 +7191,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e78-293f-8e30-a858" name="PS 5 - •&quot;Blue Ace&quot;" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="7e78-293f-8e30-a858" name="PS 5 - •&quot;Blue Ace&quot;" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="7e78-293f-8e30-a858-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6d27-5b74-40db-d7f6" name="•&quot;Blue Ace&quot;" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -7268,7 +7376,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54e8219c-6ffc-e12e-8b9b-dadcee5f555a" name="PS 5 - •&quot;Hobbie&quot; Klivian" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="54e8219c-6ffc-e12e-8b9b-dadcee5f555a" name="PS 5 - •&quot;Hobbie&quot; Klivian" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="54e8219c-6ffc-e12e-8b9b-dadcee5f555a-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="61f132d9-5b02-1606-87d0-c877c113e7b3" name="•&quot;Hobbie&quot; Klivian" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -7407,7 +7518,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b28aa0bc-79bf-71c9-8e07-49d2ec02480f" name="PS 5 - •&quot;Leebo&quot;" hidden="false" collective="false" categoryEntryId="60d5-f2bc-7794-e995" type="model">
+    <selectionEntry id="b28aa0bc-79bf-71c9-8e07-49d2ec02480f" name="PS 5 - •&quot;Leebo&quot;" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="b28aa0bc-79bf-71c9-8e07-49d2ec02480f-60d5-f2bc-7794-e995" targetId="60d5-f2bc-7794-e995" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f1674a9d-e9aa-8365-46da-e26ad90b07b2" name="•&quot;Leebo&quot;" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -7615,7 +7729,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5a95bbae-0e98-afc8-a0ba-1ac1f7e8daa9" name="PS 5 - •Biggs Darklighter" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="5a95bbae-0e98-afc8-a0ba-1ac1f7e8daa9" name="PS 5 - •Biggs Darklighter" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="5a95bbae-0e98-afc8-a0ba-1ac1f7e8daa9-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="dcd6f86e-07f5-1c23-eb84-aabdd2b5d397" name="•Biggs Darklighter" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -7754,7 +7871,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="75594592-a6a6-3687-b6f5-73d68a751f0e" name="PS 5 - •Chewbacca" hidden="false" collective="false" categoryEntryId="b8d6-fa09-457d-2fb5" type="model">
+    <selectionEntry id="75594592-a6a6-3687-b6f5-73d68a751f0e" name="PS 5 - •Chewbacca" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="75594592-a6a6-3687-b6f5-73d68a751f0e-b8d6-fa09-457d-2fb5" targetId="b8d6-fa09-457d-2fb5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="07f73faf-dc55-b96c-ba57-b0641aea84e4" name="•Chewbacca" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -7957,7 +8077,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf64-29bc-c160-5715" name="PS 5 - •Chewbacca" hidden="false" collective="false" categoryEntryId="92ac-3969-4658-d8dd" type="model">
+    <selectionEntry id="bf64-29bc-c160-5715" name="PS 5 - •Chewbacca" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="bf64-29bc-c160-5715-92ac-3969-4658-d8dd" targetId="92ac-3969-4658-d8dd" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="bdda-142a-6a74-80d1" name="•Chewbacca" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -8160,9 +8283,12 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="28187091-d53d-09cc-bb52-58fe7ad34bce" name="PS 5 - •Etahn A&apos;baht" hidden="false" collective="false" categoryEntryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model">
+    <selectionEntry id="28187091-d53d-09cc-bb52-58fe7ad34bce" name="PS 5 - •Etahn A'baht" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="28187091-d53d-09cc-bb52-58fe7ad34bce-75b9b4a3-d812-66b3-4206-47e680ec5a3c" targetId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" primary="true"/>
+</categoryLinks>
       <profiles>
-        <profile id="65493472-fe8d-b75e-fc0f-ab0e7f915f7d" name="•Etahn A&apos;baht" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
+        <profile id="65493472-fe8d-b75e-fc0f-ab0e7f915f7d" name="•Etahn A'baht" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8212,7 +8338,7 @@
             <characteristic name="Upgrade Bar" characteristicTypeId="557067726164652042617223232344415441232323" value="Elite, System, Torpedoes, Astromech"/>
           </characteristics>
         </profile>
-        <profile id="72a4ff1a-226a-7870-c350-a0e9e48faaef" name="Etahn A&apos;baht" page="0" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
+        <profile id="72a4ff1a-226a-7870-c350-a0e9e48faaef" name="Etahn A'baht" page="0" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8303,7 +8429,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" name="PS 5 - •Gemmer Sojan" hidden="false" collective="false" categoryEntryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model">
+    <selectionEntry id="120e1bf3-2c69-34e1-b5d9-6e87e0d00167" name="PS 5 - •Gemmer Sojan" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="120e1bf3-2c69-34e1-b5d9-6e87e0d00167-73a03c98-589e-96c4-76c9-4a99dea055e6" targetId="73a03c98-589e-96c4-76c9-4a99dea055e6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="de207451-90e9-d7e2-8b7a-2ce2e1990b14" name="•Gemmer Sojan" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -8468,7 +8597,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce4c-1411-c5b7-f3e4" name="PS 5 - •Kanan Jarrus" hidden="false" collective="false" categoryEntryId="3a86-50f7-ddea-720c" type="model">
+    <selectionEntry id="ce4c-1411-c5b7-f3e4" name="PS 5 - •Kanan Jarrus" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="ce4c-1411-c5b7-f3e4-3a86-50f7-ddea-720c" targetId="3a86-50f7-ddea-720c" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0152-7d00-bcba-a5fd" name="•Kanan Jarrus" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -8643,7 +8775,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e5d2aeec-a18e-7617-5bb5-f35c6aac1a4f" name="PS 5 - •Nera Dantels" hidden="false" collective="false" categoryEntryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model">
+    <selectionEntry id="e5d2aeec-a18e-7617-5bb5-f35c6aac1a4f" name="PS 5 - •Nera Dantels" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="e5d2aeec-a18e-7617-5bb5-f35c6aac1a4f-22fa1af4-ada6-51de-ceda-587f78d7ded9" targetId="22fa1af4-ada6-51de-ceda-587f78d7ded9" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="4a5e6e1f-2f4d-6c04-f888-0fecb8fd6726" name="•Nera Dantels" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -8816,7 +8951,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e0f-42e3-2635-9a1c" name="PS 5 - •Sabine Wren" hidden="false" collective="false" categoryEntryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model">
+    <selectionEntry id="3e0f-42e3-2635-9a1c" name="PS 5 - •Sabine Wren" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="3e0f-42e3-2635-9a1c-c89a1da2-c1dd-2fa8-3c94-75bf539ba771" targetId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="394e-5d59-9c9b-4bb1" name="•Sabine Wren" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -8991,7 +9129,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ed2-053c-039b-9966" name="PS 5 - •Sabine Wren" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
+    <selectionEntry id="8ed2-053c-039b-9966" name="PS 5 - •Sabine Wren" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="8ed2-053c-039b-9966-57609b29-6fb3-d25c-d2fa-7551ba3f054e" targetId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d390-30c6-8ab6-53b8" name="•Sabine Wren" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -9172,7 +9313,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4787f909-f655-3cba-c6f7-b085804e685f" name="PS 6 - •&quot;Dutch&quot; Vander" page="0" hidden="false" collective="false" categoryEntryId="4d5ff5f5-7111-78aa-bc54-d84cce160888" type="model">
+    <selectionEntry id="4787f909-f655-3cba-c6f7-b085804e685f" name="PS 6 - •&quot;Dutch&quot; Vander" page="0" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="4787f909-f655-3cba-c6f7-b085804e685f-4d5ff5f5-7111-78aa-bc54-d84cce160888" targetId="4d5ff5f5-7111-78aa-bc54-d84cce160888" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="18488f06-f77b-d9bf-8a5c-d7ec7543ab18" name="•&quot;Dutch&quot; Vander" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -9353,7 +9497,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc21-5f30-c376-82c4" name="PS 6 - •&quot;Red Ace&quot;" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="dc21-5f30-c376-82c4" name="PS 6 - •&quot;Red Ace&quot;" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="dc21-5f30-c376-82c4-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e753-8f64-ce7b-a9a5" name="•&quot;Red Ace&quot;" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -9535,7 +9682,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="81ee-69fb-caa0-c8ef" name="PS 6 - •&quot;Snap&quot; Wexley" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="81ee-69fb-caa0-c8ef" name="PS 6 - •&quot;Snap&quot; Wexley" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="81ee-69fb-caa0-c8ef-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="09a1-190c-eb8b-d582" name="&quot;Snap&quot; Wexley" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
@@ -9702,7 +9852,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c6fb6c9f-3889-f5ae-be95-95261eb2e92f" name="PS 6 - •Arvel Crynyd" hidden="false" collective="false" categoryEntryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model">
+    <selectionEntry id="c6fb6c9f-3889-f5ae-be95-95261eb2e92f" name="PS 6 - •Arvel Crynyd" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c6fb6c9f-3889-f5ae-be95-95261eb2e92f-73a03c98-589e-96c4-76c9-4a99dea055e6" targetId="73a03c98-589e-96c4-76c9-4a99dea055e6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="2acc199f-fc25-03bb-cd9a-d86da0dba992" name="•Arvel Crynyd" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -9867,7 +10020,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c117-d5b7-6be4-edef" name="PS 6 - •Cassian Andor" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
+    <selectionEntry id="c117-d5b7-6be4-edef" name="PS 6 - •Cassian Andor" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c117-d5b7-6be4-edef-65e2-69cd-6b28-79ab" targetId="65e2-69cd-6b28-79ab" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b086-b01b-a4d0-c854" name="•Cassian Andor" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -10057,7 +10213,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6507-1fe6-ff15-7b89" name="PS 6 - •Esege Tuketu" hidden="false" collective="false" categoryEntryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model">
+    <selectionEntry id="6507-1fe6-ff15-7b89" name="PS 6 - •Esege Tuketu" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6507-1fe6-ff15-7b89-d456fd74-70e2-fca1-ebe3-7bb3f035207b" targetId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="457b-c061-545a-84a3" name="•Esege Tuketu" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -10202,7 +10361,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cd732624-bd14-47d8-d25a-5a247e5dee70" name="PS 6 - •Garven Dreis" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="cd732624-bd14-47d8-d25a-5a247e5dee70" name="PS 6 - •Garven Dreis" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="cd732624-bd14-47d8-d25a-5a247e5dee70-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="309e61e8-4aad-02bd-2218-73066de254b7" name="•Garven Dreis" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -10341,7 +10503,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bcb91787-88cd-24c3-aa69-4c6416f05645" name="PS 6 - •Ibtisam" page="0" hidden="false" collective="false" categoryEntryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model">
+    <selectionEntry id="bcb91787-88cd-24c3-aa69-4c6416f05645" name="PS 6 - •Ibtisam" page="0" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="bcb91787-88cd-24c3-aa69-4c6416f05645-22fa1af4-ada6-51de-ceda-587f78d7ded9" targetId="22fa1af4-ada6-51de-ceda-587f78d7ded9" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="47fb7672-af0e-2696-7256-8202d08d3996" name="•Ibtisam" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -10514,7 +10679,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc08990d-32b0-6f52-0f02-f5b7aae7700a" name="PS 6 - •Kyle Katarn" hidden="false" collective="false" categoryEntryId="19556eec-413d-a849-9d27-efafdbd36775" type="model">
+    <selectionEntry id="fc08990d-32b0-6f52-0f02-f5b7aae7700a" name="PS 6 - •Kyle Katarn" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="fc08990d-32b0-6f52-0f02-f5b7aae7700a-19556eec-413d-a849-9d27-efafdbd36775" targetId="19556eec-413d-a849-9d27-efafdbd36775" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5b4fe8e9-b857-f96d-d3a2-ca25e0d1c156" name="•Kyle Katarn" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -10682,7 +10850,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c7349390-7560-1af5-e6dc-14352fc5cd13" name="PS 6 - •Lieutenant Blount" page="0" hidden="false" collective="false" categoryEntryId="83d597a7-e33a-db41-78eb-773f8f3a972a" type="model">
+    <selectionEntry id="c7349390-7560-1af5-e6dc-14352fc5cd13" name="PS 6 - •Lieutenant Blount" page="0" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c7349390-7560-1af5-e6dc-14352fc5cd13-83d597a7-e33a-db41-78eb-773f8f3a972a" targetId="83d597a7-e33a-db41-78eb-773f8f3a972a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e084d0dc-583d-387a-9321-9ee9a6278f5d" name="•Lieutenant Blount" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -10799,7 +10970,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c207-09b1-8bd0-b9af" name="PS 6 - •Shara Bey" hidden="false" collective="false" categoryEntryId="5217-643e-7313-1d6d" type="model">
+    <selectionEntry id="c207-09b1-8bd0-b9af" name="PS 6 - •Shara Bey" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c207-09b1-8bd0-b9af-5217-643e-7313-1d6d" targetId="5217-643e-7313-1d6d" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b8cc-5307-d46f-3555" name="•Shara Bey" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -10965,7 +11139,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1cf-b251-1215-0b9e" name="PS 7 - •Ahsoka Tano" hidden="false" collective="false" categoryEntryId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" type="model">
+    <selectionEntry id="a1cf-b251-1215-0b9e" name="PS 7 - •Ahsoka Tano" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="a1cf-b251-1215-0b9e-57609b29-6fb3-d25c-d2fa-7551ba3f054e" targetId="57609b29-6fb3-d25c-d2fa-7551ba3f054e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="8922-281d-5496-4936" name="•Ahsoka Tano" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -11145,7 +11322,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="acbb931d-dbf0-7e0d-d91d-319f712547f8" name="PS 7 - •Dash Rendar" page="0" hidden="false" collective="false" categoryEntryId="60d5-f2bc-7794-e995" type="model">
+    <selectionEntry id="acbb931d-dbf0-7e0d-d91d-319f712547f8" name="PS 7 - •Dash Rendar" page="0" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="acbb931d-dbf0-7e0d-d91d-319f712547f8-60d5-f2bc-7794-e995" targetId="60d5-f2bc-7794-e995" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="a3379152-7873-0abd-640e-f26c48327960" name="•Dash Rendar" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -11353,7 +11533,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f21d-caf0-346c-169f" name="PS 7 - •Ello Asty" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="f21d-caf0-346c-169f" name="PS 7 - •Ello Asty" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="f21d-caf0-346c-169f-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0a6d-f16e-7172-3501" name="•Ello Asty" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -11511,7 +11694,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f74a-6fdc-f12d-87a7" name="PS 7 - •Hera Syndulla" hidden="false" collective="false" categoryEntryId="3a86-50f7-ddea-720c" type="model">
+    <selectionEntry id="f74a-6fdc-f12d-87a7" name="PS 7 - •Hera Syndulla" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="f74a-6fdc-f12d-87a7-3a86-50f7-ddea-720c" targetId="3a86-50f7-ddea-720c" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f512-b685-e0a1-ccd9" name="•Hera Syndulla" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -11692,7 +11878,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c706-6a17-0237-c59d" name="PS 7 - •Hera Syndulla" hidden="false" collective="false" categoryEntryId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" type="model">
+    <selectionEntry id="c706-6a17-0237-c59d" name="PS 7 - •Hera Syndulla" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c706-6a17-0237-c59d-c89a1da2-c1dd-2fa8-3c94-75bf539ba771" targetId="c89a1da2-c1dd-2fa8-3c94-75bf539ba771" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="c0d7-e39e-f3d9-792d" name="•Hera Syndulla" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -11880,7 +12069,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72c0296c-b863-071d-1cd0-066799914d23" name="PS 7 - •Jake Farrell" hidden="false" collective="false" categoryEntryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model">
+    <selectionEntry id="72c0296c-b863-071d-1cd0-066799914d23" name="PS 7 - •Jake Farrell" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="72c0296c-b863-071d-1cd0-066799914d23-73a03c98-589e-96c4-76c9-4a99dea055e6" targetId="73a03c98-589e-96c4-76c9-4a99dea055e6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5a597c10-722e-d65c-6d5c-dee75e7969b9" name="Jake Farrell" page="0" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
@@ -12058,7 +12250,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff32dd3e-265d-44bd-3e30-985cc54dcc97" name="PS 7 - •Jek Porkins" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="ff32dd3e-265d-44bd-3e30-985cc54dcc97" name="PS 7 - •Jek Porkins" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="ff32dd3e-265d-44bd-3e30-985cc54dcc97-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="c66db725-1fbf-d70d-aa0e-e54fca226456" name="•Jek Porkins" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -12182,7 +12377,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1ae33d3-e999-62e9-c680-708dd6a38416" name="PS 7 - •Keyan Farlander" page="0" hidden="false" collective="false" categoryEntryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model">
+    <selectionEntry id="a1ae33d3-e999-62e9-c680-708dd6a38416" name="PS 7 - •Keyan Farlander" page="0" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="a1ae33d3-e999-62e9-c680-708dd6a38416-22fa1af4-ada6-51de-ceda-587f78d7ded9" targetId="22fa1af4-ada6-51de-ceda-587f78d7ded9" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="36d40c9a-6459-fcba-708d-9c6332537a50" name="Keyan Farlander" page="0" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
@@ -12355,7 +12553,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fec31098-536a-403b-1603-7ab0ad1c4b71" name="PS 7 - •Lando Calrissian" page="0" hidden="false" collective="false" categoryEntryId="b8d6-fa09-457d-2fb5" type="model">
+    <selectionEntry id="fec31098-536a-403b-1603-7ab0ad1c4b71" name="PS 7 - •Lando Calrissian" page="0" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="fec31098-536a-403b-1603-7ab0ad1c4b71-b8d6-fa09-457d-2fb5" targetId="b8d6-fa09-457d-2fb5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1709c600-29af-1e86-e20c-45f3d872231d" name="•Lando Calrissian" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -12552,7 +12753,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2568-6d2e-fad6-ea4f" name="PS 7 - •Nien Nunb" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="2568-6d2e-fad6-ea4f" name="PS 7 - •Nien Nunb" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="2568-6d2e-fad6-ea4f-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="ef1a-9b33-c1c4-e934" name="Nien Nunb" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
@@ -12719,7 +12923,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f5c6-302a-525d-cc81" name="PS 7 - •Norra Wexley" hidden="false" collective="false" categoryEntryId="5217-643e-7313-1d6d" type="model">
+    <selectionEntry id="f5c6-302a-525d-cc81" name="PS 7 - •Norra Wexley" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="f5c6-302a-525d-cc81-5217-643e-7313-1d6d" targetId="5217-643e-7313-1d6d" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="027a-b364-063e-bded" name="•Norra Wexley" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -12885,7 +13092,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd44ba37-4ebf-8898-f84e-bd5b89b55379" name="PS 8 - •Airen Cracken" hidden="false" collective="false" categoryEntryId="83d597a7-e33a-db41-78eb-773f8f3a972a" type="model">
+    <selectionEntry id="bd44ba37-4ebf-8898-f84e-bd5b89b55379" name="PS 8 - •Airen Cracken" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="bd44ba37-4ebf-8898-f84e-bd5b89b55379-83d597a7-e33a-db41-78eb-773f8f3a972a" targetId="83d597a7-e33a-db41-78eb-773f8f3a972a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="915ed705-cd37-4a70-2fe2-4e4cb320c074" name="•Airen Cracken" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -13002,7 +13212,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c92ed03e-f65f-8fca-9dd4-60952cb3cbf7" name="PS 8 - •Corran Horn" page="0" hidden="false" collective="false" categoryEntryId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" type="model">
+    <selectionEntry id="c92ed03e-f65f-8fca-9dd4-60952cb3cbf7" name="PS 8 - •Corran Horn" page="0" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c92ed03e-f65f-8fca-9dd4-60952cb3cbf7-75b9b4a3-d812-66b3-4206-47e680ec5a3c" targetId="75b9b4a3-d812-66b3-4206-47e680ec5a3c" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b5ae8d64-4383-0e4f-3e42-e21dfd78f452" name="•Corran Horn" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -13145,7 +13358,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e18006c3-2f07-b6a0-cad1-7e648a568eb4" name="PS 8 - •Horton Salm" hidden="false" collective="false" categoryEntryId="4d5ff5f5-7111-78aa-bc54-d84cce160888" type="model">
+    <selectionEntry id="e18006c3-2f07-b6a0-cad1-7e648a568eb4" name="PS 8 - •Horton Salm" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="e18006c3-2f07-b6a0-cad1-7e648a568eb4-4d5ff5f5-7111-78aa-bc54-d84cce160888" targetId="4d5ff5f5-7111-78aa-bc54-d84cce160888" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="07198784-940a-6772-1edd-8eb8e6533290" name="•Horton Salm" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -13326,7 +13542,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="226ef195-13a2-2188-78ac-c84e2c97f99e" name="PS 8 - •Jan Ors" hidden="false" collective="false" categoryEntryId="19556eec-413d-a849-9d27-efafdbd36775" type="model">
+    <selectionEntry id="226ef195-13a2-2188-78ac-c84e2c97f99e" name="PS 8 - •Jan Ors" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="226ef195-13a2-2188-78ac-c84e2c97f99e-19556eec-413d-a849-9d27-efafdbd36775" targetId="19556eec-413d-a849-9d27-efafdbd36775" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="4b8bdb13-8f5a-ef4e-1278-b1cfe9490c6a" name="•Jan Ors" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -13494,7 +13713,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74520573-302f-d98f-f93b-0d0d1bb0045e" name="PS 8 - •Luke Skywalker" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="74520573-302f-d98f-f93b-0d0d1bb0045e" name="PS 8 - •Luke Skywalker" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="74520573-302f-d98f-f93b-0d0d1bb0045e-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="4899b289-42e6-9596-4f59-926994e6a6df" name="•Luke Skywalker" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -13627,7 +13849,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="76a4-df77-47ac-9c64" name="PS 8 - •Miranda Doni" hidden="false" collective="false" categoryEntryId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" type="model">
+    <selectionEntry id="76a4-df77-47ac-9c64" name="PS 8 - •Miranda Doni" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="76a4-df77-47ac-9c64-d456fd74-70e2-fca1-ebe3-7bb3f035207b" targetId="d456fd74-70e2-fca1-ebe3-7bb3f035207b" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0950-1fa1-41be-9979" name="•Miranda Doni" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -13772,7 +13997,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8fa-a12f-00a0-4536" name="PS 8 - •Poe Dameron" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="a8fa-a12f-00a0-4536" name="PS 8 - •Poe Dameron" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="a8fa-a12f-00a0-4536-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5fd2-ac3e-9e47-64d1" name="•Poe Dameron" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -13939,7 +14167,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bbaa-892f-5128-fb05" name="PS 8 - •Rey" hidden="false" collective="false" categoryEntryId="92ac-3969-4658-d8dd" type="model">
+    <selectionEntry id="bbaa-892f-5128-fb05" name="PS 8 - •Rey" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="bbaa-892f-5128-fb05-92ac-3969-4658-d8dd" targetId="92ac-3969-4658-d8dd" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="59db-e49a-68f9-311d" name="•Rey" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -14136,7 +14367,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e1d35b7f-fede-c293-2d34-9fa5a82444b9" name="PS 8 - •Ten Numb" page="0" hidden="false" collective="false" categoryEntryId="22fa1af4-ada6-51de-ceda-587f78d7ded9" type="model">
+    <selectionEntry id="e1d35b7f-fede-c293-2d34-9fa5a82444b9" name="PS 8 - •Ten Numb" page="0" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="e1d35b7f-fede-c293-2d34-9fa5a82444b9-22fa1af4-ada6-51de-ceda-587f78d7ded9" targetId="22fa1af4-ada6-51de-ceda-587f78d7ded9" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b9b08184-9895-bb6d-6504-f924fcb99360" name="•Ten Numb" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -14309,7 +14543,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7fe7745a-8efc-ee60-ee54-38f409733874" name="PS 8 - •Tycho Celchu" hidden="false" collective="false" categoryEntryId="73a03c98-589e-96c4-76c9-4a99dea055e6" type="model">
+    <selectionEntry id="7fe7745a-8efc-ee60-ee54-38f409733874" name="PS 8 - •Tycho Celchu" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="7fe7745a-8efc-ee60-ee54-38f409733874-73a03c98-589e-96c4-76c9-4a99dea055e6" targetId="73a03c98-589e-96c4-76c9-4a99dea055e6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="caeb2908-3c92-3519-135f-07b43a47d044" name="•Tycho Celchu" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -14487,7 +14724,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d46a32b4-672f-11bf-cf9a-cb223e25a4a7" name="PS 8 - •Wes Janson" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="d46a32b4-672f-11bf-cf9a-cb223e25a4a7" name="PS 8 - •Wes Janson" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="d46a32b4-672f-11bf-cf9a-cb223e25a4a7-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0c4cd4ed-87c9-5318-e240-84d000cd7f1f" name="Wes Janson" page="0" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
@@ -14611,7 +14851,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="44792c3a-5411-9276-9786-6a6ff2b7608e" name="PS 9 - •Han Solo" hidden="false" collective="false" categoryEntryId="b8d6-fa09-457d-2fb5" type="model">
+    <selectionEntry id="44792c3a-5411-9276-9786-6a6ff2b7608e" name="PS 9 - •Han Solo" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="44792c3a-5411-9276-9786-6a6ff2b7608e-b8d6-fa09-457d-2fb5" targetId="b8d6-fa09-457d-2fb5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3f7eeca9-39a8-3658-fbca-50521273ad13" name="•Han Solo" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -14814,7 +15057,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d27a-1067-739f-96dc" name="PS 9 - •Han Solo" hidden="false" collective="false" categoryEntryId="92ac-3969-4658-d8dd" type="model">
+    <selectionEntry id="d27a-1067-739f-96dc" name="PS 9 - •Han Solo" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="d27a-1067-739f-96dc-92ac-3969-4658-d8dd" targetId="92ac-3969-4658-d8dd" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b41f-58ef-01b8-2924" name="•Han Solo" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -15017,7 +15263,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fa90-f782-81a9-95b0" name="PS 9 - •Poe Dameron" hidden="false" collective="false" categoryEntryId="8000-0b43-fa58-75fb" type="model">
+    <selectionEntry id="fa90-f782-81a9-95b0" name="PS 9 - •Poe Dameron" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="fa90-f782-81a9-95b0-8000-0b43-fa58-75fb" targetId="8000-0b43-fa58-75fb" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9c12-724e-26f2-f68d" name="Poe Dameron" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
@@ -15184,7 +15433,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="da7237a6-5661-d893-c50a-1adc41d02055" name="PS 9 - •Wedge Antillies" hidden="false" collective="false" categoryEntryId="5753eb32-f764-9d39-c66f-0c9951854ce6" type="model">
+    <selectionEntry id="da7237a6-5661-d893-c50a-1adc41d02055" name="PS 9 - •Wedge Antillies" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="da7237a6-5661-d893-c50a-1adc41d02055-5753eb32-f764-9d39-c66f-0c9951854ce6" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5081f14a-4c06-1dd8-20e5-9155e7f297f6" name="•Wedge Antillies" page="0" hidden="false" profileTypeId="31536869707323232344415441232323">
           <profiles/>
@@ -15242,7 +15494,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="When attacking, reduce the defender&apos;s agility value by 1 (to a minimum of &quot;0&quot;)."/>
+            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="When attacking, reduce the defender's agility value by 1 (to a minimum of &quot;0&quot;)."/>
           </characteristics>
         </profile>
       </profiles>
@@ -15308,7 +15560,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de2e-3c65-1c41-cdb6" name="PS 4 - •Bodhi Rook" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
+    <selectionEntry id="de2e-3c65-1c41-cdb6" name="PS 4 - •Bodhi Rook" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="de2e-3c65-1c41-cdb6-65e2-69cd-6b28-79ab" targetId="65e2-69cd-6b28-79ab" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9eb0-f0f0-fe83-8950" name="•Bodhi Rook" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -15477,7 +15732,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4841-3f79-2c42-dd6f" name="PS 3 - •Heff Tobber" hidden="false" collective="false" categoryEntryId="65e2-69cd-6b28-79ab" type="model">
+    <selectionEntry id="4841-3f79-2c42-dd6f" name="PS 3 - •Heff Tobber" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="4841-3f79-2c42-dd6f-65e2-69cd-6b28-79ab" targetId="65e2-69cd-6b28-79ab" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="beb1-bc1f-236c-4365" name="•Heff Tobber" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -15637,7 +15895,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e12-2c94-272f-67a9" name="PS 1 - Kashyyyk Defender†" hidden="false" collective="false" categoryEntryId="9e2a-aa1a-da9e-d8ed" type="model">
+    <selectionEntry id="1e12-2c94-272f-67a9" name="PS 1 - Kashyyyk Defender†" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="1e12-2c94-272f-67a9-9e2a-aa1a-da9e-d8ed" targetId="9e2a-aa1a-da9e-d8ed" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7ad4-e925-4267-6d48" name="Kashyyyk Defender" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -15750,7 +16011,10 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6999-f117-cac0-9a3d" name="PS 8 - •Captain Nym††" hidden="true" collective="false" categoryEntryId="01f6-d582-079b-3c8f" type="model">
+    <selectionEntry id="6999-f117-cac0-9a3d" name="PS 8 - •Captain Nym††" hidden="true" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6999-f117-cac0-9a3d-01f6-d582-079b-3c8f" targetId="01f6-d582-079b-3c8f" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks>
@@ -15798,10 +16062,157 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="56cc-bb28-1cd2-f08c" name="PS 5 - •Lowhhrick†" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="56cc-bb28-1cd2-f08c-9e2a-aa1a-da9e-d8ed" targetId="9e2a-aa1a-da9e-d8ed" primary="true"/>
+</categoryLinks>
+      <profiles>
+        <profile id="8fa6-7ac2-c3a3-5983" name="•Lowhhrick" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="48756c6c23232344415441232323" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="56cc-bb28-1cd2-f08c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e1f-eb69-0949-59bd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="536869656c647323232344415441232323" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="56cc-bb28-1cd2-f08c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db18-cc90-f881-1d6a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="4167696c69747923232344415441232323" value=" +1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="56cc-bb28-1cd2-f08c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4488-a9a0-7667-6e48" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew x2, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="56cc-bb28-1cd2-f08c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46ce-3ec3-fa2b-f71a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="56cc-bb28-1cd2-f08c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5eb0-6c5c-1829-305a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="56cc-bb28-1cd2-f08c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="5"/>
+            <characteristic name="Primary Weapon" characteristicTypeId="5072696d61727920576561706f6e23232344415441232323" value="3"/>
+            <characteristic name="Agility" characteristicTypeId="4167696c69747923232344415441232323" value="1"/>
+            <characteristic name="Hull" characteristicTypeId="48756c6c23232344415441232323" value="6"/>
+            <characteristic name="Shields" characteristicTypeId="536869656c647323232344415441232323" value="3"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="557067726164652042617223232344415441232323" value="Elite, Crew x2"/>
+          </characteristics>
+        </profile>
+        <profile id="caed-77fc-1acb-635c" name="Lowhhrick" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323" profileTypeName="2.1 Pilot Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="When another friendly ship at Range 1 is defending, you may spend 1 reinforce token. If you do, the defender adds 1 [evade] result."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="df85-4366-35cf-93a4" name="" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="971c-ff40-fc6c-958e" name="" hidden="false" targetId="3229-c22d-b4f2-284f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6f11-9070-9167-052b" name="" hidden="false" targetId="d206-420d-0e7c-fb63" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="38f2-a402-363d-acba" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c29e-bba3-23fa-1444" name="" hidden="false" targetId="8260-d5a8-d85f-0774" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="c6a0-e4a2-736c-5be9" name="" hidden="false" targetId="809b-eddb-0859-03bd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="56cc-bb28-1cd2-f08c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1914-fcb2-ae8f-490e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+        </entryLink>
+        <entryLink id="d7b6-03e7-f43f-286b" name="" hidden="false" targetId="cb241dcb-55f7-7582-eec0-34f7dde7c2d5" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="9489-8ecd-f701-417f" name="" hidden="false" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="28.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="60cdc12f-981b-56bf-38f6-1ff34c39041d" name="A-Wing Test Pilot" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="60cdc12f-981b-56bf-38f6-1ff34c39041d" name="A-Wing Test Pilot" page="" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="93fa957d-f175-4178-093e-171b8c931f94" name="A-Wing Test Pilot" page="" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -15827,7 +16238,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="df45-fc6c-2df0-6422" name="Alliance Overhaul" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="df45-fc6c-2df0-6422" name="Alliance Overhaul" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="5ed3-618e-d9b5-7d77" name="Alliance Overhaul" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -15853,7 +16264,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5c3b2e53-06ac-12b9-f425-1709db8d8d84" name="B-Wing/E2" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="5c3b2e53-06ac-12b9-f425-1709db8d8d84" name="B-Wing/E2" page="" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2fb26e06-b7e9-d593-516b-99ebcab8695e" name="B-Wing/E2" page="0" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323">
           <profiles/>
@@ -15879,7 +16290,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" name="Chardaan Refit" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="61391254-0fc6-4cbd-0a83-e5b2410ac1f5" name="Chardaan Refit" page="" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d193187b-0283-842e-0aa7-359467e791b7" name="Chardaan Refit" page="0" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323">
           <profiles/>
@@ -15906,7 +16317,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f65d78d8-315d-5bcb-448c-3939cb70bfaa" name="Combat Retrofit" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="f65d78d8-315d-5bcb-448c-3939cb70bfaa" name="Combat Retrofit" page="" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0b1a9e62-c078-4a49-5c73-d2af40680d18" name="Combat Retrofit" page="0" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323">
           <profiles/>
@@ -15932,7 +16343,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b70d50ec-95a3-6d2e-d9cf-8995c477a4f4" name="Expanded Cargo Hold" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="b70d50ec-95a3-6d2e-d9cf-8995c477a4f4" name="Expanded Cargo Hold" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="10662eb2-6312-2c46-3d45-6194e75bdc5d" name="Expanded Cargo Hold" page="0" hidden="false" profileTypeId="d19eb8a3-b95d-5600-b0e3-079eb69d67ed">
           <profiles/>
@@ -15957,7 +16368,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="07d0-2dc8-381b-cbae" name="Integrated Astromech" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="07d0-2dc8-381b-cbae" name="Integrated Astromech" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="95fe-5088-f7d6-05e3" name="Integrated Astromech" book="" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323">
           <profiles/>
@@ -15981,7 +16392,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c1d-c1fa-fbce-0f0a" name="Pivot Wing" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="1c1d-c1fa-fbce-0f0a" name="Pivot Wing" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="4cde-f4c4-01a0-b83a" name="Pivot Wing (Attack)" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -16016,7 +16427,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="23606ed9-3e04-7a0b-8064-67d3c9a3b927" name="R2 Astromech" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="23606ed9-3e04-7a0b-8064-67d3c9a3b927" name="R2 Astromech" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="86428053-9f20-5103-2224-c5fb2c003450" name="R2 Astromech" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -16040,7 +16451,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e4d-3f0c-58e5-9879" name="R3 Astromech" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="0e4d-3f0c-58e5-9879" name="R3 Astromech" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d89f-05bb-67e1-cfd3" name="R3 Astromech" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -16064,7 +16475,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="75215c17-356f-d4e7-a016-d6465fa09884" name="R5 Astromech" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="75215c17-356f-d4e7-a016-d6465fa09884" name="R5 Astromech" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9a8233a2-41be-c098-bfa7-439d285e4c4c" name="R5 Astromech" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -16088,7 +16499,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1022cb37-e0eb-bdee-5235-d221137b7e14" name="R7 Astromech" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="1022cb37-e0eb-bdee-5235-d221137b7e14" name="R7 Astromech" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="58e3110a-e48f-52c8-b422-72de5b4a2d2e" name="R7 Astromech" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -16112,7 +16523,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6998-3688-dea2-aeb3" name="Smuggling Compartment" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="6998-3688-dea2-aeb3" name="Smuggling Compartment" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="c11d-2be5-0c21-4549" name="Smuggling Compartment" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323">
           <profiles/>
@@ -16138,7 +16549,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e73-9fca-4cff-8c24" name="Targeting Astromech" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="8e73-9fca-4cff-8c24" name="Targeting Astromech" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="061b-9f6c-2a65-653e" name="Targeting Astromech" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -16162,7 +16573,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f97c-dea0-955b-a9b3" name="•&quot;Chopper&quot;" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="f97c-dea0-955b-a9b3" name="•&quot;Chopper&quot;" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ab7a-5679-1962-a314" name="&quot;Chopper&quot;" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16197,7 +16608,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" name="•&quot;Leebo&quot;" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="82824a2e-4d29-0d73-66fb-bd3d9d58aec3" name="•&quot;Leebo&quot;" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="23213bb1-d567-77bd-3098-69b06d3af30d" name="&quot;Leebo&quot;" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16232,7 +16643,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="509f-8891-3ae2-dbf6" name="•&quot;Zeb&quot; Orrelios" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="509f-8891-3ae2-dbf6" name="•&quot;Zeb&quot; Orrelios" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="3120-65d2-d938-b71c" name="&quot;Zeb&quot; Orrelios" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16273,7 +16684,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7633-f1e6-bd1b-57f6" name="•BB-8" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="7633-f1e6-bd1b-57f6" name="•BB-8" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="4620-fd01-4cbf-af20" name="BB-8" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -16300,7 +16711,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="41da-cdc1-0cf0-b485" name="•Black One" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="41da-cdc1-0cf0-b485" name="•Black One" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="c02c-9163-ede9-fa03" name="Black One" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -16327,7 +16738,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12f45c62-9cea-6248-71a9-b219196fdd5a" name="•Bright Hope" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="12f45c62-9cea-6248-71a9-b219196fdd5a" name="•Bright Hope" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="f952e99e-894d-fe16-02d9-e3168477e46c" name="Bright Hope" page="0" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc">
           <profiles/>
@@ -16355,7 +16766,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="31d6cad6-2e35-a968-d1c2-7b73baad118f" name="•C-3PO" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="31d6cad6-2e35-a968-d1c2-7b73baad118f" name="•C-3PO" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a0931371-8323-6b8b-769b-645571b28079" name="C-3PO" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16382,7 +16793,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb8d-97fb-e96f-d109" name="•Captain Rex" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="cb8d-97fb-e96f-d109" name="•Captain Rex" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d041-f9cf-f0cf-caf8" name="Captain Rex" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16417,7 +16828,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1350-06cb-5586-ba71" name="•Captured TIE" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="1350-06cb-5586-ba71" name="•Captured TIE" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="6576-cab0-41ed-36e0" name="Captured TIE" hidden="false" profileTypeId="332e30324d6f64696669636174696f6e23232344415441232323">
           <profiles/>
@@ -16444,7 +16855,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e22d3d6f-11d5-c728-1fe0-c9b4d8a0a608" name="•Carlist Rieekan" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="e22d3d6f-11d5-c728-1fe0-c9b4d8a0a608" name="•Carlist Rieekan" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="e52f2225-da0a-cff3-d043-8534d6300f54" name="Carlist Rieekan" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16452,7 +16863,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the start of the Activation phase, you may discard this card to treat each friendly ship&apos;s pilot skill value as &quot;12&quot; until the end of the phase."/>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the start of the Activation phase, you may discard this card to treat each friendly ship's pilot skill value as &quot;12&quot; until the end of the phase."/>
           </characteristics>
         </profile>
       </profiles>
@@ -16471,7 +16882,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fce-5306-45ec-d656" name="•Cassian Andor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="4fce-5306-45ec-d656" name="•Cassian Andor" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a319-53cb-aa45-d2bd" name="Cassian Andor" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16479,7 +16890,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship&apos;s bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver."/>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship's bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver."/>
           </characteristics>
         </profile>
       </profiles>
@@ -16506,7 +16917,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="539137f4-6cd0-2fc5-aea3-86580bd47f63" name="•Chewbacca" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="539137f4-6cd0-2fc5-aea3-86580bd47f63" name="•Chewbacca" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="29994993-a007-b878-7c04-8445aadbcbe0" name="Chewbacca" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16547,7 +16958,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d62d862-36ca-1056-42f0-68d641d541db" name="•Dash Rendar" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="5d62d862-36ca-1056-42f0-68d641d541db" name="•Dash Rendar" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="63a0251e-3b87-b8d9-7a28-a43c49d3610c" name="Dash Rendar" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16582,9 +16993,9 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c8ed5559-b434-ee1c-9a1d-6eef65996d36" name="•Dodonna&apos;s Pride" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c8ed5559-b434-ee1c-9a1d-6eef65996d36" name="•Dodonna's Pride" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="d36754a7-a935-e846-1bc8-5a9d8c3372b6" name="Dodonna&apos;s Pride" page="0" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc">
+        <profile id="d36754a7-a935-e846-1bc8-5a9d8c3372b6" name="Dodonna's Pride" page="0" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16610,7 +17021,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d8ffe171-4ba0-7845-a8be-888b165b7d7d" name="•Dutyfree" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="d8ffe171-4ba0-7845-a8be-888b165b7d7d" name="•Dutyfree" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="c5e29c15-1ff9-7208-d778-dfa6a99494a1" name="Dutyfree" page="0" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc">
           <profiles/>
@@ -16638,7 +17049,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="40a3-c42e-292f-5495" name="•Ezra Bridger" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="40a3-c42e-292f-5495" name="•Ezra Bridger" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="6309-4de6-9e2e-ad66" name="Ezra Bridger" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16673,7 +17084,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e71-f87b-9214-1eda" name="•Finn" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="8e71-f87b-9214-1eda" name="•Finn" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a85b-c5b4-dab1-93ac" name="Finn" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16700,7 +17111,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a75-e01f-6d0b-8ef6" name="•Ghost" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="9a75-e01f-6d0b-8ef6" name="•Ghost" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a207-de26-5f90-a3d6" name="Ghost" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -16727,7 +17138,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d8c872b7-6d29-222f-7525-bd18d85da924" name="•Han Solo" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="d8c872b7-6d29-222f-7525-bd18d85da924" name="•Han Solo" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="71f1a820-aae9-67ac-9f60-d590af7037a6" name="Han Solo" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16768,7 +17179,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56da-2547-e02a-381c" name="•Hera Syndulla" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="56da-2547-e02a-381c" name="•Hera Syndulla" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="35ac-6695-1154-d61a" name="Hera Syndulla" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16809,9 +17220,9 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc787ffd-d75a-bb58-8931-12b16133f1eb" name="•Jaina&apos;s Light" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="fc787ffd-d75a-bb58-8931-12b16133f1eb" name="•Jaina's Light" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="789784df-ff5b-6bc3-a625-955c91f6301f" name="Jaina&apos;s Light" page="0" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc">
+        <profile id="789784df-ff5b-6bc3-a625-955c91f6301f" name="Jaina's Light" page="0" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16837,7 +17248,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33b67bc7-02d1-686f-7bf9-f7999c33c769" name="•Jan Dodonna" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="33b67bc7-02d1-686f-7bf9-f7999c33c769" name="•Jan Dodonna" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d8a3ba8f-3235-1609-5e2d-a6405f99ec14" name="Jan Dodonna" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16864,7 +17275,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b0416eaf-e4ad-ae7a-39c0-56049b73131f" name="•Jan Ors" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="b0416eaf-e4ad-ae7a-39c0-56049b73131f" name="•Jan Ors" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="5a69a5ef-6383-2b48-1c67-55c758476dc0" name="Jan Ors" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16899,7 +17310,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bbec-ea17-b702-d328" name="•Jyn Erso" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="bbec-ea17-b702-d328" name="•Jyn Erso" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2eef-8450-3c8a-5afe" name="Jyn Erso" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16926,7 +17337,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c3d0-d48f-3a2a-c424" name="•Kanan Jarrus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c3d0-d48f-3a2a-c424" name="•Kanan Jarrus" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8f19-9cb1-05de-d969" name="Kanan Jarrus" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16961,7 +17372,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d612f57-1727-84ac-4304-a919b734f498" name="•Kyle Katarn" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3d612f57-1727-84ac-4304-a919b734f498" name="•Kyle Katarn" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="7eba2c57-fe98-4911-d1d1-f60445eec16d" name="Kyle Katarn" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -16996,7 +17407,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9eb90f5d-3d76-37db-f3c0-fb6cf743b310" name="•Lando Calrissian" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="9eb90f5d-3d76-37db-f3c0-fb6cf743b310" name="•Lando Calrissian" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="6a3e0ba4-dcaa-67f5-2717-dc94fa531c08" name="Lando Calrissian" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -17031,7 +17442,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="29b6d0df-61cc-899d-0089-4660fca5e1fe" name="•Leia Organa" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="29b6d0df-61cc-899d-0089-4660fca5e1fe" name="•Leia Organa" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="3d2b73da-b087-7138-1e08-1604199ba606" name="Leia Organa" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -17058,7 +17469,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a94857f8-f114-359d-6865-3ea961bd2c06" name="•Luke Skywalker" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="a94857f8-f114-359d-6865-3ea961bd2c06" name="•Luke Skywalker" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8fcc1ee7-3344-f657-49c3-52ea35c3125d" name="Luke Skywalker" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -17093,7 +17504,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d22-9fe3-6b12-2661" name="•M9-G8" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="6d22-9fe3-6b12-2661" name="•M9-G8" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8421-edd5-f778-2fde" name="M9-G8" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17120,7 +17531,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="16294112-91b2-242e-30f7-2d999f1cd556" name="•Millennium Falcon (I)" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="16294112-91b2-242e-30f7-2d999f1cd556" name="•Millennium Falcon (I)" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="05ad1e1e-90bc-3975-2724-7b1a7e7d5ad5" name="Millennium Falcon (I)" page="0" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -17162,7 +17573,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a951-9228-3eef-e955" name="•Millennium Falcon (II)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="a951-9228-3eef-e955" name="•Millennium Falcon (II)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ebb2-61b2-8cb8-b5db" name="Millennium Falcon (II)" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -17197,7 +17608,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69f71f17-32fd-7125-c948-562c31dcd52d" name="•Nien Nunb" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="69f71f17-32fd-7125-c948-562c31dcd52d" name="•Nien Nunb" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="5ddf6608-38d9-c964-482b-abc44e81d8ab" name="Nien Nunb" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -17232,7 +17643,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8dacce24-f74b-0a23-f4b2-045fee5edc17" name="•Outrider" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="8dacce24-f74b-0a23-f4b2-045fee5edc17" name="•Outrider" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8b59b722-8a6f-cf7b-231f-68d4b295c0ff" name="Outrider" page="0" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -17259,7 +17670,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="70b5-e42e-e19c-1a07" name="•Phantom" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="70b5-e42e-e19c-1a07" name="•Phantom" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="226f-3da9-91a8-e748" name="Phantom" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
@@ -17295,7 +17706,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c57c1d42-db30-e618-d4da-b5675b30dadb" name="•Quantum Storm" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c57c1d42-db30-e618-d4da-b5675b30dadb" name="•Quantum Storm" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d460f3ce-795d-c95a-f2af-5039e7173447" name="Quantum Storm" page="0" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc">
           <profiles/>
@@ -17323,7 +17734,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cbfb72aa-3f10-bc68-0b82-91c64b008d57" name="•R2-D2" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="cbfb72aa-3f10-bc68-0b82-91c64b008d57" name="•R2-D2" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8a2aa994-2d17-529e-5c07-ae85bb7c7a26" name="R2-D2" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17358,7 +17769,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea81f40a-6790-bed2-4d79-d5c38995fd6b" name="•R2-D2" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="ea81f40a-6790-bed2-4d79-d5c38995fd6b" name="•R2-D2" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="15648306-f888-7acb-d892-4b4d59b0bf55" name="R2-D2" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -17393,7 +17804,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="34fc6417-ef00-4054-1f58-77456a225f53" name="•R2-D6" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="34fc6417-ef00-4054-1f58-77456a225f53" name="•R2-D6" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="4d7c97e6-f10f-2b5e-e34c-41e74f490ad8" name="R2-D6" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17420,7 +17831,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="06d81160-5335-1abb-d7b2-290bf1a510ab" name="•R2-F2" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="06d81160-5335-1abb-d7b2-290bf1a510ab" name="•R2-F2" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="dc552ec0-ab56-25e3-dadf-34c89b84e617" name="R2-F2" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17447,7 +17858,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a1e82b6-bf38-4c65-dcf7-341bca91663f" name="•R3-A2" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="8a1e82b6-bf38-4c65-dcf7-341bca91663f" name="•R3-A2" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="42130f87-e02a-dff4-ad7d-f18aa7be3e0d" name="R3-A2" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17474,7 +17885,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f72311ad-1dd8-da49-bf65-0d77c3646268" name="•R4-D6" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="f72311ad-1dd8-da49-bf65-0d77c3646268" name="•R4-D6" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="c4eeaea5-64e1-4611-50f0-fbc0f0754090" name="R4-D6" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17501,7 +17912,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2379ba94-9f74-ca5f-91c2-e484ebb2db0b" name="•R5-D8" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="2379ba94-9f74-ca5f-91c2-e484ebb2db0b" name="•R5-D8" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="667b70e7-2e0e-a08f-9e82-5a72b60a185b" name="R5-D8" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17528,7 +17939,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2622bdc3-201a-c63e-af17-7ae242a1b592" name="•R5-K6" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="2622bdc3-201a-c63e-af17-7ae242a1b592" name="•R5-K6" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2b2d3a64-d698-2bf7-eca4-ec2a1c1af62f" name="R5-K6" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17555,7 +17966,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3492642d-2c33-af68-b323-996c7f830770" name="•R5-P9" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3492642d-2c33-af68-b323-996c7f830770" name="•R5-P9" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="3cfa9367-2973-8bee-90fa-4923707a7545" name="R5-P9" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17582,7 +17993,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="444c-e678-e29d-5869" name="•R5-X3" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="444c-e678-e29d-5869" name="•R5-X3" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9cb0-c2cc-7014-4be6" name="R5-X3" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17609,7 +18020,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ab627952-8cc0-8695-a767-0d98bed4d9a6" name="•R7-T1" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="ab627952-8cc0-8695-a767-0d98bed4d9a6" name="•R7-T1" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d82c0059-949b-63d9-2e39-ab350db63911" name="R7-T1" page="0" hidden="false" profileTypeId="332e34417374726f6d65636823232344415441232323">
           <profiles/>
@@ -17617,7 +18028,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Astromech Ability" characteristicTypeId="417374726f6d656368204162696c69747923232344415441232323" value="Action: Choose an enemy ship at Range 1-2. If you are inside that ship&apos;s firing arc, you may acquire a target lock on that ship. Then, you may perform a free boost action."/>
+            <characteristic name="Astromech Ability" characteristicTypeId="417374726f6d656368204162696c69747923232344415441232323" value="Action: Choose an enemy ship at Range 1-2. If you are inside that ship's firing arc, you may acquire a target lock on that ship. Then, you may perform a free boost action."/>
           </characteristics>
         </profile>
       </profiles>
@@ -17636,7 +18047,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e82e0620-6d30-c011-8cfc-5a589c14baa7" name="•Raymus Antilles" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="e82e0620-6d30-c011-8cfc-5a589c14baa7" name="•Raymus Antilles" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2d6a62e4-55ea-c9e1-2009-689ebcd14c68" name="Raymus Antilles" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -17644,7 +18055,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the start of the Activation phase, choose 1 enemy ship at Range 1-3. You may look at that ship&apos;s chosen maneuver. If the maneuver is white, assign that ship 1 stress token."/>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the start of the Activation phase, choose 1 enemy ship at Range 1-3. You may look at that ship's chosen maneuver. If the maneuver is white, assign that ship 1 stress token."/>
           </characteristics>
         </profile>
       </profiles>
@@ -17663,7 +18074,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0623-5d12-a6d4-5219" name="•Rey" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="0623-5d12-a6d4-5219" name="•Rey" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9549-fd0a-496f-0314" name="Rey" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -17671,7 +18082,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the start of the End phase, you may place 1 of your ship&apos;s focus tokens on this card. At the start of the Combat phase, you may assign 1 of those tokens to your ship."/>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="At the start of the End phase, you may place 1 of your ship's focus tokens on this card. At the start of the Combat phase, you may assign 1 of those tokens to your ship."/>
           </characteristics>
         </profile>
       </profiles>
@@ -17698,7 +18109,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="46ce-3ec3-fa2b-f71a" name="•Sabine Wren" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="46ce-3ec3-fa2b-f71a" name="•Sabine Wren" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="4924-ae27-77b9-96cd" name="Sabine Wren" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
@@ -17739,9 +18150,9 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a92e-637f-3291-ac89" name="•Sabine&apos;s Masterpiece" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="a92e-637f-3291-ac89" name="•Sabine's Masterpiece" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="2496-b94c-3e07-27fd" name="Sabine&apos;s Masterpiece" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
+        <profile id="2496-b94c-3e07-27fd" name="Sabine's Masterpiece" hidden="false" profileTypeId="332e30315469746c6523232344415441232323">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17766,7 +18177,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5697af85-9589-0a68-47f5-0fb82695df78" name="•Tantive IV" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="5697af85-9589-0a68-47f5-0fb82695df78" name="•Tantive IV" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="64a153a5-7ef7-4a09-7298-3108bc9da1a7" name="Tantive IV" page="0" hidden="false" profileTypeId="76085a38-ea17-204d-dd08-c30a6f80f8cc">
           <profiles/>
@@ -17794,7 +18205,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afc89c42-42c5-935a-5156-9d721eea00e0" name="•Toryn Farr" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="afc89c42-42c5-935a-5156-9d721eea00e0" name="•Toryn Farr" page="0" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0a2c9e13-080e-9395-7d4d-5c8f00f1015b" name="Toryn Farr" page="0" hidden="false" profileTypeId="332e30334372657723232344415441232323">
           <profiles/>
