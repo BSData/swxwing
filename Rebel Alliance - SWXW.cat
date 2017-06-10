@@ -4795,6 +4795,14 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="3409-5c04-a7ff-5b74" name="" hidden="false" targetId="5b61-17e9-1515-aa13" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="be34-e576-a2cb-95d0" name="Team" hidden="false" collective="false">
@@ -5859,6 +5867,14 @@
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="020b-9f45-2496-61d2" name="" hidden="false" targetId="26c6-bff1-5840-e97d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="32e4-612e-61c6-b069" name="" hidden="false" targetId="5b61-17e9-1515-aa13" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -17631,6 +17647,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="30.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -19849,6 +19866,41 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="bc7e-9358-104a-51f9" name="•Selflessness†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9715-d8da-8be3-f3e8" name="Selflessness" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="When a friendly ship at Range 1 is hit by an attack, you may discard this card to suffer all uncanceled [hit] results instead of the target ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1d01-f5ed-7394-64b2" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a39e-eb35-3547-d3bb" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a55-c1a4-6204-457b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" hidden="false" collective="false">
@@ -20777,6 +20829,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="642b-3563-0b27-d1c1" name="" hidden="false" targetId="5b61-17e9-1515-aa13" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="60819a12-fd97-e9e0-7691-09cd50bb8184" name="Crew" hidden="false" collective="false">
@@ -21183,6 +21243,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="7ded-4646-6ad1-a066" name="" hidden="false" targetId="5b61-17e9-1515-aa13" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="809b-eddb-0859-03bd" name="Crew" hidden="false" collective="false">
@@ -21541,6 +21609,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="687c-1db0-4a98-f9ca" name="" hidden="false" targetId="5b61-17e9-1515-aa13" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8d499ac9-9735-e014-4301-5b7c5c523a9c" name="Elite" hidden="false" collective="false">
@@ -21828,6 +21904,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="ae94-9f11-16b0-0923" name="" hidden="false" targetId="e715-86e7-41ac-1927" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="76c8-e05c-01f0-9590" name="" hidden="false" targetId="bc7e-9358-104a-51f9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
