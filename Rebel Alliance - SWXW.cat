@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="127" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="128" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -17275,7 +17275,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6999-f117-cac0-9a3d" name="PS 8 - •Captain Nym††" hidden="true" collective="false" type="model">
+    <selectionEntry id="6999-f117-cac0-9a3d" name="PS 8 - •Captain Nym†" hidden="true" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -17293,7 +17293,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="6999-f117-cac0-9a3d-01f6-d582-079b-3c8f" hidden="false" targetId="01f6-d582-079b-3c8f" primary="true">
           <profiles/>
@@ -17328,9 +17330,26 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="ef1e-5e1f-2e79-b340" name="" hidden="false" targetId="2160-eee0-9671-df42" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6999-f117-cac0-9a3d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46ce-3ec3-fa2b-f71a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="points" value="0.0"/>
+        <cost name=" Points" costTypeId="points" value="30.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -20213,7 +20232,15 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b86a-b0e5-6796-0cda" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -20270,6 +20297,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="3d65-6f2d-3bd6-c70c" hidden="false" targetId="caf1-1147-15d2-470d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="481e-ca19-7820-b73f" name="" hidden="false" targetId="b86a-b0e5-6796-0cda" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

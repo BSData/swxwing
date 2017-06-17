@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="49" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="50" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5835,6 +5835,50 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b86a-b0e5-6796-0cda" name="•Bomblet Generator†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="da16-1d1c-348c-ba86" name="Bomblet Generator" hidden="false" profileTypeId="39426f6d6223232344415441232323" profileTypeName="8.1 Bomb">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Ability" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When you reveal your maneuver, you may drop 1 bomblet token. This token detonates at the end of the Activation phase."/>
+          </characteristics>
+        </profile>
+        <profile id="57ca-64cd-7ed4-995f" name="Bomblet Token" hidden="false" profileTypeId="392e31426f6d62204162696c69747923232344415441232323" profileTypeName="8.2 Bomb Token">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Bomb Token Rules" characteristicTypeId="426f6d62204162696c69747923232344415441232323" value="When this token detonates, each ship at Range 1 of the token rolls 2 attack dice and suffers all damage [hit] and critical damage [critical] rolled. Then discard this token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e7dc-5856-3c2c-e1ff" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="47cd-0f16-2496-7dad" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb76-77b9-ccd2-374e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
