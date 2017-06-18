@@ -5879,7 +5879,37 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="595b-caa1-c33d-c959" name="Minefield Mapper†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="dd1a-8dc5-74a2-e3f5" name="Minefield Mapper" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="During setup, after the &quot;Place Forces&quot; step, you may discard any number of your equipped [bomb] Upgrade cards. Place all corresponding bomb tokens in the play area beyond Range 3 of enemy ships."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="dc2a-74c1-9e33-4801" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -6372,6 +6402,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="8575-e804-9785-a2ea" name="New EntryLink" hidden="false" targetId="4a01-0bc8-1eb9-f4d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="079a-09a3-44de-edec" name="" hidden="false" targetId="595b-caa1-c33d-c959" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
