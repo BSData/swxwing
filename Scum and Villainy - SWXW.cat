@@ -356,6 +356,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Crew, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e5d6-88d3-0257-f6c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="1"/>
@@ -450,6 +457,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="6b2d-9485-6e71-e4d5" hidden="false" targetId="57b9-1e95-da7d-56af" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bad0-24ab-b033-0259" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -933,6 +948,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Crew, Illicit x2, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="07a2-b4e7-9395-6bea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="2"/>
@@ -1031,6 +1053,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="86ec-d1fa-4fbf-f6f7" hidden="false" targetId="d91a-1986-e58d-8812" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9829-7044-2c67-88b3" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1180,19 +1210,11 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d000b640-a731-492d-b82b-6154ffbae140" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
+        <entryLink id="d000b640-a731-492d-b82b-6154ffbae140" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ce3df76b-6999-732c-51ba-cdc14f961d34" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a624-cc75-1d8b-3de5" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1227,6 +1249,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="76ee-8ea5-8fad-837f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4488-a9a0-7667-6e48" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Missiles, Crew x3, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="76ee-8ea5-8fad-837f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1340,6 +1369,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="2509-dca3-a04e-5a11" hidden="false" targetId="63c4-7995-9015-8355" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f8e3-31fa-383a-857d" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1790,6 +1827,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Torpedoes x2, Crew, Salvaged Astromech, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1d51-86ad-8bc2-82ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="3"/>
@@ -1913,6 +1957,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="b306-008b-8f80-6902" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="25.0"/>
@@ -1951,6 +2003,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="9642-bc32-9954-f630" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4488-a9a0-7667-6e48" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Crew, System, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9642-bc32-9954-f630" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2069,6 +2128,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3afc-4dfe-6053-95cd" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="23.0"/>
@@ -2100,6 +2167,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4488-a9a0-7667-6e48" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Crew, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="136bd3f5-6f1b-203d-2f56-a0b757fabd1a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2215,6 +2289,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="5257-c44c-8bb8-ee7c" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="19.0"/>
@@ -2246,6 +2328,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="2b50-7a8b-818c-eafe" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4488-a9a0-7667-6e48" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Crew, Bomb x2, Tech, Illicit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="2b50-7a8b-818c-eafe" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2300,7 +2389,6 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <categoryLinks>
@@ -2331,7 +2419,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="61ad-d39d-9d52-7491" hidden="false" targetId="ee7e-811c-faa1-16e7" type="selectionEntryGroup">
+        <entryLink id="61ad-d39d-9d52-7491" name="Bomb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2465,19 +2553,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="390f-e22f-c93e-3fb4" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
+        <entryLink id="390f-e22f-c93e-3fb4" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="fa14-1e5d-633f-731c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a624-cc75-1d8b-3de5" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2565,6 +2645,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="e67f-4f34-f5e9-a7b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Torpedoes x2, Crew, Salvaged Astromech, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e67f-4f34-f5e9-a7b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2695,6 +2782,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="547b-7a9e-2e62-cca3" hidden="false" targetId="48c9-99d0-caa3-54c0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5948-fcf0-356b-6c6a" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3052,6 +3147,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew, System, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0aec-db04-c241-ef13" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="5"/>
@@ -3175,6 +3277,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3f26-11db-7a6d-515e" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="25.0"/>
@@ -3236,6 +3346,39 @@
                 <condition field="selections" scope="1f389646-9042-f81d-5492-19f56cdbed71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x2, Crew, Missiles, Illicit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1f389646-9042-f81d-5492-19f56cdbed71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x4, Crew, Missiles, Illicit">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="1f389646-9042-f81d-5492-19f56cdbed71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                    <condition field="selections" scope="1f389646-9042-f81d-5492-19f56cdbed71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x2, Crew, Torpedoes, Missiles, Illicit">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="1f389646-9042-f81d-5492-19f56cdbed71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                    <condition field="selections" scope="1f389646-9042-f81d-5492-19f56cdbed71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d71f-9aa7-9a59-d299" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -3320,26 +3463,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="da751151-60b1-2dfd-b517-543997503ec3" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
+        <entryLink id="da751151-60b1-2dfd-b517-543997503ec3" name="Bomb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="maxSelections" value="2.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="1f389646-9042-f81d-5492-19f56cdbed71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="1f389646-9042-f81d-5492-19f56cdbed71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b86a-b0e5-6796-0cda" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -3758,19 +3886,11 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8426417c-94d8-b982-8061-b45a68ec273b" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
+        <entryLink id="8426417c-94d8-b982-8061-b45a68ec273b" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="38d1c562-200b-f75c-f708-b89347278efe" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a624-cc75-1d8b-3de5" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -4156,6 +4276,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Missiles, Crew x3, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5577-da54-37f8-eb96" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="5"/>
@@ -4207,7 +4334,6 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <categoryLinks>
@@ -4293,6 +4419,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="462a-df8d-486a-fd30" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="33.0"/>
@@ -4338,6 +4472,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="1347510a-9c81-6566-d972-71619c2c22b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Turret, Crew, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1347510a-9c81-6566-d972-71619c2c22b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4461,6 +4602,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="cad6-603f-4d86-1358" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="20.0"/>
@@ -4492,6 +4641,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="851b-6797-95b4-999d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4488-a9a0-7667-6e48" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Crew, Illicit x2, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="851b-6797-95b4-999d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4611,6 +4767,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="53f4-961c-1f3c-5161" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="35.0"/>
@@ -4665,6 +4829,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="e4d5-cad9-125b-ec8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew, System, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e4d5-cad9-125b-ec8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4802,6 +4973,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="678d-f67e-1215-551e" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="27.0"/>
@@ -4847,6 +5026,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="f7fe-27d9-6d8b-092f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db18-cc90-f881-1d6a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew, Illicit x2, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f7fe-27d9-6d8b-092f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4974,6 +5160,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="56c8-b987-ed94-aa10" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="37.0"/>
@@ -5021,6 +5215,39 @@
                 <condition field="selections" scope="b93b624b-5771-669e-0844-96ed00099aec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Bomb x2, Crew, Missiles, Illicit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b93b624b-5771-669e-0844-96ed00099aec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Bomb x2, Crew, Torpedoes, Missiles, Illicit">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b93b624b-5771-669e-0844-96ed00099aec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                    <condition field="selections" scope="b93b624b-5771-669e-0844-96ed00099aec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d71f-9aa7-9a59-d299" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Bomb x4, Crew, Missiles, Illicit">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b93b624b-5771-669e-0844-96ed00099aec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                    <condition field="selections" scope="b93b624b-5771-669e-0844-96ed00099aec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -5116,26 +5343,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e3293da4-c5ee-cd45-a430-567c26c23db8" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
+        <entryLink id="e3293da4-c5ee-cd45-a430-567c26c23db8" name="Bomb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="maxSelections" value="2.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="b93b624b-5771-669e-0844-96ed00099aec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="b93b624b-5771-669e-0844-96ed00099aec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b86a-b0e5-6796-0cda" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -5465,7 +5677,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8b3d-e6d8-4e82-02e4" hidden="false" targetId="ee7e-811c-faa1-16e7" type="selectionEntryGroup">
+        <entryLink id="8b3d-e6d8-4e82-02e4" name="Bomb" hidden="false" targetId="ee7e-811c-faa1-16e7" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6488,6 +6700,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Cannon, Missiles, Crew x3, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5c5c-dbd7-f72a-38d1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="6"/>
@@ -6607,6 +6826,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="2361-d03f-2e8e-ef2b" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="34.0"/>
@@ -6652,6 +6879,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="9463-5704-b6d4-5e2e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Missiles, Crew x3, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9463-5704-b6d4-5e2e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6706,7 +6940,6 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <categoryLinks>
@@ -6800,6 +7033,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1c31-99df-dbc9-7c12" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="35.0"/>
@@ -6845,6 +7086,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="c1ab-b506-7c1d-2833" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew, Bomb x2, Tech, Illicit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c1ab-b506-7c1d-2833" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6905,7 +7153,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="78bf-f6f9-df7a-50a9" hidden="false" targetId="ee7e-811c-faa1-16e7" type="selectionEntryGroup">
+        <entryLink id="78bf-f6f9-df7a-50a9" name="Bomb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6998,6 +7246,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="094ef36c-f4bb-612b-1102-37a96e8bfd27" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Turret, Crew, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="094ef36c-f4bb-612b-1102-37a96e8bfd27" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7121,6 +7376,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9191-80fc-b461-de09" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="23.0"/>
@@ -7182,6 +7445,39 @@
                 <condition field="selections" scope="75bead11-eccf-0c6e-02c9-c03e5a4797c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x2, Crew, Missiles, Illicit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="75bead11-eccf-0c6e-02c9-c03e5a4797c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x4, Crew, Missiles, Illicit">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="75bead11-eccf-0c6e-02c9-c03e5a4797c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                    <condition field="selections" scope="75bead11-eccf-0c6e-02c9-c03e5a4797c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x2, Crew, Torpedoes, Missiles, Illicit">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="75bead11-eccf-0c6e-02c9-c03e5a4797c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                    <condition field="selections" scope="75bead11-eccf-0c6e-02c9-c03e5a4797c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d71f-9aa7-9a59-d299" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -7277,26 +7573,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3f46160d-3a24-1886-1da4-6bccf71188aa" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
+        <entryLink id="3f46160d-3a24-1886-1da4-6bccf71188aa" name="Bomb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="maxSelections" value="2.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="75bead11-eccf-0c6e-02c9-c03e5a4797c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="75bead11-eccf-0c6e-02c9-c03e5a4797c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b86a-b0e5-6796-0cda" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -7523,19 +7804,11 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3029897f-9e9b-ec99-ab0c-ea698c1c59eb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
+        <entryLink id="3029897f-9e9b-ec99-ab0c-ea698c1c59eb" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="64ed35b7-d8ff-d440-3aeb-e7e956fd613f" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a624-cc75-1d8b-3de5" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -7592,6 +7865,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="f61e-21cb-ce08-d5e9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db18-cc90-f881-1d6a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew, Illicit x2, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f61e-21cb-ce08-d5e9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7658,7 +7938,6 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <categoryLinks>
@@ -7721,6 +8000,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="561e-7f73-25c1-9ec8" hidden="false" targetId="0719-388f-4032-7762" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="de7e-f167-37bf-99bb" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8295,6 +8582,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Torpedoes x2, Crew, Salvaged Astromech, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e250-3c84-2677-0c9e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="7"/>
@@ -8429,6 +8723,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="66ea-da10-7224-bbd9" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="30.0"/>
@@ -8474,6 +8776,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="b729-8349-2227-073f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew, System, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b729-8349-2227-073f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -8620,6 +8929,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="8641-5a4b-fb36-9748" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="28.0"/>
@@ -8682,6 +8999,39 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x2, Crew, Missiles, Illicit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="38436adf-0540-8e9e-ef6e-28ac888bacb2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x4, Crew, Missiles, Illicit">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="38436adf-0540-8e9e-ef6e-28ac888bacb2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                    <condition field="selections" scope="38436adf-0540-8e9e-ef6e-28ac888bacb2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Cannon, Bomb x2, Crew, Torpedoes, Missiles, Illicit">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="38436adf-0540-8e9e-ef6e-28ac888bacb2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                    <condition field="selections" scope="38436adf-0540-8e9e-ef6e-28ac888bacb2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d71f-9aa7-9a59-d299" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="8"/>
@@ -8739,7 +9089,6 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <categoryLinks>
@@ -8825,26 +9174,11 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4fae9934-c15c-2a0b-3856-75105fa4e5fb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
+        <entryLink id="4fae9934-c15c-2a0b-3856-75105fa4e5fb" name="Bomb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="maxSelections" value="2.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="38436adf-0540-8e9e-ef6e-28ac888bacb2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="38436adf-0540-8e9e-ef6e-28ac888bacb2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b86a-b0e5-6796-0cda" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -9136,6 +9470,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Torpedoes x2, Crew, Salvaged Astromech, Illicit, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1e1f-81ac-ef0a-2ef2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="9"/>
@@ -9272,6 +9613,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="d54e-0f9e-38a4-cbbe" hidden="false" targetId="48c9-99d0-caa3-54c0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5bfe-e1cb-210e-cc4c" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9660,6 +10009,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Crew, Bomb x2, Tech, Illicit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="bc48-9c49-d2ed-b70e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="5"/>
@@ -9708,7 +10064,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="34b4-3a71-3294-d0de" name="" hidden="false" targetId="ee7e-811c-faa1-16e7" type="selectionEntryGroup">
+        <entryLink id="34b4-3a71-3294-d0de" name="Bomb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9790,6 +10146,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Crew, Bomb x2, Tech, Illicit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8d06-51f9-6563-7cc7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="1"/>
@@ -9836,7 +10199,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="cc79-cbc0-3e9c-1428" name="" hidden="false" targetId="ee7e-811c-faa1-16e7" type="selectionEntryGroup">
+        <entryLink id="cc79-cbc0-3e9c-1428" name="Bomb" hidden="false" targetId="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9916,6 +10279,26 @@
                 <condition field="selections" scope="90b2-8620-e341-dc86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be7a-7fc2-26e8-b492" type="equalTo"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="55f10216-1b9e-b207-f867-d3bce45de89b" value="2 Crew, Hardpoint, Team, 3 Cargo, Bomb">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="90b2-8620-e341-dc86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="55f10216-1b9e-b207-f867-d3bce45de89b" value="3 Crew, Hardpoint, 2 Team, 2 Cargo, Bomb">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="90b2-8620-e341-dc86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                    <condition field="selections" scope="90b2-8620-e341-dc86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="34d0-82a0-4d37-ebe2" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -10059,6 +10442,14 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4ff0-3bba-a952-6bbc" name="Bomb" hidden="false" targetId="2aa6-8f3d-fa22-b81f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -10949,6 +11340,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Turret, Torpedoes, Missiles, Crew, Bomb x3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9a42-e5d2-ad13-acf4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="1"/>
@@ -11339,6 +11737,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Turret, Torpedoes, Missiles, Crew, Bomb x3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="92cb-9514-3918-e727" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="8"/>
@@ -11394,7 +11799,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="036f-4141-f8ed-ff23" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="444e-faf1-ec03-ffd4" name="New CategoryLink" hidden="false" targetId="01f6-d582-079b-3c8f" primary="true">
@@ -11530,6 +11935,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="30.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8cad-3df1-9e7f-b848" name="PS 6 - •Sol Sixxa†" hidden="false" collective="false" type="model">
@@ -11578,6 +11984,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="8cad-3df1-9e7f-b848" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4488-a9a0-7667-6e48" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="557067726164652042617223232344415441232323" value="Elite, Turret, Torpedoes, Missiles, Crew, Bomb x3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8cad-3df1-9e7f-b848" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -11636,7 +12049,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8bcb-cf48-b5bd-0d5d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="5f42-1054-5581-2ff1" name="New CategoryLink" hidden="false" targetId="01f6-d582-079b-3c8f" primary="true">
@@ -11772,6 +12185,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="28.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -13006,13 +13420,70 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2469-ee85-500c-00fe" name="•Cad Bane†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8da3-8511-f5ee-3d1a" name="Cad Bane" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="Your upgrade bar gains the [bomb] upgrade icon. Once per round, when an enemy ship rolls attack dice due to a friendly bomb detonating, you may choose any number of [focus] and blank results. It must reroll those results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="99fc-78a5-1ffc-d83a" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c909-8de8-3c9b-2682" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="64cb-db35-66bd-39b6" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="af4d27f5-acac-2d8d-e48e-ac48eaa0b3b9" name="Bomb" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxSelections" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="maxSelections" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxSelections" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b86a-b0e5-6796-0cda" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -13076,17 +13547,23 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8667-a709-501f-995f" name="" hidden="false" targetId="b86a-b0e5-6796-0cda" type="selectionEntry">
+        <entryLink id="8667-a709-501f-995f" name="•Bomblet Generator†" hidden="false" targetId="b86a-b0e5-6796-0cda" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc7e-e9e9-9aad-885f" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints/>
@@ -13509,6 +13986,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="d29d-581f-6203-e1ed" name="•Cad Bane†" hidden="false" targetId="2469-ee85-500c-00fe" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="eec0-c689-de97-3665" name="Crew" hidden="false" collective="false">
@@ -13772,6 +14257,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="ae44-e8a8-2778-5d8b" name="" hidden="false" targetId="5b61-17e9-1515-aa13" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="da6b-dc3f-3b14-154d" name="•Cad Bane†" hidden="false" targetId="2469-ee85-500c-00fe" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16689,6 +17182,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a3b8-639c-c605-d9b8" name="•Cad Bane†" hidden="false" targetId="2469-ee85-500c-00fe" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="01ec-6c86-6d0e-75a7" name="Modification" hidden="false" collective="false">
@@ -17252,6 +17753,13 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b86a-b0e5-6796-0cda" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="d907-6535-ff81-4af1" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -18477,6 +18985,90 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2aa6-8f3d-fa22-b81f" name="Bomb" hidden="true" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2469-ee85-500c-00fe" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a624-cc75-1d8b-3de5" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="667d-c939-b565-5939" name="Cluster Mines" hidden="false" targetId="d8de-2652-82e7-8b2e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8f1a-2eed-c56f-f7be" name="Conner Net" hidden="false" targetId="a6c0-ac1d-d673-5d40" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2e88-bbcb-9e25-186f" name="Ion Bombs" hidden="false" targetId="5ed2-1954-273e-cb5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="09d8-c274-6f7a-041d" name="Proton Bombs" hidden="false" targetId="6bb2-5728-7e06-a589" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f6a0-8dc4-9c9f-8a7b" name="Proximity Mines" hidden="false" targetId="8ae8-0199-23e8-665b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b367-bb05-3d6f-0412" name="Seismic Charges" hidden="false" targetId="cf35-bf5a-d165-4f28" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="42b0-0719-d95a-a491" name="Thermal Detonators" hidden="false" targetId="caf1-1147-15d2-470d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
