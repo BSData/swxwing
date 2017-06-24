@@ -5909,7 +5909,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="0.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -6410,6 +6413,44 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="079a-09a3-44de-edec" name="" hidden="false" targetId="595b-caa1-c33d-c959" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ac8b-37b9-87e7-2172" name="Salvaged Astromech" hidden="true" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f24-6470-8872-f98e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="60f5-2f7d-4bbd-cd0e" name="•&quot;Genius&quot;" hidden="false" targetId="ca4b25f7-f7ee-0b14-c33b-ea4b82e22992" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="175f-7063-7b68-cd7a" name="•R4-B11" hidden="false" targetId="91fb2958-1bab-0205-7a26-2a68fdea70bf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fe43-9738-27ac-dd6d" name="•R5-P8" hidden="false" targetId="83da-91e0-a932-a6c1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
