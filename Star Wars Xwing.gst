@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="50" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="51" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5914,6 +5914,67 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2b1d-45f3-4862-38c0" name="Cruise Missiles" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2112-3ce0-32ea-1785" name="Cruise Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" profileTypeName="5.4 Missiles Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Diiscard this card to perform this attack. You may roll additional attack dice equal to the speed of the maneuver you executed this round, to a maximum of 4 additional dice."/>
+          </characteristics>
+        </profile>
+        <profile id="e770-8c59-e05d-110a" name="Cruise Missiles" hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" profileTypeName="5.3 Missiles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f5e-23fa-0596-265e" name="•R4-E1" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b3e8-1613-3420-7053" name="R4-E1" hidden="false" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" profileTypeName="3.3 Salvaged Astromech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Salvaged Astromech Ability" characteristicTypeId="76f62e20-6c9d-37b2-b892-8898a587998c" value="You can perform actions on your [torpedoes] and [bomb] Upgrade cards even if you are stressed. After you perform an action in this way, you may discard this card to remove 1 stress token from your ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a57-3728-eb7f-87de" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e32a-59f4-50a5-73db" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="beda-5642-acc4-e160" name="Cannon" hidden="false" collective="false">
@@ -6055,6 +6116,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="5e75-1ec2-b51e-331c" name="New EntryLink" hidden="false" targetId="0cb9-b058-3322-4278" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="11b9-86ab-2b22-6f06" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6451,6 +6520,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="fe43-9738-27ac-dd6d" name="•R5-P8" hidden="false" targetId="83da-91e0-a932-a6c1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d9bf-6f90-374e-dad1" name="•R4-E1" hidden="false" targetId="7f5e-23fa-0596-265e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

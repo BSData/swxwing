@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="129" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="130" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -933,6 +933,22 @@
               <categoryLinks/>
             </entryLink>
             <entryLink id="d688-bba8-d3bb-6f33" name="New EntryLink" hidden="false" targetId="98d6-56aa-a9d7-f100" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="7750-719e-945a-891e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a366-3cc0-c359-e885" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="79eb-aad0-cd61-1c03" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4812,6 +4828,22 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="a3c8-f8f9-1604-35ae" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="235c-8fbf-9af6-2fc4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a366-3cc0-c359-e885" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -5422,6 +5454,22 @@
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="727b-d37a-29c7-d6a5" name="New EntryLink" hidden="false" targetId="98d6-56aa-a9d7-f100" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="235c-8fbf-9af6-2fc4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a366-3cc0-c359-e885" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0684-1f5b-5833-e1d6" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -19449,7 +19497,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ba76-eb54-3630-9e82" hidden="false" targetId="4f94-3da1-e3b2-352e" type="selectionEntry">
+        <entryLink id="ba76-eb54-3630-9e82" name="Adv. Homing Missiles" hidden="false" targetId="4f94-3da1-e3b2-352e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19458,6 +19506,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="5535-4818-85b9-ea08" hidden="false" targetId="0cb9-b058-3322-4278" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4d8a-6a10-4323-99ca" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19536,6 +19592,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="b52e-3daf-40fe-d95c" hidden="false" targetId="0cb9-b058-3322-4278" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="637e-e8a9-4894-3dcc" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19630,6 +19694,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="bde6-7485-3317-4e22" name="" hidden="false" targetId="c841-7ed9-8d88-fa15" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="724a-49cd-60bf-3687" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
