@@ -17208,7 +17208,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e12-2c94-272f-67a9" name="PS 1 - Kashyyyk Defender†" hidden="false" collective="false" type="model">
+    <selectionEntry id="1e12-2c94-272f-67a9" name="PS 1 - Kashyyyk Defender" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7ad4-e925-4267-6d48" name="Kashyyyk Defender" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -17262,13 +17262,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0194-8fb1-2ac3-81cb" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="05f1-eb0f-6f51-c481" name="" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
+        <infoLink id="05f1-eb0f-6f51-c481" name="Focus" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17333,7 +17327,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56cc-bb28-1cd2-f08c" name="PS 5 - •Lowhhrick†" hidden="false" collective="false" type="model">
+    <selectionEntry id="56cc-bb28-1cd2-f08c" name="PS 5 - •Lowhhrick" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="8fa6-7ac2-c3a3-5983" name="•Lowhhrick" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -17404,7 +17398,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="df85-4366-35cf-93a4" name="" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
+        <infoLink id="df85-4366-35cf-93a4" name="Focus" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17417,12 +17411,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="6f11-9070-9167-052b" name="" hidden="false" targetId="d206-420d-0e7c-fb63" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="38f2-a402-363d-acba" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17491,7 +17479,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6efb-4ca6-3542-7376" name="PS 7 - •Wullffwarro†" hidden="false" collective="false" type="model">
+    <selectionEntry id="6efb-4ca6-3542-7376" name="PS 7 - •Wullffwarro" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1125-00a1-d3aa-a55b" name="•Wullffwarro" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -17562,7 +17550,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="aca8-7689-aad1-6be2" name="" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
+        <infoLink id="aca8-7689-aad1-6be2" name="Focus" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17575,12 +17563,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="65de-a1d5-ff7b-ad70" name="" hidden="false" targetId="d206-420d-0e7c-fb63" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3fda-67b0-1d4d-dc55" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17649,7 +17631,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3041-180c-8b77-1755" name="PS 8 - •Captain Nym†" hidden="false" collective="false" type="model">
+    <selectionEntry id="3041-180c-8b77-1755" name="PS 8 - •Captain Nym" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="a096-5479-b509-a170" name="•Captain Nym" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -17746,12 +17728,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="5844-a4f2-4983-e5d7" name="Scurrg H-6 Bomber" hidden="false" targetId="750c-bd3d-c44c-ffb2" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="acf2-9f66-d719-cd9e" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20230,7 +20206,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1914-fcb2-ae8f-490e" name="Wookiee Commandos†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1914-fcb2-ae8f-490e" name="Wookiee Commandos" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="15e7-1d1c-cfe2-21d2" name="Wookiee Commandos" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
           <profiles/>
@@ -20243,14 +20219,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="dc93-b1a3-4741-a96f" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff0f-4f24-dffc-874b" type="max"/>
@@ -20264,7 +20233,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc7e-9358-104a-51f9" name="•Selflessness†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="bc7e-9358-104a-51f9" name="•Selflessness" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9715-d8da-8be3-f3e8" name="Selflessness" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
           <profiles/>
@@ -20277,14 +20246,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="1d01-f5ed-7394-64b2" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a39e-eb35-3547-d3bb" type="max"/>

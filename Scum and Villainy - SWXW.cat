@@ -11305,7 +11305,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a42-e5d2-ad13-acf4" name="PS 1 - Karthakk Pirate†" hidden="false" collective="false" type="model">
+    <selectionEntry id="9a42-e5d2-ad13-acf4" name="PS 1 - Karthakk Pirate" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="ee07-79d2-faf6-c19f" name="Karthakk Pirate" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -11366,13 +11366,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="39be-98c7-0d87-1517" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8168-7458-3737-4336" name="" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
+        <infoLink id="8168-7458-3737-4336" name="Barrel Roll" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11688,7 +11682,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92cb-9514-3918-e727" name="PS 8 - •Captain Nym†" hidden="false" collective="false" type="model">
+    <selectionEntry id="92cb-9514-3918-e727" name="PS 8 - •Captain Nym" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="22c5-4935-fb88-447b" name="•Captain Nym" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -11767,12 +11761,6 @@
       <rules/>
       <infoLinks>
         <infoLink id="d386-6fcd-f340-33fa" name="Scurrg H-6 Bomber" hidden="false" targetId="750c-bd3d-c44c-ffb2" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="bcf9-8c32-22ff-a75c" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11938,7 +11926,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8cad-3df1-9e7f-b848" name="PS 6 - •Sol Sixxa†" hidden="false" collective="false" type="model">
+    <selectionEntry id="8cad-3df1-9e7f-b848" name="PS 6 - •Sol Sixxa" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2f45-3b1b-7e02-40c4" name="•Sol Sixxa" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -12035,12 +12023,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="f400-a27f-418a-fe35" name="Scurrg H-6 Bomber" hidden="false" targetId="750c-bd3d-c44c-ffb2" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="288b-d390-af8d-5980" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13652,7 +13634,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2469-ee85-500c-00fe" name="•Cad Bane†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2469-ee85-500c-00fe" name="•Cad Bane" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8da3-8511-f5ee-3d1a" name="Cad Bane" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
           <profiles/>
@@ -13665,14 +13647,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="99fc-78a5-1ffc-d83a" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c909-8de8-3c9b-2682" type="max"/>

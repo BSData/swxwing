@@ -5533,7 +5533,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce2d-e2ec-1264-bda2" name="Synced Turret†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ce2d-e2ec-1264-bda2" name="Synced Turret" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8775-66a0-7e3d-1f0a" name="Synced Turret" hidden="false" profileTypeId="375475727265747323232344415441232323" profileTypeName="6.1 Turret">
           <profiles/>
@@ -5556,14 +5556,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="a367-6caf-95dc-bed2" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -5575,7 +5568,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c841-7ed9-8d88-fa15" name="Unguided Rockets†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c841-7ed9-8d88-fa15" name="Unguided Rockets" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="e80d-6baf-3de4-a850" name="Unguided Rockets" hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" profileTypeName="5.3 Missiles">
           <profiles/>
@@ -5598,14 +5591,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="ae85-9512-9426-1473" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="72e8-3b23-4be8-4027" type="max"/>
@@ -5619,7 +5605,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1db-0a8d-b2d4-6c61" name="•Havoc†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c1db-0a8d-b2d4-6c61" name="•Havoc" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="f5d8-dde3-4174-c0fb" name="Havoc" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
           <profiles/>
@@ -5632,14 +5618,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="0736-8b71-9904-0c81" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ed2-95ef-4ede-c10e" type="max"/>
@@ -5738,7 +5717,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e715-86e7-41ac-1927" name="Intensity†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e715-86e7-41ac-1927" name="Intensity" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2f36-2bd4-64ad-f14b" name="Intensity" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
           <profiles/>
@@ -5760,14 +5739,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="c673-30f4-e2e5-a04e" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="18f0-2866-80ae-084d" type="max"/>
@@ -5806,7 +5778,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b61-17e9-1515-aa13" name="Breach Specialist†" book="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5b61-17e9-1515-aa13" name="Breach Specialist" book="" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="92df-c3ef-8223-3f4d" name="Breach Specialist" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
           <profiles/>
@@ -5819,14 +5791,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="7a73-5b10-172b-7fad" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -5838,7 +5803,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b86a-b0e5-6796-0cda" name="•Bomblet Generator†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b86a-b0e5-6796-0cda" name="•Bomblet Generator" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="da16-1d1c-348c-ba86" name="Bomblet Generator" hidden="false" profileTypeId="39426f6d6223232344415441232323" profileTypeName="8.1 Bomb">
           <profiles/>
@@ -5860,14 +5825,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="e7dc-5856-3c2c-e1ff" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="47cd-0f16-2496-7dad" type="max"/>
@@ -5882,7 +5840,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="595b-caa1-c33d-c959" name="Minefield Mapper†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="595b-caa1-c33d-c959" name="Minefield Mapper" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="dd1a-8dc5-74a2-e3f5" name="Minefield Mapper" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
           <profiles/>
@@ -5895,14 +5853,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="dc2a-74c1-9e33-4801" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -5946,6 +5897,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f5e-23fa-0596-265e" name="•R4-E1" hidden="false" collective="false" type="upgrade">
@@ -5973,6 +5925,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

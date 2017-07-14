@@ -15784,7 +15784,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e772-77ed-784f-d5b8" name="PS 2 - Sienar Specialist†" hidden="false" collective="false" type="model">
+    <selectionEntry id="e772-77ed-784f-d5b8" name="PS 2 - Sienar Specialist" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="c623-b820-8078-7780" name="Sienar Specialist" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -15825,7 +15825,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="0c86-c873-ef53-ae00" name="" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
+        <infoLink id="0c86-c873-ef53-ae00" name="Barrel Roll" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15844,12 +15844,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="35d2-9c71-fa47-d833" name="" hidden="false" targetId="01c1-61e7-5d92-c862" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5024-a2c1-9a1b-9ab5" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15908,7 +15902,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6de4-c1c1-912d-dd61" name="PS 5 - Onyx Squadron Escort†" hidden="false" collective="false" type="model">
+    <selectionEntry id="6de4-c1c1-912d-dd61" name="PS 5 - Onyx Squadron Escort" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="eb6a-04e8-db60-2060" name="Onyx Squadron Escort" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -15949,7 +15943,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="574a-03bb-fb9d-ac9d" name="" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
+        <infoLink id="574a-03bb-fb9d-ac9d" name="Barrel Roll" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15968,12 +15962,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="df3b-2298-a390-0e01" name="" hidden="false" targetId="01c1-61e7-5d92-c862" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d399-ccfb-0bf3-3b33" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16032,7 +16020,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c836-cd52-f3b7-69f2" name="PS 4 - •&quot;Double Edge&quot;†" hidden="false" collective="false" type="model">
+    <selectionEntry id="c836-cd52-f3b7-69f2" name="PS 4 - •&quot;Double Edge&quot;" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e6ac-db48-e823-24b3" name="•&quot;Double Edge&quot;" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -16096,7 +16084,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="77e8-e1c1-dcca-8bb3" name="" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
+        <infoLink id="77e8-e1c1-dcca-8bb3" name="Barrel Roll" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16115,12 +16103,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="d838-853d-3603-90a4" name="" hidden="false" targetId="01c1-61e7-5d92-c862" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6594-9f35-2782-dd41" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16189,7 +16171,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0214-f08d-1a54-0c16" name="PS 7 - •Lieutenant Kestal†" hidden="false" collective="false" type="model">
+    <selectionEntry id="0214-f08d-1a54-0c16" name="PS 7 - •Lieutenant Kestal" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2bcd-d8c3-49b8-be4f" name="•Lieutenant Kestal" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -16253,7 +16235,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="e4d7-ccb8-2f37-ae55" name="" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
+        <infoLink id="e4d7-ccb8-2f37-ae55" name="Barrel Roll" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16272,12 +16254,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="c885-4ad2-e9d5-5bf6" name="" hidden="false" targetId="01c1-61e7-5d92-c862" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8269-b36d-d17d-bc39" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
