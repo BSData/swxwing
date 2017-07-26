@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="129" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="130" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -22659,6 +22659,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="bbb7-ff0a-9184-564e" name="Ion Dischargers†" hidden="false" targetId="3067-9c3e-f109-bd2f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="39b0-c828-9586-863a" name="Illicit" hidden="true" collective="false">
@@ -22746,6 +22754,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="72e4-f143-6bad-e55b" name="New EntryLink" hidden="false" targetId="bfa4-f3de-3502-b15b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e737-35a1-af8f-a692" name="Ion Dischargers†" hidden="false" targetId="3067-9c3e-f109-bd2f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
