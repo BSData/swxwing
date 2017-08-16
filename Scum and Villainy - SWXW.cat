@@ -13202,6 +13202,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="24.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -16212,7 +16213,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="99e3-ca25-cc3b-732c" hidden="false" targetId="4f94-3da1-e3b2-352e" type="selectionEntry">
+        <entryLink id="99e3-ca25-cc3b-732c" name="Adv. Homing Missiles" hidden="false" targetId="4f94-3da1-e3b2-352e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16277,6 +16278,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="8939-6675-25d5-5325" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="98e3-4271-5e56-7339" name="Harpoon Missiles†" hidden="false" targetId="62a7-7660-b2c9-4112" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18579,6 +18588,22 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4abc-ce6c-8a26-e9c1" name="Harpoon Missiles†" hidden="false" targetId="62a7-7660-b2c9-4112" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a366-3cc0-c359-e885" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="08f3-fd38-d42d-6b19" name="Modification" hidden="false" collective="false">
@@ -20075,6 +20100,22 @@
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aef5-97cb-3316-cc04" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="57a2-db07-dd32-7924" name="Harpoon Missiles†" hidden="false" targetId="62a7-7660-b2c9-4112" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="3">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aef5-97cb-3316-cc04" type="equalTo"/>

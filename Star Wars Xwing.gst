@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="52" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="53" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5957,6 +5957,57 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62a7-7660-b2c9-4112" name="Harpoon Missiles†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c718-baf3-714e-7096" name="Harpoon Missiles" hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" profileTypeName="5.3 Missiles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="cc3f-9040-e41f-630f" name="Harpoon Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" profileTypeName="5.4 Missiles Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Discard this card to perform this attack. If this attack hits, after the attack resolves, assign the &quot;Harpooned!&quot; Condition to the defender."/>
+          </characteristics>
+        </profile>
+        <profile id="102d-c192-2308-15cb" name="Harpooned!" hidden="false" profileTypeId="0874-76fd-36c4-9cd1" profileTypeName="9.1 Condition">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Condition Text" characteristicTypeId="80e5-3743-2c52-c7eb" value="When you are hit by an attack, if there is at least 1 uncanceled [critical] result, each other ship at Range 1 suffers 1 damage. Then discard this card and receive 1 facedown damage card. When you are destroyed, each ship at Range 1 suffers 1 damage. Action: Discard this card. Then roll 1 attack die. On a [hit] or [critical] result, suffer 1 damage."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6e49-2747-678c-add9" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -6059,7 +6110,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4b7c-16e6-fd22-b5a7" name="New EntryLink" hidden="false" targetId="be92-760a-408c-39b2" type="selectionEntry">
+        <entryLink id="4b7c-16e6-fd22-b5a7" name="Cluster Missiles" hidden="false" targetId="be92-760a-408c-39b2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6108,6 +6159,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="11b9-86ab-2b22-6f06" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cb08-abd6-e1bc-bb69" name="Harpoon Missiles†" hidden="false" targetId="62a7-7660-b2c9-4112" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

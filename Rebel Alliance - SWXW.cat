@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="130" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="131" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4368,6 +4368,22 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="a401-4478-db26-0e5e" name="Harpoon Missiles†" hidden="false" targetId="62a7-7660-b2c9-4112" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="a8abf554-54ec-748d-1418-8c7e74972a2a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a366-3cc0-c359-e885" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="0a3a-fa00-4dcb-352c" name="Crew" hidden="false" collective="false">
@@ -5479,6 +5495,22 @@
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="3ad9-72af-e22b-785e" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="a8abf554-54ec-748d-1418-8c7e74972a2a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a366-3cc0-c359-e885" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="a70c-1c01-015a-6857" name="Harpoon Missiles†" hidden="false" targetId="62a7-7660-b2c9-4112" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -22856,6 +22888,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="9be8-d79d-526b-4ed7" name="Cruise Missiles" hidden="false" targetId="2b1d-45f3-4862-38c0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9ea9-54b5-5c90-7350" name="Harpoon Missiles†" hidden="false" targetId="62a7-7660-b2c9-4112" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
