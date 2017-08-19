@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="53" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="54" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -199,6 +199,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="63ed-5b67-a807-c25b" name="Alpha-class Star Wing" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
     <categoryEntry id="5217-643e-7313-1d6d" name="ARC-170" hidden="false">
       <profiles/>
       <rules/>
@@ -269,6 +276,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="5ed2-3857-006a-19b6" name="M12-L Kimogila Fighter" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
     <categoryEntry id="0dab-5969-1454-3251" name="Protectorate Starfighter" hidden="false">
       <profiles/>
       <rules/>
@@ -290,7 +304,21 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="88d5-e079-da4a-7208" name="Sheathipede-class Shuttle" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
     <categoryEntry id="ad57052c-5c57-d3ae-2581-754b40de6619" name="StarViper" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="8000-0b43-fa58-75fb" name="T-70 X-Wing" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -382,13 +410,6 @@
       <constraints/>
     </categoryEntry>
     <categoryEntry id="5753eb32-f764-9d39-c66f-0c9951854ce6" name="X-Wing" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="8000-0b43-fa58-75fb" name="T-70 X-Wing" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -533,6 +554,15 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="0d25-6ac0-9502-5ced" name="Alpha-class Star Wing" hidden="false" targetId="63ed-5b67-a807-c25b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-5217-643e-7313-1d6d" name="ARC-170" hidden="false" targetId="5217-643e-7313-1d6d" primary="false">
           <profiles/>
           <rules/>
@@ -623,7 +653,16 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5374616e6461726423232344415441232323-0dab-5969-1454-3251" name="Protectorate Starfighter" hidden="false" targetId="0dab-5969-1454-3251" primary="false">
+        <categoryLink id="9ee7-4c9f-a13a-d2b7" name="M12-L Kimogila Fighter" hidden="false" targetId="5ed2-3857-006a-19b6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+      <categoryLink id="5374616e6461726423232344415441232323-0dab-5969-1454-3251" name="Protectorate Starfighter" hidden="false" targetId="0dab-5969-1454-3251" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -650,7 +689,25 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="a54f-0faa-f82f-40ae" name="Sheathipede-class Shuttle" hidden="false" targetId="88d5-e079-da4a-7208" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-ad57052c-5c57-d3ae-2581-754b40de6619" name="StarViper" hidden="false" targetId="ad57052c-5c57-d3ae-2581-754b40de6619" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5374616e6461726423232344415441232323-8000-0b43-fa58-75fb" name="T-70 X-Wing" hidden="false" targetId="8000-0b43-fa58-75fb" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -768,15 +825,6 @@
           </constraints>
         </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-5753eb32-f764-9d39-c66f-0c9951854ce6" name="X-Wing" hidden="false" targetId="5753eb32-f764-9d39-c66f-0c9951854ce6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5374616e6461726423232344415441232323-8000-0b43-fa58-75fb" name="T-70 X-Wing" hidden="false" targetId="8000-0b43-fa58-75fb" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -946,7 +994,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
+        </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
@@ -6008,6 +6056,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="4.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -6649,6 +6698,12 @@
       <modifiers/>
     </rule>
     <rule id="b34b-de8a-cc02-e830" name="Rotate Arc" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="a181-faac-d147-23e5" name="Reload" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
