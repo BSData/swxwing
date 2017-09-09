@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="54" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="55" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -402,6 +402,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="75a2-d27c-8e11-2903" name="TIE Silencer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
     <categoryEntry id="47d7-a285-1371-3234" name="TIE Striker" hidden="false">
       <profiles/>
       <rules/>
@@ -438,6 +445,13 @@
       <constraints/>
     </categoryEntry>
     <categoryEntry id="74a3fbeb-d053-e57a-37dd-55d01ad62f27" name="Aggressor" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="47d5-1aa1-bcb7-8bd9" name="B/SF-17 Bomber" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -662,7 +676,7 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryLink>
-      <categoryLink id="5374616e6461726423232344415441232323-0dab-5969-1454-3251" name="Protectorate Starfighter" hidden="false" targetId="0dab-5969-1454-3251" primary="false">
+        <categoryLink id="5374616e6461726423232344415441232323-0dab-5969-1454-3251" name="Protectorate Starfighter" hidden="false" targetId="0dab-5969-1454-3251" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -815,6 +829,15 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="f8ab-8a44-8192-fec0" name="TIE Silencer" hidden="false" targetId="75a2-d27c-8e11-2903" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-47d7-a285-1371-3234" name="TIE Striker" hidden="false" targetId="47d7-a285-1371-3234" primary="false">
           <profiles/>
           <rules/>
@@ -861,6 +884,15 @@
           </constraints>
         </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-74a3fbeb-d053-e57a-37dd-55d01ad62f27" name="Aggressor" hidden="false" targetId="74a3fbeb-d053-e57a-37dd-55d01ad62f27" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8e20-2b38-4ce2-959e" name="B/SF-17 Bomber" hidden="false" targetId="47d5-1aa1-bcb7-8bd9" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -994,7 +1026,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        </categoryLinks>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
@@ -6059,6 +6091,37 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3e6f-fbe6-a3cd-e1bb" name="Trajectory Simulator†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ff03-f32e-6312-3501" name="Trajectory Simulator" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="You may launch bombs using the [straight 5] template instead of dropping them. You cannot launch bombs with the &quot;Action:&quot; header in this way."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0180-aa7a-06d4-80e6" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="beda-5642-acc4-e160" name="Cannon" hidden="false" collective="false">
@@ -6517,7 +6580,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5eca-b86e-bf89-d6d6" name="New EntryLink" hidden="false" targetId="df5c-ee66-795f-16cf" type="selectionEntry">
+        <entryLink id="5eca-b86e-bf89-d6d6" name="Advanced Sensors" hidden="false" targetId="df5c-ee66-795f-16cf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6574,6 +6637,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="079a-09a3-44de-edec" name="" hidden="false" targetId="595b-caa1-c33d-c959" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1fa1-afdc-84f3-28dd" name="Trajectory Simulator†" hidden="false" targetId="3e6f-fbe6-a3cd-e1bb" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
