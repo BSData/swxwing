@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="55" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="56" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -6008,7 +6008,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3067-9c3e-f109-bd2f" name="Ion Dischargers†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3067-9c3e-f109-bd2f" name="Ion Dischargers" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="bbee-1272-370b-feac" name="Ion Dischargers" hidden="false" profileTypeId="2d9cbda4-a8fd-710c-6290-9de343fe0a13" profileTypeName="4.2 Illicit Ability">
           <profiles/>
@@ -6021,14 +6021,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="7b3f-e016-8b6e-d256" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -6040,7 +6033,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62a7-7660-b2c9-4112" name="Harpoon Missiles†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="62a7-7660-b2c9-4112" name="Harpoon Missiles" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="c718-baf3-714e-7096" name="Harpoon Missiles" hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" profileTypeName="5.3 Missiles">
           <profiles/>
@@ -6072,14 +6065,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="6e49-2747-678c-add9" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -6120,6 +6106,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

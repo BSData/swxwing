@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="132" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="133" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -11516,7 +11516,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="213f-f1da-c1c2-680c" name="PS 7 - •Viktor Hel†" hidden="false" collective="false" type="model">
+    <selectionEntry id="213f-f1da-c1c2-680c" name="PS 7 - •Viktor Hel" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="eb7b-4a76-42b4-844c" name="•Viktor Hel" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -11592,13 +11592,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0a56-b0ee-f38d-6d04" name="" hidden="false" targetId="c439-cb25-8049-32b2" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e5ab-0364-f668-8662" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+        <infoLink id="0a56-b0ee-f38d-6d04" name="Kihraxz Fighter" hidden="false" targetId="c439-cb25-8049-32b2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12403,7 +12397,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9cc4-41e9-732e-eac3" name="PS 5 - Black Sun Assassin†" hidden="false" collective="false" type="model">
+    <selectionEntry id="9cc4-41e9-732e-eac3" name="PS 5 - Black Sun Assassin" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="c97e-5d0e-7316-7804" name="Black Sun Assassin" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -12484,12 +12478,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="68e9-89d2-b3be-7c60" name="Target Lock" hidden="false" targetId="faa6-411c-27d0-85f8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2fb1-78dd-fc45-28a7" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12609,7 +12597,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d70b-2433-8c77-8a1d" name="PS 4 - •Thweek†" hidden="false" collective="false" type="model">
+    <selectionEntry id="d70b-2433-8c77-8a1d" name="PS 4 - •Thweek" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2f45-71a1-319e-f6ef" name="•Thweek" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -12703,12 +12691,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="acaf-5a2b-fd0a-e229" name="Target Lock" hidden="false" targetId="faa6-411c-27d0-85f8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="47e8-239b-cb3e-bcd1" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12822,7 +12804,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2407-39a8-0fa4-059f" name="PS 6 - •Dalan Oberos†" hidden="false" collective="false" type="model">
+    <selectionEntry id="2407-39a8-0fa4-059f" name="PS 6 - •Dalan Oberos" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="f90d-9ee2-81cb-327a" name="•Dalan Oberos" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -12912,12 +12894,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="b831-9e4e-9f50-23ee" name="Target Lock" hidden="false" targetId="faa6-411c-27d0-85f8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="13b6-f23d-4953-779b" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13039,7 +13015,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4355-1072-0b24-aaa5" name="PS 4 - •Captain Jostero†" hidden="false" collective="false" type="model">
+    <selectionEntry id="4355-1072-0b24-aaa5" name="PS 4 - •Captain Jostero" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e8fe-fa45-f956-972f" name="•Captain Jostero" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -13103,12 +13079,6 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="62a6-0224-d0fe-4551" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="a37f-8df4-0990-d304" name="Kihraxz Fighter" hidden="false" targetId="c439-cb25-8049-32b2" type="profile">
           <profiles/>
           <rules/>
@@ -14563,7 +14533,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aef5-97cb-3316-cc04" name="Vaksai†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="aef5-97cb-3316-cc04" name="Vaksai" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ea7e-9962-dc02-4fed" name="Vaksai" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
           <profiles/>
@@ -14576,14 +14546,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="4806-c00c-31dc-5f73" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ad2-3a5d-723f-e6ad" type="max"/>
@@ -14597,7 +14560,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d9f-5d8a-98b6-9fc7" name="StarViper Mk.II†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3d9f-5d8a-98b6-9fc7" name="StarViper Mk.II" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="843e-405f-f05b-40b2" name="StarViper Mk.II" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
           <profiles/>
@@ -14610,14 +14573,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="cca1-ad50-f844-38e2" name="" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a27c-be35-b96e-77f3" type="max"/>
