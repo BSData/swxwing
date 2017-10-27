@@ -6109,6 +6109,113 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ba09-7c0c-0258-e0c6" name="Linked Battery†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ff36-23f5-ce43-ff9e" name="Linked Battery" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" profileTypeName="6.4 Cannon Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="When attacking with a primary weapon or [cannon] secondary weapon, you may reroll 1 attack die."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5768-02a3-e4c5-97b8" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="85cb-35bf-9579-6832" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1ff-d7fb-3548-494d" name="Jamming Beam†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="adf7-4ecb-f1a9-3698" name="Jamming Beam" hidden="false" profileTypeId="313043616e6e6f6e7323232344415441232323" profileTypeName="6.3 Cannon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="1-2"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="2ecc-3d86-972c-e92c" name="Jamming Beam" hidden="false" profileTypeId="31302e3143616e6e6f6e204162696c69747923232344415441232323" profileTypeName="6.4 Cannon Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cannon Ability" characteristicTypeId="43616e6e6f6e204162696c69747923232344415441232323" value="Attack: Attack 1 ship. If this attack hits, the defender suffers 1 jam token. Then cancel all dice results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c499-72e8-b2d5-13e5" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1d7-63b2-fc0b-fa1f" name="Saturation Salvo†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c888-a942-06de-b186" name="Saturation Salvo†" hidden="false" profileTypeId="332e32456c6974652050696c6f742054616c656e7423232344415441232323" profileTypeName="2.3 Elite Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Elite Ability" characteristicTypeId="456c6974652050696c6f742054616c656e74204162696c69747923232344415441232323" value="After you perform an attack with a [torpedoes] or [missiles] secondary weapon that does not hit, each ship at Range 1 of the defender with an agility value lower than the squad point cost of the [torpedoes] or [missiles] Upgrade card must roll 1 attack die and suffer and damage [hit] or critical damage [critical] rolled."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8e68-4a7a-48cc-6c14" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c48-ff67-8c4c-63aa" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="beda-5642-acc4-e160" name="Cannon" hidden="false" collective="false">
@@ -6172,6 +6279,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="728f-8f56-4926-9ff4" name="" hidden="false" targetId="38fa-78d2-3e68-acfe" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6cc1-6f10-3665-d4d2" name="Jamming Beam†" hidden="false" targetId="a1ff-d7fb-3548-494d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

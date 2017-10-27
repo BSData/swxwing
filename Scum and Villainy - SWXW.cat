@@ -14771,6 +14771,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="18b5-8a3b-c2ed-5d03" name="Jamming Beam†" hidden="false" targetId="a1ff-d7fb-3548-494d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0b85-4a4e-81f3-f636" name="Cannon" hidden="false" collective="false">
@@ -14849,6 +14857,22 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="117b-445c-160e-04aa" name="" hidden="false" targetId="38fa-78d2-3e68-acfe" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5c4d-ffa3-ca71-c0d2" name="Jamming Beam†" hidden="false" targetId="a1ff-d7fb-3548-494d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0815-ab4f-ccc1-755a" name="Linked Battery†" hidden="false" targetId="ba09-7c0c-0258-e0c6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15722,6 +15746,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="6213-10fd-1ecf-de6a" name="Saturation Salvo†" hidden="false" targetId="e1d7-63b2-fc0b-fa1f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6c29-e554-71ed-ed9e" name="Elite" hidden="false" collective="false">
@@ -16001,6 +16033,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="9a79-e1bd-daa9-9ae6" name="" hidden="false" targetId="cd82-0dc6-bef3-d7ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4ddb-15f8-a8c3-ca59" name="Saturation Salvo†" hidden="false" targetId="e1d7-63b2-fc0b-fa1f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19069,7 +19109,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="1b7e-9348-aae4-8a43" name="" hidden="false" targetId="8ffb-2776-ce81-a98d" type="selectionEntry">
+        <entryLink id="1b7e-9348-aae4-8a43" name="Adaptability" hidden="false" targetId="8ffb-2776-ce81-a98d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19643,6 +19683,22 @@
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aef5-97cb-3316-cc04" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7635-e5cc-d664-5d6a" name="Saturation Salvo†" hidden="false" targetId="e1d7-63b2-fc0b-fa1f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aef5-97cb-3316-cc04" type="equalTo"/>

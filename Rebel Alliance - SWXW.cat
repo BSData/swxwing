@@ -894,7 +894,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e3f5d77b-ed62-5a04-2017-f2634cd50062" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="e3f5d77b-ed62-5a04-2017-f2634cd50062" name="Cannon" hidden="false" targetId="e4e0-c0d7-b8a8-33f2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6210,7 +6210,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0127b816-3bda-ba1e-2035-b9dbf12bbe0d" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="0127b816-3bda-ba1e-2035-b9dbf12bbe0d" name="Cannon" hidden="false" targetId="e4e0-c0d7-b8a8-33f2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9760,7 +9760,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="50453427-a1e0-e891-d55a-51acffa56651" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="50453427-a1e0-e891-d55a-51acffa56651" name="Cannon" hidden="false" targetId="e4e0-c0d7-b8a8-33f2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11620,7 +11620,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3c995e28-4aad-9564-c9b6-fa04b29f50ff" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="3c995e28-4aad-9564-c9b6-fa04b29f50ff" name="Cannon" hidden="false" targetId="e4e0-c0d7-b8a8-33f2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13624,7 +13624,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a2dc59c9-2298-9843-a8da-04a15a1254a1" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="a2dc59c9-2298-9843-a8da-04a15a1254a1" name="Cannon" hidden="false" targetId="e4e0-c0d7-b8a8-33f2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15782,7 +15782,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="93d3fcb9-da5c-fd4e-0656-b6115693b7be" hidden="false" targetId="beda-5642-acc4-e160" type="selectionEntryGroup">
+        <entryLink id="93d3fcb9-da5c-fd4e-0656-b6115693b7be" name="Cannon" hidden="false" targetId="e4e0-c0d7-b8a8-33f2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22820,6 +22820,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3b9b-d390-7267-9505" name="Saturation Salvo†" hidden="false" targetId="e1d7-63b2-fc0b-fa1f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f01d-656f-5b3a-cc44" name="Elite" hidden="false" collective="false">
@@ -23075,6 +23083,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="1d70-2dde-d1f9-2fba" name="" hidden="false" targetId="cd82-0dc6-bef3-d7ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bd71-9cf3-5554-d34d" name="Saturation Salvo†" hidden="false" targetId="e1d7-63b2-fc0b-fa1f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25003,6 +25019,92 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="b933-18c1-3070-844d" name="Comm Relay" hidden="false" targetId="fa02-916b-5526-71e6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e4e0-c0d7-b8a8-33f2" name="Cannon" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41ee-7c09-13e1-810e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3b0f-939e-516b-b4f5" name="Tractor Beam" hidden="false" targetId="cac2-70cf-85c1-1fde" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="afc0-9502-0187-7221" name="Jamming Beam†" hidden="false" targetId="a1ff-d7fb-3548-494d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d79c-a9e7-6425-8e9a" name="Ion Cannon" hidden="false" targetId="fc6b-f195-e8a5-0f06" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1f5b-1a81-2937-310c" name="Heavy Laser Cannon" hidden="false" targetId="a704-e5d0-622b-1025" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2c45-4a7d-234b-1adc" name="Flechette Cannon" hidden="false" targetId="a9d9-5707-ea6b-6abf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="87c4-ec56-c55a-c422" name="Autoblaster" hidden="false" targetId="6ac7-cb76-cf45-31f9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9ee6-42a9-e959-009d" name="ARC Caster" hidden="false" targetId="38fa-78d2-3e68-acfe" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="59e9-3b8c-3105-93b9" name="&quot;Mangler&quot; Cannon" hidden="false" targetId="1547-5297-10ef-06ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="992c-742f-c11e-fc9d" name="Linked Battery†" hidden="false" targetId="ba09-7c0c-0258-e0c6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
