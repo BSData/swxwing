@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="56" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="57" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1394,7 +1394,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="After performing a SLAM action, if you did not overlap an obstacle or another ship, you may perform a free action."/>
+            <characteristic name="Modification Ability" characteristicTypeId="4d6f64696669636174696f6e204162696c69747923232344415441232323" value="After performing a SLAM action, if you did not overlap an obstacle or another ship, you may perform a free action on your action bar."/>
           </characteristics>
         </profile>
       </profiles>
@@ -5721,7 +5721,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Salvaged Astromech Ability" characteristicTypeId="76f62e20-6c9d-37b2-b892-8898a587998c" value="If you are equipped with a bomb that can be dropped when you reveal your maneuver, you may drop the bomb after you execute your maneuver instead."/>
+            <characteristic name="Salvaged Astromech Ability" characteristicTypeId="76f62e20-6c9d-37b2-b892-8898a587998c" value="After you reveal and execute a maneuver, if you did not overlap a ship, you may discard 1 of your equipped [bomb] Upgrade cards without the &quot;Action:&quot; header to drop the corresponding bomb token."/>
           </characteristics>
         </profile>
       </profiles>

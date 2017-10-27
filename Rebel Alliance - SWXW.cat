@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="133" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="134" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8546,13 +8546,13 @@
             <characteristic name="Upgrade Bar" characteristicTypeId="557067726164652042617223232344415441232323" value="Torpedoes, Astromech"/>
           </characteristics>
         </profile>
-        <profile id="3d00ae34-49da-c13d-dafe-b8d04bde1a21" name="Biggs Darklighter" page="0" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
+        <profile id="3d00ae34-49da-c13d-dafe-b8d04bde1a21" name="Biggs Darklighter" page="" hidden="false" profileTypeId="3250696c6f74204162696c69747923232344415441232323">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="Other friendly ships at Range 1 cannot be targeted by attacks if the attacker could target you instead."/>
+            <characteristic name="Pilot Ability" characteristicTypeId="50696c6f74204162696c69747923232344415441232323" value="Once per game, at the start of the Combat phase, you may choose that until the end of the round, other friendly ships at Range 1 cannot be targeted by attacks if the attacker could target you instead."/>
           </characteristics>
         </profile>
       </profiles>
@@ -18419,6 +18419,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="29.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -20782,6 +20783,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
