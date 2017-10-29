@@ -6051,7 +6051,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Discard this card to perform this attack. If this attack hits, after the attack resolves, assign the &quot;Harpooned!&quot; Condition to the defender."/>
+            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Discard this card to perform this attack. If this attack hits, after the attack resolves, assign the &quot;Harpooned!&quot; Condition to the defender."/>
           </characteristics>
         </profile>
         <profile id="102d-c192-2308-15cb" name="Harpooned!" hidden="false" profileTypeId="0874-76fd-36c4-9cd1" profileTypeName="9.1 Condition">
@@ -6140,6 +6140,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1ff-d7fb-3548-494d" name="Jamming Beam†" hidden="false" collective="false" type="upgrade">
@@ -6181,6 +6182,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e1d7-63b2-fc0b-fa1f" name="Saturation Salvo†" hidden="false" collective="false" type="upgrade">
@@ -6214,6 +6216,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
