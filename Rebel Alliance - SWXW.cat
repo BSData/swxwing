@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="134" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="135" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -23128,7 +23128,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5744-e6ed-f45e-4dfe" hidden="false" targetId="075d-5765-2579-f654" type="selectionEntry">
+        <entryLink id="5744-e6ed-f45e-4dfe" name="Dead Man&apos;s Switch" hidden="false" targetId="075d-5765-2579-f654" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -23201,6 +23201,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="bbb7-ff0a-9184-564e" name="Ion Dischargers†" hidden="false" targetId="3067-9c3e-f109-bd2f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="af1e-80c3-598a-64c3" name="Contraband Cybernetics†" hidden="false" targetId="9cfa-b04b-c46f-173e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -23303,6 +23311,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="e737-35a1-af8f-a692" name="Ion Dischargers†" hidden="false" targetId="3067-9c3e-f109-bd2f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2dc1-5044-4025-fccf" name="Contraband Cybernetics†" hidden="false" targetId="9cfa-b04b-c46f-173e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

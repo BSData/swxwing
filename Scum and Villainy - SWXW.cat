@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="134" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="135" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -16142,6 +16142,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9d84-19cf-2ee7-8fd5" name="Contraband Cybernetics†" hidden="false" targetId="9cfa-b04b-c46f-173e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="81a5-0a05-2068-e548" name="Illicit" hidden="false" collective="false">
@@ -16244,6 +16252,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1c4f-eaa3-d614-f63d" name="Contraband Cybernetics†" hidden="false" targetId="9cfa-b04b-c46f-173e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0719-388f-4032-7762" name="Illicit" hidden="false" collective="false">
@@ -16339,6 +16355,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="d3d2-4a16-46c1-4cd0" name="Ion Dischargers†" hidden="false" targetId="3067-9c3e-f109-bd2f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="41fa-fee5-5d58-786b" name="Contraband Cybernetics†" hidden="false" targetId="9cfa-b04b-c46f-173e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20135,6 +20159,14 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1016-cd2d-6db5-e688" name="Contraband Cybernetics†" hidden="false" targetId="9cfa-b04b-c46f-173e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
