@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="135" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="136" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -13512,6 +13512,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="25.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dde2-997d-d72b-3af8" name="PS 3 - Cartel Brute†" hidden="false" collective="false" type="model">
@@ -13672,6 +13673,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="22.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -15519,6 +15521,22 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="7fa6-b648-6620-cfed" name="Courier Droid†" hidden="false" targetId="5cd4-01c0-c8d3-61c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aade-d662-f465-7cda" name="•Maul†" hidden="false" targetId="dc6b-b899-c56e-6eda" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="eec0-c689-de97-3665" name="Crew" hidden="false" collective="false">
@@ -15773,7 +15791,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="bfe7-547e-e6b3-231f" name="" hidden="false" targetId="60ef-f8bc-7eff-9328" type="selectionEntry">
+        <entryLink id="bfe7-547e-e6b3-231f" name="•Jabba the Hutt" hidden="false" targetId="60ef-f8bc-7eff-9328" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15790,6 +15808,22 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="da6b-dc3f-3b14-154d" name="•Cad Bane†" hidden="false" targetId="2469-ee85-500c-00fe" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="178b-f34d-c667-e591" name="Courier Droid†" hidden="false" targetId="5cd4-01c0-c8d3-61c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6941-bab0-3b4c-f09c" name="•Maul†" hidden="false" targetId="dc6b-b899-c56e-6eda" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18804,6 +18838,22 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="a3b8-639c-c605-d9b8" name="•Cad Bane†" hidden="false" targetId="2469-ee85-500c-00fe" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0007-2659-14a9-26c4" name="Courier Droid†" hidden="false" targetId="5cd4-01c0-c8d3-61c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b8e4-8287-d8f3-8f48" name="•Maul†" hidden="false" targetId="dc6b-b899-c56e-6eda" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
