@@ -6350,7 +6350,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="0.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="89f8-a644-d0be-81ad" name="Scrambler Missiles†" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -6377,6 +6380,38 @@
       <rules/>
       <infoLinks>
         <infoLink id="5737-6727-15d2-9f65" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd22-2ab3-3eec-4ee8" name="Advanced Optics†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8875-0d5b-e921-efeb" name="Advanced Optics" hidden="false" profileTypeId="c9e2-1064-13c6-2ead" profileTypeName="3.5 Tech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Tech Ability" characteristicTypeId="11fa-44a2-d6a1-9b41" value="You cannot have more than 1 focus token. During the End phase, do not remove an unused focus token from your ship."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ab33-040c-8a44-f278" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6838,6 +6873,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="6608-7590-bea4-183c" name="New EntryLink" hidden="false" targetId="b18d-8e56-81a8-ba5a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5076-871e-e200-4afe" name="Advanced Optics†" hidden="false" targetId="dd22-2ab3-3eec-4ee8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
