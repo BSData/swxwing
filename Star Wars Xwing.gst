@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="59" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="60" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -6283,6 +6283,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="3.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cd4-01c0-c8d3-61c3" name="Courier Droid†" hidden="false" collective="false" type="upgrade">
@@ -6314,7 +6315,83 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="0.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="85ee-1d9f-cc8c-cbb2" name="•R5-TK†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3df5-a9ea-95b0-8338" name="R5-TK" hidden="false" profileTypeId="a283a4e2-4047-6c62-3fb7-9ae7812aab85" profileTypeName="3.3 Salvaged Astromech">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Salvaged Astromech Ability" characteristicTypeId="76f62e20-6c9d-37b2-b892-8898a587998c" value="You can acquire target locks on friendly ships. You can attack friendly ships."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1bdc-57be-7c16-5928" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e7ff-3a9e-20b7-103a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3585-6dab-85a9-9677" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs/>
+    </selectionEntry>
+    <selectionEntry id="89f8-a644-d0be-81ad" name="Scrambler Missiles†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b6d5-2075-d633-4746" name="Scrambler Missiles" hidden="false" profileTypeId="354d697373696c6520576561706f6e7323232344415441232323" profileTypeName="5.3 Missiles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Weapon Range" characteristicTypeId="576561706f6e2052616e676523232344415441232323" value="2-3"/>
+            <characteristic name="Attack Value" characteristicTypeId="41747461636b2056616c756523232344415441232323" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="bcd1-c090-f48c-7c8e" name="Scrambler Missiles" hidden="false" profileTypeId="364d697373696c6520576561706f6e204162696c69747923232344415441232323" profileTypeName="5.4 Missiles Ability">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Missiles Ability" characteristicTypeId="4d697373696c6520576561706f6e204162696c69747923232344415441232323" value="Attack (target lock): Discard this card to perform this attack. If this attack hits, the defender and each other ship at Range 1 receive 1 jam token. Then cancel all results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5737-6727-15d2-9f65" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -6481,6 +6558,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="cb08-abd6-e1bc-bb69" name="Harpoon Missiles†" hidden="false" targetId="62a7-7660-b2c9-4112" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8d32-17de-ea70-cbfa" name="Scrambler Missiles†" hidden="false" targetId="89f8-a644-d0be-81ad" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6893,6 +6978,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="d9bf-6f90-374e-dad1" name="•R4-E1" hidden="false" targetId="7f5e-23fa-0596-265e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ccec-2084-9a84-c9cf" name="•R5-TK†" hidden="false" targetId="85ee-1d9f-cc8c-cbb2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
