@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="137" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="138" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -18547,7 +18547,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="74ea-7d53-f4ec-2be3" name="Tech" hidden="false" targetId="c1fb-32ee-4232-5b96" type="selectionEntryGroup">
+        <entryLink id="74ea-7d53-f4ec-2be3" name="Tech" hidden="false" targetId="e4d5-d9d3-c8cf-ac53" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19293,7 +19293,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="be05-b568-c251-b9cb" name="Tech" hidden="false" targetId="c1fb-32ee-4232-5b96" type="selectionEntryGroup">
+        <entryLink id="be05-b568-c251-b9cb" name="Tech" hidden="false" targetId="e4d5-d9d3-c8cf-ac53" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19328,6 +19328,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="27.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2fa-9873-1680-e768" name="PS 1 - Crimson Squadron Pilot†" hidden="false" collective="false" type="model">
@@ -19433,7 +19434,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8dff-c443-54ee-971c" name="Tech" hidden="false" targetId="c1fb-32ee-4232-5b96" type="selectionEntryGroup">
+        <entryLink id="8dff-c443-54ee-971c" name="Tech" hidden="false" targetId="e4d5-d9d3-c8cf-ac53" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19468,6 +19469,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="25.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="175f-1855-1833-43a2" name="PS 6 - •&quot;Cobalt Leader&quot;†" hidden="false" collective="false" type="model">
@@ -19584,7 +19586,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="398b-2770-452e-2891" name="Tech" hidden="false" targetId="c1fb-32ee-4232-5b96" type="selectionEntryGroup">
+        <entryLink id="398b-2770-452e-2891" name="Tech" hidden="false" targetId="e4d5-d9d3-c8cf-ac53" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19619,6 +19621,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="28.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -22110,6 +22113,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05e9-770f-33a2-09aa" name="Deflective Plating†" hidden="false" collective="false" type="upgrade">
@@ -22143,6 +22147,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="1.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -24305,6 +24310,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="3b9b-d390-7267-9505" name="Saturation Salvo†" hidden="false" targetId="e1d7-63b2-fc0b-fa1f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aed6-0491-6dbe-2b7e" name="Debris Gambit†" hidden="false" targetId="3187-0334-a13c-ef88" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
