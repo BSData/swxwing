@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="138" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="139" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -13119,7 +13119,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65a3-b4ef-158a-234d" name="PS 8 - •Torani Kulda†" hidden="false" collective="false" type="model">
+    <selectionEntry id="65a3-b4ef-158a-234d" name="PS 8 - •Torani Kulda" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="dd03-5cfe-6dc4-23fa" name="•Torani Kulda" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -13208,12 +13208,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="7fc5-77ec-2301-a38f" name="M12-L Kimogila Figher" hidden="false" targetId="607e-87af-d353-e173" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a9db-b8c1-153a-2df3" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13313,7 +13307,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c82-3297-402e-d618" name="PS 7 - •Dalan Oberos†" hidden="false" collective="false" type="model">
+    <selectionEntry id="7c82-3297-402e-d618" name="PS 7 - •Dalan Oberos" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="080c-2b7c-9f70-67ba" name="•Dalan Oberos" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -13402,12 +13396,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="8121-fa6d-cea6-4181" name="M12-L Kimogila Figher" hidden="false" targetId="607e-87af-d353-e173" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="fcc0-fb17-c8e6-de9a" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13515,7 +13503,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dde2-997d-d72b-3af8" name="PS 3 - Cartel Brute†" hidden="false" collective="false" type="model">
+    <selectionEntry id="dde2-997d-d72b-3af8" name="PS 3 - Cartel Brute" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="b76b-0d90-4ced-4b9b" name="Cartel Brute" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -13581,12 +13569,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="af2d-eb9f-1914-0e3d" name="M12-L Kimogila Figher" hidden="false" targetId="607e-87af-d353-e173" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="65dd-89ee-7dd1-9ab4" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13676,7 +13658,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4b7-0b7f-3d97-812b" name="PS 5 - Cartel Executioner†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a4b7-0b7f-3d97-812b" name="PS 5 - Cartel Executioner" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="9016-ef50-d16d-68be" name="Cartel Executioner" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -13756,12 +13738,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="1b77-2b9f-12ef-eb3e" name="M12-L Kimogila Figher" hidden="false" targetId="607e-87af-d353-e173" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4515-db48-bf00-0267" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15106,7 +15082,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93f7-4fe6-91bb-a78b" name="•Enforcer†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="93f7-4fe6-91bb-a78b" name="•Enforcer" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ade2-9ef3-0fb2-0bbf" name="Enforcer" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
           <profiles/>
@@ -15119,14 +15095,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="aec7-8602-2b56-0199" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>

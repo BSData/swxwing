@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="138" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="139" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -16421,7 +16421,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b478-b3d1-831c-3428" name="PS 7 - •Major Vynder†" hidden="false" collective="false" type="model">
+    <selectionEntry id="b478-b3d1-831c-3428" name="PS 7 - •Major Vynder" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d3df-af63-03be-89bd" name="•Major Vynder" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -16500,12 +16500,6 @@
       <rules/>
       <infoLinks>
         <infoLink id="7304-30ac-3aff-f357" name="Alpha-class Star Wing" hidden="false" targetId="9e6b-d215-7f93-bd7a" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2ece-34c5-f575-bc26" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16637,7 +16631,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d64b-0c61-f19e-ec93" name="PS 9 - •Kylo Ren†" hidden="false" collective="false" type="model">
+    <selectionEntry id="d64b-0c61-f19e-ec93" name="PS 9 - •Kylo Ren" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="41b1-7488-907a-12a3" name="•Kylo Ren" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -16726,12 +16720,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="a013-9e19-d0e6-2a5a" name="TIE Silencer" hidden="false" targetId="6cd2-8121-f574-6735" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4980-d435-017a-d922" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16836,7 +16824,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af4f-a921-d22e-b20c" name="PS 5 - •Lieutenant Karsabi†" hidden="false" collective="false" type="model">
+    <selectionEntry id="af4f-a921-d22e-b20c" name="PS 5 - •Lieutenant Karsabi" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="95a3-728f-4928-c467" name="•Lieutenant Karsabi" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -16933,12 +16921,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="5dfd-174b-2f57-d4c4" name="Focus" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="cae8-b3e8-ecc1-b8b7" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17052,7 +17034,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7f58-353c-efe6-a6aa" name="PS 4 - Rho Squadron Veteran†" hidden="false" collective="false" type="model">
+    <selectionEntry id="7f58-353c-efe6-a6aa" name="PS 4 - Rho Squadron Veteran" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="4650-5290-d210-9b87" name="Rho Squadron Veteran" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -17140,12 +17122,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="78d8-70df-7ac9-cafe" name="Focus" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="fe2c-e489-c7da-c45f" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17257,7 +17233,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e8b-07b2-42e9-d997" name="PS 2 - Nu Squadron Pilot†" hidden="false" collective="false" type="model">
+    <selectionEntry id="7e8b-07b2-42e9-d997" name="PS 2 - Nu Squadron Pilot" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="8a43-51f7-584f-926c" name="Nu Squadron Pilot" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -17331,12 +17307,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="86e5-4598-9c6d-2085" name="Focus" hidden="false" targetId="d7af-df44-aaaf-6a5b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d9a4-859b-9667-8ff7" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17440,7 +17410,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1bb4-d224-6d77-ca3d" name="PS 7 - •Test Pilot &quot;Blackout&quot;†" hidden="false" collective="false" type="model">
+    <selectionEntry id="1bb4-d224-6d77-ca3d" name="PS 7 - •Test Pilot &quot;Blackout&quot;" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="38d1-37d8-47d9-ca69" name="•Test Pilot &quot;Blackout&quot;" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -17523,12 +17493,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="2022-ee85-b1ba-8ffa" name="Barrel Roll" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9977-0078-86c2-fb7c" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17618,7 +17582,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="66ef-b895-a206-109e" name="PS 6 - First Order Test Pilot†" hidden="false" collective="false" type="model">
+    <selectionEntry id="66ef-b895-a206-109e" name="PS 6 - First Order Test Pilot" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6a1a-df7b-8ca3-3f84" name="First Order Test Pilot" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -17703,12 +17667,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b3b2-d187-fba8-ef11" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -17782,9 +17740,10 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="29.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f25e-2f8a-9adc-2e81" name="PS 4 - Sienar-Jaemus Analyst†" hidden="false" collective="false" type="model">
+    <selectionEntry id="f25e-2f8a-9adc-2e81" name="PS 4 - Sienar-Jaemus Analyst" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="458d-50c3-1697-753b" name="Sienar-Jaemus Analyst" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -17844,12 +17803,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="2910-d4ec-a7c3-f0f6" name="Barrel Roll" hidden="false" targetId="7687-c4cb-f193-208b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ae34-3e64-a6ba-d118" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17926,6 +17879,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="26.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -19097,7 +19051,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8592-d898-c3e3-5377" name="Xg-1 Assault Configuration†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8592-d898-c3e3-5377" name="Xg-1 Assault Configuration" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="747b-1d6f-b458-7113" name="Xg-1 Assault Configuration" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
           <profiles/>
@@ -19110,14 +19064,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="31da-8102-7759-46fd" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3359-3dd8-d88b-4d97" type="max"/>
@@ -19131,9 +19078,9 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f4cd-2726-9de6-9c22" name="•First Order Vanguard†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f4cd-2726-9de6-9c22" name="•First Order Vanguard" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="5836-2af6-1cf0-a68f" name="•First Order Vanguard†" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
+        <profile id="5836-2af6-1cf0-a68f" name="•First Order Vanguard" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19144,14 +19091,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="ece3-3375-a744-6c44" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -19166,7 +19106,7 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d391-01ac-45d3-0dba" name="Os-1 Arsenal Loadout†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d391-01ac-45d3-0dba" name="Os-1 Arsenal Loadout" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="07e0-bda6-bd3e-a6f6" name="Os-1 Arsenal Loadout" hidden="false" profileTypeId="332e30315469746c6523232344415441232323" profileTypeName="2.4 Title">
           <profiles/>
@@ -19179,14 +19119,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="806b-06dc-9574-d895" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
