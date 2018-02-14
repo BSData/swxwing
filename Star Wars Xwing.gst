@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="62" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="63" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -549,6 +549,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="d793-aa4e-198f-0ec8" name="TIE Reaper" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5374616e6461726423232344415441232323" name="Standard" hidden="false">
@@ -820,7 +827,16 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5374616e6461726423232344415441232323-8719-f1e5-5166-852f" name="TIE/sf Fighter" hidden="false" targetId="8719-f1e5-5166-852f" primary="false">
+       <categoryLink id="9cde-9ef0-5303-8777" name="TIE Reaper" hidden="false" targetId="d793-aa4e-198f-0ec8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="22cb-0ac2-b12f-ca03" type="max"/>
+          </constraints>
+        </categoryLink>
+      <categoryLink id="5374616e6461726423232344415441232323-8719-f1e5-5166-852f" name="TIE/sf Fighter" hidden="false" targetId="8719-f1e5-5166-852f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1026,7 +1042,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
+        </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
