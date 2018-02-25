@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="17f81b5a-0320-dfae-b485-6d856bff4ae2" name="Star Wars - X-Wing Miniatures" revision="63" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
@@ -827,7 +827,7 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryLink>
-       <categoryLink id="9cde-9ef0-5303-8777" name="TIE Reaper" hidden="false" targetId="d793-aa4e-198f-0ec8" primary="false">
+        <categoryLink id="9cde-9ef0-5303-8777" name="TIE Reaper" hidden="false" targetId="d793-aa4e-198f-0ec8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -836,7 +836,7 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="22cb-0ac2-b12f-ca03" type="max"/>
           </constraints>
         </categoryLink>
-      <categoryLink id="5374616e6461726423232344415441232323-8719-f1e5-5166-852f" name="TIE/sf Fighter" hidden="false" targetId="8719-f1e5-5166-852f" primary="false">
+        <categoryLink id="5374616e6461726423232344415441232323-8719-f1e5-5166-852f" name="TIE/sf Fighter" hidden="false" targetId="8719-f1e5-5166-852f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1042,7 +1042,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        </categoryLinks>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
@@ -6427,6 +6427,40 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1a59-8a39-c499-3816" name="•Targeting Scrambler†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1981-126b-39d8-632d" name="Targeting Scrambler" hidden="false" profileTypeId="4d360cf5-142f-0608-3a14-be3ee1303117" profileTypeName="3.4 System">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="System Ability" characteristicTypeId="040d622c-b7fc-79e4-dfd7-100217a0ed2b" value="At the start of the Planning phase, you may receive a weapons disabled token to choose a ship at Range 1-3 and assign it the &quot;Scrambled&quot; Condition."/>
+          </characteristics>
+        </profile>
+        <profile id="c3b6-37a3-15cb-b21c" name="•Scrambled" hidden="false" profileTypeId="0874-76fd-36c4-9cd1" profileTypeName="9.1 Condition">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Condition Text" characteristicTypeId="80e5-3743-2c52-c7eb" value="When attacking a ship at Range 1 that is equipped with the &quot;Targeting Scrambler&quot; upgrade, you cannot modify your attack dice. At the end of the Combat phase, remove this card."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2480-aad3-9b69-8a9e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eba4-f3d6-51b5-1886" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="beda-5642-acc4-e160" name="Cannon" hidden="false" collective="false">
@@ -6982,6 +7016,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="1fa1-afdc-84f3-28dd" name="Trajectory Simulator†" hidden="false" targetId="3e6f-fbe6-a3cd-e1bb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="64fe-a34e-29ca-68f8" name="•Targeting Scrambler†" hidden="false" targetId="1a59-8a39-c499-3816" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
