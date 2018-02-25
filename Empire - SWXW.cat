@@ -19475,6 +19475,49 @@
         <cost name=" Points" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5d0c-041c-c224-b5bd" name="•Director Krennic†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9341-7fd7-10f4-8d3c" name="Director Krennic" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="During setup, before the &quot;Place Forces&quot; step, assign the &quot;Optimized Prototype&quot; Condition to a friendly Galactic Empire ship with 3 or fewer shields."/>
+          </characteristics>
+        </profile>
+        <profile id="811b-7401-b903-fc3d" name="•Optimized Prototype" hidden="false" profileTypeId="0874-76fd-36c4-9cd1" profileTypeName="9.1 Condition">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Condition Text" characteristicTypeId="80e5-3743-2c52-c7eb" value="Increase your shield value by 1. Once per round, when performing a primary weapon attack, you may spend 1 die result to remove 1 shield token from the defender."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="52fa-9f55-a6bc-a1d1" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d32f-b866-8cf8-1d83" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a3a-1d09-582c-ca7d" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" hidden="false" collective="false">
@@ -20097,6 +20140,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="8678-63df-21f5-bda4" name="•Director Krennic†" hidden="false" targetId="5d0c-041c-c224-b5bd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6701e928-8f3d-9408-032c-fab510f88032" name="Crew" hidden="false" collective="false">
@@ -20399,6 +20450,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="14e2-8724-298f-1b35" name="•Director Krennic†" hidden="false" targetId="5d0c-041c-c224-b5bd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="656a-480d-3a20-3c92" name="Crew" hidden="false" collective="false">
@@ -20630,6 +20689,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="8e0a-463f-6dbf-f727" name="Courier Droid†" hidden="false" targetId="5cd4-01c0-c8d3-61c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1516-38c7-0d04-58a5" name="•Director Krennic†" hidden="false" targetId="5d0c-041c-c224-b5bd" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

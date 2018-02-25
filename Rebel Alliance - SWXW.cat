@@ -4926,6 +4926,14 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="0bed-455b-48a1-db16" name="•Saw Gerrera†" hidden="false" targetId="ad9e-b8b9-00f1-ef8e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="be34-e576-a2cb-95d0" name="Team" hidden="false" collective="false">
@@ -6089,6 +6097,14 @@
                       </conditionGroups>
                     </modifier>
                   </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0d5a-fe21-c1aa-5a24" name="•Saw Gerrera†" hidden="false" targetId="ad9e-b8b9-00f1-ef8e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
@@ -22053,6 +22069,40 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ad9e-b8b9-00f1-ef8e" name="•Saw Gerrera†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5b76-f3c3-e8e0-3576" name="Saw Gerrera" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="When attacking, you may suffer 1 damage to change all of your [focus] results to [critical] results."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d2f2-d0fc-b268-4466" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3522-10a3-f76e-6f7d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="75c6-35bb-5bc7-dbad" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="40008d45-ed6a-4dd0-a7fd-8adb0c8289b3" name="Astromech Droid" hidden="false" collective="false">
@@ -22901,7 +22951,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3e68-825f-679a-b47c" hidden="false" targetId="46ce-3ec3-fa2b-f71a" type="selectionEntry">
+        <entryLink id="3e68-825f-679a-b47c" name="•Sabine Wren" hidden="false" targetId="46ce-3ec3-fa2b-f71a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -23065,6 +23115,14 @@
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0b0d-e822-26ba-9b5a" name="•Saw Gerrera†" hidden="false" targetId="ad9e-b8b9-00f1-ef8e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -23513,6 +23571,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="0714-397a-12a5-fe43" name="•Saw Gerrera†" hidden="false" targetId="ad9e-b8b9-00f1-ef8e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="809b-eddb-0859-03bd" name="Crew" hidden="false" collective="false">
@@ -23907,6 +23973,14 @@
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b0a1-9f98-9c9f-4116" name="•Saw Gerrera†" hidden="false" targetId="ad9e-b8b9-00f1-ef8e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
