@@ -1038,7 +1038,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e377-4b58-db7d-0532" hidden="false" targetId="6701e928-8f3d-9408-032c-fab510f88032" type="selectionEntryGroup">
+        <entryLink id="e377-4b58-db7d-0532" name="Crew" hidden="false" targetId="6701e928-8f3d-9408-032c-fab510f88032" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1047,6 +1047,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="7750-719e-945a-891e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7750-719e-945a-891e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1181,7 +1188,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="bf35c5ea-746b-25a8-8e23-d8c15c7d962e" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="bf35c5ea-746b-25a8-8e23-d8c15c7d962e" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1190,6 +1197,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4e3842ed-b543-f7ec-af55-8ac8db0d60cd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1377,11 +1391,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a9ba-be1c-e238-e154" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
+        <entryLink id="a9ba-be1c-e238-e154" name="Crew" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="45ba11fa-db8d-6697-abcd-2f3ba76e2ea6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1649,7 +1671,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a3dc-4c16-9022-6f86" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="a3dc-4c16-9022-6f86" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1658,6 +1680,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="8ff1-3f1d-4d8a-4c9e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8ff1-3f1d-4d8a-4c9e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2459,7 +2488,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a426db4a-9a0e-46fb-da67-08d1b6df80ee" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="a426db4a-9a0e-46fb-da67-08d1b6df80ee" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2468,6 +2497,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="1fe4044f-0471-ba7f-2512-d4687db16750" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1fe4044f-0471-ba7f-2512-d4687db16750" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3080,11 +3116,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="45fd-eb6a-b34a-85ec" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
+        <entryLink id="45fd-eb6a-b34a-85ec" name="Crew" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7d9b-122a-53c6-a7a2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -3429,7 +3473,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="df57-05e0-b5c9-dce6" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="df57-05e0-b5c9-dce6" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3438,6 +3482,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="6d9f-2fec-f69a-e940" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6d9f-2fec-f69a-e940" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4004,11 +4055,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="bf27-7789-23ff-ea35" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
+        <entryLink id="bf27-7789-23ff-ea35" name="Crew" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="17ead459-d3f3-a898-ac8a-1f0439828988" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -4912,7 +4971,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="a50b-dd93-4b08-aa6c" hidden="false" targetId="6701e928-8f3d-9408-032c-fab510f88032" type="selectionEntryGroup">
+            <entryLink id="a50b-dd93-4b08-aa6c" name="Crew" hidden="false" targetId="6701e928-8f3d-9408-032c-fab510f88032" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4921,6 +4980,13 @@
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="2ea0-8372-8f4c-7e54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="maxSelections" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="2ea0-8372-8f4c-7e54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -6292,7 +6358,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a4deac20-aa85-fe14-9443-8d5037b49b7e" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="a4deac20-aa85-fe14-9443-8d5037b49b7e" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6301,6 +6367,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="ffb872cd-4c4e-8ded-51ce-e32ccf707939" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ffb872cd-4c4e-8ded-51ce-e32ccf707939" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6438,7 +6511,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e68d5ca1-95a5-e677-3319-8bde205ddee4" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="e68d5ca1-95a5-e677-3319-8bde205ddee4" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6447,6 +6520,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="fba2f951-a380-cabe-f9e3-66f123127891" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fba2f951-a380-cabe-f9e3-66f123127891" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6598,7 +6678,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="bf57-b88f-bac3-9c65" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="bf57-b88f-bac3-9c65" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6607,6 +6687,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="1877-30e4-317c-728b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1877-30e4-317c-728b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6816,11 +6903,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9953-9ba7-7587-a4fa" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
+        <entryLink id="9953-9ba7-7587-a4fa" name="Crew" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="da8f-f5f2-6716-ef8a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -9677,11 +9772,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e00e-6ff4-ddf2-6242" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
+        <entryLink id="e00e-6ff4-ddf2-6242" name="Crew" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="aff8a3ef-f52f-ee8e-fd46-2742550824e5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -9808,6 +9911,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="7dabb71f-ea3b-bfb7-b868-87493d58dccf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7dabb71f-ea3b-bfb7-b868-87493d58dccf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10133,7 +10243,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="99528b01-4f23-5965-91ce-bad32b6d3136" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="99528b01-4f23-5965-91ce-bad32b6d3136" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10142,6 +10252,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="f138077d-e39f-faf9-5460-4a44db430cf2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f138077d-e39f-faf9-5460-4a44db430cf2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10486,7 +10603,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="658b-5c75-c156-707a" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="658b-5c75-c156-707a" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10495,6 +10612,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="620f-9e42-9162-2c2c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="620f-9e42-9162-2c2c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -12652,11 +12776,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="94a4-8d17-c916-0daa" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
+        <entryLink id="94a4-8d17-c916-0daa" name="Crew" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d01533a4-ad16-47b2-2b4e-e7b2290ae0e9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -13586,7 +13718,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="cfb78a68-5191-eb3d-e035-0cc13616b3c6" hidden="false" targetId="656a-480d-3a20-3c92" type="selectionEntryGroup">
+        <entryLink id="cfb78a68-5191-eb3d-e035-0cc13616b3c6" name="Crew" hidden="false" targetId="656a-480d-3a20-3c92" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13747,7 +13879,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a66103dc-cbbd-cf55-4896-a546cdcfa24c" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="a66103dc-cbbd-cf55-4896-a546cdcfa24c" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13756,6 +13888,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="ba998080-9052-eb99-0e12-d8fc4d8efb98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ba998080-9052-eb99-0e12-d8fc4d8efb98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -14291,7 +14430,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="12027ab0-edd8-cbd4-a269-4138e3dbd15e" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
+        <entryLink id="12027ab0-edd8-cbd4-a269-4138e3dbd15e" name="Crew" hidden="false" targetId="c63d05fe-ddca-7664-94ba-2c99802e2020" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14300,6 +14439,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="664786ed-de17-e3be-19f1-f03d981e86f8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c93-2bb4-3020-79c8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="664786ed-de17-e3be-19f1-f03d981e86f8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -14794,11 +14940,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3648-32ab-4b9c-f56a" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
+        <entryLink id="3648-32ab-4b9c-f56a" name="Crew" hidden="false" targetId="b8d9-26c5-3bcf-798d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="30c9-ac25-a132-7407" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -18021,6 +18175,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7dac-203e-1bc1-2961" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9dd-249a-2a65-db69" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints/>
           <categoryLinks/>
@@ -19280,6 +19441,40 @@
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a9dd-249a-2a65-db69" name="•Death Troopers†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="dd72-c2c5-f62b-6e0a" name="Death Troopers" hidden="false" profileTypeId="332e30334372657723232344415441232323" profileTypeName="3.6 Crew">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Crew Ability" characteristicTypeId="43726577204162696c69747923232344415441232323" value="After another friendly ship at Range 1 becomes the defender, if you are inside the attacker&apos;s firing arc at Range 1-3, the attacker receives 1 stress token."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9cc3-f3f0-f33c-1558" name="† - Unreleased" hidden="false" targetId="6954-0852-e033-4b16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0e9-7067-c506-533d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5921-219e-59d1-bb90" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="898dc91b-8db6-8030-3b5b-3c24860e976a" name="Bomb" hidden="false" collective="false">
@@ -19894,6 +20089,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="c28e-01bc-e9e7-47f6" name="•Death Troopers†" hidden="false" targetId="a9dd-249a-2a65-db69" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6701e928-8f3d-9408-032c-fab510f88032" name="Crew" hidden="false" collective="false">
@@ -20181,6 +20384,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="8d85-1d05-4daa-7d9b" name="Courier Droid†" hidden="false" targetId="5cd4-01c0-c8d3-61c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3204-9cb1-8f57-482e" name="•Death Troopers†" hidden="false" targetId="a9dd-249a-2a65-db69" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20649,6 +20860,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="ac54-8c64-adca-278e" name="Courier Droid†" hidden="false" targetId="5cd4-01c0-c8d3-61c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5fd9-c4ad-a0b7-4a97" name="•Death Troopers†" hidden="false" targetId="a9dd-249a-2a65-db69" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
