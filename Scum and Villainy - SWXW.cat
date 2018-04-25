@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="140" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c6ddcaa-fe76-b99b-ef98-ad76679facf8" name="Scum" revision="141" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -722,7 +722,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3470-6cc8-c6a8-6ca4" hidden="false" targetId="305e-551c-1b73-a4ef" type="selectionEntryGroup">
+        <entryLink id="3470-6cc8-c6a8-6ca4" name="Modification" hidden="false" targetId="305e-551c-1b73-a4ef" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7328,7 +7328,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="af73ddc0-57ff-2a5a-4dcd-2483f03bec14" hidden="false" targetId="1f05-53a3-1b4d-085d" type="selectionEntryGroup">
+        <entryLink id="af73ddc0-57ff-2a5a-4dcd-2483f03bec14" name="Modification" hidden="false" targetId="1f05-53a3-1b4d-085d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8112,7 +8112,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="47a8cb5d-617e-bbc3-a6a9-367d771dba22" hidden="false" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" type="selectionEntryGroup">
+        <entryLink id="47a8cb5d-617e-bbc3-a6a9-367d771dba22" name="Modification" hidden="false" targetId="9b324e88-fbc6-d628-7f93-d02a6cdb5ed5" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8268,7 +8268,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="30a1-aef2-0833-b34b" hidden="false" targetId="cf339011-cdef-6ddc-187a-58ab0c957965" type="selectionEntryGroup">
+        <entryLink id="30a1-aef2-0833-b34b" name="Modification" hidden="false" targetId="cf339011-cdef-6ddc-187a-58ab0c957965" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9327,7 +9327,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="42fcb5fc-e289-e026-b57a-cb1170fd0701" hidden="false" targetId="1f05-53a3-1b4d-085d" type="selectionEntryGroup">
+        <entryLink id="42fcb5fc-e289-e026-b57a-cb1170fd0701" name="Modification" hidden="false" targetId="1f05-53a3-1b4d-085d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9704,7 +9704,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c7c9-3f6a-a9e1-c293" hidden="false" targetId="cf339011-cdef-6ddc-187a-58ab0c957965" type="selectionEntryGroup">
+        <entryLink id="c7c9-3f6a-a9e1-c293" name="Modification" hidden="false" targetId="cf339011-cdef-6ddc-187a-58ab0c957965" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11598,7 +11598,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0306-6a5c-7efe-40bd" name="" hidden="false" targetId="305e-551c-1b73-a4ef" type="selectionEntryGroup">
+        <entryLink id="0306-6a5c-7efe-40bd" name="Modification" hidden="false" targetId="305e-551c-1b73-a4ef" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20406,7 +20406,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a956-fdeb-cedd-781f" name="" hidden="false" targetId="6835-6741-2f8c-04c1" type="selectionEntry">
+        <entryLink id="a956-fdeb-cedd-781f" name="Engine Upgrade" hidden="false" targetId="6835-6741-2f8c-04c1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20600,7 +20600,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="07ce-3959-aab9-e526" name="" hidden="false" targetId="0eb5-83a4-f231-dd04" type="selectionEntry">
+        <entryLink id="07ce-3959-aab9-e526" name="Autothrusters" hidden="true" targetId="0eb5-83a4-f231-dd04" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20612,12 +20612,18 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="set" field="hidden" value="false">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6835-6741-2f8c-04c1" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6835-6741-2f8c-04c1" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aef5-97cb-3316-cc04" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints/>
