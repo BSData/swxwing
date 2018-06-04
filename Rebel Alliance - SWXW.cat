@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="141" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10a85317-2158-9dda-1188-ea229fe9308e" name="Rebel" revision="142" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -19668,6 +19668,20 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="50696c6f7420536b696c6c23232344415441232323" value=" +/-1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1c82-9be9-78ed-4665" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffb-2776-ce81-a98d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="50696c6f7420536b696c6c23232344415441232323" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1c82-9be9-78ed-4665" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5eb0-6c5c-1829-305a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Pilot Skill" characteristicTypeId="50696c6f7420536b696c6c23232344415441232323" value="1"/>
@@ -19675,7 +19689,7 @@
             <characteristic name="Agility" characteristicTypeId="4167696c69747923232344415441232323" value="2"/>
             <characteristic name="Hull" characteristicTypeId="48756c6c23232344415441232323" value="3"/>
             <characteristic name="Shields" characteristicTypeId="536869656c647323232344415441232323" value="2"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="557067726164652042617223232344415441232323" value="Torpedoes, Astromech"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="557067726164652042617223232344415441232323" value="Elite, Torpedoes, Astromech"/>
           </characteristics>
         </profile>
       </profiles>
@@ -19744,9 +19758,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="f40e-55b5-4369-ed15" name="Elite" hidden="false" targetId="8d499ac9-9735-e014-4301-5b7c5c523a9c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="points" value="20.0"/>
+        <cost name=" Points" costTypeId="points" value="22.0"/>
         <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -19968,6 +19990,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="26.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f684-a3bb-7d58-fd92" name="PS 4 - •Benthic Two Tubes†" hidden="false" collective="false" type="model">
@@ -20157,6 +20180,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="24.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1660-120f-8fa1-798a" name="PS 7 - •Kullbee Sperado†" hidden="false" collective="false" type="model">
@@ -20299,6 +20323,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="26.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5c92-09f5-bbbf-d113" name="PS 5 - •Leevan Tenza†" hidden="false" collective="false" type="model">
@@ -20441,6 +20466,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="25.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -23003,7 +23029,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="0.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="eff7-5513-ae16-e457" name="Renegade Refit†" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -23036,6 +23065,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="-2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9328-0af6-a87b-02ce" name="•Magva Yarro†" hidden="false" collective="false" type="upgrade">
@@ -23070,6 +23100,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

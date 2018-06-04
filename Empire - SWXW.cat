@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="141" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b4dadc7-dec4-f889-5830-e853c7ee7966" name="Imperial" revision="142" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="17f81b5a-0320-dfae-b485-6d856bff4ae2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -18358,6 +18358,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="22.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="75bb-be09-28e1-5bc2" name="PS 4 - •Captain Feroph†" hidden="false" collective="false" type="model">
@@ -18536,9 +18537,10 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="24.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cf22-02cf-b4fe-fd86" name="PS 1 - Scarif •&quot;Vizier&quot;†" hidden="false" collective="false" type="model">
+    <selectionEntry id="cf22-02cf-b4fe-fd86" name="PS 3 - •&quot;Vizier&quot;†" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="83cd-25d9-6b4f-65dd" name="•&quot;Vizier&quot;" hidden="false" profileTypeId="31536869707323232344415441232323" profileTypeName="1.1 Small and Large Ships">
           <profiles/>
@@ -18692,6 +18694,7 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="points" value="23.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -20051,7 +20054,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="0.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1eba-5797-0288-ccff" name="Tactical Officer†" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -20088,6 +20094,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="points" value="2.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f360-5c06-8cbc-3d50" name="ISB Slicer†" hidden="false" collective="false" type="upgrade">
@@ -20117,7 +20124,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="points" value="0.0"/>
+        <cost name=" Epic Points" costTypeId="884e-22c2-473a-a527" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
