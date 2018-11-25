@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="acce-69ca-82c0-e344" name="Galactic Empire" revision="1" battleScribeVersion="2.01" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="f468-e154-b8c3-3433" name="•Major Vynder" hidden="false" targetId="ee17-45cc-77fb-f8b8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6943-0e82-6d02-9901" name="•Lieutenant Karsabi" hidden="false" targetId="5062-7064-d4c1-26c6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6df9-d477-97ad-b0c0" name="Rho Squadron Pilot" hidden="false" targetId="6ef2-1ef2-b91f-bbbe" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d547-aeec-195e-6f66" name="Nu Squadron Pilot" hidden="false" targetId="6365-ca0f-e86f-c43b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d6d5-d665-90e5-98e9" name="•Valen Rudor" hidden="false" targetId="898f-824e-6f46-2481" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="68a8-98a5-9c21-0717" name="•Seyn Marana" hidden="false" targetId="cbb8-cf11-0308-9955" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2606-45b4-0171-6e1d" name="•Iden Versio" hidden="false" targetId="5c42-03fb-daef-f825" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0743-daea-682e-cbf9" name="•Gideon Hask" hidden="false" targetId="5f31-3fcf-e733-ece2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5166-2c06-5db5-fa6d" name="•Del Meeko" hidden="false" targetId="c76f-7d49-fd67-f9fd" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7897-f2a8-c253-82be" name="•&quot;Wampa&quot;" hidden="false" targetId="6304-01f8-5722-034a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8d1e-a2fd-5467-5c09" name="•&quot;Scourge&quot; Skutu" hidden="false" targetId="3d8e-52d7-fd36-9e27" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="02f6-d825-e0be-edf4" name="•&quot;Night Beast&quot;" hidden="false" targetId="c256-b37e-b18d-570c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9b11-0f76-24c5-dd24" name="•&quot;Mauler&quot; Mithel" hidden="false" targetId="aa7c-6904-0752-3631" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8f7f-7615-601e-afd7" name="•&quot;Howlrunner&quot;" hidden="false" targetId="4687-f261-3525-ba13" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7e13-3456-ee5d-6d1d" name="Obsidian Squadron Pilot" hidden="false" targetId="900d-1a28-5674-17c4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1925-5e5f-bac0-cb24" name="Black Squadron Ace" hidden="false" targetId="99eb-5b25-300a-de78" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="68e2-3ddc-9db8-06d8" name="Academy Pilot" hidden="false" targetId="6ab2-acdb-d2ca-a2ca" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="54c7-2c31-6cf3-33f6" name="•Zertik Strom" hidden="false" targetId="ae00-13d3-b495-0406" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="07c2-07be-83dd-a464" name="•Ved Foslo" hidden="false" targetId="b7b4-681b-e3d6-3625" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="472a-1ee2-9ffc-d3a6" name="•Maarek Stele" hidden="false" targetId="a74e-36fd-a00c-3a8c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="602f-5d18-f32b-bf6f" name="•Darth Vader" hidden="false" targetId="2838-763b-73fa-9eae" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="aafd-8623-2d9e-7978" name="Tempest Squadron Pilot" hidden="false" targetId="fff3-24a8-ba64-2b29" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fc99-7fbf-0a66-e558" name="Storm Squadron Ace" hidden="false" targetId="6816-433c-3de4-502c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="33d3-8e7f-6fc3-5fd8" name="•Major Vermeil" hidden="false" targetId="cbe0-e6ca-df4c-65ea" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2236-ad2b-5be8-fa8c" name="•Captain Feroph" hidden="false" targetId="499f-367f-81eb-1714" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5860-f603-5cc4-c30b" name="•&quot;Vizier&quot;" hidden="false" targetId="69c8-0a6c-5ff7-b6ea" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6050-8dc4-43aa-043a" name="Scarif Base Pilot" hidden="false" targetId="c815-46ce-6db9-ac1a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a65e-1225-3ead-b584" name="•Seventh Sister" hidden="false" targetId="0f99-95de-acee-3797" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a569-cdfb-203e-5ebb" name="•Grand Inquisitor" hidden="false" targetId="29e6-9f7c-1b58-f586" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d0e5-70d1-0ea3-4042" name="Inquisitor" hidden="false" targetId="fdac-01d0-f56f-641d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7fd7-e4be-fb82-fc8d" name="Baron of the Empire" hidden="false" targetId="e88f-3136-7fde-d1c6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c831-adb8-a05e-628c" name="•&quot;Pure Sabacc&quot;" hidden="false" targetId="ef19-a232-6513-b538" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="79a4-6041-0ed6-c602" name="•&quot;Duchess&quot;" hidden="false" targetId="ca3f-89ea-ed9b-a8fb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="aa89-0d97-fd1c-bb19" name="•&quot;Countdown&quot;" hidden="false" targetId="169d-d7b6-031c-88c1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1c8d-e9fa-c0f5-8745" name="Planetary Sentinel" hidden="false" targetId="0886-c06e-4335-55ef" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6f86-7593-697c-4803" name="Black Squadron Scout" hidden="false" targetId="2480-aebe-d738-a3db" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="40ae-b1e4-0aba-1acd" name="•Tomax Bren" hidden="false" targetId="60cb-3d69-fa02-4cb1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f08a-d2bd-a1d2-588b" name="•Major Rhymer" hidden="false" targetId="aec2-19f1-9f23-b6c7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ac02-4c65-f3af-dfd4" name="•Captain Jonus" hidden="false" targetId="d04d-832c-5dab-0e02" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="024c-2d3a-564e-5af2" name="•&quot;Deathfire&quot;" hidden="false" targetId="e2ec-7070-b4b8-ead6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5daa-08cb-3653-7175" name="Scimitar Squadron Pilot" hidden="false" targetId="b813-e854-1389-ee1d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1d16-3bd4-7742-73f4" name="Gamma Squadron Ace" hidden="false" targetId="34ce-9f8c-16af-79c0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="afe8-5372-9e4a-2009" name="•Turr Phennir" hidden="false" targetId="295e-04ef-15af-6abf" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b4fd-54d7-725d-7aeb" name="•Soontir Fel" hidden="false" targetId="e59c-281a-8653-3dae" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9b57-fb80-18dc-ff9e" name="Saber Squadron Ace" hidden="false" targetId="1dc2-0f3e-3747-9e01" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="618a-7d87-70b9-0481" name="Alpha Squadron Pilot" hidden="false" targetId="e53b-7222-3548-437e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="32ca-8258-3d60-5cc8" name="•&quot;Whisper&quot;" hidden="false" targetId="7138-e7bf-6e79-a93a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9151-522f-6155-3f74" name="•&quot;Echo&quot;" hidden="false" targetId="ff99-4e87-7325-1087" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a69b-d6b3-a452-4b91" name="Sigma Squadron Ace" hidden="false" targetId="1c59-b6f6-211a-378d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="924e-c710-7ae7-7c1e" name="Imdaar Test Pilot" hidden="false" targetId="03d0-a8a4-8a1b-01c1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c8f6-4843-bfb2-b504" name="•&quot;Redline&quot;" hidden="false" targetId="954e-9892-3e2d-d987" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9de6-200c-5b1b-938d" name="•&quot;Deathrain&quot;" hidden="false" targetId="1a77-db2a-357f-a8bc" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a82d-e9aa-42bf-a623" name="Cutlass Squadron Pilot" hidden="false" targetId="6d49-b137-844f-9ab0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9138-6b72-b67a-301c" name="•Lieutenant Sai" hidden="false" targetId="9766-4a53-0701-b213" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1b45-aaa0-8558-a735" name="•Colonel Jendon" hidden="false" targetId="e5a7-0eee-8c4b-4fcc" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f420-5ec9-64f6-0180" name="•Captain Kagi" hidden="false" targetId="8ff7-3e77-30a8-4497" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="30b4-5581-1abb-6d7a" name="Omicron Group Pilot" hidden="false" targetId="8278-7140-a50d-aa53" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e687-a612-1233-0fe0" name="•Lieutenant Kestal" hidden="false" targetId="0969-76c4-4a68-3b90" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9280-d6b6-cb3a-995a" name="•&quot;Double Edge&quot;" hidden="false" targetId="fe50-750a-461a-1e27" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e137-2179-0d9a-a2d4" name="Sienar Specialist" hidden="false" targetId="471f-2a13-d8bb-6dde" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="34ac-d605-71a7-07ae" name="Onyx Squadron Scout" hidden="false" targetId="27db-1eb8-0a04-ec5e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6d74-14fc-60c9-faba" name="•Rear Admiral Chiraneau" hidden="false" targetId="96e4-3ac6-f097-3532" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f4b2-2a92-f4ca-dba1" name="•Captain Oicunn" hidden="false" targetId="9a1a-d6e3-9f79-ec5b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a8a8-1064-5abf-5f2a" name="Patrol Leader" hidden="false" targetId="5ab9-dcd6-494f-ac1f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="65ea-98f8-60e1-8c0a" name="•Rexler Brath" hidden="false" targetId="73ea-deb3-edb2-0a36" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="514c-c162-0814-4f4e" name="•Countess Ryad" hidden="false" targetId="2dfd-3a27-d8d0-a05d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="98aa-3e1f-34a1-2043" name="•Colonel Vessery" hidden="false" targetId="feda-e73b-a27e-9536" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cf84-5596-8fe5-3eb3" name="Onyx Squadron Ace" hidden="false" targetId="b426-a1af-5829-cfd7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5cf4-011b-13fc-3c39" name="Delta Squadron Pilot" hidden="false" targetId="8fa4-8ee3-1a3f-fad6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
