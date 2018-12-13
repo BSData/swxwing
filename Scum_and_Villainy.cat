@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4429-411b-a127-a1ae" name="Scum and Villainy" revision="1" battleScribeVersion="2.01" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4429-411b-a127-a1ae" name="Scum and Villainy" revision="2" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -650,6 +650,54 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="d21d-0afd-48d0-d38a" name="Black Sun Assassin" hidden="false" targetId="b4bb-6579-8361-a964" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d44e-88b2-b203-a623" name="•Overseer Yushyn" hidden="false" targetId="f7db-b5c5-af32-77dd" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d5d1-19c6-f306-d914" name="•Foreman Proach" hidden="false" targetId="23be-9d65-1b1e-9b8c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3891-55a3-c0c6-a1e0" name="•Captain Seevor" hidden="false" targetId="f23b-786c-d828-5b09" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1bc1-779d-0ff7-fbe6" name="•Ahhav" hidden="false" targetId="a7b3-56b3-3c8f-146f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2ca7-4c94-260f-b17e" name="Mining Guild Surveyor" hidden="false" targetId="679f-f1a2-de6f-4310" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fcb9-4b13-05b2-2ba3" name="Mining Guild Sentry" hidden="false" targetId="4b46-75fe-473f-bc8b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
