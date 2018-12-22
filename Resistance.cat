@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="fe65-b6af-b74a-3b62" name="Resistance" revision="1" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="8c7d-24a6-372e-1327" name="•Vennie" hidden="false" targetId="06c5-f58b-7759-5dc5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2d5b-73d8-14c8-b0b6" name="•Finch Dallow" hidden="false" targetId="8f90-a32f-d406-78f9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="aa89-6c45-1e9a-828c" name="•Edon Kappehl" hidden="false" targetId="77d3-13ab-c2f8-0d99" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="518c-7503-4958-5694" name="•Cat" hidden="false" targetId="001a-e683-ef23-d863" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a3d0-c4ca-b159-af3f" name="•Ben Teene" hidden="false" targetId="7233-ab33-784b-452b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="719d-cfd2-682a-8d20" name="Cobalt Squadron Bomber" hidden="false" targetId="13c6-e7d4-be72-ed15" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2ea8-b4bc-afc5-8bc8" name="•Temmin Wexley" hidden="false" targetId="ca47-cd45-7cdb-1d57" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f7d0-071f-c5fe-9540" name="•Poe Dameron" hidden="false" targetId="6e2b-21c1-30f7-8495" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3edf-9dcf-ccc7-0c45" name="•Nien Nunb" hidden="false" targetId="0d7b-6611-567e-6377" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5496-d1df-424e-7498" name="•Lieutenant Bastian" hidden="false" targetId="c4b4-31b5-a84b-a567" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="77c8-a410-45d6-7f28" name="•Kare Kun" hidden="false" targetId="ae66-30b6-e865-b5af" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2d4e-ddc4-9b17-206f" name="•Joph Seastriker" hidden="false" targetId="ace0-800b-ac33-1729" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d3f1-cfcb-d09b-701b" name="•Jessika Pava" hidden="false" targetId="6b07-32a6-cfcb-8d20" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="536d-71c6-0225-42a2" name="•Jaycris Tubbs" hidden="false" targetId="269d-1744-f665-678e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ea71-5100-2621-cc06" name="•Ello Asty" hidden="false" targetId="6c38-d8b3-1b66-07af" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cace-ae9c-462e-7090" name="Red Squadron Expert" hidden="false" targetId="90ee-4be3-5f4c-3c3c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ba32-2f73-e55d-7ab1" name="Blue Squadron Rookie" hidden="false" targetId="551e-ee1e-0864-b229" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b9fc-e3c2-d6eb-268b" name="Black Squadron Ace" hidden="false" targetId="c124-9730-b65c-1d6a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8c13-52c0-38be-4b84" name="•Zari Bangel" hidden="false" targetId="5eff-45a0-ea24-5cdb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b7e8-f459-166f-83a9" name="•Tallissan Lintra" hidden="false" targetId="48c9-050f-7dae-f857" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ea7b-71b2-226e-0296" name="•L&apos;ulo L&apos;ampar" hidden="false" targetId="c73a-c9e8-99a2-1f04" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4345-0c59-4ee3-3624" name="•Greer Sonnel" hidden="false" targetId="5a77-9d8b-2536-8617" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="096b-5f30-4041-54d6" name="Green Squadron Expert" hidden="false" targetId="e062-b047-40b2-11d5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="817a-d593-6672-e069" name="Blue Squadron Recruit" hidden="false" targetId="b9d1-f711-e4e0-4e8a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1c51-637f-dfbe-f20d" name="•Rey" hidden="false" targetId="f2f4-768d-855a-0d46" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b1ce-418b-52f8-7dc4" name="•Han Solo" hidden="false" targetId="fbf0-9bc4-cc4b-575c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="133f-1833-84ca-e394" name="•Chewbacca" hidden="false" targetId="04cc-6c35-ad3f-0d85" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="73a3-54f3-3460-3402" name="Resistance Sympathizer" hidden="false" targetId="6454-b445-5b0e-7c89" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
