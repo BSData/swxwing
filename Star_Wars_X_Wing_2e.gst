@@ -901,6 +901,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="be9c-6a65-4fc5-c058" name="Dark Side" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5d62-a853-33cd-82c9" name=" Standard" hidden="false">
@@ -16564,6 +16571,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="37d7-ad79-954e-19c4" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -18310,6 +18324,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ccad-217d-82df-52e3" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -18491,6 +18512,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="9615-67e6-ebd4-2d01" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -18656,6 +18684,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="023d-e6f2-00bf-2a4a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="66a7-f6ef-ceb3-14d2" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -44826,6 +44861,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="a3aa-ae53-a82a-0d4f" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -47670,6 +47712,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="6752-a639-685b-59c7" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4f38-a51f-e39b-5f04" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -60533,6 +60582,80 @@
             <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0e0a-3d57-dbf5-e0ef" name="Heroic" page="" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ef77-e688-3cba-4793" name="Heroic" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you defend or perform an attack, if you have only blank results and have 2 or more results, you may reroll any number of your dice."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Talent"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78ad-2460-f8eb-31cc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5a46-1537-800b-f00d" name="Fanatical" page="" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="690e-321a-c329-1cc3" name="Fanatical" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you perform a primary attack, if you are not stressed, you may change 1 [focus] result to a [hit] result."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Talent"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-d36e-48d4-af96" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="11f7-566b-45f5-ecdb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -63032,7 +63155,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="After you suffer damage, you may gain 1 stress token to recover 1 [force]."/>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="After you suffer damage, you may gain 1 stress token to recover 1 [force]. You can equip &quot;Dark Side&quot; upgrades."/>
                 <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value="Force +1^"/>
                 <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
                 <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Crew"/>
@@ -63069,6 +63192,13 @@
           </constraints>
           <categoryLinks>
             <categoryLink id="9746-3be7-7004-73ea" name="Force Crew" hidden="false" targetId="1688-3233-355e-8a95" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="2331-6b93-06c6-1115" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -64763,7 +64893,8 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94fc-b58c-6b7c-c208" type="notInstanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="875f-dec5-6747-dd43" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="875f-dec5-6747-dd43" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6ed-a76a-7667-fe15" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -65015,6 +65146,245 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d6ed-a76a-7667-fe15" name="•C-3PO" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5665-4592-cf19-b997" name="•C-3PO" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you coordinate, you can choose friendly ships beyond range 2 if they have [calculate] on their action bar. After you perform the [calculate] or [coordinate] action, gain 1 calculate token."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7" value="Calculate, Coordinate (Red)"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Crew"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5ce7-76f6-5804-809a" name="Calculate" hidden="false" targetId="b2b4-7333-6f54-b75c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f6b9-ec26-805a-91cf" name="Coordinate (Red)" hidden="false" targetId="b0de-a163-845d-0b7e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2495-077a-f2b7-7fc7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad1e-e0cc-aae8-a08c" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="24e3-b46e-77f3-f04b" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="d431-f3df-b03f-fda4" name="Calculate Crew" hidden="false" targetId="e065-e022-1f73-3cd9" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="8724-00c8-2ea3-89a7" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2002-fac0-2075-3e02" name="•Rose Tico" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="759c-e5e2-aad9-c4c8" name="•Rose Tico" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you defend or perform an attack, you may spend 1 of your results to acquire a lock on the enemy ship."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Crew"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0bd8-94e5-8e47-d4ab" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3761-ed5f-816e-8d7d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9632-26b6-13e8-30c8" name="•General Hux" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a972-c5e6-bc0e-24f7" name="•General Hux" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you perform a white [coordinate] action, you may treat it as red. If you do, you may coordinate up to 2 additional ships of that same type, and each ship you coordinate must perform the same action, treating that action as red."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Crew"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-d36e-48d4-af96" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c2e-9d6f-23cb-414d" type="notInstanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94fc-b58c-6b7c-c208" type="notInstanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="875f-dec5-6747-dd43" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8753-0dc3-f76a-5de0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="22fe-e2dd-971b-9f8c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2cf5-8f93-9def-0818" name="•Captain Phasma" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="255c-5beb-5436-0114" name="•Captain Phasma" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="At the end of the Engagement Phase, each enemy ship at range 0-1 that is not stressed gains 1 stress token."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Crew"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-d36e-48d4-af96" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fee5-0b30-0916-3e73" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2b18-b632-50e6-fb52" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="904f-9e6b-4007-3469" name="•Petty Officer Thanisson" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8a9c-f57c-b676-7ccc" name="•Petty Officer Thanisson" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="During the Activation or Engagement Phase, after an enemy ship in your [front arc] at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional token of the type that it gained."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Crew"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-d36e-48d4-af96" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8327-5901-3456-70a1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="71b4-8baf-3121-8c09" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -65806,6 +66176,82 @@
             <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="14.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0148-a072-64a6-ec9d" name="•Finn" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="860e-4ace-36eb-b4d0" name="•Finn" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you defend or perform a primary attack, if the enemy ship is in your [front arc], you may add 1 blank result to your roll (this die can be rerolled or otherwise modified)."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Gunner"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0820-45b0-eb53-131d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad2b-90e6-b2b5-6695" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8961-e3c9-4e03-cefd" name="•Paige Tico" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="87f1-4476-36bc-3eec" name="•Paige Tico" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="After you perform a primary attack, you may drop 1 bomb or rotate your [turret arc]. After you are destroyed, you may drop 1 bomb."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Gunner"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b57b-44bc-7ea9-563b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7bc2-ea14-bca5-eb3f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="7.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -66206,6 +66652,195 @@
             <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="646f-5169-4228-619d" name="•BB-8" book="" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3d15-f429-9266-62b1" name="•BB-8" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="Before you execute a blue maneuver, you may spend 1 [charge] to perform a [barrel roll] or [boost] action."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value="2"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Astromech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66f4-a528-0e45-59fd" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8510-80e1-b07a-f264" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8805-36d4-cb68-93d9" name="BB Astromech" book="" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f232-f191-3ca0-ff3a" name="BB Astromech" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="Before you execute a blue maneuver, you may spend 1 [charge] to perform a [barrel roll] action."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value="2"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Astromech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="99b5-420c-6f63-9895" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0165-441a-bceb-daf1" name="•M9-G8" book="" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6f62-ff98-58e1-1994" name="•M9-G8" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Astromech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac1b-95be-6bc4-bbf4" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a914-c1f4-79ed-6136" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5f27-34dc-a196-e654" name="•R2-HA" book="" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="cea7-56cb-675e-b137" name="•R2-HA" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you defend, you may spend your lock on the attacker to reroll any number of your defense dice."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Astromech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f220-2d11-fed5-ef83" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ae4b-8fb9-4e41-7b10" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eb50-2579-e920-36ad" name="•R5-X3" book="" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="93fa-f71b-1e3c-bead" name="•R5-X3" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="Before you activate or engage, you may spend 1 [charge] to ignore obstacles until the end of this phase."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value="2"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Astromech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2c19-5933-aaea-eb49" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ffe5-9eb9-ff5f-6432" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -66501,6 +67136,49 @@
             <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="a2f4-5710-25d3-fd34" name="Hate" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="00bf-1e96-aeac-9b25" name="Hate" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="After you suffer 1 or more damage, recover that many [force]."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Force Power"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be9c-6a65-4fc5-c058" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c4-80d0-a6d0-d8a3" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="14d3-c308-2fc7-3911" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -66573,16 +67251,30 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-d36e-48d4-af96" type="notInstanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-d36e-48d4-af96" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="586b-8957-f342-453d" type="notInstanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff81-8daf-1ebd-ef49" type="notInstanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="73e0-4317-c912-de30" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -66594,6 +67286,188 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2c12-e5b8-e7c9-99f5" name="Ferrosphere Paint" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a0c6-0762-dcae-f9a8" name="Ferrosphere Paint" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="After an enemy ship locks you, if you are not in that ship&apos;s [bullseye arc], that ship gains 1 stress token."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Tech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b7eb-6b16-bb1b-2f2b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b2ba-698f-2d18-cc28" name="Targeting Synchronizer" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="cf13-713c-bfa5-adfa" name="Targeting Synchronizer" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While a friendly ship at range 1-2 performs an attack against a target you have locked that ship ignores the [target lock] attack requirement."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Tech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="586b-8957-f342-453d" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff81-8daf-1ebd-ef49" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="73e0-4317-c912-de30" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="82d8-35a9-8aba-3a84" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="24f6-4c27-4eb4-e12a" name="Hyperspace Tracking Data" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="05dd-26bc-728d-69e3" name="Hyperspace Tracking Data" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="Setup: Before placing forces, you may choose a number between 0 and 6. Treat your initiative as the chosen value during Setup. After Setup, assign 1 focus or evade token to each friendly ship at range 0-2."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Tech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-d36e-48d4-af96" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1d2-e4cc-466a-5f6b" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6aea-3ad9-3936-86d5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="642f-ed38-1ba0-229e" name="Advanced Optics" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="59ca-d191-937f-6424" name="Advanced Optics" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you perform an attack, you may spend 1 focus token to change 1 of your blank results to a [hit] result."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Tech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="76ff-8095-cc33-dfce" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b304-113c-3b99-4513" name="Pattern Analyzer" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ae9a-5b00-198b-2f17" name="Pattern Analyzer" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you fully execute a red maneuver, before the Check Difficulty step, you may perform 1 action."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Tech"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0231-f840-350a-1578" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
