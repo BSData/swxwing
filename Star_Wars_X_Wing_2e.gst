@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e41-71da-1915-ca40" name="Star Wars: X-Wing (Second Edition)" revision="2" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e41-71da-1915-ca40" name="Star Wars: X-Wing (Second Edition)" revision="3" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -908,6 +908,55 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="2a3a-f3a1-797b-7470" name="Initiative 0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1322-fda3-af08-2a0f" name="Initiative 1" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="b70f-42ee-6e5b-1477" name="Initiative 2" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="569e-8ede-e3d4-f5e2" name="Initiative 3" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="f4fc-7366-8210-2b00" name="Initiative 4" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="8ebe-13eb-199b-2167" name="Initiative 5" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="89a2-5bee-48ed-5672" name="Initiative 6" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5d62-a853-33cd-82c9" name=" Standard" hidden="false">
@@ -1728,6 +1777,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ef71-f37f-026e-7ba7" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1912,6 +1968,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="94ce-5e9f-d995-ddf4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dc99-8a03-f22e-213a" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2116,6 +2179,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="49d6-d6ff-7f20-c9e4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2764-c31c-1967-c961" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2354,6 +2424,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e6e8-fcd8-9267-e282" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2527,6 +2604,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="795c-d332-705c-e82f" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b109-9cdf-da2e-1c19" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2708,6 +2792,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="369b-4ad4-38f5-b4ef" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2877,6 +2968,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0669-6f2f-603c-3314" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ae40-edb3-ad3f-60c0" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3075,6 +3173,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="748e-dc9e-4053-6ee8" name="Rear Arc" hidden="false" targetId="4257-4430-7af8-7433" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4a0d-dd33-8c0d-98a6" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3281,6 +3386,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="55d6-f174-698f-bd6a" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3481,6 +3593,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c068-478d-011e-7595" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3674,6 +3793,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8b2e-4832-38f5-bf3b" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e509-34fe-bd6c-b6f0" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3895,6 +4021,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1f46-943a-5494-1c43" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -4096,6 +4229,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8e74-0492-7d16-9a86" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fa4e-c704-8fff-d48b" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4309,6 +4449,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7600-0806-a782-40e8" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -4508,6 +4655,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="22b3-56b2-e285-43fa" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e61c-f79f-7923-b059" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4719,6 +4873,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ff31-ed14-8100-f933" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -4892,6 +5053,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3336-b1a6-3f08-1e65" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="414f-5e7c-64f9-097e" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5077,6 +5245,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="aec9-74e3-54e9-5caf" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -5248,6 +5423,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6f00-eebd-e19b-37bb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -5403,6 +5585,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a913-582d-9dcb-e367" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8090-1184-5417-f7e8" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5578,6 +5767,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1ea9-d157-6d6f-4ad9" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -5733,6 +5929,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="bb1f-bb87-c133-0224" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bbe9-53ec-4131-906a" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5925,6 +6128,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="476b-64e4-1590-afb2" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -6096,6 +6306,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4d4d-6de5-5e46-0863" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -6261,6 +6478,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ab50-4791-491e-cd06" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d7f8-16c6-326f-ce6a" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6446,6 +6670,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="87de-8cbf-9f68-eb2a" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -6617,6 +6848,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e111-592b-6e8b-6c86" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -6782,6 +7020,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="112c-31b6-430a-413c" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7761-c9c1-7c6b-cc8c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6990,6 +7235,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="6c8e-2e65-0451-2e7d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="578a-6761-0aab-3a33" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7209,6 +7461,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5199-fcc2-06ea-6796" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -7409,6 +7668,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="432c-ef2f-8df2-3847" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="389f-0839-e846-8210" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7619,6 +7885,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5d74-3951-839d-aa3d" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -7811,6 +8084,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a5b5-5525-7425-9048" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d154-d0f6-1efd-86e4" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8031,6 +8311,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5f26-aa07-da9c-923c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -8237,6 +8524,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1192-85cf-666a-279e" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -8433,6 +8727,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4548-4868-62dd-4bd6" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -8617,6 +8918,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1b52-b6c0-b6d5-dff8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c8c4-a0f7-49d0-2380" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8823,6 +9131,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="d5ec-872c-b7e8-af6d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="781f-1190-68ad-8e81" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9037,6 +9352,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="488c-37a0-9170-e532" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0fe5-d92d-440b-96bd" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9301,6 +9623,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ee44-a551-c133-2729" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -9552,6 +9881,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="4d7c-ccc7-df0d-65ac" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1a93-068d-82e6-c810" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9813,6 +10149,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f373-8476-faac-2c14" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -10044,6 +10387,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="81b2-6099-c611-6e74" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -10250,6 +10600,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d866-be4f-1bc3-6674" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -10428,6 +10785,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1751-8306-aac9-4ba1" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -10590,6 +10954,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="84c0-58d7-d587-5e3c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -10730,6 +11101,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="13bd-9395-1386-0a8b" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -10850,6 +11228,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="588b-fbaf-b1cc-cdae" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0bad-8ca4-7f09-85c8" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10993,6 +11378,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4920-ba71-7008-750f" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -11130,6 +11522,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="25a4-920e-ea3e-79d4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="eb70-6dcf-08d5-1e6a" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11281,6 +11680,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e6a0-91a4-d13a-cd91" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -11420,6 +11826,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="be25-a7b6-01a4-a9fd" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2f23-6c10-eb0a-edc8" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11573,6 +11986,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="6f54-be12-9f30-9be3" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="28e7-0c0c-6eca-b906" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11762,6 +12182,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a636-b6d1-cce1-5759" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bf10-5fba-93b7-45d3" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12035,6 +12462,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2d7a-e43b-33f4-5194" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -12290,6 +12724,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="9a6b-a088-e265-fd77" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d3f9-421b-798a-1506" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12565,6 +13006,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e619-d899-7e47-ac10" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -12828,6 +13276,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="b7c9-3a1d-f5dc-31a8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ced8-e4e7-de8c-5758" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13103,6 +13558,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7f7e-8920-9a90-303e" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -13349,6 +13811,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="07b9-0e0e-6db2-5ac3" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -13567,6 +14036,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="9688-e494-95e0-2951" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0437-db83-afa4-89ab" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13797,6 +14273,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5eb7-cbb7-1fa6-5d89" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -14008,6 +14491,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7fac-a62a-0563-abcb" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -14149,6 +14639,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="c7d6-1881-ef1c-d291" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="36d7-e5f8-ff21-37ee" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14302,6 +14799,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e347-7052-ceb5-a063" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -14443,6 +14947,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="c7b2-540f-b01d-0a03" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6284-d7ff-2583-d9ee" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14596,6 +15107,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3466-2bf9-0b03-d80d" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -14737,6 +15255,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0748-407a-20af-d301" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="749b-eddf-351e-0bbe" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14890,6 +15415,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4637-a412-25ea-d075" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -15037,6 +15569,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="50e5-63ad-6cf9-3af7" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -15176,6 +15715,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3e1e-6b7b-aea1-53b8" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9047-f739-e7c9-794a" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15329,6 +15875,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4083-9858-faa1-a91e" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -15462,6 +16015,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1dbc-3253-28ce-d367" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="09b3-7c98-e4aa-207b" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15605,6 +16165,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ae9f-e8bf-651e-a7a2" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -15738,6 +16305,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="dfd8-d62e-dd0f-2983" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="06b4-3109-994c-0af5" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15919,6 +16493,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e80d-1dfc-2ab9-49f9" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -16082,6 +16663,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="d29f-8287-4591-dccb" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="684f-ddfc-6b59-434e" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16257,6 +16845,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="932f-d006-f71f-56f1" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -16404,6 +16999,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0488-0acb-3b15-49ee" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6c61-36a7-30a1-54f3" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16578,6 +17180,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7c8c-fb6a-8264-9352" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -16735,6 +17344,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ebe4-67e3-2616-7f3c" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="df23-629a-c7fd-3260" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16904,6 +17520,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c941-5c41-4e3a-07ab" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -17059,6 +17682,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="d7bb-4bd9-52ee-df2b" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f39f-ca5e-a97e-72cb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17228,6 +17858,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="0a54-cd57-9bec-7e58" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -17375,6 +18012,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0970-f52e-90a8-ab75" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="96b5-3330-05d0-b5d8" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17564,6 +18208,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="eb31-5172-dca0-61b6" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ee59-91f0-076d-a1dc" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17765,6 +18416,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="273a-4858-07b4-4405" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -17960,6 +18618,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="676b-c857-d183-2c89" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -18139,6 +18804,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="82c8-0edb-7e85-8304" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9f04-10f6-2d8b-c401" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18325,6 +18997,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ccad-217d-82df-52e3" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="018b-06c9-8e6d-52c3" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18519,6 +19198,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="dc67-7add-c6c2-57f9" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -18697,6 +19383,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="31ec-0cd0-a342-13bb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -18861,6 +19554,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1bae-f18b-17d8-7862" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -19017,6 +19717,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a793-0c8d-ac01-a4d2" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a50f-1127-5809-0946" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19193,6 +19900,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="77a4-fba2-605e-2d47" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -19357,6 +20071,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="5c24-9f33-227d-44b4" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b20f-2da5-4f27-26e7" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19531,6 +20252,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4efc-3135-d808-de4a" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -19693,6 +20421,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="6879-2d06-a475-07c1" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a915-bd46-43bc-82ea" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19868,6 +20603,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="88a6-fd20-8a48-dd4e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="895c-306d-49d6-00ce" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20085,6 +20827,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2f6c-6db4-83b4-71b7" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -20290,6 +21039,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="bdb6-fe15-80db-bebb" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7088-6c45-6949-aa99" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20507,6 +21263,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="cee4-6c75-88b9-e0e5" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -20702,6 +21465,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8699-7863-072d-eead" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2867-ac95-6ee8-f783" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20917,6 +21687,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="b207-f9ea-d0d5-2cc5" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -21122,6 +21899,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="4918-13a7-26c7-738b" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bec9-a395-98ef-873e" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21351,6 +22135,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="bc0d-1072-1627-bd44" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -21574,6 +22365,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="fc64-d503-ec76-5e3d" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -21789,6 +22587,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3741-8bce-7308-2206" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="82ed-4906-bb53-b89f" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22020,6 +22825,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="648e-a342-4724-fd47" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8c6a-e7a4-177a-9a88" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22284,6 +23096,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="fbc8-dbd7-1998-1485" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -22499,6 +23318,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="00ea-1328-385a-dcd6" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7cab-4dc8-5fb9-73dd" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22734,6 +23560,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7f29-b039-7695-4b8b" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -22953,6 +23786,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="86f0-5687-59d7-6e8b" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -23138,6 +23978,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2e04-6144-e7b4-f2e7" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -23287,6 +24134,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0cd7-d5c8-192d-c06d" name="Barrel Roll (Red)" hidden="false" targetId="19ad-674c-9542-add3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e4cb-0cb8-5c7e-bb5e" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -23446,6 +24300,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="eaa5-8c4c-02eb-cbbd" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -23595,6 +24456,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="d3c5-a688-677a-049e" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b433-9ab5-9f24-175b" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -23762,6 +24630,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="493a-6da4-757d-8075" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -23903,6 +24778,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="56cc-a45b-2c2d-9588" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4d0d-efc2-7603-f33b" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -24070,6 +24952,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2eb7-3f34-925a-dc99" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -24225,6 +25114,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="2eab-c627-92c2-3b68" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="df01-ee96-4f2c-565d" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -24570,6 +25466,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="42a5-e0bd-daac-2610" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -24777,6 +25680,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1177-134a-ed5d-c1cb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -24970,6 +25880,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="9ebc-ced2-7c8d-f6e1" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -25157,6 +26074,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="01b2-7197-7f91-2e75" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cadb-1526-0712-00d9" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25362,6 +26286,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="2755-ae51-7562-a669" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e0a4-a188-70a3-718b" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25604,6 +26535,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c039-df50-9d55-6d3e" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -25839,6 +26777,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6a8e-538f-c6fe-ec25" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -26050,6 +26995,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4e62-33ea-91ba-bb1f" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -26238,6 +27190,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a6da-08df-1d83-925c" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="80fc-d576-f854-48e9" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -26445,6 +27404,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="619a-6f63-863b-4930" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -26632,6 +27598,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1131-9087-e4c7-0244" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -26798,6 +27771,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="9888-fa08-a32a-a727" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="223f-2f04-c76f-44c2" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -26988,6 +27968,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="cfbd-6111-99ff-3ee8" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -27148,6 +28135,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8066-3af3-cca7-3203" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f8b5-8f99-f957-afd6" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -27318,6 +28312,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8dd8-9556-b2d9-5fda" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -27476,6 +28477,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ab94-1c38-ee08-8755" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e3b3-9a6d-719a-e888" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -27641,6 +28649,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="809a-44e4-bcd2-d019" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c4af-3f5f-85d8-ec4d" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -27830,6 +28845,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="76fd-0296-97c3-f7bd" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -28011,6 +29033,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="524d-6c64-6d3b-c4ec" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -28178,6 +29207,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="e936-d812-5140-f401" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="359e-c59f-dc08-1706" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -28374,6 +29410,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a861-3da7-6134-0c28" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e446-4d7b-5269-c0af" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -28604,6 +29647,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5703-16ac-a70f-dbf6" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -28826,6 +29876,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="55c9-c8f9-38da-b2e4" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -29026,6 +30083,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="afbe-57c7-3d5e-ced9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fb22-2f53-6193-bba7" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -29242,6 +30306,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="19e2-3dcf-12fc-cdaf" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -29436,6 +30507,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1789-9d34-83f3-1bd2" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="eba5-39ee-97c2-e4ed" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -29642,6 +30720,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="b690-c081-886f-dee4" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -29842,6 +30927,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c79f-0d63-050e-2190" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -30026,6 +31118,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="343c-9815-0ebf-b4b9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d6c0-a7da-6f0a-b233" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -30218,6 +31317,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e2d8-c63c-444a-e174" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -30396,6 +31502,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="c9b0-6e39-f02d-e043" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e3ad-d948-9cf3-5985" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -30588,6 +31701,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="b130-0d3b-1b1f-5136" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -30760,6 +31880,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0a14-aaa4-046f-e7c4" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a9a8-955e-6a6a-9f5e" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -30963,6 +32090,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5322-81cb-7ef0-9885" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -31154,6 +32288,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="4bfe-f311-72b6-12b8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4818-be44-7777-bf07" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -31355,6 +32496,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="bee6-8d2a-3a22-d2a8" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -31544,6 +32692,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0fdd-a274-2055-96f1" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d033-0a47-f422-9e2e" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -31748,6 +32903,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8d59-b880-e812-fb46" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="917c-0937-f365-77f0" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -31972,6 +33134,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="0634-0840-a49f-3dfe" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -32184,6 +33353,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="2c55-53d7-ee26-351d" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a7c4-3005-0fe4-5fd1" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -32406,6 +33582,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f664-83a1-b44b-6598" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -32584,6 +33767,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="7d40-b81d-814e-a5f3" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9276-2c2e-a73a-b755" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -32774,6 +33964,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6fbb-0c16-bcb7-2363" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -32956,6 +34153,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f11e-4468-c666-35c6" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -33132,6 +34336,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3fd3-6bd4-b431-293f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="422f-3436-6eb3-52b1" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -33348,6 +34559,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="cc33-fd89-c626-3a0f" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="55eb-d1e0-7b09-0717" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -33586,6 +34804,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5184-2b9f-7034-f203" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -33818,6 +35043,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="af82-3725-499a-0e21" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -34034,6 +35266,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8755-6fc3-338b-43d2" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1c81-ec49-13ff-36ad" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -34264,6 +35503,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="a7a8-fa52-d7b0-1ec2" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -34482,6 +35728,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="e465-ee31-9fd0-b7d8" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b105-9f89-7f05-8da0" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -34712,6 +35965,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="9d30-4aff-5c07-9e03" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -34928,6 +36188,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="844a-2d2c-2e0f-8786" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c08b-6812-9bca-a4ad" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -35158,6 +36425,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="7314-d22d-0fbb-770b" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3c78-1f1a-52f2-0bb8" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -35418,6 +36692,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7ecc-7dfb-8bb2-4758" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -35670,6 +36951,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2a86-c815-d911-ad69" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -35881,6 +37169,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="cf3c-6739-dec2-fcdd" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -36048,6 +37343,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="933f-0965-9ee6-2866" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bbee-7d7d-8a6d-5df6" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -36225,6 +37527,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8afd-d1f2-d6c6-fdcf" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -36396,6 +37705,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="0621-5541-b625-eb48" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -36536,6 +37852,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="c62e-d12e-53ed-f70b" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8c41-963e-463b-1d70" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -36774,6 +38097,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="314a-6a6a-0a9e-6bff" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -36998,6 +38328,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="eabf-3e54-5842-1ca8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="70e4-f05e-92bd-6e6c" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -37242,6 +38579,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="aec5-d30f-d873-2866" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -37422,6 +38766,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="9c46-d196-59fc-8b1b" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -37590,6 +38941,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="2d2a-4b5d-dbb4-7525" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9e12-fb3c-49e6-0d1a" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -37798,6 +39156,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0175-6ca7-8fc9-c031" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5ef2-840b-be5c-cb20" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -38042,6 +39407,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4450-cc7d-8f28-d46c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -38278,6 +39650,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="0142-8c4b-7a84-4eff" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -38497,6 +39876,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1a77-104b-0669-b97b" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b8ee-4920-3017-a12a" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -38724,6 +40110,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4484-0f17-a5cf-831d" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -38929,6 +40322,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="769f-2206-3e9c-4a4b" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="925e-917e-e3e5-d4fd" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -39173,6 +40573,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="9791-a8ed-8b5d-2b18" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="003e-49c1-57e7-44ef" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -39436,6 +40843,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6a79-628a-fa71-7b28" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -39693,6 +41107,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="43cd-920c-e1ee-5bc6" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -39932,6 +41353,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="38e8-0817-d4c5-1390" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -40128,6 +41556,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d275-90d5-3caa-147f" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -40296,6 +41731,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="5509-5eff-b886-4501" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1413-dceb-1ab6-fdfb" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -40476,6 +41918,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5abd-57b6-18b6-f214" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -40642,6 +42091,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="4d78-82a1-925e-5003" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1b4c-ea4e-092b-d647" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -40820,6 +42276,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d3d0-9d23-027b-15ad" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -40991,6 +42454,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a592-8204-ed46-4f6f" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0339-ed16-3247-4a50" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -41214,6 +42684,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ae19-2de7-133d-0fb1" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -41425,6 +42902,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="5296-63a0-e747-cc8c" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="98ba-1b03-9165-a4e7" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -41646,6 +43130,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d124-f7a6-e7da-299c" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -41841,6 +43332,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="30ce-038b-03fd-9f2b" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -42004,6 +43502,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1481-390d-c7d6-77d9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="29be-8eb6-938d-313c" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -42179,6 +43684,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6c75-78be-529b-2c69" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -42348,6 +43860,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="35fb-0b46-2454-0ccb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -42501,6 +44020,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3ca5-6728-cba9-fc35" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0988-ae23-d27a-74e4" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -42668,6 +44194,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="7199-5e25-ee45-dc82" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="48cc-40f2-622b-591e" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -42842,6 +44375,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="65d0-3627-abf6-16a4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dc2c-c24a-5d40-40e3" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -43074,6 +44614,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f14e-bb2d-0aa6-41d1" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -43294,6 +44841,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="28a6-1d99-9d17-1e7a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b18f-0f09-3b9e-506b" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -43526,6 +45080,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c3c5-35c6-9b60-bd17" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -43744,6 +45305,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1154-38a4-9ef3-81eb" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f503-de37-066f-8333" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -43976,6 +45544,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5269-4c05-2f90-e0ab" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -44194,6 +45769,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="931c-28fb-1cc5-bf5e" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -44404,6 +45986,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="811a-0a98-adad-3b65" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ebd4-8227-58e2-4dfd" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -44650,6 +46239,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ecfe-5de4-7893-61cb" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -44862,6 +46458,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a3aa-ae53-a82a-0d4f" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b884-3bc6-e972-843c" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -45087,6 +46690,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1e9a-0eaf-0091-2722" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -45289,6 +46899,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5a2c-db2b-ae26-6fd1" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -45472,6 +47089,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="5977-d674-f09d-402d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dbf4-0be8-0be7-0954" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -45677,6 +47301,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3a95-7d64-5f2c-1e49" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -45874,6 +47505,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f9b8-22d5-835a-a305" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -46065,6 +47703,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ab2a-ac91-71bb-1e71" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4489-4fb1-0a53-cf75" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -46270,6 +47915,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="28eb-d607-1877-41da" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -46449,6 +48101,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4796-ca59-3c95-3fce" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -46590,6 +48249,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="855b-d80e-408b-060b" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="771d-d690-c09e-f103" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -46743,6 +48409,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2a65-cb62-d7ea-c3ec" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -46890,6 +48563,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="9077-4733-4c03-d22a" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -47027,6 +48707,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="530e-4270-bf5d-5aec" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -47158,6 +48845,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="62e5-0dd3-26cc-7227" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c381-b253-9e06-a80d" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -47324,18 +49018,17 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="665b-2934-ce61-c976" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+        <categoryLink id="14f5-3d86-6c2c-e541" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
         <entryLink id="3847-e0a0-1f1d-1706" name="Missile" hidden="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -47370,7 +49063,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="62.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="930b-b8cf-d44b-5bee" name="4 - •&quot;Recoil&quot;" hidden="false" collective="false" type="model">
@@ -47508,18 +49201,17 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="22b8-2735-6b91-b048" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+        <categoryLink id="28df-371e-2a25-8dbc" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
         <entryLink id="e522-1d56-5b3e-256a" name="Missile" hidden="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -47554,7 +49246,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="63.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="59.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dd2-d3b2-a6fb-2cef" name="5 - •Kylo Ren" hidden="false" collective="false" type="model">
@@ -47725,18 +49417,17 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="3747-09dd-3396-281b" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+        <categoryLink id="7ffe-3798-1012-0f7a" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
         <entryLink id="0788-e0ea-91f0-881b" name="Missile" hidden="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -47771,7 +49462,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="82.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="76.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77eb-6d50-497d-4281" name="5 - •&quot;Blackout&quot;" hidden="false" collective="false" type="model">
@@ -47909,18 +49600,17 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="d74e-3c60-2174-8991" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+        <categoryLink id="8988-af8c-5fe1-48a7" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
         <entryLink id="7b4e-e3ca-b0db-e13a" name="Missile" hidden="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -47955,7 +49645,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="64.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9656-b591-c17d-48f2" name="4 - First Order Test Pilot" hidden="false" collective="false" type="model">
@@ -48091,18 +49781,17 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="ee58-fa33-7761-c785" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+        <categoryLink id="01f3-a069-7001-c0a7" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
         <entryLink id="abae-a15a-dcac-1ef8" name="Missile" hidden="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -48137,7 +49826,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="62.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7573-a40c-97e1-1aa7" name="1 - Sienar-Jaemus Engineer" hidden="false" collective="false" type="model">
@@ -48273,18 +49962,17 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="57fc-dca8-95ad-4893" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+        <categoryLink id="f8b0-2fba-6413-f8bb" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
         <entryLink id="018f-faf4-f5bc-8b47" name="Missile" hidden="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -48311,7 +49999,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="56.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="52.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="029b-1b7c-ca65-eaa1" name="6 - •&quot;Midnight&quot;" hidden="false" collective="false" type="model">
@@ -48443,6 +50131,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="e4c8-000d-e53f-8b06" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="75fb-b1ed-9f6b-e26b" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -48617,6 +50312,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5d87-295b-a46f-9b6d" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -48779,6 +50481,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="2618-1492-0bdd-3f6c" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6eb8-e0d8-515d-95bf" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -48953,6 +50662,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f22d-0a75-477c-2f9a" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -49115,6 +50831,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="9db2-01ba-3922-870e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8423-1c4a-9e25-0e18" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -49289,6 +51012,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8d60-1568-fd80-4f7c" name="Initiative 0" hidden="false" targetId="2a3a-f3a1-797b-7470" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -49302,14 +51032,6 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="6abc-8773-af93-a3b1" name="Tech" hidden="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5fa3-f35d-36df-b515" name="Talent" hidden="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -49451,6 +51173,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8447-5de5-6b43-ebee" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1ba9-5578-b376-c951" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -49617,6 +51346,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ea96-4777-6dad-2637" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -49771,6 +51507,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="9b70-f25b-f42a-0dd7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5743-b0b0-42e7-34dc" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -49943,6 +51686,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f670-dd76-7c4c-828e" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -50101,6 +51851,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="dfe9-1c4f-5c8b-01bd" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -50253,6 +52010,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="e45d-bed2-a76d-589e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a255-25ae-cde5-d52a" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -50435,6 +52199,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="4006-89d1-a598-8195" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3a9f-beab-de15-940f" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -50647,6 +52418,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f66b-a6cf-41b1-25f5" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -50851,6 +52629,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6872-bf55-dd2b-c790" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -51041,6 +52826,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="b3a8-d26e-008c-34e8" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0f0e-b2b8-ffd8-82fe" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -51280,6 +53072,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f31b-81ca-7c9f-fb56" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -51509,6 +53308,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="660b-6a12-6a15-8d55" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d8c8-f31c-d301-8059" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -51752,6 +53558,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5799-28a3-f62e-85df" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -51983,6 +53796,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="dbfd-1b81-4c90-1ea3" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cb33-ea68-9a57-8f92" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -52226,6 +54046,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="b1bb-3ba6-4510-d719" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -52463,6 +54290,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3d95-bdd2-845f-d759" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -52687,6 +54521,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="77c3-381e-6749-5822" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e2f6-fb01-b064-065b" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -52925,6 +54766,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="dc9f-a1a7-5f48-6715" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -53151,6 +54999,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="fffe-8295-1e41-f9f5" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6c2d-2349-020e-fd22" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -53389,6 +55244,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3413-b0f2-c082-83d7" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -53615,6 +55477,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="bf91-ae2e-b300-1ed9" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b506-59f7-1300-ae97" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -53851,6 +55720,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e7d9-4443-eb47-498f" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -54036,6 +55912,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="f7f5-dfc5-ad42-bdb7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2c9e-36d5-3915-df02" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -54287,6 +56170,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="a072-56cf-ade6-4d16" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -54526,6 +56416,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="d83d-2f5b-d3e7-5df7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="82f9-f7c1-9915-1874" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -54777,6 +56674,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="572a-b6a7-5e94-fbb5" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -55016,6 +56920,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="4998-d99b-594e-2371" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f629-5321-dd2f-27eb" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -55267,6 +57178,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="613a-7bcd-c994-ad5e" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -55512,6 +57430,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="afe9-0f56-1754-810e" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -55743,6 +57668,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="5214-5d74-c2c4-ac79" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6dfa-0150-b00f-daf9" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -55986,6 +57918,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8c7b-176c-0406-c3a0" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -56215,6 +58154,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3ca4-a31d-b609-7257" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="55f3-9b37-4436-bf7f" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -56464,6 +58410,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ba65-43a3-ffb5-fbe5" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -56701,6 +58654,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3569-6e80-98aa-0099" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cd95-6c09-e4a1-7f4e" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -56962,6 +58922,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c423-e060-5ae1-4503" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -57135,6 +59102,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="b9da-e697-b295-5b9c" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f832-b87b-26cb-892c" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -57320,6 +59294,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="9225-4048-eb0c-fb53" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -57493,6 +59474,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="4f3b-e37e-aab4-fcb7" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bc15-383f-5f0e-1640" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -57676,6 +59664,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="28d6-c109-b73a-f145" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -57847,6 +59842,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="5ae5-0271-f3f8-7fab" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="093e-7016-bc92-7605" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -58062,6 +60064,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="d48e-5448-897e-8d61" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5224-c245-68a2-8101" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -58325,6 +60334,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6355-551c-2c75-c186" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -58564,6 +60580,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="bf40-753f-ab77-dc35" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -58744,9 +60767,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
         <selectionEntry id="7862-c919-37e4-6c2f" name="Tractor Beam" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -58784,7 +60805,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -58829,7 +60850,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="9.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f824-c24d-2e79-b9f2" name="Adv. Proton Torpedoes" hidden="false" collective="false" type="upgrade">
@@ -58950,7 +60971,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="8.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ee9b-ddb9-a658-5a94" name="Static Discharge Vanes" hidden="false" collective="false" type="upgrade">
@@ -58979,7 +61000,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0559-f038-5a74-e23d" name="Shield Upgrade" hidden="false" collective="false" type="upgrade">
@@ -59216,14 +61237,14 @@
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+            <modifier type="set" field="f063-1033-6a55-7413" value="4">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f38b-1610-2d2d-5a34" type="instanceOf"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="9">
+            <modifier type="set" field="f063-1033-6a55-7413" value="7">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1d2-e4cc-466a-5f6b" type="instanceOf"/>
@@ -59247,7 +61268,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="243e-f74e-168e-3d15" name="Ablative Plating" hidden="false" collective="false" type="upgrade">
@@ -59297,7 +61318,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4937-600f-9c30-0a78" name="Electronic Baffle" hidden="false" collective="false" type="upgrade">
@@ -59734,7 +61755,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="8.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a2f1-1aaf-711f-6a26" name="Collision Detector" hidden="false" collective="false" type="upgrade">
@@ -59763,7 +61784,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cd90-e52a-b7e4-9e6c" name="Fire-Control System" hidden="false" collective="false" type="upgrade">
@@ -59792,7 +61813,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8eea-2432-bf5d-44e4" name="Trajectory Simulator" hidden="false" collective="false" type="upgrade">
@@ -59821,7 +61842,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -59907,7 +61928,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7086-c66f-bafb-2311" name="Expert Handling" hidden="false" collective="false" type="upgrade">
@@ -60082,7 +62103,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6e68-b8da-9ada-8ae3" name="Intimidation" hidden="false" collective="false" type="upgrade">
@@ -60255,7 +62276,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1e33-fb94-021a-27b8" name="Fearless" hidden="false" collective="false" type="upgrade">
@@ -60322,7 +62343,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d55d-1856-8325-c5e0" name="Marksmanship" hidden="false" collective="false" type="upgrade">
@@ -60503,7 +62524,50 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="8">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="10">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="12">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="14">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9512-b05b-f312-ec24" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea19-fb5b-4eb8-5a8c" type="max"/>
@@ -60521,7 +62585,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1bfb-afc9-7eb2-e562" name="Swarm Tactics" hidden="false" collective="false" type="upgrade">
@@ -60579,7 +62643,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="1.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0e0a-3d57-dbf5-e0ef" name="Heroic" page="" hidden="false" collective="false" type="upgrade">
@@ -62183,7 +64247,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cb18-9334-db7e-4efa" name="Homing Missiles" hidden="false" collective="false" type="upgrade">
@@ -62214,7 +64278,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5f98-1e19-95d9-e869" name="Ion Missiles" hidden="false" collective="false" type="upgrade">
@@ -62386,7 +64450,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="10.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="64a4-9080-2880-0ded" name="Novice Technician" hidden="false" collective="false" type="upgrade">
@@ -65560,7 +67624,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="8.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4036-40f0-3011-9d24" name="•Han Solo" hidden="false" collective="false" type="upgrade">
@@ -65860,7 +67924,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="10.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9e53-52d6-b48f-1115" name="•Han Solo" hidden="false" collective="false" type="upgrade">
@@ -66292,7 +68356,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8167-2e78-6d53-bd27" name="•R2-D2" hidden="false" collective="false" type="upgrade">
@@ -66394,7 +68458,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ffa0-7b39-4f48-00a8" name="•R5-D8" hidden="false" collective="false" type="upgrade">
@@ -66913,7 +68977,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2167-8ac4-a3fe-591c" name="Ion Cannon Turret" hidden="false" collective="false" type="upgrade">
@@ -66966,7 +69030,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -67095,6 +69159,34 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="8">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="16">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="24">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="32">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f52-3ef7-1e04-c0fd" type="max"/>
@@ -67104,7 +69196,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="12.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="940b-2483-a624-b404" name="Predictive Shot" hidden="false" collective="false" type="upgrade">
@@ -67218,6 +69310,48 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="5">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="7">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="8">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="9">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="10">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a7d5-7c3d-92ce-8ff7" type="max"/>
@@ -67227,7 +69361,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="8.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="22f4-c184-1588-e44d" name="Biohexacrypt Codes" hidden="false" collective="false" type="upgrade">
@@ -67366,7 +69500,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="24f6-4c27-4eb4-e12a" name="Hyperspace Tracking Data" hidden="false" collective="false" type="upgrade">
