@@ -2049,7 +2049,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="68.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6365-ca0f-e86f-c43b" name="2 - Nu Squadron Pilot" hidden="false" collective="false" type="model">
@@ -8999,7 +8999,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="45fe-dc0b-a404-9c00" name="4 - •IG-88C" hidden="false" collective="false" type="model">
@@ -9212,7 +9212,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="66.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abb5-195d-c0ae-94e3" name="4 - •IG-88D" hidden="false" collective="false" type="model">
@@ -9433,7 +9433,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4221-c1d4-3db1-4732" name="6 - •Han Solo" hidden="false" collective="false" type="model">
@@ -10637,7 +10637,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="22.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ed2-da1e-8be1-b3d2" name="4 - •Lando Calrissian" hidden="false" collective="false" type="model">
@@ -10822,7 +10822,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="26.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="29.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f28e-33d2-bdc3-daaf" name="3 - •Outer Rim Pioneer" hidden="false" collective="false" type="model">
@@ -10991,7 +10991,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="24.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df63-adaa-a501-ffc3" name="1 - •Autopilot Drone" hidden="false" collective="false" type="model">
@@ -12305,7 +12305,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="80.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="86.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="496a-5e51-6d40-03d7" name="2 - Bounty Hunter" hidden="false" collective="false" type="model">
@@ -21982,7 +21982,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="42.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="43.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72bb-6cb3-a30b-7ddf" name="4 - •Drea Renthal" hidden="false" collective="false" type="model">
@@ -22212,7 +22212,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="40.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="42.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa4f-7f28-e37a-b058" name="1 - Crymorah Goon" hidden="false" collective="false" type="model">
@@ -22442,7 +22442,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="32.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4010-27bb-dc2d-67b2" name="2 - Hired Gun" hidden="false" collective="false" type="model">
@@ -22670,7 +22670,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="34.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="33.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30d8-e8b1-67f2-5d6a" name="4 - •Bossk" hidden="false" collective="false" type="model">
@@ -22871,7 +22871,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="2">
+            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="1">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -22904,9 +22904,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a199-d008-56ed-ea13" name="Gunner" hidden="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="66.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fbf0-9bc4-cc4b-575c" name="6 - •Han Solo" hidden="false" collective="false" type="model">
@@ -23364,7 +23372,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="2">
+            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="1">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -23397,9 +23405,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="186f-2ced-ec7c-1f04" name="Gunner" hidden="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="72.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a8b-79bf-8617-3c19" name="3 - •Latts Razzi" hidden="false" collective="false" type="model">
@@ -23600,7 +23616,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="2">
+            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="1">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -23633,9 +23649,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="cebf-76ab-89af-faf7" name="Gunner" hidden="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="66.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="61.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e853-399d-681e-d1a2" name="2 - Trandoshan Slaver" hidden="false" collective="false" type="model">
@@ -23826,7 +23850,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="2">
+            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="1">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -23851,9 +23875,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="7129-5eda-5599-0bc8" name="Gunner" hidden="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="58.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="56.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9af8-1506-e6ba-dc37" name="5 - •Airen Cracken" hidden="false" collective="false" type="model">
@@ -30198,7 +30230,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="47.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="177e-20b6-9860-7ea6" name="3 - •4-LOM" hidden="false" collective="false" type="model">
@@ -30614,7 +30646,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="43.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="41.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="36e9-9b4b-9cca-41ab" name="4 - •Torani Kulda" hidden="false" collective="false" type="model">
@@ -31410,7 +31442,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="33.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e918-a68a-4093-f01a" name="1 - Jakku Gunrunner" hidden="false" collective="false" type="model">
@@ -31593,7 +31625,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="28.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d20-b67d-7558-1e17" name="2 - •Unkar Plutt" hidden="false" collective="false" type="model">
@@ -31786,7 +31818,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="30.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="33.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="09a1-6a81-216b-fac8" name="2 - •Sarco Plank" hidden="false" collective="false" type="model">
@@ -31971,7 +32003,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="31.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="34.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dec0-b81c-11f1-dc8e" name="5 - •Corran Horn" hidden="false" collective="false" type="model">
@@ -34664,7 +34696,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="36.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9579-8b5a-6a46-2f16" name="3 - •Palob Godalhi" hidden="false" collective="false" type="model">
@@ -34903,7 +34935,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="38.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71c9-c0a2-7902-cc71" name="2 - •Torkil Mux" hidden="false" collective="false" type="model">
@@ -35134,7 +35166,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="36.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="317b-ba53-6636-0b38" name="1 - Spice Runner" hidden="false" collective="false" type="model">
@@ -37815,6 +37847,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3e9f-5ff5-c042-b8a5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762" value="Captain of the Lok Revenants"/>
@@ -38021,9 +38060,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="2b8c-9db3-f269-70bd" name="Gunner" hidden="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="52.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="48.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="65ba-ca8a-70e6-0e9e" name="3 - •Sol Sixxa" hidden="false" collective="false" type="model">
@@ -38051,6 +38098,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="65ba-ca8a-70e6-0e9e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="65ba-ca8a-70e6-0e9e" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -38260,9 +38314,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e483-1c84-e7a3-0049" name="Gunner" hidden="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="49.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="46.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15ed-55d5-ca2f-ad9a" name="2 - Lok Revenant" hidden="false" collective="false" type="model">
@@ -38290,6 +38352,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="15ed-55d5-ca2f-ad9a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="15ed-55d5-ca2f-ad9a" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -38489,9 +38558,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="5b0b-50da-12eb-bd1e" name="Gunner" hidden="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="46.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="43.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a07b-108b-1d1b-4d30" name="3 - •Lowhhrick" hidden="false" collective="false" type="model">
@@ -42603,7 +42680,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="64.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="119b-c3ae-643b-cb24" name="4 - •Tel Trevura" hidden="false" collective="false" type="model">
@@ -42827,7 +42904,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="60.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e90-21d3-d005-bd28" name="3 - •Manaroo" hidden="false" collective="false" type="model">
@@ -43051,7 +43128,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="56.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="47.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc4d-f2e5-78b3-1fa4" name="2 - Contracted Scout" hidden="false" collective="false" type="model">
@@ -43265,7 +43342,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="52.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="46.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a705-16f1-94ad-1d3a" name="5 - •Talonbane Cobra" hidden="false" collective="false" type="model">
@@ -44534,7 +44611,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="43.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c69b-0a77-9aef-dfef" name="4 - •Genesis Red" hidden="false" collective="false" type="model">
@@ -44767,7 +44844,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="35.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="34.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c98-005b-87a0-cbef" name="3 - •Laetin A&apos;shera" hidden="false" collective="false" type="model">
@@ -45000,7 +45077,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="35.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="33.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c65c-1007-466d-a7f4" name="3 - •Quinn Jast" hidden="false" collective="false" type="model">
@@ -45233,7 +45310,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="35.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="34.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f492-b873-58cb-ad19" name="3 - Tansarii Point Veteran" hidden="false" collective="false" type="model">
@@ -45464,7 +45541,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="33.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b953-be81-eec5-0289" name="2 - •Inaldra" hidden="false" collective="false" type="model">
@@ -45689,7 +45766,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="32.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1484-7437-107a-f530" name="1 - •Sunny Bounder" hidden="false" collective="false" type="model">
@@ -45914,7 +45991,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="31.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cddc-de80-503f-ba64" name="1 - Cartel Spacer" hidden="false" collective="false" type="model">
@@ -46137,7 +46214,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="29.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="123b-01e9-9d25-df8b" name="5 - •Ketsu Onyo" hidden="false" collective="false" type="model">
@@ -46356,7 +46433,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="74.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="563f-7872-1c59-1591" name="4 - •Asajj Ventress" hidden="false" collective="false" type="model">
@@ -46581,7 +46658,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="84.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="76.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66c2-ca6e-185f-2855" name="3 - •Sabine Wren" hidden="false" collective="false" type="model">
@@ -46807,7 +46884,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="68.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="64.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e15e-4b93-7c39-2b9e" name="2 - Shadowport Hunter" hidden="false" collective="false" type="model">
@@ -47008,7 +47085,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="64.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f5db-809f-e2e7-908f" name="4 - •Prince Xizor" hidden="false" collective="false" type="model">
@@ -47420,7 +47497,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="62.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="63.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4bb-6579-8361-a964" name="3 - Black Sun Assassin" hidden="false" collective="false" type="model">
@@ -48496,7 +48573,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="28.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7db-b5c5-af32-77dd" name="2 - •Overseer Yushyn" hidden="false" collective="false" type="model">
@@ -54658,7 +54735,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="68.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="63.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f90-a32f-d406-78f9" name="4 - •Finch Dallow" hidden="false" collective="false" type="model">
@@ -54897,7 +54974,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="66.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77d3-13ab-c2f8-0d99" name="3 - •Edon Kappehl" hidden="false" collective="false" type="model">
@@ -55136,7 +55213,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="69.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="66.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06c5-f58b-7759-5dc5" name="2 - •Vennie" hidden="false" collective="false" type="model">
@@ -55375,7 +55452,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="67.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="62.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="001a-e683-ef23-d863" name="1 - •Cat" hidden="false" collective="false" type="model">
@@ -55614,7 +55691,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="64.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="59.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="13c6-e7d4-be72-ed15" name="1 - Cobalt Squadron Bomber" hidden="false" collective="false" type="model">
@@ -55851,7 +55928,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="63.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e2b-21c1-30f7-8495" name="6 - •Poe Dameron" hidden="false" collective="false" type="model">
@@ -59926,6 +60003,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="a320-897b-631a-d3ba" name="Tech" hidden="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4af1-4b9b-a849-4f95" name="Talent" hidden="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -64816,7 +64901,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="8.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a2c1-8f3f-4a7d-4cd1" name="•Lando Calrissian" hidden="false" collective="false" type="upgrade">
@@ -65800,7 +65885,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="da3c-d936-fe47-f9a9" name="•Zuckuss" hidden="false" collective="false" type="upgrade">
@@ -65851,7 +65936,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ca5d-483d-f9bc-6426" name="•Unkar Plutt" hidden="false" collective="false" type="upgrade">
@@ -66445,7 +66530,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="73e0-4317-c912-de30" name="•Director Krennic" hidden="false" collective="false" type="upgrade">
@@ -67723,7 +67808,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="385e-5bfc-9ac1-2f97" name="•Fifth Brother" hidden="false" collective="false" type="upgrade">
@@ -68674,7 +68759,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="0.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a4da-bc80-9cf9-97e7" name="•R5-P8" book="" hidden="false" collective="false" type="upgrade">
@@ -68792,6 +68877,48 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="5">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="7">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="8">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66f4-a528-0e45-59fd" type="max"/>
@@ -68830,6 +68957,48 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="5">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="99b5-420c-6f63-9895" type="max"/>
@@ -68838,9 +69007,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="5.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
         <selectionEntry id="0165-441a-bceb-daf1" name="•M9-G8" book="" hidden="false" collective="false" type="upgrade">
           <profiles>
