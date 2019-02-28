@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e41-71da-1915-ca40" name="Star Wars: X-Wing (Second Edition)" revision="3" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e41-71da-1915-ca40" name="Star Wars: X-Wing (Second Edition)" revision="4" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -53758,7 +53758,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="60.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="727c-f826-144a-8a2c" name="3 - •Lieutenant Tavson" hidden="false" collective="false" type="model">
@@ -60910,7 +60910,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7862-c919-37e4-6c2f" name="Tractor Beam" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -69007,7 +69009,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0165-441a-bceb-daf1" name="•M9-G8" book="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -69761,7 +69765,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="2.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="642f-ed38-1ba0-229e" name="Advanced Optics" hidden="false" collective="false" type="upgrade">
