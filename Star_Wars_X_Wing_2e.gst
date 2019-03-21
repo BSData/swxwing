@@ -60893,7 +60893,7 @@
         <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3321-6308-5735-00a8" name="SS 3 - •O-66" hidden="false" collective="false" type="model">
+    <selectionEntry id="3321-6308-5735-00a8" name="3 - •O-66" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="f307-afdb-d3d5-0883" name="•O-66" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -61101,12 +61101,20 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e4e5-b1dc-24d8-9610" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="30.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0607-a25a-25d3-86ab" name="SS 2 - Dark Courier" hidden="false" collective="false" type="model">
+    <selectionEntry id="0607-a25a-25d3-86ab" name="2 - Dark Courier" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="9c72-a212-283d-3344" name="Dark Courier" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -61312,12 +61320,20 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3c57-e01a-f90c-199a" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="20.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="53.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3186-eaa4-9cb8-0c3c" name="SS 3 - •Count Dooku" hidden="false" collective="false" type="model">
+    <selectionEntry id="3186-eaa4-9cb8-0c3c" name="3 - •Count Dooku" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="0dbc-9860-67fc-88d2" name="•Count Dooku" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -61555,12 +61571,20 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="34fc-433c-6f9c-e3e7" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="30.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="61.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="407a-0bac-e4bc-3f15" name="SS 5 - •Darth Maul" hidden="false" collective="false" type="model">
+    <selectionEntry id="407a-0bac-e4bc-3f15" name="5 - •Darth Maul" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d76c-2a01-806f-8092" name="•Darth Maul" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -61790,12 +61814,20 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="49bb-8244-28db-6377" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="50.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cbd7-85e4-ae8c-ad8c" name="SV 1 - Trade Federation Drone" hidden="false" collective="false" type="model">
+    <selectionEntry id="cbd7-85e4-ae8c-ad8c" name="1 - Trade Federation Drone" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="cafb-42a3-741e-b207" name="Trade Federation Drone" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -61952,10 +61984,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="25.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92fa-ae8e-5b2a-05ad" name="SV 3 - Separatist Drone" hidden="false" collective="false" type="model">
+    <selectionEntry id="92fa-ae8e-5b2a-05ad" name="3 - Separatist Drone" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e7cb-c787-25e1-77ce" name="Separatist Drone" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -62112,10 +62144,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="30.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f6e-bc2a-b1d0-fcd8" name="SV 3 - •••Precise Hunter" hidden="false" collective="false" type="model">
+    <selectionEntry id="2f6e-bc2a-b1d0-fcd8" name="3 - •••Precise Hunter" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="fea0-ea70-a408-4219" name="•••Precise Hunter" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -62274,10 +62306,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="33.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b9e-d12c-174f-004d" name="SV 3 - •DFS-081" hidden="false" collective="false" type="model">
+    <selectionEntry id="4b9e-d12c-174f-004d" name="3 - •DFS-081" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="4938-eb01-5889-ee6a" name="•DFS-081" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -62436,10 +62468,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="34.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="27.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="39b9-6512-9760-5503" name="SV 1 - ••Haor Chall Prototype" hidden="false" collective="false" type="model">
+    <selectionEntry id="39b9-6512-9760-5503" name="1 - ••Haor Chall Prototype" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6877-1c4a-689d-34fd" name="••Haor Chall Prototype" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -62598,10 +62630,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="27.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="23.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8343-876d-2f9d-01af" name="SV 1 - •DFS-311" hidden="false" collective="false" type="model">
+    <selectionEntry id="8343-876d-2f9d-01af" name="1 - •DFS-311" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="0444-d9f7-2f22-4030" name="•DFS-311" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
           <profiles/>
@@ -62760,7 +62792,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="29.0"/>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="24.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -63884,7 +63916,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="0.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -65083,6 +65115,51 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9bbc-ec1c-e89b-e7e9" name="•DRK-1 Probe Droids" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c8fe-d703-2ab6-132d" name="•DRK-1 Probe Droids" hidden="false" profileTypeId="4067-e9ef-837d-3661" profileTypeName="3.2 Device">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Keyword" characteristicTypeId="5de5-020d-8ba3-e242"/>
+                <characteristic name="Ability" characteristicTypeId="5f2f-1e93-9e4c-e51e" value="During the End Phase, you may spend 1 [charge] to drop or launch 1 DRK-1 probe droid using a speed 3 template. This card&apos;s [charge] cannot be recovered."/>
+                <characteristic name="Charges" characteristicTypeId="e556-3e35-ce7f-6d37" value="2"/>
+                <characteristic name="Type" characteristicTypeId="195d-5744-a2b7-5a0e" value="Device"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e09e-d8a5-6522-b3a3" name="DRK-1 Probe Droid" hidden="false" targetId="4fc0-7954-025d-ba9c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8859-42b6-87b8-3cbe" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d96-46b2-b47e-dd80" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="51a6-aae8-605b-48b4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -67066,7 +67143,7 @@
                 <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Crew"/>
               </characteristics>
             </profile>
-            <profile id="6011-23eb-499f-c0ca" name="•L3-37 (L3-37&apos;s Programming)" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+            <profile id="6011-23eb-499f-c0ca" name="•L3-37 (•L3-37&apos;s Programming)" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -69737,7 +69814,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="10.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="9.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b39c-edb7-c690-67d0" name="•Chancellor Palpatine" hidden="false" collective="false" type="upgrade">
@@ -69754,7 +69831,7 @@
                 <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Crew"/>
               </characteristics>
             </profile>
-            <profile id="d19c-ab51-bd68-d980" name="•Darth Sidious" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+            <profile id="d19c-ab51-bd68-d980" name="•Chancellor Palpatine (•Darth Sidious)" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -69815,7 +69892,50 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="10.0"/>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="68c0-229e-7234-ab5f" name="•General Grievous" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="30da-3d36-64e2-a552" name="•General Grievous" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you defend, after the Neutralize Results step, if there are 2 or more [hit]/[critical] results, you may spend 1 [charge] to cancel 1 [hit] or [critical] result. After a friendly ship is destroyed, recover 1 [charge]."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value="1"/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Crew"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8859-42b6-87b8-3cbe" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="79f9-cae6-8e19-488f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3fb7-ffbd-2fbf-24b5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
