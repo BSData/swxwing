@@ -996,6 +996,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="9c91-ce1c-3d94-58d3" name="Evade (Purple)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5d62-a853-33cd-82c9" name=" Standard" hidden="false">
@@ -64370,6 +64377,2099 @@
         <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="43.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1fd9-62db-05e2-8737" name="3 - Jedi Knight" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="55b9-9e13-6885-0b2f" name="Jedi Knight" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1fd9-62db-05e2-8737" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1fd9-62db-05e2-8737" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7059-eb71-1f70-9d8d" value="3 (front)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1fd9-62db-05e2-8737" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="b5b0-42b1-6a4c-7351" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1fd9-62db-05e2-8737" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1fd9-62db-05e2-8737" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762"/>
+            <characteristic name="Initiative" characteristicTypeId="3c61-1396-7955-1e7a" value="3"/>
+            <characteristic name="Primary" characteristicTypeId="7059-eb71-1f70-9d8d" value="2 (front)"/>
+            <characteristic name="Primary " characteristicTypeId="fbd2-c4c2-27e3-e8be" value=""/>
+            <characteristic name="Agilty" characteristicTypeId="b5b0-42b1-6a4c-7351" value="3"/>
+            <characteristic name="Hull" characteristicTypeId="04a8-6b71-1402-476c" value="3"/>
+            <characteristic name="Shields" characteristicTypeId="cf5e-1717-447c-5dea" value="1"/>
+            <characteristic name="Charges" characteristicTypeId="36c4-8c02-78bb-df53" value=""/>
+            <characteristic name="Force" characteristicTypeId="f032-045d-86ff-ba81" value="1^"/>
+            <characteristic name="Size" characteristicTypeId="4070-1764-712c-8932" value="Small"/>
+          </characteristics>
+        </profile>
+        <profile id="6bc1-8aa4-9eb6-61c7" name="Jedi Knight" hidden="false" profileTypeId="a817-ac8f-fa4a-035a" profileTypeName="1.2 Abilities and Actions">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="e6a1-01c3-e0d3-4d53"/>
+            <characteristic name="Ship Ability" characteristicTypeId="5251-9d11-51de-a214" value="Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action."/>
+            <characteristic name="Action Bar" characteristicTypeId="9aea-7eec-ca92-2810" value="Focus, Evade (Purple), Target Lock, Barrel Roll, Boost"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ecea-7c76-be36-a9ea" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b73e-02d1-d42f-ff26" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="27ef-cf80-c60a-835a" name="Evade (Purple)" hidden="false" targetId="1a74-1a47-d5ce-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="443e-c474-4b14-c1e0" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a8a1-9608-a096-876e" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="414a-02c9-cf20-4aac" name="New CategoryLink" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="555d-32b8-d991-b610" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ccf9-182f-f537-5b2a" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c679-846a-085f-fb09" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0b8a-c8ff-82f7-3502" name="Evade (Purple)" hidden="false" targetId="9c91-ce1c-3d94-58d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8654-b4cd-16d3-b0fe" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6b87-1fbc-86a1-5fde" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ee3e-91eb-634b-bd0d" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c28a-79b3-fcea-cda1" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="da79-3060-b67c-340e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="602e-3a7d-da38-29a7" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="320f-d8b9-07ba-5e93" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7028-e5ee-e9b6-f690" name="Astromech" hidden="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9ccb-115d-2c70-a994" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1fd9-62db-05e2-8737" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ed-bb42-e0c0-af3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4c27-4118-5675-a069" name="Configuration" hidden="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6d01-6291-f81d-d29b" name="Force Power" hidden="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a531-0c9c-93e6-0053" name="3 - •Ahsoka Tano" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="88a7-5879-08cb-5d78" name="•Ahsoka Tano" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a531-0c9c-93e6-0053" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a531-0c9c-93e6-0053" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7059-eb71-1f70-9d8d" value="3 (front)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a531-0c9c-93e6-0053" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="b5b0-42b1-6a4c-7351" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a531-0c9c-93e6-0053" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a531-0c9c-93e6-0053" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762" value="&quot;Snips&quot;"/>
+            <characteristic name="Initiative" characteristicTypeId="3c61-1396-7955-1e7a" value="3"/>
+            <characteristic name="Primary" characteristicTypeId="7059-eb71-1f70-9d8d" value="2 (front)"/>
+            <characteristic name="Primary " characteristicTypeId="fbd2-c4c2-27e3-e8be" value=""/>
+            <characteristic name="Agilty" characteristicTypeId="b5b0-42b1-6a4c-7351" value="3"/>
+            <characteristic name="Hull" characteristicTypeId="04a8-6b71-1402-476c" value="3"/>
+            <characteristic name="Shields" characteristicTypeId="cf5e-1717-447c-5dea" value="1"/>
+            <characteristic name="Charges" characteristicTypeId="36c4-8c02-78bb-df53" value=""/>
+            <characteristic name="Force" characteristicTypeId="f032-045d-86ff-ba81" value="2^"/>
+            <characteristic name="Size" characteristicTypeId="4070-1764-712c-8932" value="Small"/>
+          </characteristics>
+        </profile>
+        <profile id="bb7b-10e3-8f13-3027" name="•Ahsoka Tano" hidden="false" profileTypeId="a817-ac8f-fa4a-035a" profileTypeName="1.2 Abilities and Actions">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="e6a1-01c3-e0d3-4d53" value="After you fully execute a maneuver, you may choose a friendly ship at range 0-1 and spend 1 [force]. That ship may perform an action, even if it is stressed."/>
+            <characteristic name="Ship Ability" characteristicTypeId="5251-9d11-51de-a214" value="Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action."/>
+            <characteristic name="Action Bar" characteristicTypeId="9aea-7eec-ca92-2810" value="Focus, Evade (Purple), Target Lock, Barrel Roll, Boost"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c5c7-271a-d866-7ae5" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f6bd-8d3f-516b-2d17" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f41d-7f8c-74f9-2004" name="Evade (Purple)" hidden="false" targetId="1a74-1a47-d5ce-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fa36-2057-f34c-a699" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ea1-d8f2-042d-0461" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de98-ed7b-a529-b05e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1a13-e5a3-30a2-887e" name="New CategoryLink" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2f65-6c6e-d9b3-eed5" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="538c-9bcb-4223-2cde" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="22d3-09ea-ccca-b6e0" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1f1a-8ca4-1e9b-e46b" name="Evade (Purple)" hidden="false" targetId="9c91-ce1c-3d94-58d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ce4b-6698-b4b9-1f63" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1794-48b4-b552-3290" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5526-4e78-4425-f6b0" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ed01-eca5-3e59-a334" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bc30-6863-5cce-9fba" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="25a1-88a7-d5b2-b66c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d02c-7be0-1afc-8b36" name="Astromech" hidden="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6a84-6e22-8e6f-440b" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a531-0c9c-93e6-0053" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ed-bb42-e0c0-af3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8515-34ca-15f2-6693" name="Configuration" hidden="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="551d-1484-1dea-c2ee" name="Force Power" hidden="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="47.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a38-797e-45b3-dc30" name="4 - •Saesee Tiin" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7cd2-d683-45c5-a655" name="•Saesee Tiin" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0a38-797e-45b3-dc30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0a38-797e-45b3-dc30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7059-eb71-1f70-9d8d" value="3 (front)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0a38-797e-45b3-dc30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="b5b0-42b1-6a4c-7351" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0a38-797e-45b3-dc30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0a38-797e-45b3-dc30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762" value="Prophetic Pilot"/>
+            <characteristic name="Initiative" characteristicTypeId="3c61-1396-7955-1e7a" value="4"/>
+            <characteristic name="Primary" characteristicTypeId="7059-eb71-1f70-9d8d" value="2 (front)"/>
+            <characteristic name="Primary " characteristicTypeId="fbd2-c4c2-27e3-e8be" value=""/>
+            <characteristic name="Agilty" characteristicTypeId="b5b0-42b1-6a4c-7351" value="3"/>
+            <characteristic name="Hull" characteristicTypeId="04a8-6b71-1402-476c" value="3"/>
+            <characteristic name="Shields" characteristicTypeId="cf5e-1717-447c-5dea" value="1"/>
+            <characteristic name="Charges" characteristicTypeId="36c4-8c02-78bb-df53" value=""/>
+            <characteristic name="Force" characteristicTypeId="f032-045d-86ff-ba81" value="2^"/>
+            <characteristic name="Size" characteristicTypeId="4070-1764-712c-8932" value="Small"/>
+          </characteristics>
+        </profile>
+        <profile id="5467-0ea1-c1fc-642d" name="•Saesee Tiin" hidden="false" profileTypeId="a817-ac8f-fa4a-035a" profileTypeName="1.2 Abilities and Actions">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="e6a1-01c3-e0d3-4d53" value="After a friendly ship at range 0-2 reveals its dial, you may spend 1 [force]. If you do, set its dial to another maneuver of the same speed and difficulty."/>
+            <characteristic name="Ship Ability" characteristicTypeId="5251-9d11-51de-a214" value="Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action."/>
+            <characteristic name="Action Bar" characteristicTypeId="9aea-7eec-ca92-2810" value="Focus, Evade (Purple), Target Lock, Barrel Roll, Boost"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bcb3-093a-0c9a-f4a3" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ea82-8eb6-404e-9bfa" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="18f8-dbd9-df5d-83a7" name="Evade (Purple)" hidden="false" targetId="1a74-1a47-d5ce-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f753-9e1c-d6b0-bf29" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a1c5-5bd7-c2ed-a71a" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a5eb-f2b8-2e6b-2ae5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7128-94f1-1ec5-4644" name="New CategoryLink" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1512-f563-4283-d754" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0803-8bc4-d8b5-7d97" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6e8f-9e8d-a02e-1f59" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="51e2-2106-b800-f263" name="Evade (Purple)" hidden="false" targetId="9c91-ce1c-3d94-58d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b76d-32b8-0192-0469" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e3dc-e2a3-cc4d-e7f4" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9efe-6f5e-e339-f6c3" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="26ab-073b-b8ea-e55e" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="baec-589e-ed85-ff7f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="88d4-25d0-1a2b-6e1f" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="eb19-d8b7-a192-9989" name="Astromech" hidden="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="61b3-5d95-9326-951c" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0a38-797e-45b3-dc30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ed-bb42-e0c0-af3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e2c7-cbb0-faba-70d7" name="Configuration" hidden="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="71e8-71ee-1bb5-a234" name="Force Power" hidden="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba6d-b7ee-e011-6574" name="4 - •Mace Windu" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b0aa-419d-3f08-7f5e" name="•Mace Windu" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ba6d-b7ee-e011-6574" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ba6d-b7ee-e011-6574" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7059-eb71-1f70-9d8d" value="3 (front)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ba6d-b7ee-e011-6574" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="b5b0-42b1-6a4c-7351" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ba6d-b7ee-e011-6574" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ba6d-b7ee-e011-6574" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762" value="Harsh Traditionalist"/>
+            <characteristic name="Initiative" characteristicTypeId="3c61-1396-7955-1e7a" value="4"/>
+            <characteristic name="Primary" characteristicTypeId="7059-eb71-1f70-9d8d" value="2 (front)"/>
+            <characteristic name="Primary " characteristicTypeId="fbd2-c4c2-27e3-e8be" value=""/>
+            <characteristic name="Agilty" characteristicTypeId="b5b0-42b1-6a4c-7351" value="3"/>
+            <characteristic name="Hull" characteristicTypeId="04a8-6b71-1402-476c" value="3"/>
+            <characteristic name="Shields" characteristicTypeId="cf5e-1717-447c-5dea" value="1"/>
+            <characteristic name="Charges" characteristicTypeId="36c4-8c02-78bb-df53" value=""/>
+            <characteristic name="Force" characteristicTypeId="f032-045d-86ff-ba81" value="3^"/>
+            <characteristic name="Size" characteristicTypeId="4070-1764-712c-8932" value="Small"/>
+          </characteristics>
+        </profile>
+        <profile id="92e5-8833-3464-339c" name="•Mace Windu" hidden="false" profileTypeId="a817-ac8f-fa4a-035a" profileTypeName="1.2 Abilities and Actions">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="e6a1-01c3-e0d3-4d53" value="After you execute a red maneuver, recover 1 [force]."/>
+            <characteristic name="Ship Ability" characteristicTypeId="5251-9d11-51de-a214" value="Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action."/>
+            <characteristic name="Action Bar" characteristicTypeId="9aea-7eec-ca92-2810" value="Focus, Evade (Purple), Target Lock, Barrel Roll, Boost"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b10e-ca96-67ed-0948" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f30a-f965-2c56-4b83" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fb10-3473-7152-86c3" name="Evade (Purple)" hidden="false" targetId="1a74-1a47-d5ce-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0414-93e3-8774-6a2f" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="881c-4552-ec51-5804" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1fd3-a8f5-ac4f-ce2f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7faf-b284-8bf2-79c0" name="New CategoryLink" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9048-b17c-0e7c-e273" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3ac9-12b8-6991-dffe" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="007d-264e-7f9e-86bc" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f909-66cf-733f-8db7" name="Evade (Purple)" hidden="false" targetId="9c91-ce1c-3d94-58d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="86a5-cdeb-4ed4-d261" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5ec4-058c-7b8c-1799" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c774-35b1-108d-f190" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6e05-c5d3-d839-10da" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b434-e952-7614-7fe7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a3cc-6448-edc1-4180" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="48d7-665b-e13c-65df" name="Astromech" hidden="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2244-dc6b-dd62-661c" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ba6d-b7ee-e011-6574" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ed-bb42-e0c0-af3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3ac0-d705-535a-5d87" name="Configuration" hidden="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="61be-d003-3ad4-f6d0" name="Force Power" hidden="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="46.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d35b-74b9-597a-2811" name="4 - •Luminara Unduli" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="18ef-ba5b-e84d-f94b" name="•Luminara Unduli" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d35b-74b9-597a-2811" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d35b-74b9-597a-2811" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7059-eb71-1f70-9d8d" value="3 (front)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d35b-74b9-597a-2811" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="b5b0-42b1-6a4c-7351" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d35b-74b9-597a-2811" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d35b-74b9-597a-2811" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762" value="Wise Protector"/>
+            <characteristic name="Initiative" characteristicTypeId="3c61-1396-7955-1e7a" value="4"/>
+            <characteristic name="Primary" characteristicTypeId="7059-eb71-1f70-9d8d" value="2 (front)"/>
+            <characteristic name="Primary " characteristicTypeId="fbd2-c4c2-27e3-e8be" value=""/>
+            <characteristic name="Agilty" characteristicTypeId="b5b0-42b1-6a4c-7351" value="3"/>
+            <characteristic name="Hull" characteristicTypeId="04a8-6b71-1402-476c" value="3"/>
+            <characteristic name="Shields" characteristicTypeId="cf5e-1717-447c-5dea" value="1"/>
+            <characteristic name="Charges" characteristicTypeId="36c4-8c02-78bb-df53" value=""/>
+            <characteristic name="Force" characteristicTypeId="f032-045d-86ff-ba81" value="2^"/>
+            <characteristic name="Size" characteristicTypeId="4070-1764-712c-8932" value="Small"/>
+          </characteristics>
+        </profile>
+        <profile id="d0c7-a2ef-803e-a4d1" name="•Luminara Unduli" hidden="false" profileTypeId="a817-ac8f-fa4a-035a" profileTypeName="1.2 Abilities and Actions">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="e6a1-01c3-e0d3-4d53" value="While a friendly ship at range 0-2 defends, if it is not in the attacker&apos;s [bullseye arc], you may spend 1 [force]. If you do, change 1 [critical] result to a [hit] result or 1 [hit] result to a [focus] result."/>
+            <characteristic name="Ship Ability" characteristicTypeId="5251-9d11-51de-a214" value="Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action."/>
+            <characteristic name="Action Bar" characteristicTypeId="9aea-7eec-ca92-2810" value="Focus, Evade (Purple), Target Lock, Barrel Roll, Boost"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7d0d-8c06-995d-329b" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="01cf-3650-a60b-6a88" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6d36-98e4-0469-413b" name="Evade (Purple)" hidden="false" targetId="1a74-1a47-d5ce-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6aed-e6fd-e594-6ce6" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="08e5-cb52-0a58-63c3" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6876-cb69-1a7b-c31e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8f5c-8716-147e-b41a" name="New CategoryLink" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c088-4fec-31eb-d8db" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d1ac-88ce-d6d7-3a20" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="978a-ba76-1358-7ffc" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4550-1dfa-a2c2-f9d7" name="Evade (Purple)" hidden="false" targetId="9c91-ce1c-3d94-58d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="024a-0d15-8fc0-eedf" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d188-c8d6-fccf-ca69" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c5ee-c2a0-364c-54af" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0761-08ae-6d83-0e7c" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="04f3-d608-61b4-1103" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="058e-287c-18f8-a9ee" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="53a5-0d44-9941-e2e7" name="Astromech" hidden="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5133-bada-171a-7d88" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d35b-74b9-597a-2811" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ed-bb42-e0c0-af3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="43dd-e9f3-7a6d-c3f3" name="Configuration" hidden="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d8da-7331-2437-0f2c" name="Force Power" hidden="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8294-0d37-f471-161e" name="4 - •Barriss Offee" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8e82-29ac-71c6-9120" name="•Barriss Offee" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8294-0d37-f471-161e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8294-0d37-f471-161e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7059-eb71-1f70-9d8d" value="3 (front)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8294-0d37-f471-161e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="b5b0-42b1-6a4c-7351" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8294-0d37-f471-161e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8294-0d37-f471-161e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762" value="Conflicted Padawan"/>
+            <characteristic name="Initiative" characteristicTypeId="3c61-1396-7955-1e7a" value="4"/>
+            <characteristic name="Primary" characteristicTypeId="7059-eb71-1f70-9d8d" value="2 (front)"/>
+            <characteristic name="Primary " characteristicTypeId="fbd2-c4c2-27e3-e8be" value=""/>
+            <characteristic name="Agilty" characteristicTypeId="b5b0-42b1-6a4c-7351" value="3"/>
+            <characteristic name="Hull" characteristicTypeId="04a8-6b71-1402-476c" value="3"/>
+            <characteristic name="Shields" characteristicTypeId="cf5e-1717-447c-5dea" value="1"/>
+            <characteristic name="Charges" characteristicTypeId="36c4-8c02-78bb-df53" value=""/>
+            <characteristic name="Force" characteristicTypeId="f032-045d-86ff-ba81" value="1^"/>
+            <characteristic name="Size" characteristicTypeId="4070-1764-712c-8932" value="Small"/>
+          </characteristics>
+        </profile>
+        <profile id="6159-4653-d94b-65ab" name="•Barriss Offee" hidden="false" profileTypeId="a817-ac8f-fa4a-035a" profileTypeName="1.2 Abilities and Actions">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="e6a1-01c3-e0d3-4d53" value="While a friendly ship at range 0-2 performs an attack, if the defender is in its [bullseye arc], you may spend 1 [force] to change 1 [focus] result to a [hit] result or 1 [hit] result to a [critical] result."/>
+            <characteristic name="Ship Ability" characteristicTypeId="5251-9d11-51de-a214" value="Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action."/>
+            <characteristic name="Action Bar" characteristicTypeId="9aea-7eec-ca92-2810" value="Focus, Evade (Purple), Target Lock, Barrel Roll, Boost"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9b41-b780-1e2f-bf73" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f54e-2b0c-e617-6e0f" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="39e2-486e-0bdd-eb16" name="Evade (Purple)" hidden="false" targetId="1a74-1a47-d5ce-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="92e7-a686-ca1e-28b3" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9765-89dc-e79a-5e85" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9634-6923-c31f-7610" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e94d-71a8-f9d9-0bbe" name="New CategoryLink" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fd3f-449a-4bac-9955" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c667-f07b-ebcf-c556" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ba50-faa4-52bf-cc17" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f2f4-d29e-07bd-e5d3" name="Evade (Purple)" hidden="false" targetId="9c91-ce1c-3d94-58d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cc34-a7f5-75eb-a4c3" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3d79-a9a9-61cc-d193" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bd94-d88c-c559-30f2" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ce71-844a-8e56-a0d1" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c293-c2bf-38a7-196d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9b13-ca20-9719-0ae3" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5928-f30c-2817-0e32" name="Astromech" hidden="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="03c5-aea1-6730-9df4" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8294-0d37-f471-161e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ed-bb42-e0c0-af3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b06f-8084-1723-fecc" name="Configuration" hidden="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="30a3-2254-492d-67b9" name="Force Power" hidden="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4744-402c-01fe-bee3" name="5 - •Plo Koon" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d358-61a0-ed01-0a14" name="•Plo Koon" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4744-402c-01fe-bee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4744-402c-01fe-bee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7059-eb71-1f70-9d8d" value="3 (front)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4744-402c-01fe-bee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="b5b0-42b1-6a4c-7351" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4744-402c-01fe-bee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4744-402c-01fe-bee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762" value="Serene Mentor"/>
+            <characteristic name="Initiative" characteristicTypeId="3c61-1396-7955-1e7a" value="5"/>
+            <characteristic name="Primary" characteristicTypeId="7059-eb71-1f70-9d8d" value="2 (front)"/>
+            <characteristic name="Primary " characteristicTypeId="fbd2-c4c2-27e3-e8be" value=""/>
+            <characteristic name="Agilty" characteristicTypeId="b5b0-42b1-6a4c-7351" value="3"/>
+            <characteristic name="Hull" characteristicTypeId="04a8-6b71-1402-476c" value="3"/>
+            <characteristic name="Shields" characteristicTypeId="cf5e-1717-447c-5dea" value="1"/>
+            <characteristic name="Charges" characteristicTypeId="36c4-8c02-78bb-df53" value=""/>
+            <characteristic name="Force" characteristicTypeId="f032-045d-86ff-ba81" value="2^"/>
+            <characteristic name="Size" characteristicTypeId="4070-1764-712c-8932" value="Small"/>
+          </characteristics>
+        </profile>
+        <profile id="2fba-caa1-5a61-965c" name="•Plo Koon" hidden="false" profileTypeId="a817-ac8f-fa4a-035a" profileTypeName="1.2 Abilities and Actions">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="e6a1-01c3-e0d3-4d53" value="At the start of the Engagement Phase, you may spend 1 [force] and choose another friendly ship at range 0-2. If you do, you may transfer 1 green token to it or transfer 1 orange token from it to yourself."/>
+            <characteristic name="Ship Ability" characteristicTypeId="5251-9d11-51de-a214" value="Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action."/>
+            <characteristic name="Action Bar" characteristicTypeId="9aea-7eec-ca92-2810" value="Focus, Evade (Purple), Target Lock, Barrel Roll, Boost"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="944b-3a9e-5d98-bd63" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c17-de1f-3d54-27df" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="51aa-7e43-3ef5-0ded" name="Evade (Purple)" hidden="false" targetId="1a74-1a47-d5ce-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="df72-9d84-31f2-b57d" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2a1a-5909-e072-d535" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e39-5ce5-bc74-6cf0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8e0b-3f47-3273-8549" name="New CategoryLink" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5719-1dbb-0d72-6292" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a755-4800-4396-66ef" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cd33-3835-6f69-cfa3" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="eb1f-a031-a793-ecc7" name="Evade (Purple)" hidden="false" targetId="9c91-ce1c-3d94-58d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e49a-3238-76fc-7d80" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7635-37ee-705d-a6bb" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e845-e9ca-303b-b257" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1a9c-3dfd-97d7-acea" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ceb4-246d-d1e5-bdeb" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dd4d-5638-9037-45a6" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="637a-acd5-7162-44c6" name="Astromech" hidden="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5400-8d44-f1dc-d580" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4744-402c-01fe-bee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ed-bb42-e0c0-af3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d417-dfc1-7e04-4477" name="Configuration" hidden="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d4da-2aaf-ca86-3a11" name="Force Power" hidden="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="51.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3cc9-b3a1-5541-e2e7" name="5 - •Obi-Wan Kenobi" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="306e-6322-b2d2-7486" name="•Obi-Wan Kenobi" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3cc9-b3a1-5541-e2e7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3cc9-b3a1-5541-e2e7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7059-eb71-1f70-9d8d" value="3 (front)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3cc9-b3a1-5541-e2e7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="b5b0-42b1-6a4c-7351" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3cc9-b3a1-5541-e2e7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3cc9-b3a1-5541-e2e7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762" value="Guardian of the Republic"/>
+            <characteristic name="Initiative" characteristicTypeId="3c61-1396-7955-1e7a" value="5"/>
+            <characteristic name="Primary" characteristicTypeId="7059-eb71-1f70-9d8d" value="2 (front)"/>
+            <characteristic name="Primary " characteristicTypeId="fbd2-c4c2-27e3-e8be" value=""/>
+            <characteristic name="Agilty" characteristicTypeId="b5b0-42b1-6a4c-7351" value="3"/>
+            <characteristic name="Hull" characteristicTypeId="04a8-6b71-1402-476c" value="3"/>
+            <characteristic name="Shields" characteristicTypeId="cf5e-1717-447c-5dea" value="1"/>
+            <characteristic name="Charges" characteristicTypeId="36c4-8c02-78bb-df53" value=""/>
+            <characteristic name="Force" characteristicTypeId="f032-045d-86ff-ba81" value="3^"/>
+            <characteristic name="Size" characteristicTypeId="4070-1764-712c-8932" value="Small"/>
+          </characteristics>
+        </profile>
+        <profile id="862c-1c7f-23b0-9130" name="•Obi-Wan Kenobi" hidden="false" profileTypeId="a817-ac8f-fa4a-035a" profileTypeName="1.2 Abilities and Actions">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="e6a1-01c3-e0d3-4d53" value="After a friendly ship at range 0-2 spends a focus token, you may spend 1 [force]. If you do, that ship gains 1 focus token."/>
+            <characteristic name="Ship Ability" characteristicTypeId="5251-9d11-51de-a214" value="Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action."/>
+            <characteristic name="Action Bar" characteristicTypeId="9aea-7eec-ca92-2810" value="Focus, Evade (Purple), Target Lock, Barrel Roll, Boost"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2590-8616-a561-af6b" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e0e3-3059-75ce-7a07" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d2b4-a2c7-4470-235e" name="Evade (Purple)" hidden="false" targetId="1a74-1a47-d5ce-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f940-9a06-798d-38f3" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7af2-2806-551b-0ba4" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0216-1a03-974b-fa40" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0679-27c0-baa1-2975" name="New CategoryLink" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c260-ce73-f50b-99fa" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="512d-1fe3-90ba-55df" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f171-369c-311b-255c" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3e61-d9c4-223f-034f" name="Evade (Purple)" hidden="false" targetId="9c91-ce1c-3d94-58d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="15e2-49a2-637b-5772" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b4da-4849-1fa2-d927" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1a8e-4c5b-a6ff-c4f6" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cc52-7d96-030b-802a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a3de-ee76-65bc-f624" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="334a-6edb-2fd2-985d" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5b45-869f-b4fc-34a8" name="Astromech" hidden="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ce22-eb4e-5a0a-3a40" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3cc9-b3a1-5541-e2e7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ed-bb42-e0c0-af3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b298-aacc-22b6-fc55" name="Configuration" hidden="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a9d5-68ec-80ba-192c" name="Force Power" hidden="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="53.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee4a-cfc9-e7ec-e4ff" name="6 - •Anakin Skywalker" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2cc4-48b6-0a36-e1e6" name="•Anakin Skywalker" hidden="false" profileTypeId="a72b-5bec-cd66-e795" profileTypeName="1.1 Ship Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ee4a-cfc9-e7ec-e4ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ee4a-cfc9-e7ec-e4ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7059-eb71-1f70-9d8d" value="3 (front)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ee4a-cfc9-e7ec-e4ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="b5b0-42b1-6a4c-7351" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ee4a-cfc9-e7ec-e4ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ee4a-cfc9-e7ec-e4ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" characteristicTypeId="180c-7902-1c70-5762" value="Hero of the Republic"/>
+            <characteristic name="Initiative" characteristicTypeId="3c61-1396-7955-1e7a" value="6"/>
+            <characteristic name="Primary" characteristicTypeId="7059-eb71-1f70-9d8d" value="2 (front)"/>
+            <characteristic name="Primary " characteristicTypeId="fbd2-c4c2-27e3-e8be" value=""/>
+            <characteristic name="Agilty" characteristicTypeId="b5b0-42b1-6a4c-7351" value="3"/>
+            <characteristic name="Hull" characteristicTypeId="04a8-6b71-1402-476c" value="3"/>
+            <characteristic name="Shields" characteristicTypeId="cf5e-1717-447c-5dea" value="1"/>
+            <characteristic name="Charges" characteristicTypeId="36c4-8c02-78bb-df53" value=""/>
+            <characteristic name="Force" characteristicTypeId="f032-045d-86ff-ba81" value="3^"/>
+            <characteristic name="Size" characteristicTypeId="4070-1764-712c-8932" value="Small"/>
+          </characteristics>
+        </profile>
+        <profile id="7e6e-d592-ca06-2f61" name="•Anakin Skywalker" hidden="false" profileTypeId="a817-ac8f-fa4a-035a" profileTypeName="1.2 Abilities and Actions">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Pilot Ability" characteristicTypeId="e6a1-01c3-e0d3-4d53" value="After you fully execute a maneuver, if there is an enemy ship in your [front arc] at range 0-1 or in your [bullseye arc], you may spend 1 [force] to remove 1 stress token."/>
+            <characteristic name="Ship Ability" characteristicTypeId="5251-9d11-51de-a214" value="Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action."/>
+            <characteristic name="Action Bar" characteristicTypeId="9aea-7eec-ca92-2810" value="Focus, Evade (Purple), Target Lock, Barrel Roll, Boost"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a0f4-d23c-878a-91a5" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8faf-2b3a-a4c7-2776" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6932-61cb-dee4-2076" name="Evade (Purple)" hidden="false" targetId="1a74-1a47-d5ce-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0014-e93f-29cb-fadd" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c07e-5d13-bcdf-47bb" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6655-4e44-be8a-4d2b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cdcb-ef69-a684-480c" name="New CategoryLink" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6a46-6e6e-d6a9-8f7d" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="61b1-f672-c5e9-8d6e" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2d3f-00c0-42da-cdb4" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f824-173d-09b8-51ec" name="Evade (Purple)" hidden="false" targetId="9c91-ce1c-3d94-58d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c97a-7925-0e91-b924" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="243d-2b1a-362a-87ef" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ffd3-0915-b147-359b" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="60a3-12b2-1420-66ec" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0362-b3f5-8a1a-9312" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5b3c-8532-0177-ee4f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f2db-5fab-d6fc-eb6d" name="Astromech" hidden="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3714-a08c-c3c7-93aa" name="Modification" hidden="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ee4a-cfc9-e7ec-e4ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ed-bb42-e0c0-af3a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f7ad-ad05-9ac5-d116" name="Configuration" hidden="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ebb2-d71b-a514-1a8e" name="Force Power" hidden="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="60.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e721-be9d-290e-de95" name="Cannon" hidden="false" collective="false">
@@ -65530,6 +67630,162 @@
           <costs>
             <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="238a-13f8-9aa2-2dd2" name="Delta-7B" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="eb64-78ab-b3e4-1827" name="Delta-7B" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="Primary Attack (front) +1, Agility -1, Shields +2"/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Configuration"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4af9-4684-2cb7-98d9" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="18">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="13">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="17">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="16">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="14">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="15">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d03-bde2-bfb2-8539" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="f063-1033-6a55-7413" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="09ed-bb42-e0c0-af3a" name="Calibrated Laser Targeting" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4f2b-9ea2-c06a-f36e" name="Calibrated Laser Targeting" hidden="false" profileTypeId="a1d8-d652-e94f-ba38" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability" characteristicTypeId="8b07-956f-ab4d-3bed" value="While you perform a primary attack, if the defender is in your [bullseye arc], add 1 [focus] result."/>
+                <characteristic name="Charges" characteristicTypeId="d449-596d-5f95-dc10" value=""/>
+                <characteristic name="Action Icons" characteristicTypeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" characteristicTypeId="bc82-6ec1-e1c4-b9d6" value="Configuration Modification"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4af9-4684-2cb7-98d9" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="10">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="8">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b049-a528-e69b-bdd6" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="02c6-75e4-fdf9-19a4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -74413,6 +76669,12 @@
       <modifiers/>
     </rule>
     <rule id="3841-8940-bfdf-c5b5" name="Coordinate (Purple)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="1a74-1a47-d5ce-ad09" name="Evade (Purple)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

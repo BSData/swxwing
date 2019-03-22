@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d137-8fb9-efcd-c317" name="Galactic Republic" revision="1" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="76e8-425c-f31f-875e" name="RD 6 - •Anakin Skywalker" hidden="false" targetId="ee4a-cfc9-e7ec-e4ff" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="00b8-fa67-4fb0-9c9a" name="RD 5 - •Obi-Wan Kenobi" hidden="false" targetId="3cc9-b3a1-5541-e2e7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fa5c-8061-1f62-0da7" name="RD 5 - •Plo Koon" hidden="false" targetId="4744-402c-01fe-bee3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="49fd-2ea8-7107-a7d3" name="RD 3 - Jedi Knight" hidden="false" targetId="1fd9-62db-05e2-8737" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7858-a9a2-3e6a-c25b" name="RD 3 - •Ahsoka Tano" hidden="false" targetId="a531-0c9c-93e6-0053" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2e7a-dfbd-2adf-a7b1" name="RD 4 - •Barriss Offee" hidden="false" targetId="8294-0d37-f471-161e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="31a8-ca53-b002-14c8" name="RD 4 - •Luminara Unduli" hidden="false" targetId="d35b-74b9-597a-2811" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5a03-ba2d-b46b-b74e" name="RD 4 - •Mace Windu" hidden="false" targetId="ba6d-b7ee-e011-6574" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0952-5608-1486-f557" name="RD 4 - •Saesee Tiin" hidden="false" targetId="0a38-797e-45b3-dc30" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
