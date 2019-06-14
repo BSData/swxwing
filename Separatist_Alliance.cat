@@ -1,137 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d499-161b-5f7d-7e7f" name="Separatist Alliance" revision="1" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries/>
+<catalogue id="d499-161b-5f7d-7e7f" name="Separatist Alliance" revision="2" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="547a-2ceb-ff30-ac56" name="SS 2 - Dark Courier" hidden="false" targetId="0607-a25a-25d3-86ab" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="d87a-54a5-7b58-53ef" name="SS 3 - •Count Dooku" hidden="false" targetId="3186-eaa4-9cb8-0c3c" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="22a9-5f6d-4f0c-988f" name="SS 5 - •Darth Maul" hidden="false" targetId="407a-0bac-e4bc-3f15" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="6cb1-24c5-1b6d-1523" name="SS 3 - •O-66" hidden="false" targetId="3321-6308-5735-00a8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="b16a-7bcb-3194-ed68" name="SV 3 - •••Precise Hunter" hidden="false" targetId="2f6e-bc2a-b1d0-fcd8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="eaaf-ef8e-f1da-509d" name="SV 3 - •DFS-081" hidden="false" targetId="4b9e-d12c-174f-004d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="c054-d038-4661-4ee8" name="SV 3 - Separatist Drone" hidden="false" targetId="92fa-ae8e-5b2a-05ad" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="0313-befb-175d-8b29" name="SV 1 - ••Haor Chall Prototype" hidden="false" targetId="39b9-6512-9760-5503" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="8cb0-c3be-c55f-a63a" name="SV 1 - •DFS-311" hidden="false" targetId="8343-876d-2f9d-01af" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="5ce4-2a46-2a86-d62b" name="SV 1 - Trade Federation Drone" hidden="false" targetId="cbd7-85e4-ae8c-ad8c" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="7217-d846-077d-25ad" name="SB 1 - Feethan Ottraw Autopilot" hidden="false" targetId="b48a-a675-82c6-87de" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="174f-0cfe-e99c-eed5" name="SB 2 - •Captain Sear" hidden="false" targetId="34b3-7477-0baa-6a12" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="2a9e-e49a-b924-d56c" name="SB 3 - Skakoan Ace" hidden="false" targetId="b1e1-d58b-df15-3dae" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="14ec-38be-c140-19eb" name="SB 3 - •Wat Tambor" hidden="false" targetId="45c7-af07-c3eb-f754" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="a652-0929-3b21-c540" name="SB 4 - •General Grievous" hidden="false" targetId="548b-8b50-f7e7-fcbf" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
+    <entryLink id="547a-2ceb-ff30-ac56" name="SS 2 - Dark Courier" hidden="false" collective="false" targetId="0607-a25a-25d3-86ab" type="selectionEntry"/>
+    <entryLink id="d87a-54a5-7b58-53ef" name="SS 3 - •Count Dooku" hidden="false" collective="false" targetId="3186-eaa4-9cb8-0c3c" type="selectionEntry"/>
+    <entryLink id="22a9-5f6d-4f0c-988f" name="SS 5 - •Darth Maul" hidden="false" collective="false" targetId="407a-0bac-e4bc-3f15" type="selectionEntry"/>
+    <entryLink id="6cb1-24c5-1b6d-1523" name="SS 3 - •O-66" hidden="false" collective="false" targetId="3321-6308-5735-00a8" type="selectionEntry"/>
+    <entryLink id="b16a-7bcb-3194-ed68" name="SV 3 - •••Precise Hunter" hidden="false" collective="false" targetId="2f6e-bc2a-b1d0-fcd8" type="selectionEntry"/>
+    <entryLink id="eaaf-ef8e-f1da-509d" name="SV 3 - •DFS-081" hidden="false" collective="false" targetId="4b9e-d12c-174f-004d" type="selectionEntry"/>
+    <entryLink id="c054-d038-4661-4ee8" name="SV 3 - Separatist Drone" hidden="false" collective="false" targetId="92fa-ae8e-5b2a-05ad" type="selectionEntry"/>
+    <entryLink id="0313-befb-175d-8b29" name="SV 1 - ••Haor Chall Prototype" hidden="false" collective="false" targetId="39b9-6512-9760-5503" type="selectionEntry"/>
+    <entryLink id="8cb0-c3be-c55f-a63a" name="SV 1 - •DFS-311" hidden="false" collective="false" targetId="8343-876d-2f9d-01af" type="selectionEntry"/>
+    <entryLink id="5ce4-2a46-2a86-d62b" name="SV 1 - Trade Federation Drone" hidden="false" collective="false" targetId="cbd7-85e4-ae8c-ad8c" type="selectionEntry"/>
+    <entryLink id="7217-d846-077d-25ad" name="SB 1 - Feethan Ottraw Autopilot" hidden="false" collective="false" targetId="b48a-a675-82c6-87de" type="selectionEntry"/>
+    <entryLink id="174f-0cfe-e99c-eed5" name="SB 2 - •Captain Sear" hidden="false" collective="false" targetId="34b3-7477-0baa-6a12" type="selectionEntry"/>
+    <entryLink id="2a9e-e49a-b924-d56c" name="SB 3 - Skakoan Ace" hidden="false" collective="false" targetId="b1e1-d58b-df15-3dae" type="selectionEntry"/>
+    <entryLink id="14ec-38be-c140-19eb" name="SB 3 - •Wat Tambor" hidden="false" collective="false" targetId="45c7-af07-c3eb-f754" type="selectionEntry"/>
+    <entryLink id="a652-0929-3b21-c540" name="SB 4 - •General Grievous" hidden="false" collective="false" targetId="548b-8b50-f7e7-fcbf" type="selectionEntry"/>
   </entryLinks>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
 </catalogue>
