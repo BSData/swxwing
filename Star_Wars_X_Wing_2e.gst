@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e41-71da-1915-ca40" name="Star Wars: X-Wing (Second Edition)" revision="7" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e41-71da-1915-ca40" name="Star Wars: X-Wing (Second Edition)" revision="8" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="f063-1033-6a55-7413" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -204,6 +204,7 @@
     <categoryEntry id="b1cd-0e65-fad5-e5c5" name="Coordinate (Purple)" hidden="false"/>
     <categoryEntry id="b560-398f-0579-8fa5" name="Non-Limited" hidden="false"/>
     <categoryEntry id="9c91-ce1c-3d94-58d3" name="Evade (Purple)" hidden="false"/>
+    <categoryEntry id="28f5-13e2-535d-59f9" name="Naboo Royal N-1 Starfighter" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5d62-a853-33cd-82c9" name=" Standard" hidden="false">
@@ -287,6 +288,7 @@
         <categoryLink id="8726-f149-5595-db60" name="YT-2400 Light Freighter" hidden="false" targetId="5c31-c18c-f125-8aa2" primary="false"/>
         <categoryLink id="ae1a-667e-1795-e477" name="YV-666 Light Freighter" hidden="false" targetId="60bc-7501-71d7-6e45" primary="false"/>
         <categoryLink id="2ae9-1874-b523-5f78" name="Z-95-AF4 Headhunter" hidden="false" targetId="30f8-3f81-4d1b-c64d" primary="false"/>
+        <categoryLink id="880b-47c7-a30c-b8bb" name="Naboo Royal N-1 Starfighter" hidden="false" targetId="28f5-13e2-535d-59f9" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="7cca-7220-e7ce-53b5" name="Hyperspace" hidden="false">
@@ -328,6 +330,7 @@
         <categoryLink id="600c-55ec-83a8-3f19" name="V-19 Torrent Starfighter" hidden="false" targetId="fe96-980a-b741-eff8" primary="false"/>
         <categoryLink id="8bc6-0d1f-cfe8-f039" name="Vulture-class Droid Fighter" hidden="false" targetId="d3e8-127d-cae2-6b21" primary="false"/>
         <categoryLink id="0678-bd83-a6aa-5985" name="Z-95-AF4 Headhunter" hidden="false" targetId="30f8-3f81-4d1b-c64d" primary="false"/>
+        <categoryLink id="bda5-c2b6-dc48-d47f" name="Naboo Royal N-1 Starfighter" hidden="false" targetId="28f5-13e2-535d-59f9" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -337,7 +340,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="622f-b2c4-dbaa-9a6a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="34f5-afbc-c250-be06" name="•Ten Numb" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="Ship Stats">
+        <profile id="34f5-afbc-c250-be06" name="•Ten Numb" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
           <modifiers>
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
@@ -363,7 +366,7 @@
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
-        <profile id="66e5-cc74-a408-a03d" name="•Ten Numb" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="Abilities and Actions">
+        <profile id="66e5-cc74-a408-a03d" name="•Ten Numb" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, you may spend 1 stress token to change all of your [focus] results to [evade] or [hit] results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
@@ -25854,6 +25857,328 @@
         <cost name=" Points" typeId="f063-1033-6a55-7413" value="31.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2eef-b37e-9133-b3e9" name="5 - •Ric Olié" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="634a-9fb5-831d-1cf1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6508-7832-3178-6f26" name="•Ric Olié" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Bravol Leader</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">5</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1494-e7cb-5c9e-3765" name="•Ric Olié" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship&apos;s, roll 1 additional die.</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="734f-6dbc-6fee-f77c" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule"/>
+        <infoLink id="3900-6fa3-828a-ed90" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule"/>
+        <infoLink id="dd48-2363-bea4-fa11" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="ffb8-55d8-e99d-3d0d" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9c17-5b02-1987-7699" name="New CategoryLink" hidden="false" targetId="28f5-13e2-535d-59f9" primary="true"/>
+        <categoryLink id="6a93-4d73-5cf8-63c1" name="Agility 2" hidden="false" targetId="0989-0ea8-afeb-b1b0" primary="false"/>
+        <categoryLink id="d015-ff2b-e802-c468" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
+        <categoryLink id="6351-d875-a724-8b4a" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false"/>
+        <categoryLink id="7378-538b-3dbc-3357" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="278f-d7ec-ac0d-b7eb" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
+        <categoryLink id="9e68-8276-aa17-5f4d" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="e075-a384-f96f-7449" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="b8ec-8be8-eb06-fdb9" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c369-bafc-e587-503b" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="bd88-c42b-1e55-7c1e" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+        <entryLink id="8ef6-dd2a-6320-ff96" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
+        <entryLink id="d8ba-7d0c-e9d7-16f7" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="42.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="278e-ddaf-aec4-ab49" name="1 - ••Naboo Handmaiden" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4215-6a12-a686-92b3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1346-b714-82ea-413b" name="••Naboo Handmaiden" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Royal Ruse</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="101a-3918-fb0a-4de1" name="••Naboo Handmaiden" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Setup: After placing forces, assign the Decoyed condition to 1 friendly ship other than Naboo Handmaiden.</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cfa9-3977-66ab-f641" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule"/>
+        <infoLink id="64c9-dbd0-3f84-8f5b" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule"/>
+        <infoLink id="de1e-9c7a-6ab9-f501" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="6f20-a0d5-1b43-8b15" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+        <infoLink id="472b-c7b4-1d5d-d6a2" name="•Decoyed" hidden="false" targetId="6cb3-c66c-6165-60ab" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f0db-43c9-caf3-93d6" name="New CategoryLink" hidden="false" targetId="28f5-13e2-535d-59f9" primary="true"/>
+        <categoryLink id="79fa-09f2-6382-8e01" name="Agility 2" hidden="false" targetId="0989-0ea8-afeb-b1b0" primary="false"/>
+        <categoryLink id="33d9-524a-2e22-0ea5" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
+        <categoryLink id="9374-a5be-667f-1396" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false"/>
+        <categoryLink id="1235-fa03-7850-368a" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="1922-d700-8c9b-f491" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
+        <categoryLink id="49f8-59df-605c-8bab" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="c2ab-19fc-a0b9-c76f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="684a-1e01-9dbc-1f8b" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="89b5-0a8c-a4b5-9fe8" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="81ed-6c30-3080-5964" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+        <entryLink id="2491-941d-8e66-133f" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a289-e628-6ce0-f500" name="2 - Bravo Flight Officer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="141b-9488-d828-d746" name="Bravo Flight Officer" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">2</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="afce-a40f-a152-4904" name="Bravo Flight Officer" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="19a4-0b0b-d255-6c44" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule"/>
+        <infoLink id="617c-c2a0-1927-1465" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule"/>
+        <infoLink id="800f-229b-5487-1751" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="6a08-6919-7cd4-2576" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2dad-82b9-6ec8-75d3" name="New CategoryLink" hidden="false" targetId="28f5-13e2-535d-59f9" primary="true"/>
+        <categoryLink id="f61e-73f3-5cd1-e3bb" name="Agility 2" hidden="false" targetId="0989-0ea8-afeb-b1b0" primary="false"/>
+        <categoryLink id="db5b-0261-e570-8670" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
+        <categoryLink id="5e91-5c07-08ff-41f8" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false"/>
+        <categoryLink id="bf3a-cb9d-2209-bf1d" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="b546-1f7a-b8f5-6c57" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
+        <categoryLink id="dfad-5d5e-60d3-14f4" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="8291-0c5b-8735-951a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="73c6-833d-04f0-08d0" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="b0f9-781b-19fb-a7b6" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3e63-a774-3f52-b2f3" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="c694-53d5-0060-0d1b" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+        <entryLink id="6c8f-64ac-3396-df07" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62ab-876d-ff1b-56f9" name="3 - •Dineé Ellberger" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d141-240f-890c-3762" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a757-0565-e37b-4134" name="•Dineé Ellberger" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Bravo Five</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1641-999e-953c-784d" name="•Dineé Ellberger" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship&apos;s, that ship&apos;s dice cannot be modified.</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ea3a-8f16-3a52-a775" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule"/>
+        <infoLink id="4242-24a2-da04-591a" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule"/>
+        <infoLink id="38ef-c854-14f8-53cc" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="b48d-009e-97b5-6464" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dd6b-670c-b413-d291" name="New CategoryLink" hidden="false" targetId="28f5-13e2-535d-59f9" primary="true"/>
+        <categoryLink id="87eb-f07d-dafc-b87d" name="Agility 2" hidden="false" targetId="0989-0ea8-afeb-b1b0" primary="false"/>
+        <categoryLink id="c668-35df-fa05-4e31" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
+        <categoryLink id="3a20-8574-85f9-a2db" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false"/>
+        <categoryLink id="13b0-586a-76ce-f3f0" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="d033-3f0f-5a9e-f26b" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
+        <categoryLink id="016c-5742-4edc-9306" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="0a36-199c-78a1-2643" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="4816-706e-ed88-d1fd" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f6c6-6a04-09e1-31b6" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="1688-d45b-008c-0c74" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+        <entryLink id="ed7d-2e02-49b0-6642" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
+        <entryLink id="79d3-353d-74af-5b0a" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c145-785e-84ab-5be5" name="4 - •Padmé Amidala" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e34-d407-000f-4b75" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="370b-3aad-2256-8e26" name="•Padmé Amidala" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Aggressive Negotiator</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1153-831f-027d-46d1" name="•Padmé Amidala" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While an enemy ship in your [front arc] defends or performs an attack, that ship can modify only 1 [focus] result (other results can still be modified).</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b57a-816b-c409-6f30" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule"/>
+        <infoLink id="b65c-4073-2084-3fea" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule"/>
+        <infoLink id="b959-6bd9-16e0-6017" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="9614-b521-9cdd-6de3" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="099b-9d11-4754-9c1d" name="New CategoryLink" hidden="false" targetId="28f5-13e2-535d-59f9" primary="true"/>
+        <categoryLink id="a48d-aedb-f079-b8d6" name="Agility 2" hidden="false" targetId="0989-0ea8-afeb-b1b0" primary="false"/>
+        <categoryLink id="903e-0e6a-1232-fa62" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
+        <categoryLink id="0928-aa3a-6d76-4fde" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false"/>
+        <categoryLink id="8650-5b71-79c9-b3a0" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="52e3-796d-3879-8e5a" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
+        <categoryLink id="52b5-9819-5986-abd9" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="082d-4ef9-0b47-8c6d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="8489-bebf-e400-c059" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="148a-81eb-6d67-1a0b" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="febe-f876-0294-74e7" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+        <entryLink id="533f-6542-e5e3-ca5f" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
+        <entryLink id="3d25-e18c-3069-013a" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b7b7-5ff6-4c45-a167" name="4 - •Anakin Skywalker" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e50e-8b84-cb94-4a1b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0320-c2f3-4e8e-7950" name="•Anakin Skywalker" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Hero of Naboo</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81">1^</characteristic>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ca72-8247-9c01-71f2" name="•Anakin Skywalker" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Before you reveal your maneuver, you may spend 1 [force] to barrel roll (this is not an action).</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b140-34a9-055a-ec32" name="Barrel Roll" hidden="false" targetId="e468-1742-35c3-e46c" type="rule"/>
+        <infoLink id="e935-7b92-b2ee-8c3c" name="Boost" hidden="false" targetId="3bdb-9eaa-caa3-6fdd" type="rule"/>
+        <infoLink id="d569-de42-6968-20d0" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="dfdf-39b5-9565-8b7a" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ca61-5e1a-f9b4-3980" name="New CategoryLink" hidden="false" targetId="28f5-13e2-535d-59f9" primary="true"/>
+        <categoryLink id="f37a-ff39-be5e-ed5e" name="Agility 2" hidden="false" targetId="0989-0ea8-afeb-b1b0" primary="false"/>
+        <categoryLink id="3eda-71e4-0646-9701" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
+        <categoryLink id="e5bc-dd27-c579-5341" name="Boost" hidden="false" targetId="84a5-e210-51d4-8cbf" primary="false"/>
+        <categoryLink id="0156-4b72-af2b-bb80" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="140e-e9e3-863d-3325" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
+        <categoryLink id="af94-4b0c-6a37-3c16" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="eb10-7aca-5b3a-53b9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="7ac6-a24f-58a3-0432" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
+        <categoryLink id="276c-672a-712a-dae3" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="16d7-6acf-cd83-d967" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="b7ac-cf03-df89-d433" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+        <entryLink id="a3a8-fe88-6fc7-8a52" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
+        <entryLink id="43e0-3640-b082-16f1" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="41.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e721-be9d-290e-de95" name="Cannon" hidden="false" collective="false">
@@ -26041,7 +26366,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d25d-b921-a380-0a0c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5d6f-d515-a9a8-2aeb" name="Afterburners" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrades">
+            <profile id="5d6f-d515-a9a8-2aeb" name="Afterburners" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you fully execute a speed 3-5 maneuver, you may spend 1 [charge] to perform a [boost] action, even while stressed.</characteristic>
                 <characteristic name="Charges" typeId="d449-596d-5f95-dc10">2</characteristic>
@@ -32830,6 +33155,11 @@
         <characteristic name="Hull" typeId="938f-637d-21ce-819a">1</characteristic>
         <characteristic name="Remote Ability" typeId="5cda-aacc-f6e2-ade6">After an enemy ship moves through or overlaps you, relocate to its front or rear guides (you are at range 0 of this ship). You cannot overlap an object this way. If you cannot be placed at either set of guides, you and that ship each suffer 1 [regular] damage.</characteristic>
         <characteristic name="Activation" typeId="f63e-01b4-deb5-d73d">Engagement Phase: At your initiative, each enemy ship at range 0 suffers 1 [critical] damage.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6cb3-c66c-6165-60ab" name="•Decoyed" hidden="false" typeId="d911-04a5-7b69-bff9" typeName="4.1 Condition">
+      <characteristics>
+        <characteristic name="Ability" typeId="61d7-d10d-34c8-85d1">While you defend, each friendly Naboo Handmaiden in the attack arc may spend 1 evade token to change one of your results to an [evade] result. If you are a Naboo Royal N-1 Starfighter, each friendly Naboo Handmaiden in the attack arc may spend 1 evade token to add 1 [evade] result instead.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

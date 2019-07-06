@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d137-8fb9-efcd-c317" name="Galactic Republic" revision="2" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d137-8fb9-efcd-c317" name="Galactic Republic" revision="3" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="76e8-425c-f31f-875e" name="RD 6 - •Anakin Skywalker" hidden="false" collective="false" targetId="ee4a-cfc9-e7ec-e4ff" type="selectionEntry"/>
     <entryLink id="00b8-fa67-4fb0-9c9a" name="RD 5 - •Obi-Wan Kenobi" hidden="false" collective="false" targetId="3cc9-b3a1-5541-e2e7" type="selectionEntry"/>
@@ -23,5 +23,11 @@
     <entryLink id="3b51-1966-b28e-2dd7" name="RV 3 - •&quot;Swoop&quot;" hidden="false" collective="false" targetId="6e80-22c7-966b-5f30" type="selectionEntry"/>
     <entryLink id="661c-ce70-4ff5-41c4" name="RV 4 - •&quot;Kickback&quot;" hidden="false" collective="false" targetId="3af0-332e-427b-55be" type="selectionEntry"/>
     <entryLink id="8394-a36c-ea6e-116b" name="RV 5 - •&quot;Odd Ball&quot;" hidden="false" collective="false" targetId="cf8b-52b1-2c0e-215b" type="selectionEntry"/>
+    <entryLink id="a5ee-7540-1e74-0a5f" name="N1 1 - ••Naboo Handmaiden" hidden="false" collective="false" targetId="278e-ddaf-aec4-ab49" type="selectionEntry"/>
+    <entryLink id="f0d1-fd01-adcc-9a38" name="N1 2 - Bravo Flight Officer" hidden="false" collective="false" targetId="a289-e628-6ce0-f500" type="selectionEntry"/>
+    <entryLink id="efc6-886d-c15c-9604" name="N1 3 - •Dineé Ellberger" hidden="false" collective="false" targetId="62ab-876d-ff1b-56f9" type="selectionEntry"/>
+    <entryLink id="53e2-6d59-b7f2-6aae" name="N1 4 - •Anakin Skywalker" hidden="false" collective="false" targetId="b7b7-5ff6-4c45-a167" type="selectionEntry"/>
+    <entryLink id="3c31-bbc5-0a22-7d7d" name="N1 4 - •Padmé Amidala" hidden="false" collective="false" targetId="c145-785e-84ab-5be5" type="selectionEntry"/>
+    <entryLink id="6f19-b573-6900-eefb" name="N1 5 - •Ric Olié" hidden="false" collective="false" targetId="2eef-b37e-9133-b3e9" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
