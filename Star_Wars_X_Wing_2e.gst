@@ -31905,6 +31905,28 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="5121-c614-50b4-5fb4" name="R2 Astromech" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b0d-0f1c-9c16-4b8c" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbe3-5d2f-03c2-5a94" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0989-0ea8-afeb-b1b0" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="759d-fe45-120d-9c1f" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="58af-6447-b73e-fb78" type="max"/>
           </constraints>
@@ -31919,7 +31941,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8167-2e78-6d53-bd27" name="•R2-D2" hidden="false" collective="false" type="upgrade">
@@ -31933,6 +31955,26 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbe3-5d2f-03c2-5a94" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b0d-0f1c-9c16-4b8c" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="7.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="759d-fe45-120d-9c1f" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="5.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0989-0ea8-afeb-b1b0" type="instanceOf"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -31950,7 +31992,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="70e5-1621-fe84-25e0" name="R3 Astromech" hidden="false" collective="false" type="upgrade">
@@ -32161,9 +32203,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="646f-5169-4228-619d" name="•BB-8" hidden="false" collective="false" type="upgrade">
           <modifiers>
@@ -32202,6 +32241,11 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a3a-f3a1-797b-7470" type="instanceOf"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66f4-a528-0e45-59fd" type="max"/>
@@ -32218,7 +32262,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="8.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8805-36d4-cb68-93d9" name="BB Astromech" hidden="false" collective="false" type="upgrade">
@@ -32228,27 +32272,27 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="2">
+            <modifier type="set" field="f063-1033-6a55-7413" value="2.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+            <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="5">
+            <modifier type="set" field="f063-1033-6a55-7413" value="5.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="1">
+            <modifier type="set" field="f063-1033-6a55-7413" value="1.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="3">
+            <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
               </conditions>
@@ -32256,6 +32300,11 @@
             <modifier type="set" field="f063-1033-6a55-7413" value="4">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a3a-f3a1-797b-7470" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -32429,6 +32478,68 @@
           </profiles>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e2b0-ebf9-567e-2b24" name="•R2-C4" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3018-ed0b-08ad-5756" type="notInstanceOf"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e2b0-ebf9-567e-2b24" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2753-871b-583c-2635" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a22-9c48-0132-9d66" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9343-76fe-b4b8-f3ac" name="•R2-C4" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">While you perform an attack, you may spend 1 evade token to change 1 [focus] result to a [hit] result.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10">0</characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Astromech</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9079-2c99-a196-d853" name="•R2-A6" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3018-ed0b-08ad-5756" type="notInstanceOf"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9079-2c99-a196-d853" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ed8-1e51-133e-61b6" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="28d6-6340-603c-85f0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="98f2-b95e-ba41-3cb2" name="•R2-A6" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10">0</characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Astromech</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
