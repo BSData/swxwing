@@ -25867,11 +25867,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Bravol Leader</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">5</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -25921,11 +25921,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Royal Ruse</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -25972,11 +25972,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">2</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26026,11 +26026,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Bravo Five</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26080,11 +26080,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Aggressive Negotiator</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26134,11 +26134,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Hero of Naboo</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">3</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">2</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81">1^</characteristic>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26399,12 +26399,12 @@
         </selectionEntry>
         <selectionEntry id="0559-f038-5a74-e23d" name="Shield Upgrade" hidden="false" collective="false" type="upgrade">
           <modifiers>
-            <modifier type="set" field="f063-1033-6a55-7413" value="4">
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbe3-5d2f-03c2-5a94" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+            <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0989-0ea8-afeb-b1b0" type="instanceOf"/>
               </conditions>
@@ -28096,10 +28096,51 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="17f7-f901-2b98-f22b" name="Inertial Dampeners" hidden="false" collective="false" type="upgrade">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="f063-1033-6a55-7413" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a3a-f3a1-797b-7470" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="f063-1033-6a55-7413" value="8.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="f063-1033-6a55-7413" value="7.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="f063-1033-6a55-7413" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b24c-51da-687c-b965" type="max"/>
           </constraints>
