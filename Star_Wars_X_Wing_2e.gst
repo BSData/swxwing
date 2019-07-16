@@ -28100,47 +28100,43 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="17f7-f901-2b98-f22b" name="Inertial Dampeners" hidden="false" collective="false" type="upgrade">
-          <modifierGroups>
-            <modifierGroup>
-              <modifiers>
-                <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="f063-1033-6a55-7413" value="2.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a3a-f3a1-797b-7470" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="f063-1033-6a55-7413" value="8.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="f063-1033-6a55-7413" value="7.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="f063-1033-6a55-7413" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
+          <modifiers>
+            <modifier type="set" field="f063-1033-6a55-7413" value="8.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="5.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a3a-f3a1-797b-7470" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="7.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b24c-51da-687c-b965" type="max"/>
           </constraints>
