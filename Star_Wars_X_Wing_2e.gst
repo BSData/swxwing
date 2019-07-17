@@ -23823,11 +23823,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Evacuation Expert</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26298,11 +26298,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">D&apos;Qar Dispatcher</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26381,11 +26381,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Insubordinate Insurgent</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">2</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26461,11 +26461,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26521,13 +26521,6 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="7df0-fc37-b0b9-4b4b" name="Ion Cannon" hidden="false" collective="false" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6af-f61b-7572-d8f9" type="max"/>
           </constraints>
@@ -26598,6 +26591,26 @@
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">1-3</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714"/>
                 <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack: If this attack hits, all [hit]/[critical] results inflict tractor tokens instead of damage.</characteristic>
+                <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
+                <characteristic name="Type" typeId="7769-7488-8779-032b">Cannon</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d8d6-61e3-57f6-95ae" name="Autoblasters" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="814f-02ed-1e2c-2103" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="07ae-a226-1c78-8d44" name="Autoblasters" hidden="false" typeId="95ad-ef6c-3536-4e49" typeName="2.1 Special Weapon">
+              <characteristics>
+                <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">2 (front)</characteristic>
+                <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">1-2</characteristic>
+                <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714"/>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack: If the defender is in your [bullseye arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender&apos;s [front arc], [evade] results do not cancel [critical] results.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Cannon</characteristic>
               </characteristics>
