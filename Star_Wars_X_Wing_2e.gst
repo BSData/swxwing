@@ -205,6 +205,7 @@
     <categoryEntry id="b560-398f-0579-8fa5" name="Non-Limited" hidden="false"/>
     <categoryEntry id="9c91-ce1c-3d94-58d3" name="Evade (Purple)" hidden="false"/>
     <categoryEntry id="28f5-13e2-535d-59f9" name="Naboo Royal N-1 Starfighter" hidden="false"/>
+    <categoryEntry id="5ae0-ddfd-4cf4-e913" name="Resistance Transport" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5d62-a853-33cd-82c9" name=" Standard" hidden="false">
@@ -289,6 +290,7 @@
         <categoryLink id="ae1a-667e-1795-e477" name="YV-666 Light Freighter" hidden="false" targetId="60bc-7501-71d7-6e45" primary="false"/>
         <categoryLink id="2ae9-1874-b523-5f78" name="Z-95-AF4 Headhunter" hidden="false" targetId="30f8-3f81-4d1b-c64d" primary="false"/>
         <categoryLink id="880b-47c7-a30c-b8bb" name="Naboo Royal N-1 Starfighter" hidden="false" targetId="28f5-13e2-535d-59f9" primary="false"/>
+        <categoryLink id="536e-bfd7-69cd-cb69" name="Resistance Transport" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="7cca-7220-e7ce-53b5" name="Hyperspace" hidden="false">
@@ -331,6 +333,7 @@
         <categoryLink id="8bc6-0d1f-cfe8-f039" name="Vulture-class Droid Fighter" hidden="false" targetId="d3e8-127d-cae2-6b21" primary="false"/>
         <categoryLink id="0678-bd83-a6aa-5985" name="Z-95-AF4 Headhunter" hidden="false" targetId="30f8-3f81-4d1b-c64d" primary="false"/>
         <categoryLink id="bda5-c2b6-dc48-d47f" name="Naboo Royal N-1 Starfighter" hidden="false" targetId="28f5-13e2-535d-59f9" primary="false"/>
+        <categoryLink id="92f8-57ca-4b4f-7f46" name="Resistance Transport" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -23788,52 +23791,88 @@
         <cost name=" Points" typeId="f063-1033-6a55-7413" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f234-a8d3-df51-0f4c" name="X - •Template" hidden="false" collective="false" type="model">
+    <selectionEntry id="f234-a8d3-df51-0f4c" name="4 - •Cova Nell" hidden="false" collective="false" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f9aa-4f10-50f1-de11" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7e32-7ffc-2dcf-7565" name="•Template" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+        <profile id="7e32-7ffc-2dcf-7565" name="•Cova Nell" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
           <modifiers>
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+                <condition field="selections" scope="f234-a8d3-df51-0f4c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+                <condition field="selections" scope="f234-a8d3-df51-0f4c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+                <condition field="selections" scope="f234-a8d3-df51-0f4c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
+              <conditions>
+                <condition field="selections" scope="f234-a8d3-df51-0f4c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
-            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a"/>
-            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d"/>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
-            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351"/>
-            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">0</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">0</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Evacuation Expert</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
-            <characteristic name="Size" typeId="4070-1764-712c-8932"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
-        <profile id="ab64-a391-4aec-a32e" name="•Template" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+        <profile id="ab64-a391-4aec-a32e" name="•Cova Nell" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
           <characteristics>
-            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform a primary attack, if your revealed maneuver is red, roll 1 additional die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810"/>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="ba72-ded8-6225-0b3e" name="Coordinate (Red)" hidden="false" targetId="b0de-a163-845d-0b7e" type="rule"/>
+        <infoLink id="1c80-147d-aaba-d9a5" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="3c04-614b-cf62-9c5d" name="Jam (Red)" hidden="false" targetId="11ef-e662-9a2f-d8d8" type="rule"/>
+        <infoLink id="e41e-276a-4929-f55a" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="979f-e81c-6548-f732" name="New CategoryLink" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="true"/>
+        <categoryLink id="b4e7-70f4-df40-7cea" name="2+ Crew Slots" hidden="false" targetId="5f54-7413-5c9a-d4c6" primary="false"/>
+        <categoryLink id="7e95-6b30-7eaf-1d69" name="Agility 1" hidden="false" targetId="cbe3-5d2f-03c2-5a94" primary="false"/>
+        <categoryLink id="af26-01ed-571f-296a" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false"/>
+        <categoryLink id="a417-8f5d-416b-9b12" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="5da4-d64f-df9c-b4ef" name="Jam (Red)" hidden="false" targetId="f3f8-ac0f-ad15-ce0f" primary="false"/>
+        <categoryLink id="2ee4-e23a-3cda-b2a8" name="Resistance" hidden="false" targetId="40ea-c89e-a8e7-99d8" primary="false"/>
+        <categoryLink id="3247-f8ab-8c75-d43a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="a4b6-be6c-bbe9-9e15" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="daf7-aa18-e4c2-633e" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2124-836b-71d4-7d35" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
+        <entryLink id="f5dd-0454-1540-9b16" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
+        <entryLink id="9d64-15a2-7d82-3846" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup"/>
+        <entryLink id="0393-4b19-bad6-3273" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+        <entryLink id="89ac-5c4b-d0ae-7c0b" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="97cd-7aea-bb9d-90e8" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="10fb-d9f0-1096-eb1c" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="0.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="34b3-7477-0baa-6a12" name="2 - •Captain Sear" hidden="false" collective="false" type="model">
@@ -26179,6 +26218,301 @@
         <cost name=" Points" typeId="f063-1033-6a55-7413" value="41.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="df7b-980f-dcf1-3bc6" name="X - •Template" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9fd4-efaa-cf2b-5ad4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2dcc-e755-5dd6-95b4" name="•Template" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a"/>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d"/>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351"/>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">0</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">0</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932"/>
+          </characteristics>
+        </profile>
+        <profile id="2d16-8167-7afb-6c26" name="•Template" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b6fa-be90-fb05-0c9f" name="3 - •Pammich Nerro Goode" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd93-0653-e91c-e794" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b6d8-dd66-64e1-a2fc" name="•Pammich Nerro Goode" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <conditions>
+                <condition field="selections" scope="b6fa-be90-fb05-0c9f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b6fa-be90-fb05-0c9f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
+              <conditions>
+                <condition field="selections" scope="b6fa-be90-fb05-0c9f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
+              <conditions>
+                <condition field="selections" scope="b6fa-be90-fb05-0c9f" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">D&apos;Qar Dispatcher</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c686-521b-d878-ecab" name="•Pammich Nerro Goode" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you have 2 or fewer stress tokens, you may execute red maneuvers even while stressed.</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red), Jam (Red)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="78e1-5b20-7262-5866" name="Coordinate (Red)" hidden="false" targetId="b0de-a163-845d-0b7e" type="rule"/>
+        <infoLink id="b69c-68a7-e105-969b" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="c9eb-0b97-8f0b-5b5c" name="Jam (Red)" hidden="false" targetId="11ef-e662-9a2f-d8d8" type="rule"/>
+        <infoLink id="cd29-b6c3-e610-02c7" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d7ce-da9b-001d-15a2" name="New CategoryLink" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="true"/>
+        <categoryLink id="7845-bb3d-5291-eab6" name="2+ Crew Slots" hidden="false" targetId="5f54-7413-5c9a-d4c6" primary="false"/>
+        <categoryLink id="6be9-59f6-03d9-a81d" name="Agility 1" hidden="false" targetId="cbe3-5d2f-03c2-5a94" primary="false"/>
+        <categoryLink id="d2db-c9dc-b353-18cc" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false"/>
+        <categoryLink id="e788-e9fd-ce27-f747" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="21e7-1a57-0ec1-1bd1" name="Jam (Red)" hidden="false" targetId="f3f8-ac0f-ad15-ce0f" primary="false"/>
+        <categoryLink id="80ca-5a64-4db0-2411" name="Resistance" hidden="false" targetId="40ea-c89e-a8e7-99d8" primary="false"/>
+        <categoryLink id="d8ac-d3b4-537c-b8da" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="a305-107a-42ab-2e5f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="5b29-a862-14db-9b1d" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c3ea-9f2a-9d44-7474" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="977c-bf7c-fd2c-c7b6" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup"/>
+        <entryLink id="d8f0-0073-9f3a-67e3" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="56c8-8f36-d0e2-5ce8" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
+        <entryLink id="f735-8851-c9cf-b1f4" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
+        <entryLink id="1f50-1cfc-835a-82bb" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="71b9-1bf9-23b1-cffc" name="2 - •Nodin Chavdri" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5429-de18-9479-81ba" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fb97-7af6-4965-6c0f" name="•Nodin Chavdri" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <conditions>
+                <condition field="selections" scope="71b9-1bf9-23b1-cffc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="71b9-1bf9-23b1-cffc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
+              <conditions>
+                <condition field="selections" scope="71b9-1bf9-23b1-cffc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
+              <conditions>
+                <condition field="selections" scope="71b9-1bf9-23b1-cffc" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Insubordinate Insurgent</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">2</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eaa2-ba2e-739d-0b64" name="•Nodin Chavdri" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you coordinate or are coordinated, if you have 2 or fewer stress tokens, you may perform 1 action on your action bar as a red action, even if you are stressed.</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red), Jam (Red)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4e12-21ee-b49b-03da" name="Coordinate (Red)" hidden="false" targetId="b0de-a163-845d-0b7e" type="rule"/>
+        <infoLink id="335a-7613-8cf9-566b" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="7612-cced-1b86-22ae" name="Jam (Red)" hidden="false" targetId="11ef-e662-9a2f-d8d8" type="rule"/>
+        <infoLink id="76c6-6092-855d-aedb" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4022-77d7-728f-2672" name="New CategoryLink" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="true"/>
+        <categoryLink id="fb63-206d-32e3-f37a" name="2+ Crew Slots" hidden="false" targetId="5f54-7413-5c9a-d4c6" primary="false"/>
+        <categoryLink id="4a48-26fd-4511-0482" name="Agility 1" hidden="false" targetId="cbe3-5d2f-03c2-5a94" primary="false"/>
+        <categoryLink id="dff5-6228-6f4f-8b0d" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false"/>
+        <categoryLink id="1b44-54e7-4bf9-68a4" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="5096-ab57-f715-553f" name="Jam (Red)" hidden="false" targetId="f3f8-ac0f-ad15-ce0f" primary="false"/>
+        <categoryLink id="3f00-9dd6-636b-d598" name="Resistance" hidden="false" targetId="40ea-c89e-a8e7-99d8" primary="false"/>
+        <categoryLink id="0176-c891-265e-fc6a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="d054-2491-42d7-23fb" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="1cc5-a5b4-1822-bbb8" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="868f-223f-8b6b-d674" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="0866-377b-a513-d978" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup"/>
+        <entryLink id="13b3-c3dc-f443-3478" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6432-f00d-e063-5778" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
+        <entryLink id="6cae-0863-d384-9a0b" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
+        <entryLink id="b11c-e226-4897-cddf" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5163-ae0c-96b9-d632" name="1 - Logistics Division Pilot" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7e25-8a87-cea8-6165" name=" Logistics Division Pilot" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <modifiers>
+            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
+              <conditions>
+                <condition field="selections" scope="5163-ae0c-96b9-d632" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="5163-ae0c-96b9-d632" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
+              <conditions>
+                <condition field="selections" scope="5163-ae0c-96b9-d632" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
+              <conditions>
+                <condition field="selections" scope="5163-ae0c-96b9-d632" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b05-2194-02ed-430e" name=" Logistics Division Pilot" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red), Jam (Red)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6cae-3851-d856-b544" name="Coordinate (Red)" hidden="false" targetId="b0de-a163-845d-0b7e" type="rule"/>
+        <infoLink id="6702-c60b-1786-a19a" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="5e7a-dceb-0bd5-8bca" name="Jam (Red)" hidden="false" targetId="11ef-e662-9a2f-d8d8" type="rule"/>
+        <infoLink id="90da-f7d3-ee31-dea2" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dd5b-96f2-5409-151a" name="New CategoryLink" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="true"/>
+        <categoryLink id="9255-b2e1-ced8-f5e5" name="2+ Crew Slots" hidden="false" targetId="5f54-7413-5c9a-d4c6" primary="false"/>
+        <categoryLink id="cb9a-3a71-78f3-3c4a" name="Agility 1" hidden="false" targetId="cbe3-5d2f-03c2-5a94" primary="false"/>
+        <categoryLink id="a17c-ce7a-e1c3-5610" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false"/>
+        <categoryLink id="50fc-c0ee-543f-04bd" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="0a26-33eb-20ce-35ce" name="Jam (Red)" hidden="false" targetId="f3f8-ac0f-ad15-ce0f" primary="false"/>
+        <categoryLink id="6e69-39fa-9e1f-e2e3" name="Resistance" hidden="false" targetId="40ea-c89e-a8e7-99d8" primary="false"/>
+        <categoryLink id="be16-6559-54d0-2da8" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="c627-1854-fea5-b489" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="dfc9-c986-2376-eb57" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="6caa-6f2e-0e7f-6eca" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="56bd-a76a-0d71-a270" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
+        <entryLink id="32d8-6eed-962d-a5fe" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup"/>
+        <entryLink id="53f3-0b9c-2c37-8931" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="4e0a-a0cd-3bd6-45d2" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="1baa-1044-3d95-e2b7" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
+        <entryLink id="bb31-ac87-4d87-72d8" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
+        <entryLink id="107a-8a00-553d-6945" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="32.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e721-be9d-290e-de95" name="Cannon" hidden="false" collective="false">
@@ -28116,11 +28450,6 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="2.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a3a-f3a1-797b-7470" type="instanceOf"/>
-              </conditions>
-            </modifier>
             <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
@@ -28151,7 +28480,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -31908,11 +32237,6 @@
           <modifiers>
             <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b0d-0f1c-9c16-4b8c" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
-              <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbe3-5d2f-03c2-5a94" type="instanceOf"/>
               </conditions>
             </modifier>
@@ -32203,6 +32527,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="646f-5169-4228-619d" name="•BB-8" hidden="false" collective="false" type="upgrade">
           <modifiers>
