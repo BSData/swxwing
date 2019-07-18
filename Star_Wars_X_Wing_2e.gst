@@ -122,7 +122,7 @@
     <categoryEntry id="3be3-c3d9-fea5-4a9a" name="MG-100 StarFortress" hidden="false"/>
     <categoryEntry id="712c-f423-555b-4d41" name="Modified TIE/ln Fighter" hidden="false"/>
     <categoryEntry id="852c-3df6-f42f-766c" name="Modified YT-1300 Light Freighter" hidden="false"/>
-    <categoryEntry id="3a9a-a8bd-1f1c-2253" name="Nantex-class Territorial Starfighter" hidden="false"/>
+    <categoryEntry id="3a9a-a8bd-1f1c-2253" name="Nantex-class Starfighter" hidden="false"/>
     <categoryEntry id="46fd-5151-1308-657a" name="Punworcca 116-class Interstellar Sloop" hidden="false"/>
     <categoryEntry id="3f81-a067-cfcf-5b89" name="Quadrijet Transfer Spacetug" hidden="false"/>
     <categoryEntry id="f581-032a-0c70-3586" name="RZ-1 A-wing" hidden="false"/>
@@ -252,9 +252,12 @@
         <categoryLink id="2f57-214b-8d82-25f3" name="MG-100 StarFortress" hidden="false" targetId="3be3-c3d9-fea5-4a9a" primary="false"/>
         <categoryLink id="8b78-9954-824a-cb6c" name="Modified TIE/ln Fighter" hidden="false" targetId="712c-f423-555b-4d41" primary="false"/>
         <categoryLink id="fd49-1798-f8d9-bf0a" name="Modified YT-1300 Light Freighter" hidden="false" targetId="852c-3df6-f42f-766c" primary="false"/>
+        <categoryLink id="880b-47c7-a30c-b8bb" name="Naboo Royal N-1 Starfighter" hidden="false" targetId="28f5-13e2-535d-59f9" primary="false"/>
         <categoryLink id="917e-1395-92e2-e75b" name="Nantex-class Territorial Starfighter" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="false"/>
         <categoryLink id="46ed-68b1-eac4-0673" name="Punworcca 116-class Interstellar Sloop" hidden="false" targetId="46fd-5151-1308-657a" primary="false"/>
         <categoryLink id="0df3-408d-049c-12dd" name="Quadrijet Transfer Spacetug" hidden="false" targetId="3f81-a067-cfcf-5b89" primary="false"/>
+        <categoryLink id="536e-bfd7-69cd-cb69" name="Resistance Transport" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="false"/>
+        <categoryLink id="2df6-9648-397d-e2a5" name="Resistance Transport Pod" hidden="false" targetId="5d30-6a58-2e7f-1dc1" primary="false"/>
         <categoryLink id="03bc-3f2e-9132-2446" name="Rogue-class Starfighter" hidden="false" targetId="f8de-0c8b-e964-59a5" primary="false"/>
         <categoryLink id="6f41-3788-fce6-5aa3" name="RZ-1 A-wing" hidden="false" targetId="f581-032a-0c70-3586" primary="false"/>
         <categoryLink id="b34b-1f9d-2666-0496" name="RZ-2 A-wing" hidden="false" targetId="aa70-d53b-172b-bf9d" primary="false"/>
@@ -290,9 +293,6 @@
         <categoryLink id="8726-f149-5595-db60" name="YT-2400 Light Freighter" hidden="false" targetId="5c31-c18c-f125-8aa2" primary="false"/>
         <categoryLink id="ae1a-667e-1795-e477" name="YV-666 Light Freighter" hidden="false" targetId="60bc-7501-71d7-6e45" primary="false"/>
         <categoryLink id="2ae9-1874-b523-5f78" name="Z-95-AF4 Headhunter" hidden="false" targetId="30f8-3f81-4d1b-c64d" primary="false"/>
-        <categoryLink id="880b-47c7-a30c-b8bb" name="Naboo Royal N-1 Starfighter" hidden="false" targetId="28f5-13e2-535d-59f9" primary="false"/>
-        <categoryLink id="536e-bfd7-69cd-cb69" name="Resistance Transport" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="false"/>
-        <categoryLink id="2df6-9648-397d-e2a5" name="Resistance Transport Pod" hidden="false" targetId="5d30-6a58-2e7f-1dc1" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="7cca-7220-e7ce-53b5" name="Hyperspace" hidden="false">
@@ -305,6 +305,7 @@
         <categoryLink id="6de7-6692-650a-2e66" name="ARC-170 Starfighter" hidden="false" targetId="2993-2d70-4d70-9e06" primary="false"/>
         <categoryLink id="6a38-152b-b713-398a" name="Belbullab-22 Starfighter" hidden="false" targetId="5afc-c77e-8128-8cfa" primary="false"/>
         <categoryLink id="1497-3cc7-71cb-a6d8" name="BTL-A4 Y-wing" hidden="false" targetId="df1a-b2c6-97c8-e712" primary="false"/>
+        <categoryLink id="9c3d-36f2-027d-90a9" name="BTL-B Y-wing" hidden="false" targetId="962b-e375-2afd-dba0" primary="false"/>
         <categoryLink id="a223-1205-9800-34eb" name="Customized YT-1300 Light Freighter" hidden="false" targetId="3fa7-9f1f-9bd9-4f09" primary="false"/>
         <categoryLink id="3081-03cc-1c98-8394" name="Delta-7 Aethersprite" hidden="false" targetId="4af9-4684-2cb7-98d9" primary="false"/>
         <categoryLink id="5643-327b-39f0-f6c7" name="Escape Craft" hidden="false" targetId="f7fe-b285-fb4f-d693" primary="false"/>
@@ -313,6 +314,10 @@
         <categoryLink id="05cb-7019-c295-f1b9" name="MG-100 StarFortress" hidden="false" targetId="3be3-c3d9-fea5-4a9a" primary="false"/>
         <categoryLink id="f841-32c8-dd17-1ab8" name="Modified TIE/ln Fighter" hidden="false" targetId="712c-f423-555b-4d41" primary="false"/>
         <categoryLink id="d23c-db1a-4110-12d3" name="Modified YT-1300 Light Freighter" hidden="false" targetId="852c-3df6-f42f-766c" primary="false"/>
+        <categoryLink id="bda5-c2b6-dc48-d47f" name="Naboo Royal N-1 Starfighter" hidden="false" targetId="28f5-13e2-535d-59f9" primary="false"/>
+        <categoryLink id="f35b-aee3-1aed-3b92" name="Nantex-class Starfighter" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="false"/>
+        <categoryLink id="92f8-57ca-4b4f-7f46" name="Resistance Transport" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="false"/>
+        <categoryLink id="2a8b-883b-dcfc-6c55" name="Resistance Transport Pod" hidden="false" targetId="5d30-6a58-2e7f-1dc1" primary="false"/>
         <categoryLink id="dd11-8bf2-fc68-d895" name="RZ-1 A-wing" hidden="false" targetId="f581-032a-0c70-3586" primary="false"/>
         <categoryLink id="ad6e-f248-7898-49fb" name="RZ-2 A-wing" hidden="false" targetId="aa70-d53b-172b-bf9d" primary="false"/>
         <categoryLink id="ce68-2ccd-83b6-0eee" name="Scavenged YT-1300" hidden="false" targetId="81bd-fedc-18d7-7c1e" primary="false"/>
@@ -334,9 +339,6 @@
         <categoryLink id="600c-55ec-83a8-3f19" name="V-19 Torrent Starfighter" hidden="false" targetId="fe96-980a-b741-eff8" primary="false"/>
         <categoryLink id="8bc6-0d1f-cfe8-f039" name="Vulture-class Droid Fighter" hidden="false" targetId="d3e8-127d-cae2-6b21" primary="false"/>
         <categoryLink id="0678-bd83-a6aa-5985" name="Z-95-AF4 Headhunter" hidden="false" targetId="30f8-3f81-4d1b-c64d" primary="false"/>
-        <categoryLink id="bda5-c2b6-dc48-d47f" name="Naboo Royal N-1 Starfighter" hidden="false" targetId="28f5-13e2-535d-59f9" primary="false"/>
-        <categoryLink id="92f8-57ca-4b4f-7f46" name="Resistance Transport" hidden="false" targetId="5ae0-ddfd-4cf4-e913" primary="false"/>
-        <categoryLink id="2a8b-883b-dcfc-6c55" name="Resistance Transport Pod" hidden="false" targetId="5d30-6a58-2e7f-1dc1" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -27776,7 +27778,7 @@
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.</characteristic>
                 <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
-                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Configuration Modification</characteristic>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Configuration</characteristic>
               </characteristics>
             </profile>
             <profile id="4802-b52e-7c1f-76e3" name="Landing Struts (Open)" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
@@ -27784,7 +27786,7 @@
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 straight] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.</characteristic>
                 <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
-                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Configuration Modification</characteristic>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Configuration</characteristic>
               </characteristics>
             </profile>
           </profiles>
