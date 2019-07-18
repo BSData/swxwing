@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d499-161b-5f7d-7e7f" name="Separatist Alliance" revision="2" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d499-161b-5f7d-7e7f" name="Separatist Alliance" revision="3" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="547a-2ceb-ff30-ac56" name="SS 2 - Dark Courier" hidden="false" collective="false" targetId="0607-a25a-25d3-86ab" type="selectionEntry"/>
     <entryLink id="d87a-54a5-7b58-53ef" name="SS 3 - •Count Dooku" hidden="false" collective="false" targetId="3186-eaa4-9cb8-0c3c" type="selectionEntry"/>
@@ -16,5 +16,11 @@
     <entryLink id="2a9e-e49a-b924-d56c" name="SB 3 - Skakoan Ace" hidden="false" collective="false" targetId="b1e1-d58b-df15-3dae" type="selectionEntry"/>
     <entryLink id="14ec-38be-c140-19eb" name="SB 3 - •Wat Tambor" hidden="false" collective="false" targetId="45c7-af07-c3eb-f754" type="selectionEntry"/>
     <entryLink id="a652-0929-3b21-c540" name="SB 4 - •General Grievous" hidden="false" collective="false" targetId="548b-8b50-f7e7-fcbf" type="selectionEntry"/>
+    <entryLink id="acc3-60e1-8031-43ec" name="HD 1 - Techno Union Bomber" hidden="false" collective="false" targetId="8277-f4e1-3101-27df" type="selectionEntry"/>
+    <entryLink id="18a3-35c8-e55e-6b01" name="HD 1 - ••Baktoid Prototype" hidden="false" collective="false" targetId="7ca5-b558-c796-b7a5" type="selectionEntry"/>
+    <entryLink id="fa93-5ac3-b570-8fc1" name="HD 3 - Separatist Bomber" hidden="false" collective="false" targetId="7a9d-d055-0d4b-75f8" type="selectionEntry"/>
+    <entryLink id="1445-2a90-faec-052f" name="HD 3 - •DBS-32C" hidden="false" collective="false" targetId="8603-3924-5c6b-760b" type="selectionEntry"/>
+    <entryLink id="dc40-709a-25b0-78dd" name="HD 3 - •••Bombardment Drone" hidden="false" collective="false" targetId="ee35-d631-1615-1bac" type="selectionEntry"/>
+    <entryLink id="9fba-e97e-3918-d2fa" name="HD 4 - •DBS-404" hidden="false" collective="false" targetId="5c3c-4227-8938-4430" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

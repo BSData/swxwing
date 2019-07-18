@@ -26823,7 +26823,7 @@
         <cost name=" Points" typeId="f063-1033-6a55-7413" value="27.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5c3c-4227-8938-4430" name="HD 4 - •DBS-404" hidden="false" collective="false" type="model">
+    <selectionEntry id="5c3c-4227-8938-4430" name="4 - •DBS-404" hidden="false" collective="false" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="06cb-26a8-b74e-bbcd" type="max"/>
       </constraints>
@@ -26890,27 +26890,24 @@
         <cost name=" Points" typeId="f063-1033-6a55-7413" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8277-f4e1-3101-27df" name="HD X - •Template" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="463f-ba25-7e56-4c24" type="max"/>
-      </constraints>
+    <selectionEntry id="8277-f4e1-3101-27df" name="1 - Techno Union Bomber" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="5e90-b302-d91c-34e7" name="•Template" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+        <profile id="5e90-b302-d91c-34e7" name="Techno Union Bomber" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
           <modifiers>
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+                <condition field="selections" scope="8277-f4e1-3101-27df" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="set" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+                <condition field="selections" scope="8277-f4e1-3101-27df" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
-            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a"/>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
             <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
@@ -26921,7 +26918,7 @@
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
-        <profile id="fdef-32ac-bb43-9e57" name="•Template" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+        <profile id="fdef-32ac-bb43-9e57" name="Techno Union Bomber" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
@@ -26933,7 +26930,6 @@
         <infoLink id="5d80-6fb1-a445-7b27" name="Calculate" hidden="false" targetId="b2b4-7333-6f54-b75c" type="rule"/>
         <infoLink id="f23c-c9db-1f43-8a69" name="Barrel Roll &gt; Target Lock (Red)" hidden="false" targetId="38d2-76ac-126b-017f" type="rule"/>
         <infoLink id="4ee2-6198-4968-aaa1" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
-        <infoLink id="a37c-40ff-5afd-610d" name="Jam (Red)" hidden="false" targetId="11ef-e662-9a2f-d8d8" type="rule"/>
         <infoLink id="6440-4d86-9a5c-91ce" name="Reload (Red)" hidden="false" targetId="9db0-b13a-3f5b-875f" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -26942,14 +26938,11 @@
         <categoryLink id="9553-e47c-b89c-a721" name="New CategoryLink" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
         <categoryLink id="d14b-d0a7-daf9-6913" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
         <categoryLink id="6868-898d-6eea-501c" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
-        <categoryLink id="efa4-c06d-989a-7301" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
-        <categoryLink id="eb82-e694-c5b5-972b" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
-        <categoryLink id="044c-0791-1e1e-cbc9" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
-        <categoryLink id="71c3-f02e-3eea-0f0a" name="Jam (Red)" hidden="false" targetId="f3f8-ac0f-ad15-ce0f" primary="false"/>
         <categoryLink id="725c-6b1b-a8ba-4704" name="Reload (Red)" hidden="false" targetId="a3eb-c998-5828-2bfc" primary="false"/>
         <categoryLink id="f2bd-41a7-efcf-537d" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
         <categoryLink id="d9e0-c59b-a38e-c87a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="9474-a980-6d25-7626" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="b15d-c499-95a1-b835" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6ff4-e4d3-35a3-30ee" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -26957,34 +26950,29 @@
         <entryLink id="f052-50b2-dbd3-34bd" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
         <entryLink id="b086-7291-5530-3444" name="Device" hidden="false" collective="false" targetId="4eae-232a-2b4f-f5e8" type="selectionEntryGroup"/>
         <entryLink id="b5e4-d598-7a0e-47fb" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
-        <entryLink id="b9ae-ae40-ead1-5d3f" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
-        <entryLink id="da44-3126-8bb8-f2be" name="Tactical Relay" hidden="false" collective="false" targetId="274e-9c11-1575-363b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="0.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7a9d-d055-0d4b-75f8" name="HD X - •Template" hidden="false" collective="false" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9652-2e0a-9ef9-afa7" type="max"/>
-      </constraints>
+    <selectionEntry id="7a9d-d055-0d4b-75f8" name="3 - Separatist Bomber" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="fea7-6907-7c4e-4bd9" name="•Template" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+        <profile id="fea7-6907-7c4e-4bd9" name="Separatist Bomber" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
           <modifiers>
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+                <condition field="selections" scope="7a9d-d055-0d4b-75f8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="set" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+                <condition field="selections" scope="7a9d-d055-0d4b-75f8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
-            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a"/>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
             <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
@@ -26995,7 +26983,7 @@
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
-        <profile id="8032-d089-1354-ee00" name="•Template" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+        <profile id="8032-d089-1354-ee00" name="Separatist Bomber" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
@@ -27007,7 +26995,6 @@
         <infoLink id="d4e7-28d9-ee39-0deb" name="Calculate" hidden="false" targetId="b2b4-7333-6f54-b75c" type="rule"/>
         <infoLink id="ad68-f2b9-27d1-efe4" name="Barrel Roll &gt; Target Lock (Red)" hidden="false" targetId="38d2-76ac-126b-017f" type="rule"/>
         <infoLink id="9542-b0ec-d9d4-faf6" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
-        <infoLink id="31de-d4ab-c191-044d" name="Jam (Red)" hidden="false" targetId="11ef-e662-9a2f-d8d8" type="rule"/>
         <infoLink id="7222-c5c1-ebcb-989e" name="Reload (Red)" hidden="false" targetId="9db0-b13a-3f5b-875f" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -27015,15 +27002,12 @@
         <categoryLink id="9a3d-53a8-d208-0920" name="Agility 2" hidden="false" targetId="0989-0ea8-afeb-b1b0" primary="false"/>
         <categoryLink id="289d-639d-5d3b-4fdd" name="New CategoryLink" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
         <categoryLink id="93d1-bd20-7739-60a8" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
-        <categoryLink id="de12-717c-382c-6d71" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
-        <categoryLink id="a92f-dcc1-0118-4e54" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="7b8f-bdd3-4c8f-87b1" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
-        <categoryLink id="f489-fda4-e43e-0866" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
-        <categoryLink id="0da6-2010-ac4d-f6d2" name="Jam (Red)" hidden="false" targetId="f3f8-ac0f-ad15-ce0f" primary="false"/>
         <categoryLink id="974a-ce3a-289e-2e43" name="Reload (Red)" hidden="false" targetId="a3eb-c998-5828-2bfc" primary="false"/>
         <categoryLink id="c6b1-db55-0454-6b20" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
         <categoryLink id="2f73-fb15-89f3-3e1e" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="4e4d-d984-3600-d541" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="536b-2c7b-20bd-2e53" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="abcb-b01e-77b9-4f96" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -27031,34 +27015,32 @@
         <entryLink id="35dd-b827-1877-ff93" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
         <entryLink id="2728-88b6-99b8-e3f2" name="Device" hidden="false" collective="false" targetId="4eae-232a-2b4f-f5e8" type="selectionEntryGroup"/>
         <entryLink id="0703-53df-5c7b-dd1d" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
-        <entryLink id="649f-42f2-0010-179c" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
-        <entryLink id="a405-2a9f-dc50-3214" name="Tactical Relay" hidden="false" collective="false" targetId="274e-9c11-1575-363b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="0.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="29.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ca5-b558-c796-b7a5" name="HD X - •Template" hidden="false" collective="false" type="model">
+    <selectionEntry id="7ca5-b558-c796-b7a5" name="1 - ••Baktoid Prototype" hidden="false" collective="false" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="290d-e884-b787-b5f2" type="max"/>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="290d-e884-b787-b5f2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0409-08d7-3b36-d1e0" name="•Template" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+        <profile id="0409-08d7-3b36-d1e0" name="••Baktoid Prototype" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
           <modifiers>
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+                <condition field="selections" scope="7ca5-b558-c796-b7a5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="set" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+                <condition field="selections" scope="7ca5-b558-c796-b7a5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
-            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a"/>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Function over Form</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
             <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
@@ -27069,9 +27051,9 @@
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
-        <profile id="05f3-36d2-e899-93fb" name="•Template" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+        <profile id="05f3-36d2-e899-93fb" name="••Baktoid Prototype" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
           <characteristics>
-            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a special attack, if a friendly ship with the Networked Calculations ship ability has a lock on the defender, you may ignore the [focus], [calculate], or [target lock] requirement of that attack.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
             <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
           </characteristics>
@@ -27081,7 +27063,6 @@
         <infoLink id="8597-8a4f-33af-a6ce" name="Calculate" hidden="false" targetId="b2b4-7333-6f54-b75c" type="rule"/>
         <infoLink id="c920-bcac-8b06-3196" name="Barrel Roll &gt; Target Lock (Red)" hidden="false" targetId="38d2-76ac-126b-017f" type="rule"/>
         <infoLink id="f74b-298b-0ff5-0fb6" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
-        <infoLink id="5d8a-bf71-60f0-4c9f" name="Jam (Red)" hidden="false" targetId="11ef-e662-9a2f-d8d8" type="rule"/>
         <infoLink id="6fab-6198-0652-636c" name="Reload (Red)" hidden="false" targetId="9db0-b13a-3f5b-875f" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -27090,10 +27071,6 @@
         <categoryLink id="7aab-86ac-5c25-9fbc" name="New CategoryLink" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
         <categoryLink id="544a-62ce-2d56-fb92" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
         <categoryLink id="7c5c-70fe-cbf1-d58c" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
-        <categoryLink id="94ef-7106-7812-98f4" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
-        <categoryLink id="f68f-dda8-18b9-894e" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
-        <categoryLink id="5ed6-013b-9766-55ac" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
-        <categoryLink id="a08a-e432-7d43-a715" name="Jam (Red)" hidden="false" targetId="f3f8-ac0f-ad15-ce0f" primary="false"/>
         <categoryLink id="d6bb-2fd5-6139-961b" name="Reload (Red)" hidden="false" targetId="a3eb-c998-5828-2bfc" primary="false"/>
         <categoryLink id="e331-5f4c-7c0e-46df" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
         <categoryLink id="4550-667c-2257-7d71" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
@@ -27102,17 +27079,18 @@
       <entryLinks>
         <entryLink id="a4bd-2211-de71-397e" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
         <entryLink id="7fef-3360-156e-134f" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
-        <entryLink id="7463-16c5-057f-568c" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
-        <entryLink id="77e5-b6d3-60a6-5cd2" name="Device" hidden="false" collective="false" targetId="4eae-232a-2b4f-f5e8" type="selectionEntryGroup"/>
-        <entryLink id="61cb-9499-0d27-2907" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
+        <entryLink id="7463-16c5-057f-568c" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="feb7-87f6-06e2-788c" value="1.0"/>
+          </modifiers>
+        </entryLink>
         <entryLink id="8440-96fd-1dca-9a04" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
-        <entryLink id="8fd0-5bab-c113-89f9" name="Tactical Relay" hidden="false" collective="false" targetId="274e-9c11-1575-363b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="0.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ee35-d631-1615-1bac" name="HD 3 - •••Bombardment Drone" hidden="false" collective="false" type="model">
+    <selectionEntry id="ee35-d631-1615-1bac" name="3 - •••Bombardment Drone" hidden="false" collective="false" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="877f-c51d-c986-fab1" type="max"/>
       </constraints>
@@ -27182,7 +27160,7 @@
         <cost name=" Points" typeId="f063-1033-6a55-7413" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8603-3924-5c6b-760b" name="HD 3 - •DBS-32C" hidden="false" collective="false" type="model">
+    <selectionEntry id="8603-3924-5c6b-760b" name="3 - •DBS-32C" hidden="false" collective="false" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5178-65a5-da1d-5d17" type="max"/>
       </constraints>
@@ -30065,6 +30043,7 @@
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5644-8d69-98db-1936" type="notInstanceOf"/>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462c-c1cc-ebc9-3f53" type="notInstanceOf"/>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a3b1-5265-6a5d-09a8" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ca5-b558-c796-b7a5" type="notInstanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
