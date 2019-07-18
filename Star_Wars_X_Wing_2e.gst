@@ -23823,11 +23823,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Evacuation Expert</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26298,11 +26298,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">D&apos;Qar Dispatcher</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26381,11 +26381,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Insubordinate Insurgent</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">2</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26461,11 +26461,11 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -26521,13 +26521,6 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="7df0-fc37-b0b9-4b4b" name="Ion Cannon" hidden="false" collective="false" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6af-f61b-7572-d8f9" type="max"/>
           </constraints>
@@ -26598,6 +26591,26 @@
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">1-3</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714"/>
                 <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack: If this attack hits, all [hit]/[critical] results inflict tractor tokens instead of damage.</characteristic>
+                <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
+                <characteristic name="Type" typeId="7769-7488-8779-032b">Cannon</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d8d6-61e3-57f6-95ae" name="Autoblasters" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="814f-02ed-1e2c-2103" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="07ae-a226-1c78-8d44" name="Autoblasters" hidden="false" typeId="95ad-ef6c-3536-4e49" typeName="2.1 Special Weapon">
+              <characteristics>
+                <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">2 (front)</characteristic>
+                <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">1-2</characteristic>
+                <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714"/>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack: If the defender is in your [bullseye arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender&apos;s [front arc], [evade] results do not cancel [critical] results.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Cannon</characteristic>
               </characteristics>
@@ -27126,6 +27139,11 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b20-5b56-18d8-87fb" type="notInstanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e8fa-9e05-87b5-67aa" type="max"/>
@@ -27149,6 +27167,11 @@
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b20-5b56-18d8-87fb" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -27315,7 +27338,7 @@
             <categoryLink id="1496-acf3-343f-5630" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="238a-13f8-9aa2-2dd2" name="Delta-7B" hidden="false" collective="false" type="upgrade">
@@ -27325,32 +27348,32 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4af9-4684-2cb7-98d9" type="notInstanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="18">
+            <modifier type="set" field="f063-1033-6a55-7413" value="20.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="13">
+            <modifier type="set" field="f063-1033-6a55-7413" value="15.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="17">
+            <modifier type="set" field="f063-1033-6a55-7413" value="19.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="16">
+            <modifier type="set" field="f063-1033-6a55-7413" value="18.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="14">
+            <modifier type="set" field="f063-1033-6a55-7413" value="16.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="15">
+            <modifier type="set" field="f063-1033-6a55-7413" value="17.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
               </conditions>
@@ -27370,7 +27393,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="12.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="14.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="09ed-bb42-e0c0-af3a" name="Calibrated Laser Targeting" hidden="false" collective="false" type="upgrade">
@@ -27380,34 +27403,29 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4af9-4684-2cb7-98d9" type="notInstanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="10">
+            <modifier type="set" field="f063-1033-6a55-7413" value="5.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="8">
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+            <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="2">
+            <modifier type="set" field="f063-1033-6a55-7413" value="1.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="4">
+            <modifier type="set" field="f063-1033-6a55-7413" value="2.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b049-a528-e69b-bdd6" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -27426,6 +27444,39 @@
           </profiles>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4c3a-093b-786d-dcc4" name="Landing Struts" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e1f9-e60b-24fa-958d" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="47b3-65f6-dabb-d52b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f93a-e7a9-ac0e-81a9" name="Landing Struts (Closed)" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Configuration Modification</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4802-b52e-7c1f-76e3" name="Landing Struts (Open)" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 straight] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Configuration Modification</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
