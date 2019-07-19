@@ -26845,10 +26845,10 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Preservation Protocol Not Found</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -26909,10 +26909,10 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -26974,10 +26974,10 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -27042,10 +27042,10 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Function over Form</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -27112,10 +27112,10 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Time on Target</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -27182,10 +27182,10 @@
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">3</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">Droid Control Signal Relay</characteristic>
             <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">2 (front)</characteristic>
-            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"></characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be"/>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">2</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -31766,9 +31766,14 @@
         <selectionEntry id="5582-6d08-ecff-b565" name="•Leia Organa" hidden="false" collective="false" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29ea-0cf3-d550-1fa8" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7810-0de0-431d-eda0" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29ea-0cf3-d550-1fa8" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -32371,6 +32376,191 @@
           </profiles>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7810-0de0-431d-eda0" name="•Leia Organa" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f54-7413-5c9a-d4c6" type="notInstanceOf"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5582-6d08-ecff-b565" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a8b-58f0-1e5a-1a33" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="285d-39fd-db1c-15d4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3d3c-be91-c8ab-3d5d" name="•Leia Organa" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After a friendly ship reveals its dial, you may spend 1 [force]. If you do, the chosen ship reduces the difficulty of that maneuver.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10">Force +1^</characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Coordinate (Purple)</characteristic>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew Crew</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1dcc-bdb7-5bfa-14dd" name="Coordinate (Purple)" hidden="false" targetId="3841-8940-bfdf-c5b5" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="9407-9de5-b370-1e71" name="Force Crew" hidden="false" targetId="1688-3233-355e-8a95" primary="false"/>
+            <categoryLink id="7383-6cc9-546c-2553" name="Double Crew" hidden="false" targetId="c616-372b-0b71-c5fe" primary="false"/>
+            <categoryLink id="289d-4c4f-99d5-598b" name="Coordinate (Purple)" hidden="false" targetId="b1cd-0e65-fad5-e5c5" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="19.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d416-1029-691b-1b30" name="•Amilyn Holdo" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e861-6bc1-3a0f-c3ab" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5528-4174-d0fc-ee66" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="57d9-269c-36cc-3670" name="•Amilyn Holdo" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c025-35f8-4438-483d" name="•GA-97" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="10c1-a492-2407-1073" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3a7f-8fea-8dfc-d9a0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ff0b-39c6-a907-9ff6" name="•GA-97" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Setup: Before placing forces, you may spend 3-5 [charge]. If you do, choose another friendly ship and assign the It&apos;s the Resistance condition to it.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10">5^</characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Calculate</characteristic>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3590-15ea-dff3-4bca" name="Calculate" hidden="false" targetId="b2b4-7333-6f54-b75c" type="rule"/>
+            <infoLink id="d669-65a4-3159-9add" name="•It&apos;s the Resistance" hidden="false" targetId="81e9-a217-d525-a0c1" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="6bbe-bc66-922a-05e8" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
+            <categoryLink id="3f61-10e0-4290-068d" name="Calculate Crew" hidden="false" targetId="e065-e022-1f73-3cd9" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3dea-cff9-9ec9-5179" name="•Kaydel Connix" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b90-c182-d557-8f35" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4469-8c1e-ab85-4900" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="23f2-39f0-bfed-96d3" name="•Kaydel Connix" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its difficulty.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a8b5-5c4d-601e-cba7" name="•Larma D&apos;Acy" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a2b-b11e-40af-afee" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3c5f-636d-9437-bf57" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5528-2a28-7109-4049" name="•Larma D&apos;Acy" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">While you have 2 or fewer stress tokens, you can perform [reinforce], [coordinate], and [jam] actions, even while stressed. While you perform a white [reinforce], [coordinate], or [jam] action, if you are stressed, treat that action as red.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9c2e-fbef-c4c1-e897" name="•PZ-4CO" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e8bc-f915-d8cd-0ae0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d0da-e311-7056-71ac" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3a83-63f3-1ef3-c47f" name="•PZ-4CO" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"></characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Calculate</characteristic>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="042c-45d9-b420-b65e" name="Calculate" hidden="false" targetId="b2b4-7333-6f54-b75c" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="7d5c-6616-dbdd-562c" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
+            <categoryLink id="bfce-6c59-74c9-6a36" name="Calculate Crew" hidden="false" targetId="e065-e022-1f73-3cd9" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -34426,6 +34616,11 @@
     <profile id="5ffc-6abd-2850-ebf6" name="•Compromising Intel" hidden="false" typeId="d911-04a5-7b69-bff9" typeName="4.1 Condition">
       <characteristics>
         <characteristic name="Ability" typeId="61d7-d10d-34c8-85d1">During the System Phase, if the enemy Vi Moradi is at range 0-3, flip your dial faceup. While you defend or perform an attack against the enemy Vi Moradi, you cannot spend focus tokens.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="81e9-a217-d525-a0c1" name="•It&apos;s the Resistance" hidden="false" typeId="d911-04a5-7b69-bff9" typeName="4.1 Condition">
+      <characteristics>
+        <characteristic name="Ability" typeId="61d7-d10d-34c8-85d1">Setup: Start in reserve. When you deploy, you are placed within range 1 of any table edge and beyond range 3 of any enemy ship. At the start of the round, if all of the friendly GA-97&apos;s [charge] are active, you must deploy. Then remove this card. After the friendly GA-97 is destroyed, you must deploy. Then gain 1 disarm token and remove this card.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
