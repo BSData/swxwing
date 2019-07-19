@@ -207,6 +207,7 @@
     <categoryEntry id="28f5-13e2-535d-59f9" name="Naboo Royal N-1 Starfighter" hidden="false"/>
     <categoryEntry id="5ae0-ddfd-4cf4-e913" name="Resistance Transport" hidden="false"/>
     <categoryEntry id="5d30-6a58-2e7f-1dc1" name="Resistance Transport Pod" hidden="false"/>
+    <categoryEntry id="ac5b-3807-0684-ee6a" name="Shield Value 1 or More" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5d62-a853-33cd-82c9" name=" Standard" hidden="false">
@@ -360,6 +361,11 @@
                 <condition field="selections" scope="de12-c19b-2ab0-709d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="de12-c19b-2ab0-709d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Blue Five</characteristic>
@@ -396,6 +402,7 @@
         <categoryLink id="afe2-82e1-fc92-09b0" name="Agility 1" hidden="false" targetId="cbe3-5d2f-03c2-5a94" primary="false"/>
         <categoryLink id="e869-cc16-8828-fc6e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ef71-f37f-026e-7ba7" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="57cc-c03c-115e-7be6" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9027-c4d2-cc47-328c" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
@@ -436,6 +443,11 @@
                 <condition field="selections" scope="5ab0-66e1-5499-ca06" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="5ab0-66e1-5499-ca06" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Aggressive Automaton</characteristic>
@@ -467,6 +479,7 @@
         <categoryLink id="c8ec-3de5-48a1-2470" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="94ce-5e9f-d995-ddf4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="dc99-8a03-f22e-213a" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="086f-77a3-9333-ddbe" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a14d-6a83-448d-fec2" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -497,6 +510,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
                 <condition field="selections" scope="6365-ca0f-e86f-c43b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="6365-ca0f-e86f-c43b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -538,6 +556,7 @@
         <categoryLink id="49d6-d6ff-7f20-c9e4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="2764-c31c-1967-c961" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="79e5-a227-b2d0-5dc8" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="b94b-59db-b7d6-8b90" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8071-262a-171c-9884" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -614,6 +633,11 @@
                 <condition field="selections" scope="312f-a005-0ea7-c73a" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="312f-a005-0ea7-c73a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Red Leader</characteristic>
@@ -651,6 +675,7 @@
         <categoryLink id="4ed9-1dae-1ec1-13e6" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1cd1-e554-4311-4873" name="Rear Arc" hidden="false" targetId="4257-4430-7af8-7433" primary="false"/>
         <categoryLink id="e6e8-fcd8-9267-e282" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="5f66-31e6-1b14-7bf0" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f248-ec33-bd50-20a8" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -679,6 +704,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="24d6-4c13-4440-663e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="24d6-4c13-4440-663e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -717,6 +747,7 @@
         <categoryLink id="db63-169c-bd80-ba60" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="795c-d332-705c-e82f" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="b109-9cdf-da2e-1c19" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="3b6d-5052-d7fc-4c00" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2011-250b-dad8-2583" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
@@ -745,6 +776,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
                 <condition field="selections" scope="1dea-8a28-f9b6-de26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1dea-8a28-f9b6-de26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -784,6 +820,7 @@
         <categoryLink id="2d50-e506-1008-38c0" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="369b-4ad4-38f5-b4ef" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="03a9-e24e-0f96-b026" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="3b4f-4d4c-ef04-37e0" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d44b-76b7-3e3b-9ae0" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
@@ -812,6 +849,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
                 <condition field="selections" scope="b955-3c5c-9df9-4ea1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b955-3c5c-9df9-4ea1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -851,6 +893,7 @@
         <categoryLink id="0669-6f2f-603c-3314" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ae40-edb3-ad3f-60c0" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="455e-5570-5058-863f" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="9175-0d20-17ce-8e6d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3ab1-8ff4-982e-be80" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
@@ -905,6 +948,11 @@
                 <condition field="selections" scope="547c-0756-bf45-e63e" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="547c-0756-bf45-e63e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Gold Nine</characteristic>
@@ -942,6 +990,7 @@
         <categoryLink id="d2d1-4b15-d027-578a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="748e-dc9e-4053-6ee8" name="Rear Arc" hidden="false" targetId="4257-4430-7af8-7433" primary="false"/>
         <categoryLink id="4a0d-dd33-8c0d-98a6" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="570a-e08b-dd25-425d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="384c-8571-cd54-cf67" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
@@ -989,6 +1038,11 @@
                 <condition field="selections" scope="bb25-00bc-b33c-9648" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="bb25-00bc-b33c-9648" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Green Four</characteristic>
@@ -1026,6 +1080,7 @@
         <categoryLink id="65f1-c053-fef4-f811" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="a66b-250d-927e-72a4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="55d6-f174-698f-bd6a" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="b0e9-df9f-ae5c-d4a7" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8eea-48ab-d869-9024" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
@@ -1080,6 +1135,11 @@
                 <condition field="selections" scope="cccf-ad08-1dd9-0766" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="cccf-ad08-1dd9-0766" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Survivor of Endor</characteristic>
@@ -1110,6 +1170,7 @@
         <categoryLink id="4672-1dff-40bf-f8dd" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="9c39-2cd6-565c-4cc5" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="c068-478d-011e-7595" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="31c1-d4f9-8001-621b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ce42-93c7-f602-0481" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
@@ -1143,6 +1204,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
                 <condition field="selections" scope="ce3f-e254-3b2e-e31c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ce3f-e254-3b2e-e31c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1183,6 +1249,7 @@
         <categoryLink id="e09a-d620-9f9e-f050" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8b2e-4832-38f5-bf3b" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="e509-34fe-bd6c-b6f0" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="f1f3-5c1c-6804-515c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2314-7b9c-6818-028c" name="Gunner" hidden="false" collective="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup"/>
@@ -1226,6 +1293,11 @@
                 <condition field="selections" scope="9948-303b-810f-b1bc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="9948-303b-810f-b1bc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Gold Nine</characteristic>
@@ -1264,6 +1336,7 @@
         <categoryLink id="9486-0a59-730d-7d10" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="8033-7df9-5d36-5ea6" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1f46-943a-5494-1c43" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="9578-153d-aab6-9f0c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9baf-e509-14a1-55a6" name="Turret" hidden="false" collective="false" targetId="6355-fe79-1115-80dd" type="selectionEntryGroup"/>
@@ -1298,6 +1371,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="a82d-ecad-4515-48ec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a82d-ecad-4515-48ec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1338,6 +1416,7 @@
         <categoryLink id="5f62-ed8d-0331-4102" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="8e74-0492-7d16-9a86" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="fa4e-c704-8fff-d48b" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="9ce8-4dda-0db3-ffce" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0295-d959-7b3b-f40d" name="Turret" hidden="false" collective="false" targetId="6355-fe79-1115-80dd" type="selectionEntryGroup"/>
@@ -1372,6 +1451,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
                 <condition field="selections" scope="c7c6-43a1-a10f-ec41" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="c7c6-43a1-a10f-ec41" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1412,6 +1496,7 @@
         <categoryLink id="05ce-7881-3047-6b50" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="4163-73fb-bfe0-f2cf" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="7600-0806-a782-40e8" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="1aa0-cb77-a88c-86f0" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="04f8-cf5f-0a70-edc6" name="Torpedo" hidden="false" collective="false" targetId="928f-fa9f-1ce1-2cf7" type="selectionEntryGroup"/>
@@ -1443,6 +1528,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
                 <condition field="selections" scope="0bd9-0aae-d8fc-30cb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="0bd9-0aae-d8fc-30cb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1484,6 +1574,7 @@
         <categoryLink id="22b3-56b2-e285-43fa" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="e61c-f79f-7923-b059" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="e600-0709-6964-6b32" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="44bf-d7ac-fb59-b252" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ad6e-5968-c57c-47a8" name="Turret" hidden="false" collective="false" targetId="6355-fe79-1115-80dd" type="selectionEntryGroup"/>
@@ -1515,6 +1606,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
                 <condition field="selections" scope="a368-76e7-9443-5a67" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a368-76e7-9443-5a67" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1556,6 +1652,7 @@
         <categoryLink id="2f25-1072-94ac-087d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ff31-ed14-8100-f933" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="a471-4ebb-922a-4f8a" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="4c95-3d54-f04f-2b4b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c0f8-b58d-5cd6-49cb" name="Turret" hidden="false" collective="false" targetId="6355-fe79-1115-80dd" type="selectionEntryGroup"/>
@@ -1584,6 +1681,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="9732-f048-97d3-a196" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="9732-f048-97d3-a196" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1622,6 +1724,7 @@
         <categoryLink id="fb99-6d3f-4195-d4a3" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="3336-b1a6-3f08-1e65" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="414f-5e7c-64f9-097e" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="714f-94da-3c62-03fc" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f193-a8c8-2b4c-8269" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -1656,6 +1759,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="e7ba-6956-1ba7-8aee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="e7ba-6956-1ba7-8aee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1694,6 +1802,7 @@
         <categoryLink id="59ca-fb3d-54c8-c253" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="3b38-243d-8d01-d73c" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="aec9-74e3-54e9-5caf" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="12a6-8e22-c7d5-b562" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="24bd-add3-c51a-d2b7" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -1721,6 +1830,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="bde4-901c-e92d-dd39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="bde4-901c-e92d-dd39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1759,6 +1873,7 @@
         <categoryLink id="c93f-deaa-d00c-0c08" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="bf0b-fe03-7716-e185" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="6f00-eebd-e19b-37bb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="cfde-d452-fca4-3910" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="542b-3236-a10f-005b" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -1782,6 +1897,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="08cc-9466-3f25-6659" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="08cc-9466-3f25-6659" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1821,6 +1941,7 @@
         <categoryLink id="a913-582d-9dcb-e367" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8090-1184-5417-f7e8" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="64d6-9e5e-de84-6466" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="cd6e-f79e-f1df-21c1" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e54a-a4a7-5e96-241d" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -1845,6 +1966,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="3fdb-9764-15ee-0554" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="3fdb-9764-15ee-0554" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1884,6 +2010,7 @@
         <categoryLink id="68b8-9005-8ca9-19e0" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1ea9-d157-6d6f-4ad9" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="ba92-963c-49ef-50ab" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="3a8d-84a0-a59b-9d2a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="21a2-f3c0-d131-7ee6" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -1907,6 +2034,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="41bf-8f42-41f8-e0b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="41bf-8f42-41f8-e0b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1946,6 +2078,7 @@
         <categoryLink id="bb1f-bb87-c133-0224" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="bbe9-53ec-4131-906a" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="0258-8e6a-a0b1-987a" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="f57a-b549-b36f-88d5" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1a3b-9f02-94fe-cb2d" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -1980,6 +2113,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="4b5c-be80-1ff0-0694" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="4b5c-be80-1ff0-0694" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2019,6 +2157,7 @@
         <categoryLink id="8b95-4ae7-9c00-f34f" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="58f7-22ad-55bb-e88d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="476b-64e4-1590-afb2" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="f6a1-d2ab-5efb-c030" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4ca0-56cf-a5a2-4936" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -2046,6 +2185,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="936b-2556-7540-83e9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="936b-2556-7540-83e9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2084,6 +2228,7 @@
         <categoryLink id="1bab-f8d5-9777-073d" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="a6d1-a539-cc83-2bdb" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4d4d-6de5-5e46-0863" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="b070-70a1-2dbf-0f2b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f6d1-63a3-8186-aba7" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -2111,6 +2256,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="ef59-778a-f24a-3264" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ef59-778a-f24a-3264" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2149,6 +2299,7 @@
         <categoryLink id="06e9-f7fb-8443-fc62" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="ab50-4791-491e-cd06" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="d7f8-16c6-326f-ce6a" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="5dc9-3dba-447b-db78" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c088-ca5e-6240-e380" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -2177,6 +2328,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="8ce1-405e-6574-5779" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="8ce1-405e-6574-5779" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2215,6 +2371,7 @@
         <categoryLink id="ace6-f4a4-8664-409a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="6a86-a821-5546-6e32" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="87de-8cbf-9f68-eb2a" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="ea2f-764c-048b-d510" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="cf13-f36a-e3ef-e0c8" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -2242,6 +2399,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="dc92-c296-f9f2-a5b4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="dc92-c296-f9f2-a5b4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2280,6 +2442,7 @@
         <categoryLink id="0258-7101-9233-7ad1" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="85dd-be98-ff8b-d2b2" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="e111-592b-6e8b-6c86" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="5576-c878-f3c7-fd61" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="34ee-c42e-ee0b-4fc6" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -2307,6 +2470,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="ea4f-e5d2-99a1-9210" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ea4f-e5d2-99a1-9210" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2345,6 +2513,7 @@
         <categoryLink id="5866-99bb-e0df-37ab" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="112c-31b6-430a-413c" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="7761-c9c1-7c6b-cc8c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="35ef-3c2b-3600-cd50" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bffc-dc9b-c294-6f18" name="Configuration" hidden="false" collective="false" targetId="da5d-a9e6-7dd6-aed4" type="selectionEntryGroup"/>
@@ -2385,6 +2554,11 @@
                 <condition field="selections" scope="e758-fa8f-bd03-ce4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="e758-fa8f-bd03-ce4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Imperial Defector</characteristic>
@@ -2422,6 +2596,7 @@
         <categoryLink id="0cce-a058-3ac2-9337" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="6c8e-2e65-0451-2e7d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="578a-6761-0aab-3a33" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="ca05-370e-c2ac-b0c0" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="21fa-fba9-2882-a1b5" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -2472,6 +2647,11 @@
                 <condition field="selections" scope="dfbe-394a-d808-f46d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="dfbe-394a-d808-f46d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Raised by the Rebellion</characteristic>
@@ -2509,6 +2689,7 @@
         <categoryLink id="d3ee-3909-4308-0df6" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="8b22-37fc-4607-58b9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5199-fcc2-06ea-6796" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="c60e-bf1b-a7c3-ee6d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9ecc-ec98-5f72-1056" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -2552,6 +2733,11 @@
                 <condition field="selections" scope="cdd2-8178-8946-b06a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="cdd2-8178-8946-b06a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Blue Eight</characteristic>
@@ -2589,6 +2775,7 @@
         <categoryLink id="ed86-5f5e-3952-6166" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="432c-ef2f-8df2-3847" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="389f-0839-e846-8210" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="dbdc-cada-862f-c7fc" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="62e6-e9f4-2c85-a065" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -2629,6 +2816,11 @@
                 <condition field="selections" scope="4cd3-b5d6-9369-c9a3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="4cd3-b5d6-9369-c9a3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -2667,6 +2859,7 @@
         <categoryLink id="4abb-387c-e195-5dc4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5d74-3951-839d-aa3d" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="4256-3f3f-a0b7-0313" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="360a-f06c-ddef-1ddc" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2793-2353-076f-79ed" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -2716,6 +2909,11 @@
                 <condition field="selections" scope="2289-ff99-5c57-f950" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="2289-ff99-5c57-f950" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Obsessive Outlaw</characteristic>
@@ -2753,6 +2951,7 @@
         <categoryLink id="4dcd-23e5-38be-ddbc" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="a5b5-5525-7425-9048" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="d154-d0f6-1efd-86e4" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="d1a2-a469-b8b6-fbab" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8e98-7af1-ef6d-ac0f" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -2804,6 +3003,11 @@
                 <condition field="selections" scope="45f6-288c-abf7-23ce" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="45f6-288c-abf7-23ce" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Cavern Angels Spotter</characteristic>
@@ -2841,6 +3045,7 @@
         <categoryLink id="b166-3fb6-b39d-594f" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="2f90-5e51-7231-c292" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5f26-aa07-da9c-923c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="373e-956c-3331-681d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="fc7b-42a6-7f68-8df7" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -2885,6 +3090,11 @@
                 <condition field="selections" scope="1708-e6d8-4df2-5a77" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1708-e6d8-4df2-5a77" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Cavern Angels Marksman</characteristic>
@@ -2922,6 +3132,7 @@
         <categoryLink id="d6d7-4a53-deaa-b6a7" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="710c-7737-870d-7fc7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1192-85cf-666a-279e" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="4fe9-2db7-0ff2-26ae" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="83c5-291d-137b-521a" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -2962,6 +3173,11 @@
                 <condition field="selections" scope="bdcd-0f31-190d-9da6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="bdcd-0f31-190d-9da6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -3000,6 +3216,7 @@
         <categoryLink id="501f-a893-f9e0-9835" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4548-4868-62dd-4bd6" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="8149-0c10-c051-5225" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="49a1-729a-9243-5f1b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a92f-4767-2c5c-66cd" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -3031,6 +3248,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="7a02-ddfb-d8bf-3952" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7a02-ddfb-d8bf-3952" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3071,6 +3293,7 @@
         <categoryLink id="11eb-f6ca-5de3-f33e" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="1b52-b6c0-b6d5-dff8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="c8c4-a0f7-49d0-2380" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="27bb-402f-d928-b694" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="699c-d5e7-f664-0918" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -3104,6 +3327,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="45fe-dc0b-a404-9c00" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="45fe-dc0b-a404-9c00" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3144,6 +3372,7 @@
         <categoryLink id="5b27-346a-ed06-896d" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="d5ec-872c-b7e8-af6d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="781f-1190-68ad-8e81" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="f868-3a1e-a37d-8a05" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="786c-3565-d609-e437" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -3186,6 +3415,11 @@
                 <condition field="selections" scope="abb5-195d-c0ae-94e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="abb5-195d-c0ae-94e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Deadly Device</characteristic>
@@ -3224,6 +3458,7 @@
         <categoryLink id="7edb-d71c-ec16-5e7b" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="488c-37a0-9170-e532" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="0fe5-d92d-440b-96bd" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="d59a-3e3f-1b74-a0d6" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4b44-6840-ef0b-9258" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -3329,6 +3564,7 @@
         <categoryLink id="fda9-8ce9-3781-fa74" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8470-e6d3-058d-441b" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="ee44-a551-c133-2729" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="5974-0b83-e7cf-99bf" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="088c-00d4-b85b-9406" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -3433,6 +3669,7 @@
         <categoryLink id="aa27-0d06-3df0-dea0" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="4d7c-ccc7-df0d-65ac" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1a93-068d-82e6-c810" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="bacc-7056-c5ea-cd15" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="cdc1-836d-22fc-4435" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -3535,6 +3772,7 @@
         <categoryLink id="322b-4ef9-b17b-8597" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="48fd-57cd-09f5-687c" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="f373-8476-faac-2c14" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="abca-2359-4a97-6901" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="00ce-3712-d832-71b7" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -3622,6 +3860,7 @@
         <categoryLink id="a849-b123-1364-de05" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="81b2-6099-c611-6e74" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="9922-4f05-72b3-9e30" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="971f-0158-1960-b04d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4245-632c-f503-d4dc" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -3673,6 +3912,11 @@
                 <condition field="selections" scope="debb-b1c5-720b-1a81" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="debb-b1c5-720b-1a81" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Droid Revolutionary</characteristic>
@@ -3709,6 +3953,7 @@
         <categoryLink id="c6d0-db61-24b1-95bf" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="982a-d4ad-5604-a99c" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="d866-be4f-1bc3-6674" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="7565-5666-ce27-94d8" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3028-d1c0-b731-753e" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -3755,6 +4000,11 @@
                 <condition field="selections" scope="5ed2-da1e-8be1-b3d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="5ed2-da1e-8be1-b3d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Smooth-talking Gambler</characteristic>
@@ -3791,6 +4041,7 @@
         <categoryLink id="4064-449f-0217-f51b" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="4e87-6ca6-c335-9910" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
         <categoryLink id="1751-8306-aac9-4ba1" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="1e99-04e0-e4ea-0dbf" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="544a-f275-cadc-c123" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -3821,6 +4072,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
               <conditions>
                 <condition field="selections" scope="f28e-33d2-bdc3-daaf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="f28e-33d2-bdc3-daaf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3859,6 +4115,7 @@
         <categoryLink id="bf46-8da6-466b-8e3f" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="44d9-8cc9-3694-78f9" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
         <categoryLink id="84c0-58d7-d587-5e3c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="354b-f145-f62a-60ff" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0fb6-824b-7939-78ca" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -3910,6 +4167,7 @@
         <categoryLink id="ab0a-5eb8-aa38-0bc2" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="1327-d517-52cc-ee02" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="13bd-9395-1386-0a8b" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="6671-4914-c50f-eb87" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="f063-1033-6a55-7413" value="12.0"/>
@@ -4263,6 +4521,11 @@
                 <condition field="selections" scope="78fa-3446-e83e-d7a7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="78fa-3446-e83e-d7a7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Notorious Bounty Hunter</characteristic>
@@ -4302,6 +4565,7 @@
         <categoryLink id="8af7-9c02-d523-ca67" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="a636-b6d1-cce1-5759" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="bf10-5fba-93b7-45d3" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="cdb0-ecfd-e32c-f95f" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c371-afed-f52a-979b" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -4367,6 +4631,11 @@
                 <condition field="selections" scope="496a-5e51-6d40-03d7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="496a-5e51-6d40-03d7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -4407,6 +4676,7 @@
         <categoryLink id="87a4-82b8-32ca-81fc" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="2d7a-e43b-33f4-5194" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="e74f-0555-92f5-de28" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="00a3-b2ff-ac47-c0b4" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a22b-dcb4-4718-39c3" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -4474,6 +4744,11 @@
                 <condition field="selections" scope="7fd5-67b7-1e52-f281" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7fd5-67b7-1e52-f281" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Imperial Deserter</characteristic>
@@ -4513,6 +4788,7 @@
         <categoryLink id="5f68-cc3d-4489-4da9" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="9a6b-a088-e265-fd77" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="d3f9-421b-798a-1506" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="219e-630f-bbe3-723c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="97ba-bda3-797e-5bf8" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -4581,6 +4857,11 @@
                 <condition field="selections" scope="a4ed-ca96-5383-a93c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a4ed-ca96-5383-a93c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Icy Professional</characteristic>
@@ -4620,6 +4901,7 @@
         <categoryLink id="52b9-a259-dfa4-5fd9" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="e571-e9cd-fd37-16dd" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="e619-d899-7e47-ac10" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="1699-a9a0-ba34-3ada" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="db40-4d39-3340-ce0b" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -4688,6 +4970,11 @@
                 <condition field="selections" scope="ddf2-3add-e859-abaa" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ddf2-3add-e859-abaa" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Captain of the Binayre Pirates</characteristic>
@@ -4727,6 +5014,7 @@
         <categoryLink id="9e59-c20f-790e-9aa5" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="b7c9-3a1d-f5dc-31a8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ced8-e4e7-de8c-5758" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="ecf7-3925-48f6-5729" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2e50-840b-a06c-930b" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -4795,6 +5083,11 @@
                 <condition field="selections" scope="f166-bdfd-58a2-1f8c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="f166-bdfd-58a2-1f8c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Shipping Magnate</characteristic>
@@ -4834,6 +5127,7 @@
         <categoryLink id="f96f-f9fb-1c04-8b43" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="71b1-d2f6-0775-e3d1" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="7f7e-8920-9a90-303e" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="03cf-07c0-434c-81a0" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3352-91a8-f65d-3327" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -4889,6 +5183,11 @@
                 <condition field="selections" scope="6ef2-1ef2-b91f-bbbe" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="6ef2-1ef2-b91f-bbbe" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -4928,6 +5227,7 @@
         <categoryLink id="3d9b-25a8-bfc5-ac92" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="07b9-0e0e-6db2-5ac3" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="478b-6695-bed8-7cdf" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="cd92-6a24-766e-fd02" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d44b-de6d-754a-10ad" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -4983,6 +5283,11 @@
                 <condition field="selections" scope="5062-7064-d4c1-26c6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="5062-7064-d4c1-26c6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Brash Noble</characteristic>
@@ -5021,6 +5326,7 @@
         <categoryLink id="c538-3138-a85d-3eb4" name="New CategoryLink" hidden="false" targetId="0b20-5b56-18d8-87fb" primary="true"/>
         <categoryLink id="9688-e494-95e0-2951" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="0437-db83-afa4-89ab" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="6462-3868-f0b9-bb24" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e3cf-4a40-1dea-dff4" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -5076,6 +5382,11 @@
                 <condition field="selections" scope="ee17-45cc-77fb-f8b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ee17-45cc-77fb-f8b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Pragmatic Survivor</characteristic>
@@ -5114,6 +5425,7 @@
         <categoryLink id="3a19-0d82-c2e5-75d4" name="New CategoryLink" hidden="false" targetId="0b20-5b56-18d8-87fb" primary="true"/>
         <categoryLink id="3abf-9fcc-33ce-1ce0" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5eb7-cbb7-1fa6-5d89" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="b04f-aaab-36ce-924a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bbb4-02ef-42ca-d57b" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -6285,6 +6597,11 @@
                 <condition field="selections" scope="2838-763b-73fa-9eae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="2838-763b-73fa-9eae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Black Leader</characteristic>
@@ -6324,6 +6641,7 @@
         <categoryLink id="c529-c5ce-67e4-663e" name="Darth Vader" hidden="false" targetId="e35f-4fe7-5d6c-67ee" primary="false"/>
         <categoryLink id="37d7-ad79-954e-19c4" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false"/>
         <categoryLink id="7c8c-fb6a-8264-9352" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="79df-a517-5e70-c413" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="caf6-7d6d-2659-6a50" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -6350,6 +6668,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="a74e-36fd-a00c-3a8c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a74e-36fd-a00c-3a8c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6388,6 +6711,7 @@
         <categoryLink id="2746-02b8-8d81-18de" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="ebe4-67e3-2616-7f3c" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="df23-629a-c7fd-3260" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="dd88-d3b5-709a-e1a5" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4c1b-f8ed-7f59-38f6" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -6414,6 +6738,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="b7b4-681b-e3d6-3625" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b7b4-681b-e3d6-3625" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6452,6 +6781,7 @@
         <categoryLink id="89d0-2a1d-eddd-4af0" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="8e57-2714-6593-ad7e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="c941-5c41-4e3a-07ab" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="1e7f-81f3-2771-6b40" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="56d2-a84a-98be-a119" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -6475,6 +6805,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="6816-433c-3de4-502c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="6816-433c-3de4-502c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6514,6 +6849,7 @@
         <categoryLink id="d7bb-4bd9-52ee-df2b" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f39f-ca5e-a97e-72cb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="f5a3-624b-5424-54c6" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="0a3a-78db-0d0e-2533" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8de1-74e9-7712-054f" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -6540,6 +6876,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="ae00-13d3-b495-0406" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ae00-13d3-b495-0406" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6578,6 +6919,7 @@
         <categoryLink id="66ee-af75-1973-1a7a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="ab16-3851-effe-5487" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="0a54-cd57-9bec-7e58" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="0fe8-48f2-c030-ce48" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="021a-1f9c-04f7-46c4" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -6600,6 +6942,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="fff3-24a8-ba64-2b29" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="fff3-24a8-ba64-2b29" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6639,6 +6986,7 @@
         <categoryLink id="0970-f52e-90a8-ab75" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="96b5-3330-05d0-b5d8" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="3217-b829-4377-467f" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="6299-d8c0-dee3-0f75" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="08a9-34ab-324f-e338" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -6674,6 +7022,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
               <conditions>
                 <condition field="selections" scope="cbe0-e6ca-df4c-65ea" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="cbe0-e6ca-df4c-65ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6715,6 +7068,7 @@
         <categoryLink id="624c-501f-aeb8-b582" name="Medium Ship" hidden="false" targetId="f38b-1610-2d2d-5a34" primary="false"/>
         <categoryLink id="eb31-5172-dca0-61b6" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false"/>
         <categoryLink id="ee59-91f0-076d-a1dc" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="a052-fe00-3f68-e88d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8ee9-16a0-c0a2-7b5b" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -6756,6 +7110,11 @@
                 <condition field="selections" scope="499f-367f-81eb-1714" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="499f-367f-81eb-1714" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Imperial Courier</characteristic>
@@ -6795,6 +7154,7 @@
         <categoryLink id="24af-7531-4229-b9e1" name="Medium Ship" hidden="false" targetId="f38b-1610-2d2d-5a34" primary="false"/>
         <categoryLink id="a620-c7a9-de73-db74" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false"/>
         <categoryLink id="273a-4858-07b4-4405" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="3d92-b670-4e49-21d8" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="68ce-9e8c-95b5-9488" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -6836,6 +7196,11 @@
                 <condition field="selections" scope="69c8-0a6c-5ff7-b6ea" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="69c8-0a6c-5ff7-b6ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Ruthless Tactician</characteristic>
@@ -6875,6 +7240,7 @@
         <categoryLink id="2e66-d11a-2d2b-9d32" name="Medium Ship" hidden="false" targetId="f38b-1610-2d2d-5a34" primary="false"/>
         <categoryLink id="e810-23fd-9cff-b4b5" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false"/>
         <categoryLink id="676b-c857-d183-2c89" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="6c8a-4adc-4427-ac21" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="26db-c089-b5b6-0234" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -6910,6 +7276,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
               <conditions>
                 <condition field="selections" scope="c815-46ce-6db9-ac1a" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="c815-46ce-6db9-ac1a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6952,6 +7323,7 @@
         <categoryLink id="82c8-0edb-7e85-8304" name="Coordinate (Red)" hidden="false" targetId="94fc-b58c-6b7c-c208" primary="false"/>
         <categoryLink id="9f04-10f6-2d8b-c401" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="f996-f959-a139-ca76" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="7e26-778c-df86-39ec" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0d8c-a5a4-ce34-a8d2" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -7019,6 +7391,7 @@
         <categoryLink id="0179-2832-8373-bf95" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ccad-217d-82df-52e3" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false"/>
         <categoryLink id="018b-06c9-8e6d-52c3" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="5baf-4b01-befd-9aae" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8ecc-959c-1c58-1df0" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -7083,6 +7456,7 @@
         <categoryLink id="6121-b8c1-f8a6-cd98" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="9615-67e6-ebd4-2d01" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false"/>
         <categoryLink id="dc67-7add-c6c2-57f9" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="7a66-3f10-adc7-e243" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="659b-d59b-0754-dad9" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -7138,6 +7512,7 @@
         <categoryLink id="66a7-f6ef-ceb3-14d2" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false"/>
         <categoryLink id="31ec-0cd0-a342-13bb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="a018-ce7b-4506-4876" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="f534-dc46-be6f-8360" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6d69-04e9-91d2-e41c" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -7191,6 +7566,7 @@
         <categoryLink id="6ef9-9e12-68f1-a7ea" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1bae-f18b-17d8-7862" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="e2cc-4096-3f7b-95cf" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="2973-c57f-8764-eef6" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2571-1876-baed-6ebc" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -8050,6 +8426,11 @@
                 <condition field="selections" scope="3204-ff85-f9ab-99b4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="3204-ff85-f9ab-99b4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Callous Corsair</characteristic>
@@ -8088,6 +8469,7 @@
         <categoryLink id="b224-f68a-9a4c-bd44" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4918-13a7-26c7-738b" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="bec9-a395-98ef-873e" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="3f12-b3ba-b8bb-7ec1" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e0db-0c17-8570-d8ad" name="Turret" hidden="false" collective="false" targetId="6355-fe79-1115-80dd" type="selectionEntryGroup"/>
@@ -8132,6 +8514,11 @@
                 <condition field="selections" scope="72bb-6cb3-a30b-7ddf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="72bb-6cb3-a30b-7ddf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Pirate Lord</characteristic>
@@ -8170,6 +8557,7 @@
         <categoryLink id="b517-af54-afd1-4f5e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f208-1895-a3f5-9e53" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="bc0d-1072-1627-bd44" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="81af-62bb-e4c7-1bf0" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6f01-1db0-d044-0a13" name="Turret" hidden="false" collective="false" targetId="6355-fe79-1115-80dd" type="selectionEntryGroup"/>
@@ -8214,6 +8602,11 @@
                 <condition field="selections" scope="fa4f-7f28-e37a-b058" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="fa4f-7f28-e37a-b058" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -8253,6 +8646,7 @@
         <categoryLink id="596a-d1bc-dddc-85c0" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="fc64-d503-ec76-5e3d" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="b451-65d0-d5b9-d53e" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="bc9c-5e65-d3e3-5289" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a7de-5294-58ca-0229" name="Turret" hidden="false" collective="false" targetId="6355-fe79-1115-80dd" type="selectionEntryGroup"/>
@@ -8294,6 +8688,11 @@
                 <condition field="selections" scope="4010-27bb-dc2d-67b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="4010-27bb-dc2d-67b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -8333,6 +8732,7 @@
         <categoryLink id="3741-8bce-7308-2206" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="82ed-4906-bb53-b89f" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="22fd-2d53-8b9d-ab10" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="b485-a534-f4ae-2ebb" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f096-8b4e-3668-f4a5" name="Turret" hidden="false" collective="false" targetId="6355-fe79-1115-80dd" type="selectionEntryGroup"/>
@@ -8424,6 +8824,7 @@
         <categoryLink id="c322-7bf2-817c-96f6" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="648e-a342-4724-fd47" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8c6a-e7a4-177a-9a88" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="390c-2ae2-380f-dc13" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="da13-e269-ac63-eccd" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -8530,6 +8931,7 @@
         <categoryLink id="6e16-1400-ccc8-1a28" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4099-4e1f-9167-9fc1" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="fbc8-dbd7-1998-1485" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="1e66-78e0-8005-766d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6e67-aeb5-4487-2f36" name="Gunner" hidden="false" collective="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup"/>
@@ -8617,6 +9019,7 @@
         <categoryLink id="b7f1-d5b7-412f-7523" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="00ea-1328-385a-dcd6" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="7cab-4dc8-5fb9-73dd" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="c966-ef71-5baf-e230" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e751-abbd-ccff-26d2" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -8712,6 +9115,7 @@
         <categoryLink id="56b8-218b-7c1e-4454" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="a976-71d2-d9fd-988e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="7f29-b039-7695-4b8b" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="a063-120b-fb26-bb5e" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="495f-4a5a-d1a9-4d27" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -8798,6 +9202,7 @@
         <categoryLink id="1a92-ee97-65cc-6c95" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="86f0-5687-59d7-6e8b" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="5b77-b95e-eb90-225f" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="c514-4a17-627d-34dc" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6c1c-335e-84fb-bd87" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -8840,6 +9245,11 @@
                 <condition field="selections" scope="9af8-1506-e6ba-dc37" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="9af8-1506-e6ba-dc37" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Intelligence Chief</characteristic>
@@ -8876,6 +9286,7 @@
         <categoryLink id="ddde-2cc6-eaf4-e6a2" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="c642-fc41-e357-3e8a" name="Barrel Roll (Red)" hidden="false" targetId="19ad-674c-9542-add3" primary="false"/>
         <categoryLink id="2e04-6144-e7b4-f2e7" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="632a-95c9-13ea-16d0" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="defe-44e4-fe25-f818" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -8908,6 +9319,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="a51e-ec2d-8f88-7d8b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a51e-ec2d-8f88-7d8b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -8946,6 +9362,7 @@
         <categoryLink id="7353-4707-dc04-8aab" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="0cd7-d5c8-192d-c06d" name="Barrel Roll (Red)" hidden="false" targetId="19ad-674c-9542-add3" primary="false"/>
         <categoryLink id="e4cb-0cb8-5c7e-bb5e" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="bfa4-8ec4-0451-ae20" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f735-984f-990b-1b52" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -8975,6 +9392,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="8941-c68a-9524-4fd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="8941-c68a-9524-4fd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9014,6 +9436,7 @@
         <categoryLink id="501e-bffb-cb65-fb47" name="Barrel Roll (Red)" hidden="false" targetId="19ad-674c-9542-add3" primary="false"/>
         <categoryLink id="eaa5-8c4c-02eb-cbbd" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="9291-231c-8f84-f000" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="6444-bae9-db42-d18c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ff96-7e5d-bb0f-7981" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -9039,6 +9462,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="12c9-a234-f749-f94f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="12c9-a234-f749-f94f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9077,6 +9505,7 @@
         <categoryLink id="fe60-f8d9-fc09-d21e" name="Barrel Roll (Red)" hidden="false" targetId="19ad-674c-9542-add3" primary="false"/>
         <categoryLink id="d3c5-a688-677a-049e" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="b433-9ab5-9f24-175b" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="6987-fb87-8086-062b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3dbb-c44d-60ac-440d" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -9107,6 +9536,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="7d39-8550-cf4d-4872" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7d39-8550-cf4d-4872" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9146,6 +9580,7 @@
         <categoryLink id="26d1-0aec-46ce-ae9c" name="Barrel Roll (Red)" hidden="false" targetId="19ad-674c-9542-add3" primary="false"/>
         <categoryLink id="493a-6da4-757d-8075" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="ad70-b9b7-7186-22b0" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="2086-7ea0-da41-31ea" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8783-2fea-c99b-21a3" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -9170,6 +9605,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="c0b8-1d93-76cb-0139" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="c0b8-1d93-76cb-0139" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9208,6 +9648,7 @@
         <categoryLink id="5333-3754-6db1-4f6d" name="Barrel Roll (Red)" hidden="false" targetId="19ad-674c-9542-add3" primary="false"/>
         <categoryLink id="56cc-a45b-2c2d-9588" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="4d0d-efc2-7603-f33b" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="8e47-3b9c-1bc8-097a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="fb14-13c3-d6c5-38c5" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -9231,6 +9672,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="685e-5007-3ebf-e4b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="685e-5007-3ebf-e4b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9270,6 +9716,7 @@
         <categoryLink id="f7ee-fc39-c251-152e" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="2eb7-3f34-925a-dc99" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="6176-5447-1d4d-30b4" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="6d7d-9493-d6b1-61bc" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3895-df31-4361-822a" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -9293,6 +9740,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="f089-538a-53b4-2530" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="f089-538a-53b4-2530" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9332,6 +9784,7 @@
         <categoryLink id="2eab-c627-92c2-3b68" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="df01-ee96-4f2c-565d" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="eb24-f7e9-9c05-9ba6" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="101a-848e-37ad-84b7" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="aa47-068d-d41a-377b" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -9364,6 +9817,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="7845-9245-0d3d-4f75" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7845-9245-0d3d-4f75" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9401,6 +9859,7 @@
         <categoryLink id="bdb8-cfc1-7752-d46f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8888-baf5-bb75-9684" name="Barrel Roll (Red)" hidden="false" targetId="19ad-674c-9542-add3" primary="false"/>
         <categoryLink id="40e7-6255-2241-dcb8" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
+        <categoryLink id="4d98-22e7-ff5f-996a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2f69-aafe-0fcf-f428" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -9445,6 +9904,11 @@
                 <condition field="selections" scope="19ff-9962-a810-8cde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="19ff-9962-a810-8cde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Spectre-2</characteristic>
@@ -9481,6 +9945,7 @@
         <categoryLink id="a775-6c0a-c391-c998" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="f41f-8b44-500a-6c83" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="42a5-e0bd-daac-2610" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="392a-dddd-8fe5-375b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="aa14-ffcc-5649-f108" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -9528,6 +9993,11 @@
                 <condition field="selections" scope="baea-a805-89c5-be2a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="baea-a805-89c5-be2a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Spectre-6</characteristic>
@@ -9566,6 +10036,7 @@
         <categoryLink id="d762-d3c7-5a6d-ef25" name="Ezra Bridger" hidden="false" targetId="7e48-deb5-b1f3-1b0b" primary="false"/>
         <categoryLink id="b089-b808-4e67-40f0" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
         <categoryLink id="1177-134a-ed5d-c1cb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="8315-0406-c30f-86e1" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9897-ee75-2309-b6a0" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -9613,6 +10084,11 @@
                 <condition field="selections" scope="b128-e6b5-dff3-4d2c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b128-e6b5-dff3-4d2c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Spectre-5</characteristic>
@@ -9649,6 +10125,7 @@
         <categoryLink id="608d-10c9-18ef-5835" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="6540-dd3d-f5f2-4176" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="9ebc-ced2-7c8d-f6e1" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="0b6a-99cf-a1d0-c476" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2b9a-3616-eb64-e69b" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -9696,6 +10173,11 @@
                 <condition field="selections" scope="0772-2f7d-edba-b2ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="0772-2f7d-edba-b2ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Spectre-4</characteristic>
@@ -9732,6 +10214,7 @@
         <categoryLink id="861b-40da-98a5-2598" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="01b2-7197-7f91-2e75" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="cadb-1526-0712-00d9" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="2872-bd0e-b66a-87c2" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f631-b5a6-c6f9-78bd" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -9824,6 +10307,7 @@
         <categoryLink id="f4d4-b2c0-46cc-17de" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="2755-ae51-7562-a669" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="e0a4-a188-70a3-718b" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="30e1-3e2e-ffcf-9bdf" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dffd-5610-432f-0a8f" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -9920,6 +10404,7 @@
         <categoryLink id="e5ad-75b9-6918-80fe" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ac40-c895-66df-7de0" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
         <categoryLink id="c039-df50-9d55-6d3e" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="bee0-2dc7-30b7-5669" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="04f5-83b0-a426-cebc" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -10020,6 +10505,7 @@
         <categoryLink id="5d89-760f-6da3-016a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="de41-49df-b8cb-c7e2" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
         <categoryLink id="6a8e-538f-c6fe-ec25" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="898a-bc50-41a6-3ce8" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9148-90a1-5e33-7b62" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -10105,6 +10591,7 @@
         <categoryLink id="1349-8c9f-ddfb-de87" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4e62-33ea-91ba-bb1f" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="b86d-c434-a9bd-4b0e" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="c74d-8a82-5dac-da39" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ff89-a229-c409-f32c" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -10152,6 +10639,11 @@
                 <condition field="selections" scope="a798-1ebb-04b3-f108" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a798-1ebb-04b3-f108" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Reluctant Rebel</characteristic>
@@ -10187,6 +10679,7 @@
         <categoryLink id="b0d6-9374-ea8c-3b61" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="a6da-08df-1d83-925c" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="80fc-d576-f854-48e9" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="bc9d-571e-be4d-e347" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6a1f-55b6-af5b-8121" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -10234,6 +10727,11 @@
                 <condition field="selections" scope="1b1b-5574-4860-2fed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1b1b-5574-4860-2fed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Spectre-6</characteristic>
@@ -10271,6 +10769,7 @@
         <categoryLink id="9d48-7d57-2970-e36d" name="Ezra Bridger" hidden="false" targetId="7e48-deb5-b1f3-1b0b" primary="false"/>
         <categoryLink id="53c6-9ec4-e48b-9fde" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
         <categoryLink id="619a-6f63-863b-4930" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="afa0-3fe6-978b-3366" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9659-6e76-b757-c9bd" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -10318,6 +10817,11 @@
                 <condition field="selections" scope="1084-4966-38c2-26c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1084-4966-38c2-26c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Spectre-4</characteristic>
@@ -10353,6 +10857,7 @@
         <categoryLink id="1621-d2de-dfde-40cb" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="3ab0-edbf-a493-8ed6" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="1131-9087-e4c7-0244" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="ab32-0461-ae0f-0333" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f30a-ff6d-5e50-395a" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -10385,6 +10890,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="749a-99b4-3e7f-444b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="749a-99b4-3e7f-444b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10422,6 +10932,7 @@
         <categoryLink id="49e3-5379-49b9-3d12" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="9888-fa08-a32a-a727" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
         <categoryLink id="223f-2f04-c76f-44c2" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="8252-3218-14a7-add1" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="eddd-90d8-6aa0-448d" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -10449,6 +10960,11 @@
             <modifier type="set" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="e59c-281a-8653-3dae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="cf5e-1717-447c-5dea" value="0">
+              <conditions>
+                <condition field="selections" scope="e59c-281a-8653-3dae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10519,6 +11035,11 @@
                 <condition field="selections" scope="295e-04ef-15af-6abf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="cf5e-1717-447c-5dea" value="0">
+              <conditions>
+                <condition field="selections" scope="295e-04ef-15af-6abf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Ambitious Ace</characteristic>
@@ -10582,6 +11103,11 @@
             <modifier type="set" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="1dc2-0f3e-3747-9e01" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="cf5e-1717-447c-5dea" value="0">
+              <conditions>
+                <condition field="selections" scope="1dc2-0f3e-3747-9e01" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10648,6 +11174,11 @@
             <modifier type="set" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="e53b-7222-3548-437e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="cf5e-1717-447c-5dea" value="0">
+              <conditions>
+                <condition field="selections" scope="e53b-7222-3548-437e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10723,6 +11254,11 @@
                 <condition field="selections" scope="7138-e7bf-6e79-a93a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7138-e7bf-6e79-a93a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Soft-Spoken Slayer</characteristic>
@@ -10761,6 +11297,7 @@
         <categoryLink id="cb61-f1e5-020c-d3c1" name="Imperial" hidden="false" targetId="6901-3868-ee61-0632" primary="false"/>
         <categoryLink id="809a-44e4-bcd2-d019" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="c4af-3f5f-85d8-ec4d" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="9ee2-c4e1-c6e7-3de6" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ab63-2733-86d4-62d8" name="Gunner" hidden="false" collective="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup"/>
@@ -10792,6 +11329,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="ff99-4e87-7325-1087" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ff99-4e87-7325-1087" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10832,6 +11374,7 @@
         <categoryLink id="32b9-a026-e3d0-4658" name="Imperial" hidden="false" targetId="6901-3868-ee61-0632" primary="false"/>
         <categoryLink id="0455-20d2-8d88-e947" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="76fd-0296-97c3-f7bd" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="aafc-900b-094a-2b90" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5aad-9f42-6cda-d3e8" name="Gunner" hidden="false" collective="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup"/>
@@ -10860,6 +11403,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="03d0-a8a4-8a1b-01c1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="03d0-a8a4-8a1b-01c1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10901,6 +11449,7 @@
         <categoryLink id="0650-65fc-e7e8-d827" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="524d-6c64-6d3b-c4ec" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="79a7-a32a-157f-4b92" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="2548-65ae-190b-7fab" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c310-5f53-0c26-a3c6" name="Gunner" hidden="false" collective="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup"/>
@@ -10928,6 +11477,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="1c59-b6f6-211a-378d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1c59-b6f6-211a-378d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10969,6 +11523,7 @@
         <categoryLink id="e936-d812-5140-f401" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="359e-c59f-dc08-1706" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
         <categoryLink id="806c-937e-da09-890e" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="a5cb-01ce-4bbd-43c4" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a820-fb4c-d20a-835f" name="Gunner" hidden="false" collective="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup"/>
@@ -11000,6 +11555,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="954e-9892-3e2d-d987" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="954e-9892-3e2d-d987" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -11042,6 +11602,7 @@
         <categoryLink id="5280-dc48-65c0-456a" name="Reload" hidden="false" targetId="c0ad-15c4-be98-f815" primary="false"/>
         <categoryLink id="a861-3da7-6134-0c28" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="e446-4d7b-5269-c0af" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="72f0-3878-08dd-2c7b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2b50-561b-45ac-169c" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -11085,6 +11646,11 @@
                 <condition field="selections" scope="1a77-db2a-357f-a8bc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1a77-db2a-357f-a8bc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Dexterous Bombardier</characteristic>
@@ -11125,6 +11691,7 @@
         <categoryLink id="5b50-cc67-2335-7ced" name="Reload" hidden="false" targetId="c0ad-15c4-be98-f815" primary="false"/>
         <categoryLink id="802d-60e9-2d8c-02ae" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5703-16ac-a70f-dbf6" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="3214-3720-54d7-741a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a339-f8e9-e337-553a" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -11163,6 +11730,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="6d49-b137-844f-9ab0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="6d49-b137-844f-9ab0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -11206,6 +11778,7 @@
         <categoryLink id="07e4-313d-6b1c-44c6" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="55c9-c8f9-38da-b2e4" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="6149-c257-923b-3e97" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="962d-2dfc-3b1b-5f2b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a783-08f1-6994-627f" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -11256,6 +11829,11 @@
                 <condition field="selections" scope="bd41-617c-76a8-90b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="bd41-617c-76a8-90b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Meditative Gand</characteristic>
@@ -11292,6 +11870,7 @@
         <categoryLink id="063a-d3a2-b445-9700" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="afbe-57c7-3d5e-ced9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="fb22-2f53-6193-bba7" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="f41e-a704-bd7a-c388" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8ef9-33f2-dc18-c22e" name="Illicit" hidden="false" collective="false" targetId="5e99-5abd-4bda-b141" type="selectionEntryGroup"/>
@@ -11343,6 +11922,11 @@
                 <condition field="selections" scope="177e-20b6-9860-7ea6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="177e-20b6-9860-7ea6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Reprogrammed Protocol Droid</characteristic>
@@ -11379,6 +11963,7 @@
         <categoryLink id="ce25-3bcf-9dca-e09c" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f5bd-2c3a-6780-cb57" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
         <categoryLink id="19e2-3dcf-12fc-cdaf" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="5e58-728c-bd7b-74fa" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f210-4e2b-dd36-5a47" name="Illicit" hidden="false" collective="false" targetId="5e99-5abd-4bda-b141" type="selectionEntryGroup"/>
@@ -11420,6 +12005,11 @@
                 <condition field="selections" scope="23d7-0fee-3a53-1871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="23d7-0fee-3a53-1871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -11457,6 +12047,7 @@
         <categoryLink id="1789-9d34-83f3-1bd2" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="eba5-39ee-97c2-e4ed" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="884f-0524-c8cf-cfe3" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="599d-c958-a5e2-729b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="10b5-75a0-505b-d1ad" name="Illicit" hidden="false" collective="false" targetId="5e99-5abd-4bda-b141" type="selectionEntryGroup"/>
@@ -11493,6 +12084,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="36e9-9b4b-9cca-41ab" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="36e9-9b4b-9cca-41ab" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -11533,6 +12129,7 @@
         <categoryLink id="784c-1da0-66b5-bd5f" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="513f-6a64-8b63-23aa" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="b690-c081-886f-dee4" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="0e50-bf2f-5ac7-b12b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2368-7adc-e234-b46d" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -11568,6 +12165,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="8ae4-0361-46aa-7994" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="8ae4-0361-46aa-7994" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -11608,6 +12210,7 @@
         <categoryLink id="88e4-ff09-bdc5-c79b" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="f17a-8e65-d69c-f655" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="c79f-0d63-050e-2190" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="7c90-937d-1d1d-876c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="997c-0a99-ade9-f7fe" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -11633,6 +12236,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="9894-21cd-fb66-9e28" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="9894-21cd-fb66-9e28" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -11674,6 +12282,7 @@
         <categoryLink id="343c-9815-0ebf-b4b9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="d6c0-a7da-6f0a-b233" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="23d4-c5a0-8ad0-0b90" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="d787-b1f9-5b0c-d338" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="71df-db18-21d8-59c1" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -11990,6 +12599,11 @@
                 <condition field="selections" scope="dec0-b81c-11f1-dc8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="dec0-b81c-11f1-dc8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Tenacious Investigator</characteristic>
@@ -12030,6 +12644,7 @@
         <categoryLink id="0464-991c-67d2-9dbd" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="591e-9c96-ad6b-349f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5322-81cb-7ef0-9885" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="be28-a58f-eca1-cb4c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="26a5-272f-9a28-6f9d" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -12057,6 +12672,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="c824-82d7-63a9-f245" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="c824-82d7-63a9-f245" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -12099,6 +12719,7 @@
         <categoryLink id="0079-8f23-be2b-6de7" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="4bfe-f311-72b6-12b8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4818-be44-7777-bf07" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="95a5-6a7f-9151-d4db" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0c2f-4b9d-d3ff-1abb" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -12123,6 +12744,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="79d0-3ff1-3ca2-9039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="79d0-3ff1-3ca2-9039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -12166,6 +12792,7 @@
         <categoryLink id="445d-2c07-061f-69b1" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="bee6-8d2a-3a22-d2a8" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
         <categoryLink id="33d5-0307-502f-a78a" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="852d-850a-2794-5c8c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bf87-ca94-37dd-ab07" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -12190,6 +12817,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="ab62-3184-2de7-174d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ab62-3184-2de7-174d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -12233,6 +12865,7 @@
         <categoryLink id="0fdd-a274-2055-96f1" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="d033-0a47-f422-9e2e" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="93b8-19b9-64c1-abbe" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="f633-78cb-d857-1b8d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8cc3-c7e8-ca0e-ec28" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -12311,6 +12944,7 @@
         <categoryLink id="1495-3096-b185-e974" name="Rear Arc" hidden="false" targetId="4257-4430-7af8-7433" primary="false"/>
         <categoryLink id="8d59-b880-e812-fb46" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="917c-0937-f365-77f0" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="4f41-e6fb-9abc-14da" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5a6c-33c7-4999-9d1b" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -12394,6 +13028,7 @@
         <categoryLink id="f59d-69ed-aa0d-34a8" name="Rear Arc" hidden="false" targetId="4257-4430-7af8-7433" primary="false"/>
         <categoryLink id="b3f1-e044-18da-0fdd" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="0634-0840-a49f-3dfe" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="b8cd-c67f-9fe2-e881" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="53ec-d2f8-41c7-e9bd" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -12477,6 +13112,7 @@
         <categoryLink id="2bf9-779e-93ed-9aba" name="Rear Arc" hidden="false" targetId="4257-4430-7af8-7433" primary="false"/>
         <categoryLink id="2c55-53d7-ee26-351d" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="a7c4-3005-0fe4-5fd1" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="ef09-23d1-84f0-4e6c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b93f-7669-775f-0294" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -12558,6 +13194,7 @@
         <categoryLink id="1fb9-fe61-3982-9147" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="f664-83a1-b44b-6598" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="2ffa-ee23-7f98-5721" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="84fb-43d7-78da-f236" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0bd0-e751-7267-c901" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -12596,6 +13233,11 @@
                 <condition field="selections" scope="0969-76c4-4a68-3b90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="0969-76c4-4a68-3b90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Innate Deadeye</characteristic>
@@ -12632,6 +13274,7 @@
         <categoryLink id="fcae-a94a-b530-e7fd" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="7d40-b81d-814e-a5f3" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="9276-2c2e-a73a-b755" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="2bce-5bb5-8367-7dab" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="fc2b-a6fd-e1bd-5d7e" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -12670,6 +13313,11 @@
                 <condition field="selections" scope="fe50-750a-461a-1e27" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="fe50-750a-461a-1e27" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Contingency Planner</characteristic>
@@ -12706,6 +13354,7 @@
         <categoryLink id="c677-3792-5355-b01e" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="4dca-a252-98d9-65ed" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="6fbb-0c16-bcb7-2363" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="7813-0252-fd7f-7f29" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2b25-215c-27c5-ac7a" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -12739,6 +13388,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="27db-1eb8-0a04-ec5e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="27db-1eb8-0a04-ec5e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -12778,6 +13432,7 @@
         <categoryLink id="8d27-54f7-2c6a-2ecd" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f11e-4468-c666-35c6" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="63c9-7722-eb43-7325" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="4091-0f4a-964b-5c9f" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ba30-e598-71c2-a896" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -12811,6 +13466,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="471f-2a13-d8bb-6dde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="471f-2a13-d8bb-6dde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -12850,6 +13510,7 @@
         <categoryLink id="3fd3-6bd4-b431-293f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="422f-3436-6eb3-52b1" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="796b-5907-3f49-5d28" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="02f9-9e2c-b0e3-510d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b56f-5967-b468-fcf6" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -12890,6 +13551,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="b43d-f868-0a0d-12f9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b43d-f868-0a0d-12f9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -12933,6 +13599,7 @@
         <categoryLink id="f53f-8579-763a-90a4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="cc33-fd89-c626-3a0f" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="55eb-d1e0-7b09-0717" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="7d86-b9a6-5cbd-f485" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bf5b-1f53-28cc-0d68" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -12977,6 +13644,11 @@
                 <condition field="selections" scope="9579-8b5a-6a46-2f16" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="9579-8b5a-6a46-2f16" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Tethan Resister</characteristic>
@@ -13018,6 +13690,7 @@
         <categoryLink id="aad0-90ad-261e-d3ba" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="6a41-f175-29f5-fac3" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="5184-2b9f-7034-f203" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="3dab-c50b-29c2-cb3c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2ee5-5c20-e02b-1ffa" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13062,6 +13735,11 @@
                 <condition field="selections" scope="71c9-c0a2-7902-cc71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="71c9-c0a2-7902-cc71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Mercenary Miner</characteristic>
@@ -13103,6 +13781,7 @@
         <categoryLink id="5660-5e26-9ca9-2c46" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4304-a7b2-dad1-8a4d" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="af82-3725-499a-0e21" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="c027-4a69-58c1-0796" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a841-d33d-c401-86bd" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13141,6 +13820,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="317b-ba53-6636-0b38" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="317b-ba53-6636-0b38" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -13185,6 +13869,7 @@
         <categoryLink id="8755-6fc3-338b-43d2" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="1c81-ec49-13ff-36ad" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="9b99-f858-b5a4-049b" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="9060-06a7-f3ef-fdec" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c691-db47-80a1-d772" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13228,6 +13913,11 @@
                 <condition field="selections" scope="2e78-2f04-6e2f-0d6b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="2e78-2f04-6e2f-0d6b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Espionage Expert</characteristic>
@@ -13269,6 +13959,7 @@
         <categoryLink id="0fed-77f2-379c-fe84" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="2ee4-1965-2b29-b713" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="a7a8-fa52-d7b0-1ec2" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="441f-210c-9d8a-8155" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3f3a-e26e-7f93-be9d" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13312,6 +14003,11 @@
                 <condition field="selections" scope="62e6-19a5-5d83-abc6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="62e6-19a5-5d83-abc6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Good-Hearted Smuggler</characteristic>
@@ -13353,6 +14049,7 @@
         <categoryLink id="4f9f-3616-c670-5141" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="e465-ee31-9fd0-b7d8" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="b105-9f89-7f05-8da0" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="2df8-da9f-9a62-dc28" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="955f-00c6-cb58-4e86" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13396,6 +14093,11 @@
                 <condition field="selections" scope="ff33-47ed-73cd-e880" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ff33-47ed-73cd-e880" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Relentless Operative</characteristic>
@@ -13437,6 +14139,7 @@
         <categoryLink id="315d-8c2d-0c69-8086" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="fa4c-72b4-3744-6fa9" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="9d30-4aff-5c07-9e03" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="1f87-69ad-1550-8c81" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5b78-13e2-5627-d2fd" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13475,6 +14178,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="1428-0ceb-dcf2-dfe0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1428-0ceb-dcf2-dfe0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -13519,6 +14227,7 @@
         <categoryLink id="844a-2d2c-2e0f-8786" name="Rebel" hidden="false" targetId="29ea-0cf3-d550-1fa8" primary="false"/>
         <categoryLink id="c08b-6812-9bca-a4ad" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="cc9b-f2ff-de43-0b63" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="93ea-37bf-9faa-de51" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f817-9d84-4808-d1ac" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13608,6 +14317,7 @@
         <categoryLink id="9f55-3537-787d-5001" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="7314-d22d-0fbb-770b" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="3c78-1f1a-52f2-0bb8" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="8bb5-d3cb-5cbf-27bf" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8547-8635-a953-d2ce" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13700,6 +14410,7 @@
         <categoryLink id="918e-5174-5a39-633d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f307-21e4-37c4-f7a1" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="7ecc-7dfb-8bb2-4758" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="5462-d715-1db4-dc27" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b747-8ace-c637-9a98" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13790,6 +14501,7 @@
         <categoryLink id="c6c6-38e3-d209-5e7c" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="2a86-c815-d911-ad69" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="62a3-df8a-20ea-2c47" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="329e-00c3-5fea-3eea" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d8dd-7776-9a74-b2b3" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -13813,18 +14525,6 @@
       </constraints>
       <profiles>
         <profile id="854e-bce4-7913-9043" name="•Jake Farrell" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
-          <modifiers>
-            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
-              <conditions>
-                <condition field="selections" scope="310e-630a-115d-5160" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
-              <conditions>
-                <condition field="selections" scope="310e-630a-115d-5160" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Sage Instructor</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
@@ -13864,6 +14564,7 @@
         <categoryLink id="eea4-6429-3086-8434" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="dc61-0c67-ed8a-4e69" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="cf3c-6739-dec2-fcdd" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="12ca-688c-f79f-6031" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="fa30-bc3f-6c52-eba0" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -13883,18 +14584,6 @@
       </constraints>
       <profiles>
         <profile id="92dd-68af-bb9b-f21e" name="•Arvel Crynyd" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
-          <modifiers>
-            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
-              <conditions>
-                <condition field="selections" scope="53a8-b83d-9c67-e325" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
-              <conditions>
-                <condition field="selections" scope="53a8-b83d-9c67-e325" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Green Leader</characteristic>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
@@ -13934,6 +14623,7 @@
         <categoryLink id="9fc4-eff3-cd0c-8089" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="933f-0965-9ee6-2866" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="bbee-7d7d-8a6d-5df6" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="a13a-2336-81cd-30a9" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ac26-3ce6-fa69-4494" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -13950,18 +14640,6 @@
     <selectionEntry id="ee26-8daa-7a6e-cbc7" name="3 - Green Squadron Pilot" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="ed3a-8cd4-28ee-2916" name="Green Squadron Pilot" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
-          <modifiers>
-            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
-              <conditions>
-                <condition field="selections" scope="ee26-8daa-7a6e-cbc7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
-              <conditions>
-                <condition field="selections" scope="ee26-8daa-7a6e-cbc7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
@@ -14002,6 +14680,7 @@
         <categoryLink id="f045-64f2-2997-eaec" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8afd-d1f2-d6c6-fdcf" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="e32a-e766-2bc3-5ea9" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="c2e7-cd47-3413-d345" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a6f9-96a5-e938-cd5d" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -14018,18 +14697,6 @@
     <selectionEntry id="db1e-92bf-e126-1433" name="1 - Phoenix Squadron Pilot" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1ca3-de8f-0277-8407" name="Phoenix Squadron Pilot" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
-          <modifiers>
-            <modifier type="increment" field="04a8-6b71-1402-476c" value="1">
-              <conditions>
-                <condition field="selections" scope="db1e-92bf-e126-1433" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc6a-f3df-a133-0e3a" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
-              <conditions>
-                <condition field="selections" scope="db1e-92bf-e126-1433" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
             <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">1</characteristic>
@@ -14070,6 +14737,7 @@
         <categoryLink id="0104-45e1-71d3-3118" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="0621-5541-b625-eb48" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="3045-0464-ab76-9457" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="be4a-8f02-ffc2-9b16" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ac2c-2fbd-0a89-99fd" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -14104,6 +14772,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
               <conditions>
                 <condition field="selections" scope="3e9f-5ff5-c042-b8a5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="3e9f-5ff5-c042-b8a5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -14142,6 +14815,7 @@
         <categoryLink id="e283-71f7-6be8-81b9" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="c62e-d12e-53ed-f70b" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8c41-963e-463b-1d70" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="42a2-7012-9a85-faa1" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6443-15e6-9a03-7716" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -14213,6 +14887,11 @@
                 <condition field="selections" scope="65ba-ca8a-70e6-0e9e" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="65ba-ca8a-70e6-0e9e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Cunning Commander</characteristic>
@@ -14249,6 +14928,7 @@
         <categoryLink id="cbfb-a9c9-b5c4-fb74" name="Scum" hidden="false" targetId="6412-4688-9ef2-304a" primary="false"/>
         <categoryLink id="1886-04c9-f06b-67e2" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="314a-6a6a-0a9e-6bff" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="ddcf-aea5-d32b-908d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="593d-3c43-ff3d-d40f" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -14317,6 +14997,11 @@
                 <condition field="selections" scope="15ed-55d5-ca2f-ad9a" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="15ed-55d5-ca2f-ad9a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -14354,6 +15039,7 @@
         <categoryLink id="eabf-3e54-5842-1ca8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="70e4-f05e-92bd-6e6c" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="c757-9bfa-2df2-61e7" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="e4b5-c443-cd61-f4ea" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="fbef-570f-2521-e76e" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -14424,6 +15110,11 @@
                 <condition field="selections" scope="a07b-108b-1d1b-4d30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a07b-108b-1d1b-4d30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Escaped Gladiator</characteristic>
@@ -14461,6 +15152,7 @@
         <categoryLink id="1ef2-31eb-de15-e106" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="da92-1804-3b04-2313" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="aec5-d30f-d873-2866" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="be40-1eb8-edd0-892e" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="647b-6f90-31a8-0493" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -14497,6 +15189,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="2be1-661d-63b4-1a2c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="2be1-661d-63b4-1a2c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -14537,6 +15234,7 @@
         <categoryLink id="8c2e-9c41-3ee3-acfb" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="9c46-d196-59fc-8b1b" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="761a-6781-e3b3-190e" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="6a0a-1004-356d-033f" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3a72-9ffc-5f52-dd9a" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup">
@@ -14577,6 +15275,11 @@
                 <condition field="selections" scope="957f-b79d-c9ad-7a3d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="957f-b79d-c9ad-7a3d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Wookiee Chief</characteristic>
@@ -14614,6 +15317,7 @@
         <categoryLink id="7e94-1f92-f9e6-03ca" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="2d2a-4b5d-dbb4-7525" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="9e12-fb3c-49e6-0d1a" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="365a-702a-b3b7-bf26" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="75c0-2822-26e4-a7e0" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -14653,6 +15357,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
               <conditions>
                 <condition field="selections" scope="fcdc-d7e5-8d76-c7d4" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="fcdc-d7e5-8d76-c7d4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -14696,6 +15405,7 @@
         <categoryLink id="e77a-c22d-7558-610d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="0175-6ca7-8fc9-c031" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="5ef2-840b-be5c-cb20" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="fc39-e441-7070-fe88" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="648e-dffa-0b60-654f" name="Device" hidden="false" collective="false" targetId="4eae-232a-2b4f-f5e8" type="selectionEntryGroup">
@@ -14744,6 +15454,11 @@
                 <condition field="selections" scope="a7d4-db00-7578-2c8d" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a7d4-db00-7578-2c8d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Selfless Hero</characteristic>
@@ -14785,6 +15500,7 @@
         <categoryLink id="d7e3-25ea-c09d-43f8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="b03c-885f-38f9-83ca" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="4450-cc7d-8f28-d46c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="eb52-b12c-78b9-b6d6" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dd60-c016-6be1-2f0d" name="Device" hidden="false" collective="false" targetId="4eae-232a-2b4f-f5e8" type="selectionEntryGroup">
@@ -14830,6 +15546,11 @@
                 <condition field="selections" scope="1905-7706-ec97-de3c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1905-7706-ec97-de3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -14872,6 +15593,7 @@
         <categoryLink id="ee7e-1088-bd64-25a3" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="0142-8c4b-7a84-4eff" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="8c46-56af-e9de-9690" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="6144-8255-ede4-82b3" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1591-eaca-336f-e2b8" name="Device" hidden="false" collective="false" targetId="4eae-232a-2b4f-f5e8" type="selectionEntryGroup">
@@ -14959,6 +15681,7 @@
         <categoryLink id="73f1-686d-8363-8c06" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1a77-104b-0669-b97b" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="b8ee-4920-3017-a12a" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="e49a-2b98-6120-f3ce" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8311-9b62-f22f-af07" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -15039,6 +15762,7 @@
         <categoryLink id="897a-f19c-a7d7-4c9b" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="9009-8cab-2c22-36ae" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
         <categoryLink id="4484-0f17-a5cf-831d" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="8ba0-c33f-3ca9-d686" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3820-da61-6da8-20e6" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -15116,6 +15840,7 @@
         <categoryLink id="769f-2206-3e9c-4a4b" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="925e-917e-e3e5-d4fd" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="00d1-e0de-7abe-ceea" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="9901-f19f-32e7-1513" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="90d5-cde9-1c3a-6ed0" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -15216,6 +15941,7 @@
         <categoryLink id="74f5-aea0-0ed9-ab3a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="9791-a8ed-8b5d-2b18" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="003e-49c1-57e7-44ef" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="f661-daa8-f6a9-0e5c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7e50-6b3f-c2b0-53a0" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -15320,6 +16046,7 @@
         <categoryLink id="f111-90d3-ead8-8470" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="2e6a-cea5-ea1b-9f60" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="6a79-628a-fa71-7b28" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="01ce-8459-ab48-933b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5c6d-6bfc-3dd2-106b" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -15424,6 +16151,7 @@
         <categoryLink id="32e0-4f69-ea13-c591" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="45ee-caef-7014-2697" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="43cd-920c-e1ee-5bc6" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="7b8d-680c-0438-a71a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="37b6-c33c-96c9-e637" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -15512,6 +16240,7 @@
         <categoryLink id="fe17-59a2-6ab6-e18c" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="38e8-0817-d4c5-1390" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="9564-ca99-fb26-519a" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="bebc-3ecb-b53c-dbb9" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b83f-04c5-27e4-8f5f" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -15574,6 +16303,7 @@
         <categoryLink id="0024-799d-49ed-1ec3" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="729c-ad8b-a624-5dcc" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="d275-90d5-3caa-147f" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="5de3-2505-10de-508a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="cbb5-8f7d-6b7f-9664" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -15686,6 +16416,7 @@
         <categoryLink id="6107-e821-d86d-748b" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="00f6-7fa1-bd96-114d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5abd-57b6-18b6-f214" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="e3dc-6bf4-d79c-7da2" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5777-f415-c4ca-b819" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -15740,6 +16471,7 @@
         <categoryLink id="4d78-82a1-925e-5003" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1b4c-ea4e-092b-d647" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
         <categoryLink id="c246-f752-44ad-e298" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="62f5-f1b3-04e8-15e2" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9d08-3e5b-8b9b-e06e" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -15794,6 +16526,7 @@
         <categoryLink id="8de2-eda7-5358-503e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="d3d0-9d23-027b-15ad" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="adcf-f5f3-d2b6-1e24" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="0234-2c83-17f1-a465" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="beda-1f8e-c81a-16fd" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -15870,6 +16603,7 @@
         <categoryLink id="5cc3-e6d2-2fa7-eb7f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="a592-8204-ed46-4f6f" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="0339-ed16-3247-4a50" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="eafd-e9a4-94ac-0bd3" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="eb16-5a2d-53f1-547b" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -15959,6 +16693,7 @@
         <categoryLink id="5f98-0404-867a-776b" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8a69-8008-58fd-6984" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="ae19-2de7-133d-0fb1" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="043e-67d9-5159-de8c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ea89-3117-7fcb-c2e0" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -16048,6 +16783,7 @@
         <categoryLink id="f025-f1b0-d7d8-a990" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5296-63a0-e747-cc8c" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="98ba-1b03-9165-a4e7" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="eb1f-974f-b6a7-9376" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4811-5ef9-2024-85d4" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -16135,6 +16871,7 @@
         <categoryLink id="6ab4-9b47-50e9-49ab" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="d124-f7a6-e7da-299c" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="be55-4c5e-bee1-7f6b" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="c0b0-2d72-db97-8657" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="fadc-ebb1-8ae5-0efa" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -16181,6 +16918,11 @@
                 <condition field="selections" scope="a705-16f1-94ad-1d3a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a705-16f1-94ad-1d3a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Scourge of Tansarii Point</characteristic>
@@ -16217,6 +16959,7 @@
         <categoryLink id="5b31-a31f-c9ca-1e12" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="4bee-faef-4c5d-6a3e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="30ce-038b-03fd-9f2b" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="c537-f793-58a8-88e5" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b18d-c435-6999-ae65" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
@@ -16247,6 +16990,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="3c2b-ba93-2d53-c707" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="3c2b-ba93-2d53-c707" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16285,6 +17033,7 @@
         <categoryLink id="5365-5dcf-3fe9-db29" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="1481-390d-c7d6-77d9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="29be-8eb6-938d-313c" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="7955-8071-05cf-e50d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a4a6-b5dc-71d7-2219" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
@@ -16315,6 +17064,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="f57e-d94e-b9be-1940" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="f57e-d94e-b9be-1940" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16353,6 +17107,7 @@
         <categoryLink id="7c57-d98a-9af6-d2f5" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="06c3-9afd-2234-eb15" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="6c75-78be-529b-2c69" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="36a7-7da2-72fc-6aec" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b0d2-981b-07b2-fd1b" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
@@ -16383,6 +17138,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="11fd-ad90-c698-0aa0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="11fd-ad90-c698-0aa0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16421,6 +17181,7 @@
         <categoryLink id="da15-7fe6-fd75-efcb" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="550a-2175-398b-ecd9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="35fb-0b46-2454-0ccb" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="629c-dbd5-c9d0-d9ea" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b697-79f0-d2fe-f732" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
@@ -16447,6 +17208,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="6261-a879-8abe-b766" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="6261-a879-8abe-b766" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16486,6 +17252,7 @@
         <categoryLink id="3ca5-6728-cba9-fc35" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="0988-ae23-d27a-74e4" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="4873-8bac-0a5c-0a07" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="65e0-7019-e8db-0d0b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7397-9886-b093-4100" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
@@ -16513,6 +17280,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="647d-fa67-532e-5acc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="647d-fa67-532e-5acc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16552,6 +17324,7 @@
         <categoryLink id="7199-5e25-ee45-dc82" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="48cc-40f2-622b-591e" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="9217-09fc-f73e-902a" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="04d6-9f88-07ba-0a88" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d97d-0e2d-cc4e-bae7" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup">
@@ -16581,6 +17354,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="94a4-c81d-70b8-5bf6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="94a4-c81d-70b8-5bf6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16621,6 +17399,7 @@
         <categoryLink id="a547-d5bf-e59f-c487" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="65d0-3627-abf6-16a4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="dc2c-c24a-5d40-40e3" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="a58c-2787-f53c-f271" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dbc5-761e-0539-c01b" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -16689,6 +17468,11 @@
                 <condition field="selections" scope="c69b-0a77-9aef-dfef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="c69b-0a77-9aef-dfef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Tansarii Point Crime Lord</characteristic>
@@ -16727,6 +17511,7 @@
         <categoryLink id="6770-1887-3547-79fa" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="f472-ea52-2514-5344" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f14e-bb2d-0aa6-41d1" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="c2e9-6358-b123-8976" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e5b4-642a-5a40-4001" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -16795,6 +17580,11 @@
                 <condition field="selections" scope="1c98-005b-87a0-cbef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1c98-005b-87a0-cbef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Car&apos;das Enforcer</characteristic>
@@ -16833,6 +17623,7 @@
         <categoryLink id="f6c4-6034-cea5-c5bf" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="28a6-1d99-9d17-1e7a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="b18f-0f09-3b9e-506b" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="28bf-c056-7bac-3741" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6696-a73c-4d64-60a8" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -16901,6 +17692,11 @@
                 <condition field="selections" scope="c65c-1007-466d-a7f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="c65c-1007-466d-a7f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Fortune Seeker</characteristic>
@@ -16939,6 +17735,7 @@
         <categoryLink id="d581-df3d-1f56-a6c1" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="e325-09f7-f730-25b2" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="c3c5-35c6-9b60-bd17" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="70a3-771f-632b-792e" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="53ea-aa5f-f637-626b" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -17004,6 +17801,11 @@
                 <condition field="selections" scope="f492-b873-58cb-ad19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="f492-b873-58cb-ad19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -17043,6 +17845,7 @@
         <categoryLink id="1154-38a4-9ef3-81eb" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f503-de37-066f-8333" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="b0dd-43fa-c0aa-177a" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="c872-1597-6b11-c975" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f818-c099-deec-c8ad" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -17111,6 +17914,11 @@
                 <condition field="selections" scope="b953-be81-eec5-0289" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b953-be81-eec5-0289" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Tansarii Point Boss</characteristic>
@@ -17149,6 +17957,7 @@
         <categoryLink id="da6c-5b9d-0d2d-7245" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="ea8a-27f0-683f-3c7a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5269-4c05-2f90-e0ab" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="2c2b-a97a-3f33-8461" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6e25-e790-258d-382f" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -17216,6 +18025,11 @@
                 <condition field="selections" scope="1484-7437-107a-f530" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1484-7437-107a-f530" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Incurable Optimist</characteristic>
@@ -17254,6 +18068,7 @@
         <categoryLink id="4351-34d8-6185-841a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="27f4-86ab-d547-d8ad" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="931c-28fb-1cc5-bf5e" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="fb0c-51c4-4594-3eef" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="945f-826a-a8e7-bf8b" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -17318,6 +18133,11 @@
                 <condition field="selections" scope="cddc-de80-503f-ba64" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="cddc-de80-503f-ba64" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -17357,6 +18177,7 @@
         <categoryLink id="811a-0a98-adad-3b65" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ebd4-8227-58e2-4dfd" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="480d-e97c-ae1f-645c" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="b3b9-97c1-d09e-5305" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="82d3-2ba8-d317-ee9a" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -17475,6 +18296,7 @@
         <categoryLink id="b3d4-d180-8a11-1a9b" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="87a7-2046-eeff-27f5" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="ecfe-5de4-7893-61cb" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="6c12-388b-2975-fa3e" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e4bc-6ac9-4e0d-2489" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -17554,6 +18376,7 @@
         <categoryLink id="e4a2-f34b-dc40-ed84" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
         <categoryLink id="a3aa-ae53-a82a-0d4f" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false"/>
         <categoryLink id="b884-3bc6-e972-843c" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="da3e-07b9-21d5-f3fa" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="36d5-f7d9-2250-85ee" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -17644,6 +18467,7 @@
         <categoryLink id="2bf1-150a-3368-75d0" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="bd40-6a92-281a-5048" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="1e9a-0eaf-0091-2722" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="f416-6115-b316-26b1" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6883-39bf-bee4-5eee" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -17719,6 +18543,7 @@
         <categoryLink id="0908-e592-9a44-9eea" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="5a2c-db2b-ae26-6fd1" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="857f-86d3-4629-daa1" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="b98a-1c8f-404b-4237" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2bf3-f0cb-562f-feaa" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -17754,6 +18579,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="f5db-809f-e2e7-908f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="f5db-809f-e2e7-908f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -17794,6 +18624,7 @@
         <categoryLink id="a579-a8ee-2052-60e6" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="5977-d674-f09d-402d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="dbf4-0be8-0be7-0954" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="0482-61b4-5dad-022a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bb01-450c-7f52-2aef" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -17836,6 +18667,11 @@
                 <condition field="selections" scope="6fc0-2618-3854-1a14" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="6fc0-2618-3854-1a14" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Prince Xizor&apos;s Bodyguard</characteristic>
@@ -17874,6 +18710,7 @@
         <categoryLink id="3277-e18c-e8be-8455" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="3fe1-2f94-8624-d3b0" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
         <categoryLink id="3a95-7d64-5f2c-1e49" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="b9a9-85bc-38a0-9786" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9335-6574-7602-f87d" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -17911,6 +18748,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="b4bb-6579-8361-a964" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b4bb-6579-8361-a964" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -17952,6 +18794,7 @@
         <categoryLink id="545f-6cae-5998-8644" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f9b8-22d5-835a-a305" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="f521-5e8e-ec59-503b" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="fd1d-0070-9450-7ebc" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1e58-ba5c-1852-6b06" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -17989,6 +18832,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="500a-e6cd-5eef-d046" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="500a-e6cd-5eef-d046" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18030,6 +18878,7 @@
         <categoryLink id="ab2a-ac91-71bb-1e71" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4489-4fb1-0a53-cf75" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="d618-ec50-eb4b-7e07" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="9587-64a8-8f91-86ad" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4b6c-67ab-5174-9f64" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -18078,6 +18927,11 @@
                 <condition field="selections" scope="eeea-aa89-5da5-142b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="eeea-aa89-5da5-142b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Elite Bounty Hunter</characteristic>
@@ -18116,6 +18970,7 @@
         <categoryLink id="dfae-334c-3af6-0558" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="a383-9de2-c62f-03c3" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="28eb-d607-1877-41da" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="8b13-d624-b2d0-97f1" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a43b-c50f-a6e8-3166" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -18519,6 +19374,11 @@
                 <condition field="selections" scope="3aba-8fc8-9fa8-ad08" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="3aba-8fc8-9fa8-ad08" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Wrathful Wingmate</characteristic>
@@ -18557,6 +19417,7 @@
         <categoryLink id="ec80-16f4-583f-bc78" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="6e54-603b-667c-9f46" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="14f5-3d86-6c2c-e541" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="054c-e947-9a91-2463" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3847-e0a0-1f1d-1706" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -18583,6 +19444,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="930b-b8cf-d44b-5bee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="930b-b8cf-d44b-5bee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18623,6 +19489,7 @@
         <categoryLink id="5d99-740d-9c67-8e39" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="a47d-e5fd-bd10-82b2" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="28df-371e-2a25-8dbc" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="022e-f45e-069e-7424" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e522-1d56-5b3e-256a" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -18660,6 +19527,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="0dd2-d3b2-a6fb-2cef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="0dd2-d3b2-a6fb-2cef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18703,6 +19575,7 @@
         <categoryLink id="6752-a639-685b-59c7" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
         <categoryLink id="4f38-a51f-e39b-5f04" name="Dark Side" hidden="false" targetId="be9c-6a65-4fc5-c058" primary="false"/>
         <categoryLink id="7ffe-3798-1012-0f7a" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="6bbd-1ecd-80f5-ab9c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0788-e0ea-91f0-881b" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -18729,6 +19602,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="77eb-6d50-497d-4281" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="77eb-6d50-497d-4281" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18769,6 +19647,7 @@
         <categoryLink id="6ebf-da40-d9fa-6f66" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="3e97-0476-525d-5a78" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8988-af8c-5fe1-48a7" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="bb27-433a-c30a-c882" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7b4e-e3ca-b0db-e13a" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -18792,6 +19671,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="9656-b591-c17d-48f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="9656-b591-c17d-48f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18833,6 +19717,7 @@
         <categoryLink id="8f0f-85ec-6c8b-f459" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="01f3-a069-7001-c0a7" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
         <categoryLink id="c892-2560-1661-de81" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="90d0-331c-6d8f-50ab" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="abae-a15a-dcac-1ef8" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -18856,6 +19741,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="7573-a40c-97e1-1aa7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7573-a40c-97e1-1aa7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18897,6 +19787,7 @@
         <categoryLink id="3acf-ac06-9499-a83b" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f8b0-2fba-6413-f8bb" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="50b4-6454-4bf9-d314" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="2dd9-6938-e12d-1e18" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="018f-faf4-f5bc-8b47" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -18922,6 +19813,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="029b-1b7c-ca65-eaa1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="029b-1b7c-ca65-eaa1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18962,6 +19858,7 @@
         <categoryLink id="4086-4308-e8a4-f5e9" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="e4c8-000d-e53f-8b06" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="75fb-b1ed-9f6b-e26b" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="76dd-0dc2-f1b2-cb5b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8b32-0ec2-0e6b-9eb2" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -18987,6 +19884,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="281d-2377-6abf-f6bb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="281d-2377-6abf-f6bb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19027,6 +19929,7 @@
         <categoryLink id="23f6-8556-09f6-d77c" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="e740-fbc1-6dde-0776" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5d87-295b-a46f-9b6d" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="8517-7837-af05-c417" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="aa0a-c519-491a-83cc" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19052,6 +19955,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="59c1-2a3f-7309-7f57" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="59c1-2a3f-7309-7f57" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19092,6 +20000,7 @@
         <categoryLink id="d018-8d3a-bfdf-9a8f" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="2618-1492-0bdd-3f6c" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="6eb8-e0d8-515d-95bf" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="5524-0cf7-fc4b-ab51" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="55b9-63c1-7abc-14b1" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19117,6 +20026,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="58c6-3f82-077a-c9d4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="58c6-3f82-077a-c9d4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19157,6 +20071,7 @@
         <categoryLink id="340f-9ed3-b818-7490" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="11d0-f762-95fd-f072" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f22d-0a75-477c-2f9a" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="ca88-569b-9e2c-ffa7" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4b3a-19a6-d1f9-fa41" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19182,6 +20097,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="1e6d-2c77-4bee-44ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1e6d-2c77-4bee-44ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19222,6 +20142,7 @@
         <categoryLink id="0d8b-f915-eb7e-bea6" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="9db2-01ba-3922-870e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8423-1c4a-9e25-0e18" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="77a0-86ac-873e-8b71" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="16a8-e80f-abc4-8613" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19247,6 +20168,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="cf9b-874f-55e4-1b86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="cf9b-874f-55e4-1b86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19287,6 +20213,7 @@
         <categoryLink id="0c31-3f6a-a782-c234" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="eb25-c292-8ef9-10ed" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8d60-1568-fd80-4f7c" name="Initiative 0" hidden="false" targetId="2a3a-f3a1-797b-7470" primary="false"/>
+        <categoryLink id="7611-4df8-245d-3872" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c3a4-4de1-ef2d-5611" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19311,6 +20238,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="fc8c-cbe8-92c7-f47a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="fc8c-cbe8-92c7-f47a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19351,6 +20283,7 @@
         <categoryLink id="5d4f-63ee-aa19-3a19" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="8447-5de5-6b43-ebee" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1ba9-5578-b376-c951" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="9009-aaef-f985-1d75" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1f9d-2f70-e3a3-4b47" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19375,6 +20308,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="7321-9d05-1d8c-8c06" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7321-9d05-1d8c-8c06" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19415,6 +20353,7 @@
         <categoryLink id="e17f-ccd5-e43e-268d" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="be85-2eb7-adfc-d6b6" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ea96-4777-6dad-2637" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="d06f-6ea8-115d-13f9" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6b38-02de-6989-f211" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19439,6 +20378,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="7164-38a3-632c-bf54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7164-38a3-632c-bf54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19479,6 +20423,7 @@
         <categoryLink id="606c-de6a-8111-013d" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="9b70-f25b-f42a-0dd7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5743-b0b0-42e7-34dc" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="4267-9655-4c47-7ba5" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dab7-de1e-ee05-93bf" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19501,6 +20446,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="a8d4-cac0-5350-928e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a8d4-cac0-5350-928e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19542,6 +20492,7 @@
         <categoryLink id="83ed-5a59-b5be-cff5" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f670-dd76-7c4c-828e" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="6303-c915-a04a-f5d5" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="e74c-4c80-d262-ded7" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="827b-d16f-14a1-2931" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19563,6 +20514,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="7046-d4cf-a91c-621c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7046-d4cf-a91c-621c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19604,6 +20560,7 @@
         <categoryLink id="28f3-ad9f-563c-a232" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="dfe9-1c4f-5c8b-01bd" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="6f65-9f22-771c-370f" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="9f49-e377-4cf7-59b3" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="004c-6d7c-3078-393c" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19625,6 +20582,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="1">
               <conditions>
                 <condition field="selections" scope="d41c-02a5-dc62-5e48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="d41c-02a5-dc62-5e48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19666,6 +20628,7 @@
         <categoryLink id="e45d-bed2-a76d-589e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="a255-25ae-cde5-d52a" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="289f-bc89-1ad7-52ff" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="7d83-a179-b4c7-6bd2" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b617-5bfe-c709-2391" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19696,6 +20659,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="311f-e92d-553f-51d5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="311f-e92d-553f-51d5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19737,6 +20705,7 @@
         <categoryLink id="71fa-3686-f43c-b487" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4006-89d1-a598-8195" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="3a9f-beab-de15-940f" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="d952-e302-9d0e-7144" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e891-166e-5bc1-8f1f" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19770,6 +20739,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="348f-b731-dd10-6e25" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="348f-b731-dd10-6e25" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19811,6 +20785,7 @@
         <categoryLink id="0973-96c3-265e-6beb" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="3adb-f4ae-ab93-55e1" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="f66b-a6cf-41b1-25f5" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="3308-dba5-2c4a-6e9a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4029-527b-9d10-2218" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19841,6 +20816,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="be62-5881-5f64-14f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="be62-5881-5f64-14f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19883,6 +20863,7 @@
         <categoryLink id="ff8c-2e15-0794-7aad" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="6872-bf55-dd2b-c790" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="a2c3-411d-c7b1-7bf4" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="0ac0-b4c7-0fd1-7571" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d39c-dbf4-0268-5980" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -19912,6 +20893,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="9afd-44c1-5083-d96c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="9afd-44c1-5083-d96c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19954,6 +20940,7 @@
         <categoryLink id="b3a8-d26e-008c-34e8" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="0f0e-b2b8-ffd8-82fe" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="7e00-5f5e-8c38-d7b0" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="20f3-c09a-04df-319b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="30d2-c8fa-d237-3551" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -20040,6 +21027,7 @@
         <categoryLink id="7932-c6ea-3d31-83a4" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="38a8-c642-80f1-5f4b" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f31b-81ca-7c9f-fb56" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="1fcb-8b8b-46b5-3b56" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="73b9-b97b-efd0-f82e" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -20131,6 +21119,7 @@
         <categoryLink id="660b-6a12-6a15-8d55" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="d8c8-f31c-d301-8059" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="15b4-61a5-b479-ee8f" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="d268-08e6-c3ad-0a2e" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f6e2-d6a5-2fda-b233" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -20224,6 +21213,7 @@
         <categoryLink id="d8c6-bbeb-7839-014f" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="1449-cefa-de6a-9326" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5799-28a3-f62e-85df" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="9df9-3b06-a6db-9543" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1ece-dad8-21e4-62cb" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -20317,6 +21307,7 @@
         <categoryLink id="2e39-7329-ce3b-b9f9" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="dbfd-1b81-4c90-1ea3" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="cb33-ea68-9a57-8f92" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="d09e-4169-34be-d16e" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3621-3fca-4416-28f2" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -20410,6 +21401,7 @@
         <categoryLink id="d7fe-3fd2-5fba-c0ff" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="9407-ac3e-5ba9-6920" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="b1bb-3ba6-4510-d719" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="fa74-aa24-af49-6d3a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="279a-4a31-b529-07d1" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -20503,6 +21495,7 @@
         <categoryLink id="b6d5-9731-b2fc-bb75" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
         <categoryLink id="75e1-0f70-cc9c-2661" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="3d95-bdd2-845f-d759" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="d7ae-17d6-3d16-5502" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8e68-454d-e428-850e" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -20595,6 +21588,7 @@
         <categoryLink id="cbfb-5f57-fc05-c0c2" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="77c3-381e-6749-5822" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="e2f6-fb01-b064-065b" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="f922-a095-6fd4-98b0" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a656-3008-f8f1-6174" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
@@ -20687,6 +21681,7 @@
         <categoryLink id="6dc6-5b67-a18d-deba" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="3f5d-edb8-bbe2-2d58" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="dc9f-a1a7-5f48-6715" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="7481-9553-dd5d-ec20" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8ceb-8b21-d14a-001d" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
@@ -20779,6 +21774,7 @@
         <categoryLink id="f2bc-ac66-09a7-3519" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="fffe-8295-1e41-f9f5" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="6c2d-2349-020e-fd22" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="6d53-418b-5971-0037" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8b4b-90d3-2a66-a8d2" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
@@ -20871,6 +21867,7 @@
         <categoryLink id="ac8d-b136-3177-ffe0" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="aa70-efaf-ddc8-4105" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="3413-b0f2-c082-83d7" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="8f3e-b74b-2921-ffe2" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1f00-e7e8-3372-139c" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
@@ -20963,6 +21960,7 @@
         <categoryLink id="c51d-ff11-db88-ffec" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="bf91-ae2e-b300-1ed9" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="b506-59f7-1300-ae97" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="28d4-44a1-dfc7-50eb" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0814-d047-3ad1-49ee" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
@@ -21053,6 +22051,7 @@
         <categoryLink id="c14d-921b-daaf-2a45" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="e7d9-4443-eb47-498f" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="cebd-7516-2ba9-1b11" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="d07d-ce2c-39a4-0440" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8316-5573-3380-6aa1" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
@@ -21091,6 +22090,11 @@
                 <condition field="selections" scope="6e2b-21c1-30f7-8495" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="6e2b-21c1-30f7-8495" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Trigger-Happy Flyboy</characteristic>
@@ -21127,6 +22131,7 @@
         <categoryLink id="7d6a-98b4-27d1-a1ab" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="f7f5-dfc5-ad42-bdb7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="2c9e-36d5-3915-df02" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="911d-5f3c-acf0-9310" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b273-4312-37d7-523d" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -21199,6 +22204,11 @@
                 <condition field="selections" scope="0d7b-6611-567e-6377" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="0d7b-6611-567e-6377" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Sarcastic Survivor</characteristic>
@@ -21235,6 +22245,7 @@
         <categoryLink id="dcaa-ca3a-8e1b-a8d5" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="56f6-3071-0601-a1e9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="a072-56cf-ade6-4d16" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="478b-6c09-bc02-1eea" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="46f5-b41a-9fb1-9efe" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -21307,6 +22318,11 @@
                 <condition field="selections" scope="6c38-d8b3-1b66-07af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="6c38-d8b3-1b66-07af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Born to Ill</characteristic>
@@ -21343,6 +22359,7 @@
         <categoryLink id="f429-175b-81c8-1218" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="d83d-2f5b-d3e7-5df7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="82f9-f7c1-9915-1874" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="abcc-4b18-c02c-1930" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="daf1-5f83-a8e7-fcc3" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -21415,6 +22432,11 @@
                 <condition field="selections" scope="ca47-cd45-7cdb-1d57" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ca47-cd45-7cdb-1d57" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Snap</characteristic>
@@ -21451,6 +22473,7 @@
         <categoryLink id="2885-f001-fca1-227d" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="2415-2903-fa8e-e5c3" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="572a-b6a7-5e94-fbb5" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="b199-b7d9-a56e-5c06" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0622-975f-68da-7c88" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -21523,6 +22546,11 @@
                 <condition field="selections" scope="ae66-30b6-e865-b5af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ae66-30b6-e865-b5af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Woman of Action</characteristic>
@@ -21559,6 +22587,7 @@
         <categoryLink id="78ea-6ef7-43cd-713d" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="4998-d99b-594e-2371" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f629-5321-dd2f-27eb" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="3d0e-1ca2-1e95-7009" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5458-df9c-360f-782c" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -21631,6 +22660,11 @@
                 <condition field="selections" scope="ace0-800b-ac33-1729" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ace0-800b-ac33-1729" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Reckless Bodyguard</characteristic>
@@ -21667,6 +22701,7 @@
         <categoryLink id="4a00-e964-77bb-6cb9" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="effc-58c1-7909-a794" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="613a-7bcd-c994-ad5e" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="30f0-db96-fbba-ebad" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f0e1-4831-a274-5901" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -21739,6 +22774,11 @@
                 <condition field="selections" scope="6b07-32a6-cfcb-8d20" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="6b07-32a6-cfcb-8d20" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">The Great Destroyer</characteristic>
@@ -21775,6 +22815,7 @@
         <categoryLink id="94c7-f211-ba78-02ab" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="20a5-418b-82b8-e09d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="afe9-0f56-1754-810e" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="31b0-4f2e-6c48-4e93" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5cf2-d5f7-a7af-fe4d" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -21846,6 +22887,11 @@
                 <condition field="selections" scope="c4b4-31b5-a84b-a567" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="c4b4-31b5-a84b-a567" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Optimistic Analyst</characteristic>
@@ -21882,6 +22928,7 @@
         <categoryLink id="4880-585b-d5df-376e" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="5214-5d74-c2c4-ac79" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="6dfa-0150-b00f-daf9" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="428f-4d42-76c6-d483" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="63bc-d86f-192c-aac9" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -21953,6 +23000,11 @@
                 <condition field="selections" scope="269d-1744-f665-678e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="269d-1744-f665-678e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Loving Father</characteristic>
@@ -21989,6 +23041,7 @@
         <categoryLink id="b3bd-261a-f752-0fff" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="cf46-bfa9-1eb1-162a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8c7b-176c-0406-c3a0" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="c60e-8bdb-dcb0-5b53" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d21d-ea8c-1bf2-1a2f" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -22057,6 +23110,11 @@
                 <condition field="selections" scope="c124-9730-b65c-1d6a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="c124-9730-b65c-1d6a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -22094,6 +23152,7 @@
         <categoryLink id="3ca4-a31d-b609-7257" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="55f3-9b37-4436-bf7f" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
         <categoryLink id="08f1-c73b-a3e2-db5f" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="5443-13f0-ecfc-b39b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="977a-81a9-5f03-f752" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -22163,6 +23222,11 @@
                 <condition field="selections" scope="90ee-4be3-5f4c-3c3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="90ee-4be3-5f4c-3c3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -22200,6 +23264,7 @@
         <categoryLink id="0a36-7726-fbe4-4d61" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ba65-43a3-ffb5-fbe5" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="b7ec-c232-eb2e-8090" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="e914-8f3a-35c0-7c23" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a0e2-1318-cb81-f3e1" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -22269,6 +23334,11 @@
                 <condition field="selections" scope="551e-ee1e-0864-b229" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="551e-ee1e-0864-b229" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
@@ -22306,6 +23376,7 @@
         <categoryLink id="3569-6e80-98aa-0099" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="cd95-6c09-e4a1-7f4e" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="6bc7-174b-b4ac-1d17" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="c07b-eaad-e865-0c27" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="85fa-7c78-a31c-83ca" name="Cannon" hidden="false" collective="false" targetId="e721-be9d-290e-de95" type="selectionEntryGroup">
@@ -22406,6 +23477,7 @@
         <categoryLink id="dd7f-6c77-52d2-44de" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="76eb-995e-9177-f470" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="c423-e060-5ae1-4503" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="62ce-95b7-2914-3684" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a77c-f129-16ec-58a2" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
@@ -22466,6 +23538,7 @@
         <categoryLink id="1e1c-0d98-bc8d-7cd9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="b9da-e697-b295-5b9c" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="f832-b87b-26cb-892c" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="8e24-4452-2eb7-e01c" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4ce1-e236-1251-c779" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
@@ -22526,6 +23599,7 @@
         <categoryLink id="6686-a799-4e15-1cde" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="cc6d-e37f-763c-11f0" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="9225-4048-eb0c-fb53" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="c236-8caf-e5b0-bdf6" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="494b-f581-ae65-cce1" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
@@ -22586,6 +23660,7 @@
         <categoryLink id="c68c-a431-1f3c-e9f8" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4f3b-e37e-aab4-fcb7" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="bc15-383f-5f0e-1640" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="c5de-7640-0642-beff" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="948c-2895-6b3c-782d" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
@@ -22644,6 +23719,7 @@
         <categoryLink id="9360-7dcb-c844-fafd" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="28d6-c109-b73a-f145" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="3d78-36cb-79dc-21f5" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="e0d1-1796-dbc1-950a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0a48-679b-f146-10d3" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
@@ -22702,6 +23778,7 @@
         <categoryLink id="5ae5-0271-f3f8-7fab" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="093e-7016-bc92-7605" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="12ee-da49-ab2b-41b0" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="452f-8c67-ebc4-5c7f" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8106-95b7-b96c-cd9e" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
@@ -22796,6 +23873,7 @@
         <categoryLink id="53ff-57de-158b-3698" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="d48e-5448-897e-8d61" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
         <categoryLink id="5224-c245-68a2-8101" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="63ad-ada5-9638-4d31" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bb14-a241-ceef-b802" name="Gunner" hidden="false" collective="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup"/>
@@ -22900,6 +23978,7 @@
         <categoryLink id="e355-af75-186d-6aee" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5f9d-c420-c8ed-36ef" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="6355-551c-2c75-c186" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="c2bb-de9a-4a72-91f7" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ef55-eb4d-517d-0e4b" name="Gunner" hidden="false" collective="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup"/>
@@ -22988,6 +24067,7 @@
         <categoryLink id="a4f3-a903-b9b5-23b4" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
         <categoryLink id="bf40-753f-ab77-dc35" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="ded8-adf1-832a-f685" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="b32b-fba8-2210-9a8b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5fd2-0136-6412-cc81" name="Gunner" hidden="false" collective="false" targetId="3c7d-3c73-d98a-6a9e" type="selectionEntryGroup"/>
@@ -23034,6 +24114,11 @@
                 <condition field="selections" scope="548b-8b50-f7e7-fcbf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69f8-7ddf-daca-8771" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="548b-8b50-f7e7-fcbf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Ambitious Cyborg</characteristic>
@@ -23072,6 +24157,7 @@
         <categoryLink id="4508-b272-6322-a01e" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
         <categoryLink id="2f88-1dfb-88c6-950a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="ec6d-6c87-c047-c3f3" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="6311-c55e-bce5-dbd3" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dfbf-46c9-f780-5d57" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -23147,6 +24233,7 @@
         <categoryLink id="aa22-5f1d-ca57-9439" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="bf7c-84f5-a334-a79e" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
         <categoryLink id="0b88-3531-5090-8a48" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="729f-3f06-bacc-ade4" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2c82-c41e-afd4-6a8c" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -23227,6 +24314,7 @@
         <categoryLink id="e994-b5d8-3f46-9536" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="f73f-3627-a716-4eb9" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="2998-34fc-9118-116b" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="7b65-e712-b84b-050b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5c13-9b82-6144-92bd" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -23318,6 +24406,7 @@
         <categoryLink id="18a8-c23c-99c3-d3ba" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="fe6a-3690-f68c-0ff8" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
         <categoryLink id="d4ac-e01d-6efc-dc9d" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="d025-0eda-2a3e-ae52" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2602-46b6-e6f4-4505" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -23403,6 +24492,7 @@
         <categoryLink id="3a43-4f27-d228-eca4" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="c22b-25f9-e6fa-be0c" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
         <categoryLink id="2d4d-a2b2-1c45-6763" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="edd7-7076-0ad3-5346" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0a1e-8e2a-b9fb-b466" name="Title" hidden="false" collective="false" targetId="84b2-37d3-714a-edde" type="selectionEntryGroup"/>
@@ -23823,6 +24913,11 @@
                 <condition field="selections" scope="f234-a8d3-df51-0f4c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="f234-a8d3-df51-0f4c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Evacuation Expert</characteristic>
@@ -23862,6 +24957,7 @@
         <categoryLink id="3247-f8ab-8c75-d43a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="a4b6-be6c-bbe9-9e15" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="daf7-aa18-e4c2-633e" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="156f-7d47-6341-0dea" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2124-836b-71d4-7d35" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
@@ -23902,6 +24998,11 @@
                 <condition field="selections" scope="34b3-7477-0baa-6a12" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69f8-7ddf-daca-8771" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="34b3-7477-0baa-6a12" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Kage Infiltrator</characteristic>
@@ -23940,6 +25041,7 @@
         <categoryLink id="2378-2d3b-0ba6-c926" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="0502-4c7e-47aa-ce4b" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="e3d7-fae6-c6c5-c4e1" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="e62f-7d60-4621-8f33" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="849e-ca80-c5e1-513f" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -23967,6 +25069,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="2">
               <conditions>
                 <condition field="selections" scope="b48a-a675-82c6-87de" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69f8-7ddf-daca-8771" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b48a-a675-82c6-87de" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -24008,6 +25115,7 @@
         <categoryLink id="4a82-f069-f3b6-72ef" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
         <categoryLink id="8f91-8745-6a78-787c" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="5f5c-e9ec-c2e8-a1fe" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="a16f-4890-1807-af0e" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d617-6617-ac30-e1d4" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -24035,6 +25143,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="2">
               <conditions>
                 <condition field="selections" scope="b1e1-d58b-df15-3dae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69f8-7ddf-daca-8771" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b1e1-d58b-df15-3dae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -24076,6 +25189,7 @@
         <categoryLink id="01f4-8d88-50b8-c784" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="0de2-23c9-39c2-880f" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="3664-136c-315c-31fd" name="1 Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="152b-1c06-42b0-87f2" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9974-f9d8-31e8-b365" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -24107,6 +25221,11 @@
             <modifier type="increment" field="04a8-6b71-1402-476c" value="2">
               <conditions>
                 <condition field="selections" scope="45c7-af07-c3eb-f754" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69f8-7ddf-daca-8771" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="45c7-af07-c3eb-f754" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -24147,6 +25266,7 @@
         <categoryLink id="35ca-5df2-283d-4cd5" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="4280-d38f-837e-3006" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5c0d-2198-abd5-e885" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="30c0-7000-9e43-9452" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="91e2-5155-586f-3c07" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
@@ -24185,6 +25305,11 @@
             <modifier type="increment" field="cf5e-1717-447c-5dea" value="2">
               <conditions>
                 <condition field="selections" scope="1fd9-62db-05e2-8737" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="1fd9-62db-05e2-8737" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -24229,6 +25354,7 @@
         <categoryLink id="da79-3060-b67c-340e" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="602e-3a7d-da38-29a7" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="320f-d8b9-07ba-5e93" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="1c64-eac7-7e36-d499" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7028-e5ee-e9b6-f690" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -24280,6 +25406,11 @@
                 <condition field="selections" scope="a531-0c9c-93e6-0053" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="a531-0c9c-93e6-0053" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">&quot;Snips&quot;</characteristic>
@@ -24321,6 +25452,7 @@
         <categoryLink id="ed01-eca5-3e59-a334" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="bc30-6863-5cce-9fba" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="25a1-88a7-d5b2-b66c" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="be11-5621-9b9d-479b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d02c-7be0-1afc-8b36" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -24372,6 +25504,11 @@
                 <condition field="selections" scope="0a38-797e-45b3-dc30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="0a38-797e-45b3-dc30" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Prophetic Pilot</characteristic>
@@ -24413,6 +25550,7 @@
         <categoryLink id="26ab-073b-b8ea-e55e" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="baec-589e-ed85-ff7f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="88d4-25d0-1a2b-6e1f" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="2820-d85e-2c2f-dd03" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="eb19-d8b7-a192-9989" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -24464,6 +25602,11 @@
                 <condition field="selections" scope="ba6d-b7ee-e011-6574" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ba6d-b7ee-e011-6574" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Harsh Traditionalist</characteristic>
@@ -24505,6 +25648,7 @@
         <categoryLink id="6e05-c5d3-d839-10da" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="b434-e952-7614-7fe7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="a3cc-6448-edc1-4180" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="52a8-55a9-f923-646b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="48d7-665b-e13c-65df" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -24556,6 +25700,11 @@
                 <condition field="selections" scope="d35b-74b9-597a-2811" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="d35b-74b9-597a-2811" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Wise Protector</characteristic>
@@ -24597,6 +25746,7 @@
         <categoryLink id="0761-08ae-6d83-0e7c" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="04f3-d608-61b4-1103" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="058e-287c-18f8-a9ee" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="55ec-cb11-0e00-ec82" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="53a5-0d44-9941-e2e7" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -24648,6 +25798,11 @@
                 <condition field="selections" scope="8294-0d37-f471-161e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="8294-0d37-f471-161e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Conflicted Padawan</characteristic>
@@ -24689,6 +25844,7 @@
         <categoryLink id="ce71-844a-8e56-a0d1" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="c293-c2bf-38a7-196d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="9b13-ca20-9719-0ae3" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="1916-7665-75fb-632d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5928-f30c-2817-0e32" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -24740,6 +25896,11 @@
                 <condition field="selections" scope="4744-402c-01fe-bee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="4744-402c-01fe-bee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Serene Mentor</characteristic>
@@ -24781,6 +25942,7 @@
         <categoryLink id="1a9c-3dfd-97d7-acea" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="ceb4-246d-d1e5-bdeb" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="dd4d-5638-9037-45a6" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="5088-0f62-9429-3fea" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="637a-acd5-7162-44c6" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -24832,6 +25994,11 @@
                 <condition field="selections" scope="3cc9-b3a1-5541-e2e7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="3cc9-b3a1-5541-e2e7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Guardian of the Republic</characteristic>
@@ -24873,6 +26040,7 @@
         <categoryLink id="cc52-7d96-030b-802a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="a3de-ee76-65bc-f624" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="334a-6edb-2fd2-985d" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+        <categoryLink id="6b8c-9a07-1297-84ed" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5b45-869f-b4fc-34a8" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -24924,6 +26092,11 @@
                 <condition field="selections" scope="ee4a-cfc9-e7ec-e4ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="238a-13f8-9aa2-2dd2" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="ee4a-cfc9-e7ec-e4ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Hero of the Republic</characteristic>
@@ -24965,6 +26138,7 @@
         <categoryLink id="60a3-12b2-1420-66ec" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
         <categoryLink id="0362-b3f5-8a1a-9312" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="5b3c-8532-0177-ee4f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="e309-0769-0b82-409b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f2db-5fab-d6fc-eb6d" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -25011,6 +26185,11 @@
                 <condition field="selections" scope="5cd6-535d-f0e6-7b5f" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="5cd6-535d-f0e6-7b5f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Wolfpack Veteran</characteristic>
@@ -25048,6 +26227,7 @@
         <categoryLink id="1784-95a5-f487-3b1b" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
         <categoryLink id="9c4e-b99d-234c-636c" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="bf60-daf1-9768-a568" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="4906-a3eb-bd07-278a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="344e-096a-da6e-274b" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -25082,6 +26262,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
               <conditions>
                 <condition field="selections" scope="4274-424d-7d41-0b02" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="4274-424d-7d41-0b02" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -25122,6 +26307,7 @@
         <categoryLink id="835f-28a1-00f4-a8a2" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="33ba-e2bc-d2aa-18b8" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="252c-0c32-a6c4-743e" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="66b9-41f8-567a-578a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0eed-6091-8d6b-1b21" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -25161,6 +26347,11 @@
                 <condition field="selections" scope="65b0-7f51-2549-2a3a" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="65b0-7f51-2549-2a3a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">CT-55/11-9009</characteristic>
@@ -25198,6 +26389,7 @@
         <categoryLink id="8bf2-ac47-e13b-c571" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
         <categoryLink id="4810-f0bd-0c18-3657" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="ce86-2d13-74bb-5648" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="d13e-109c-5758-5d8d" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="703d-4b1d-86cc-c284" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -25232,6 +26424,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
               <conditions>
                 <condition field="selections" scope="7bd8-561c-2300-2d42" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="7bd8-561c-2300-2d42" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -25272,6 +26469,7 @@
         <categoryLink id="eec7-fd34-ccde-3219" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1176-6426-d1e8-ef77" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
         <categoryLink id="591c-3d76-2eaf-1d53" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="b1e0-6055-2f84-abec" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1a73-db82-3d26-d349" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -25312,6 +26510,11 @@
                 <condition field="selections" scope="0d8b-2aaf-8bb2-75b5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="0d8b-2aaf-8bb2-75b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">CC-3636</characteristic>
@@ -25349,6 +26552,7 @@
         <categoryLink id="f530-5fe6-dce6-5c81" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
         <categoryLink id="9342-02d3-0f37-adc7" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="0771-44f8-3744-82ca" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="8f24-9b1c-6021-c0c7" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6047-0b3c-c59b-14a8" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -25396,6 +26600,11 @@
                 <condition field="selections" scope="e9dc-c7ce-7c97-98cf" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="e9dc-c7ce-7c97-98cf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">CC-2237</characteristic>
@@ -25433,6 +26642,7 @@
         <categoryLink id="7a80-62f9-f7ec-24ce" name="Rear Arc" hidden="false" targetId="4257-4430-7af8-7433" primary="false"/>
         <categoryLink id="338f-06ed-27ad-3315" name="Republic" hidden="false" targetId="3018-ed0b-08ad-5756" primary="false"/>
         <categoryLink id="527e-cf9c-25f7-46fd" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+        <categoryLink id="cc32-8f0d-c703-8713" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dfdf-4bd7-a4a5-2c7c" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -25944,6 +27154,7 @@
         <categoryLink id="9e68-8276-aa17-5f4d" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="e075-a384-f96f-7449" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="b8ec-8be8-eb06-fdb9" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+        <categoryLink id="0852-8a8d-3761-0e87" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c369-bafc-e587-503b" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -25999,6 +27210,7 @@
         <categoryLink id="49f8-59df-605c-8bab" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="c2ab-19fc-a0b9-c76f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="684a-1e01-9dbc-1f8b" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="ca44-845d-76ae-3d0f" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="89b5-0a8c-a4b5-9fe8" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -26050,6 +27262,7 @@
         <categoryLink id="8291-0c5b-8735-951a" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="73c6-833d-04f0-08d0" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
         <categoryLink id="b0f9-781b-19fb-a7b6" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="5d06-1a78-e953-b829" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3e63-a774-3f52-b2f3" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -26103,6 +27316,7 @@
         <categoryLink id="016c-5742-4edc-9306" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="0a36-199c-78a1-2643" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="4816-706e-ed88-d1fd" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="07d2-0d1a-2907-744a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f6c6-6a04-09e1-31b6" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -26157,6 +27371,7 @@
         <categoryLink id="52b5-9819-5986-abd9" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="082d-4ef9-0b47-8c6d" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="8489-bebf-e400-c059" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="94f8-ca41-ab14-5408" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="148a-81eb-6d67-1a0b" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -26212,6 +27427,7 @@
         <categoryLink id="eb10-7aca-5b3a-53b9" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="7ac6-a24f-58a3-0432" name="Force User" hidden="false" targetId="9e5c-2106-c6f6-d775" primary="false"/>
         <categoryLink id="276c-672a-712a-dae3" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+        <categoryLink id="4b23-d806-2267-f5de" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="16d7-6acf-cd83-d967" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -26243,6 +27459,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -26298,6 +27519,11 @@
                 <condition field="selections" scope="b6fa-be90-fb05-0c9f" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b6fa-be90-fb05-0c9f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">D&apos;Qar Dispatcher</characteristic>
@@ -26337,6 +27563,7 @@
         <categoryLink id="d8ac-d3b4-537c-b8da" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="a305-107a-42ab-2e5f" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="5b29-a862-14db-9b1d" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="7059-6eb2-7aa7-ccaa" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c3ea-9f2a-9d44-7474" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -26381,6 +27608,11 @@
                 <condition field="selections" scope="71b9-1bf9-23b1-cffc" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="71b9-1bf9-23b1-cffc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Insubordinate Insurgent</characteristic>
@@ -26420,6 +27652,7 @@
         <categoryLink id="0176-c891-265e-fc6a" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="d054-2491-42d7-23fb" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="1cc5-a5b4-1822-bbb8" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+        <categoryLink id="de0f-8e40-29be-d83a" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="868f-223f-8b6b-d674" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -26459,6 +27692,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="2^">
               <conditions>
                 <condition field="selections" scope="5163-ae0c-96b9-d632" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="5163-ae0c-96b9-d632" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -26501,6 +27739,7 @@
         <categoryLink id="c627-1854-fea5-b489" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
         <categoryLink id="dfc9-c986-2376-eb57" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
         <categoryLink id="6caa-6f2e-0e7f-6eca" name="Non-Limited" hidden="false" targetId="b560-398f-0579-8fa5" primary="false"/>
+        <categoryLink id="35f0-75c8-4037-7450" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="56bd-a76a-0d71-a270" name="Astromech" hidden="false" collective="false" targetId="edc5-1378-fff7-918c" type="selectionEntryGroup"/>
@@ -26547,6 +27786,11 @@
                 <condition field="selections" scope="9767-8ec5-4288-3494" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="9767-8ec5-4288-3494" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Full of Surprises</characteristic>
@@ -26585,6 +27829,7 @@
         <categoryLink id="303c-4b13-b233-db13" name="Resistance" hidden="false" targetId="40ea-c89e-a8e7-99d8" primary="false"/>
         <categoryLink id="7415-7964-0757-04dc" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="2b9a-5b80-72df-7f3a" name="Target Lock (Red)" hidden="false" targetId="ff81-8daf-1ebd-ef49" primary="false"/>
+        <categoryLink id="4935-85c5-ea05-e571" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="26ba-2f4b-2cb0-8749" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup"/>
@@ -26625,6 +27870,11 @@
                 <condition field="selections" scope="b1e0-a8fc-e421-093c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="b1e0-a8fc-e421-093c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Big Deal</characteristic>
@@ -26663,6 +27913,7 @@
         <categoryLink id="e8bb-b7b7-68e0-efbf" name="Resistance" hidden="false" targetId="40ea-c89e-a8e7-99d8" primary="false"/>
         <categoryLink id="c2ab-f983-899b-6cc7" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="8851-c1b0-5a3b-aa97" name="Target Lock (Red)" hidden="false" targetId="ff81-8daf-1ebd-ef49" primary="false"/>
+        <categoryLink id="f521-d3b5-1199-ac52" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5d51-d068-3d33-294a" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup"/>
@@ -26703,6 +27954,11 @@
                 <condition field="selections" scope="5e85-37de-9ff1-ef3d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="5e85-37de-9ff1-ef3d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Earnest Engineer</characteristic>
@@ -26741,6 +27997,7 @@
         <categoryLink id="72fe-befa-9723-5c2f" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="d351-aff2-0b8d-d2a6" name="Target Lock (Red)" hidden="false" targetId="ff81-8daf-1ebd-ef49" primary="false"/>
         <categoryLink id="4e39-b13b-8a80-e24d" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+        <categoryLink id="ae23-36c3-7c9b-969b" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dbe5-f4b3-9826-e2b2" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup"/>
@@ -26772,6 +28029,11 @@
             <modifier type="set" field="f032-045d-86ff-ba81" value="1^">
               <conditions>
                 <condition field="selections" scope="f926-4822-4241-58b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1688-3233-355e-8a95" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="cf5e-1717-447c-5dea" value="1">
+              <conditions>
+                <condition field="selections" scope="f926-4822-4241-58b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427a-f162-732d-7e73" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -26813,6 +28075,7 @@
         <categoryLink id="1fa7-255a-469c-43ce" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
         <categoryLink id="bf9a-fd9b-c616-5fed" name="Target Lock (Red)" hidden="false" targetId="ff81-8daf-1ebd-ef49" primary="false"/>
         <categoryLink id="f8d7-dee0-265d-9520" name="Initiative 1" hidden="false" targetId="1322-fda3-af08-2a0f" primary="false"/>
+        <categoryLink id="19e4-b291-4bbc-5b82" name="Shield Value 1 or More" hidden="false" targetId="ac5b-3807-0684-ee6a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="110e-8986-54c9-45c8" name="Crew" hidden="false" collective="false" targetId="ccbe-0362-9c05-e392" type="selectionEntryGroup"/>
@@ -27469,7 +28732,7 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0989-0ea8-afeb-b1b0" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="8">
+            <modifier type="set" field="f063-1033-6a55-7413" value="8.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="759d-fe45-120d-9c1f" type="instanceOf"/>
               </conditions>
@@ -27836,6 +29099,77 @@
           </profiles>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="427a-f162-732d-7e73" name="Angled Deflectors" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-dfb8-49b7-0a90" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f38b-1610-2d2d-5a34" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ac5b-3807-0684-ee6a" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8796-3ba7-ca12-8182" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8796-3ba7-ca12-8182" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0559-f038-5a74-e23d" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbe3-5d2f-03c2-5a94" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0989-0ea8-afeb-b1b0" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="759d-fe45-120d-9c1f" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="45e0-aab0-0784-426a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c0d1-4b44-1f4e-fa35" name="Angled Deflectors" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Shields -1</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"></characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Reinforce</characteristic>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Modification</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9e10-624a-e4e7-a3c6" name="Reinforce" hidden="false" targetId="6f76-9dfb-e4ee-3434" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="0c05-3607-8adf-1f1d" name="Reinforce" hidden="false" targetId="d280-748c-fe9d-74da" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="9.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -32546,7 +33880,7 @@
             <profile id="3a83-63f3-1ef3-c47f" name="•PZ-4CO" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.</characteristic>
-                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"></characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Calculate</characteristic>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew</characteristic>
               </characteristics>
