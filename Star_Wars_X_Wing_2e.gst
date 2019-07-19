@@ -28673,6 +28673,13 @@
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="b049-a528-e69b-bdd6" name="Modification" hidden="false" collective="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c81-b043-ea4b-a532" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae46-7ae6-0b1a-2f90" type="max"/>
       </constraints>
@@ -30312,13 +30319,6 @@
           </constraints>
           <profiles>
             <profile id="db87-f00e-4b80-67b7" name="Bomblet Generator" hidden="false" typeId="4067-e9ef-837d-3661" typeName="3.2 Device">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <characteristics>
                 <characteristic name="Keyword" typeId="5de5-020d-8ba3-e242">Bomb</characteristic>
                 <characteristic name="Ability" typeId="5f2f-1e93-9e4c-e51e">During the System Phase, you may spend 1 [charge] to drop a Bomblet with the [1 straight] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [charge].</characteristic>
@@ -30394,6 +30394,38 @@
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4c81-b043-ea4b-a532" name="•Electro-Proton Bomb" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0ad-15c4-be98-f815" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a3eb-c998-5828-2bfc" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f22c-31c2-a6a4-278d" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e874-c753-3f67-2aa6" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b085-4398-c6b7-1470" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="032b-9714-e242-9681" name="•Electro-Proton Bomb" hidden="false" typeId="4067-e9ef-837d-3661" typeName="3.2 Device">
+              <characteristics>
+                <characteristic name="Keyword" typeId="5de5-020d-8ba3-e242">Bomb</characteristic>
+                <characteristic name="Ability" typeId="5f2f-1e93-9e4c-e51e">During the System Phase, you may spend 1 [charge] to drop an Electro-Proton Bomb using the [1 straight] template. The place 1 fuse marker on that device. This card&apos;s [charge] cannot be recovered.</characteristic>
+                <characteristic name="Charges" typeId="e556-3e35-ce7f-6d37">1</characteristic>
+                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Device Modification</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="14.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -35843,6 +35875,45 @@
           </profiles>
           <categoryLinks>
             <categoryLink id="f103-b690-be55-366e" name="Solitary - Tactical Relay" hidden="false" targetId="3685-4562-27d2-5496" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="af93-49a4-aafc-1bb8" name="•TA-175" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8859-42b6-87b8-3cbe" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3685-4562-27d2-5496" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3685-4562-27d2-5496" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a37e-2afa-06fc-f149" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b8f6-a0a4-0122-8ef0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="032a-300d-9df8-47a9" name="•TA-175" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After a friendly ship at range 0-3 with [calculate] on its action bar is destroyed, each friendly ship at range 0-3 with [calculate] on its action bar gains 1 calculate token.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Tactical Relay</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="3e41-720c-460e-1941" name="Solitary - Tactical Relay" hidden="false" targetId="3685-4562-27d2-5496" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
