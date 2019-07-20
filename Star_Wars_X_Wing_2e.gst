@@ -8947,7 +8947,7 @@
         <entryLink id="651c-fd9e-b349-fd00" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="76.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="71.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87a8-aed6-7630-6d98" name="4 - •Moralo Eval" hidden="false" collective="false" type="model">
@@ -21607,7 +21607,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="63.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="61.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f90-a32f-d406-78f9" name="4 - •Finch Dallow" hidden="false" collective="false" type="model">
@@ -21700,7 +21700,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="66.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="64.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77d3-13ab-c2f8-0d99" name="3 - •Edon Kappehl" hidden="false" collective="false" type="model">
@@ -21793,7 +21793,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="66.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="64.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06c5-f58b-7759-5dc5" name="2 - •Vennie" hidden="false" collective="false" type="model">
@@ -21886,7 +21886,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="62.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="001a-e683-ef23-d863" name="1 - •Cat" hidden="false" collective="false" type="model">
@@ -21979,7 +21979,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="59.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="57.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="13c6-e7d4-be72-ed15" name="1 - Cobalt Squadron Bomber" hidden="false" collective="false" type="model">
@@ -22070,7 +22070,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="58.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="56.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e2b-21c1-30f7-8495" name="6 - •Poe Dameron" hidden="false" collective="false" type="model">
@@ -22640,7 +22640,7 @@
         <entryLink id="2161-8c3e-3251-f1f1" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="53.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="52.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ace0-800b-ac33-1729" name="3 - •Joph Seastriker" hidden="false" collective="false" type="model">
@@ -22754,7 +22754,7 @@
         <entryLink id="ef47-936b-fc26-9f3c" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="52.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="51.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b07-32a6-cfcb-8d20" name="3 - •Jessika Pava" hidden="false" collective="false" type="model">
@@ -22867,7 +22867,7 @@
         <entryLink id="eb23-45ad-1fe1-7f83" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="52.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="51.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4b4-31b5-a84b-a567" name="2 - •Lieutenant Bastian" hidden="false" collective="false" type="model">
@@ -23093,7 +23093,7 @@
         <entryLink id="6541-e6cc-dee8-0023" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="50.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="49.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c124-9730-b65c-1d6a" name="4 - Black Squadron Ace" hidden="false" collective="false" type="model">
@@ -23205,7 +23205,7 @@
         <entryLink id="09cc-3928-1b93-83dd" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="50.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="49.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90ee-4be3-5f4c-3c3c" name="3 - Red Squadron Expert" hidden="false" collective="false" type="model">
@@ -23317,7 +23317,7 @@
         <entryLink id="6dba-e24e-0765-76ef" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="48.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="47.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="551e-ee1e-0864-b229" name="1 - Blue Squadron Rookie" hidden="false" collective="false" type="model">
@@ -23428,7 +23428,7 @@
         <entryLink id="7400-3fb2-5932-edd6" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="46.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="48c9-050f-7dae-f857" name="5 - •Tallissan Lintra" hidden="false" collective="false" type="model">
@@ -23489,7 +23489,7 @@
         <entryLink id="a626-c282-cd9a-6648" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="35.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c73a-c9e8-99a2-1f04" name="5 - •L&apos;ulo L&apos;ampar" hidden="false" collective="false" type="model">
@@ -23550,7 +23550,7 @@
         <entryLink id="b7fd-6572-0880-17d1" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="38.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="43.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a77-9d8b-2536-8617" name="4 - •Greer Sonnel" hidden="false" collective="false" type="model">
@@ -23731,7 +23731,7 @@
         <entryLink id="b60a-0ee8-81ac-c75c" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="34.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9d1-f711-e4e0-4e8a" name="1 - Blue Squadron Recruit" hidden="false" collective="false" type="model">
@@ -23786,7 +23786,7 @@
         <entryLink id="4af1-4b9b-a849-4f95" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="32.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="33.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2f4-768d-855a-0d46" name="5 - •Rey" hidden="false" collective="false" type="model">
@@ -23889,7 +23889,7 @@
         <entryLink id="c34e-5190-9804-fce6" name="Force Power" hidden="false" collective="false" targetId="5014-8378-533e-6c5f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="80.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="73.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="04cc-6c35-ad3f-0d85" name="4 - •Chewbacca" hidden="false" collective="false" type="model">
@@ -23994,7 +23994,7 @@
         <entryLink id="3344-0524-a95d-1d2b" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="72.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="68.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6454-b445-5b0e-7c89" name="2 - Resistance Sympathizer" hidden="false" collective="false" type="model">
@@ -24082,7 +24082,7 @@
         <entryLink id="be41-bef3-b9c1-3d27" name="Missile" hidden="false" collective="false" targetId="7bf6-aa21-db8c-10e2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="68.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="67.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="548b-8b50-f7e7-fcbf" name="4 - •General Grievous" hidden="false" collective="false" type="model">
@@ -31292,7 +31292,7 @@
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5219-fd75-f9cf-452a" name="•Reys Millennium Falcon" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5219-fd75-f9cf-452a" name="•Rey&apos;s Millennium Falcon" hidden="false" collective="false" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -34045,6 +34045,32 @@
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="63bf-9ed5-dc83-b8d1" name="•Korr Sella" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b380-3781-e13f-8ea1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4fb3-00a7-37b6-6723" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6b34-44e9-ece2-5670" name="•Korr Sella" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you fully execute a blue maneuver, remove all of your stress tokens.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="3c7d-3c73-d98a-6a9e" name="Gunner" hidden="false" collective="false">
@@ -35011,7 +35037,7 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="7">
+            <modifier type="set" field="f063-1033-6a55-7413" value="7.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
               </conditions>
@@ -35019,11 +35045,6 @@
             <modifier type="set" field="f063-1033-6a55-7413" value="8">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="2.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a3a-f3a1-797b-7470" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -35080,11 +35101,6 @@
             <modifier type="set" field="f063-1033-6a55-7413" value="4">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="0.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a3a-f3a1-797b-7470" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
