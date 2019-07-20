@@ -28620,17 +28620,10 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="12.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f824-c24d-2e79-b9f2" name="Adv. Proton Torpedoes" hidden="false" collective="false" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a1fb-45d3-b049-1d4f" type="max"/>
           </constraints>
@@ -28864,11 +28857,6 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bece-637c-616d-6a5f" type="max"/>
@@ -28894,12 +28882,12 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a19-f684-0e65-5809" type="notInstanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="4">
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f38b-1610-2d2d-5a34" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="7">
+            <modifier type="set" field="f063-1033-6a55-7413" value="7.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1d2-e4cc-466a-5f6b" type="instanceOf"/>
               </conditions>
@@ -28964,13 +28952,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="4937-600f-9c30-0a78" name="Electronic Baffle" hidden="false" collective="false" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="154a-b1d5-5649-f000" type="max"/>
           </constraints>
@@ -29725,7 +29706,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7086-c66f-bafb-2311" name="Expert Handling" hidden="false" collective="false" type="upgrade">
@@ -29953,7 +29934,7 @@
             <categoryLink id="1a8d-a875-ca2e-4c48" name="Evade (Red)" hidden="false" targetId="c790-3e81-8d2e-26ab" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1e33-fb94-021a-27b8" name="Fearless" hidden="false" collective="false" type="upgrade">
@@ -30126,12 +30107,12 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="12">
+            <modifier type="set" field="f063-1033-6a55-7413" value="12.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="14">
+            <modifier type="set" field="f063-1033-6a55-7413" value="14.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
               </conditions>
@@ -30162,6 +30143,18 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="1bfb-afc9-7eb2-e562" name="Swarm Tactics" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="5.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="acb1-7783-f660-16c2" type="max"/>
           </constraints>
@@ -30194,7 +30187,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0e0a-3d57-dbf5-e0ef" name="Heroic" page="" hidden="false" collective="false" type="upgrade">
@@ -31492,7 +31485,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="7.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cb18-9334-db7e-4efa" name="Homing Missiles" hidden="false" collective="false" type="upgrade">
@@ -32334,6 +32327,38 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="8cc1-6ccd-c682-def4" name="Seasoned Navigator" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="5.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="7.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="8.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5dee-e95b-1e96-f15f" type="max"/>
           </constraints>
@@ -32348,7 +32373,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fcc7-031f-e35e-b8bd" name="•Qi&apos;ra" hidden="false" collective="false" type="upgrade">
@@ -33084,13 +33109,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="f953-3859-42d3-10f3" name="GNK &quot;Gonk&quot; Droid" hidden="false" collective="false" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af70-3dd4-dc13-6402" type="max"/>
           </constraints>
@@ -33424,7 +33442,7 @@
             <categoryLink id="72fe-9cd9-2ea7-8e34" name="Coordinate" hidden="false" targetId="9c2e-9d6f-23cb-414d" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2858-4954-b5ec-2f46" name="•Supreme Leader Snoke" hidden="false" collective="false" type="upgrade">
@@ -34139,7 +34157,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4036-40f0-3011-9d24" name="•Han Solo" hidden="false" collective="false" type="upgrade">
@@ -34670,11 +34688,6 @@
       <selectionEntries>
         <selectionEntry id="5121-c614-50b4-5fb4" name="R2 Astromech" hidden="false" collective="false" type="upgrade">
           <modifiers>
-            <modifier type="set" field="f063-1033-6a55-7413" value="3.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbe3-5d2f-03c2-5a94" type="instanceOf"/>
-              </conditions>
-            </modifier>
             <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0989-0ea8-afeb-b1b0" type="instanceOf"/>
@@ -35347,7 +35360,7 @@
             <categoryLink id="ecfa-d95f-4caf-6f8a" name="Rotate" hidden="false" targetId="2bbb-3b29-4322-75d4" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2167-8ac4-a3fe-591c" name="Ion Cannon Turret" hidden="false" collective="false" type="upgrade">
@@ -35374,7 +35387,7 @@
             <categoryLink id="4554-68ff-2c4f-a97e" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -35399,7 +35412,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1a6c-cb68-8e2d-32f1" name="Instinctive Aim" hidden="false" collective="false" type="upgrade">
@@ -35417,7 +35430,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4676-6fa4-370e-f4a2" name="Heightened Perception" hidden="false" collective="false" type="upgrade">
@@ -35498,7 +35511,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a2f4-5710-25d3-fd34" name="Hate" hidden="false" collective="false" type="upgrade">
@@ -35512,6 +35525,16 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f38b-1610-2d2d-5a34" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="9.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1d2-e4cc-466a-5f6b" type="instanceOf"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -35593,23 +35616,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="ef6b-7943-1053-1dcb" name="Brilliant Evasion" hidden="false" collective="false" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="f063-1033-6a55-7413" value="2">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbe3-5d2f-03c2-5a94" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="6">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="759d-fe45-120d-9c1f" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="4">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0989-0ea8-afeb-b1b0" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2ebd-7d25-677d-e74a" type="max"/>
           </constraints>
@@ -35624,7 +35630,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="0.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -35641,32 +35647,32 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-dfb8-49b7-0a90" type="notInstanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="5">
+            <modifier type="set" field="f063-1033-6a55-7413" value="5.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1322-fda3-af08-2a0f" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="6">
+            <modifier type="set" field="f063-1033-6a55-7413" value="6.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b70f-42ee-6e5b-1477" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="7">
+            <modifier type="set" field="f063-1033-6a55-7413" value="7.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="8">
+            <modifier type="set" field="f063-1033-6a55-7413" value="8.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="9">
+            <modifier type="set" field="f063-1033-6a55-7413" value="9.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="f063-1033-6a55-7413" value="10">
+            <modifier type="set" field="f063-1033-6a55-7413" value="10.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
               </conditions>
