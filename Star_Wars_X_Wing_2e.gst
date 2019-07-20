@@ -28670,6 +28670,26 @@
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="4299-d506-7b88-20fe" name="Plasma Torpedoes" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af04-008f-0712-e9ff" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c574-c1be-a1c2-e497" name="Plasma Torpedoes" hidden="false" typeId="95ad-ef6c-3536-4e49" typeName="2.1 Special Weapon">
+              <characteristics>
+                <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">3 (front)</characteristic>
+                <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2-3 (ordnance)</characteristic>
+                <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">2</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. During the Neutralize Results step, [critical] results are canceled before [hit] results. After this attack hits, the defender loses 1 shield.</characteristic>
+                <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
+                <characteristic name="Type" typeId="7769-7488-8779-032b">Torpedo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="9.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="b049-a528-e69b-bdd6" name="Modification" hidden="false" collective="false">
@@ -29179,6 +29199,24 @@
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="9.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5fd7-5e48-355b-1d48" name="Delayed Fuses" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c36-0f99-7649-b44a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="abdc-361f-7253-fe05" name="Delayed Fuses" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you drop, launch, or place a bomb or mine, you may place 1 fuse marker on that device.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Modification</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="da5d-a9e6-7dd6-aed4" name="Configuration" hidden="false" collective="false">
@@ -29615,6 +29653,24 @@
           </profiles>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b0cd-9895-a848-c6a3" name="Passive Sensors" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="408d-c6c2-6001-dd69" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0010-7fca-6843-3791" name="Passive Sensors" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Action: Spend 1 [charge]. You can only perform this action in your Perform Action step. While your [charge] is inactive, you cannot be coordinated. Before you engage, if your [charge] is inactive, you may perform a [calculate] or [target lock] action.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10">1^</characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Sensor</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -31348,9 +31404,14 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="7bf6-aa21-db8c-10e2" name="Missile" hidden="false" collective="false">
       <modifiers>
-        <modifier type="decrement" field="feb7-87f6-06e2-788c" value="1">
+        <modifier type="decrement" field="feb7-87f6-06e2-788c" value="1.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b1f-5f5d-ad8e-b1cc" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="decrement" field="feb7-87f6-06e2-788c" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4290-e56f-01ab-4a2e" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -31556,6 +31617,43 @@
           <infoLinks>
             <infoLink id="6ba4-5712-5930-88fb" name="Buzz Droid Swarm" hidden="false" targetId="d36d-ca61-ca80-a536" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4290-e56f-01ab-4a2e" name="•Diamond-Boron Missiles" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4e01-d4ee-0be5-c92c" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9fa3-967c-7339-03b2" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5644-8d69-98db-1936" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462c-c1cc-ebc9-3f53" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a3b1-5265-6a5d-09a8" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ca5-b558-c796-b7a5" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f60-ce0e-fe14-9782" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="daa4-e57a-cefb-77c7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5c19-5453-6ef2-d95a" name="•Diamond-Boron Missiles" hidden="false" typeId="95ad-ef6c-3536-4e49" typeName="2.1 Special Weapon">
+              <characteristics>
+                <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">3 (front)</characteristic>
+                <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2-3 (ordnance)</characteristic>
+                <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">3</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. After this attack hits, you may spend 1 [charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender&apos;s rolls 1 attack die and suffers 1 [hit]/[critical] damage for each matching result.</characteristic>
+                <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
+                <characteristic name="Type" typeId="7769-7488-8779-032b">Missile Missile</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
@@ -35170,7 +35268,7 @@
             <profile id="9343-76fe-b4b8-f3ac" name="•R2-C4" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">While you perform an attack, you may spend 1 evade token to change 1 [focus] result to a [hit] result.</characteristic>
-                <characteristic name="Charges" typeId="d449-596d-5f95-dc10">0</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"></characteristic>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Astromech</characteristic>
               </characteristics>
@@ -35201,7 +35299,7 @@
             <profile id="98f2-b95e-ba41-3cb2" name="•R2-A6" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.</characteristic>
-                <characteristic name="Charges" typeId="d449-596d-5f95-dc10">0</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"></characteristic>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Astromech</characteristic>
               </characteristics>
