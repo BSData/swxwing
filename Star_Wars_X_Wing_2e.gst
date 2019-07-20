@@ -19426,7 +19426,7 @@
         <entryLink id="87ea-c153-b0bc-0059" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="58.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="57.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="930b-b8cf-d44b-5bee" name="4 - •&quot;Recoil&quot;" hidden="false" collective="false" type="model">
@@ -19498,7 +19498,7 @@
         <entryLink id="4ee6-9c0e-f842-e58d" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="59.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dd2-d3b2-a6fb-2cef" name="5 - •Kylo Ren" hidden="false" collective="false" type="model">
@@ -19656,7 +19656,7 @@
         <entryLink id="bedb-b830-4838-2c2d" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="64.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="63.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9656-b591-c17d-48f2" name="4 - First Order Test Pilot" hidden="false" collective="false" type="model">
@@ -19795,7 +19795,7 @@
         <entryLink id="5469-031d-8252-d560" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="52.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="51.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="029b-1b7c-ca65-eaa1" name="6 - •&quot;Midnight&quot;" hidden="false" collective="false" type="model">
@@ -19866,7 +19866,7 @@
         <entryLink id="9a51-4a8d-5198-9df3" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="44.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="43.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="281d-2377-6abf-f6bb" name="4 - •&quot;Scorch&quot;" hidden="false" collective="false" type="model">
@@ -19937,7 +19937,7 @@
         <entryLink id="32b3-2de9-0b02-f4e5" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="35.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="34.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="59c1-2a3f-7309-7f57" name="4 - •&quot;Static&quot;" hidden="false" collective="false" type="model">
@@ -20008,7 +20008,7 @@
         <entryLink id="0ec9-a60e-4fb6-14bc" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="35.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="34.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58c6-3f82-077a-c9d4" name="3 - •&quot;Longshot&quot;" hidden="false" collective="false" type="model">
@@ -20079,7 +20079,7 @@
         <entryLink id="f77f-d2a0-860e-d33f" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="33.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e6d-2c77-4bee-44ed" name="2 - •&quot;Muse&quot;" hidden="false" collective="false" type="model">
@@ -20150,7 +20150,7 @@
         <entryLink id="9209-6169-29fd-4e62" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="32.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf9b-874f-55e4-1b86" name="0 - •&quot;Null&quot;" hidden="false" collective="false" type="model">
@@ -20290,7 +20290,7 @@
         <entryLink id="bec1-d605-fa42-aa83" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="30.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7321-9d05-1d8c-8c06" name="2 - •TN-3465" hidden="false" collective="false" type="model">
@@ -20360,7 +20360,7 @@
         <entryLink id="5ba8-c440-cf71-0f24" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="31.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="29.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7164-38a3-632c-bf54" name="5 - •Commander Malarus" hidden="false" collective="false" type="model">
@@ -20431,7 +20431,7 @@
         <entryLink id="e50d-c18d-4e24-2149" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="41.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="39.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8d4-cac0-5350-928e" name="1 - Epsilon Squadron Cadet" hidden="false" collective="false" type="model">
@@ -20499,7 +20499,7 @@
         <entryLink id="b638-fb75-9c51-e8ea" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="28.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7046-d4cf-a91c-621c" name="2 - Zeta Squadron Pilot" hidden="false" collective="false" type="model">
@@ -20567,7 +20567,7 @@
         <entryLink id="f2a4-c826-13ae-f9f1" name="Tech" hidden="false" collective="false" targetId="0a21-17aa-1060-e5b9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="29.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d41c-02a5-dc62-5e48" name="3 - Omega Squadron Ace" hidden="false" collective="false" type="model">
@@ -20636,7 +20636,7 @@
         <entryLink id="3d60-a36a-9397-8798" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="31.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="29.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="311f-e92d-553f-51d5" name="6 - •&quot;Quickdraw&quot;" hidden="false" collective="false" type="model">
@@ -20796,7 +20796,7 @@
         <entryLink id="7d1b-1d05-55c8-fb46" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="41.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="39.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be62-5881-5f64-14f6" name="2 - Zeta Squadron Survivor" hidden="false" collective="false" type="model">
@@ -20873,7 +20873,7 @@
         <entryLink id="503a-6350-f3f1-c93f" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="34.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9afd-44c1-5083-d96c" name="3 - Omega Squadron Expert" hidden="false" collective="false" type="model">
@@ -20951,10 +20951,17 @@
         <entryLink id="914b-0a23-493f-8371" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="36.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="34.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3f4-1ca1-05e2-2f73" name="1 - •Petty Officer Thanisson" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="904f-9e6b-4007-3469" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5c43-92c0-05ad-cc5a" type="max"/>
       </constraints>
@@ -21045,7 +21052,7 @@
         <entryLink id="6ec2-fe49-b66d-7f5a" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="60.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="62.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="310c-e0fd-0c63-50f4" name="2 - Starkiller Base Pilot" hidden="false" collective="false" type="model">
@@ -21137,7 +21144,7 @@
         <entryLink id="1747-f74b-cdb1-f448" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="56.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="823e-54b7-5533-000c" name="2 - •Lieutenant Dormitz" hidden="false" collective="false" type="model">
@@ -21325,7 +21332,7 @@
         <entryLink id="7341-6cc6-c2fa-d175" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="62.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="64.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c489-cad3-720a-f954" name="4 - •Major Stridan" hidden="false" collective="false" type="model">
@@ -21419,7 +21426,7 @@
         <entryLink id="0f4a-e1b8-9ee2-74b0" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="63.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="64.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a981-0b7d-fd1f-be56" name="4 - •Captain Cardinal" hidden="false" collective="false" type="model">
@@ -21513,7 +21520,7 @@
         <entryLink id="e1c7-5cd0-4448-bd41" name="Sensor" hidden="false" collective="false" targetId="c43c-f5eb-8c5c-0261" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="64.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7233-ab33-784b-452b" name="3 - •Ben Teene" hidden="false" collective="false" type="model">
@@ -33694,7 +33701,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="10.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2cf5-8f93-9def-0818" name="•Captain Phasma" hidden="false" collective="false" type="upgrade">
@@ -33726,9 +33733,14 @@
         <selectionEntry id="904f-9e6b-4007-3469" name="•Petty Officer Thanisson" hidden="false" collective="false" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-d36e-48d4-af96" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-d36e-48d4-af96" type="notInstanceOf"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a3f4-1ca1-05e2-2f73" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
