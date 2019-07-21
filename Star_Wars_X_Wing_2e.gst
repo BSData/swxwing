@@ -339,8 +339,8 @@
         <categoryLink id="f51f-bfb1-cb4a-cfec" name="UT-60D U-wing" hidden="false" targetId="33a5-4833-e4a4-7f30" primary="false"/>
         <categoryLink id="600c-55ec-83a8-3f19" name="V-19 Torrent Starfighter" hidden="false" targetId="fe96-980a-b741-eff8" primary="false"/>
         <categoryLink id="8bc6-0d1f-cfe8-f039" name="Vulture-class Droid Fighter" hidden="false" targetId="d3e8-127d-cae2-6b21" primary="false"/>
-        <categoryLink id="0678-bd83-a6aa-5985" name="Z-95-AF4 Headhunter" hidden="false" targetId="30f8-3f81-4d1b-c64d" primary="false"/>
         <categoryLink id="bc0c-26fc-b2ad-6df3" name="VT-49 Decimator" hidden="false" targetId="eb26-c0a5-6a63-bcd8" primary="false"/>
+        <categoryLink id="0678-bd83-a6aa-5985" name="Z-95-AF4 Headhunter" hidden="false" targetId="30f8-3f81-4d1b-c64d" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -24249,7 +24249,7 @@
         <entryLink id="4680-e298-c671-be9a" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="47.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="44.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3321-6308-5735-00a8" name="3 - •O-66" hidden="false" collective="false" type="model">
@@ -24332,7 +24332,7 @@
         <entryLink id="e4e5-b1dc-24d8-9610" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="55.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="52.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0607-a25a-25d3-86ab" name="2 - Dark Courier" hidden="false" collective="false" type="model">
@@ -24413,7 +24413,7 @@
         <entryLink id="3c57-e01a-f90c-199a" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="53.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="51.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3186-eaa4-9cb8-0c3c" name="3 - •Count Dooku" hidden="false" collective="false" type="model">
@@ -24506,7 +24506,7 @@
         <entryLink id="34fc-433c-6f9c-e3e7" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="61.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="63.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="407a-0bac-e4bc-3f15" name="5 - •Darth Maul" hidden="false" collective="false" type="model">
@@ -24592,7 +24592,7 @@
         <entryLink id="49bb-8244-28db-6377" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="65.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="67.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cbd7-85e4-ae8c-ad8c" name="1 - Trade Federation Drone" hidden="false" collective="false" type="model">
@@ -24653,7 +24653,7 @@
         <entryLink id="bc9d-f47c-4c63-9ca9" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="20.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92fa-ae8e-5b2a-05ad" name="3 - Separatist Drone" hidden="false" collective="false" type="model">
@@ -24714,7 +24714,7 @@
         <entryLink id="8152-2cf8-1cdc-7a74" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="22.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="21.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f6e-bc2a-b1d0-fcd8" name="3 - •••Precise Hunter" hidden="false" collective="false" type="model">
@@ -24777,7 +24777,7 @@
         <entryLink id="f8a9-aa07-2786-6c8a" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="26.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4b9e-d12c-174f-004d" name="3 - •DFS-081" hidden="false" collective="false" type="model">
@@ -24840,7 +24840,7 @@
         <entryLink id="80b0-6637-8831-8287" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="27.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="39b9-6512-9760-5503" name="1 - ••Haor Chall Prototype" hidden="false" collective="false" type="model">
@@ -24903,7 +24903,7 @@
         <entryLink id="7074-c141-2966-f160" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="23.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="21.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8343-876d-2f9d-01af" name="1 - •DFS-311" hidden="false" collective="false" type="model">
@@ -24966,7 +24966,7 @@
         <entryLink id="cd17-a75c-dda1-544a" name="Modification" hidden="false" collective="false" targetId="b049-a528-e69b-bdd6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="24.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f234-a8d3-df51-0f4c" name="4 - •Cova Nell" hidden="false" collective="false" type="model">
@@ -25206,7 +25206,7 @@
         <entryLink id="dde4-5f01-f9b6-3da2" name="Tactical Relay" hidden="false" collective="false" targetId="274e-9c11-1575-363b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="37.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b1e1-d58b-df15-3dae" name="3 - Skakoan Ace" hidden="false" collective="false" type="model">
@@ -25358,7 +25358,7 @@
         <entryLink id="49a3-4848-d4cc-a47e" name="Talent" hidden="false" collective="false" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="f063-1033-6a55-7413" value="43.0"/>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="42.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1fd9-62db-05e2-8737" name="3 - Jedi Knight" hidden="false" collective="false" type="model">
@@ -29128,7 +29128,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d47e-add6-74ef-67d0" name="Spare Parts Canisters" hidden="false" collective="false" type="upgrade">
@@ -29248,7 +29248,7 @@
             <profile id="c0d1-4b44-1f4e-fa35" name="Angled Deflectors" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Shields -1</characteristic>
-                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"></characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Reinforce</characteristic>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Modification</characteristic>
               </characteristics>
@@ -29481,9 +29481,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="1496-acf3-343f-5630" name="Barrel Roll" hidden="false" targetId="ec48-a720-7b1e-753c" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
@@ -30336,7 +30333,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8e8a-7b20-dfbc-ca56" name="Dedicated" hidden="false" collective="false" type="upgrade">
@@ -30366,7 +30363,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -30516,7 +30513,7 @@
             <infoLink id="e09e-d8a5-6522-b3a3" name="DRK-1 Probe Droid" hidden="false" targetId="4fc0-7954-025d-ba9c" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4c81-b043-ea4b-a532" name="•Electro-Proton Bomb" hidden="false" collective="false" type="upgrade">
@@ -31464,7 +31461,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="10.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -31656,7 +31653,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a3b-a381-bf59-c86e" name="•••Discord Missiles" hidden="false" collective="false" type="upgrade">
@@ -31685,7 +31682,7 @@
             <infoLink id="6ba4-5712-5930-88fb" name="Buzz Droid Swarm" hidden="false" targetId="d36d-ca61-ca80-a536" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4290-e56f-01ab-4a2e" name="•Diamond-Boron Missiles" hidden="false" collective="false" type="upgrade">
@@ -33839,7 +33836,7 @@
             <categoryLink id="833d-acc2-442b-3b5b" name="Force Crew" hidden="false" targetId="1688-3233-355e-8a95" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="f063-1033-6a55-7413" value="9.0"/>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b39c-edb7-c690-67d0" name="•Chancellor Palpatine" hidden="false" collective="false" type="upgrade">
@@ -35336,7 +35333,7 @@
             <profile id="9343-76fe-b4b8-f3ac" name="•R2-C4" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">While you perform an attack, you may spend 1 evade token to change 1 [focus] result to a [hit] result.</characteristic>
-                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"></characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Astromech</characteristic>
               </characteristics>
@@ -35362,7 +35359,7 @@
             <profile id="98f2-b95e-ba41-3cb2" name="•R2-A6" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.</characteristic>
-                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"></characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Astromech</characteristic>
               </characteristics>
@@ -35661,6 +35658,9 @@
           <categoryLinks>
             <categoryLink id="bc4e-119d-e356-81f2" name="Coordinate (Purple)" hidden="false" targetId="b1cd-0e65-fad5-e5c5" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ef6b-7943-1053-1dcb" name="Brilliant Evasion" hidden="false" collective="false" type="upgrade">
           <constraints>
