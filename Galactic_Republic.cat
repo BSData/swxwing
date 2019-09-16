@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d137-8fb9-efcd-c317" name="Galactic Republic" revision="3" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d137-8fb9-efcd-c317" name="Galactic Republic" revision="4" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="76e8-425c-f31f-875e" name="RD 6 - •Anakin Skywalker" hidden="false" collective="false" targetId="ee4a-cfc9-e7ec-e4ff" type="selectionEntry"/>
-    <entryLink id="00b8-fa67-4fb0-9c9a" name="RD 5 - •Obi-Wan Kenobi" hidden="false" collective="false" targetId="3cc9-b3a1-5541-e2e7" type="selectionEntry"/>
-    <entryLink id="fa5c-8061-1f62-0da7" name="RD 5 - •Plo Koon" hidden="false" collective="false" targetId="4744-402c-01fe-bee3" type="selectionEntry"/>
-    <entryLink id="49fd-2ea8-7107-a7d3" name="RD 3 - Jedi Knight" hidden="false" collective="false" targetId="1fd9-62db-05e2-8737" type="selectionEntry"/>
-    <entryLink id="7858-a9a2-3e6a-c25b" name="RD 3 - •Ahsoka Tano" hidden="false" collective="false" targetId="a531-0c9c-93e6-0053" type="selectionEntry"/>
-    <entryLink id="2e7a-dfbd-2adf-a7b1" name="RD 4 - •Barriss Offee" hidden="false" collective="false" targetId="8294-0d37-f471-161e" type="selectionEntry"/>
-    <entryLink id="31a8-ca53-b002-14c8" name="RD 4 - •Luminara Unduli" hidden="false" collective="false" targetId="d35b-74b9-597a-2811" type="selectionEntry"/>
-    <entryLink id="5a03-ba2d-b46b-b74e" name="RD 4 - •Mace Windu" hidden="false" collective="false" targetId="ba6d-b7ee-e011-6574" type="selectionEntry"/>
-    <entryLink id="0952-5608-1486-f557" name="RD 4 - •Saesee Tiin" hidden="false" collective="false" targetId="0a38-797e-45b3-dc30" type="selectionEntry"/>
-    <entryLink id="4acd-1f51-ae4f-362b" name="RA 2 - 104th Battalion Pilot" hidden="false" collective="false" targetId="4274-424d-7d41-0b02" type="selectionEntry"/>
-    <entryLink id="ba96-8829-faa8-cbfb" name="RA 3 - Squad Seven Veteran" hidden="false" collective="false" targetId="7bd8-561c-2300-2d42" type="selectionEntry"/>
-    <entryLink id="ba67-ae88-64f9-69da" name="RA 3 - •&quot;Jag&quot;" hidden="false" collective="false" targetId="65b0-7f51-2549-2a3a" type="selectionEntry"/>
-    <entryLink id="e6ae-5b6a-cdca-d814" name="RA 3 - •&quot;Sinker&quot;" hidden="false" collective="false" targetId="5cd6-535d-f0e6-7b5f" type="selectionEntry"/>
-    <entryLink id="aff6-d2a8-8c8a-96a2" name="RA 4 - •&quot;Wolffe&quot;" hidden="false" collective="false" targetId="0d8b-2aaf-8bb2-75b5" type="selectionEntry"/>
-    <entryLink id="2b3d-52a7-699e-30aa" name="RA 5 - •&quot;Odd Ball&quot;" hidden="false" collective="false" targetId="e9dc-c7ce-7c97-98cf" type="selectionEntry"/>
-    <entryLink id="3296-a222-5dc6-87ff" name="RV 2 - Gold Squadron Trooper" hidden="false" collective="false" targetId="1581-160c-283a-6db8" type="selectionEntry"/>
-    <entryLink id="25f8-c86c-ff28-1ad8" name="RV 2 - •&quot;Tucker&quot;" hidden="false" collective="false" targetId="dd3f-a9c6-006c-3161" type="selectionEntry"/>
-    <entryLink id="2e0b-3d1b-33f3-b14a" name="RV 3 - Blue Squadron Protector" hidden="false" collective="false" targetId="71d1-52bd-d362-49dc" type="selectionEntry"/>
-    <entryLink id="953e-9df5-71be-36e2" name="RV 3 - •&quot;Axe&quot;" hidden="false" collective="false" targetId="27b3-122e-5973-c8a4" type="selectionEntry"/>
-    <entryLink id="3b51-1966-b28e-2dd7" name="RV 3 - •&quot;Swoop&quot;" hidden="false" collective="false" targetId="6e80-22c7-966b-5f30" type="selectionEntry"/>
-    <entryLink id="661c-ce70-4ff5-41c4" name="RV 4 - •&quot;Kickback&quot;" hidden="false" collective="false" targetId="3af0-332e-427b-55be" type="selectionEntry"/>
-    <entryLink id="8394-a36c-ea6e-116b" name="RV 5 - •&quot;Odd Ball&quot;" hidden="false" collective="false" targetId="cf8b-52b1-2c0e-215b" type="selectionEntry"/>
-    <entryLink id="a5ee-7540-1e74-0a5f" name="N1 1 - ••Naboo Handmaiden" hidden="false" collective="false" targetId="278e-ddaf-aec4-ab49" type="selectionEntry"/>
-    <entryLink id="f0d1-fd01-adcc-9a38" name="N1 2 - Bravo Flight Officer" hidden="false" collective="false" targetId="a289-e628-6ce0-f500" type="selectionEntry"/>
-    <entryLink id="efc6-886d-c15c-9604" name="N1 3 - •Dineé Ellberger" hidden="false" collective="false" targetId="62ab-876d-ff1b-56f9" type="selectionEntry"/>
-    <entryLink id="53e2-6d59-b7f2-6aae" name="N1 4 - •Anakin Skywalker" hidden="false" collective="false" targetId="b7b7-5ff6-4c45-a167" type="selectionEntry"/>
-    <entryLink id="3c31-bbc5-0a22-7d7d" name="N1 4 - •Padmé Amidala" hidden="false" collective="false" targetId="c145-785e-84ab-5be5" type="selectionEntry"/>
-    <entryLink id="6f19-b573-6900-eefb" name="N1 5 - •Ric Olié" hidden="false" collective="false" targetId="2eef-b37e-9133-b3e9" type="selectionEntry"/>
+    <entryLink id="76e8-425c-f31f-875e" name="RD 6 - •Anakin Skywalker" hidden="false" collective="false" import="true" targetId="ee4a-cfc9-e7ec-e4ff" type="selectionEntry"/>
+    <entryLink id="00b8-fa67-4fb0-9c9a" name="RD 5 - •Obi-Wan Kenobi" hidden="false" collective="false" import="true" targetId="3cc9-b3a1-5541-e2e7" type="selectionEntry"/>
+    <entryLink id="fa5c-8061-1f62-0da7" name="RD 5 - •Plo Koon" hidden="false" collective="false" import="true" targetId="4744-402c-01fe-bee3" type="selectionEntry"/>
+    <entryLink id="49fd-2ea8-7107-a7d3" name="RD 3 - Jedi Knight" hidden="false" collective="false" import="true" targetId="1fd9-62db-05e2-8737" type="selectionEntry"/>
+    <entryLink id="7858-a9a2-3e6a-c25b" name="RD 3 - •Ahsoka Tano" hidden="false" collective="false" import="true" targetId="a531-0c9c-93e6-0053" type="selectionEntry"/>
+    <entryLink id="2e7a-dfbd-2adf-a7b1" name="RD 4 - •Barriss Offee" hidden="false" collective="false" import="true" targetId="8294-0d37-f471-161e" type="selectionEntry"/>
+    <entryLink id="31a8-ca53-b002-14c8" name="RD 4 - •Luminara Unduli" hidden="false" collective="false" import="true" targetId="d35b-74b9-597a-2811" type="selectionEntry"/>
+    <entryLink id="5a03-ba2d-b46b-b74e" name="RD 4 - •Mace Windu" hidden="false" collective="false" import="true" targetId="ba6d-b7ee-e011-6574" type="selectionEntry"/>
+    <entryLink id="0952-5608-1486-f557" name="RD 4 - •Saesee Tiin" hidden="false" collective="false" import="true" targetId="0a38-797e-45b3-dc30" type="selectionEntry"/>
+    <entryLink id="4acd-1f51-ae4f-362b" name="RA 2 - 104th Battalion Pilot" hidden="false" collective="false" import="true" targetId="4274-424d-7d41-0b02" type="selectionEntry"/>
+    <entryLink id="ba96-8829-faa8-cbfb" name="RA 3 - Squad Seven Veteran" hidden="false" collective="false" import="true" targetId="7bd8-561c-2300-2d42" type="selectionEntry"/>
+    <entryLink id="ba67-ae88-64f9-69da" name="RA 3 - •&quot;Jag&quot;" hidden="false" collective="false" import="true" targetId="65b0-7f51-2549-2a3a" type="selectionEntry"/>
+    <entryLink id="e6ae-5b6a-cdca-d814" name="RA 3 - •&quot;Sinker&quot;" hidden="false" collective="false" import="true" targetId="5cd6-535d-f0e6-7b5f" type="selectionEntry"/>
+    <entryLink id="aff6-d2a8-8c8a-96a2" name="RA 4 - •&quot;Wolffe&quot;" hidden="false" collective="false" import="true" targetId="0d8b-2aaf-8bb2-75b5" type="selectionEntry"/>
+    <entryLink id="2b3d-52a7-699e-30aa" name="RA 5 - •&quot;Odd Ball&quot;" hidden="false" collective="false" import="true" targetId="e9dc-c7ce-7c97-98cf" type="selectionEntry"/>
+    <entryLink id="3296-a222-5dc6-87ff" name="RV 2 - Gold Squadron Trooper" hidden="false" collective="false" import="true" targetId="1581-160c-283a-6db8" type="selectionEntry"/>
+    <entryLink id="25f8-c86c-ff28-1ad8" name="RV 2 - •&quot;Tucker&quot;" hidden="false" collective="false" import="true" targetId="dd3f-a9c6-006c-3161" type="selectionEntry"/>
+    <entryLink id="2e0b-3d1b-33f3-b14a" name="RV 3 - Blue Squadron Protector" hidden="false" collective="false" import="true" targetId="71d1-52bd-d362-49dc" type="selectionEntry"/>
+    <entryLink id="953e-9df5-71be-36e2" name="RV 3 - •&quot;Axe&quot;" hidden="false" collective="false" import="true" targetId="27b3-122e-5973-c8a4" type="selectionEntry"/>
+    <entryLink id="3b51-1966-b28e-2dd7" name="RV 3 - •&quot;Swoop&quot;" hidden="false" collective="false" import="true" targetId="6e80-22c7-966b-5f30" type="selectionEntry"/>
+    <entryLink id="661c-ce70-4ff5-41c4" name="RV 4 - •&quot;Kickback&quot;" hidden="false" collective="false" import="true" targetId="3af0-332e-427b-55be" type="selectionEntry"/>
+    <entryLink id="8394-a36c-ea6e-116b" name="RV 5 - •&quot;Odd Ball&quot;" hidden="false" collective="false" import="true" targetId="cf8b-52b1-2c0e-215b" type="selectionEntry"/>
+    <entryLink id="a5ee-7540-1e74-0a5f" name="N1 1 - ••Naboo Handmaiden" hidden="false" collective="false" import="true" targetId="278e-ddaf-aec4-ab49" type="selectionEntry"/>
+    <entryLink id="f0d1-fd01-adcc-9a38" name="N1 2 - Bravo Flight Officer" hidden="false" collective="false" import="true" targetId="a289-e628-6ce0-f500" type="selectionEntry"/>
+    <entryLink id="efc6-886d-c15c-9604" name="N1 3 - •Dineé Ellberger" hidden="false" collective="false" import="true" targetId="62ab-876d-ff1b-56f9" type="selectionEntry"/>
+    <entryLink id="53e2-6d59-b7f2-6aae" name="N1 4 - •Anakin Skywalker" hidden="false" collective="false" import="true" targetId="b7b7-5ff6-4c45-a167" type="selectionEntry"/>
+    <entryLink id="3c31-bbc5-0a22-7d7d" name="N1 4 - •Padmé Amidala" hidden="false" collective="false" import="true" targetId="c145-785e-84ab-5be5" type="selectionEntry"/>
+    <entryLink id="6f19-b573-6900-eefb" name="N1 5 - •Ric Olié" hidden="false" collective="false" import="true" targetId="2eef-b37e-9133-b3e9" type="selectionEntry"/>
+    <entryLink id="5a37-0963-2375-2c37" name="Y 2 - Red Squadron Bomber" hidden="false" collective="false" import="true" targetId="23dd-f9b6-c026-9c59" type="selectionEntry"/>
+    <entryLink id="1ca6-787f-fa06-e06d" name="Y 2 - •&quot;Goji&quot;" hidden="false" collective="false" import="true" targetId="bfdc-51e7-75e8-afac" type="selectionEntry"/>
+    <entryLink id="9b16-a991-f743-25b4" name="Y 2 - •R2-D2" hidden="false" collective="false" import="true" targetId="f18a-cfe6-9dbb-c860" type="selectionEntry"/>
+    <entryLink id="3a9a-53f5-bb19-7122" name="Y 3 - Shadow Squadron Veteran" hidden="false" collective="false" import="true" targetId="134a-5d54-c35c-08cf" type="selectionEntry"/>
+    <entryLink id="b322-d776-be49-7862" name="Y 3 - •&quot;Broadside&quot;" hidden="false" collective="false" import="true" targetId="ce92-41d8-54af-accb" type="selectionEntry"/>
+    <entryLink id="41f7-daee-e9e3-55b7" name="Y 4 - •&quot;Matchstick&quot;" hidden="false" collective="false" import="true" targetId="8e07-b291-4278-a6a0" type="selectionEntry"/>
+    <entryLink id="e5de-dfe7-ed1f-1385" name="Y 5 - •&quot;Odd Ball&quot;" hidden="false" collective="false" import="true" targetId="9d5c-6948-cf25-ad4b" type="selectionEntry"/>
+    <entryLink id="2aa0-8768-4701-1b1a" name="Y 6 - •Anakin Skywalker" hidden="false" collective="false" import="true" targetId="05d5-67f4-728b-9d1b" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
