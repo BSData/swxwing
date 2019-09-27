@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4429-411b-a127-a1ae" name="Scum and Villainy" revision="3" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="3e41-71da-1915-ca40" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="7269-d7db-5ae3-3c5a" name="4 - •IG-88D" hidden="false" collective="false" targetId="abb5-195d-c0ae-94e3" type="selectionEntry"/>
+    <entryLink id="d567-865f-cb85-3f8a" name="4 - •IG-88C" hidden="false" collective="false" targetId="45fe-dc0b-a404-9c00" type="selectionEntry"/>
+    <entryLink id="627b-ee7b-687e-4e3d" name="4 - •IG-88B" hidden="false" collective="false" targetId="7a02-ddfb-d8bf-3952" type="selectionEntry"/>
+    <entryLink id="e045-dbd1-7058-9d31" name="4 - •IG-88A" hidden="false" collective="false" targetId="5ab0-66e1-5499-ca06" type="selectionEntry"/>
+    <entryLink id="5002-b417-b424-8ec7" name="•Lando Calrissian" hidden="false" collective="false" targetId="e4ad-245d-6fba-4acb" type="selectionEntry"/>
+    <entryLink id="6008-d135-1b62-8258" name="•L3-37" hidden="false" collective="false" targetId="2952-5061-e1d7-adfe" type="selectionEntry"/>
+    <entryLink id="85ae-788d-4173-08f6" name="•Han Solo" hidden="false" collective="false" targetId="4221-c1d4-3db1-4732" type="selectionEntry"/>
+    <entryLink id="92eb-1167-f428-601b" name="Freighter Captain" hidden="false" collective="false" targetId="0af8-e3be-ccc1-ae1c" type="selectionEntry"/>
+    <entryLink id="1233-68cc-28a3-19f3" name="•Autopilot Drone" hidden="false" collective="false" targetId="df63-adaa-a501-ffc3" type="selectionEntry"/>
+    <entryLink id="6fce-6265-a517-b829" name="•L3-37" hidden="false" collective="false" targetId="debb-b1c5-720b-1a81" type="selectionEntry"/>
+    <entryLink id="573a-1139-1c87-fedd" name="•Lando Calrissian" hidden="false" collective="false" targetId="5ed2-da1e-8be1-b3d2" type="selectionEntry"/>
+    <entryLink id="0b96-1925-afd3-e639" name="•Outer Rim Pioneer" hidden="false" collective="false" targetId="f28e-33d2-bdc3-daaf" type="selectionEntry"/>
+    <entryLink id="8a35-54c2-b429-0959" name="•Old Teroch" hidden="false" collective="false" targetId="4436-6a16-43f4-8b2e" type="selectionEntry"/>
+    <entryLink id="29c9-bec4-abb6-e2ee" name="•Kad Solus" hidden="false" collective="false" targetId="69bb-b5d6-00ae-4ccd" type="selectionEntry"/>
+    <entryLink id="549d-d7d1-2ca0-1905" name="•Joy Rekkoff" hidden="false" collective="false" targetId="71a8-517a-695f-8cbf" type="selectionEntry"/>
+    <entryLink id="451e-5250-06b9-1011" name="•Fenn Rau" hidden="false" collective="false" targetId="e984-8cfa-da17-a05b" type="selectionEntry"/>
+    <entryLink id="ba9e-324a-7a98-5469" name="Zealous Recruit" hidden="false" collective="false" targetId="28af-e222-30d6-a323" type="selectionEntry"/>
+    <entryLink id="a0d5-adb0-e21f-da3d" name="Skull Squadron Pilot" hidden="false" collective="false" targetId="ccb8-0634-3aec-b074" type="selectionEntry"/>
+    <entryLink id="6961-6c49-18f2-509f" name="•Krassis Trelix" hidden="false" collective="false" targetId="7fd5-67b7-1e52-f281" type="selectionEntry"/>
+    <entryLink id="147a-79f3-4e5b-0404" name="•Koshka Frost" hidden="false" collective="false" targetId="a4ed-ca96-5383-a93c" type="selectionEntry"/>
+    <entryLink id="c4ea-5755-1cdd-c6d9" name="•Kath Scarlet" hidden="false" collective="false" targetId="ddf2-3add-e859-abaa" type="selectionEntry"/>
+    <entryLink id="7ffd-b650-8604-a967" name="•Emon Azzameen" hidden="false" collective="false" targetId="f166-bdfd-58a2-1f8c" type="selectionEntry"/>
+    <entryLink id="6653-15ae-5758-dbf8" name="5 - •Boba Fett" hidden="false" collective="false" targetId="78fa-3446-e83e-d7a7" type="selectionEntry"/>
+    <entryLink id="8522-3ce8-d319-99da" name="Bounty Hunter" hidden="false" collective="false" targetId="496a-5e51-6d40-03d7" type="selectionEntry"/>
+    <entryLink id="9d0b-1186-0afe-db9f" name="•Kavil" hidden="false" collective="false" targetId="3204-ff85-f9ab-99b4" type="selectionEntry"/>
+    <entryLink id="e3a3-8f52-18e9-76dc" name="•Drea Renthal" hidden="false" collective="false" targetId="72bb-6cb3-a30b-7ddf" type="selectionEntry"/>
+    <entryLink id="b808-68b2-350d-99d7" name="Hired Gun" hidden="false" collective="false" targetId="4010-27bb-dc2d-67b2" type="selectionEntry"/>
+    <entryLink id="3a25-087d-08ca-5166" name="Crymorah Goon" hidden="false" collective="false" targetId="fa4f-7f28-e37a-b058" type="selectionEntry"/>
+    <entryLink id="968d-2798-c021-cca0" name="•Moralo Eval" hidden="false" collective="false" targetId="87a8-aed6-7630-6d98" type="selectionEntry"/>
+    <entryLink id="1705-3670-0c65-c466" name="•Latts Razzi" hidden="false" collective="false" targetId="8a8b-79bf-8617-3c19" type="selectionEntry"/>
+    <entryLink id="e103-f79e-3891-4c38" name="•Bossk" hidden="false" collective="false" targetId="30d8-e8b1-67f2-5d6a" type="selectionEntry"/>
+    <entryLink id="b0e9-3643-95d7-0bfd" name="2 - Trandoshan Slaver" hidden="false" collective="false" targetId="e853-399d-681e-d1a2" type="selectionEntry"/>
+    <entryLink id="3c30-87c0-b435-7d00" name="•Nashtah Pup" hidden="false" collective="false" targetId="7845-9245-0d3d-4f75" type="selectionEntry"/>
+    <entryLink id="e0b9-c57d-45cf-580f" name="•N&apos;dru Suhlak" hidden="false" collective="false" targetId="12c9-a234-f749-f94f" type="selectionEntry"/>
+    <entryLink id="b8af-422b-7360-735c" name="•Kaa&apos;to Leeachos" hidden="false" collective="false" targetId="c0b8-1d93-76cb-0139" type="selectionEntry"/>
+    <entryLink id="0d8c-4335-ae7d-6fb6" name="Black Sun Soldier" hidden="false" collective="false" targetId="685e-5007-3ebf-e4b0" type="selectionEntry"/>
+    <entryLink id="62f1-2599-bee4-f5f4" name="Binayre Pirate" hidden="false" collective="false" targetId="f089-538a-53b4-2530" type="selectionEntry"/>
+    <entryLink id="54f1-1c8b-c867-01e8" name="•Zuckuss" hidden="false" collective="false" targetId="bd41-617c-76a8-90b2" type="selectionEntry"/>
+    <entryLink id="06b4-e3f9-2166-29cc" name="•4-LOM" hidden="false" collective="false" targetId="177e-20b6-9860-7ea6" type="selectionEntry"/>
+    <entryLink id="17b4-fb5b-f084-3a68" name="Gand Findsman" hidden="false" collective="false" targetId="23d7-0fee-3a53-1871" type="selectionEntry"/>
+    <entryLink id="2142-1984-c6c6-b4a5" name="•Torani Kulda" hidden="false" collective="false" targetId="36e9-9b4b-9cca-41ab" type="selectionEntry"/>
+    <entryLink id="8eb6-ff69-74be-094f" name="•Dalan Oberos" hidden="false" collective="false" targetId="8ae4-0361-46aa-7994" type="selectionEntry"/>
+    <entryLink id="3a0e-2a22-545d-dcaf" name="Cartel Executioner" hidden="false" collective="false" targetId="9894-21cd-fb66-9e28" type="selectionEntry"/>
+    <entryLink id="cbc1-6c24-cfcc-2ebe" name="•Unkar Plutt" hidden="false" collective="false" targetId="7d20-b67d-7558-1e17" type="selectionEntry"/>
+    <entryLink id="0158-349c-eb96-3dc2" name="•Sarco Plank" hidden="false" collective="false" targetId="09a1-6a81-216b-fac8" type="selectionEntry"/>
+    <entryLink id="0661-1703-81e2-a812" name="•Constable Zuvio" hidden="false" collective="false" targetId="8649-b405-f9b2-3b81" type="selectionEntry"/>
+    <entryLink id="9c2c-9c33-64cf-b06d" name="Jakku Gunrunner" hidden="false" collective="false" targetId="e918-a68a-4093-f01a" type="selectionEntry"/>
+    <entryLink id="a3bd-22d9-479d-b634" name="•Torkil Mux" hidden="false" collective="false" targetId="71c9-c0a2-7902-cc71" type="selectionEntry"/>
+    <entryLink id="85b4-d5df-1fc6-56a4" name="•Palob Godalhi" hidden="false" collective="false" targetId="9579-8b5a-6a46-2f16" type="selectionEntry"/>
+    <entryLink id="a04f-6219-7f72-47ba" name="•Dace Bonearm" hidden="false" collective="false" targetId="b43d-f868-0a0d-12f9" type="selectionEntry"/>
+    <entryLink id="9d07-0966-c255-b596" name="Spice Runner" hidden="false" collective="false" targetId="317b-ba53-6636-0b38" type="selectionEntry"/>
+    <entryLink id="b40b-06c0-1f06-2553" name="•Sol Sixxa" hidden="false" collective="false" targetId="65ba-ca8a-70e6-0e9e" type="selectionEntry"/>
+    <entryLink id="0422-c9c3-8050-91d2" name="•Captain Nym" hidden="false" collective="false" targetId="3e9f-5ff5-c042-b8a5" type="selectionEntry"/>
+    <entryLink id="2e84-c959-6ea2-a5b2" name="Lok Revenant" hidden="false" collective="false" targetId="15ed-55d5-ca2f-ad9a" type="selectionEntry"/>
+    <entryLink id="462e-fffd-7a8f-22af" name="•Tel Trevura" hidden="false" collective="false" targetId="119b-c3ae-643b-cb24" type="selectionEntry"/>
+    <entryLink id="9eff-f30d-4fd8-8562" name="•Manaroo" hidden="false" collective="false" targetId="5e90-21d3-d005-bd28" type="selectionEntry"/>
+    <entryLink id="fd98-224a-962b-387c" name="6 - •Dengar" hidden="false" collective="false" targetId="5bc6-92ae-9dc0-2486" type="selectionEntry"/>
+    <entryLink id="c254-fb55-4c28-e6cd" name="Contracted Scout" hidden="false" collective="false" targetId="dc4d-f2e5-78b3-1fa4" type="selectionEntry"/>
+    <entryLink id="a38e-ae45-c1e2-b80f" name="•Viktor Hel" hidden="false" collective="false" targetId="f57e-d94e-b9be-1940" type="selectionEntry"/>
+    <entryLink id="cdd7-3402-3507-6a3d" name="•Talonbane Cobra" hidden="false" collective="false" targetId="a705-16f1-94ad-1d3a" type="selectionEntry"/>
+    <entryLink id="74b8-24b2-f338-8002" name="•Graz" hidden="false" collective="false" targetId="3c2b-ba93-2d53-c707" type="selectionEntry"/>
+    <entryLink id="0ba2-b41c-8197-659e" name="•Captain Jostero" hidden="false" collective="false" targetId="11fd-ad90-c698-0aa0" type="selectionEntry"/>
+    <entryLink id="9d34-22da-0681-bdd6" name="Cartel Marauder" hidden="false" collective="false" targetId="647d-fa67-532e-5acc" type="selectionEntry"/>
+    <entryLink id="bc36-196f-dbd8-c999" name="Black Sun Ace" hidden="false" collective="false" targetId="6261-a879-8abe-b766" type="selectionEntry"/>
+    <entryLink id="5120-feee-ed79-c05e" name="•Genesis Red" hidden="false" collective="false" targetId="c69b-0a77-9aef-dfef" type="selectionEntry"/>
+    <entryLink id="f830-5fd5-defe-4018" name="•Serissu" hidden="false" collective="false" targetId="94a4-c81d-70b8-5bf6" type="selectionEntry"/>
+    <entryLink id="644e-9c83-f64f-2de8" name="•Sunny Bounder" hidden="false" collective="false" targetId="1484-7437-107a-f530" type="selectionEntry"/>
+    <entryLink id="fbb7-676d-fc76-1e25" name="•Quinn Jast" hidden="false" collective="false" targetId="c65c-1007-466d-a7f4" type="selectionEntry"/>
+    <entryLink id="30a1-1b29-4c48-887b" name="•Laetin A&apos;shera" hidden="false" collective="false" targetId="1c98-005b-87a0-cbef" type="selectionEntry"/>
+    <entryLink id="16be-a671-e647-44f2" name="•Inaldra" hidden="false" collective="false" targetId="b953-be81-eec5-0289" type="selectionEntry"/>
+    <entryLink id="cbe9-87c9-e3c1-f17f" name="Tansarii Point Veteran" hidden="false" collective="false" targetId="f492-b873-58cb-ad19" type="selectionEntry"/>
+    <entryLink id="3fb6-6639-4db8-f64f" name="Cartel Spacer" hidden="false" collective="false" targetId="cddc-de80-503f-ba64" type="selectionEntry"/>
+    <entryLink id="2bf0-0476-d3dc-99eb" name="•Sabine Wren" hidden="false" collective="false" targetId="66c2-ca6e-185f-2855" type="selectionEntry"/>
+    <entryLink id="f1f2-e05b-89d4-2662" name="•Ketsu Onyo" hidden="false" collective="false" targetId="123b-01e9-9d25-df8b" type="selectionEntry"/>
+    <entryLink id="53b1-71d2-02b6-51d1" name="•Asajj Ventress" hidden="false" collective="false" targetId="563f-7872-1c59-1591" type="selectionEntry"/>
+    <entryLink id="efcd-6f4d-a540-0fbd" name="Shadowport Hunter" hidden="false" collective="false" targetId="e15e-4b93-7c39-2b9e" type="selectionEntry"/>
+    <entryLink id="b915-58ef-98b8-5ae5" name="•Prince Xizor" hidden="false" collective="false" targetId="f5db-809f-e2e7-908f" type="selectionEntry"/>
+    <entryLink id="4bf9-3e24-44a0-1df7" name="•Guri" hidden="false" collective="false" targetId="6fc0-2618-3854-1a14" type="selectionEntry"/>
+    <entryLink id="9e3b-ca2f-8b31-6428" name="•Dalan Oberos" hidden="false" collective="false" targetId="eeea-aa89-5da5-142b" type="selectionEntry"/>
+    <entryLink id="e6ab-1abd-c99c-e1d5" name="Black Sun Enforcer" hidden="false" collective="false" targetId="500a-e6cd-5eef-d046" type="selectionEntry"/>
+    <entryLink id="d21d-0afd-48d0-d38a" name="Black Sun Assassin" hidden="false" collective="false" targetId="b4bb-6579-8361-a964" type="selectionEntry"/>
+    <entryLink id="d44e-88b2-b203-a623" name="•Overseer Yushyn" hidden="false" collective="false" targetId="f7db-b5c5-af32-77dd" type="selectionEntry"/>
+    <entryLink id="d5d1-19c6-f306-d914" name="•Foreman Proach" hidden="false" collective="false" targetId="23be-9d65-1b1e-9b8c" type="selectionEntry"/>
+    <entryLink id="3891-55a3-c0c6-a1e0" name="•Captain Seevor" hidden="false" collective="false" targetId="f23b-786c-d828-5b09" type="selectionEntry"/>
+    <entryLink id="1bc1-779d-0ff7-fbe6" name="•Ahhav" hidden="false" collective="false" targetId="a7b3-56b3-3c8f-146f" type="selectionEntry"/>
+    <entryLink id="2ca7-4c94-260f-b17e" name="Mining Guild Surveyor" hidden="false" collective="false" targetId="679f-f1a2-de6f-4310" type="selectionEntry"/>
+    <entryLink id="fcb9-4b13-05b2-2ba3" name="Mining Guild Sentry" hidden="false" collective="false" targetId="4b46-75fe-473f-bc8b" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

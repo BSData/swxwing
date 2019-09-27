@@ -29283,6 +29283,280 @@
         <cost name=" Points" typeId="f063-1033-6a55-7413" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="29cb-fce4-3f8f-36e0" name="3 - Stalgasin Hive Guard" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b0f1-3e59-b581-33fe" name="Stalgasin Hive Guard" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">3</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">3 (bullseye)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7035-ae1f-b7d2-9ee8" name="Stalgasin Hive Guard" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Pinpoint Tractor Array: You cannot rotate your [turret arc] to your [rear arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [rotate] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5bac-c658-5049-5e90" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
+        <categoryLink id="719c-d303-07a4-99c3" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
+        <categoryLink id="558c-9294-5801-0878" name="Evade" hidden="false" targetId="598c-197a-b912-38e0" primary="false"/>
+        <categoryLink id="0e56-d29e-d774-53ff" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="397f-8a33-95d3-6c82" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
+        <categoryLink id="3af4-3993-a217-6c2b" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="8ef8-b2e1-90df-9499" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
+        <categoryLink id="00e2-0d2c-db14-2216" name="Initiative 3" hidden="false" targetId="569e-8ede-e3d4-f5e2" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="82bb-380c-f5ff-04d6" name="Talent" hidden="false" collective="false" import="true" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c51a-6f8a-265e-736e" name="6 - •Sun Fac" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6486-5b84-5de4-4b75" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6b58-f1a9-cf5b-0187" name="•Sun Fac" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Archduke&apos;s Enforcer</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">6</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">3 (bullseye)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e4fb-f5ae-e3a9-ed9e" name="•Sun Fac" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, if the defender is tractored, roll 1 additional attack die.</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Pinpoint Tractor Array: You cannot rotate your [turret arc] to your [rear arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [rotate] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4326-bf37-ea87-bb12" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
+        <categoryLink id="4a43-d1a9-a129-f3c3" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
+        <categoryLink id="d0db-c53c-1f08-7a56" name="Evade" hidden="false" targetId="598c-197a-b912-38e0" primary="false"/>
+        <categoryLink id="a292-61f8-2014-7cd9" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="266c-44d9-d710-c479" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
+        <categoryLink id="15c3-b4ae-92c0-8585" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="81c8-1f6d-aaa7-5630" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
+        <categoryLink id="1b57-779a-6b97-4c67" name="Initiative 6" hidden="false" targetId="89a2-5bee-48ed-5672" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="80e6-7450-1f01-ef8a" name="Talent" hidden="false" collective="false" import="true" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="0880-ab6c-cf60-d31c" value="1.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="54.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5013-8ac9-c149-1c42" name="2 - •Gorgol" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e65-8d22-616f-592c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2f36-ef05-8e38-5d86" name="•Gorgol" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Handy Engineer</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">2</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">3 (bullseye)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2944-8712-c711-09d7" name="•Gorgol" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup Ship trait damage cards.</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Pinpoint Tractor Array: You cannot rotate your [turret arc] to your [rear arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [rotate] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8364-96ba-4166-3523" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
+        <categoryLink id="2a51-bfa5-7587-e667" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
+        <categoryLink id="7a9a-69aa-c556-bd39" name="Evade" hidden="false" targetId="598c-197a-b912-38e0" primary="false"/>
+        <categoryLink id="665c-f28f-9c15-74e5" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="e441-2129-2858-734c" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
+        <categoryLink id="94bb-eae9-3230-74a3" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="1761-44c5-de01-7101" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
+        <categoryLink id="3e23-c500-5bc6-0d18" name="Initiative 2" hidden="false" targetId="b70f-42ee-6e5b-1477" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5dc1-ca25-5a72-74f8" name="Talent" hidden="false" collective="false" import="true" targetId="a276-c940-781c-a514" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c187-3921-320e-59ab" name="4 - •Chertek" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6aac-5b58-5f58-b4ae" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3c8f-9c6b-e932-be17" name="•Chertek" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Opportunistic Ace</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">3 (bullseye)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="22d8-3624-7f72-0e66" name="•Chertek" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, if the defender is tractored, you may reroll up to 2 attack dice.</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Pinpoint Tractor Array: You cannot rotate your [turret arc] to your [rear arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [rotate] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="523b-e63b-9836-9c28" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
+        <categoryLink id="7308-d3d2-deec-9250" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
+        <categoryLink id="fe21-ffe4-6137-8962" name="Evade" hidden="false" targetId="598c-197a-b912-38e0" primary="false"/>
+        <categoryLink id="e70c-ca5a-0b90-b5e2" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="7b80-6a45-bdcf-2676" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
+        <categoryLink id="cfb9-b35e-2949-9c2f" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="ab0a-5c6f-cbf7-0851" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
+        <categoryLink id="cce1-3173-3292-d419" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c19c-9d01-e196-ca49" name="Talent" hidden="false" collective="false" import="true" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="0880-ab6c-cf60-d31c" value="1.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3d4-43dd-9a24-7752" name="5 - •Berwer Kret" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2132-eed4-7f71-291d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f81e-560e-c7a3-027a" name="•Berwer Kret" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762">Hive Guard Captain</characteristic>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">5</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">3 (bullseye)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ae60-653d-9acd-162e" name="•Berwer Kret" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform an attack that hits, each friendly ship with [calculate] on its action bar and a lock on the defender may perform a red [calculate] action.</characteristic>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Pinpoint Tractor Array: You cannot rotate your [turret arc] to your [rear arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [rotate] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1ae0-5280-ac74-05cb" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
+        <categoryLink id="a947-e8ff-3916-39f7" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
+        <categoryLink id="bf5f-ab68-a22b-4c09" name="Evade" hidden="false" targetId="598c-197a-b912-38e0" primary="false"/>
+        <categoryLink id="9ac9-53dd-d23d-37ea" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="6022-0aa1-f593-e5a1" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
+        <categoryLink id="0346-a66b-3c52-1142" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="1712-8fa1-7f17-276a" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
+        <categoryLink id="1b8c-2a2b-7e9b-d74a" name="Initiative 5" hidden="false" targetId="8ebe-13eb-199b-2167" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3275-ce8b-19b1-4126" name="Talent" hidden="false" collective="false" import="true" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="0880-ab6c-cf60-d31c" value="1.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4a4-3284-de34-8578" name="4 - Petranaki Arena Ace" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="904f-6f6b-da78-a747" name="Petranaki Arena Ace" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="180c-7902-1c70-5762"/>
+            <characteristic name="Initiative" typeId="3c61-1396-7955-1e7a">4</characteristic>
+            <characteristic name="Primary" typeId="7059-eb71-1f70-9d8d">3 (bullseye)</characteristic>
+            <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
+            <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
+            <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
+            <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4793-9570-7a26-87f1" name="Petranaki Arena Ace" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
+          <characteristics>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
+            <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Pinpoint Tractor Array: You cannot rotate your [turret arc] to your [rear arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [rotate] action.</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="90b1-bcc5-7acc-a3e3" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
+        <categoryLink id="460a-e1c0-d360-95be" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
+        <categoryLink id="8621-5644-fa0a-cddf" name="Evade" hidden="false" targetId="598c-197a-b912-38e0" primary="false"/>
+        <categoryLink id="5000-d849-2090-367a" name="Focus" hidden="false" targetId="fe97-ee99-a0fe-ee30" primary="false"/>
+        <categoryLink id="5695-9590-de28-d83f" name="Separatist" hidden="false" targetId="8859-42b6-87b8-3cbe" primary="false"/>
+        <categoryLink id="7961-4174-7f27-9de4" name="Small Ship" hidden="false" targetId="2236-dfb8-49b7-0a90" primary="false"/>
+        <categoryLink id="a61e-68f3-1d70-66a7" name="Turret Arc" hidden="false" targetId="5119-029c-c66e-a0fa" primary="false"/>
+        <categoryLink id="27d3-fc55-610f-9c29" name="Initiative 4" hidden="false" targetId="f4fc-7366-8210-2b00" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b032-fff5-1813-6647" name="Talent" hidden="false" collective="false" import="true" targetId="a276-c940-781c-a514" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="0880-ab6c-cf60-d31c" value="1.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="f063-1033-6a55-7413" value="38.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e721-be9d-290e-de95" name="Cannon" hidden="false" collective="false" import="true">
