@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="3e41-71da-1915-ca40" name="Star Wars: X-Wing (Second Edition)" revision="9" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="f063-1033-6a55-7413" name=" Points" defaultCostLimit="-1.0"/>
@@ -160,7 +160,7 @@
     <categoryEntry id="5c31-c18c-f125-8aa2" name="YT-2400 Light Freighter" hidden="false"/>
     <categoryEntry id="60bc-7501-71d7-6e45" name="YV-666 Light Freighter" hidden="false"/>
     <categoryEntry id="30f8-3f81-4d1b-c64d" name="Z-95-AF4 Headhunter" hidden="false"/>
-    <categoryEntry id="586b-8957-f342-453d" name="Target Lock" hidden="false"/>
+    <categoryEntry id="586b-8957-f342-453d" name="Lock" hidden="false"/>
     <categoryEntry id="8859-42b6-87b8-3cbe" name="Separatist" hidden="false"/>
     <categoryEntry id="3018-ed0b-08ad-5756" name="Republic" hidden="false"/>
     <categoryEntry id="c4d9-d36e-48d4-af96" name="First Order" hidden="false"/>
@@ -185,7 +185,7 @@
     <categoryEntry id="e6f2-0193-8e2c-c2a1" name="Cloak" hidden="false"/>
     <categoryEntry id="c790-3e81-8d2e-26ab" name="Evade (Red)" hidden="false"/>
     <categoryEntry id="f3f8-ac0f-ad15-ce0f" name="Jam (Red)" hidden="false"/>
-    <categoryEntry id="ff81-8daf-1ebd-ef49" name="Target Lock (Red)" hidden="false"/>
+    <categoryEntry id="ff81-8daf-1ebd-ef49" name="Lock (Red)" hidden="false"/>
     <categoryEntry id="4924-556d-83ae-6170" name="Rotate (Red)" hidden="false"/>
     <categoryEntry id="be9c-6a65-4fc5-c058" name="Dark Side" hidden="false"/>
     <categoryEntry id="2a3a-f3a1-797b-7470" name="Initiative 0" hidden="false"/>
@@ -312,6 +312,8 @@
         <categoryLink id="5643-327b-39f0-f6c7" name="Escape Craft" hidden="false" targetId="f7fe-b285-fb4f-d693" primary="false"/>
         <categoryLink id="2196-639b-e2a4-325a" name="Fang Fighter" hidden="false" targetId="2945-9fad-7353-29d5" primary="false"/>
         <categoryLink id="5351-105c-8400-cae5" name="Firespray-class Patrol Craft" hidden="false" targetId="6c55-3ea3-296f-7938" primary="false"/>
+        <categoryLink id="1359-cc43-9981-5bea" name="JumpMaster 5000" hidden="false" targetId="b71e-0050-01b7-1e94" primary="false"/>
+        <categoryLink id="8e35-6b33-6db7-6962" name="M3-A Interceptor" hidden="false" targetId="034a-d9be-e115-1ee6" primary="false"/>
         <categoryLink id="05cb-7019-c295-f1b9" name="MG-100 StarFortress" hidden="false" targetId="3be3-c3d9-fea5-4a9a" primary="false"/>
         <categoryLink id="f841-32c8-dd17-1ab8" name="Modified TIE/ln Fighter" hidden="false" targetId="712c-f423-555b-4d41" primary="false"/>
         <categoryLink id="d23c-db1a-4110-12d3" name="Modified YT-1300 Light Freighter" hidden="false" targetId="852c-3df6-f42f-766c" primary="false"/>
@@ -322,10 +324,12 @@
         <categoryLink id="dd11-8bf2-fc68-d895" name="RZ-1 A-wing" hidden="false" targetId="f581-032a-0c70-3586" primary="false"/>
         <categoryLink id="ad6e-f248-7898-49fb" name="RZ-2 A-wing" hidden="false" targetId="aa70-d53b-172b-bf9d" primary="false"/>
         <categoryLink id="ce68-2ccd-83b6-0eee" name="Scavenged YT-1300" hidden="false" targetId="81bd-fedc-18d7-7c1e" primary="false"/>
+        <categoryLink id="1dd7-6d0d-c6dc-4b07" name="Sheathipede-class Shuttle" hidden="false" targetId="37ac-ceaa-d032-6a40" primary="false"/>
         <categoryLink id="3de7-0e36-a90c-0bd6" name="Sith Infiltrator" hidden="false" targetId="cd2e-a66b-34f1-c608" primary="false"/>
         <categoryLink id="769e-6146-1ad0-4c45" name="StarViper-class Attack Platform" hidden="false" targetId="75d0-81e8-cd3d-4075" primary="false"/>
         <categoryLink id="d727-c32f-89b7-eb8b" name="T-65 X-wing" hidden="false" targetId="1624-c965-4768-41ef" primary="false"/>
         <categoryLink id="28d9-38a4-e5b4-208d" name="T-70 X-wing" hidden="false" targetId="9550-017f-1934-d653" primary="false"/>
+        <categoryLink id="0261-0e12-24b6-0f82" name="TIE Advanced v1" hidden="false" targetId="499d-7369-98f5-bfc7" primary="false"/>
         <categoryLink id="101f-8ac9-13a1-a1be" name="TIE Advanced x1" hidden="false" targetId="dc07-6de1-5e96-6d82" primary="false"/>
         <categoryLink id="8ce1-d0ac-99b1-2c6c" name="TIE Interceptor" hidden="false" targetId="8796-3ba7-ca12-8182" primary="false"/>
         <categoryLink id="313e-049f-c34d-ec73" name="TIE Reaper" hidden="false" targetId="33dd-71d1-32bc-fc2f" primary="false"/>
@@ -338,8 +342,9 @@
         <categoryLink id="e04d-c587-4242-9650" name="Upsilon-class Command Shuttle" hidden="false" targetId="53d7-258e-55d4-20c9" primary="false"/>
         <categoryLink id="f51f-bfb1-cb4a-cfec" name="UT-60D U-wing" hidden="false" targetId="33a5-4833-e4a4-7f30" primary="false"/>
         <categoryLink id="600c-55ec-83a8-3f19" name="V-19 Torrent Starfighter" hidden="false" targetId="fe96-980a-b741-eff8" primary="false"/>
-        <categoryLink id="8bc6-0d1f-cfe8-f039" name="Vulture-class Droid Fighter" hidden="false" targetId="d3e8-127d-cae2-6b21" primary="false"/>
+        <categoryLink id="8f55-1685-bba0-3d5c" name="VCX-100 Light Frieghter" hidden="false" targetId="8a05-0f42-60ac-2c15" primary="false"/>
         <categoryLink id="bc0c-26fc-b2ad-6df3" name="VT-49 Decimator" hidden="false" targetId="eb26-c0a5-6a63-bcd8" primary="false"/>
+        <categoryLink id="8bc6-0d1f-cfe8-f039" name="Vulture-class Droid Fighter" hidden="false" targetId="d3e8-127d-cae2-6b21" primary="false"/>
         <categoryLink id="0678-bd83-a6aa-5985" name="Z-95-AF4 Headhunter" hidden="false" targetId="30f8-3f81-4d1b-c64d" primary="false"/>
       </categoryLinks>
     </forceEntry>
@@ -385,7 +390,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, you may spend 1 stress token to change all of your [focus] results to [evade] or [hit] results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -429,7 +434,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose 1 friendly ship with [calculate] on its action bar at range 1-3. If you do, transfer 1 of your calculate tokens to it.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Droid Brain: After you perform a [calculate] action, gain 1 calculate token.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Evade, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Evade, Lock, Boost</characteristic>
           </characteristics>
         </profile>
         <profile id="1e5a-5328-e27f-6f13" name="•IG-88A" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
@@ -536,7 +541,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, SLAM, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, SLAM, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -657,7 +662,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -730,7 +735,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -802,7 +807,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -875,7 +880,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -972,7 +977,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend, if there is an enemy ship at range 0-1, add 1 [focus] result to your dice results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1062,7 +1067,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [focus] result to your dice results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1111,7 +1116,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a maneuver, if you are stressed, you may roll 1 attack die. On a [hit] or [critical] result, remove 1 stress token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
         <profile id="ada8-9658-b498-bf71" name="•Ibtisam" hidden="false" typeId="a72b-5bec-cd66-e795" typeName="1.1 Ship Stats">
@@ -1230,7 +1235,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1317,7 +1322,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend, if there is an enemy ship at range 0-1, add 1 [focus] result to your dice results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1395,9 +1400,9 @@
         </profile>
         <profile id="5797-56c5-555a-980c" name="•&quot;Dutch&quot; Vander" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
           <characteristics>
-            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform the [target lock] action, you may choose 1 friendly ship at range 1-3. That ship may acquire a lock on the object you locked, ignoring range restrictions.</characteristic>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform the [lock] action, you may choose 1 friendly ship at range 1-3. That ship may acquire a lock on the object you locked, ignoring range restrictions.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1477,7 +1482,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may spend 1 focus token to choose a friendly ship at range 0-1. If you do, that ship rolls 1 additional defense die while defending until the end of the round.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1554,7 +1559,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1632,7 +1637,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1707,7 +1712,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack, the defender rolls 1 fewer defense die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1785,7 +1790,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1856,7 +1861,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [hit] or [critical] to cancel 1 matching result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1923,7 +1928,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1992,7 +1997,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2060,7 +2065,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2139,7 +2144,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you become the defender (before dice are rolled), you may recover 1 [force].</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2211,7 +2216,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Before you activate, if you are focused, you may perform an action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2282,7 +2287,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform a [barrel roll] or [boost] action, you may flip your eqipped [configuration] upgrade card.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2354,7 +2359,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack, you may spend 1 [focus], [hit], or [critical] result to look at the defender&apos;s facedown damage cards, choose 1, and expose it.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2425,7 +2430,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you receive a stress token, you may roll 1 attack die to remove it. On a [hit] result, suffer 1 [regular] damage.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2496,7 +2501,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform a [barrel roll] or [boost] action, you may perform a red [evade] action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2578,7 +2583,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Friendly ships can acquire locks onto objects at range 0-3 of any friendly ships.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2671,7 +2676,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Activation Phase, you may choose 1 friendly ship at range 1-3. If you do, that ship removes 1 stress token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2757,7 +2762,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After an enemy ship executes a maneuver, if it is at range 0, you may perform an action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2840,7 +2845,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2933,7 +2938,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a damaged friendly ship at range 0-3 performs an attack, it may reroll 1 attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3027,7 +3032,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 0-2 defends, the attacker cannot reroll more than 1 attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3114,7 +3119,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform a [focus] action, you may transfer 1 of your focus tokens to a friendly ship at range 1-2.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3197,7 +3202,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3274,7 +3279,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform an attack that misses, you may perform a bonus [cannon] attack.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Droid Brain: After you perform a [calculate] action, gain 1 calculate token.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Evade, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Evade, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3353,7 +3358,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform a [boost] action, you may perform an [evade] action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Droid Brain: After you perform a [calculate] action, gain 1 calculate token.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Evade, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Evade, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3439,7 +3444,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you execute a Segnor&apos;s Loop maneuver, you may use another template of the same speed instead: either the turn of the same direction or the straight template.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Droid Brain: After you perform a [calculate] action, gain 1 calculate token.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Evade, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Evade, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3543,7 +3548,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3648,7 +3653,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3751,7 +3756,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">If you are not shielded, decrease the difficulty of your bank maneuvers.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Boost (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Boost (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3838,7 +3843,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4194,7 +4199,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Concordia Faceoff: While you defend, if the attack range is 1 and you are in the attacker&apos;s [front arc], change 1 result to an [evade] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4246,7 +4251,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a red maneuver, gain 2 focus tokens.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Concordia Faceoff: While you defend, if the attack range is 1 and you are in the attacker&apos;s [front arc], change 1 result to an [evade] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4295,7 +4300,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Concordia Faceoff: While you defend, if the attack range is 1 and you are in the attacker&apos;s [front arc], change 1 result to an [evade] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4348,7 +4353,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack, you may spend 1 [charge] from an equipped [torpedo] upgrade. If you do, the defender rolls 1 fewer defense die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Concordia Faceoff: While you defend, if the attack range is 1 and you are in the attacker&apos;s [front arc], change 1 result to an [evade] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4400,7 +4405,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose 1 enemy ship at range 1. If you do and you are in its [front arc], it removes all of its green tokens.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Concordia Faceoff: While you defend, if the attack range is 1 and you are in the attacker&apos;s [front arc], change 1 result to an [evade] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4459,7 +4464,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Concordia Faceoff: While you defend, if the attack range is 1 and you are in the attacker&apos;s [front arc], change 1 result to an [evade] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4545,7 +4550,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce (Red), Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce (Red), Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4655,7 +4660,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce (Red), Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce (Red), Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4768,7 +4773,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">You can perform [front arc] special attacks from your [rear arc]. While you perform a special attack, you may reroll 1 attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce (Red), Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce (Red), Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4881,7 +4886,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, if the enemy ship is stressed, you may reroll 1 of your dice.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce (Red), Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce (Red), Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4994,7 +4999,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, if there is at least 1 friendly non-limited ship at range 0 of the defender, roll 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce (Red), Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce (Red), Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5107,7 +5112,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">If you would drop a device using a [1 straight] template, you may use the [3 left turn], [3 straight], or [3 right turn] template instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce (Red), Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce (Red), Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5207,7 +5212,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, SLAM, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, SLAM, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5307,7 +5312,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, SLAM, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, SLAM, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5406,7 +5411,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend, if you are disarmed, roll 1 additional defense die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, SLAM, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, SLAM, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6621,7 +6626,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform an action, you may spend 1 [force] to perform an action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Targeting Computer: While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [hit] result to a [critical] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6694,7 +6699,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Targeting Computer: While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [hit] result to a [critical] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6764,7 +6769,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Targeting Computer: While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [hit] result to a [critical] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6831,7 +6836,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Targeting Computer: While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [hit] result to a [critical] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6902,7 +6907,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship&apos;s damage cards.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Targeting Computer: While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [hit] result to a [critical] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6968,7 +6973,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Advanced Targeting Computer: While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [hit] result to a [critical] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Barrel Roll (Red), Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7368,7 +7373,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend at attack range 1, you may spend 1 [force] to prevent the range 1 bonus. While you perform an attack against a defender at attack range 2-3, you may spend 1 [force] to apply the range 1 bonus.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7433,7 +7438,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, before the Neutralize Results step, you may spend 2 [force] to cancel 1 [evade] result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7488,7 +7493,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7544,7 +7549,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7958,7 +7963,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform a [reload] action, you may recover 1 [charge] token on 1 of your equipped [talent] upgrade cards.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Nimble Bomber: If you would drop a device using a [straight] template, you may use a [left bank] or [right bank] template of the same speed instead.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8039,7 +8044,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 0-1 performs a [torpedo] or [missile] attack, that ship may reroll up to 2 attack dice.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Nimble Bomber: If you would drop a device using a [straight] template, you may use a [left bank] or [right bank] template of the same speed instead.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8120,7 +8125,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a [torpedo] or [missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Nimble Bomber: If you would drop a device using a [straight] template, you may use a [left bank] or [right bank] template of the same speed instead.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8201,7 +8206,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Nimble Bomber: If you would drop a device using a [straight] template, you may use a [left bank] or [right bank] template of the same speed instead.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8278,7 +8283,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Nimble Bomber: If you would drop a device using a [straight] template, you may use a [left bank] or [right bank] template of the same speed instead.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8357,7 +8362,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Nimble Bomber: If you would drop a device using a [straight] template, you may use a [left bank] or [right bank] template of the same speed instead.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8450,7 +8455,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a non-(front arc) attack, roll 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8538,7 +8543,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8626,7 +8631,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8712,7 +8717,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8806,7 +8811,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, after the Neutralize Results step, you may spend 1 [critical] result to add 2 [hit] results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Reinforce, Target Lock</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Reinforce, Lock</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8910,7 +8915,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Setup: You can be placed anywhere in the play area beyond range 3 of enemy ships.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9001,7 +9006,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">If you would flee, you may spend 1 [charge]. If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Reinforce, Target Lock</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Reinforce, Lock</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9097,7 +9102,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Reinforce, Target Lock</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Reinforce, Lock</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9183,7 +9188,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Reinforce, Target Lock</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Reinforce, Lock</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9269,7 +9274,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform an attack, you may choose 1 friendly ship at range 1. That ship may perform an action, treating it as red.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9345,7 +9350,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, if there is at least 1 other friendly ship at range 0-1 of the defender, you may roll 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9418,7 +9423,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9488,7 +9493,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9562,7 +9567,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9631,7 +9636,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9698,7 +9703,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9766,7 +9771,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9843,7 +9848,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">You can deploy only via emergency deployment, and you have the name, initiative, pilot ability, and ship [charge] of the friendly, destroyed Hound&apos;s Tooth.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Escape Craft: Setup: Requires the Hound&apos;s Tooth. You must begin the game docked with the Hound&apos;s Tooth.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10289,7 +10294,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Tail Gun: While you have a docked ship, you have a primary [rear arc] weapon with an attack value equal to your docked ship&apos;s primary [front arc] attack value.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10385,7 +10390,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship in your firing arc defends, you may spend 1 [force]. If you do, the attacker rolls 1 fewer attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Tail Gun: While you have a docked ship, you have a primary [rear arc] weapon with an attack value equal to your docked ship&apos;s primary [front arc] attack value.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10487,7 +10492,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Tail Gun: While you have a docked ship, you have a primary [rear arc] weapon with an attack value equal to your docked ship&apos;s primary [front arc] attack value.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Reinforce</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Reinforce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10572,7 +10577,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Tail Gun: While you have a docked ship, you have a primary [rear arc] weapon with an attack value equal to your docked ship&apos;s primary [front arc] attack value.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11581,7 +11586,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">You can maintain up to 2 locks. After you perform an action, you may acquire a lock.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Boost &gt; Target Lock (Red), Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Boost &gt; Lock (Red), Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11670,7 +11675,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you drop or launch a device, you may perform an action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Boost &gt; Target Lock (Red), Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Boost &gt; Lock (Red), Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11756,7 +11761,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Boost &gt; Target Lock (Red), Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Boost &gt; Lock (Red), Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11853,7 +11858,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Jam</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Jam</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11946,7 +11951,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a red maneuver, gain 1 calculate token. At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Jam</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Jam</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12029,7 +12034,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Jam</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Jam</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12110,7 +12115,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform an attack, each enemy ship in your [bullseye arc] suffers 1 [regular] damage unless it removes 1 green token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Dead to Rights: While you perform an attack, if the defender is in your [bullseye arc], defense dice cannot be modified using green tokens.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12191,7 +12196,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose 1 shielded ship in your [bullseye arc] and spend 1 [charge]. If you do, that ship loses 1 shield and you recover 1 shield.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Dead to Rights: While you perform an attack, if the defender is in your [bullseye arc], defense dice cannot be modified using green tokens.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12262,7 +12267,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Dead to Rights: While you perform an attack, if the defender is in your [bullseye arc], defense dice cannot be modified using green tokens.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12623,7 +12628,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At initiative 0, you may perform a bonus primary attack against an enemy ship in your [bullseye arc]. If you do, at the start of the next Planning Phase, gain 1 disarm token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Experimental Scanners: You can acquire locks beyond range 3. You cannot acquire locks at range 1.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Target Lock (Red), Boost &gt; Target Lock (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Lock (Red), Boost &gt; Lock (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12698,7 +12703,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship performs an attack, if the defender is in your [front arc], the attacker may change 1 [hit] result to a [critical] result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Experimental Scanners: You can acquire locks beyond range 3. You cannot acquire locks at range 1.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Target Lock (Red), Boost &gt; Target Lock (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Lock (Red), Boost &gt; Lock (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12770,7 +12775,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Experimental Scanners: You can acquire locks beyond range 3. You cannot acquire locks at range 1.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Target Lock (Red), Boost &gt; Target Lock (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Lock (Red), Boost &gt; Lock (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12843,7 +12848,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Experimental Scanners: You can acquire locks beyond range 3. You cannot acquire locks at range 1.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Target Lock (Red), Boost &gt; Target Lock (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Lock (Red), Boost &gt; Lock (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13257,7 +13262,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender&apos;s blank/[focus] results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13337,7 +13342,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform a [turret] or [missile] attack that misses, you may perform a bonus attack using a different weapon.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13414,7 +13419,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13492,7 +13497,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13577,7 +13582,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [charge]. If you do, that ship gains 2 additional ion tokens.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13668,7 +13673,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade toden from that ship to yourself.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13759,7 +13764,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13846,7 +13851,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13937,7 +13942,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14027,7 +14032,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14117,7 +14122,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14204,7 +14209,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Boost (Red), Rotate, Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14299,7 +14304,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack, if you are reinforced and the defender is in the [full front arc] or [full rear arc] matching your reinforce token, you may change 1 of your [focus] results to a [critical] result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce, Rotate, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce, Rotate, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14397,7 +14402,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">You can perform primary attacks at range 0.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce, Rotate, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce, Rotate, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14492,7 +14497,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce, Rotate, Coordinate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce, Rotate, Coordinate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14558,7 +14563,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform a [barrel roll] or [boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [focus] action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Vectored Thrusters: After you perform an action, you may perform a red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14617,7 +14622,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">You can perform primary attacks at range 0. If you would faill a [boost] action by overlapping another ship, resolve it as though you were partially executing a maneuver instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Vectored Thrusters: After you perform an action, you may perform a red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14673,7 +14678,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Vectored Thrusters: After you perform an action, you may perform a red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14730,7 +14735,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Vectored Thrusters: After you perform an action, you may perform a red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14813,7 +14818,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Before a friendly bomb or mine would detonate, you may spend 1 [charge] to prevent if from detonating. While you defend against an attack obstructed by a bomb or mine, roll 1 additional defense die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14926,7 +14931,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">If you would drop a device using a [1 straight] template, you may drop it using any speed 1 template instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15036,7 +15041,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15398,7 +15403,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, SLAM, Rotate, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, SLAM, Rotate, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15493,7 +15498,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 0-2 defends or performs an attack, it may spend your focus tokens as if that ship has them.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, SLAM, Rotate, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, SLAM, Rotate, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15585,7 +15590,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, SLAM, Rotate, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, SLAM, Rotate, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15676,7 +15681,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you move, you ignore obstacles.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Sensor Blindspot: While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15757,7 +15762,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Sensor Blindspot: While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15834,7 +15839,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Sensor Blindspot: While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15935,7 +15940,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16043,7 +16048,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a blue maneuver, you may choose a friendly ship at range 0-3. That ship may perform an action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16151,7 +16156,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Before you would be dealt a faceup damage card, you may spend 1 [charge] to be dealt the card facedown instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16242,7 +16247,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16309,7 +16314,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform an attack that hits, if you are evading, expose 1 of the defender&apos;s damage cards.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16366,7 +16371,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16422,7 +16427,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you would execute a [straight] maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a [Koiogran turn] maneuver instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16476,7 +16481,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16531,7 +16536,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16617,7 +16622,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you defend, if the attacker is in your [front arc], you may spend 1 [charge] to perform a bonus attack against the attacker.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16713,7 +16718,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">If you would be destroyed, you may spend 1 [charge]. If you do, discard all of your damage cards, suffer 5 [regular] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16809,7 +16814,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16902,7 +16907,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Target Lock &gt; Rotate (Red), Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate (Red), Lock &gt; Rotate (Red), Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16993,7 +16998,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend at attack range 3 or perform an attack at attack range 1, roll 1 additional die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17071,7 +17076,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend, if you are behind the attacker, roll 1 additional defense die. While you perform an attack, if you are behind the defender, roll 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17149,7 +17154,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you defend, if you did not roll exactly 2 defense dice, the attacker gains 1 stress token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17227,7 +17232,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After an enemy ship suffers damage, if it is not defending, you may perform a bonus attack against that ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17301,7 +17306,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17377,7 +17382,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17455,7 +17460,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 0-1 defends, it may reroll 1 of its dice.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17567,7 +17572,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you acquire a lock, you must remove all of your focus and evade tokens. Then, gain the same number of focus and evade tokens that the locked ship has.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17679,7 +17684,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you defend or perform an attack, if the attack missed, gain 1 evade token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17791,7 +17796,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may gain 1 disarm token to recover 1 [charge] of 1 of your equipped upgrades.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17900,7 +17905,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18013,7 +18018,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, you may suffer 1 [regular] damage to reroll any number of your dice.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18124,7 +18129,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, after you roll or reroll your dice, if you have the same result on each of your dice, you may add 1 matching result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18232,7 +18237,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18351,7 +18356,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose 1 ship in both your [front arc] and [turret arc] at range 0-1. If you do, that ship gains 1 tractor token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18429,7 +18434,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose 1 enemy ship in your [turret arc] at range 0-2 and spend 1 [force]. If you do, that ship gains 1 stress token unless it removes 1 green token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18522,7 +18527,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend, if the attacker is in your [turret arc] at range 0-2, you may add 1 [focus] result to your dice results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18597,7 +18602,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18680,7 +18685,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend, after the Neutralize Results step, another friendly ship at range 0-1 and in the attack arc may suffer 1 [regular] or [critical] damage. If it does, cancel 1 matching result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Microthrusters: While you perform a barrel roll, you must use the [left bank] or [right bank] template instead of the [straight] template.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18766,7 +18771,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Microthrusters: While you perform a barrel roll, you must use the [left bank] or [right bank] template instead of the [straight] template.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Calculate (Red), Boost &gt; Calculate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Calculate (Red), Boost &gt; Calculate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18849,7 +18854,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Microthrusters: While you perform a barrel roll, you must use the [left bank] or [right bank] template instead of the [straight] template.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18933,7 +18938,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Microthrusters: While you perform a barrel roll, you must use the [left bank] or [right bank] template instead of the [straight] template.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19026,7 +19031,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90º.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Microthrusters: While you perform a barrel roll, you must use the [left bank] or [right bank] template instead of the [straight] template.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19473,7 +19478,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After another friendly ship is destroyed, you may perform at action, evan while stressed.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Autothrusters: After you perform an action, you may perform a red [barrel roll] or red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19545,7 +19550,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you are stressed, you may treat enemy ships in your [front arc] at range 0-1 as being in your [bullseye arc].</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Autothrusters: After you perform an action, you may perform a red [barrel roll] or red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19628,7 +19633,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you defend, you may spend 1 [force] to assign the I&apos;ll Show You the Dark Side condition card to the attacker.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Autothrusters: After you perform an action, you may perform a red [barrel roll] or red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19703,7 +19708,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack, if the attack is obstructed by an obstacle, the defender rolls 2 fewer defense dice.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Autothrusters: After you perform an action, you may perform a red [barrel roll] or red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19772,7 +19777,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Autothrusters: After you perform an action, you may perform a red [barrel roll] or red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19842,7 +19847,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Autothrusters: After you perform an action, you may perform a red [barrel roll] or red [boost] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19914,7 +19919,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, if you have a lock on the enemy ship, that ship&apos;s dice cannot be modified.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19985,7 +19990,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, if you are not stressed, you may gain 1 stress token to roll 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20056,7 +20061,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, you may spend your lock on the defender and a focus token to change all of your results to [critical] results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20127,7 +20132,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack at attack range 3, roll 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20198,7 +20203,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20269,7 +20274,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you are not damaged, treat your initiative value as 7.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20339,7 +20344,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After a ship at range 1-2 gains a red or orange token, if you do not have that ship locked, you may acquire a lock on that ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20409,7 +20414,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1 [critical] damage to change 1 of the attacker&apos;s results to a [critical] result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20479,7 +20484,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may spend 1 [charge] and gain 1 stress token. If you do, until the end of the round, while you defend or perform an attack, you may change all of your [focus] results to [evade] or [hit] results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20547,7 +20552,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20615,7 +20620,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20683,7 +20688,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20760,7 +20765,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you lose a shield, you may spend 1 [charge]. If you do, you may perform a bonus primary attack.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Heavy Weapon Turret: You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. You must treat the [front arc] requirement of your equipped [missile] upgrades as [turret arc].</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate, Evade &gt; Rotate, Target Lock &gt; Rotate, Barrel Roll &gt; Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate, Evade &gt; Rotate, Lock &gt; Rotate, Barrel Roll &gt; Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20840,7 +20845,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a [turret arc] primary attack, if the defender is in your [rear arc], roll 1 additional die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Heavy Weapon Turret: You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. You must treat the [front arc] requirement of your equipped [missile] upgrades as [turret arc].</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate, Evade &gt; Rotate, Target Lock &gt; Rotate, Barrel Roll &gt; Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate, Evade &gt; Rotate, Lock &gt; Rotate, Barrel Roll &gt; Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20917,7 +20922,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Heavy Weapon Turret: You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. You must treat the [front arc] requirement of your equipped [missile] upgrades as [turret arc].</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate, Evade &gt; Rotate, Target Lock &gt; Rotate, Barrel Roll &gt; Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate, Evade &gt; Rotate, Lock &gt; Rotate, Barrel Roll &gt; Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20994,7 +20999,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Heavy Weapon Turret: You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. You must treat the [front arc] requirement of your equipped [missile] upgrades as [turret arc].</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate, Evade &gt; Rotate, Target Lock &gt; Rotate, Barrel Roll &gt; Rotate</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus &gt; Rotate, Evade &gt; Rotate, Lock &gt; Rotate, Barrel Roll &gt; Rotate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21087,7 +21092,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">During the Activation or Engagement Phase, after a ship in your [front arc] at range 0-2 gains 1 stress token, you may spend 1 [charge]. If you do, that ship gains 1 tractor token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Linked Battery: While you perform a [cannon] attack, roll 1 additional die.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce, Coordinate, Jam</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce, Coordinate, Jam</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21178,7 +21183,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Linked Battery: While you perform a [cannon] attack, roll 1 additional die.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce, Coordinate, Jam</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce, Coordinate, Jam</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21273,7 +21278,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Setup: After you are placed, other friendly ships can be placed anywhere in the play area at range 0-2 of you.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Linked Battery: While you perform a [cannon] attack, roll 1 additional die.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce, Coordinate, Jam</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce, Coordinate, Jam</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21367,7 +21372,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you suffer damage, you may spend 1 [charge] to perform an action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Linked Battery: While you perform a [cannon] attack, roll 1 additional die.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce, Coordinate, Jam</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce, Coordinate, Jam</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21461,7 +21466,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you coordinate or resolve the effect of one of your upgrades, you may treat friendly ships at range 2-3 as being at range 0 or range 1.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Linked Battery: While you perform a [cannon] attack, roll 1 additional die.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce, Coordinate, Jam</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce, Coordinate, Jam</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21555,7 +21560,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 1-2 with lower initiative than you defends or performs an attack, if you have at least 1 [charge], that ship may reroll 1 [focus] result. After an enemy ship at range 0-3 is destroyed, lose 1 [charge].</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Linked Battery: While you perform a [cannon] attack, roll 1 additional die.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Reinforce, Coordinate, Jam</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Reinforce, Coordinate, Jam</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21649,7 +21654,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform an attack, if the defender is in your [turret arc], assign the Rattled condition to the defender.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Rotate, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Rotate, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21743,7 +21748,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Before you would drop a bomb, you may place it in the play area touching you instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Rotate, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Rotate, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21836,7 +21841,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a blue or white maneuver, if you have not dropped or launched a device this round, you may drop 1 device.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Rotate, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Rotate, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21929,7 +21934,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend, if the attacker is in a friendly ship&apos;s [turret arc], you may add 1 [focus] result to your roll.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Rotate, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Rotate, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22022,7 +22027,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, if the defender is at range 0-1 of at least 1 friendly device, roll 1 additional die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Rotate, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Rotate, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22112,7 +22117,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Rotate, Reload</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Rotate, Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22196,7 +22201,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform an action, you may spend 1 [charge] to perform a white action, treating it as red.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22310,7 +22315,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you gain a stress token, if there is an enemy ship in your [front arc] at range 0-1, you may remove that stress token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22424,7 +22429,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you reveal a red Tallon Roll maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22538,7 +22543,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a speed 2-4 maneuver, you may perform a [boost] action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22652,7 +22657,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you boost, you may use the [1 left turn] or [1 right turn] template instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22766,7 +22771,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you lose 1 shield, gain 1 evade token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22880,7 +22885,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, you may spend 1 [charge] or 1 non-recurring [charge] from your equipped [astromech] upgrade to reroll up to 1 of your dice for each other friendly ship at range 0-1.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22993,7 +22998,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After a ship at range 1-2 is dealt a damage card, you may acquire a lock on that ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23106,7 +23111,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a blue maneuver, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23216,7 +23221,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23328,7 +23333,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23440,7 +23445,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Weapon Hardpoint: You can equip 1 [cannon], [torpedo], or [missile] upgrade.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23537,7 +23542,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While an enemy ship in your [bullseye arc] performs an attack, you may spend 1 [charge]. If you do, the defender rolls 1 additional die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Gyrostabilizers:  You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. After you perform an action, you may perform a red [boost] or red [rotate] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23598,7 +23603,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform a primary attack, if you are stressed, you must roll 1 fewer defense die or 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Gyrostabilizers:  You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. After you perform an action, you may perform a red [boost] or red [rotate] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23659,7 +23664,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a maneuver, you may rotate your [turret arc].</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Gyrostabilizers:  You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. After you perform an action, you may perform a red [boost] or red [rotate] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23720,7 +23725,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">You do not skip your Perform Action step after you partially execute a maneuver.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Gyrostabilizers:  You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. After you perform an action, you may perform a red [boost] or red [rotate] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23778,7 +23783,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Gyrostabilizers:  You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. After you perform an action, you may perform a red [boost] or red [rotate] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23837,7 +23842,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Gyrostabilizers:  You can rotate your [turret arc] indicator only to your [front arc] or [rear arc]. After you perform an action, you may perform a red [boost] or red [rotate] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23933,7 +23938,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, if the enemy ship is in your [front arc], you may spend 1 [force] to change 1 of your blank results to an [evade] or [hit] result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24039,7 +24044,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After a friendly ship at range 0-3 is destroyed, you may perform an action. Then you may perform a bonus attack.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24127,7 +24132,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Boost (Red), Rotate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Boost (Red), Rotate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24220,7 +24225,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, if you are not in the defender&apos;s firing arc, you may reroll up to 2 attack dice.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24297,7 +24302,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you defend, you may spend 1 calculate token to perform an action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24377,7 +24382,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24468,7 +24473,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you defend, if the attacker is in your firing arc, you may spend 1 [force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [force] to perform an action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24554,7 +24559,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform an attack, you may spend 2 [force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24627,7 +24632,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24688,7 +24693,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24752,7 +24757,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform an attack, if the defender is in your [bullseye arc], you may reroll 1 blank result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24815,7 +24820,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 0-1 defends, it may spend 1 calculate token to change all [critical] results to [hit] results.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24876,9 +24881,9 @@
         </profile>
         <profile id="ac52-d19c-2216-82fb" name="••Haor Chall Prototype" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
           <characteristics>
-            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After an enemy ship in your [bullseye arc] at range 0-2 declares another friendly ship as the defender, you may perform a [calculate] or [target lock] action.</characteristic>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After an enemy ship in your [bullseye arc] at range 0-2 declares another friendly ship as the defender, you may perform a [calculate] or [lock] action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24941,7 +24946,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Calculate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25019,7 +25024,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform a primary attack, if your revealed maneuver is red, roll 1 additional die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red), Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25104,7 +25109,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 0-3 performs a primary attack, if the defender is in its [bullseye arc], before the Neutralize Results step, the friendly ship may spend 1 calculate token to cancel 1 [evade] result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25177,7 +25182,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Calculate (Red), Boost &gt; Calculate (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Calculate (Red), Boost &gt; Calculate (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25251,7 +25256,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25329,7 +25334,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary attack, you may reroll 1 attack die for each calculating friendly ship at range 1 of the defender.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll &gt; Focus (Red), Boost &gt; Focus (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25413,7 +25418,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25458,6 +25463,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a531-0c9c-93e6-0053" name="3 - •Ahsoka Tano" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c89f-8831-bcc2-f17a" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de98-ed7b-a529-b05e" type="max"/>
       </constraints>
@@ -25512,7 +25524,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a maneuver, you may choose a friendly ship at range 0-1 and spend 1 [force]. That ship may perform an action, even if it is stressed.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25610,7 +25622,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After a friendly ship at range 0-2 reveals its dial, you may spend 1 [force]. If you do, set its dial to another maneuver of the same speed and difficulty.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25708,7 +25720,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you execute a red maneuver, recover 1 [force].</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25806,7 +25818,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 0-2 defends, if it is not in the attacker&apos;s [bullseye arc], you may spend 1 [force]. If you do, change 1 [critical] result to a [hit] result or 1 [hit] result to a [focus] result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25904,7 +25916,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 0-2 performs an attack, if the defender is in its [bullseye arc], you may spend 1 [force] to change 1 [focus] result to a [hit] result or 1 [hit] result to a [critical] result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26002,7 +26014,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may spend 1 [force] and choose another friendly ship at range 0-2. If you do, you may transfer 1 green token to it or transfer 1 orange token from it to yourself.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26100,7 +26112,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After a friendly ship at range 0-2 spends a focus token, you may spend 1 [force]. If you do, that ship gains 1 focus token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26210,7 +26222,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a maneuver, if there is an enemy ship in your [front arc] at range 0-1 or in your [bullseye arc], you may spend 1 [force] to remove 1 stress token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Fine-tuned Controls: After you fully execute a maneuver, you may spend 1 [force] to perform a [boost] or [barrel roll] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade (Purple), Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26303,7 +26315,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 1-2 in your [left side arc] or [right side arc] performs a primary attack, it may reroll 1 attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26382,7 +26394,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26465,7 +26477,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 1-2 in your [left side arc] or [right side arc] defends, you may acquire a lock on the attacker.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26544,7 +26556,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26628,7 +26640,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary [front arc] attack, you may spend 1 [charge] to reroll 1 attack die. While you perform a primary [rear arc] attack, you may recover 1 [charge] to roll 1 additional attack die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26723,7 +26735,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [bullseye arc], you may acquire a lock on that ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26791,7 +26803,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After a friendly small or medium ship fully executes a speed 3-4 maneuver, if it is at range 0-1, it may perform a red [boost] action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26853,7 +26865,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26919,7 +26931,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you defend or perform an attack, you may choose a friendly ship at range 1-2 in your [left side arc] or [right side arc]. If you do, transfer 1 green token to that ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26982,9 +26994,9 @@
         </profile>
         <profile id="807d-3f3c-8b8b-b7c3" name="•&quot;Kickback&quot;" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
           <characteristics>
-            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform a [barrel roll] action, you may perform a red [target lock] action.</characteristic>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you perform a [barrel roll] action, you may perform a red [lock] action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27061,7 +27073,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [bullseye arc], you may acquire a lock on that ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27123,7 +27135,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27188,7 +27200,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After a friendly ship at range 1-2 performs an attack against an enemy ship in your [front arc], you may perform a [focus] action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Target Lock, Barrel Roll &gt; Evade (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Evade, Lock, Barrel Roll &gt; Evade (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27240,7 +27252,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship&apos;s, roll 1 additional die.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27295,7 +27307,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Setup: After placing forces, assign the Decoyed condition to 1 friendly ship other than Naboo Handmaiden.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27347,7 +27359,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27402,7 +27414,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship&apos;s, that ship&apos;s dice cannot be modified.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27457,7 +27469,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While an enemy ship in your [front arc] defends or performs an attack, that ship can modify only 1 [focus] result (other results can still be modified).</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27524,7 +27536,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Before you reveal your maneuver, you may spend 1 [force] to barrel roll (this is not an action).</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [evade] action.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll, Boost</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll, Boost</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27660,7 +27672,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you have 2 or fewer stress tokens, you may execute red maneuvers even while stressed.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red), Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27749,7 +27761,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you coordinate or are coordinated, if you have 2 or fewer stress tokens, you may perform 1 action on your action bar as a red action, even if you are stressed.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red), Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27835,7 +27847,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Coordinate (Red), Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Coordinate (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27927,7 +27939,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">During the System Phase, you may perform a red [barrel roll] or [boost] action.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock (Red), Barrel Roll (Red), Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock (Red), Barrel Roll (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28011,7 +28023,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, you may add 1 blank result, or you may gain 1 stress token to add 1 focus result instead.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock (Red), Barrel Roll (Red), Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock (Red), Barrel Roll (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28095,7 +28107,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you defend or perform an attack, you may reroll up to 1 of your results for each other friendly ship in the attack arc.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock (Red), Barrel Roll (Red), Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock (Red), Barrel Roll (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28172,7 +28184,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214"/>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock (Red), Barrel Roll (Red), Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock (Red), Barrel Roll (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28239,7 +28251,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">You can perform primary attacks at range 0. While you perform an attack at range 0-1, you must roll 1 additional die. After the attack hits, suffer 1 [critical] damage.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28303,7 +28315,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28368,7 +28380,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28434,9 +28446,9 @@
         </profile>
         <profile id="05f3-36d2-e899-93fb" name="••Baktoid Prototype" hidden="false" typeId="a817-ac8f-fa4a-035a" typeName="1.2 Abilities and Actions">
           <characteristics>
-            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a special attack, if a friendly ship with the Networked Calculations ship ability has a lock on the defender, you may ignore the [focus], [calculate], or [target lock] requirement of that attack.</characteristic>
+            <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a special attack, if a friendly ship with the Networked Calculations ship ability has a lock on the defender, you may ignore the [focus], [calculate], or [lock] requirement of that attack.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28506,7 +28518,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">If you would drop a device, you may launch that device instead, using the same template.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Target Lock (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Lock (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28576,7 +28588,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, you may spend 1 calculate token to perform a [coordinate] action. You cannot coordinate ships that do not have the Networked Calculations ship ability.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Networked Calculations: While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [focus] result to an [evade] or [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll &gt; Target Lock (Red), Jam (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll &gt; Lock (Red), Jam (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28640,8 +28652,8 @@
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
-            <characteristic name="Force" typeId="f032-045d-86ff-ba81"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
@@ -28649,7 +28661,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Plated Hull: While you defend, if you are not critically damaged, change 1 [critical] result to a [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28720,8 +28732,8 @@
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
-            <characteristic name="Force" typeId="f032-045d-86ff-ba81"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
@@ -28729,7 +28741,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb or mine at range 0-1 of it.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Plated Hull: While you defend, if you are not critically damaged, change 1 [critical] result to a [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28816,8 +28828,8 @@
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
-            <characteristic name="Force" typeId="f032-045d-86ff-ba81"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
@@ -28825,7 +28837,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">At the start of the Engagement Phase, if there is an enemy ship in your [rear arc], gain 1 calculate token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Plated Hull: While you defend, if you are not critically damaged, change 1 [critical] result to a [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Calculate, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28893,8 +28905,8 @@
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
-            <characteristic name="Force" typeId="f032-045d-86ff-ba81"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
@@ -28902,7 +28914,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53"/>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Plated Hull: While you defend, if you are not critically damaged, change 1 [critical] result to a [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28986,8 +28998,8 @@
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
-            <characteristic name="Force" typeId="f032-045d-86ff-ba81"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
@@ -28995,7 +29007,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [bullseye arc], you may acquire a lock on that ship.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Plated Hull: While you defend, if you are not critically damaged, change 1 [critical] result to a [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -29066,8 +29078,8 @@
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
-            <characteristic name="Force" typeId="f032-045d-86ff-ba81"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
@@ -29075,7 +29087,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a [turret arc] attack, if your [turret arc] indicator is in your [left side arc] or [right side arc], you may change 1 blank result to a [focus] result.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Plated Hull: While you defend, if you are not critically damaged, change 1 [critical] result to a [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -29146,8 +29158,8 @@
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
-            <characteristic name="Force" typeId="f032-045d-86ff-ba81"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
+            <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
         </profile>
@@ -29155,7 +29167,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">While you perform a primary or [turret arc] attack, you may reroll 1 attack die for each red token you have.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Plated Hull: While you defend, if you are not critically damaged, change 1 [critical] result to a [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -29238,7 +29250,7 @@
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">1</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">5</characteristic>
             <characteristic name="Shields" typeId="cf5e-1717-447c-5dea">3</characteristic>
-            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"></characteristic>
+            <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81">3^</characteristic>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
           </characteristics>
@@ -29247,7 +29259,7 @@
           <characteristics>
             <characteristic name="Pilot Ability" typeId="e6a1-01c3-e0d3-4d53">After you fully execute a maneuver, if there is an enemy ship in your [front arc] at range 0-1 or in your [bullseye arc], you may spend 1 [force] to remove 1 stress token.</characteristic>
             <characteristic name="Ship Ability" typeId="5251-9d11-51de-a214">Plated Hull: While you defend, if you are not critically damaged, change 1 [critical] result to a [hit] result.</characteristic>
-            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Target Lock, Barrel Roll (Red), Reload (Red)</characteristic>
+            <characteristic name="Action Bar" typeId="9aea-7eec-ca92-2810">Focus, Lock, Barrel Roll (Red), Reload (Red)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -29293,7 +29305,7 @@
             <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -29307,6 +29319,10 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="9689-33d9-5fdf-7cdc" name="Evade" hidden="false" targetId="648b-3911-c658-1187" type="rule"/>
+        <infoLink id="6b24-640a-c456-837a" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5bac-c658-5049-5e90" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
         <categoryLink id="719c-d303-07a4-99c3" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
@@ -29337,7 +29353,7 @@
             <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -29351,6 +29367,10 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="99f5-521c-441a-53ff" name="Evade" hidden="false" targetId="648b-3911-c658-1187" type="rule"/>
+        <infoLink id="8136-dc8f-e214-2005" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4326-bf37-ea87-bb12" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
         <categoryLink id="4a43-d1a9-a129-f3c3" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
@@ -29385,7 +29405,7 @@
             <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -29399,6 +29419,10 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="0daa-9ab7-804a-b164" name="Evade" hidden="false" targetId="648b-3911-c658-1187" type="rule"/>
+        <infoLink id="52a8-6eb9-d0bc-10f3" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8364-96ba-4166-3523" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
         <categoryLink id="2a51-bfa5-7587-e667" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
@@ -29429,7 +29453,7 @@
             <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -29443,6 +29467,10 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="05bc-8d6f-f062-992d" name="Evade" hidden="false" targetId="648b-3911-c658-1187" type="rule"/>
+        <infoLink id="a220-bc9d-bccf-3138" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="523b-e63b-9836-9c28" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
         <categoryLink id="7308-d3d2-deec-9250" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
@@ -29477,7 +29505,7 @@
             <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -29491,6 +29519,10 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="4e6d-8b04-9ece-b598" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+        <infoLink id="e4cd-e869-0cd0-68b6" name="Evade" hidden="false" targetId="648b-3911-c658-1187" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1ae0-5280-ac74-05cb" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
         <categoryLink id="a947-e8ff-3916-39f7" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
@@ -29522,7 +29554,7 @@
             <characteristic name="Primary " typeId="fbd2-c4c2-27e3-e8be">2 (single turret)</characteristic>
             <characteristic name="Agilty" typeId="b5b0-42b1-6a4c-7351">3</characteristic>
             <characteristic name="Hull" typeId="04a8-6b71-1402-476c">4</characteristic>
-            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"></characteristic>
+            <characteristic name="Shields" typeId="cf5e-1717-447c-5dea"/>
             <characteristic name="Charges" typeId="36c4-8c02-78bb-df53"/>
             <characteristic name="Force" typeId="f032-045d-86ff-ba81"/>
             <characteristic name="Size" typeId="4070-1764-712c-8932">Small</characteristic>
@@ -29536,6 +29568,10 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="2472-6de3-41b1-7b37" name="Evade" hidden="false" targetId="648b-3911-c658-1187" type="rule"/>
+        <infoLink id="246c-fe34-b0d2-49ed" name="Focus" hidden="false" targetId="b220-a4a5-90b0-4a9b" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="90b1-bcc5-7acc-a3e3" name="New CategoryLink" hidden="false" targetId="3a9a-a8bd-1f1c-2253" primary="true"/>
         <categoryLink id="460a-e1c0-d360-95be" name="Agility 3" hidden="false" targetId="759d-fe45-120d-9c1f" primary="false"/>
@@ -29681,7 +29717,7 @@
                 <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">4 (front)</characteristic>
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2-3 (ordnance)</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">2</characteristic>
-                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. Change 1 [hit] result to a [critical] result.</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (lock): Spend 1 [charge]. Change 1 [hit] result to a [critical] result.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Torpedo</characteristic>
               </characteristics>
@@ -29701,7 +29737,7 @@
                 <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">5 (front)</characteristic>
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">1 (ordnance)</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">1</characteristic>
-                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. Change 1 [hit] result to a [critical] result.</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (lock): Spend 1 [charge]. Change 1 [hit] result to a [critical] result.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Torpedo</characteristic>
               </characteristics>
@@ -29721,7 +29757,7 @@
                 <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">4 (front)</characteristic>
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2-3 (ordnance)</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">2</characteristic>
-                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. If this attack hits, spend 1 [hit] or [critical] result to cause the defender to suffer 1 [regular] damage. All remaining [hit]/[critical] results inflict ion tokens instead of damage.</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (lock): Spend 1 [charge]. If this attack hits, spend 1 [hit] or [critical] result to cause the defender to suffer 1 [regular] damage. All remaining [hit]/[critical] results inflict ion tokens instead of damage.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Torpedo</characteristic>
               </characteristics>
@@ -29741,7 +29777,7 @@
                 <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">3 (front)</characteristic>
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2-3 (ordnance)</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">2</characteristic>
-                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. During the Neutralize Results step, [critical] results are canceled before [hit] results. After this attack hits, the defender loses 1 shield.</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (lock): Spend 1 [charge]. During the Neutralize Results step, [critical] results are canceled before [hit] results. After this attack hits, the defender loses 1 shield.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Torpedo</characteristic>
               </characteristics>
@@ -30266,6 +30302,30 @@
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="8797-0951-4113-8ad7" name="Targeting Computer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="70b8-dcaa-bf6a-a2e7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6a2a-5cca-3ab0-d48f" name="Targeting Computer" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed"></characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Lock</characteristic>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Modification</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f5ab-5828-f906-6bc0" name="Target Lock" hidden="false" targetId="08ba-9d52-c38b-9b95" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="5d75-bd69-4adc-3368" name="Target Lock" hidden="false" targetId="586b-8957-f342-453d" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="da5d-a9e6-7dd6-aed4" name="Configuration" hidden="false" collective="false" import="true">
@@ -30698,7 +30758,7 @@
           <profiles>
             <profile id="0010-7fca-6843-3791" name="Passive Sensors" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Action: Spend 1 [charge]. You can only perform this action in your Perform Action step. While your [charge] is inactive, you cannot be coordinated. Before you engage, if your [charge] is inactive, you may perform a [calculate] or [target lock] action.</characteristic>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Action: Spend 1 [charge]. You can only perform this action in your Perform Action step. While your [charge] is inactive, you cannot be coordinated. Before you engage, if your [charge] is inactive, you may perform a [calculate] or [lock] action.</characteristic>
                 <characteristic name="Charges" typeId="d449-596d-5f95-dc10">1^</characteristic>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Sensor</characteristic>
@@ -31350,9 +31410,101 @@
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="1.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="9e80-1dbc-59c7-8434" name="Ensnare" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a9a-a8bd-1f1c-2253" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="24.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="16.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2ecd-76a5-22db-3056" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0606-7e70-734e-64f4" name="Ensnare" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">At the end of the Activation Phase, if you are tractored, you may choose 1 ship in your [turret arc] at range 0-1. Transfer 1 tractor token to it.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Talent</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a347-1736-459d-634d" name="Gravitic Deflection" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a9a-a8bd-1f1c-2253" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a6c7-da4f-f310-ea3b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="35e0-0d06-c470-7d21" name="Gravitic Deflection" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">While you defend, you may reroll 1 defense die for each tractored ship in the attack arc.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Talent</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="42fb-f0f8-823b-85f1" name="Snap Shot" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="f063-1033-6a55-7413" value="8.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f38b-1610-2d2d-5a34" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="9.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1d2-e4cc-466a-5f6b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef28-410e-3f9d-75eb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b63b-2c86-460c-876a" name="Snap Shot" hidden="false" typeId="95ad-ef6c-3536-4e49" typeName="2.1 Special Weapon">
+              <characteristics>
+                <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">2 (front)</characteristic>
+                <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2 (ordnance)</characteristic>
+                <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714"/>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack: Your dice cannot be modified.</characteristic>
+                <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"></characteristic>
+                <characteristic name="Type" typeId="7769-7488-8779-032b">Talent</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="7.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4eae-232a-2b4f-f5e8" name="Device" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="4eae-232a-2b4f-f5e8" name="Payload" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="decrement" field="9911-9323-0c62-1b23" value="1">
           <conditions>
@@ -31374,7 +31526,7 @@
                 <characteristic name="Keyword" typeId="5de5-020d-8ba3-e242">Mine</characteristic>
                 <characteristic name="Ability" typeId="5f2f-1e93-9e4c-e51e">During the System Phase, you may spend 1 [charge] to drop a Conner Net using the [1 straight] template. This card&apos;s [charge] cannot be recovered.</characteristic>
                 <characteristic name="Charges" typeId="e556-3e35-ce7f-6d37">1</characteristic>
-                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Device</characteristic>
+                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Payload</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -31392,7 +31544,7 @@
                 <characteristic name="Keyword" typeId="5de5-020d-8ba3-e242">Bomb</characteristic>
                 <characteristic name="Ability" typeId="5f2f-1e93-9e4c-e51e">During the System Phase, you may spend 1 [charge] to drop a Proton Bomb using the [1 straight] template.</characteristic>
                 <characteristic name="Charges" typeId="e556-3e35-ce7f-6d37">2</characteristic>
-                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Device</characteristic>
+                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Payload</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -31427,7 +31579,7 @@
                 <characteristic name="Keyword" typeId="5de5-020d-8ba3-e242">Bomb</characteristic>
                 <characteristic name="Ability" typeId="5f2f-1e93-9e4c-e51e">During the System Phase, you may spend 1 [charge] to drop a Bomblet with the [1 straight] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [charge].</characteristic>
                 <characteristic name="Charges" typeId="e556-3e35-ce7f-6d37"/>
-                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Device Device</characteristic>
+                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Payload Payload</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -31445,7 +31597,7 @@
                 <characteristic name="Keyword" typeId="5de5-020d-8ba3-e242">Mine</characteristic>
                 <characteristic name="Ability" typeId="5f2f-1e93-9e4c-e51e">During the System Phase, you may spend 1 [charge] to drop a Proximity Mine using the [1 straight] template. This card&apos;s [charge] cannot be recovered.</characteristic>
                 <characteristic name="Charges" typeId="e556-3e35-ce7f-6d37">2</characteristic>
-                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Device</characteristic>
+                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Payload</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -31463,7 +31615,7 @@
                 <characteristic name="Keyword" typeId="5de5-020d-8ba3-e242">Bomb</characteristic>
                 <characteristic name="Ability" typeId="5f2f-1e93-9e4c-e51e">During the System Phase, you may spend 1 [charge] to drop a Seismic Charge with the [1 straight] template.</characteristic>
                 <characteristic name="Charges" typeId="e556-3e35-ce7f-6d37">2</characteristic>
-                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Device</characteristic>
+                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Payload</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -31489,7 +31641,7 @@
                 <characteristic name="Keyword" typeId="5de5-020d-8ba3-e242"/>
                 <characteristic name="Ability" typeId="5f2f-1e93-9e4c-e51e">During the End Phase, you may spend 1 [charge] to drop or launch 1 DRK-1 probe droid using a speed 3 template. This card&apos;s [charge] cannot be recovered.</characteristic>
                 <characteristic name="Charges" typeId="e556-3e35-ce7f-6d37">2</characteristic>
-                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Device</characteristic>
+                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Payload</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -31524,7 +31676,7 @@
                 <characteristic name="Keyword" typeId="5de5-020d-8ba3-e242">Bomb</characteristic>
                 <characteristic name="Ability" typeId="5f2f-1e93-9e4c-e51e">During the System Phase, you may spend 1 [charge] to drop an Electro-Proton Bomb using the [1 straight] template. The place 1 fuse marker on that device. This card&apos;s [charge] cannot be recovered.</characteristic>
                 <characteristic name="Charges" typeId="e556-3e35-ce7f-6d37">1</characteristic>
-                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Device Modification</characteristic>
+                <characteristic name="Type" typeId="195d-5744-a2b7-5a0e">Payload Modification</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -31649,13 +31801,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="8735-c5d6-5728-2b53" name="Contraband Cybernetics" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c39-155f-e6f5-3472" type="max"/>
           </constraints>
@@ -31811,7 +31956,7 @@
           <profiles>
             <profile id="1b07-183b-710d-bfaf" name="•Andrasta" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Add [device] slot.</characteristic>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Add [payload] slot.</characteristic>
                 <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Reload</characteristic>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Title</characteristic>
@@ -32477,7 +32622,7 @@
                 <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">3 (front)</characteristic>
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">1-2 (ordnance)</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">4</characteristic>
-                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. After this attack, you may perform this attack as a bonus attack against a different target at range 0-1 of the defender, ignoring the [target lock] requirement.</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (lock): Spend 1 [charge]. After this attack, you may perform this attack as a bonus attack against a different target at range 0-1 of the defender, ignoring the [lock] requirement.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Missile</characteristic>
               </characteristics>
@@ -32497,7 +32642,7 @@
                 <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">3 (front)</characteristic>
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2-3 (ordnance)</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">3</characteristic>
-                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. After this attack hits, each ship at range 0-1 of the defender exposes 1 of its damage cards.</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (lock): Spend 1 [charge]. After this attack hits, each ship at range 0-1 of the defender exposes 1 of its damage cards.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Missile</characteristic>
               </characteristics>
@@ -32553,7 +32698,7 @@
                 <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">4 (front)</characteristic>
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2-3 (ordnance)</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">2</characteristic>
-                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. After you declare the defender, the defender may choose to suffer 1 [regular] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (lock): Spend 1 [charge]. After you declare the defender, the defender may choose to suffer 1 [regular] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Missile</characteristic>
               </characteristics>
@@ -32573,7 +32718,7 @@
                 <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">3 (front)</characteristic>
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2-3 (ordnance)</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">3</characteristic>
-                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. If this attack hits, spend 1 [hit] or [critical] result to cause the defender to suffer 1 [regular] damage. All remaining [hit]/[critical] results inflict ion tokens instead of damage.</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (lock): Spend 1 [charge]. If this attack hits, spend 1 [hit] or [critical] result to cause the defender to suffer 1 [regular] damage. All remaining [hit]/[critical] results inflict ion tokens instead of damage.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Missile</characteristic>
               </characteristics>
@@ -32696,7 +32841,7 @@
                 <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">3 (front)</characteristic>
                 <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">2-3 (ordnance)</characteristic>
                 <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714">3</characteristic>
-                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (target lock): Spend 1 [charge]. After this attack hits, you may spend 1 [charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender&apos;s rolls 1 attack die and suffers 1 [hit]/[critical] damage for each matching result.</characteristic>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">Attack (lock): Spend 1 [charge]. After this attack hits, you may spend 1 [charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender&apos;s rolls 1 attack die and suffers 1 [hit]/[critical] damage for each matching result.</characteristic>
                 <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
                 <characteristic name="Type" typeId="7769-7488-8779-032b">Missile Missile</characteristic>
               </characteristics>
@@ -32731,11 +32876,6 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -33271,11 +33411,6 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ccd1-a63f-56e9-c610" type="max"/>
@@ -33341,11 +33476,6 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -33519,11 +33649,6 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="958a-13b3-f678-224f" type="max"/>
@@ -33557,11 +33682,6 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0296-6e78-03c8-dbee" type="max"/>
@@ -33593,11 +33713,6 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -33957,6 +34072,16 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29ea-0cf3-d550-1fa8" type="notInstanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6ed-a76a-7667-fe15" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9a5-48c8-1e4c-d1ae" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1aac-d4e0-d99f-4051" type="max"/>
@@ -34102,7 +34227,7 @@
               <characteristics>
                 <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Setup: Before placing forces, assign the Optimized Prototype condition to another friendly ship.</characteristic>
                 <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
-                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Target Lock</characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Lock</characteristic>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew</characteristic>
               </characteristics>
             </profile>
@@ -34635,6 +34760,16 @@
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ea-c89e-a8e7-99d8" type="notInstanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="14c4-e4fd-171d-a0f4" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9a5-48c8-1e4c-d1ae" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2495-077a-f2b7-7fc7" type="max"/>
@@ -35110,6 +35245,49 @@
           </profiles>
           <costs>
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c9a5-48c8-1e4c-d1ae" name="•C-3PO" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3018-ed0b-08ad-5756" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6ed-a76a-7667-fe15" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="14c4-e4fd-171d-a0f4" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c39-6f48-a6b6-2b2f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea61-d04b-d177-3f44" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a61a-5f10-2cf6-0eff" name="•C-3PO" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">While you defend, if you are calculating, you may reroll 1 defense die. After you perform a [calculate] action, gain 1 calculate token.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7">Calculate</characteristic>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Crew</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2a1e-78f8-0576-2e6d" name="Calculate" hidden="false" targetId="b2b4-7333-6f54-b75c" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e443-19fe-8558-4db5" name="Calculate" hidden="false" targetId="bb67-52ff-52c4-80dd" primary="false"/>
+            <categoryLink id="fc8c-3363-434b-29ad" name="Calculate Crew" hidden="false" targetId="e065-e022-1f73-3cd9" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -35736,6 +35914,40 @@
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="9.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="c89f-8831-bcc2-f17a" name="•Ahsoka Tano" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3018-ed0b-08ad-5756" type="notInstanceOf"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a531-0c9c-93e6-0053" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d633-a379-4d9a-c8e9" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fbdf-6a5e-2ca2-2674" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8090-1048-2389-52ff" name="•Ahsoka Tano" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you execute a maneuver, you may spend 1 [force] and choose a friendly ship at range 1-3 in your firing arc. If you do, it may perform a red [focus] action, even while stressed.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10">Force +1^</characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Gunner</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="eb2c-a9bf-662b-1e29" name="Force Crew" hidden="false" targetId="1688-3233-355e-8a95" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="12.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="edc5-1378-fff7-918c" name="Astromech" hidden="false" collective="false" import="true">
@@ -35822,7 +36034,7 @@
           <profiles>
             <profile id="2ed9-8ec4-9257-605e" name="R3 Astromech" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">You can maintain up to 2 locks. Each lock must be on a different object. After you perform a [target lock] action, you may acquire a lock.</characteristic>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">You can maintain up to 2 locks. Each lock must be on a different object. After you perform a [lock] action, you may acquire a lock.</characteristic>
                 <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Astromech</characteristic>
@@ -35915,11 +36127,6 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2c14-04c9-930f-9d9e" type="max"/>
@@ -35975,11 +36182,6 @@
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6412-4688-9ef2-304a" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -36355,6 +36557,40 @@
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="6.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ba56-e531-fca1-d88c" name="•C1-10P" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3018-ed0b-08ad-5756" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e92-ceb4-573a-f241" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e06-5ffd-8769-b83e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3e8e-6d9d-dab7-d59b" name="•C1-10P" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">Setup: Equip this side faceup. After you execute a maneuver, you may spend 1 [charge] to perform a red [evade] action, even while stressed. During the End Phase, if this card has 0 active [charge], flip it.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10">2</characteristic>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Astromech</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="399f-64b5-0443-0022" name="•C1-10P (Erratic)" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you execute a maneuver, you must choose a ship at range 0-1. It gains 1 jam token.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Astromech</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="7.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="6355-fe79-1115-80dd" name="Turret" hidden="false" collective="false" import="true">
@@ -36363,13 +36599,6 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="c785-d362-52a5-1ea5" name="Dorsal Turret" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cca-7220-e7ce-53b5" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6353-936f-6a9f-0ead" type="max"/>
           </constraints>
@@ -36455,7 +36684,7 @@
           <profiles>
             <profile id="53fc-65ce-3c86-620d" name="Instinctive Aim" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">When you perform a special attack, you may spend 1 [force] to ignore the [focus] or [target lock] requirement.</characteristic>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">When you perform a special attack, you may spend 1 [force] to ignore the [focus] or [lock] requirement.</characteristic>
                 <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Force Power</characteristic>
@@ -36666,6 +36895,71 @@
             <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="fd76-ddad-44e5-fd2e" name="Foresight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc43-6379-42dd-5f0f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7d26-ba3f-f4d3-86c0" name="Foresight" hidden="false" typeId="95ad-ef6c-3536-4e49" typeName="2.1 Special Weapon">
+              <characteristics>
+                <characteristic name="Attack" typeId="bbc2-9872-fd7c-b163">2 (bullseye)</characteristic>
+                <characteristic name="Range" typeId="b7c3-ab68-8bcb-ac37">1-3 (ordnance)</characteristic>
+                <characteristic name="Charge Limit" typeId="706d-2b69-b3c5-1714"/>
+                <characteristic name="Ability" typeId="3b3c-cb86-a5aa-3ad5">After an enemy ship executes a maneuver, you may spend 1 [force] to perform this attack against it as a bonus action. Attack: You may change 1 [focus] result to a [hit] result; your dice cannot be modified otherwise.</characteristic>
+                <characteristic name="Action Icons" typeId="7628-5bf1-91f5-5a52"/>
+                <characteristic name="Type" typeId="7769-7488-8779-032b">Force Power</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="756b-c49a-31af-b5dc" name="Precognitive Reflexes" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-dfb8-49b7-0a90" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="4.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="569e-8ede-e3d4-f5e2" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="7.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4fc-7366-8210-2b00" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="10.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ebe-13eb-199b-2167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f063-1033-6a55-7413" value="13.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89a2-5bee-48ed-5672" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6e4-1581-67fd-2696" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2b22-1b9a-914b-aa8f" name="Precognitive Reflexes" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">After you reveal your dial, you may spend 1 [force] to perform a [barrel roll] or [boost] action. Then, if you performed an action you do not have on your action bar, gain 1 strain token. If you do, you cannot perform another action during your activation.</characteristic>
+                <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
+                <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
+                <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Force Power</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="f063-1033-6a55-7413" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="0a21-17aa-1060-e5b9" name="Tech" hidden="false" collective="false" import="true">
@@ -36811,7 +37105,7 @@
           <profiles>
             <profile id="cf13-713c-bfa5-adfa" name="Targeting Synchronizer" hidden="false" typeId="a1d8-d652-e94f-ba38" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">While a friendly ship at range 1-2 performs an attack against a target you have locked that ship ignores the [target lock] attack requirement.</characteristic>
+                <characteristic name="Ability" typeId="8b07-956f-ab4d-3bed">While a friendly ship at range 1-2 performs an attack against a target you have locked that ship ignores the [lock] attack requirement.</characteristic>
                 <characteristic name="Charges" typeId="d449-596d-5f95-dc10"/>
                 <characteristic name="Action Icons" typeId="505c-333b-76d2-2ea7"/>
                 <characteristic name="Type" typeId="bc82-6ec1-e1c4-b9d6">Tech</characteristic>
@@ -37066,7 +37360,7 @@
     <rule id="648b-3911-c658-1187" name="Evade" hidden="false"/>
     <rule id="b220-a4a5-90b0-4a9b" name="Focus" hidden="false"/>
     <rule id="935c-e597-0c2a-d8b0" name="Focus &gt; Barrel Roll (Red)" hidden="false"/>
-    <rule id="08ba-9d52-c38b-9b95" name="Target Lock" hidden="false"/>
+    <rule id="08ba-9d52-c38b-9b95" name="Lock" hidden="false"/>
     <rule id="8a5d-669b-aa2e-f937" name="Reload" hidden="false"/>
     <rule id="0083-2207-8126-d059" name="SLAM" hidden="false"/>
     <rule id="8f44-f577-2cab-d926" name="Barrel Roll (Red)" hidden="false"/>
@@ -37079,22 +37373,22 @@
     <rule id="7571-901b-18c2-bd4c" name="Boost &gt; Focus (Red)" hidden="false"/>
     <rule id="1dc0-afcd-e349-968f" name="Reinforce (Red)" hidden="false"/>
     <rule id="f743-fb8c-c50c-9b98" name="Jam" hidden="false"/>
-    <rule id="38d2-76ac-126b-017f" name="Barrel Roll &gt; Target Lock (Red)" hidden="false"/>
+    <rule id="38d2-76ac-126b-017f" name="Barrel Roll &gt; Lock (Red)" hidden="false"/>
     <rule id="6f76-9dfb-e4ee-3434" name="Reinforce" hidden="false"/>
     <rule id="af15-d9ff-02ca-5c76" name="Barrel Roll &gt; Evade (Red)" hidden="false"/>
     <rule id="c386-40f1-6234-62d8" name="Coordinate" hidden="false"/>
     <rule id="791f-991e-9549-7f22" name="Cloak" hidden="false"/>
-    <rule id="4799-e3af-8d75-8f4b" name="Boost &gt; Target Lock (Red)" hidden="false"/>
+    <rule id="4799-e3af-8d75-8f4b" name="Boost &gt; Lock (Red)" hidden="false"/>
     <rule id="8770-0a7f-7c43-322c" name="Evade (Red)" hidden="false"/>
     <rule id="11ef-e662-9a2f-d8d8" name="Jam (Red)" hidden="false"/>
     <rule id="85ec-3121-3d17-021b" name="Focus &gt; Rotate (Red)" hidden="false"/>
-    <rule id="e5b3-cc0c-ac37-623a" name="Target Lock &gt; Rotate (Red)" hidden="false"/>
+    <rule id="e5b3-cc0c-ac37-623a" name="Lock &gt; Rotate (Red)" hidden="false"/>
     <rule id="9003-43ab-592a-f410" name="Barrel Roll &gt; Calculate (Red)" hidden="false"/>
     <rule id="7251-da0e-93ad-125f" name="Boost &gt; Calculate (Red)" hidden="false"/>
-    <rule id="afa9-b168-6cf1-fb3e" name="Target Lock (Red)" hidden="false"/>
+    <rule id="afa9-b168-6cf1-fb3e" name="Lock (Red)" hidden="false"/>
     <rule id="2874-77de-8175-cfb4" name="Focus &gt; Rotate" hidden="false"/>
     <rule id="a1d2-f586-b352-2f87" name="Evade &gt; Rotate" hidden="false"/>
-    <rule id="42de-b270-014a-8a85" name="Target Lock &gt; Rotate" hidden="false"/>
+    <rule id="42de-b270-014a-8a85" name="Lock &gt; Rotate" hidden="false"/>
     <rule id="7c4f-5dc4-7818-321b" name="Barrel Roll &gt; Rotate" hidden="false"/>
     <rule id="3623-ace6-befb-4fd8" name="Rotate (Red)" hidden="false"/>
     <rule id="92f0-fcdf-3c2e-5ecd" name="Cloak (Red)" hidden="false"/>
